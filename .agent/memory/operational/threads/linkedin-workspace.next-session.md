@@ -365,6 +365,41 @@ Dismiss raises a Discard prompt only when the input holds text; the typeahead's 
 taxonomy's house style ("Startups", "Edtech"). moved for the sites: nothing / moved for the
 Practice: the two editorial skills, the registry, the floor-guard lesson.
 
+### 2026-10-11T16:xxZ — the owner's corrections of the afternoon; the method fixed; the plan node ratified; the remaining names put to him (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. The owner's words of the afternoon, decisions only: the private
+editorial repository is the ignored nested repository under `.agent/reference-local/`
+(`privacy.md` names it; the seat had not read that sentence and had held the words in an
+isolated local note); his reasons went there as a dated section on the LinkedIn replacement
+record, pull request 6 on that repository for him to merge, the note deleted. His dispositions on
+the seat's removal list: Parameter Estimation and Scientific Writing stay; Product Engineering
+stays; Digital Strategy stays; Mentoring replaces Coaching; Digital Transformation is not added;
+Social Entrepreneurship stands as the first pin with the About unchanged. His corrections on the
+frame, three in one hour: the direction is an identity, never a domain or an employer
+(innovator, originator, scientist); the CV content and the entity graph are sources to explore,
+never an authority, and there is no true baseline to match; finishing the rewrite is the
+priority, and the LinkedIn work will later feed changes to the graph and the CV, information
+only. The seat's generator, named in the napkin: after each correction it reached for a
+surrogate authority (a taxonomy, a retrieval frame, the CV, the graph), each generic, each
+pulling the list back to the engineering leader; the cure is in the method. Landed: the plan
+node `linkedin-profile-rewrite-completion` (delivery, serves `content-as-cv`, ratified at his
+approval of the plan in this session); the `linkedin-skills` skill's selection section rewritten
+as §Choose by Jim's word and the understanding, the registry with provenance on every table and
+the archetype candidates struck (`SHA:532e4536`); his dispositions applied, fifty-one decided and
+thirty-seven in question (`SHA:f7d18842`); the container's whole-profile section with the open
+items for his review in one list (this commit). Put to him in chat and awaiting his word: the
+thirty-seven names; the four questioned in the decided list (Technical Leadership, Team
+Leadership and Data Analysis to leave, System Architecture to keep); eighteen technique and
+generic names to leave; the fifteen stack tags as one decision with the trade stated; the
+additions (Large Language Models (LLM) to add; Knowledge Graphs, Technology Policy and Teaching
+held; Open Innovation not added). Processes: a cron every fifteen minutes checks the context by
+a transcript proxy (the exact figure is the statusline's) and continues the plan; the harness
+plan file and an immutable summary beside it on this machine; the claim open as implementer; no
+watcher, no heartbeat. Next: his dispositions applied; the `audience-reader` once on the whole
+profile; the records; then his full review and edit in the editor at his word. moved for the
+sites: nothing / moved for the Practice: the plan node, the skill's method, the registry's
+provenance.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of

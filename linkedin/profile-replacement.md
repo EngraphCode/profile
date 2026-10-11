@@ -23,6 +23,54 @@ edits the copy in the local editor (`pnpm --filter linkedin editor`; the README'
 whose rendering reports each field's count against its believed limit and shades the 200 and 300
 character folds; his edits land in `profile.review.md`, never in the source.
 
+## The profile as one system, and what is open for Jim's review
+
+The headline's anchors recur through the profile in natural context, never as the same sentence,
+and the Skills say them in LinkedIn's nouns:
+
+- **Innovator**: the About's plugin and Practice paragraphs; the Principal card; Projects. Skills:
+  Social Entrepreneurship, Creativity and Innovation, Social Innovation, Research and Development
+  (R&D), Prototyping, Emerging Technologies, Startups, Open-Source Development.
+- **Engineer**: the rebuild and the plugin's build on the Oak cards; the earlier cards. Skills:
+  Software Engineering, Software Development, Web Applications, JavaScript, TypeScript, C,
+  Platform Engineering, Product Engineering, Developer Experience, Model Context Protocol (MCP),
+  AI Agents, Generative AI, Responsible AI.
+- **Scientist**: the About's physics paragraph; the PhD card; Education; Publications. Skills:
+  Scientific Research, Physics, Astrophysics, Cosmology, Computational Physics, Statistical
+  Modeling, Parameter Estimation, Scientific Writing, Science Communication, Public Speaking.
+- **Making sense of the unknown**: the About's first line; Obaith; the Passport Office. Skills:
+  Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
+- **Shaping strategy and systems**: "I hold Oak's engineering strategy" and the rebuild on the
+  Principal card. Skills: Strategy, Product Strategy, Digital Strategy, Technology Leadership,
+  System Architecture, Open Data, Open Standards, Public Sector, Digital Government, Edtech,
+  Social Impact, Leadership, Mentoring, Psychological Safety.
+
+The three pins are the identity a scanner reads and the only skills LinkedIn exports with him:
+Social Entrepreneurship (the plugin as public-good origination, shown by the Principal card and
+Projects), Systems Thinking (the method, shown by the About), Artificial Intelligence (AI) (the
+frontier, shown by the plugin). Jim is the authority on every name; the method is the
+`linkedin-skills` skill's §Choose by Jim's word and the understanding.
+
+Open for Jim's full review and edit, in one list (11 October 2026, afternoon):
+
+1. The About: the fold proposal (in chat, not applied); "England's official curriculum body"
+   against "arm's-length body of the Department for Education"; a sentence that shows a decision
+   above the engineering function, if one exists; "since 2020" as arrival or strategy.
+2. The Oak cards: "meant no child missed out on education" (his phrase, the editor's objection
+   beside it); the gloss of the Open Curriculum Ecosystem for a reader who has never met it;
+   decide or recommend on the rebuild.
+3. The earlier entries' facts: Code Science's dates and clients; Obaith's title, dates and
+   pattern; "won multiple awards"; the one-in-ten finding's attribution; the Firefox OS app; the
+   plugin project's start year; Startups is shown only by the Medicspot card.
+4. The new sections' calls: the top-card industry (read at application); the banner; pronouns;
+   the Portsmouth school field; the two 2016 certificates proposed for removal; the volunteering
+   cause field; the Institute of Physics grade.
+5. Skills: the thirty-seven names still in question, the four questioned in the decided list and
+   the additions, put to him as one draft on 11 October; the registry carries each.
+6. Recommendations: who to ask.
+7. Settings, at application: Open to Work off; profile-update sharing off during editing, one
+   notification at the end.
+
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
 The copy: [`profile.md` § Headline](profile.md#headline).
