@@ -147,7 +147,11 @@ the owner should see the team delivering, not the Director reporting.
   order; Dependabot PRs count and a seat lands each green one at its size turn; the word "[the
   owner's local-only wording]" stays out of the repository for now and reads "Student Support
   Experiments".
-- The WIP limit (owner, 2026-09-26 19:2xZ, verbatim summary: "Each repo is allowed one
+- The WIP limit. Superseded 2026-10-02 by the owner's per-estate word, carried verbatim by
+  `pr-lifecycle` §Phase 7: one coordination and one in-progress feature/fix pull request per
+  estate, counting open pull requests; a pull request held at its door for the owner's reading
+  leaves the slot free (the Director's ruling of 2026-10-02 under delegation). The reading below
+  is the history it replaced. (Owner, 2026-09-26 19:2xZ, verbatim summary: "Each repo is allowed one
   coordination PR"; "The total number of allowed PRs not including coordination PRs is the number
   of implementer agents, in this case three"; "We always strive for all PRs to be merged"). The
   count is read across both estates together; external PRs (fork syncs, Dependabot, CV content)

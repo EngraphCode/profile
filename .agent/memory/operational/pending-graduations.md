@@ -116,6 +116,240 @@ debt register, 2026-07-08).
 
 <!-- New pending-graduation capture appends below as inline-bracket entries. -->
 
+### Drained 2026-10-11 from the Claude per-user memory and the platform plans (Corsair weaves Seabed, 459358)
+
+Each entry carries the owner's words or the lesson as the home will read them, so the graduation
+copies the paragraph in. The memory files keep their text as the audit trail; their index lines
+retire when the home is read back. Every memory file and every home below was read first-hand by
+the seat; an analyst fleet had been sent first and was stopped at the owner's word (the next
+entry).
+
+- **A consolidation is single-agent: the seat reads every piece itself; sub-agents lose the lessons**
+  `[captured: 2026-10-11 | source: the owner's word of 2026-10-11 11:3xZ, verbatim: "Consolidation
+  sessions are single agent only, work via subagents loses all direct understand and therefore
+  loses lessons", after this seat sent seventeen analysts over the notebooks, the stream and the
+  memories | target: .agent/skills/knowledge/consolidate-until-done/SKILL-CANONICAL.md §Approach
+  and step 7's split clause (the seat reads the pieces; no analyst), step 8's fleet line, and
+  .agent/skills/knowledge/consolidate-docs/SKILL-CANONICAL.md §Approach, the same bytes in both
+  estates; .agent/directives/continuity-practice.md runbook step 1 ("or by a set of readers over
+  pieces") in the next context | trigger: the doctrine pull request of this pass for the skills;
+  the context after the next compaction for the directive | size: one paragraph and three
+  sentence cures | status: due]`
+
+  The split of a large surface is for the seat's own reading, one piece at a time with its notes
+  kept as it goes, never a dispatch: a summary of a block is not the block, the understanding that
+  makes a lesson homeable is formed only in the reading, and a seat that reads summaries homes
+  plausible artefacts it has not understood (the anti-pattern §Forbidden names from 2026-06-16;
+  recurred 2026-10-11 under a skill clause that invited it).
+
+- **A fold past ten minutes is a finding; a gate's duration is read from the clock**
+  `[captured: 2026-10-11 | source: the owner's words of 2026-10-10 11:1xZ and the retrospective
+  2026-10-10-why-a-records-fold-takes-half-an-hour-against-the-owners-ten-minutes.md | target:
+  .agent/skills/coordination-fold/SKILL-CANONICAL.md, the ceremony's opening paragraph, the same
+  bytes in both estates | trigger: the doctrine pull request of this pass | size: one paragraph |
+  status: due]`
+
+  The owner, 2026-10-10, verbatim: "an HOUR is a ridiculous typical time for a fold, ridiculous,
+  and a clear signal of a process and engineering failure. 20 minutes would be somewhat excessive,
+  10 minutes would be acceptable. We have a problem with our PR approaches and mechanisms". The
+  retrospective measured the four folds of 320 to 326 at 25.9 to 57.8 minutes wall; a records-only
+  push reaches CI within 2.1 to 3.8 minutes of its commit; the vendor round costs 3.9 to 7.8
+  minutes each and the door's floor was about fourteen minutes before any finding. For the home: a
+  fold past ten minutes is a finding, never read as normal; no ceremony is added to a fold; a
+  gate's duration is never stated from feel, it is read from the commit-to-CI interval or the
+  hook's own clock (the fold-clock command prints it).
+
+- **A DUE fold is never run inside a wrap called at the owner's compaction word**
+  `[captured: 2026-10-11 | source: the owner's correction of 2026-10-09 13:3xZ; the clause landed in
+  this estate's wrap skill lines 76 to 82 and is absent from the sibling's copy | target: the
+  sibling's .agent/skills/wrap/SKILL-CANONICAL.md at the same paragraph, the same bytes | trigger:
+  the doctrine pull request of this pass | size: one paragraph carried | status: due]`
+
+  The owner, verbatim: "I said prepare for compaction, you ran so long the compaction happened on
+  its own, who knows what was lost because you failed to follow my instructions." The wrap is one
+  records commit and one push; the fold is named in the report as the next session's first act.
+
+- **A private instrument gets the basest working version; review depth is proportionate to the audience**
+  `[captured: 2026-10-11 | source: the owner's words of 2026-10-08 on the local LinkedIn editor |
+  target: .agent/skills/cognition/proportionality/SKILL-CANONICAL.md §Domain instances, a
+  wrong-instrument-weight instance, the same bytes in both estates | trigger: the doctrine pull
+  request of this pass | size: one instance paragraph | status: due]`
+
+  The owner, verbatim: "you are building an MVP editing app, which requires the basest ability to
+  be read then changed... and you are applying the a11y requirements of a public service, and thus
+  wasting my time, my money, and your attention." For the home: a tool the owner uses alone on his
+  machine takes the basest working version, one observation, one pull request and no reviewer
+  fleet unless he asks; reviewer and accessibility depth is sized by the audience, a public service
+  gets it and a private instrument does not; when he says a thing is SIMPLE, the measure is what he
+  must attend to, never the estate's doctrine.
+
+- **Review feedback is triaged by risk, cost and value; a spent budget means decide, never a new pull request**
+  `[captured: 2026-10-11 | source: the owner's three words of 2026-10-02 19:4xZ to 20:0xZ | target:
+  .agent/rules/review-feedback-defaults-to-triage.md §Action step 4, the same bytes in both
+  estates | trigger: the doctrine pull request of this pass | size: one paragraph | status: due]`
+
+  Verbatim: "we do not need to pay attention to feedback, we need to triage it and _decide_ what we
+  do with it"; "the point of the PR response budgets is to reduce time spent on PR ceremony. Cutting
+  a new branch and a separate PR does not serve that goal, does it?"; "we deal in risk, cost, value,
+  assessement". For the home: one assessment per finding (risk, cost, value, home) before anything
+  is touched; at budget exhaustion the only moves are absorb into work that already exists or
+  decline with a reason, never a pull request of its own; never cure all, never decline all.
+
+- **A seat's first message states the finish; nothing starts without criteria, sizing and ratified value; the full Cricket suite at seating**
+  `[captured: 2026-10-11 | source: the owner's words of 2026-10-02 14:4xZ and 17:0xZ | target:
+  .agent/skills/start-right-team/SKILL-CANONICAL.md §Goal and
+  .agent/skills/cognition/cricket/SKILL-CANONICAL.md §When to call the panel, the same bytes in
+  both estates | trigger: the doctrine pull request of this pass | size: two short paragraphs |
+  status: due]`
+
+  Verbatim: "you are working on a bounded task, not open ended, we must always understand the goal
+  so that we are able to finish"; "NOTHING should be worked on without clear completion criteria,
+  sizing, and an unambiguous and provable statement of how it provides ratified value. Run a fully
+  Cricket suite". For the homes: every seat, the Director included, states the landing target and
+  the finish condition in its first message, arms processes only for the gates on that path and
+  stops them at the finish; a lane carries its completion criterion, its sizing (files, commits,
+  pushes, hours) and the ratified decision or owner word it serves before it starts, and one that
+  lacks any of the three is routed to the Director with the gap named; the four Cricket legs run
+  together on the seat's plan at seating and after each re-plan.
+
+- **A pull request held at its door for the owner's reading is a review surface, not work in progress**
+  `[captured: 2026-10-11 | source: the Director's ruling of 2026-10-02 under the owner's delegation
+  (the parity ledger, 306 and the sibling's 344) | target:
+  .agent/skills/change-custody/pr-lifecycle/SKILL-CANONICAL.md §Phase 7, the WIP clause beside the
+  owner's 2026-10-02 word, the same bytes in both estates | trigger: the doctrine pull request of
+  this pass | size: two sentences | status: due]`
+
+  A pull request that waits on the owner's reading leaves the estate's one in-progress slot free
+  and the next lane opens beside it; a guard encodes a reading of a rule and is re-read against the
+  current ruling before a seat waits on it.
+
+- **The owner's time guide is a yardstick; the pull requests a plan implies are its cost; twice the guide is a stop to reshape**
+  `[captured: 2026-10-11 | source: the owner's words of 2026-10-02 20:0xZ and 2026-10-03 20:0xZ |
+  target: .agent/skills/planning/plan/SKILL-CANONICAL.md, the sizing paragraph that carries the
+  2026-10-02 bound, the same bytes in both estates | trigger: the doctrine pull request of this
+  pass | size: one paragraph | status: due]`
+
+  Verbatim: "Slow and steady is better than fast and wrong every time. The two hour goal is a
+  yarstick not a deadline, quality matters far more than speed, esimate remaining time as you go,
+  and if it looks like it is going to hit four hours there may be an issue, apply all appropriate
+  planning and cognitive skills"; "Now you are telling me that we need all of today and ten
+  straight hours tomorrow. And I am telling you, that means we are doing it wrong ... question
+  your framing and assumptions." For the home: the guide is a yardstick, not a deadline; the
+  remaining time is re-estimated at every boundary and written on the node; an estimate past twice
+  the guide is a stop to reshape, never a re-size, because the cause is shape, not speed; when two
+  outputs must be the same bytes, one producer and cmp, never two authors; a report is sunk at
+  authoring and findings on it are rows for one closing revision; a DRIFTING Cricket changes the
+  next hour or is answered in writing.
+
+- **A split from a reduced Cricket suite runs the remaining legs first; a surviving question travels by push**
+  `[captured: 2026-10-11 | source: the owner's word of 2026-10-04 | target:
+  .agent/skills/cognition/cricket/SKILL-CANONICAL.md §Adjudicate the panel, before the split-panel
+  bullet, the same bytes in both estates | trigger: the doctrine pull request of this pass | size:
+  three sentences | status: due]`
+
+  Verbatim: "when we run a reduced Cricket suite and they give opposite results, follow up with
+  the remainder of the full Cricket suite"; "I have enabled push notifications, so next time you
+  have a question it should reach my mobile device." Two legs that agree are a verdict; on any
+  opposite pair the remaining legs run before either is acted on; a question that survives the
+  lenses goes as a card and, when the owner may be away, as a push notification of one line.
+
+- **No edit to a tree while its push gate runs; a shared text passes the sibling's docs check before either push**
+  `[captured: 2026-10-11 | source: the doctrine landing of 2026-10-04 (321 and the sibling's 353) |
+  target: .agent/rules/lint-after-edit.md, the records-push paragraph, the same bytes in both
+  estates; the harness craft (a refused worker Write arrives as the hand-back message; the write
+  hook bans the sibling's organisation slug and one-word name, never the product word) to this
+  estate's .agent/claude-harness-integrations/ | trigger: the doctrine pull request of this pass |
+  size: two sentences and one host note | status: due]`
+
+  An edit to a working tree while its merge-bot push gate runs corrupts the gate's read; a validator
+  only one estate runs refuses the shared text there alone, so the applied bytes pass the sibling's
+  check:docs before either estate pushes.
+
+- **A carry is proved by git ls-files and check-ignore, never by a green local gate; knip's exit, not its hint count**
+  `[captured: 2026-10-11 | source: the code landing of 2026-10-05 (a bare build ignore line swallowed
+  a carried directory; the sibling's gate without its browser build; knip hints as errors in one
+  estate only) | target: .agent/reference/shell-and-tooling-gotchas.md beside the check-ignore
+  entry, the same bytes in both estates | trigger: the doctrine pull request of this pass | size:
+  one entry | status: due]`
+
+  After copying a directory between estates, git ls-files on it in the receiving tree and git
+  check-ignore -v on anything missing, before the commit; a sibling's gate that needs a browser
+  takes one playwright install per Playwright version; knip's exit is the verdict and its hint
+  count is information, the hint policy difference between the estates named as a family drift.
+
+- **A running gate blocks tracked edits, never a new file; a decision lands in its permanent home at occurrence**
+  `[captured: 2026-10-11 | source: the owner's word of 2026-10-08 ("comms events are not considered
+  durable, they are ephemeral, that is why we created editorial decision records for this repo") |
+  target: .agent/rules/permanent-doc-is-the-consolidation-record.md §The durability hierarchy, one
+  sentence, the same bytes in both estates | trigger: the doctrine pull request of this pass |
+  size: one sentence | status: due]`
+
+  When a decision arrives while a fold or gate holds the tree, it is written into its permanent
+  home as a new file at once, linted so the running gate passes over it, and committed after the
+  successor cut; the stream carries the pointer and is never the home.
+
+- **The owner's chat answers are facts supplied to the seat, never copy**
+  `[captured: 2026-10-11 | source: the owner's correction of 2026-10-10 ("I wrote them for you, I
+  did not write them for the audience of linkedin") | target:
+  .agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md §Gotchas (this estate only; the
+  editorial skills are estate-specific) | trigger: the doctrine pull request of this pass | size:
+  one gotcha | status: due]`
+
+  Extract the facts, write the reader's sentence in the surface's register, run the readers; his
+  words are quoted only where he wrote them as copy.
+
+- **Finish by doing the work, never by reframing; a reporting duty is one message, never a gate**
+  `[captured: 2026-10-11 | source: the owner's words of 2026-10-03 ("At every turn you seem to be
+  inventing complexity instead of getting on with a simple job"; "you prioritise finishing the
+  work by doing the work, and I will try to do better, and we both ask each other questions") |
+  target: .agent/directives/user-collaboration.md §Scope Discipline, the same bytes in both
+  estates | trigger: the context after the next compaction, under the directive-file budget |
+  size: one paragraph | status: due]`
+
+  A reporting duty is one message, never a wait; when a finish looks large, size it and start the
+  smallest piece rather than move the boundary; analysis and framing carry no review risk and
+  landing diffs does, which is why a seat drifts to them.
+
+- **The cure is the action that stops recurrence, never the one that removes the symptom**
+  `[captured: 2026-10-11 | source: the owner's word of 2026-10-07 | target:
+  .agent/directives/principles.md §Code Quality, beside "Every issue earns a check", the same bytes
+  in both estates | trigger: the context after the next compaction, under the directive-file
+  budget | size: two sentences | status: due]`
+
+  Verbatim: "the cure is the action that stops it from happening again, not the action the removes
+  the symptom". A cure names the change to the generator (skill, rule, validator, hook) first and
+  alone; symptom removal is hygiene, stated as such.
+
+- **The owner's standing words of 2026-10-03: decide and record; highlight the refusable; a start-right word lifts a freeze; fewer seats**
+  `[captured: 2026-10-11 | source: the owner's four answers of 2026-10-03, verbatim in the
+  per-user memory | target: .agent/directives/user-collaboration.md (decide under the lenses and
+  record, only an unknown high-risk item reaches the owner; surface the sentences he would refuse
+  before a stamp) in the next context; .agent/memory/executive/owner-signal-interpretation.md §Stop
+  Words Are Freezes and .agent/skills/wrap/SKILL-CANONICAL.md's freeze paragraph (a start-right
+  invocation lifts the freeze unless he says it remains) and PDR-117's seat-count note (fewer seats
+  working continuously) in this pass; the same bytes in both estates | trigger: the doctrine pull
+  request of this pass for the executive and skill homes, the next context for the directive |
+  size: four sentences | status: due]`
+
+  Verbatim: "Anything that survives the lenses should be assessed for risk, anything unknown and
+  high-risk should still come to me, but that is a high bar and I do not expect it to happen
+  often"; "agents need to highlight things I might object to, and I need to read questions more
+  carefully"; "As a standing rule, if I invoke a start right skill and do not explicitly say that
+  the freeze remains then the freeze/pause is lifted"; "I agree that fewer seats working
+  continuously might be more effective."
+
+- **Two Turbo facts: the dry run under TURBO_FORCE needs local:rw; the team is named in five places and turbo config is the check**
+  `[captured: 2026-10-11 | source: the platform plan of 2026-09-30 for the remote cache (the probes
+  it recorded first-hand), its thread record's watchlist | target:
+  .agent/reference/shell-and-tooling-gotchas.md, a turbo entry, and docs/engineering/build-system.md
+  §Caching, the same bytes in both estates | trigger: the doctrine pull request of this pass |
+  size: two short entries | status: due]`
+
+  A dry run under TURBO_FORCE=true meets --cache=local:r with "WARNING no caches are enabled" while
+  local:rw is silent, so the pre-commit dry run takes local:rw; the remote cache's team is named
+  in five places (turbo.json, the CI workflow, the keychain token, the repository variable, the
+  hook notice) and turbo config on each host is the check that they agree.
+
 <!-- Register drained to empty at the 2026-09-09 dedicated consolidation (Vanilla lifts
 Nectar): the one row — the triage rule step 4 naming the exhaustion and late-cure transitions
 — graduated to review-feedback-defaults-to-triage §Action step 4 in the same change; home
