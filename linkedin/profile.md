@@ -46,7 +46,7 @@ Status: drafted
 
 Status: drafted (8 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the level and the Practice paragraphs added at Jim's word, awaiting Jim)
 
-I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, and the case for it to senior leadership, engineers and non-engineers alike. Under the Director of Engineering, Principal Engineers and Heads of Engineering sit at one level and split the job: the Head has the budget and the people, through the engineering managers; the strategy, the standard the engineering is held to, and Oak's relationships with the vendors and partners it builds with are mine. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
+I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, the case for it to senior leadership, engineers and non-engineers alike, and Oak's engineering relationships with the vendors and partners it builds with. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
 
 I made the emergency platform safe to change before anything else. When change still got harder and releases slower, I argued that optimising it was the wrong starting point and that Oak should rebuild. Oak did; I stood behind the call and accepted its near-term delivery and reputational risk. Everything Oak has built in the four years since stands on that rebuild.
 
@@ -62,7 +62,7 @@ Zero to one is complete. The plugin has its own cross-discipline product squad n
 
 Status: drafted (10 October 2026, at Jim's word on the consulting years, awaiting Jim)
 
-Oak was becoming a permanent service, one that had served over a million pupils a day at the height of the school closures, and its engineering was growing into teams. I set the engineering strategy through that transition and helped shape the function as it took on its first QA engineer and first engineering manager; the delivery infrastructure, testing practice and developer experience I put in are what made the emergency platform safe to change. As Oak became a permanent public body, an arm's-length body of the Department for Education, the position was formalised as Principal Engineer in June 2022.
+Oak was becoming a permanent service and its engineering was growing into teams. I set the engineering strategy through that transition, helped shape the function as it took on its first QA engineer and first engineering manager, and put in the delivery infrastructure, testing practice and developer experience that made the emergency platform safe to change. As Oak became an arm's-length body of the Department for Education, the position was formalised as Principal Engineer in June 2022.
 
 ### Senior Developer (consulting) · Oak National Academy · Aug 2020 – Dec 2020 · United Kingdom
 

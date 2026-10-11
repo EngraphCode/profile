@@ -83,10 +83,16 @@ the `editor` and `prose-expert` read the new material in parallel, the structura
 as a denial; the current card keeps the arc from four contractors to nine teams and the
 consulting cards own their years), then the `audience-reader` read the whole block. Jim's
 correction of that round, kept: his answers to the seat are not copy; the reader's sentence is
-written from the fact, never pasted from the chat. One number entered the block, Oak's scale
-during the closures (over a million pupils a day at the height), sourced from a colleague's
-public profile and dated to no month, so it sits on the consulting Principal card and not the
-five-month card; Oak's own published figure replaces it if Jim wants it cited. Length is
+written from the fact, never pasted from the chat. One number entered the block that day, Oak's
+scale during the closures from a colleague's public profile, and left it on 11 October as
+borrowed scale; Oak's own published figure returns only at Jim's word. The 11 October step-back
+(Jim: "Step back. Step back more. ... What is this all for?"): the seat's reader brief had cast a
+head hunter for a run-the-org engineering search, and three rounds had cured to that reader's
+objection, an org chart and a reporting line on the current card. EDR-008 fixes the axis every
+reader decides on (origination, sense-making where nothing has a shape yet, strategy and systems
+shaped at scale, breadth) and what the copy never does (argue a title up); the org chart and the
+reporting line left the card, the consulting cards became plain facts, and the readers ran once
+more under a brief built on that axis. Length is
 information, never a target: the editor reports each entry's count against the believed limit
 of 2,000 for a position description, unverified until the live editor (the Principal entry
 stands above it; Jim, 10 October: rounds of editing remain and the count comes down later). If
@@ -127,12 +133,11 @@ Open for Jim, with the draft:
 - "checks and continuous delivery", the two mechanism words of his pre-rebuild movement, are out
   of the entry on the readers' word (mechanism at every reader's altitude); the movement's
   substance stays as "made the emergency platform safe to change before anything else".
-- The level claim, answered by structure on 10 October: the Principal card opens on the strategy
-  he holds and the shape of the function (Principal beside Head of Engineering under the
-  Director of Engineering, the Head with budget and people, the Principal with strategy, the
-  standard and the vendor and partner relationships), so the reader has the reporting line and
-  the scope without a denial of the title; the wording is reusable across surfaces and takes an
-  EDR once it settles.
+- The level claim, settled on 11 October by EDR-008: the reader is never a line-role screen, so
+  the org chart and the reporting line are off the card and the structured data holds them; the
+  level shows in the decisions the card carries (what gets built and what does not, the rebuild
+  call and its cost, the vendor and partner relationships, what others now build on), and the
+  title is a fact carried plainly.
 - "Oak had launched that April" rests on public knowledge of April 2020; "before the plugin was
   more than an SDK, I was building a Practice" and the Senior entry's "the first months had left
   no time for" are the seat's readings of his chronology and the entity graph's role description.

@@ -138,6 +138,41 @@ profile and product code out of scope; the fold's ready-mark rewrites it to the 
 content. moved for the sites: the entity graph's Oak roles and squad count, the CV content's
 squad count / moved for the Practice: nothing.
 
+### 2026-10-11T0x:xxZ — the owner's step-back; EDR-008 fixes the reader's axis; the Oak block at that altitude; the three-layer direction captured (Shrew rides Eventide, 371a2b)
+
+The owner on the 10 October rounds: "Incorrect, and frankly the wording is still clumsy. Step
+back. Step back more. ... What is this all for?", then: not a run-the-org engineering-leader
+profile; one that expresses his innovation and broad interests and capabilities; any route to a
+reader; good cold approaches welcome, irrelevant ones not; "update the editorial skills, rules,
+agents, guidance if needed, and then continue with your rewrite". The diagnosis: the seat's
+audience brief had cast a head hunter for a senior engineering search, and three rounds cured to
+that reader's objection (an org chart and a reporting line on the current card). Landed:
+EDR-008 (the reader's decision: origination, sense-making where nothing has a shape yet,
+strategy and systems shaped at scale, breadth; never a line-role screen; level shows in
+decisions, never argued; no route privileged); `editorial-strategy.md` §Standing audiences item
+1 on that axis; two principles in `editorial-guidance.md`; `write-for-the-reader` §1, §5 and a
+gotcha; the `audience-reader` template names the axis and refuses a line-role brief; adapters
+regenerated, portability and subagents checks green. The Oak block: the org chart and the
+reporting line off the current card (2,549 characters now); the consulting Principal card plain
+facts without the borrowed number; the five-month card unchanged; the About unchanged. The
+`audience-reader` under a brief on the axis: both readers take the conversation; "I hold Oak's
+engineering strategy ... what gets built and what does not" is the sentence that corrects the
+title's prior; the rebuild paragraph the strongest evidence; the one sentence above engineering
+is the curriculum-wherever-teachers-are idea, and the remaining question for both is whether he
+has shaped a problem whose answer was not a system. Reported, not yet acted on: the About and the
+current card tell the same three stories (selective repetition by design; a reader of both skims
+the second), and "Oak's Open Curriculum Ecosystem repository" was opaque to both readers. The
+owner's second direction, "not for right now", the editorial doctrine in three layers (general
+writing practice, the surface class, the author instance, in separate directories and files), is
+the sketch delivery node `editorial-doctrine-in-three-layers` under an owner gate to 2026-11-01.
+Open for the owner: the rebuild's date (which card owns the movement); decide or recommend on
+the rebuild; "meant no child missed out on education" (his phrase, the editor's objection
+beside it); "arm's-length body of the Department for Education" against his "England's official
+curriculum body"; the About's fold proposal (in chat, not applied); a sentence that shows a
+decision above the engineering function, if one exists; what to call the Open Curriculum
+Ecosystem for a reader who has never met it. moved for the sites: nothing / moved for the
+Practice: EDR-008 and the doctrine clauses above; the three-layer sketch.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of

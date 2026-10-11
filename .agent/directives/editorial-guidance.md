@@ -164,6 +164,15 @@ content work.
   inability to commit. The experience sections must provide enough staying-power evidence —
   sustained impact, long-term consequences of decisions, systems that endured — to anchor the
   forward-leaning positioning.
+- **The innovator, not the engineering leader.** The profile expresses Jim's innovation and his
+  breadth of interest and capability: systems thinking, multi-order impact, making sense of
+  problems before their requirements exist, creating the first options, setting direction. It
+  never collapses to "engineering leader" (Jim, 7 and 11 October 2026;
+  [EDR-008](../../docs/editorial/decision-records/008-the-innovator-never-the-engineering-leader.md)).
+- **Level shows, it is never argued.** The job title is a fact and is carried plainly. What was
+  built and what was not, the call made and the cost accepted, what others now build on: these
+  carry the level of operation. An org chart or a reporting line argues a title up, which is
+  justification by another name.
 
 ## Editorial hierarchy
 
