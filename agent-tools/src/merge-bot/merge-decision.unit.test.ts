@@ -39,7 +39,7 @@ describe('the records class at the door', () => {
     if (byClass.kind === 'merge') {
       expect(byClass.ground).toContain('records-class (4 changed paths');
       expect(byClass.ground).toContain('SILENT-WAIT-NO-REVIEWER');
-      expect(byClass.ground).toContain('harvested after the merge');
+      expect(byClass.ground).toContain('no review in progress');
     }
 
     const settled = decideMergeAction({
@@ -266,5 +266,22 @@ describe('the code-class suffix on an empty change set', () => {
       reason:
         'verdict SILENT-WAIT-NO-REVIEWER — only SETTLE-READY merges; a records-class pull request would merge here, but the diff is code-class (no changed path)',
     });
+  });
+});
+
+describe('a review in progress is waited for, whatever the class', () => {
+  it('refuses WAITING-REVIEW-RUN-LIVE for a records-class pull request without a records suffix', () => {
+    const decision = decideMergeAction({
+      verdict: { state: 'WAITING-REVIEW-RUN-LIVE', evidence: [] },
+      allowMergeCommit: true,
+      expectedDeclared: true,
+      changeClass: { kind: 'records', pathCount: 2 },
+    });
+
+    expect(decision).toStrictEqual({
+      kind: 'refuse',
+      reason: 'verdict WAITING-REVIEW-RUN-LIVE — only SETTLE-READY merges',
+    });
+    expect(verdictMergesRecordsClass('WAITING-REVIEW-RUN-LIVE')).toBe(false);
   });
 });

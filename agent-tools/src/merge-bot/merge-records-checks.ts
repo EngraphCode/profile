@@ -18,11 +18,14 @@ import type { GithubApiFetch } from './mint-installation-token.js';
  * The fold skill's full condition is exactly the contexts the base branch's
  * rules require, read at run time, and no other name: for a records-class
  * reading this module sets aside every PENDING check the rules do not
- * require and recomputes the verdict. A FAILED check of any name still
- * holds (a secret scan or a dependency review is information the merge must
- * not outrun), and a required context the tip has not reported yet is
- * pending by construction. The code class is untouched: every live check
- * binds it as before. The reads here (the pull request's base, the branch's
+ * require and recomputes the verdict — EXCEPT an expected reviewer's own
+ * run: that is a review in progress, and the owner's word of 2026-10-11 is
+ * "if github says a review is in progress, we don't merge, we wait for that
+ * review", so it holds CHECKS-RUNNING until it completes and the review
+ * lands. A FAILED check of any name still holds (a secret scan or a
+ * dependency review is information the merge must not outrun), and a
+ * required context the tip has not reported yet is pending by construction.
+ * The code class is untouched: every live check binds it as before. The reads here (the pull request's base, the branch's
  * rules, then the files only when the narrowing would move the verdict) run
  * once per poll on CHECKS-RUNNING; a failure leaves the verdict as read with
  * the reason in its evidence, never ending the poll.
@@ -42,16 +45,25 @@ export interface NarrowedReading {
   readonly reading: PrStateReading;
   /** The pending, non-required checks set aside, by name. */
   readonly setAside: readonly string[];
+  /** Pending runs that are an expected reviewer's own: a review in progress, kept as a hold. */
+  readonly reviewsInProgress: readonly string[];
 }
 
-/** The reading with pending non-required checks set aside and absent required contexts pending. */
+/** A reviewer login as GitHub spells it on a check-run: lower-cased, the `[bot]` suffix dropped. */
+function reviewerKey(name: string): string {
+  return name.toLowerCase().replace(/\[bot\]$/u, '');
+}
+
+/** The reading with pending non-required checks set aside, a reviewer's live run kept, and absent required contexts pending. */
 export function narrowToRequired(
   reading: PrStateReading,
   required: readonly string[],
 ): NarrowedReading {
   const requiredSet = new Set(required);
+  const reviewers = new Set(reading.expectedReviewers.map(reviewerKey));
+  const isReviewRun = (name: string): boolean => reviewers.has(reviewerKey(name));
   const kept = reading.namedChecks.filter(
-    (check) => check.bucket !== 'pending' || requiredSet.has(check.name),
+    (check) => check.bucket !== 'pending' || requiredSet.has(check.name) || isReviewRun(check.name),
   );
   const reported = new Set(reading.namedChecks.map((check) => check.name));
   const absent: readonly NamedCheck[] = required
@@ -59,12 +71,19 @@ export function narrowToRequired(
     .map((name) => ({ name, bucket: 'pending' }));
   const namedChecks = [...kept, ...absent];
   const setAside = reading.namedChecks
-    .filter((check) => check.bucket === 'pending' && !requiredSet.has(check.name))
+    .filter(
+      (check) =>
+        check.bucket === 'pending' && !requiredSet.has(check.name) && !isReviewRun(check.name),
+    )
+    .map((check) => check.name);
+  const reviewsInProgress = reading.namedChecks
+    .filter((check) => check.bucket === 'pending' && isReviewRun(check.name))
     .map((check) => check.name);
   const count = (bucket: NamedCheck['bucket']): number =>
     namedChecks.filter((check) => check.bucket === bucket).length;
   return {
     setAside,
+    reviewsInProgress,
     reading: {
       ...reading,
       namedChecks,
@@ -117,6 +136,12 @@ async function narrowedVerdict(
     };
   }
   const narrowed = narrowToRequired(input.reading, required.value);
+  if (narrowed.reviewsInProgress.length > 0) {
+    const held =
+      `records-class: a review is in progress (${narrowed.reviewsInProgress.join(', ')}); ` +
+      "the merge waits for it (the owner's word of 2026-10-11), never for a timer";
+    return { verdict: withNote(verdict, held), moved: false };
+  }
   if (required.value.length === 0 || narrowed.setAside.length === 0) {
     return { verdict, moved: false };
   }

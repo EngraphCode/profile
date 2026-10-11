@@ -443,22 +443,31 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
     return { fetchImpl, calls };
   }
 
-  /** The refusal's verdict state, or undefined when the outcome was not a refusal. */
   const refusedState = (
     outcome: Awaited<ReturnType<typeof runMergeExecution>>,
   ): string | undefined =>
     outcome.ok && outcome.value.kind === 'refused' ? outcome.value.verdictState : undefined;
-  /** The refusal's evidence lines, or none when the outcome was not a refusal. */
   const refusedEvidence = (
     outcome: Awaited<ReturnType<typeof runMergeExecution>>,
   ): readonly string[] =>
     outcome.ok && outcome.value.kind === 'refused' ? outcome.value.evidence : [];
 
-  /** The bot's own pull request (the ruling's class), the vendor leg owed: no review binds the tip and checks went green two minutes ago. */
   const owedLegReading = (): PrStateReading =>
     makeReading({ author: 'app/acme-bot', reviews: [], checksGreenAt: '2026-08-06T08:58:00Z' });
 
-  /** The real fold shape: required checks green, the vendor's own review run still pending. */
+  const deploymentPendingReading = (): PrStateReading =>
+    makeReading({
+      author: 'app/acme-bot',
+      reviews: [],
+      checksGreenAt: null,
+      namedChecks: [
+        { name: 'run-quality-gates', bucket: 'passed' },
+        { name: 'CodeQL', bucket: 'passed' },
+        { name: 'Vercel Preview Comments', bucket: 'pending' },
+      ],
+      checks: { total: 3, passed: 2, failed: 0, pending: 1 },
+    });
+
   const vendorRunPendingReading = (): PrStateReading =>
     makeReading({
       author: 'app/acme-bot',
@@ -495,38 +504,45 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
     );
   });
 
-  it("merges a records fold whose only pending check is the vendor's own review run, naming what was set aside", async () => {
+  it("waits while the vendor's own review run is in progress: no merge, no files read, the hold named", async () => {
     const { fetchImpl, calls } = makeClassPort(recordsFiles);
 
     const outcome = await runMergeExecution(makeInput(vendorRunPendingReading(), fetchImpl));
+
+    expect(refusedState(outcome)).toBe('CHECKS-RUNNING');
+    expect(
+      refusedEvidence(outcome).some((line) =>
+        line.startsWith('records-class: a review is in progress (copilot-pull-request-reviewer)'),
+      ),
+    ).toBe(true);
+    expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
+    expect(calls.some((call) => call.url.includes('/pulls/42/files'))).toBe(false);
+  });
+
+  it('merges a records fold whose only pending check is a deployment the rules do not require, naming what was set aside', async () => {
+    const { fetchImpl, calls } = makeClassPort(recordsFiles);
+
+    const outcome = await runMergeExecution(makeInput(deploymentPendingReading(), fetchImpl));
 
     expect(outcome.ok).toBe(true);
     if (outcome.ok) {
       expect(outcome.value.kind).toBe('merged');
       expect(
-        outcome.value.evidence.some((line) =>
-          line.includes('set aside (copilot-pull-request-reviewer)'),
-        ),
+        outcome.value.evidence.some((line) => line.includes('set aside (Vercel Preview Comments)')),
       ).toBe(true);
     }
     expect(calls.some((call) => call.url.includes('/rules/branches/main'))).toBe(true);
   });
 
-  it('keeps a code diff at the door on the same pending vendor run and sends no merge', async () => {
+  it('keeps a code diff at the door on a pending deployment check and names the code paths', async () => {
     const { fetchImpl, calls } = makeClassPort([
       { filename: '.agent/memory/active/napkin.md' },
       { filename: 'agent-tools/src/merge-bot/merge.ts' },
     ]);
 
-    const outcome = await runMergeExecution(makeInput(vendorRunPendingReading(), fetchImpl));
+    const outcome = await runMergeExecution(makeInput(deploymentPendingReading(), fetchImpl));
 
-    expect(outcome.ok).toBe(true);
-    if (outcome.ok) {
-      expect(outcome.value.kind).toBe('refused');
-      if (outcome.value.kind === 'refused') {
-        expect(outcome.value.verdictState).toBe('CHECKS-RUNNING');
-      }
-    }
+    expect(refusedState(outcome)).toBe('CHECKS-RUNNING');
     expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
     expect(calls.some((call) => call.url.includes('/pulls/42/files'))).toBe(true);
   });
@@ -594,8 +610,8 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
     const rules = makeClassPort(recordsFiles, { failing: '/rules/branches/' });
     const files = makeClassPort(recordsFiles, { failing: '/pulls/42/files' });
 
-    const onRules = await runMergeExecution(makeInput(vendorRunPendingReading(), rules.fetchImpl));
-    const onFiles = await runMergeExecution(makeInput(vendorRunPendingReading(), files.fetchImpl));
+    const onRules = await runMergeExecution(makeInput(deploymentPendingReading(), rules.fetchImpl));
+    const onFiles = await runMergeExecution(makeInput(deploymentPendingReading(), files.fetchImpl));
 
     for (const outcome of [onRules, onFiles]) {
       expect(outcome.ok).toBe(true);
@@ -627,7 +643,7 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
     ];
     const { fetchImpl, calls } = makeClassPort(recordsFiles, { rulesPages: [filler, secondPage] });
 
-    const outcome = await runMergeExecution(makeInput(vendorRunPendingReading(), fetchImpl));
+    const outcome = await runMergeExecution(makeInput(deploymentPendingReading(), fetchImpl));
 
     expect(outcome.ok && outcome.value.kind).toBe('merged');
     expect(calls.filter((call) => call.url.includes('/rules/branches/main'))).toHaveLength(2);
