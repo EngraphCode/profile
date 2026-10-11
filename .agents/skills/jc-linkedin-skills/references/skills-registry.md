@@ -21,8 +21,10 @@ known of it. The copy's home is `linkedin/profile.md` §Skills; the decisions ar
   missing proves nothing.
 - **Typeahead:** the profile's Add skill dropdown, the arbiter. Checked on 2026-10-11 in Chrome
   with Jim present, in the Add skill dialog, nothing saved: the column holds the dropdown's exact
-  string, "live" for a name already on the profile and not typed, "confirmed by Jim" for a name
-  he checked himself the same day, or "at the counter" for a name checked at application.
+  string, "live" for a name already on the profile and not typed, or "confirmed by Jim" for a
+  name he checked himself the same day. Every name on the canonical list is confirmed: the last
+  four (Software Engineering Practices, Web Technologies, Parameter Estimation, Scientific
+  Writing) in the evening of 2026-10-11, the same dialog, nothing saved.
 - **Live endorsements:** read on 2026-10-11 in Chrome from the skills detail page (self view, Jim
   present): twelve skills carry an endorsement line, the other fifty-one show none, and the
   display order is not endorsement order. The counts are in the endorsements section below.
@@ -59,7 +61,7 @@ carries no meaning.
 | 18 | System Architecture | live; Jim kept it | 11 | tail | found | live |  |
 | 19 | Platform Engineering | seat, 11 Oct; Jim kept it | — | tail | missing | Platform Engineering |  |
 | 20 | Product Engineering | Jim, 11 Oct | — | tail | found | Product Engineering |  |
-| 21 | Software Engineering Practices | Jim, 11 Oct, evening | — | tail | found | at the counter | The taxonomy's noun for the Practice; with Software Development, in place of Software Engineering. |
+| 21 | Software Engineering Practices | Jim, 11 Oct, evening | — | tail | found | Software Engineering Practices | The taxonomy's noun for the Practice; with Software Development, in place of Software Engineering. |
 | 22 | Open Data | seat, 11 Oct; Jim kept it | — | tail | found | Open Data |  |
 | 23 | Open Standards | live; Jim kept it | 16 | tail | found | live |  |
 | 24 | Open-Source Software | live; Jim kept it | 17 | tail | found as "Open Source Software" | Open-Source Software |  |
@@ -71,14 +73,14 @@ carries no meaning.
 | 30 | Cosmology | Jim, 11 Oct | — | tail | found | Cosmology |  |
 | 31 | Computational Physics | Jim, 11 Oct | — | tail | found | Computational Physics | His cluster; the seat's string, typeahead-confirmed. |
 | 32 | Statistical Modeling | Jim, 11 Oct | — | tail | found | Statistical Modeling | His cluster; the US spelling is the standardised one. |
-| 33 | Parameter Estimation | Jim, 11 Oct | — | tail | found | at the counter | His cluster. |
+| 33 | Parameter Estimation | Jim, 11 Oct | — | tail | found | Parameter Estimation | His cluster. |
 | 34 | Physics | live; Jim kept it | 39 | tail | found | Physics | 3 endorsements. |
-| 35 | Scientific Writing | Jim, 11 Oct | 41 | tail | found | at the counter |  |
+| 35 | Scientific Writing | Jim, 11 Oct | 41 | tail | found | Scientific Writing |  |
 | 36 | Science Communication | Jim, 11 Oct | — | tail | not checked | Science Communication |  |
 | 37 | Public Speaking | Jim, 11 Oct | — | tail | not checked | Public Speaking |  |
 | 38 | Mentoring | Jim, 11 Oct | — | tail | found | Mentoring | In place of Coaching. |
 | 39 | Software Development | Jim, 11 Oct | 31 | tail | found | Software Development | 12 endorsements, kept for them at his word. |
-| 40 | Web Technologies | Jim, 11 Oct, evening | — | tail | found | at the counter | In place of Web Applications. |
+| 40 | Web Technologies | Jim, 11 Oct, evening | — | tail | found | Web Technologies | In place of Web Applications. |
 | 41 | JavaScript | Jim, 11 Oct | 29 | tail | found | live | At least 4 endorsements, kept for them at his word. |
 | 42 | TypeScript | live; Jim kept it | 23 | tail | found | live | The one language of the present. |
 | 43 | C | Jim, 11 Oct | 50 | tail | found | live | 2 endorsements; kept at his word. |
@@ -215,6 +217,31 @@ learning AI technical skills, so the broad tag classifies without distinguishing
 the broad tag is pin 2 at Jim's word, naming the field the headline does not, and the five
 specific names in the tail (AI Agents, Model Context Protocol (MCP), Generative AI, Large
 Language Models (LLM), Responsible AI) with the plugin on the page do the distinguishing.
+
+## Candidates from the gap analysis, 2026-10-11, evening, not proposed
+
+Read at the typeahead the same evening at Jim's request ("see what we are missing"), each with
+the seat's one sentence of what it would say about him and the card that shows it; his word
+decides. The 2018 crawl's answer is in brackets where it differs from the typeahead.
+
+| Skill | Typeahead 2026-10-11 | What it says, and where the page shows it |
+| --- | --- | --- |
+| Strategic Partnerships | confirmed (crawl missing; also Partnerships) | He holds Oak's engineering relationships with vendors and partners; the Principal card's first paragraph. |
+| Citizen Science | confirmed | The Galaxy Zoo work on the PhD card and the FutureLearn course; the scientist who works with the public. |
+| Entrepreneurship | confirmed (Social Entrepreneurship beside it) | The three start-ups and Obaith; the page shows Medicspot and Obaith. |
+| Design Thinking | confirmed | A method noun; nothing on the page names it. |
+| Public Policy | confirmed | Oak as an arm's-length body of the Department for Education; the page shows the body, not policy work. |
+| Systems Design | confirmed | The rebuild and the platform groups; beside System Architecture it says the same thing. |
+| Stakeholder Engagement | confirmed | "The case for it to senior leadership, engineers and non-engineers alike"; the Principal card. |
+| Organizational Design | confirmed | The Team Topologies design for the cross-functional teams; the Principal card. |
+| Public Engagement | confirmed (Public Speaking beside it) | The tour guiding and tutoring, not on the page. |
+| Digital Public Goods | confirmed (crawl missing) | Oak's open curriculum as public digital infrastructure; the About's plugin paragraph. |
+| Civic Technology | confirmed (crawl missing) | The sector noun for Oak's kind of service; the About. |
+| Public Interest Technology | confirmed (crawl missing) | The same, in the term funders use; the About. |
+| Conference Speaking | confirmed | The conference talks, not on the page. |
+| Thought Leadership | confirmed | A self-description; nothing on the page shows it. |
+| Scientific Computing | confirmed | The model fitting on the PhD card; beside Computational Physics it says the same thing. |
+| Change Leadership | not standardised; the dropdown offers Change Management | The rebuild argued and carried; a process noun in the taxonomy's form. |
 
 ## Alternative names confirmed at the typeahead, not proposed
 

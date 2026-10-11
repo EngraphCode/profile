@@ -450,8 +450,12 @@ container's §Skills, last paragraph. Applied in this block's commit: `linkedin/
 provenance, the in-question section folded into the removed table with endorsements and the time
 of each removal, the held names and the alternatives trimmed), the container's one-system
 section, its open item 5 and §Skills; the review copy identical; validator green; adapters
-regenerated. Open: whether the readers run once more on the final list (every pin changed; the
-plan ran them once); the history question on `SHA:ecceacc1`; the private repository's pull
+regenerated; pushed, tip `SHA:5a848254`. The same hour, in the Add skill dialog with him present
+and nothing saved: the four names the morning had not typed (Software Engineering Practices, Web
+Technologies, Parameter Estimation, Scientific Writing) are the taxonomy's own strings, so every
+name on the list is confirmed; sixteen gap-analysis candidates read at his request and recorded
+in the registry, not proposed (Change Leadership the one not standardised). Open: the readers
+are off until he says so (his word: changes first, then another round); the history question on `SHA:ecceacc1`; the private repository's pull
 request 6 for him to merge. Next: his full review and edit in the editor at his word
 (`pnpm --filter linkedin editor`, the tab reloaded before typing); the application plan authored
 when he says the draft is his. moved for the sites: nothing / moved for the Practice: nothing.

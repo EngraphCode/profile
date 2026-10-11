@@ -262,7 +262,7 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, Strategic Leadership confirmed by Jim at the typeahead, Software Engineering Practices and Web Technologies in the 2018 crawl and checked at the counter; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review)
+Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, every name confirmed at the typeahead on 11 October, Strategic Leadership by Jim himself; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review)
 
 - Technological Innovation
 - Artificial Intelligence (AI)
