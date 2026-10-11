@@ -363,6 +363,13 @@ LinkedIn's own suggestions in the dialog, inferred from the live profile's text,
 Libraries, Open-Source Development, Agile & Waterfall Methodologies, Web Testing and Test Cases:
 the testing inference the rewrite exists to end.
 
+Jim's decisions, 11 October, later (his reasoning on what he can claim is in the private editorial repository, never here): the pins Social Entrepreneurship, Systems Thinking, Artificial Intelligence (AI); the next two Social Impact, Leadership; Social Innovation, Startups, Product Strategy, Technology Leadership, Generative AI, Responsible AI, Prototyping, R&D, Edtech, Science Communication and Public Speaking on the list; Java dropped; C kept as a signal of engineering depth. Applied to the canonical list: the pins and the next two as he set them; Social Innovation, Startups (the
+taxonomy's string), Responsible AI, Technology Leadership, Edtech, Science Communication and Public
+Speaking added, each confirmed at the typeahead the same hour; Java removed with its thirteen endorsements; C kept; the first forty-nine entries are his decided list in display order and the thirty-nine after them are the seat's proposed removals still awaiting his word. Also confirmed at the typeahead and
+held in the registry for his question "what else should we add or remove": Large Language Models
+(LLM), Strategic Thinking, Open Innovation, Digital Transformation, Technology Policy, Knowledge
+Graphs, Mentoring, Teaching.
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.

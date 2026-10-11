@@ -262,50 +262,65 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "engineering leader" at Jim's word, so the pins echo the headline, Innovation, Systems Thinking, Engineering Strategy, the innovator and scientist clusters lead the list with Leadership in general beside them, and the engineering-function leadership terms (Technical Leadership, Team Leadership, Coaching) follow lower, kept because they open doors, not because they are the point; twenty-one added for the reader this profile is for (Innovation, Research and Development (R&D), Prototyping, Emerging Technologies, Research, Astrophysics, Cosmology, Computational Physics, Statistical Modelling, Parameter Estimation for the innovator and the scientist at Jim's word; Engineering Strategy, Technical Strategy, Product Engineering, Platform Engineering, Developer Experience, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services) and Psychological Safety for the team-wellbeing impact, Jim's to confirm; the testing trade's tags removed at Jim's word of 11 October, "fully ready to leave testing behind" (Test Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding Standards, Software Development Life Cycle (SDLC), Process Improvement), their endorsements with them; every other existing skill kept with its endorsements; tool skills at the end; each added name checked against LinkedIn's taxonomy at application; 11 October, the typeahead check in Chrome with Jim present, nothing saved: "Innovation" is not a standardised skill, so "Creativity and Innovation" at Jim's word, paired with "Scientific Research" at his suggestion; "Open-Source Development" added at his word; "Statistical Modeling" is the taxonomy's spelling; Engineering Strategy, Technical Strategy, Digital Public Services and Research are not standardised and await his disposition (the registry in the linkedin-skills skill names the alternatives); the 45-cap proposal is in the container; awaiting Jim)
+Status: drafted (11 October 2026, at Jim's words after the live read and the typeahead check in Chrome: the three pins Social Entrepreneurship, Systems Thinking, Artificial Intelligence (AI); the next two Social Impact, Leadership; Social Innovation, Startups, Product Strategy, Technology Leadership, Generative AI, Responsible AI, Prototyping, Research and Development (R&D), Edtech, Science Communication and Public Speaking at his word, Java dropped at his word, C kept at his word as a signal of engineering depth; earlier the same day, Creativity and Innovation paired with Scientific Research, and Open-Source Development on the list. Every name in the first forty-eight is the taxonomy's exact string as the Add skill typeahead gave it ("Startups", "Edtech", "Statistical Modeling"); the thirty-nine from Engineering Strategy to Cloudflare are the seat's proposed removals awaiting Jim's word, four of them strings the typeahead does not know (Engineering Strategy, Technical Strategy, Research, Digital Public Services); the registry in the linkedin-skills skill carries every name's status; the testing trade's tags left on 11 October at his word, Java with its thirteen endorsements the same day; awaiting Jim)
 
+- Social Entrepreneurship
+- Systems Thinking
+- Artificial Intelligence (AI)
+- Social Impact
+- Leadership
 - Creativity and Innovation
 - Scientific Research
-- Systems Thinking
-- Engineering Strategy
-- Leadership
+- Social Innovation
 - Research and Development (R&D)
 - Prototyping
 - Emerging Technologies
-- Research
-- Astrophysics
-- Cosmology
-- Computational Physics
-- Statistical Modeling
-- Parameter Estimation
-- Physics
-- Scientific Writing
-- Data Analysis
-- Product Strategy
-- Technical Strategy
-- Artificial Intelligence (AI)
+- Startups
 - AI Agents
 - Model Context Protocol (MCP)
-- Open Data
-- Digital Public Services
-- Product Engineering
-- Platform Engineering
-- Developer Experience
-- Technical Architecture
+- Generative AI
+- Responsible AI
 - Strategy
+- Product Strategy
 - Digital Strategy
+- Technology Leadership
 - System Architecture
-- Technical Leadership
-- Team Leadership
-- Coaching
-- Psychological Safety
+- Platform Engineering
+- Product Engineering
+- Developer Experience
+- Open Data
 - Open Standards
 - Open-Source Software
 - Open-Source Development
 - Public Sector
-- Digital Services
+- Digital Government
+- Edtech
+- Astrophysics
+- Cosmology
+- Computational Physics
+- Statistical Modeling
+- Physics
+- Data Analysis
+- Science Communication
+- Public Speaking
+- Technical Leadership
+- Team Leadership
+- Coaching
+- Psychological Safety
 - Software Engineering
 - Software Development
+- Web Applications
+- JavaScript
+- TypeScript
+- C
+- Engineering Strategy
+- Technical Strategy
+- Research
+- Digital Public Services
+- Technical Architecture
+- Digital Services
+- Parameter Estimation
+- Scientific Writing
 - Consulting
 - Project Management
 - Agile Methodologies
@@ -322,9 +337,6 @@ Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "e
 - Communication
 - Programming
 - Web Development
-- Web Applications
-- TypeScript
-- JavaScript
 - Node.js
 - React.js
 - Next.js
@@ -332,8 +344,6 @@ Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "e
 - HTML
 - HTML5
 - CSS
-- Java
-- C
 - Scripting
 - Linux
 - Git

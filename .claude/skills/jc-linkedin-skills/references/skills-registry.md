@@ -8,10 +8,10 @@ it. The copy's home is `linkedin/profile.md` §Skills; the decisions are in
 - **Live profile:** the baseline recorded on 2026-09-27
   (`linkedin/reference/current-profile-2026-09-27.md` §Skills, 63 skills in display order;
   endorsement counts not recorded).
-- **Canonical list:** `linkedin/profile.md` §Skills as of 2026-10-11 (76 entries).
+- **Canonical list:** `linkedin/profile.md` §Skills as of 2026-10-11, later: 49 decided entries in
+  display order, then 39 proposed removals awaiting Jim's word (88 in all).
 - **Proposal:** the 45-cap exploration of 2026-10-11 at Jim's word (three pins, the next two, the
-  tail; 40 entries after the typeahead check and his words of the afternoon; the canonical list
-  carries only the names he has spoken on).
+  tail) became the canonical list's first forty-eight entries by his decisions the same afternoon.
 - **2018 crawl:** varadchoudhari/LinkedIn-Skills-Crawler `output/all_skills.txt` (MIT, 37,339
   names, last pushed 2018-03-10), checked 2026-10-11 by exact case-insensitive match with
   `scripts/check-against-2018-crawl.sh`. Found means the name existed in the taxonomy in 2018;
@@ -28,56 +28,63 @@ Columns: live position on 2026-09-27 (— if absent); canonical position on 2026
 absent); the proposal's tier and position, or the removal class; the 2018 crawl's answer; the
 typeahead's answer and date.
 
-## The proposal, in display order
+## The canonical list, in display order (2026-10-11, Jim's decisions)
 
-Jim's words of 11 October, after the typeahead check: "as Innovation isn't on the list I am happy
-with 'Creativity and Innovation' but perhaps it should be paired with scientific research"; and
-"make sure that Open-Source Development is one of the skills on my list". So the pins are the
-headline's three words as the taxonomy spells them (the innovator, the scientist, the systems);
-Strategy takes the slot Engineering Strategy cannot (not standardised); Leadership heads the tail.
+The first forty-nine entries of `linkedin/profile.md` §Skills, as Jim set them on 11 October
+(the pins and the next two; Social Innovation, Startups, Product Strategy, Technology Leadership, Generative AI, Responsible AI, Prototyping, R&D, Edtech, Science Communication, Public Speaking; Java dropped; C kept; earlier, Creativity and Innovation paired with Scientific Research, and Open-Source Development). His reasoning on what he can claim is in the private editorial repository, never here. Every name is the typeahead's exact string. "Live" is the
+position on the live profile at the 2026-09-27 baseline.
 
-| Skill                          | Live | Canon. | Proposal       | 2018 crawl                         | Typeahead 2026-10-11       | Note                                                                     |
-| ------------------------------ | ---- | ------ | -------------- | ---------------------------------- | -------------------------- | ------------------------------------------------------------------------ |
-| Creativity and Innovation      | —    | 1      | pin 1          | not checked                        | Creativity and Innovation  | Jim's word; "Innovation" alone is not a standardised skill.              |
-| Scientific Research            | —    | 2      | pin 2          | not checked                        | Scientific Research        | Jim's pairing; "Research" alone is not standardised.                     |
-| Systems Thinking               | 57   | 3      | pin 3          | found                              | Systems Thinking           |                                                                          |
-| Strategy                       | 14   | 29     | next 4         | found                              | Strategy                   | The headline's word; Engineering Strategy is not standardised.           |
-| Artificial Intelligence (AI)   | —    | 20     | next 5         | found as "Artificial Intelligence" | Artificial Intelligence (AI) |                                                                        |
-| Leadership                     | 20   | 5      | tail 6         | found                              | Leadership                 | Leadership in general stays at the top (Jim, 11 Oct).                    |
-| Research and Development (R&D) | —    | 6      | tail 7         | found                              | Research and Development (R&D) |                                                                      |
-| Prototyping                    | —    | 7      | tail 8         | found                              | Prototyping                |                                                                          |
-| Emerging Technologies          | —    | 8      | tail 9         | found                              | Emerging Technologies      |                                                                          |
-| AI Agents                      | —    | 21     | tail 10        | missing                            | AI Agents                  |                                                                          |
-| Model Context Protocol (MCP)   | —    | 22     | tail 11        | missing (post-2024 term)           | Model Context Protocol (MCP) |                                                                        |
-| Generative AI                  | —    | —      | tail 12, added | missing (post-2022 term)           | Generative AI              | Proposed by the seat; Jim's call.                                        |
-| Product Strategy               | 2    | 18     | tail 13        | found                              | live                       |                                                                          |
-| Digital Strategy               | 24   | 30     | tail 14        | found                              | Digital Strategy           |                                                                          |
-| System Architecture            | 11   | 31     | tail 15        | found                              | live                       |                                                                          |
-| Platform Engineering           | —    | 26     | tail 16        | missing                            | Platform Engineering       |                                                                          |
-| Product Engineering            | —    | 25     | tail 17        | found                              | Product Engineering        |                                                                          |
-| Developer Experience           | —    | 27     | tail 18        | missing                            | Developer Experience       |                                                                          |
-| Open Data                      | —    | 23     | tail 19        | found                              | Open Data                  |                                                                          |
-| Open Standards                 | 16   | 36     | tail 20        | found                              | live                       |                                                                          |
-| Open-Source Software           | 17   | 37     | tail 21        | found as "Open Source Software"    | Open-Source Software       |                                                                          |
-| Open-Source Development        | —    | 38     | tail 22        | not checked                        | Open-Source Development    | Jim's word; LinkedIn's own suggestion for his profile.                   |
-| Public Sector                  | —    | 39     | tail 23        | found                              | Public Sector              |                                                                          |
-| Digital Government             | —    | —      | tail 24        | missing                            | Digital Government         | Takes the slot of Digital Public Services, which is not standardised.    |
-| Edtech                         | —    | —      | tail 25, added | found as "EdTech"                  | Edtech                     | The sector coordinate; proposed by the seat; Jim's call.                 |
-| Astrophysics                   | —    | 10     | tail 26        | found                              | Astrophysics               |                                                                          |
-| Cosmology                      | —    | 11     | tail 27        | found                              | Cosmology                  |                                                                          |
-| Computational Physics          | —    | 12     | tail 28        | found                              | Computational Physics      |                                                                          |
-| Statistical Modeling           | —    | 13     | tail 29        | found (US spelling only)           | Statistical Modeling       | The British spelling is not standardised.                                |
-| Physics                        | 39   | 15     | tail 30        | found                              | Physics                    | 3 endorsements.                                                          |
-| Data Analysis                  | 42   | 17     | tail 31        | found                              | Data Analysis              | No endorsement line on the live profile; broadly searched; kept.         |
-| Technical Leadership           | 10   | 32     | tail 32        | found                              | live                       | A door, not the point (Jim, 11 Oct).                                     |
-| Team Leadership                | 1    | 33     | tail 33        | found                              | Team Leadership            | No endorsement line on the live profile (read 2026-10-11); a door.       |
-| Coaching                       | 3    | 34     | tail 34        | found                              | live                       |                                                                          |
-| Psychological Safety           | —    | 35     | tail 35        | missing                            | Psychological Safety       | Jim to confirm the term.                                                 |
-| Software Engineering           | 38   | 40     | tail 36        | missing (crawl gap)                | live                       | Endorsed (2 to 3, read 2026-10-11); kept at Jim's word.                  |
-| Software Development           | 31   | 41     | tail 37        | found                              | Software Development       | Endorsed (12, read 2026-10-11); kept at Jim's word.                      |
-| Web Applications               | 32   | 58     | tail 38        | found                              | live                       | Endorsed (at least 1, read 2026-10-11); kept at Jim's word.              |
-| JavaScript                     | 29   | 60     | tail 39        | found                              | live                       | Endorsed (at least 4, read 2026-10-11); kept at Jim's word.              |
-| TypeScript                     | 23   | 59     | tail 40        | found                              | live                       | The one language of the present; says he still builds.                  |
+| Pos. | Skill | Live | Tier | 2018 crawl | Typeahead 2026-10-11 | Note |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | Social Entrepreneurship | — | pin | not checked | Social Entrepreneurship | Pin 1, Jim's word. |
+| 2 | Systems Thinking | 57 | pin | found | Systems Thinking | Pin 2. |
+| 3 | Artificial Intelligence (AI) | — | pin | found as "Artificial Intelligence" | Artificial Intelligence (AI) | Pin 3; the broad tag, see the AI Literacy note. |
+| 4 | Social Impact | — | next | found | Social Impact | Next, Jim's word. |
+| 5 | Leadership | 20 | next | found | Leadership | Next, Jim's word. |
+| 6 | Creativity and Innovation | — | tail | not checked | Creativity and Innovation | "Innovation" alone is not standardised. |
+| 7 | Scientific Research | — | tail | not checked | Scientific Research | "Research" alone is not standardised. |
+| 8 | Social Innovation | — | tail | found | Social Innovation | Jim's word. |
+| 9 | Research and Development (R&D) | — | tail | found | Research and Development (R&D) |  |
+| 10 | Prototyping | — | tail | found | Prototyping |  |
+| 11 | Emerging Technologies | — | tail | found | Emerging Technologies |  |
+| 12 | Startups | — | tail | not checked | Startups | Jim's word; the taxonomy's string. |
+| 13 | AI Agents | — | tail | missing | AI Agents |  |
+| 14 | Model Context Protocol (MCP) | — | tail | missing | Model Context Protocol (MCP) |  |
+| 15 | Generative AI | — | tail | missing | Generative AI |  |
+| 16 | Responsible AI | — | tail | missing | Responsible AI | Jim's word. |
+| 17 | Strategy | 14 | tail | found | Strategy |  |
+| 18 | Product Strategy | 2 | tail | found | live |  |
+| 19 | Digital Strategy | 24 | tail | found | Digital Strategy |  |
+| 20 | Technology Leadership | — | tail | not checked | Technology Leadership | Jim's word. |
+| 21 | System Architecture | 11 | tail | found | live |  |
+| 22 | Platform Engineering | — | tail | missing | Platform Engineering |  |
+| 23 | Product Engineering | — | tail | found | Product Engineering |  |
+| 24 | Developer Experience | — | tail | missing | Developer Experience |  |
+| 25 | Open Data | — | tail | found | Open Data |  |
+| 26 | Open Standards | 16 | tail | found | live |  |
+| 27 | Open-Source Software | 17 | tail | found as "Open Source Software" | Open-Source Software |  |
+| 28 | Open-Source Development | — | tail | not checked | Open-Source Development | Jim's word; LinkedIn's own suggestion for his profile. |
+| 29 | Public Sector | — | tail | found | Public Sector |  |
+| 30 | Digital Government | — | tail | missing | Digital Government | Takes the slot of Digital Public Services, not standardised. |
+| 31 | Edtech | — | tail | found as "EdTech" | Edtech | Jim's word; so spelt. |
+| 32 | Astrophysics | — | tail | found | Astrophysics |  |
+| 33 | Cosmology | — | tail | found | Cosmology |  |
+| 34 | Computational Physics | — | tail | found | Computational Physics |  |
+| 35 | Statistical Modeling | — | tail | found | Statistical Modeling | The British spelling is not standardised. |
+| 36 | Physics | 39 | tail | found | Physics | 3 endorsements. |
+| 37 | Data Analysis | 42 | tail | found | Data Analysis | No endorsement line on the live profile. |
+| 38 | Science Communication | — | tail | not checked | Science Communication | Jim's word. |
+| 39 | Public Speaking | — | tail | not checked | Public Speaking | Jim's word. |
+| 40 | Technical Leadership | 10 | tail | found | live |  |
+| 41 | Team Leadership | 1 | tail | found | Team Leadership | No endorsement line on the live profile; a door. |
+| 42 | Coaching | 3 | tail | found | live |  |
+| 43 | Psychological Safety | — | tail | missing | Psychological Safety | Jim has not objected; the team-wellbeing term. |
+| 44 | Software Engineering | 38 | tail | missing (crawl gap) | live | Endorsed (2 to 3); kept at Jim's word. |
+| 45 | Software Development | 31 | tail | found | Software Development | Endorsed (12); kept at Jim's word. |
+| 46 | Web Applications | 32 | tail | found | live | Endorsed (at least 1); kept at Jim's word. |
+| 47 | JavaScript | 29 | tail | found | live | Endorsed (at least 4); kept at Jim's word. |
+| 48 | TypeScript | 23 | tail | found | live | The one language of the present. |
+| 49 | C | 50 | tail | found | live | Kept at Jim's word as a signal of engineering depth; 2 endorsements. |
 
 ## Canonical names the typeahead does not know, 2026-10-11
 
@@ -90,7 +97,7 @@ Strategy takes the slot Engineering Strategy cannot (not standardised); Leadersh
 | Research                | 9      | Research Skills, Market Research, Research and Development (R&D), Qualitative Research, Quantitative Research | Scientific Research takes the pin. |
 | Statistical Modelling   | 13     | Statistical Modeling                                              | The US spelling.                                              |
 
-## Proposed removals from the canonical list
+## Proposed removals, entries 50 to 88 of the canonical list, awaiting Jim's word
 
 | Skill                                                  | Live | Canon. | Removal class                      | 2018 crawl                                       | Note                                                        |
 | ------------------------------------------------------ | ---- | ------ | ---------------------------------- | ------------------------------------------------ | ----------------------------------------------------------- |
@@ -121,8 +128,6 @@ Strategy takes the slot Engineering Strategy cannot (not standardised); Leadersh
 | HTML                                                   | 44   | 64     | stack tag                          | found                                            |                                                             |
 | HTML5                                                  | 45   | 65     | stack tag                          | found                                            | 5 endorsements.                                             |
 | CSS                                                    | 46   | 66     | stack tag                          | found                                            | 2 endorsements.                                             |
-| Java                                                   | 49   | 67     | stack tag                          | found                                            | 13 endorsements, the most on the profile; Jim's call.        |
-| C                                                      | 50   | 68     | stack tag                          | found                                            | 2 endorsements.                                             |
 | Scripting                                              | 7    | 69     | stack tag                          | found                                            |                                                             |
 | Linux                                                  | 6    | 70     | stack tag                          | found                                            |                                                             |
 | Git                                                    | 47   | 71     | stack tag                          | found                                            |                                                             |
@@ -132,10 +137,11 @@ Strategy takes the slot Engineering Strategy cannot (not standardised); Leadersh
 | Google Cloud Platform (GCP)                            | 26   | 75     | stack tag                          | found as "Google Cloud Platform"                 |                                                             |
 | Cloudflare                                             | 27   | 76     | stack tag                          | missing                                          |                                                             |
 
-## Removed from the canonical list on 2026-10-11 (the testing trade, Jim's word)
+## Removed from the canonical list on 2026-10-11 at Jim's word
 
 | Skill                                  | Live | 2018 crawl | Note                                   |
 | -------------------------------------- | ---- | ---------- | -------------------------------------- |
+| Java                                   | 49   | found      | 13 endorsements go with it; "drop Java". |
 | Test Automation                        | 30   | found      | 8 endorsements go with it at application. |
 | Automated Software Testing             | 56   | found      |                                        |
 | Test Driven Development                | 33   | found      |                                        |
@@ -180,30 +186,33 @@ specific names beside it (AI Agents, Model Context Protocol (MCP), Generative AI
 
 | Skill | 2018 crawl | Typeahead | Note |
 | --- | --- | --- | --- |
-| Social Entrepreneurship | found | pending | founder and mission in one tag |
-| Social Impact | found | pending | the broad public-good tag |
-| Social Innovation | found | pending | a funder's current word |
+| Social Entrepreneurship | found | confirmed | founder and mission in one tag |
+| Social Impact | found | confirmed | the broad public-good tag |
+| Social Innovation | found | confirmed | a funder's current word |
 | Social Enterprise | found | pending | the UK sector term |
 | Impact Assessment | found | pending | the stand-in for theory of change |
-| Responsible AI | missing | pending | the policy bodies' and conferences' noun |
-| Large Language Models (LLM) | missing | pending | LinkedIn's lists use longer labels |
-| Digital Transformation | found | pending | a public-sector leadership noun, broadly filtered |
-| Open Innovation | found | pending | "what other people build once innovation is cheap" |
-| Strategic Thinking | found | pending | a rising leadership tag in 2025 |
-| Public Speaking | found | pending | a rising tag; the bodies ask for it |
-| Science Communication | found | pending | the scientist who writes for general readers |
-| Technology Policy | found | pending | opens policy-body approaches |
+| Responsible AI | missing | confirmed | the policy bodies' and conferences' noun |
+| Large Language Models (LLM) | missing | confirmed | LinkedIn's lists use longer labels |
+| Digital Transformation | found | confirmed | a public-sector leadership noun, broadly filtered |
+| Open Innovation | found | confirmed | "what other people build once innovation is cheap" |
+| Strategic Thinking | found | confirmed | a rising leadership tag in 2025 |
+| Public Speaking | found | confirmed | a rising tag; the bodies ask for it |
+| Science Communication | found | confirmed | the scientist who writes for general readers |
+| Technology Policy | found | confirmed | opens policy-body approaches |
 | Public Policy | found | pending |  |
 | Stakeholder Management | found | pending | a rising tag in 2025 |
 | Fundraising | found | pending |  |
 | Strategic Partnerships | missing | pending |  |
 | Corporate Governance | found | pending | a founder who builds a board |
 | Entrepreneurship | found | pending |  |
-| Start-ups | found | pending |  |
+| Start-ups | found | "Startups" |  |
 | Business Strategy | found | pending |  |
 | Go-to-Market Strategy | found | pending | a rising tag in 2025 |
 | Strategic Leadership | found | pending |  |
 | Team Building | found | pending |  |
+| Knowledge Graphs | not checked | confirmed | the personal and the curriculum graphs |
+| Mentoring | found | confirmed | |
+| Teaching | not checked | confirmed | a tutor; hooks teacher searches |
 
 ## Alternative names confirmed at the typeahead, not proposed
 
