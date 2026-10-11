@@ -169,6 +169,42 @@ Skills, PostgreSQL, Strategy and Technical Architecture among them, show no endo
 | Web Applications     | at least 1 (3 colleagues)    | a person; 3 colleagues at Financial Times; no number              |
 | Communication        | 1                            | 1 endorsement                                                     |
 
+## Candidates from the research of 11 October, typeahead pending
+
+Names surfaced by two research passes on adjacent profile shapes (reported in chat, at Jim's
+word), kept here so a later cut can draw on them; none is proposed. One finding governs the AI
+cluster: LinkedIn renamed the broad "Artificial Intelligence" entry to "AI Literacy" in its
+Skills on the Rise 2025 because members adding it use AI tools without learning AI technical
+skills, so the broad tag retrieves without distinguishing and the builder's claim needs the
+specific names beside it (AI Agents, Model Context Protocol (MCP), Generative AI).
+
+| Skill | 2018 crawl | Typeahead | Note |
+| --- | --- | --- | --- |
+| Social Entrepreneurship | found | pending | founder and mission in one tag |
+| Social Impact | found | pending | the broad public-good tag |
+| Social Innovation | found | pending | a funder's current word |
+| Social Enterprise | found | pending | the UK sector term |
+| Impact Assessment | found | pending | the stand-in for theory of change |
+| Responsible AI | missing | pending | the policy bodies' and conferences' noun |
+| Large Language Models (LLM) | missing | pending | LinkedIn's lists use longer labels |
+| Digital Transformation | found | pending | a public-sector leadership noun, broadly filtered |
+| Open Innovation | found | pending | "what other people build once innovation is cheap" |
+| Strategic Thinking | found | pending | a rising leadership tag in 2025 |
+| Public Speaking | found | pending | a rising tag; the bodies ask for it |
+| Science Communication | found | pending | the scientist who writes for general readers |
+| Technology Policy | found | pending | opens policy-body approaches |
+| Public Policy | found | pending |  |
+| Stakeholder Management | found | pending | a rising tag in 2025 |
+| Fundraising | found | pending |  |
+| Strategic Partnerships | missing | pending |  |
+| Corporate Governance | found | pending | a founder who builds a board |
+| Entrepreneurship | found | pending |  |
+| Start-ups | found | pending |  |
+| Business Strategy | found | pending |  |
+| Go-to-Market Strategy | found | pending | a rising tag in 2025 |
+| Strategic Leadership | found | pending |  |
+| Team Building | found | pending |  |
+
 ## Alternative names confirmed at the typeahead, not proposed
 
 | Skill                           | Typeahead 2026-10-11 | Note                                                            |

@@ -51,10 +51,17 @@ says so.
 - **Categories and order.** With more than three skills LinkedIn sorts them into Industry
   Knowledge, Tools & Technologies and Interpersonal Skills; the member drags the order within the
   All view and cannot move a skill across categories (Help a568137, read 2026-10-11).
-- **Search infers.** Recruiter's Skills filter also infers skills from profile text, résumés and
-  connections, and quotes a multi-word entry invisibly; self-entered skills remain reachable by
-  operator (secondary: a sourcer's account of LinkedIn Engineering, booleanstrings.com, 2022 and
-  2023).
+- **Search filters on standardised terms and infers the rest.** Recruiter's Skills filter is a
+  dropdown of standardised terms with Must have, Can have and Doesn't have; Skills Match reads the
+  standardised skills section plus skills extracted from the text of every profile section; a
+  keyword search on a skill term expands to other spellings and descriptions (LinkedIn Recruiter
+  Help a593591 and a414281, LinkedIn Help a793433, read 2026-10-11). A sourcer's account adds
+  that the filter quotes a multi-word entry invisibly and that self-entered skills stay reachable
+  by operator (secondary, booleanstrings.com, 2022 and 2023).
+- **The broad AI tag no longer distinguishes.** LinkedIn renamed its "Artificial Intelligence"
+  entry to "AI Literacy" in Skills on the Rise 2025 because members adding it use AI tools
+  without learning AI technical skills (LinkedIn News, 2025). The broad tag retrieves; the
+  builder's claim needs the specific names beside it.
 
 So the three tiers do three jobs: the pins are the identity and the export; the next two are the
 first lines under "Show all"; the tail is retrieval and endorsement weight. US spelling is the
