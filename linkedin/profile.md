@@ -26,9 +26,9 @@ I like problems that don't have a shape yet. At Oak I have set the engineering s
 
 The liking comes from physics research: studying the early Universe, where understanding is something you build, assess, and let reality overturn. When I moved into technology I kept the method and changed the aim. Explaining a system is satisfying. Changing one is better.
 
-In the spring of 2020 Oak National Academy was a few months old, an emergency response to school closures that became a new kind of national public service. I joined to get the first teacher-facing service over the line and stayed to shape the engineering strategy behind the whole thing. The hardest call was arguing to rebuild the emergency platform while it was still what kept lessons online. Four years on, the rebuild is what everything new is built on.
+In the spring of 2020 Oak National Academy was a few months old, an emergency response to school closures that became a new kind of national public service, used today by over 200,000 teachers across England. I joined to get the first teacher-facing service over the line and stayed to shape the engineering strategy behind the whole thing. The hardest call was arguing to rebuild the emergency platform while it was still what kept lessons online. Four years on, the rebuild is what everything new is built on.
 
-The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI tools they use. I conceived the Oak AI plugin and built it, from an open SDK on Oak's curriculum data to the service that now puts a National Curriculum-aligned, fully sequenced and resourced, open curriculum into ChatGPT and Claude. The immediate impacts are something I care deeply about, but the higher-order impacts, what other people build once innovation is cheap, are where the biggest changes are made.
+The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI tools they use. I conceived the Oak AI plugin and built it, from an open SDK on Oak's curriculum data to the service that now puts a National Curriculum-aligned, fully sequenced and resourced, open curriculum into ChatGPT and Claude. Oak now describes that curriculum as AI-ready public digital infrastructure. The immediate impacts are something I care deeply about, but the higher-order impacts, what other people build once innovation is cheap, are where the biggest changes are made.
 
 To build it, I first built the way of working. The Practice is a framework for engineering with AI agents: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. With it, AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. The engineers on the Open Curriculum Ecosystem, Oak's public repository for building on its curriculum data, work in it, and so do I, every day. It is how the plugin got made.
 
@@ -58,7 +58,7 @@ Link: <https://claude.com/marketplace/connectors/oak-national-academy>
 
 Status: drafted (11 October 2026; Oak's own words from its who-we-are page; awaiting Jim)
 
-Every national curriculum subject, every unit, every lesson, created by subject and curriculum experts, used by over 200,000 teachers across England, free and funded by the Department for Education.
+Every national curriculum subject, every unit, every lesson, created by subject and curriculum experts, free to every teacher and funded by the Department for Education.
 
 Link: <https://www.thenational.academy/>
 
@@ -70,11 +70,11 @@ Status: drafted
 
 Status: drafted (8 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the level and the Practice paragraphs added at Jim's word, awaiting Jim)
 
-I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, the case for it to senior leadership, engineers and non-engineers alike, and Oak's engineering relationships with the vendors and partners it builds with. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups, building a service used by over 200,000 teachers across England. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
+I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, the case for it to senior leadership, engineers and non-engineers alike, and Oak's engineering relationships with the vendors and partners it builds with. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
 
 Even with the emergency platform safe to change, every change got harder and every release slower. I argued that optimising it was the wrong starting point and that Oak should rebuild. Oak did; I stood behind the call and accepted the near-term risk to delivery and reputation. Everything Oak has built in the four years since stands on that rebuild.
 
-The Oak AI plugin began in 2024 as an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. I made the case, built a public SDK on the data by hand before the route existed, then the route itself, a service now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP). Oak now describes that curriculum as AI-ready public digital infrastructure. The curriculum is the experts' work; the plugin's shape, its development and its strategy came from me.
+The Oak AI plugin began in 2024 as an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. I made the case, built a public SDK on the data by hand before the route existed, then the route itself, a service now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP). The curriculum is the experts' work; the plugin's shape, its development and its strategy came from me.
 
 As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data. The plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
 
@@ -262,26 +262,39 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026: the top three pinned; eleven added for the reader this profile is for (Engineering Strategy, Technical Strategy, Product Engineering, Platform Engineering, Developer Experience, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services) and Psychological Safety for the team-wellbeing impact, Jim's to confirm; the testing trade's tags removed at Jim's word of 11 October, "fully ready to leave testing behind" (Test Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding Standards, Software Development Life Cycle (SDLC), Process Improvement), their endorsements with them; every other existing skill kept with its endorsements; tool skills at the end; each added name checked against LinkedIn's taxonomy at application; awaiting Jim)
+Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "engineering leader" at Jim's word, so the pins echo the headline, Innovation, Systems Thinking, Engineering Strategy, the innovator and scientist clusters lead the list with Leadership in general beside them, and the engineering-function leadership terms (Technical Leadership, Team Leadership, Coaching) follow lower, kept because they open doors, not because they are the point; twenty-one added for the reader this profile is for (Innovation, Research and Development (R&D), Prototyping, Emerging Technologies, Research, Astrophysics, Cosmology, Computational Physics, Statistical Modelling, Parameter Estimation for the innovator and the scientist at Jim's word; Engineering Strategy, Technical Strategy, Product Engineering, Platform Engineering, Developer Experience, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services) and Psychological Safety for the team-wellbeing impact, Jim's to confirm; the testing trade's tags removed at Jim's word of 11 October, "fully ready to leave testing behind" (Test Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding Standards, Software Development Life Cycle (SDLC), Process Improvement), their endorsements with them; every other existing skill kept with its endorsements; tool skills at the end; each added name checked against LinkedIn's taxonomy at application; awaiting Jim)
 
-- Engineering Strategy
+- Innovation
 - Systems Thinking
+- Engineering Strategy
+- Leadership
+- Research and Development (R&D)
+- Prototyping
+- Emerging Technologies
+- Research
+- Astrophysics
+- Cosmology
+- Computational Physics
+- Statistical Modelling
+- Parameter Estimation
+- Physics
+- Scientific Writing
+- Data Analysis
 - Product Strategy
-- Technical Leadership
 - Technical Strategy
-- Product Engineering
-- Platform Engineering
-- Developer Experience
 - Artificial Intelligence (AI)
 - AI Agents
 - Model Context Protocol (MCP)
 - Open Data
 - Digital Public Services
+- Product Engineering
+- Platform Engineering
+- Developer Experience
 - Technical Architecture
 - Strategy
 - Digital Strategy
 - System Architecture
-- Leadership
+- Technical Leadership
 - Team Leadership
 - Coaching
 - Psychological Safety
@@ -305,9 +318,6 @@ Status: drafted (11 October 2026: the top three pinned; eleven added for the rea
 - Problem Solving
 - Solution-oriented
 - Communication
-- Scientific Writing
-- Data Analysis
-- Physics
 - Programming
 - Web Development
 - Web Applications

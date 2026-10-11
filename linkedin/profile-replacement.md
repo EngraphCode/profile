@@ -288,6 +288,23 @@ searches and reads as self-praise without endorsements, the second is covered by
 terms. Each added name is checked against LinkedIn's taxonomy at application; a custom string
 retrieves nothing. Sixty-six entries now.
 
+Jim's second word on Skills, 11 October: "I don't want the skill set to get too 'engineering
+leader', and lose the 'innovator, scientist, originator'"; he drives and delivers innovation,
+not only its rate. So the pins echo the headline, Innovation, Systems Thinking, Engineering
+Strategy, and ten names for the innovator and the scientist join the list and lead it, before
+the leadership terms: Innovation, Research and Development (R&D), Prototyping, Emerging
+Technologies, Research, Astrophysics, Cosmology, Computational Physics, Statistical Modelling and
+Parameter Estimation (the last four at his word for the model-fitting work on computational
+models of the Universe; the exact taxonomy strings at application). His word, the same hour:
+"'originator, innovator, scientist' is definitely more important than 'engineering leader'".
+Seventy-six entries. His rule on Oak's official claims, the same hour: use them anywhere they benefit him,
+and make each high-impact claim once, prominently. So the reach (over 200,000 teachers across
+England) sits once, in the About's Oak paragraph, and the infrastructure framing (Oak describes
+its curriculum as AI-ready public digital infrastructure) once, in the About's plugin paragraph;
+both left the Principal card and the Featured card. Oak's other official lines on the page are
+the Featured captions in Oak's and Anthropic's words. Available and not used, because it dates
+the text: the plugin page's "with Gemini, Copilot and others to follow".
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.
