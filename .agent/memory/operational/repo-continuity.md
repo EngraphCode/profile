@@ -381,7 +381,9 @@ The state entries from 2026-09-13 to 2026-09-28 that stood here are archived byt
   estates from 2026-10-02 and the n=1 seat from the 2026-10-04 resume; the consolidation flow is
   paused at the owner's word of 2026-10-03; the delivery node `practice-alignment-by-class`
   (ratified 2026-10-04) reached its finish on 2026-10-05 with both landings merged in both
-  estates (321 and 322 here, #353 and #354 in the sibling) and is archived; the record's newest
+  estates (321 and 322 here, #353 and #354 in the sibling) and is archived; the third dedicated
+  pass opened 2026-10-11 (Corsair weaves Seabed, 459358, single-agent at the owner's word) and was
+  handed off mid-pass at 11:4xZ under PDR-063 for a successor the owner names; the record's newest
   state block governs.
 
 ## Paused Threads
@@ -390,6 +392,28 @@ The state entries from 2026-09-13 to 2026-09-28 that stood here are archived byt
 - Dev-Tooling Hygiene (dependency updates handled locally).
 
 ## Next Safe Steps
+
+STATE, 2026-10-11T11:4xZ (Corsair weaves Seabed, 459358, the third dedicated consolidation's curating
+seat across both estates, retiring at the owner's word; Shrew rides Eventide, 371a2b, on the Oak entry;
+the owner names the successor): the consolidation is mid-pass and handed off under PDR-063. The pickup
+is `threads/two-estate-consolidation.next-session.md`, its 11:4xZ and 11:2xZ blocks, and the untracked
+handoff record under `.agent/state/collaboration/handoffs/` named by the curator claim. Next safe
+steps, in order:
+
+1. The successor seats, reads `git status --branch` in both primaries, pushes this seat's unpushed
+   records commits once through the bot in each estate, adopts or re-opens the two curator claims,
+   arms one comms watcher per estate.
+2. The consolidation continues from the thread record's resume order (the napkin rotations by proof,
+   the stream selections, the Codex memory, the memory dispositions, the two doctrine pull requests,
+   the oversized memory files, the close), counts first in every report, single-agent, no peer
+   messages for every step (the owner's words of 2026-10-11).
+3. Steps 1 and 2 of the 2026-10-11T10:2xZ state below stand (the records-door correction; the
+   sibling's carry); the fold of the coordination branches stays suspended until the consolidation
+   completes (the owner's word at seating, read across the handoff; the successor confirms it with
+   him if a fold falls DUE).
+
+Deep consolidation status: in progress, the third dedicated pass, handed off at 2026-10-11 11:4xZ;
+registers at the handoff 31 due here and 15 in OCE.
 
 STATE, 2026-10-11T10:2xZ (Cedar turns Grove, 1950d1, closing at the owner's word; Shrew rides Eventide, 371a2b,
 on the Oak entry; n=1 on the primary after this closeout): next safe steps, in order:
