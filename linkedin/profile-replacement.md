@@ -154,7 +154,11 @@ Open for Jim, with the draft:
 
 The photo stays (Jim, 6 October: everything changes except the photo, for want of a better one).
 Name as now; pronouns are Jim's call. Top-card location and industry are set deliberately as
-retrieval coordinates at application, verified live. Banner: open, Jim's call. Volunteering
+retrieval coordinates at application, verified live. The live industry value was never recorded
+(the September baseline did not capture it); the `editor`'s rule for it, 11 October: read it at
+application, and if it names a function, replace it with the sector Oak sits in, against
+LinkedIn's taxonomy, since the sector filter is the one a funder or a national-organisation
+leader uses and the function filter is the line-role screen. Banner: open, Jim's call. Volunteering
 (Growing Communities) and organisations (Institute of Physics, current) stay, brief and true.
 Activity and interests are not profile content and are left as they are. The VoxQuant company
 page under Jim's account reserves a name only (Jim, 7 October) and gets no entry and no
@@ -206,31 +210,89 @@ App story (the graph already records one role, Senior Developer; the title is hi
 Medicspot as the plain fact it is; and give Obaith its outcome in his words, what the two years
 produced and whether the question still drives him, since no source holds it.
 
-## Featured — open
+Jim's dispositions, 11 October, and what followed: (1) the About's opening gains the second
+sentence (level and consequence inside the fold), agreed; (2) We Predict and Carnegie Mellon
+removed, on the reasoning that they change no decision for the readers the profile is for, that a
+two-month D3 card and a Perl-harness card are the keyword hooks for the approaches he does not
+want, and that the CV keeps both, so the record loses nothing; the cost named: one small instance
+of research meeting engineering (Carnegie Mellon) and a data-visualisation signal that belongs in
+Skills if anywhere; (3) FT Labs is one card titled Senior Developer, 2011 to 2014, "I joined as a
+developer" carrying the progression; (4) "Oak's public code" rejected as inaccurate (Oak has 32
+public repositories); the Open Curriculum Ecosystem is "a collection of tools for working with the
+Oak Open Curriculum Data, via API, SDK and MCP app", and the gloss is chosen from options put to
+him; (5) Obaith's outcome in a sentence written from his words (research he still draws on, a
+sharper sense of what he cares about and how change happens, the delivery lesson); (6) the
+rebuild carries no date at his word (the subject is sensitive): the current card keeps the call
+and its consequence, the consulting card keeps the groundwork, and the current card's opening no
+longer claims the groundwork twice. The rebuild's decide-or-recommend stays as written.
+
+## Featured — drafted, awaiting Jim
 
 First: the Oak AI plugin, led by Oak's page <https://www.thenational.academy/ai-plugin>, with the
 Claude marketplace listing beside it. Second: the Oak National Academy site. The OCE repository
 <https://github.com/oaknational/oak-open-curriculum-ecosystem> serves developers and sits under
 Projects as well.
 
-## Projects — open
+Drafted 11 October as three items, each a warrant in its owner's words and none of them Jim's
+claim (the `editor`'s structural change for the new sections: a Featured item warrants, a
+Projects entry is the route to the artefact and the record of who built it, Education is the
+credential and the thesis title, Publications the one place the research is explained,
+Organisations and Volunteering facts without gloss): Oak's plugin page with Oak's own line
+("Connect the AI assistant you already use to Oak's free curriculum content."); the Claude
+listing <https://claude.com/marketplace/connectors/oak-national-academy> with Anthropic's line
+("Free, national curriculum-aligned Oak teaching resources."); Oak's site with Oak's own words
+from its who-we-are page. All three resolve (11 October). EDR-007's one-line description is not
+on Oak's page today; the page's line is used instead.
 
-The Oak AI plugin with the repository link, for the public and indexed route.
+## Projects — drafted, awaiting Jim
 
-## Skills — open
+The Oak AI plugin with the repository link, for the public and indexed route; the FT Web App
+kept from the live profile with its collaborative credit; and, from Jim's word of 11 October,
+the rebuild as a project with its public code: the site at thenational.academy is
+`oaknational/Oak-Web-Application` (public, MIT, active), the result of the rebuild, and the
+emergency platform's repository was `oaknational/Acorn`, which is not public (404 on 11 October)
+and so is not linked or named on the card. The project card carries no dates at his word.
+
+## Skills — drafted, awaiting Jim
 
 Additive: endorsements kept; senior, AI and public-sector skills added; the top three pinned;
 tool skills demoted down the list; the limit (believed one hundred) verified at pre-application;
 any removal named by Jim at the time.
 
+Drafted 11 October: seventy entries, every live skill kept but the duplicate "TDD", eight added
+(Engineering Strategy, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP),
+Open Data, Public Sector, Digital Public Services, Developer Experience); the pin set Engineering
+Strategy, Systems Thinking, Product Strategy (the `editor`: the pins are the only part of Skills
+a scanner reads, and Technical Leadership first is the engineering-leader coordinate EDR-008
+takes off the surface; it sits fourth, present for retrieval); the AI-literate searcher's terms
+in the first ten; the testing middle and the tools below where anyone scrolls. "Github" is
+"GitHub" (a rename on the platform drops endorsements; Jim's call). Endorsement counts are not
+recorded (the September baseline recorded associations) and may weigh the pins at application.
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.
 
-## Education, publications, certifications, contact — open
+## Education, publications, certifications, contact — drafted, awaiting Jim
 
 From the entity graph and Draft 1; the thesis spelling is Theremin; Institute of Physics
 membership is current.
+
+Drafted 11 October: Education as the credential and the thesis title only (the PhD card and the
+Publications carry the explanations), the three theses in title case, the Portsmouth heading as
+"University of Portsmouth" with the Institute of Cosmology and Gravitation in the body (the live
+school field names the institute and truncated at one width in September; the change is
+deliberate and Jim's to confirm); Publications in the journals' forms of the titles with
+summaries a non-physicist can repeat and the co-authors beside the claim; Licences the five
+retained with the two safety courses proposed for removal (the `editor`'s information for Jim:
+the two 2016 course certificates are the same kind of keyword hook as the short contracts he
+removed; his relevance choice stands until he says otherwise); Volunteering titled "Volunteer
+market gardener" as the CV and the graph have it, the cause field his call; Organisations one
+line; Contact three routes with distinct labels, the GitHub URL in the graph's spelling
+(jimCresswell). The site's entity graph brought to the badges at the same time: AgilePM
+Foundation (not Practitioner), Monitoring the Oceans from Space (not a satellite meteorology
+course), the two Johns Hopkins course certificates (not a specialization), and the Institute
+"of" Cosmology and Gravitation; the site's unit tests green.
 
 ## Settings — open
 

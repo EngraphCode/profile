@@ -192,6 +192,38 @@ on the Oak block and the run; then Featured, Projects, skills, recommendations, 
 application only at his express request with him present. moved for the sites: nothing / moved
 for the Practice: nothing.
 
+### 2026-10-11T12:xxZ — the whole profile drafted, every section; ready for the owner's full review (Shrew rides Eventide, 371a2b)
+
+The owner's word: "get it to a state where you are happy with it, then I will do a full review
+and edit". His dispositions of the morning applied first: the About's second sentence inside the
+fold; We Predict and Carnegie Mellon removed on the reasoning in the container (no decision
+changed for the readers the profile is for; keyword hooks for the approaches he does not want;
+the CV keeps both); FT Labs one card, Senior Developer, "I joined as a developer"; Obaith's
+outcome written from his words; the rebuild with no date at his word, the current card keeping
+the call and the consulting card the groundwork; the Open Curriculum Ecosystem glossed as Oak's
+public repository for building on its curriculum data (Oak has 32 public repositories; the
+repository's own line is the source). Then every open section drafted from the settled decisions
+and the sources (the top card, Featured as three warrants in their owners' words including the
+Claude listing, Education, Licences, Projects with the rebuild's public code
+`oaknational/Oak-Web-Application` at his word, Publications, Volunteering, Organisations, the
+ordered Skills list with three pins and eight additions, Contact), read by the `editor` (whole
+profile) and `prose-expert` (the new sections) in parallel, their findings applied in one pass
+(each new section given a function the About and the cards do not perform; the Featured
+captions in Oak's and Anthropic's words; the second abstracts out of Education; the pins
+re-set), every link checked (eleven, all 200), and the `audience-reader` on the whole profile
+as the last falsification. The entity graph's three credential names and the institute's "of"
+corrected to the badges and the institute; site unit tests green. Open for the owner, all in the
+container: the Oak items (decide or recommend; "meant no child"; "arm's-length body"; a decision
+above the engineering function; "England's curriculum" at the fold; "since 2020" as arrival or
+strategy); the earlier entries' facts (Code Science's dates and clients; Obaith's title, dates
+and pattern; "won multiple awards"; the one-in-ten finding's attribution; the Firefox OS app;
+the plugin project's start year); the new sections' calls (the industry value; the Portsmouth
+school field; the two 2016 certificates; the volunteering cause; the IoP grade; the Skills pins
+against endorsement counts; "GitHub" against its endorsements). Next: his full review and edit
+in the editor (reload the tab first); his word on Recommendations; then the application through
+Chrome with him present, after a PDF export of the live profile. moved for the sites: the entity
+graph's credential names and the institute's name / moved for the Practice: nothing.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of

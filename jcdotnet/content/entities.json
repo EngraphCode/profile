@@ -413,7 +413,7 @@
       "worksFor": { "@id": "https://www.jimcresswell.net/#org-portsmouth" },
       "startDate": "2005-09",
       "endDate": "2010-12",
-      "description": "Planned and carried out research at the Institute for Cosmology and Gravitation, fitting parametric and non-parametric models to large galaxy surveys. Combined traditional survey statistics with Galaxy Zoo citizen science morphological data, producing published results that influenced observational methodology."
+      "description": "Planned and carried out research at the Institute of Cosmology and Gravitation, fitting parametric and non-parametric models to large galaxy surveys. Combined traditional survey statistics with Galaxy Zoo citizen science morphological data, producing published results that influenced observational methodology."
     },
 
     {
@@ -456,21 +456,21 @@
       "@type": "EducationalOccupationalCredential",
       "@id": "https://www.jimcresswell.net/#cred-eumetsat",
       "credentialCategory": "Professional Certificate",
-      "name": "EUMETSAT Satellite Meteorology Course"
+      "name": "Monitoring the Oceans from Space (EUMETSAT, FutureLearn)"
     },
 
     {
       "@type": "EducationalOccupationalCredential",
       "@id": "https://www.jimcresswell.net/#cred-agilepm",
       "credentialCategory": "Professional Certificate",
-      "name": "AgilePM Practitioner"
+      "name": "AgilePM Foundation"
     },
 
     {
       "@type": "EducationalOccupationalCredential",
       "@id": "https://www.jimcresswell.net/#cred-jhu-data-science",
       "credentialCategory": "Professional Certificate",
-      "name": "Data Science Specialization (JHU via Coursera)"
+      "name": "R Programming and The Data Scientist's Toolbox (Johns Hopkins University, Coursera)"
     },
 
     {
