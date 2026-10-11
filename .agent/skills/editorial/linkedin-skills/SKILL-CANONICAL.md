@@ -109,8 +109,8 @@ header carries the last-updated date and every source.
 
 ## Gotchas
 
-- Endorsement counts were never recorded in the September 2026 baseline; the live display order
-  is the only proxy. Record the counts at the next PDF export.
+- Endorsement counts were read on 2026-10-11 (the registry's endorsements section); the live
+  display order is not endorsement order. Re-read them at every baseline.
 - The validator (`pnpm --silent --filter linkedin validate-profile profile.md`) checks the
   section's structure, not the names.
 - A skill name added to a position card ("where you put this skill to use") must already be on

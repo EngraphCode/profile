@@ -262,9 +262,10 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "engineering leader" at Jim's word, so the pins echo the headline, Innovation, Systems Thinking, Engineering Strategy, the innovator and scientist clusters lead the list with Leadership in general beside them, and the engineering-function leadership terms (Technical Leadership, Team Leadership, Coaching) follow lower, kept because they open doors, not because they are the point; twenty-one added for the reader this profile is for (Innovation, Research and Development (R&D), Prototyping, Emerging Technologies, Research, Astrophysics, Cosmology, Computational Physics, Statistical Modelling, Parameter Estimation for the innovator and the scientist at Jim's word; Engineering Strategy, Technical Strategy, Product Engineering, Platform Engineering, Developer Experience, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services) and Psychological Safety for the team-wellbeing impact, Jim's to confirm; the testing trade's tags removed at Jim's word of 11 October, "fully ready to leave testing behind" (Test Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding Standards, Software Development Life Cycle (SDLC), Process Improvement), their endorsements with them; every other existing skill kept with its endorsements; tool skills at the end; each added name checked against LinkedIn's taxonomy at application; awaiting Jim)
+Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "engineering leader" at Jim's word, so the pins echo the headline, Innovation, Systems Thinking, Engineering Strategy, the innovator and scientist clusters lead the list with Leadership in general beside them, and the engineering-function leadership terms (Technical Leadership, Team Leadership, Coaching) follow lower, kept because they open doors, not because they are the point; twenty-one added for the reader this profile is for (Innovation, Research and Development (R&D), Prototyping, Emerging Technologies, Research, Astrophysics, Cosmology, Computational Physics, Statistical Modelling, Parameter Estimation for the innovator and the scientist at Jim's word; Engineering Strategy, Technical Strategy, Product Engineering, Platform Engineering, Developer Experience, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services) and Psychological Safety for the team-wellbeing impact, Jim's to confirm; the testing trade's tags removed at Jim's word of 11 October, "fully ready to leave testing behind" (Test Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding Standards, Software Development Life Cycle (SDLC), Process Improvement), their endorsements with them; every other existing skill kept with its endorsements; tool skills at the end; each added name checked against LinkedIn's taxonomy at application; 11 October, the typeahead check in Chrome with Jim present, nothing saved: "Innovation" is not a standardised skill, so "Creativity and Innovation" at Jim's word, paired with "Scientific Research" at his suggestion; "Open-Source Development" added at his word; "Statistical Modeling" is the taxonomy's spelling; Engineering Strategy, Technical Strategy, Digital Public Services and Research are not standardised and await his disposition (the registry in the linkedin-skills skill names the alternatives); the 45-cap proposal is in the container; awaiting Jim)
 
-- Innovation
+- Creativity and Innovation
+- Scientific Research
 - Systems Thinking
 - Engineering Strategy
 - Leadership
@@ -275,7 +276,7 @@ Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "e
 - Astrophysics
 - Cosmology
 - Computational Physics
-- Statistical Modelling
+- Statistical Modeling
 - Parameter Estimation
 - Physics
 - Scientific Writing
@@ -300,6 +301,7 @@ Status: drafted (11 October 2026: "originator, innovator, scientist" outranks "e
 - Psychological Safety
 - Open Standards
 - Open-Source Software
+- Open-Source Development
 - Public Sector
 - Digital Services
 - Software Engineering

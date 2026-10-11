@@ -336,7 +336,32 @@ MCP, Generative AI, Digital Public Services, Platform Engineering, Developer Exp
 Psychological Safety), with a fallback named for each; twelve new names are confirmed by a 2018
 crawl of the taxonomy; the rest are on the live profile already. Open for Jim: the third pin's
 string if Engineering Strategy is not standardised; the two additions; the five generic endorsed
-tags removed; whether the typeahead check runs now in Chrome, as a read, or at application.
+tags removed; whether the typeahead check runs now in Chrome, as a read, or at application. The
+live read of 11 October (Chrome, the skills detail page, Jim present): twelve skills carry
+endorsements and the other fifty-one none, Team Leadership included, so the September display
+order was never an endorsement order; three of the proposed removals carry the largest counts on
+the profile (Java 13, Programming 5, HTML5 5), with CSS 2, C 2 and Communication 1; the four kept
+at his word read JavaScript at least 4, Software Development 12, Software Engineering 2 to 3, Web
+Applications at least 1; Physics 3. Jim's call on Java. The typeahead check, the same hour, in the
+Add skill dialog with Jim present and nothing saved (every result in the registry): standardised
+as typed, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Generative AI,
+Platform Engineering, Developer Experience, Psychological Safety, Open Data, Public Sector,
+Product Engineering, Research and Development (R&D), Prototyping, Emerging Technologies,
+Astrophysics, Cosmology, Computational Physics, Statistical Modeling (US spelling), Scientific
+Research, Digital Government, Open-Source Development, Edtech (so spelt), Systems Thinking,
+Strategy, Leadership; not standardised, Innovation, Engineering Strategy, Technology Strategy,
+Technical Strategy, Digital Public Services, Research, Agentic AI. Jim's words on the result:
+"as Innovation isn't on the list I am happy with 'Creativity and Innovation' but perhaps it should
+be paired with scientific research", and "make sure that Open-Source Development is one of the
+skills on my list". So the canonical list now reads Creativity and Innovation, Scientific
+Research, Systems Thinking at the top, Statistical Modeling, and Open-Source Development beside
+Open-Source Software; the proposal's pins are those three, the next two Strategy and Artificial
+Intelligence (AI), Leadership heads the tail, Digital Government takes Digital Public Services'
+slot; forty entries. Still his: Engineering Strategy's replacement in the canonical list (Strategy,
+or Strategic Technology Development, or Technology Leadership), Generative AI and Edtech, Java.
+LinkedIn's own suggestions in the dialog, inferred from the live profile's text, were JavaScript
+Libraries, Open-Source Development, Agile & Waterfall Methodologies, Web Testing and Test Cases:
+the testing inference the rewrite exists to end.
 
 ## Recommendations — open
 

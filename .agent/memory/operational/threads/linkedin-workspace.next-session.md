@@ -300,6 +300,30 @@ consultation artefact), no heartbeat, no cron. Next: his dispositions on the pro
 full review and edit of the profile, then the application per the new skill. moved for the
 sites: nothing / moved for the Practice: the two editorial skills and the registry.
 
+### 2026-10-11T13:2xZ — the live Skills read and the typeahead check in Chrome; the owner's words on the names; the script's floor guard (Shrew rides Eventide, 371a2b)
+
+At the owner's `/claude-in-chrome` with his profile URL: the skills detail page read in the self
+view (63 skills; twelve carry an endorsement line, Java 13, Software Development 12, Test
+Automation 8, Programming 5, HTML5 5, JavaScript at least 4, Physics 3, Software Engineering 2 to
+3, CSS 2, C 2, Web Applications at least 1, Communication 1; the other fifty-one none, so the
+September display order was never an endorsement order), then the Add skill dialog's typeahead
+typed and read for every new name and its fallbacks, nothing saved. Not standardised: Innovation,
+Engineering Strategy, Technology Strategy, Technical Strategy, Digital Public Services, Research,
+Agentic AI. His words on the result: "as Innovation isn't on the list I am happy with 'Creativity
+and Innovation' but perhaps it should be paired with scientific research"; "make sure that
+Open-Source Development is one of the skills on my list". Applied to the canonical list: Creativity
+and Innovation and Scientific Research at the top, Statistical Modeling, Open-Source Development
+beside Open-Source Software; the rest of the proposal (forty entries, pins Creativity and
+Innovation, Scientific Research, Systems Thinking; next Strategy, Artificial Intelligence (AI))
+stays in the container and the registry for his dispositions: Engineering Strategy's replacement,
+Generative AI, Edtech, Java. Three Fable subagents at his word: the ideal skill sets for a
+mission-led founder and for a thought leader in AI for public services (reported in chat, not
+recorded), and the `pnpm check` diagnosis, which found the shellcheck gate refusing the new
+script for lacking the bash floor guard; the guard added, adapters re-carried, the leg green.
+Next: his dispositions; his full review and edit; the application per the apply-linkedin-profile
+skill. moved for the sites: nothing / moved for the Practice: the registry's live counts and
+typeahead results; the floor-guard lesson in the napkin.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of
