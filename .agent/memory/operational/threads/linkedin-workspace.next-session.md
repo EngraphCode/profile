@@ -339,9 +339,10 @@ status is in the `linkedin-skills` skill's registry (live endorsement counts rea
 the typeahead's exact strings; the research candidates with their crawl status). His reasoning on
 which names he can claim is owner-private: it was quoted in tracked files for an hour, then removed
 from every tracked file and from the unpushed commit that carried it (amended before any push); it
-sits in `.agent/private/` (gitignored) and the seat's private memory until the private editorial
-repository takes it, whose location on this machine no readable record names, so his word on the
-path is needed. **First act after the compaction**: give him the full list the seat would remove,
+is in the private editorial repository's LinkedIn replacement record (7 October, its section of 11
+October), moved there at his word of 15:xxZ; `privacy.md` names that repository's location,
+which the seat had not read, so an isolated local note held the words for two hours. **First act
+after the compaction**: give him the full list the seat would remove,
 which is the thirty-nine pending entries (Engineering Strategy, Technical Strategy, Research and
 Digital Public Services as unknown strings; Technical Architecture, Digital Services, Parameter
 Estimation, Scientific Writing, Consulting, Project Management, Agile Methodologies, CI/CD, Pair
