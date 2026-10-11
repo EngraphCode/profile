@@ -262,7 +262,7 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026, at Jim's words after the live read and the typeahead check in Chrome: the three pins Social Entrepreneurship, Systems Thinking, Artificial Intelligence (AI); the next two Social Impact, Leadership; Social Innovation, Startups, Product Strategy, Technology Leadership, Generative AI, Responsible AI, Prototyping, Research and Development (R&D), Edtech, Science Communication and Public Speaking at his word, Java dropped at his word, C kept at his word as a signal of engineering depth; earlier the same day, Creativity and Innovation paired with Scientific Research, and Open-Source Development on the list. Every name in the first forty-eight is the taxonomy's exact string as the Add skill typeahead gave it ("Startups", "Edtech", "Statistical Modeling"); the thirty-nine from Engineering Strategy to Cloudflare are the seat's proposed removals awaiting Jim's word, four of them strings the typeahead does not know (Engineering Strategy, Technical Strategy, Research, Digital Public Services); the registry in the linkedin-skills skill carries every name's status; the testing trade's tags left on 11 October at his word, Java with its thirteen endorsements the same day; awaiting Jim)
+Status: drafted (11 October 2026, at Jim's decisions after the live read and the typeahead check in Chrome and his dispositions of the afternoon: the three pins Social Entrepreneurship, Systems Thinking, Artificial Intelligence (AI); the next two Social Impact, Leadership; the fifty-one names before Engineering Strategy decided, every one the taxonomy's exact string as the Add skill typeahead gave it ("Startups", "Edtech", "Statistical Modeling"), Parameter Estimation and Scientific Writing among them at his word, Mentoring in place of Coaching at his word; the thirty-seven from Engineering Strategy to Cloudflare are the names still in question for him, four of them strings the typeahead does not know (Engineering Strategy, Technical Strategy, Research, Digital Public Services); the registry in the linkedin-skills skill carries every name's provenance and status; the testing trade's tags and Java left on 11 October at his word; awaiting Jim)
 
 - Social Entrepreneurship
 - Systems Thinking
@@ -299,13 +299,15 @@ Status: drafted (11 October 2026, at Jim's words after the live read and the typ
 - Cosmology
 - Computational Physics
 - Statistical Modeling
+- Parameter Estimation
 - Physics
 - Data Analysis
+- Scientific Writing
 - Science Communication
 - Public Speaking
 - Technical Leadership
 - Team Leadership
-- Coaching
+- Mentoring
 - Psychological Safety
 - Software Engineering
 - Software Development
@@ -319,8 +321,6 @@ Status: drafted (11 October 2026, at Jim's words after the live read and the typ
 - Digital Public Services
 - Technical Architecture
 - Digital Services
-- Parameter Estimation
-- Scientific Writing
 - Consulting
 - Project Management
 - Agile Methodologies

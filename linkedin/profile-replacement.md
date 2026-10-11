@@ -370,6 +370,19 @@ held in the registry for his question "what else should we add or remove": Large
 (LLM), Strategic Thinking, Open Innovation, Digital Transformation, Technology Policy, Knowledge
 Graphs, Mentoring, Teaching.
 
+Jim's dispositions, 11 October, afternoon, on the seat's removal list: Parameter Estimation and
+Scientific Writing stay; Product Engineering stays; Digital Strategy stays; Mentoring replaces
+Coaching; Digital Transformation is not added; Social Entrepreneurship stands as the first pin
+and the About is not changed for it. Applied: fifty-one decided entries in display order, with
+Parameter Estimation beside Statistical Modeling and Scientific Writing beside Science
+Communication, and thirty-seven names still in question for him, each with its provenance in the
+registry. The method that selects names is now the `linkedin-skills` skill's §Choose by Jim's word
+and the understanding: he is the authority; the CV, the entity graph, LinkedIn's taxonomy, the
+research and the readers are sources and instruments, never a baseline the list is corrected to;
+a name he set is never proposed for removal; a proposal carries one sentence of what the name
+says about him to the reader; retrieval follows from truthful names and never selects them. The
+remaining names reach him as one draft, name by name, with the endorsement count visible.
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.
