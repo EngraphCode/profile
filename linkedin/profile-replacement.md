@@ -269,6 +269,25 @@ in the first ten; the testing middle and the tools below where anyone scrolls. "
 "GitHub" (a rename on the platform drops endorsements; Jim's call). Endorsement counts are not
 recorded (the September baseline recorded associations) and may weigh the pins at application.
 
+Jim's word of 11 October supersedes the additive rule for one cluster: "I am fully ready to
+leave 'testing' behind but keep my impact on delivery, innovation rate, team wellbeing,
+strategy". The reasoning, by the reader's decision rather than by relabelling: a skill on
+LinkedIn is a retrieval tag before it is a claim, and the testing tags retrieve the QA and
+test-automation searches he does not want while placing him at technique altitude on a page
+whose top half is strategy (the final audience read: the testing cards and the testing middle of
+Skills pulled him to "test automation consultant" for a beat). So the trade's tags go (Test
+Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding
+Standards, SDLC, Process Improvement), endorsements with them, and the impact is named in the
+standard terms the right readers search rather than in value statements: delivery by Continuous
+Integration and Continuous Delivery (kept) and Product Engineering; innovation rate by Developer
+Experience and Platform Engineering (the three platform groups he helped define); strategy by
+Engineering Strategy and Technical Strategy; team wellbeing by Coaching (kept) and Psychological
+Safety, the one searchable term for that impact, his to confirm. "Software engineering
+excellence" and "delivery strategy" are not added: the first is a value statement no reader
+searches and reads as self-praise without endorsements, the second is covered by the delivery
+terms. Each added name is checked against LinkedIn's taxonomy at application; a custom string
+retrieves nothing. Sixty-six entries now.
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.

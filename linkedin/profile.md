@@ -262,25 +262,29 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026: additive, every existing skill and its endorsements kept except the duplicate "TDD"; the top three pinned; eight added for the reader this profile is for (Engineering Strategy, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services, Developer Experience); tool skills at the end; the believed limit of 100 verified at application; awaiting Jim)
+Status: drafted (11 October 2026: the top three pinned; eleven added for the reader this profile is for (Engineering Strategy, Technical Strategy, Product Engineering, Platform Engineering, Developer Experience, Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Open Data, Public Sector, Digital Public Services) and Psychological Safety for the team-wellbeing impact, Jim's to confirm; the testing trade's tags removed at Jim's word of 11 October, "fully ready to leave testing behind" (Test Automation, Automated Software Testing, Test Driven Development, TDD, BDD, Cucumber, Coding Standards, Software Development Life Cycle (SDLC), Process Improvement), their endorsements with them; every other existing skill kept with its endorsements; tool skills at the end; each added name checked against LinkedIn's taxonomy at application; awaiting Jim)
 
 - Engineering Strategy
 - Systems Thinking
 - Product Strategy
 - Technical Leadership
+- Technical Strategy
+- Product Engineering
+- Platform Engineering
+- Developer Experience
 - Artificial Intelligence (AI)
 - AI Agents
 - Model Context Protocol (MCP)
 - Open Data
 - Digital Public Services
 - Technical Architecture
-- Developer Experience
 - Strategy
 - Digital Strategy
 - System Architecture
 - Leadership
 - Team Leadership
 - Coaching
+- Psychological Safety
 - Open Standards
 - Open-Source Software
 - Public Sector
@@ -291,12 +295,7 @@ Status: drafted (11 October 2026: additive, every existing skill and its endorse
 - Project Management
 - Agile Methodologies
 - Continuous Integration and Continuous Delivery (CI/CD)
-- Test Automation
-- Automated Software Testing
-- Test Driven Development
-- BDD
 - Pair Programming
-- Process Improvement
 - DevOps
 - Infrastructure Automation
 - Configuration Management
@@ -310,8 +309,6 @@ Status: drafted (11 October 2026: additive, every existing skill and its endorse
 - Data Analysis
 - Physics
 - Programming
-- Coding Standards
-- Software Development Life Cycle (SDLC)
 - Web Development
 - Web Applications
 - TypeScript
@@ -333,7 +330,6 @@ Status: drafted (11 October 2026: additive, every existing skill and its endorse
 - Hasura
 - Google Cloud Platform (GCP)
 - Cloudflare
-- Cucumber
 
 ## Recommendations
 
