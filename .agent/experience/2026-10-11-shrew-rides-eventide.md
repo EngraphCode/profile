@@ -74,3 +74,15 @@ Read his words before you read the readers'. Write from the fact, in the registe
 person who could bring him a problem without a shape. Count the pull requests and the minutes.
 And when he says step back, step back further than feels necessary; the frame is usually the
 fault.
+
+## Postscript, the same evening: his reasons are not records
+
+Late in the day the owner decided his Skills list in a few sentences that explained why he could
+claim each name. I did what the records discipline had taught me all week: quoted him verbatim,
+into the profile's status line, the container, the registry and the napkin, and committed it. He
+read it back and said it was sensitive psychological information about him and must not be in a
+public repository. He was right, and the privacy directive had said so all along: his intentions
+and his reasons about himself are owner-private; only the decision is a record. The words left
+every tracked file and the unpushed commit was amended before any push. The tell, for you: when
+his sentence answers "why can I claim this" rather than "what goes on the page", it is not copy and
+it is not a record. Write the decision; keep the reason where he keeps it.

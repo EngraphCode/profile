@@ -324,6 +324,46 @@ Next: his dispositions; his full review and edit; the application per the apply-
 skill. moved for the sites: nothing / moved for the Practice: the registry's live counts and
 typeahead results; the floor-guard lesson in the napkin.
 
+### 2026-10-11T13:4xZ — compaction boundary at the owner's word; the Skills list at his decisions; the removal list ready for him (Shrew rides Eventide, 371a2b)
+
+The owner's word: "bring the current work to a pause, then prepare for compaction ... post
+compaction we will continue looking at the skills. Move by words on skill legitimacy to the private
+editorial repo, that is clearly sensitive psychological information about me and must not be in a
+public repo. keep "C" it communicates genuine engineering chops. Post compaction give me the full
+list of skills you would like to remove". This block is the pickup. State: `linkedin/profile.md`
+§Skills holds forty-nine decided entries in display order (his pins Social Entrepreneurship,
+Systems Thinking, Artificial Intelligence (AI); his next two Social Impact, Leadership; the tail
+by cluster; C kept at his word) and, after them, thirty-nine proposed removals awaiting his word,
+four of them strings the typeahead does not know; the editor copy is identical. Every name's
+status is in the `linkedin-skills` skill's registry (live endorsement counts read 2026-10-11;
+the typeahead's exact strings; the research candidates with their crawl status). His reasoning on
+which names he can claim is owner-private: it was quoted in tracked files for an hour, then removed
+from every tracked file and from the unpushed commit that carried it (amended before any push); it
+sits in `.agent/private/` (gitignored) and the seat's private memory until the private editorial
+repository takes it, whose location on this machine no readable record names, so his word on the
+path is needed. **First act after the compaction**: give him the full list the seat would remove,
+which is the thirty-nine pending entries (Engineering Strategy, Technical Strategy, Research and
+Digital Public Services as unknown strings; Technical Architecture, Digital Services, Parameter
+Estimation, Scientific Writing, Consulting, Project Management, Agile Methodologies, CI/CD, Pair
+Programming, DevOps, Infrastructure Automation, Configuration Management, Cloud Computing,
+Analytical Skills, Creative Problem Solving, Problem Solving, Solution-oriented, Communication,
+Programming, Web Development, Node.js, React.js, Next.js, GraphQL, HTML, HTML5, CSS, Scripting,
+Linux, Git, GitHub, PostgreSQL, Hasura, Google Cloud Platform (GCP), Cloudflare) plus six from the
+decided list (Technical Leadership, Team Leadership, System Architecture, Product Engineering,
+Digital Strategy, Data Analysis), with the five additions confirmed at the typeahead (Large
+Language Models (LLM), Strategic Thinking, Open Innovation, Knowledge Graphs, Digital
+Transformation) and the endorsements each removal costs (Programming 5, HTML5 5, CSS 2,
+Communication 1); the seat's one-sentence risk on the first pin was said once in chat and belongs
+to the private material. Then his dispositions; the About earning the first pin if it stays; his
+full review and edit; the application per `apply-linkedin-profile`. Processes at the boundary:
+the Chrome tab closed; no watcher, no claim, no heartbeat, no cron; the editor stopped; the three
+Fable subagents of the afternoon complete. Tool facts kept: the commit-msg header refused twice
+today at 101 and 104 characters (count before writing, and never chain the commit after a failed
+check); a new bash script needs the floor guard before its first command; the Add skill dialog's
+Dismiss raises a Discard prompt only when the input holds text; the typeahead's strings are the
+taxonomy's house style ("Startups", "Edtech"). moved for the sites: nothing / moved for the
+Practice: the two editorial skills, the registry, the floor-guard lesson.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of
