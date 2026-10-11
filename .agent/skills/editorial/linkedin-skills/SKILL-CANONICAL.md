@@ -111,6 +111,8 @@ corrected it.
    Programming and Software Engineering). The crawl is third-party data, downloaded to a cache
    directory and only ever read.
 3. **Record the result** in `references/skills-registry.md` with the source and the date.
+   `scripts/check-list-against-registry.sh` diffs the canonical list against the registry's
+   canonical table in order and exits non-zero on any gap; run it after every change to either.
 4. **Renames.** "Github" on the live profile is a member phrase; renaming it to "GitHub" drops its
    endorsements. Decide each rename by name, with the count visible.
 

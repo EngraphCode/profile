@@ -402,7 +402,7 @@ provenance.
 
 ### 2026-10-11T17:xxZ — the readers on the whole draft; the tail reordered; a privacy fix pushed; the loop cancelled (Shrew rides Eventide, 371a2b)
 
-This block is the pickup. A side agent's note found two verbatim sentences of the owner on the
+A side agent's note found two verbatim sentences of the owner on the
 positions he is and is not looking for in the napkin's blocks of the morning, pushed at
 `SHA:ecceacc1`, and the seat's own paraphrase in the skill's new section; out of the tree at
 `SHA:6c0f45d0` (the napkin carries EDR-008's public form with his correction, not typical
@@ -430,6 +430,31 @@ what he wants next (inform only, offer only, by design). The tester reading come
 earlier titles, not the list; the past is real and stays. Next: his dispositions on the names
 (the afternoon's draft plus the two added); then the records of his word; then his full review
 and edit in the editor. moved for the sites: nothing / moved for the Practice: nothing.
+
+### 2026-10-11T18:xxZ — Jim's list applied: the pins reset, forty-three names, every removal ratified (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. After the compaction the owner asked for the proposal as a four-column
+table (pins, next two, tail, removing), returned his own list with the removals ratified and asked
+for a critique, then settled it: the pins Technological Innovation, Artificial Intelligence (AI),
+Social Impact; the next two Systems Thinking, Strategic Leadership (confirmed by him at the
+typeahead); Software Development and Software Engineering Practices in place of Software
+Engineering, Web Technologies in place of Web Applications; six names of the afternoon's decided
+list left at his own hand (Leadership, Strategy, Product Strategy, Digital Strategy, Social
+Entrepreneurship, Creativity and Innovation) with the seat's Developer Experience and
+Psychological Safety; Emerging Technologies stays and Programming goes. His rule on the tail: the
+order roughly matches the rest of the profile, otherwise order and gaps carry no meaning; the
+seat placed Software Engineering Practices with the systems names and Software Development with
+the craft. His question on the broad AI tag as a pin and the seat's reading are in the
+container's §Skills, last paragraph. Applied in this block's commit: `linkedin/profile.md`
+§Skills (forty-three entries, the status line), the registry (the canonical table rewritten with
+provenance, the in-question section folded into the removed table with endorsements and the time
+of each removal, the held names and the alternatives trimmed), the container's one-system
+section, its open item 5 and §Skills; the review copy identical; validator green; adapters
+regenerated. Open: whether the readers run once more on the final list (every pin changed; the
+plan ran them once); the history question on `SHA:ecceacc1`; the private repository's pull
+request 6 for him to merge. Next: his full review and edit in the editor at his word
+(`pnpm --filter linkedin editor`, the tab reloaded before typing); the application plan authored
+when he says the draft is his. moved for the sites: nothing / moved for the Practice: nothing.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

@@ -29,29 +29,32 @@ The headline's anchors recur through the profile in natural context, never as th
 and the Skills say them in LinkedIn's nouns:
 
 - **Innovator**: the About's plugin and Practice paragraphs; the Principal card; Projects. Skills:
-  Social Entrepreneurship, Creativity and Innovation, Social Innovation, Research and Development
-  (R&D), Prototyping, Emerging Technologies, Startups, Open-Source Development.
+  Technological Innovation, Social Innovation, Research and Development (R&D), Prototyping,
+  Emerging Technologies, Startups, Open-Source Development.
 - **Engineer**: the rebuild and the plugin's build on the Oak cards; the earlier cards. Skills:
-  Software Engineering, Software Development, Web Applications, JavaScript, TypeScript, C,
-  Platform Engineering, Product Engineering, Developer Experience, Model Context Protocol (MCP),
-  AI Agents, Generative AI, Responsible AI.
+  Software Development, Software Engineering Practices, Web Technologies, JavaScript, TypeScript,
+  C, Platform Engineering, Product Engineering, Model Context Protocol (MCP), AI Agents,
+  Generative AI, Large Language Models (LLM), Responsible AI.
 - **Scientist**: the About's physics paragraph; the PhD card; Education; Publications. Skills:
   Scientific Research, Physics, Astrophysics, Cosmology, Computational Physics, Statistical
   Modeling, Parameter Estimation, Scientific Writing, Science Communication, Public Speaking.
 - **Making sense of the unknown**: the About's first line; Obaith; the Passport Office. Skills:
   Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
 - **Shaping strategy and systems**: "I hold Oak's engineering strategy" and the rebuild on the
-  Principal card. Skills: Strategy, Product Strategy, Digital Strategy, Technology Leadership,
-  System Architecture, Open Data, Open Standards, Public Sector, Digital Government, Edtech,
-  Social Impact, Leadership, Mentoring, Psychological Safety.
+  Principal card. Skills: Strategic Leadership, Technology Leadership, System Architecture, Open
+  Data, Open Standards, Public Sector, Digital Government, Edtech, Social Impact, Mentoring.
 
-The three pins are the identity a scanner reads and the only skills LinkedIn exports with him:
-Social Entrepreneurship (the plugin as public-good origination, shown by the Principal card and
-Projects), Systems Thinking (the method, shown by the About), Artificial Intelligence (AI) (the
-frontier, shown by the plugin). Jim is the authority on every name; the method is the
-`linkedin-skills` skill's §Choose by Jim's word and the understanding.
+The three pins are the identity a scanner reads and the only skills LinkedIn exports with him,
+set by Jim on 11 October, evening: Technological Innovation (the headline's first word, shown by
+the plugin and the Principal card), Artificial Intelligence (AI) (the field the headline does not
+name, shown by the plugin; the specific AI names in the tail do the distinguishing), Social
+Impact (the direction, shown by Oak). The next two, Systems Thinking and Strategic Leadership,
+are the first lines under Show all: how he thinks and at what level. Jim is the authority on
+every name; the method is the `linkedin-skills` skill's §Choose by Jim's word and the
+understanding.
 
-Open for Jim's full review and edit, in one list (11 October 2026, afternoon):
+Open for Jim's full review and edit, in one list (11 October 2026, afternoon, amended in the
+evening):
 
 1. The About: the fold proposal (in chat, not applied); "England's official curriculum body"
    against "arm's-length body of the Department for Education"; a sentence that shows a decision
@@ -72,16 +75,13 @@ Open for Jim's full review and edit, in one list (11 October 2026, afternoon):
    Johns Hopkins course certificates, which both readers read as lowering the altitude beside a
    PhD and one as a retraining toward data science; the volunteering cause field; the Institute
    of Physics grade.
-5. Skills: the thirty-seven names still in question, the four questioned in the decided list and
-   the additions, put to him as one draft on 11 October; after the readers, Psychological Safety
-   and Emerging Technologies join the questions; the registry carries each. The readers' result
-   on the whole: the page describes an engineering strategist and originator inside a national
-   public service with a physics past; the list's first five names read to a cold recruiter as a
-   founder or impact-sector lead the record does not show, and to a warm funder as the direction
-   he is going, informative rather than a mark against him; both would forward or longlist. The
-   seat moved Strategy, Technology Leadership and Product Strategy to positions six to eight so
-   the About's second sentence has its names early; reversible at his word. The pins stand at his
-   word.
+5. Skills: settled at Jim's list of 11 October, evening (§Skills below, last paragraph);
+   nothing in question. The readers' result on the whole, read on the afternoon's list: the page
+   describes an engineering strategist and originator inside a national public service with a
+   physics past; that list's first five names read to a cold recruiter as a founder or
+   impact-sector lead the record does not show, and to a warm funder as the direction he is
+   going, informative rather than a mark against him; both would forward or longlist. Every pin
+   has changed since; whether the readers run once more on the final list is his call.
 6. Recommendations: who to ask; a warm reader found institutional listings and no named voucher.
 7. Settings, at application: Open to Work off; profile-update sharing off during editing, one
    notification at the end.
@@ -445,6 +445,24 @@ research and the readers are sources and instruments, never a baseline the list 
 a name he set is never proposed for removal; a proposal carries one sentence of what the name
 says about him to the reader; retrieval follows from truthful names and never selects them. The
 remaining names reach him as one draft, name by name, with the endorsement count visible.
+
+Jim's list, 11 October, evening, after the seat's four-column table (pins, next two, tail,
+removing) and its critique: the pins Technological Innovation, Artificial Intelligence (AI),
+Social Impact; the next two Systems Thinking, Strategic Leadership (his own check at the
+typeahead); the long tail in the order of the page, thirty-eight names, among them Software
+Development with its twelve endorsements, Software Engineering Practices (the taxonomy's noun for
+the Practice) and Web Technologies, in place of Software Engineering and Web Applications. Every
+removal the seat proposed is ratified, Programming included, and six names of the afternoon's
+decided list left at his own hand: Leadership, Strategy, Product Strategy, Digital Strategy,
+Social Entrepreneurship and Creativity and Innovation, with the seat's Developer Experience and
+Psychological Safety; Emerging Technologies stays. His rule on the tail: the order roughly
+matches the rest of the profile and otherwise order and gaps carry no meaning, so the seat
+placed Software Engineering Practices with the systems names and Software Development with the
+craft. On the broad AI tag as a pin, at his question, the seat's reading: LinkedIn's own finding
+is that the broad entry classifies without distinguishing, the pin's job is to name the field
+the headline does not, and the five specific AI names in the tail with the plugin on the page do
+the distinguishing. The registry carries every name's provenance and the removed names with
+their endorsements. Forty-three entries.
 
 ## Recommendations — open
 

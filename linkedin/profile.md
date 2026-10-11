@@ -262,32 +262,29 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026, at Jim's decisions after the live read and the typeahead check in Chrome and his dispositions of the afternoon: the three pins Social Entrepreneurship, Systems Thinking, Artificial Intelligence (AI); the next two Social Impact, Leadership; the fifty-one names before Engineering Strategy decided, every one the taxonomy's exact string as the Add skill typeahead gave it ("Startups", "Edtech", "Statistical Modeling"), Parameter Estimation and Scientific Writing among them at his word, Mentoring in place of Coaching at his word; the thirty-seven from Engineering Strategy to Cloudflare are the names still in question for him, four of them strings the typeahead does not know (Engineering Strategy, Technical Strategy, Research, Digital Public Services); the registry in the linkedin-skills skill carries every name's provenance and status; the testing trade's tags and Java left on 11 October at his word; awaiting Jim)
+Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, Strategic Leadership confirmed by Jim at the typeahead, Software Engineering Practices and Web Technologies in the 2018 crawl and checked at the counter; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review)
 
-- Social Entrepreneurship
-- Systems Thinking
+- Technological Innovation
 - Artificial Intelligence (AI)
 - Social Impact
-- Leadership
-- Strategy
+- Systems Thinking
+- Strategic Leadership
+- Social Innovation
 - Technology Leadership
-- Product Strategy
-- Creativity and Innovation
-- Scientific Research
 - Research and Development (R&D)
 - Prototyping
+- Scientific Research
 - Emerging Technologies
-- Social Innovation
 - Startups
 - AI Agents
 - Model Context Protocol (MCP)
 - Generative AI
+- Large Language Models (LLM)
 - Responsible AI
-- Digital Strategy
 - System Architecture
 - Platform Engineering
 - Product Engineering
-- Developer Experience
+- Software Engineering Practices
 - Open Data
 - Open Standards
 - Open-Source Software
@@ -301,57 +298,15 @@ Status: drafted (11 October 2026, at Jim's decisions after the live read and the
 - Statistical Modeling
 - Parameter Estimation
 - Physics
-- Data Analysis
 - Scientific Writing
 - Science Communication
 - Public Speaking
-- Technical Leadership
-- Team Leadership
 - Mentoring
-- Psychological Safety
-- Software Engineering
 - Software Development
-- Web Applications
+- Web Technologies
 - JavaScript
 - TypeScript
 - C
-- Engineering Strategy
-- Technical Strategy
-- Research
-- Digital Public Services
-- Technical Architecture
-- Digital Services
-- Consulting
-- Project Management
-- Agile Methodologies
-- Continuous Integration and Continuous Delivery (CI/CD)
-- Pair Programming
-- DevOps
-- Infrastructure Automation
-- Configuration Management
-- Cloud Computing
-- Analytical Skills
-- Creative Problem Solving
-- Problem Solving
-- Solution-oriented
-- Communication
-- Programming
-- Web Development
-- Node.js
-- React.js
-- Next.js
-- GraphQL
-- HTML
-- HTML5
-- CSS
-- Scripting
-- Linux
-- Git
-- GitHub
-- PostgreSQL
-- Hasura
-- Google Cloud Platform (GCP)
-- Cloudflare
 
 ## Recommendations
 
