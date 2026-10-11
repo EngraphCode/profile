@@ -400,6 +400,37 @@ profile; the records; then his full review and edit in the editor at his word. m
 sites: nothing / moved for the Practice: the plan node, the skill's method, the registry's
 provenance.
 
+### 2026-10-11T17:xxZ — the readers on the whole draft; the tail reordered; a privacy fix pushed; the loop cancelled (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. A side agent's note found two verbatim sentences of the owner on the
+positions he is and is not looking for in the napkin's blocks of the morning, pushed at
+`SHA:ecceacc1`, and the seat's own paraphrase in the skill's new section; out of the tree at
+`SHA:6c0f45d0` (the napkin carries EDR-008's public form with his correction, not typical
+engineering-leadership positions; the skill carries the retrieval rule); the branch pushed, tip
+`SHA:6c0f45d0`; the history on the remote is his call (force-push barred by his standing rule; a
+squash at the fold or leaving it). The owner cancelled the fifteen-minute loop ("cancel the loop,
+and do some work") and said the seat had neither compacted nor kept going; a seat cannot trigger
+the compaction, and it should have continued the plan's steps instead of holding. Step 7 run:
+the `audience-reader` as two readers (the cold search partner, the warm funder) on the draft with
+the fifty-one decided names. Both would act: longlist, or forward and message. Dispositions:
+absorbed, Strategy, Technology Leadership and Product Strategy moved to positions six to eight
+(the About's second sentence is the strategy remit and the list had no strategy name before
+seventeen; reversible at his word); routed to his review in the container's list, the Practice
+paragraph's altitude, "the standards travel with the data", "since 2020" against the Senior
+Developer card, the Johns Hopkins certificates beside a PhD, the Principal card's "the judgement
+and the calls are mine", no named voucher (Recommendations); added to the names in question,
+Psychological Safety (a people-manager reading with Team Leadership and Mentoring) and Emerging
+Technologies (self-appointed, to the cold reader); recorded without change at his word, the pins
+(the cold reader read a founder the record does not show, the warm reader a direction he is
+going and found it informative; his word of the afternoon stands), C, the physics-methods cluster,
+the headline (the cold reader called it noise and the About's second sentence did its job);
+rejected, the cold reader's wish to ask an Oak contact where he sat in the leadership line
+(EDR-008 §4, the mis-cast question is never answered on the page) and the funder's question of
+what he wants next (inform only, offer only, by design). The tester reading comes from the
+earlier titles, not the list; the past is real and stays. Next: his dispositions on the names
+(the afternoon's draft plus the two added); then the records of his word; then his full review
+and edit in the editor. moved for the sites: nothing / moved for the Practice: nothing.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of

@@ -269,21 +269,21 @@ Status: drafted (11 October 2026, at Jim's decisions after the live read and the
 - Artificial Intelligence (AI)
 - Social Impact
 - Leadership
+- Strategy
+- Technology Leadership
+- Product Strategy
 - Creativity and Innovation
 - Scientific Research
-- Social Innovation
 - Research and Development (R&D)
 - Prototyping
 - Emerging Technologies
+- Social Innovation
 - Startups
 - AI Agents
 - Model Context Protocol (MCP)
 - Generative AI
 - Responsible AI
-- Strategy
-- Product Strategy
 - Digital Strategy
-- Technology Leadership
 - System Architecture
 - Platform Engineering
 - Product Engineering

@@ -55,19 +55,34 @@ Open for Jim's full review and edit, in one list (11 October 2026, afternoon):
 
 1. The About: the fold proposal (in chat, not applied); "England's official curriculum body"
    against "arm's-length body of the Department for Education"; a sentence that shows a decision
-   above the engineering function, if one exists; "since 2020" as arrival or strategy.
+   above the engineering function, if one exists; "since 2020" as arrival or strategy (a cold
+   reader checked it against the Senior Developer card's dates); the Practice paragraph read by
+   both readers at mechanism altitude, the one line that moved them being that the engineers
+   working there use it; "the standards travel with the data" unclear to both at reading speed,
+   explained by the sentence after it.
 2. The Oak cards: "meant no child missed out on education" (his phrase, the editor's objection
    beside it); the gloss of the Open Curriculum Ecosystem for a reader who has never met it;
-   decide or recommend on the rebuild.
+   decide or recommend on the rebuild; "Inside it the agents build; the judgement and the calls
+   are mine" read by a cold reader as lowering the altitude to one person operating tools.
 3. The earlier entries' facts: Code Science's dates and clients; Obaith's title, dates and
    pattern; "won multiple awards"; the one-in-ten finding's attribution; the Firefox OS app; the
    plugin project's start year; Startups is shown only by the Medicspot card.
 4. The new sections' calls: the top-card industry (read at application); the banner; pronouns;
-   the Portsmouth school field; the two 2016 certificates proposed for removal; the volunteering
-   cause field; the Institute of Physics grade.
+   the Portsmouth school field; the two safety certificates proposed for removal, and now the two
+   Johns Hopkins course certificates, which both readers read as lowering the altitude beside a
+   PhD and one as a retraining toward data science; the volunteering cause field; the Institute
+   of Physics grade.
 5. Skills: the thirty-seven names still in question, the four questioned in the decided list and
-   the additions, put to him as one draft on 11 October; the registry carries each.
-6. Recommendations: who to ask.
+   the additions, put to him as one draft on 11 October; after the readers, Psychological Safety
+   and Emerging Technologies join the questions; the registry carries each. The readers' result
+   on the whole: the page describes an engineering strategist and originator inside a national
+   public service with a physics past; the list's first five names read to a cold recruiter as a
+   founder or impact-sector lead the record does not show, and to a warm funder as the direction
+   he is going, informative rather than a mark against him; both would forward or longlist. The
+   seat moved Strategy, Technology Leadership and Product Strategy to positions six to eight so
+   the About's second sentence has its names early; reversible at his word. The pins stand at his
+   word.
+6. Recommendations: who to ask; a warm reader found institutional listings and no named voucher.
 7. Settings, at application: Open to Work off; profile-update sharing off during editing, one
    notification at the end.
 

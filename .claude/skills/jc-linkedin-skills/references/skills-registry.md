@@ -41,22 +41,22 @@ exact string.
 | 3 | Artificial Intelligence (AI) | Jim, 11 Oct | — | pin | found as "Artificial Intelligence" | Artificial Intelligence (AI) | Pin 3; the broad tag, see the AI Literacy note. |
 | 4 | Social Impact | Jim, 11 Oct | — | next | found | Social Impact |  |
 | 5 | Leadership | Jim, 11 Oct | 20 | next | found | Leadership |  |
-| 6 | Creativity and Innovation | Jim, 11 Oct | — | tail | not checked | Creativity and Innovation | "Innovation" alone is not standardised. |
-| 7 | Scientific Research | Jim, 11 Oct | — | tail | not checked | Scientific Research | "Research" alone is not standardised. |
-| 8 | Social Innovation | Jim, 11 Oct | — | tail | found | Social Innovation |  |
-| 9 | Research and Development (R&D) | Jim, 11 Oct | — | tail | found | Research and Development (R&D) |  |
-| 10 | Prototyping | Jim, 11 Oct | — | tail | found | Prototyping |  |
-| 11 | Emerging Technologies | seat, 11 Oct | — | tail | found | Emerging Technologies |  |
-| 12 | Startups | Jim, 11 Oct | — | tail | not checked | Startups | The taxonomy's string, not "Start-ups". |
-| 13 | AI Agents | seat, 11 Oct | — | tail | missing | AI Agents |  |
-| 14 | Model Context Protocol (MCP) | seat, 11 Oct | — | tail | missing | Model Context Protocol (MCP) |  |
-| 15 | Generative AI | Jim, 11 Oct | — | tail | missing | Generative AI |  |
-| 16 | Responsible AI | Jim, 11 Oct | — | tail | missing | Responsible AI |  |
-| 17 | Strategy | seat, 11 Oct | 14 | tail | found | Strategy | Takes the slot of Engineering Strategy, not standardised. |
-| 18 | Product Strategy | Jim, 11 Oct | 2 | tail | found | live |  |
-| 19 | Digital Strategy | Jim, 11 Oct | 24 | tail | found | Digital Strategy | Kept at his word of the afternoon. |
-| 20 | Technology Leadership | Jim, 11 Oct | — | tail | not checked | Technology Leadership |  |
-| 21 | System Architecture | live | 11 | tail | found | live | In question for Jim (the afternoon's draft). |
+| 6 | Strategy | seat, 11 Oct | 14 | tail | found | Strategy | Takes the slot of Engineering Strategy, not standardised; moved up after the readers (the About's second sentence is the strategy remit). |
+| 7 | Technology Leadership | Jim, 11 Oct | — | tail | not checked | Technology Leadership | Moved up after the readers: the first name that pins the strategy to engineering. |
+| 8 | Product Strategy | Jim, 11 Oct | 2 | tail | found | live | Moved up after the readers. |
+| 9 | Creativity and Innovation | Jim, 11 Oct | — | tail | not checked | Creativity and Innovation | "Innovation" alone is not standardised. |
+| 10 | Scientific Research | Jim, 11 Oct | — | tail | not checked | Scientific Research | "Research" alone is not standardised. |
+| 11 | Research and Development (R&D) | Jim, 11 Oct | — | tail | found | Research and Development (R&D) |  |
+| 12 | Prototyping | Jim, 11 Oct | — | tail | found | Prototyping |  |
+| 13 | Emerging Technologies | seat, 11 Oct | — | tail | found | Emerging Technologies | A cold reader called it self-appointed; in question for Jim. |
+| 14 | Social Innovation | Jim, 11 Oct | — | tail | found | Social Innovation |  |
+| 15 | Startups | Jim, 11 Oct | — | tail | not checked | Startups | The taxonomy's string, not "Start-ups". |
+| 16 | AI Agents | seat, 11 Oct | — | tail | missing | AI Agents |  |
+| 17 | Model Context Protocol (MCP) | seat, 11 Oct | — | tail | missing | Model Context Protocol (MCP) |  |
+| 18 | Generative AI | Jim, 11 Oct | — | tail | missing | Generative AI |  |
+| 19 | Responsible AI | Jim, 11 Oct | — | tail | missing | Responsible AI |  |
+| 20 | Digital Strategy | Jim, 11 Oct | 24 | tail | found | Digital Strategy | Kept at his word of the afternoon. |
+| 21 | System Architecture | live | 11 | tail | found | live | In question for Jim (the afternoon's draft; the seat's verdict keep). |
 | 22 | Platform Engineering | seat, 11 Oct | — | tail | missing | Platform Engineering |  |
 | 23 | Product Engineering | Jim, 11 Oct | — | tail | found | Product Engineering | His word, confirmed in the afternoon. |
 | 24 | Developer Experience | seat, 11 Oct | — | tail | missing | Developer Experience |  |
@@ -80,7 +80,7 @@ exact string.
 | 42 | Technical Leadership | live | 10 | tail | found | live | No endorsement line; in question for Jim. |
 | 43 | Team Leadership | live | 1 | tail | found | Team Leadership | No endorsement line; in question for Jim. |
 | 44 | Mentoring | Jim, 11 Oct | — | tail | found | Mentoring | Replaces Coaching at his word of the afternoon. |
-| 45 | Psychological Safety | seat, 11 Oct | — | tail | missing | Psychological Safety | Jim has not objected. |
+| 45 | Psychological Safety | seat, 11 Oct | — | tail | missing | Psychological Safety | Both readers read it with Team Leadership and Mentoring as a people manager; in question for Jim. |
 | 46 | Software Engineering | Jim, 11 Oct | 38 | tail | missing (crawl gap) | live | Endorsed (2 to 3); kept for its endorsements. |
 | 47 | Software Development | Jim, 11 Oct | 31 | tail | found | Software Development | Endorsed (12); kept for its endorsements. |
 | 48 | Web Applications | Jim, 11 Oct | 32 | tail | found | live | Endorsed (at least 1); kept for its endorsements. |
