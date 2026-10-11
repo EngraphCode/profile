@@ -224,6 +224,41 @@ in the editor (reload the tab first); his word on Recommendations; then the appl
 Chrome with him present, after a PDF export of the live profile. moved for the sites: the entity
 graph's credential names and the institute's name / moved for the Practice: nothing.
 
+### 2026-10-11T12:2xZ — compaction boundary at the owner's word; the profile complete and awaiting his full review and edit (Shrew rides Eventide, 371a2b)
+
+The owner's word: "prepare for compaction, do nothing else". This block is the pickup. The
+state, by his words of the afternoon: the whole profile is drafted in `linkedin/profile.md`, its
+editor copy identical, and he will "do a full review and edit" in the editor (reload the tab
+first; the page autosaves the whole text area and has no conflict check). After his review, the
+decisions of the afternoon that shape the lane: Oak's official claims are used wherever they
+benefit him, each high-impact claim once and prominently (the reach of over 200,000 teachers
+and the AI-ready infrastructure framing sit once each in the About); "originator, innovator,
+scientist" outranks "engineering leader" everywhere, with leadership in general and leading
+innovation kept at the top of the Skills and the engineering-function leadership terms lower,
+kept because they open doors; the testing trade's tags are gone from the Skills at his word.
+Open at the boundary, beyond the container's lists: the Skills tail (about twenty developer-tool
+tags that hook contractor searches; the seat's verdict is a cut to around forty-five, decided at
+application with the endorsement counts visible; the counts were never recorded); the exact
+taxonomy strings for the twenty-two added skills, checked at application. Next, in order: his
+full review and edit; his dispositions on the container's open items and the Skills tail; his
+word on Recommendations; a PDF export of the live profile; the application through Chrome with
+him present, in one sitting, settings last (Open to Work off, update-sharing off until one
+deliberate notification). The daily fold of the coordination branch is suspended by the owner's
+word of 11 October for the consolidation seat's session, so draft 327 stays open until he lifts
+it; the fold is never run inside a wrap. The records door merged in 328 does not yet wait for a
+review in progress (the owner's word of 11 October; the correction is held unpushed on a worktree
+branch of the closed Cedar turns Grove seat), so a records fold's merge is held by hand while a
+review runs. Processes at the boundary: the owner's editor (`pnpm --filter linkedin editor`, on
+127.0.0.1:4780, reading `linkedin/profile.review.md`) as a background task of this seat; no
+watcher (not re-armed at the owner's word to attend only to the rewrite), no claim, no
+heartbeat, no cron. After a resume, verify the task list first and restart the editor only if it
+is absent and he wants it. Tool facts kept here because they cost three refused commits today:
+the commit-msg hook refuses a header over 100 characters, a subject that starts with a capital
+(sentence-case), and a body line that begins with a word and a colon (commitlint reads it as a
+footer and refuses the missing blank line); a refused commit inside a chained command leaves the
+push running with nothing new, so the commit's sha is read back before any push is reported.
+moved for the sites: nothing / moved for the Practice: nothing.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of
