@@ -125,7 +125,7 @@ the seat; an analyst fleet had been sent first and was stopped at the owner's wo
 entry).
 
 - **A consolidation is single-agent: the seat reads every piece itself; sub-agents lose the lessons**
-  `[captured: 2026-10-11 | source: the owner's word of 2026-10-11 11:3xZ, verbatim: "Consolidation
+  `[captured: 2026-10-11 | source: the owner's word of 2026-10-11 11:0xZ, verbatim: "Consolidation
   sessions are single agent only, work via subagents loses all direct understand and therefore
   loses lessons", after this seat sent seventeen analysts over the notebooks, the stream and the
   memories | target: .agent/skills/knowledge/consolidate-until-done/SKILL-CANONICAL.md §Approach
@@ -388,6 +388,179 @@ verification-method-must-answer-the-question pattern; the no-escape-hatches ruli
 graduated to principles.md §Strict and Complete. All homes verified live before this
 drain. The commits and the homes are the record. -->
 
+### Drained 2026-10-11 from the two napkins (Corsair weaves Seabed, 459358)
+
+The JC.net napkin (1,376 lines, 37 blocks, 2026-10-02T23:16Z to 2026-10-11) and the OCE napkin
+(459 lines, 20 blocks, 2026-09-29 to 2026-10-05) were read whole by the seat, every candidate
+lesson probed by phrase in both estates' rules, skills, directives, Core, reference, patterns and
+executive memory before it was written here (a control term first; a lesson a home already
+carries is not an entry). The entries sourced from the OCE napkin sit in the OCE register's batch
+of the same date; every target below is the same bytes in both estates unless marked. The napkins
+are rotated after this batch, so a source cites the block's heading, which the archive keeps
+byte-identical.
+
+- **A frontmatter edit is an adapter edit: render in both estates before any push**
+  `[captured: 2026-10-11 | source: napkin blocks 2026-10-03 (Hazel, Efreet), 2026-10-05T16:3xZ
+  (Sycamore), 2026-10-08T13:xxZ (Cedar); the OCE napkin 2026-10-02T00:10Z | target:
+  .agent/skills/lever-authoring/author-skills/SKILL-CANONICAL.md, the common-mistakes list
+  (the line "Editing a description without re-rendering the adapters") | trigger: the doctrine
+  pull request of this pass | size: one paragraph | status: due]`
+
+  A rule's or skill's frontmatter (name, description, declaration) is part of the rendered
+  adapters: `pnpm portability:fix` after any rule frontmatter edit and `pnpm skills:generate`
+  after any skill edit (the sibling under its prefix flag), both before the push, in both estates
+  when the bytes are shared; `portability:check` does not read descriptions, `skills:check`
+  does. A new slash skill also needs its `Skill(<prefix>-<name>)` entry in the tracked Claude
+  settings, and a description containing ": " is quoted or the declaration parser refuses it.
+
+- **A reading of an owner's word that changes a Core decision lands as a PDR amendment**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-03T07:1xZ (Hazel) | target:
+  .agent/rules/new-rule-vs-pdr-clause.md, one sentence in the decision procedure | trigger: the
+  doctrine pull request of this pass | size: one sentence | status: due]`
+
+  A reading of an owner's word that changes what a Core record decides lands as an amendment of
+  that record, dated and quoting the word, never as a rule sentence that contradicts the record
+  while the record stands.
+
+- **A sentence about what a tool does is written after opening its source and its configuration**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-03T02:xxZ (three over-claims caught by
+  Copilot in one night; "already" is the tell); the OCE napkin 2026-10-02T10:3xZ (Efreet: the
+  failed claims "checked the source or the configuration but not both") and 2026-10-03T19:5xZ
+  (paths checked one by one; two listings printed together read as one) | target:
+  .agent/rules/verify-dont-trust.md, the claims-about-code clause, and the fold skill's
+  precondition 3 brief (the classes the records pass reads for) | trigger: the doctrine pull
+  request of this pass | size: one paragraph and one brief line | status: due]`
+
+  A sentence that says what a tool, hook or validator does is written after opening the tool's
+  source AND the configuration that wires it; one without the other is a guess ("already" and
+  "names none" are the tells). A host binding written at a carry is read back in the carried
+  file and each path checked one at a time, never two listings read as one.
+
+- **Cross-estate gates and seam tests are proved on the other tree, by the validator's own node**
+  `[captured: 2026-10-11 | source: napkin blocks 2026-10-03T07:1xZ (Hazel), 2026-10-05T11:3xZ
+  (Crucible: the depcruise gate pinned one estate's workspace roots) | target:
+  .agent/rules/cross-estate-work-must-reduce-divergence.md, the carry step | trigger: the
+  doctrine pull request of this pass | size: one paragraph | status: due]`
+
+  A gate or validator that runs in both estates is demonstrated on the other tree before it is
+  called done; a seam test on carried shared bytes is routed to the validator's own node, never
+  added in one estate alone; a one-body gate that pins a host's directory list is a host binding
+  in disguise (compute the list from the workspace manifest).
+
+- **Divergence is measured at the close of a pair; an estate-neutral script resolves the default branch**
+  `[captured: 2026-10-11 | source: the OCE napkin 2026-10-02T00:10Z (Hazel: 147 files at the
+  open, 150 at 23:16Z, twin pull requests landing an hour apart); napkin block
+  2026-10-05T17:3xZ (Sycamore: a containment check assumed the name main on the sibling) | target:
+  .agent/rules/cross-estate-work-must-reduce-divergence.md, the measurement clause | trigger:
+  the doctrine pull request of this pass | size: two sentences | status: due]`
+
+  The divergence measure is read at the close of a pair of landings, never mid-pair (each
+  estate's review changes the bytes until both merge). A script that runs in both estates
+  resolves the default branch the way the fold skill does, never by the name `main`.
+
+- **A test file's comment names what each surface proves**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-03T07:1xZ (Hazel) | target:
+  .agent/directives/testing-strategy.md, the test-description clause (directive, the next
+  context below the budget) | trigger: the context after the next compaction | size: one
+  sentence | status: due]`
+
+  A test file's opening comment names which surface each test proves (the source, the
+  configuration, the rendered adapter), so a reader knows what a green run certifies.
+
+- **The host's mergeability check does not follow renames: merge the default branch in, never rebase**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-03T07:1xZ (Hazel) | target:
+  .agent/skills/change-custody/pr-lifecycle/SKILL-CANONICAL.md §Phase 1 step 1 "Divergence",
+  beside the OCE register's merge-never-rebase entry (OCE commit e2f50a6ed) | trigger: the
+  doctrine pull request of this pass | size: one sentence | status: due]`
+
+  The host's mergeability reading does not follow renames across the merge base, so a branch
+  that renamed what the default branch edited reads CONFLICTING until the default branch is
+  merged in; the cure is the merge, never a rebase.
+
+- **An estimate is summed from the artefact's closures; a sketch node's stamp gates nothing**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-03T12:xxZ (Hazel); the OCE napkin
+  2026-10-02T18:5xZ (Efreet, the Director's correction absorbed) | target:
+  .agent/skills/planning/plan/SKILL-CANONICAL.md §Size (beside the yardstick entry of this
+  register) and its ratification clause | trigger: the doctrine pull request of this pass |
+  size: two sentences | status: due]`
+
+  An estimate is summed from the artefact's own closures (files, hunks, gate runs), never from
+  feel. A sketch delivery node's own stamp gates nothing when the ratified strategic node names
+  the target and delegates authoring to the implementer at pickup; writing a wait on that stamp
+  rebuilds a gate on the owner that the ruling forbids.
+
+- **A plan drafted at a compaction boundary gets both Cricket stances at the resume**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-04T09:4xZ (Crucible: the first sketch
+  reproduced the instrument it was replacing; two Crickets in both stances named it before the
+  owner read the plan) | target: .agent/skills/cognition/cricket/SKILL-CANONICAL.md §When to
+  call the panel, beside the full-suite-at-seating entry of this register | trigger: the
+  doctrine pull request of this pass | size: one sentence | status: due]`
+
+  A node written at a compaction boundary inherits the boundary's fatigue shape; at the resume,
+  before the owner reads it, two Crickets in both stances read the sketch.
+
+- **The owner's words are read at the scope the owner gave them**
+  `[captured: 2026-10-11 | source: napkin blocks 2026-10-04T19:0xZ and 2026-10-05T00:4xZ
+  (Crucible: the cost guide read per landing where the owner said it of the whole; "finished"
+  tested against an older guide a later ruling had replaced) | target:
+  .agent/memory/executive/owner-signal-interpretation.md, one paragraph | trigger: the doctrine
+  pull request of this pass | size: one paragraph | status: due]`
+
+  An owner's guide or ruling is read at the scope the owner gave it (the whole, not each
+  landing), and the latest ruling on a scope replaces the earlier one; a seat that re-scopes a
+  guide to fit a shape it has chosen is narrowing.
+
+- **A comms event is an edit to a tree under a running gate**
+  `[captured: 2026-10-11 | source: napkin block 2026-10-05T20:5xZ (Crucible: two consultation
+  events posted while the successor's pushes ran; the substrate check refused both pushes at
+  the final gate, ten minutes each) | target: .agent/rules/lint-after-edit.md, the records-push
+  paragraph, beside the no-edit-under-a-gate entries of this register | trigger: the doctrine
+  pull request of this pass | size: two sentences | status: due]`
+
+  The rendered comms read model is gitignored and the substrate check reads it, so a comms
+  event during a push gate is an edit to the tree under that gate; the push order is render
+  the read model, push, and no event between.
+
+- **Six tool facts for the gotchas reference**
+  `[captured: 2026-10-11 | source: napkin blocks 2026-10-03T12:xxZ (Hazel), 2026-10-05T11:3xZ
+  (Crucible), 2026-10-10T15:4xZ (Shrew); the OCE napkin 2026-10-02T00:10Z (Hazel) and
+  2026-10-03T00:5xZ (Efreet) | target: .agent/reference/shell-and-tooling-gotchas.md, one
+  bullet each beside their nearest entry | trigger: the doctrine pull request of this pass |
+  size: six bullets | status: due]`
+
+  A table transform rebuilds each row from its cells; the closer's width check is necessary,
+  not sufficient, and `grep ' | |$'` finds the empty cell. Markdownlint by explicit path still
+  ignores `.agent/reports/**`; lint a report by copying it outside the repository with the repo
+  config. A commit pathspec that names a renamed or deleted path aborts the whole `git add`:
+  stage what exists, commit by the full pathspec. `pnpm --filter <name>` with no matching
+  package prints "Scope: 0 of N" and exits 0; a test run's proof is its "Test Files" line. In
+  Python, `open(p, "w").write(compute())` truncates the file before `compute()` runs: compute
+  first, then open. A sender probe against the live comms directory writes an event before its
+  output step fails: probe against a scratch directory.
+
+- **Harness facts for the Claude integrations reference (this estate only)**
+  `[captured: 2026-10-11 | source: the OCE napkin 2026-10-02T18:5xZ (Efreet); napkin blocks
+  2026-10-08T15:xxZ (Cedar) and 2026-10-02T18:5xZ | target:
+  .agent/claude-harness-integrations/, the page the harness-craft entry of this register names
+  | trigger: the doctrine pull request of this pass | size: three bullets | status: due]`
+
+  After a pane-teammate wave, stop the finished panes before the next wave spawns and read each
+  judge's final text from its session transcript, never wait on the return notification. A
+  sub-agent's report arrives as an agent message and nowhere else, so a report needed past a
+  compaction is written to a file before the boundary. A Monitor's output file after its expiry
+  is stale: read the stream fresh before any hold line.
+
+- **Three write-time hook facts**
+  `[captured: 2026-10-11 | source: napkin blocks 2026-10-06T16:2xZ (Cedar), 2026-10-05T11:3xZ
+  (Crucible); the OCE napkin 2026-10-02T10:3xZ (Efreet) | target:
+  .agent/rules/hook-policy-substring-discipline.md, the examples list | trigger: the doctrine
+  pull request of this pass | size: three sentences | status: due]`
+
+  The write-time policy refuses a record that quotes an owner message containing a user-home
+  absolute path (quote in substance with the repo-relative path), a script carrying the
+  checkout's absolute path (`$HOME`-relative passes), and a heredoc whose text carries a banned
+  phrase (write the brief with the file tool).
+
 ## Slow lane (PDR-130 — constitutional-class concepts, decided at their review date)
 
 Rows here are live deliverables under a named review gate, NOT decision-debt:
@@ -399,6 +572,7 @@ review — promote/kill applies only to not-yet-minted concepts.**
 
 | Concept | Prediction (by review) | Falsifier | Review |
 | ------- | ---------------------- | --------- | ------ |
+| Settlement under sampling reviewers cures the class, not the instance, and the budget counts the rounds two reviewers add at every push (retrospective 2026-10-05, proposal 3; the record named this section as the row's home in both estates and no row existed until the third dedicated consolidation registered it on 2026-10-11) | the next landing of more than two hundred files settles in at most three pushes per estate | a class cure that draws a further round on the same class | 2026-10-19 |
 | Owned doctrine is placed where the situation arises, not only where the instrument's ceremony lives (the arc's retrospective and its second protected pass, 2026-09-16; owner's card filing it to this lane): an estate that imports or accumulates doctrine faster than it places it leaves rules that read correctly and fire nowhere; four situations the arc met were answered by doctrine already in the tree (PDR-140's response pricing, the 2026-07-15 handover ruling, the coordination branch's home clause, pr-lifecycle's silent-CI clause), each surfacing through the owner or a peer, while doctrine firing was otherwise the norm (seventeen decision records and twenty-eight rules cited); the placement question is whether a general mechanism is needed (triggers keyed to the seat's situation) or whether per-instrument gates suffice | With the per-instrument gates adopted (PDR-140's declaration at open, the push-time budget gate, records riding their pull request), owner corrections that already-owned doctrine answered fall to at most one per arc | Two or more such corrections in any arc after the gates land: the gates are too narrow and a general placement mechanism is needed | 2026-12-15 (first consolidation on/after) |
 
 <!-- Drained at the 2026-09-06 dedicated consolidation: ten entries decided, every one already
