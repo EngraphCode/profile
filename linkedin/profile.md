@@ -58,7 +58,7 @@ Link: <https://claude.com/marketplace/connectors/oak-national-academy>
 
 Status: drafted (11 October 2026; Oak's own words from its who-we-are page; awaiting Jim)
 
-Every national curriculum subject, every unit, every lesson, created by subject and curriculum experts, free to every teacher and funded by the Department for Education.
+Every national curriculum subject, every unit, every lesson, created by subject and curriculum experts, used by over 200,000 teachers across England, free and funded by the Department for Education.
 
 Link: <https://www.thenational.academy/>
 
@@ -70,11 +70,11 @@ Status: drafted
 
 Status: drafted (8 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the level and the Practice paragraphs added at Jim's word, awaiting Jim)
 
-I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, the case for it to senior leadership, engineers and non-engineers alike, and Oak's engineering relationships with the vendors and partners it builds with. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
+I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, the case for it to senior leadership, engineers and non-engineers alike, and Oak's engineering relationships with the vendors and partners it builds with. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups, building a service used by over 200,000 teachers across England. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
 
 Even with the emergency platform safe to change, every change got harder and every release slower. I argued that optimising it was the wrong starting point and that Oak should rebuild. Oak did; I stood behind the call and accepted the near-term risk to delivery and reputation. Everything Oak has built in the four years since stands on that rebuild.
 
-The Oak AI plugin began in 2024 as an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. I made the case, built a public SDK on the data by hand before the route existed, then the route itself, a service now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP). The curriculum is the experts' work; the plugin's shape, its development and its strategy came from me.
+The Oak AI plugin began in 2024 as an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. I made the case, built a public SDK on the data by hand before the route existed, then the route itself, a service now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP). Oak now describes that curriculum as AI-ready public digital infrastructure. The curriculum is the experts' work; the plugin's shape, its development and its strategy came from me.
 
 As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data. The plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
 
