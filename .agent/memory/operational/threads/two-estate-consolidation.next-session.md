@@ -6,7 +6,7 @@ triggered by `.agent/prompts/dedicated-consolidation-session.md` (a trigger, nev
 store: the owner's word 2026-09-30). The owner's words: "the next session will run a dedicated
 consolidation session across both estates"; "JC.net will be the home repo, where the relevant
 skills differ, 1. they shouldn't and that needs fixing, and 2. the next agent can be instructed
-to read the OCE skills". **Participating agent identities:** Crucible binds Slag (7b999c, claude-code, claude-fable-5-1, the Director across both estates over the second pass's folds, tails and ledger, 2026-10-02 to 2026-10-03, closing the day at the owner's word of 2026-10-03 20:0xZ with the parity frame set aside and the review node `practice-system-review` planned, n=1 from there; the n=1 seat again from the resume of 2026-10-04, the review node reshaped and ratified, the layer pass read, the report drafted); Hazel tracks Trunk (7d8b9d, claude-code, claude-fable-5-1, the second pass's implementer in jimcresswell.net from 2026-10-01, the parity carries and surfaces of 2026-10-03); this record was written by Galaxy binds
+to read the OCE skills". **Participating agent identities:** Corsair weaves Seabed (459358, claude-code, claude-fable-5-1, the third dedicated consolidation's curating seat across both estates from 2026-10-11, n=2 with Shrew rides Eventide on the LinkedIn lane); Crucible binds Slag (7b999c, claude-code, claude-fable-5-1, the Director across both estates over the second pass's folds, tails and ledger, 2026-10-02 to 2026-10-03, closing the day at the owner's word of 2026-10-03 20:0xZ with the parity frame set aside and the review node `practice-system-review` planned, n=1 from there; the n=1 seat again from the resume of 2026-10-04, the review node reshaped and ratified, the layer pass read, the report drafted); Hazel tracks Trunk (7d8b9d, claude-code, claude-fable-5-1, the second pass's implementer in jimcresswell.net from 2026-10-01, the parity carries and surfaces of 2026-10-03); this record was written by Galaxy binds
 Gravity (46de68, claude-code, claude-fable-5-1) at its session close, 2026-09-30T14:3xZ.
 **Landing target for the next session (rewritten 2026-10-04):** the consolidation flow
 (`consolidate-until-done` met in BOTH estates, every live curation buffer empty or
@@ -108,6 +108,82 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   gate refuses outside the records), was settled by the owner on 2026-10-01 before the push; the
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
+
+### 2026-10-11T11:1xZ — the third dedicated consolidation opens: the counts, the finish list, the team (Corsair weaves Seabed, 459358)
+
+The owner's word of 2026-10-11, verbatim: "This is a dedicated consolidation session. The goal
+is knowledge curation, never fitness numbers. Done means empty pending graduations and empty
+buffers: say those counts first in every report. This daily branch fold requirement is
+suspended until this session is complete. Perform the consolidation across both estates, JC.net
+and OCE, keeping the Practice aligned in both. If you have questions, stop, and ask them." His
+note at 10:5xZ: "the act of draining the buffers is likely to result in decision debt, this is
+expected and the proper operation of consolidation. Processing and so reducing that decision
+debt then becomes the post-drain priority." So the pass drains every buffer INTO the
+pending-graduations registers first (the count rises), then graduates the registers to zero.
+
+**The counts at open.** Pending graduations: 0 here, 0 in the sibling; open questions 0 and 0;
+distilled empty and empty. Undrained: this notebook 37 blocks (1,376 lines, 2026-10-02 to
+2026-10-11); the sibling's 20 blocks (459 lines, 2026-09-29 to 2026-10-05); the stream's selected
+events since 2026-10-02, 85 here and 120 there (every over-length body, every directed, owner-word,
+closeout, ruling or correction event); the Claude per-user memory, 36 index entries here and 5
+there; the Codex memory (three files and 23 rollout summaries), the Cursor and Gemini surfaces,
+the three platform plans since 2026-09-30; the previous pass's leftover omnibus commit on
+`docs/consolidation-2-routed-cures` (767c05a9 here, f9f0a2ca6 there) and `docs/consolidation-2s-skills`
+(78547cb3f there); the sibling's slow-lane row whose review date arrived 2026-10-10.
+
+**Decided at open, first-hand.** The omnibus residue: every unlanded line lives on `main` in other
+words (the non-contiguous archive clause in `continuity-practice` §Disposition and
+`consolidate-docs` 6b; the commit skill's build-through-a-check clause; the fold skill's
+two-moments sentence; F-219 and F-224; the Monitor rule's one-shot clause in the owner's later
+wording), and PDR-075's "Accepted" text was superseded by the reviewed landing as Proposed,
+consistent across PDR-075, PDR-130 §First review, the Core changelog and the index in both
+estates; the three branches carry nothing left to land. Three eight-day-stale claims archived
+with their closure evidence (Hazel tracks Trunk's two, whose flow the alignment node closed on
+2026-10-05; Efreet lifts Scorch's, whose retire port merged as #333 on 2026-10-02). The 7c audit
+here: every active thread has its record, the retired `practice-exchange-seat` carries its
+banner; in the sibling three root records (`agentic-mechanisms-discovery`,
+`data-sources-governance`, `eslint-no-throw-result-migration`) are paused threads filed at the
+root, for the close report.
+
+**The finish list, counted, each with its landing path.**
+
+1. This notebook's 37 blocks: read in nine pieces by analysts, every claim re-read at source;
+   the lessons that have homes confirmed there, the rest written into
+   `pending-graduations.md` as entries; then the rotation: the whole file archived byte-identical
+   against its committed blob to `archive/napkin-2026-10-02-to-2026-10-11.md`, a fresh napkin
+   opened; Shrew rides Eventide's "napkin clear" word given at 3ca7953a, writes held until
+   "rotation done". A records commit on the coordination branch.
+2. The sibling's 20 blocks: the same in two pieces; its register; its rotation to its archive; a
+   records commit on its coordination branch.
+3. The selected stream events, 85 and 120: the non-state ones read, lessons joined to the
+   notebook's, un-homed ones into the registers.
+4. The Claude per-user memory, 36 and 5 index entries: graduated ones' index lines retired;
+   un-homed doctrine into the registers; owner-private files untouched, chat-only.
+5. Codex, Cursor, Gemini and the three plans: swept, each item with a disposition.
+6. The sibling's slow-lane row (model-authored text crosses a trust boundary only through a
+   harness-owned closed grammar): the wrappers and the reader hold, F-218 is the third instance
+   found with its cure open, the falsifier never fired; promoted, as a register entry whose home
+   is `principles.md` in both estates (a directive edit, the next context).
+7. The registers graduated to zero: every entry decided; non-directive homes land in this
+   context as one doctrine pull request per estate from a worktree, the same bytes; directive-bound
+   entries land in the context after the next compaction under the 30 % gate.
+8. The oversized memory files, by `continuity-practice` §Disposition (leave-if-live; else
+   graduate, then archive byte-identical): here `repo-continuity.md` (950 lines),
+   `director-handoff.md` (365), this record (184 KB), the retired `practice-exchange-seat` record
+   (225 KB); there `repo-continuity.md` (2,918 lines), `director-handoff.md` (1,000),
+   `frictions-register.md` (4,792), the `estate-coordination` (2,988), `codex-dialogues` (1,342)
+   and `agentic-engineering-enhancements` records. Priced by their entries, not their size; a
+   surface that does not fit a context gets a context of its own, never a half-read.
+9. The close: `practice:fitness:strict-hard` read as a signal and named, the counts first, the
+   7c findings to the owner, the wrap.
+
+**The team.** n=2: Shrew rides Eventide (371a2b) on the primary on the LinkedIn lane (its push of
+3ca7953a landed at 11:0xZ, gate green); it held no claim and no heartbeat, so the coordination
+surfaces read quiet at this seat's open and the direct channel showed it. Protocol both ways: say
+on the channel before any commit or push on the primary, stage by explicit pathspec, never edit
+the tree while a push gate runs. This seat edits nothing of the LinkedIn lane's. Context at open
+25.4 % of a million-token window; directive edits queue for the next context. Watchers live on
+both streams (asserted); claims open in both registries with `--role curator`.
 
 ### 2026-10-05T17:1xZ — the 2026-10-04-eebe40 branch folded as 320; the successor cut (Sycamore holds Spore, 18d874)
 
