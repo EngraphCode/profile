@@ -160,13 +160,51 @@ Activity and interests are not profile content and are left as they are. The Vox
 page under Jim's account reserves a name only (Jim, 7 October) and gets no entry and no
 organisation line.
 
-## Experience — earlier entries — open
+## Experience — earlier entries — drafted, awaiting Jim
 
 Brief and true, each a concrete instance of the pattern, never a repeated theme: Code Science
 (founder; incorporated 9 February 2015, dissolved 2 January 2024); Medicspot; Obaith (a research
 project, full time); the UK Passport Office; British Airways; We Predict; FT Labs; Carnegie
 Mellon University in Qatar; the University of Portsmouth; HP Labs. Draft 1 is the source for
 their facts. "Fractious" goes.
+
+Drafted 11 October by the method, each entry with one job on EDR-008's axis (the `editor`'s
+mapping): Code Science frames the consultancy years as range by design; HM Passport Office is the
+answer that was a practice, not a system (six teams agreeing what to build before anyone built
+it); Obaith is the problem with no shape and the decision to stop; British Airways is changing
+the context rather than optimising within it; HP Labs is the earliest instance of the pattern
+the Oak card closes on (build the first version, hand it on, it outlasts him); FT Labs 2011 to
+2013 is originating on the open web; the PhD is the method and one result; Medicspot, We Predict,
+FT Labs 2013 to 2014 and Carnegie Mellon are plain facts with no consequence claim. Two claims
+the sources did not support came out at the `editor`'s evidence pass: completed developer-support
+work at FT Labs 2013 to 2014, and continuous-delivery tooling in place at the Passport Office;
+each returns in Jim's words if it shipped. The copy: [`profile.md` § Experience](profile.md#experience).
+
+Open for Jim: Code Science's dates (LinkedIn February 2015 to February 2024 against the
+graph's 2018) and the named clients (Oak only is sourced as a Code Science engagement; the
+Passport Office and British Airways return on his word); Obaith's title (the card says
+"Independent research", LinkedIn says Founder), dates and work pattern; FT Labs as two cards or
+one; "multi-award-winning" for the FT Web App (his live words; the CV says award-winning);
+whether the one-in-ten galaxy finding is his thesis's or the collaboration's; the FT Firefox OS
+app as a shipped product beside Windows 8 (his live record; the contribution analysis called it
+experimental); the locations (Carnegie Mellon's card says Qatar, the seat's inference; the
+Portsmouth and HP Labs cards say United Kingdom).
+
+The `audience-reader` on the run, under a brief on EDR-008's axis, 11 October: both readers now
+read Oak as a pattern and not a one-off ("everywhere he has been, the thing he changed was how
+the people around him decided what to build, and the thing he left behind tended to keep running
+after he left"); the Passport Office and PhD sentences answered "a problem whose answer was not a
+system"; the breadth read as one thread through different places, with the restlessness flicker
+coming from the three short fragments (We Predict, Carnegie Mellon, FT Labs 2013 to 2014) and
+Medicspot, which changed nothing either reader believed and together made the middle of the run
+read as a technician's CV; Obaith is the card both found most interesting and least satisfying,
+the only one where he shaped the problem himself and the only one with no stated outcome, and
+the question both would open a conversation with. Verdicts for Jim: drop We Predict and Carnegie
+Mellon from the run (two months each, a stack and a tool; the gaps they leave are shorter than
+the flicker they cause); make FT Labs one card, 2011 to 2014, so the tooling year rides the Web
+App story (the graph already records one role, Senior Developer; the title is his); keep
+Medicspot as the plain fact it is; and give Obaith its outcome in his words, what the two years
+produced and whether the question still drives him, since no source holds it.
 
 ## Featured — open
 

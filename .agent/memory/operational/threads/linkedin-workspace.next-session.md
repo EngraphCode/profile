@@ -173,6 +173,25 @@ decision above the engineering function, if one exists; what to call the Open Cu
 Ecosystem for a reader who has never met it. moved for the sites: nothing / moved for the
 Practice: EDR-008 and the doctrine clauses above; the three-layer sketch.
 
+### 2026-10-11T10:5xZ — the earlier entries drafted by the method; awaiting the owner (Shrew rides Eventide, 371a2b)
+
+The eleven earlier Experience entries (Code Science to Hewlett-Packard Laboratories) drafted
+into `linkedin/profile.md` from the live baseline, draft 1, the CV content and the entity graph,
+each with one job on EDR-008's axis (the mapping is in the container's earlier-entries section);
+the `editor` and `prose-expert` in parallel (two unsupported claims removed at the evidence
+pass: completed developer-support work at FT Labs, continuous-delivery tooling in place at the
+Passport Office), then the `audience-reader` on the run: both readers read Oak as a pattern, the
+Passport Office and PhD sentences answered the "not a system" question, the breadth read as
+range, and the three two-month fragments plus Medicspot were the noise and the restlessness
+flicker. Open for the owner, in the container: Code Science's dates and named clients; Obaith's
+title, dates, pattern and outcome (the card both readers would open with); FT Labs as one card;
+the two short contracts, whose removal is the seat's verdict; "multi-award-winning"; the
+one-in-ten finding's attribution; the Firefox OS app; the inferred locations. Also the blog as an
+existing surface class for the three-layer sketch (the owner, 11 October). Next: his dispositions
+on the Oak block and the run; then Featured, Projects, skills, recommendations, settings; the
+application only at his express request with him present. moved for the sites: nothing / moved
+for the Practice: nothing.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of

@@ -114,8 +114,9 @@ next cycle.
 
 Two layers suffice: general and instance, with surface knowledge as sections in each, because
 only two surface classes have real practice today and a third directory multiplies files. Held
-against it: the blog and the essay are named by the owner as surfaces to come, the CV and
-LinkedIn already differ in mechanics that change on the platform's clock and nobody else's, and
+against it: the blog is an existing category (the owner's blog-ideas repository, a sibling
+checkout, 2026-10-11), the essay is named as a surface to come, the CV and LinkedIn already
+differ in mechanics that change on the platform's clock and nobody else's, and
 a section inside a general file cannot be carried to another estate without the file. The seam
 is the rate of change; three rates, three layers. The sketch stands or falls on that claim, and
 the falsifier is a surface-class file that turns out to hold nothing a general file does not.

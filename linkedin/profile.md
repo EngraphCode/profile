@@ -70,6 +70,72 @@ Status: drafted (8 October 2026; revised by Jim, 10 October 2026; the readers' l
 
 Oak had launched in April 2020 as an emergency pandemic response, and four contractors were building the platform that meant no child missed out on education. I joined to get the first teacher-facing service shipped, and it shipped, backed by the testing and engineering foundations the first months had left no time for.
 
+### Managing Director · Code Science Limited · Feb 2015 – Feb 2024 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+Code Science was my consultancy. Through it I consulted for Oak National Academy and other public and private sector clients, on software, technical strategy and how teams specify, test and deliver.
+
+### Head of Test (consulting) · Medicspot · Apr 2020 – Jul 2020 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+At a medical technology start-up I built full-stack automated testing in continuous integration for its Express and React applications, and got the team using it.
+
+### Independent research · Obaith · Jan 2018 – Apr 2020 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+Obaith was research I meant to turn into a company: how shifts in constraints, defaults and access routes change what a system does over time, and whether digital services could do the same for climate, biodiversity and social connection. I chose to stop, and the lesson I kept is that delivery beats perfect planning.
+
+### Programme QA Consultant · UK Home Office · Feb 2017 – Dec 2017 · London
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+Across six agile teams building HM Passport Office's public-facing service, I made specification a whole-team act: workshops around concrete examples, each written so it could be checked automatically. The teams agreed what to build before anyone built it, and rework fell.
+
+### QA Automation Consultant · British Airways · Mar 2015 – Dec 2015 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+I instigated BA's move from bespoke version control to Git and GitHub, and co-created Specs, which published the version-controlled specifications through a search interface colleagues outside engineering could use.
+
+### Software Developer · We Predict · Sep 2014 – Oct 2014 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+Data visualisation with D3.js on ASP.NET MVC.
+
+### Software Engineer · FT Labs · Jul 2013 – Jul 2014 · London
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+I took on the FT's test automation strategy and tooling: functional tests in WebDriver and Java, scheduled through Jenkins.
+
+### Software Engineer · FT Labs · Aug 2011 – Jul 2013 · London
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+I helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline, among the first of its kind and multi-award-winning. I led the technical delivery of the FT Windows 8 app and the FT Firefox OS app.
+
+### Research Programmer Analyst · Carnegie Mellon University in Qatar · Jun 2011 – Jul 2011 · Qatar
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+I wrote a Perl test harness for the functional testing of astrophysics software.
+
+### PhD Researcher · University of Portsmouth · Sep 2005 – Dec 2010 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+At the Institute of Cosmology and Gravitation I fitted parametric and non-parametric models to large galaxy surveys, and was among the first to combine survey statistics with the morphological classifications of Galaxy Zoo, the citizen science project. The work showed that the field's working assumption, that a galaxy's colour stands in for its age, was wrong for roughly one galaxy in ten: in precision cosmology, enough to force a change of approach.
+
+### Systems Engineer · Hewlett-Packard Laboratories · Apr 2009 – Nov 2010 · United Kingdom
+
+Status: drafted (11 October 2026, awaiting Jim)
+
+I started with manual test plans for HP's D2D storage product. I automated them, turned the scripts into a team-built Perl framework and taught others to use it; HP adopted it, and it ran across HP Labs sites for years after I left.
+
 ## Education
 
 Status: open
