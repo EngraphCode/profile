@@ -454,12 +454,23 @@ choice, each named so the owner can overturn it by number:
    its prediction and falsifier as this record states them, noting that proposals 1 and 2 landed as
    code on the day of the decision.
 
-**The open question of proposal 1, answered by the owner on 2026-10-11**, verbatim: "we don't need a
-timeout, GitHub says plainly if copilot is currently working on a review". The at-green reading stands
-as his decision: a bot-authored records-class pull request merges once the required contexts are green
-and no thread is open, whatever the vendor's run is doing, and the run's state (the
-`copilot-pull-request-reviewer` check-run, the request on the timeline) is read and named, never waited
-on. The ten-minute timeout arm remains the code class's settlement reading only.
+**The open question of proposal 1, answered by the owner on 2026-10-11**, verbatim and in two
+steps: "we don't need a timeout, GitHub says plainly if copilot is currently working on a review",
+then "if github says a review is in progress, we don't merge, we wait for that review". The
+decision: a bot-authored records-class pull request merges at green with no review in progress; a
+review GitHub shows in progress (an outstanding request, the vendor's live run) is waited for and
+its findings dispositioned before the merge; nothing waits on a timer; a review never requested,
+never started or quota-skipped does not hold. The fold's wall time is therefore the longer of the
+gate and the vendor round, never their sum.
+
+**The state at this writing.** The door merged on `main` in 328 does NOT yet do this: it merges on
+WAITING-REVIEW-RUN-LIVE and sets the vendor's pending run aside. The correction (the merge set
+without that verdict, the reviewer's run kept as a hold, and the same words in the fold skill's
+step 7, the lifecycle skill's docs-only clause, PDR-131, PDR-140 clause 9(e) and the merge-bot
+reference) is committed, unpushed, on `fix/records-door-waits-for-a-review-in-progress` in the
+worktree `.claude/worktrees/records-door-waits`, its tests not yet brought to it; the next session
+lands it first (the continuity record's Next Safe Steps step 1). Until it lands, a seat folding
+records through `merge-bot merge` holds the merge by hand while a review is in progress.
 
 Not yet done at this writing: the sibling estate's carry of the shared bytes (the two skills, the
 two PDRs, the agent-tools sources), the next step after 328 merges.

@@ -21,6 +21,18 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-11T10:2xZ: the owner answered the records door's open question, and the door on `main` must
+  change to match** (Cedar turns Grove, 1950d1, closing at his word). His words of 2026-10-11:
+  "we don't need a timeout, GitHub says plainly if copilot is currently working on a review" and
+  "if github says a review is in progress, we don't merge, we wait for that review". A records-class
+  pull request merges at green only when no review is in progress; one in progress is waited for;
+  nothing waits on a timer. The door merged in 328 merges on WAITING-REVIEW-RUN-LIVE and sets the
+  vendor's pending run aside, so it does not yet obey this. The correction is committed, unpushed,
+  on `fix/records-door-waits-for-a-review-in-progress` (worktree `.claude/worktrees/records-door-waits`,
+  cut from `main` at 71e8233b): the code and the five doctrine surfaces, tests not yet brought to it.
+  The retrospective record's owner-decisions section carries the words and this state. moved for the
+  sites: nothing / moved for the Practice: the owner's decision, recorded; the correction, held.
+
 - **2026-10-10T17:3xZ: the owner decided the retrospective's four proposals ("I agree to all four",
   15:18Z) and the two that are code landed with the doctrine as pull request 328, merged at
   `SHA:71e8233b`** (Cedar turns Grove, 1950d1, in a worktree, n=2 with Shrew rides Eventide on the
@@ -378,6 +390,23 @@ The state entries from 2026-09-13 to 2026-09-28 that stood here are archived byt
 - Dev-Tooling Hygiene (dependency updates handled locally).
 
 ## Next Safe Steps
+
+STATE, 2026-10-11T10:2xZ (Cedar turns Grove, 1950d1, closing at the owner's word; Shrew rides Eventide, 371a2b,
+on the Oak entry; n=1 on the primary after this closeout): next safe steps, in order:
+
+1. Land `fix/records-door-waits-for-a-review-in-progress` (worktree `.claude/worktrees/records-door-waits`,
+   one unpushed commit on `main`@71e8233b): bring the merge-decision, merge-records-checks and merge
+   integration tests to the new merge set (a records fold with the vendor's run pending is refused
+   CHECKS-RUNNING and waits; a pending non-required deployment check is still set aside; the set is
+   SETTLE-READY, SILENT-WAIT-NO-REVIEWER, SETTLED-NO-REVIEW, QUOTA-SKIPPED), run the gates, push, open
+   the pull request under the bot, merge through the SETTLE-READY door. Until it lands, hold a records
+   fold's merge by hand while a review is in progress.
+2. The sibling estate's carry of the shared bytes, as the 2026-10-10T17:3xZ state's step 1 below says,
+   with the correction included.
+3. The Oak entry, Shrew rides Eventide's lane (the LinkedIn thread record's current block).
+4. The steps of the 2026-10-10T17:3xZ state below stand where not superseded.
+
+Deep consolidation status: due, held — unchanged; the owner's word of 2026-10-09 13:4xZ holds it.
 
 STATE, 2026-10-10T17:3xZ (Cedar turns Grove, 1950d1, closing after 328; Shrew rides Eventide, 371a2b,
 on the Oak entry; n=1 on the primary after this closeout): next safe steps, in order:
