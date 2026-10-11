@@ -79,8 +79,8 @@ reader decides whether Jim originates, makes sense of problems that have no shap
 shapes strategy and systems at scale, with the breadth to do it again, never whether he fits a
 line role (`docs/editorial/decision-records/008-the-innovator-never-the-engineering-leader.md`).
 His words on the names, 11 October 2026: originator, innovator, scientist before engineering
-leader; leadership in general and leading innovation at the top; the engineering-function skills
-a door, not the aim; the testing trade left behind; the past kept where its endorsements buy
+leader; leadership in general and leading innovation at the top; the engineering-function names
+retrieve but never lead; the testing trade left behind; the past kept where its endorsements buy
 something; nothing trimmed to a number. The tiers he set the same day: the three pins, the next
 two, the long tail, under a cap of 45 as a ceiling.
 
