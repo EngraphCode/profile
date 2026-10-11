@@ -8,6 +8,8 @@ description: >-
 
 # Consolidate Docs
 
+All consolidation sessions are single agent ONLY, sub-agents lose information.
+
 **Scope**: **THREAD-SCOPED** (cross-session). This workflow acts on
 artefacts that accumulate across multiple sessions on one or more
 threads — pattern candidates ready to graduate (single-instance
