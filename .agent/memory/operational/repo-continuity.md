@@ -397,7 +397,9 @@ STATE, 2026-10-11T11:4xZ (Corsair weaves Seabed, 459358, the third dedicated con
 seat across both estates, retiring at the owner's word; Shrew rides Eventide, 371a2b, on the Oak entry;
 the owner names the successor): the consolidation is mid-pass and handed off under PDR-063. The pickup
 is `threads/two-estate-consolidation.next-session.md`, its 11:4xZ and 11:2xZ blocks, and the untracked
-handoff record under `.agent/state/collaboration/handoffs/` named by the curator claim. Next safe
+handoff record `.agent/state/collaboration/handoffs/c119d0f9-8a65-4df0-bb16-b84a5a7bd2cb.md` (gitignored, on
+this machine; its claim was closed and archived with that path at the owner's word on 11 October 13:0xZ, so
+the file name is the pointer and the successor opens its own curator claim). Next safe
 steps, in order:
 
 1. The successor seats, reads `git status --branch` in both primaries, pushes this seat's unpushed
