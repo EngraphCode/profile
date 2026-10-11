@@ -12,7 +12,8 @@ description: >-
   that records skills. Not for the prose fields (write-for-the-reader) nor the sitting itself
   (apply-linkedin-profile). Right looks like: a name checked at the typeahead and recorded in the
   registry with source and date. Wrong looks like: a free-text skill saved past the dropdown, a
-  list trimmed to a number, a rename that drops endorsements unnoticed.
+  list trimmed to a number, a name Jim set proposed for removal, a rename that drops endorsements
+  unnoticed.
 ---
 
 # LinkedIn Skills
@@ -67,29 +68,36 @@ So the three tiers do three jobs: the pins are the identity and the export; the 
 first lines under "Show all"; the tail is retrieval and endorsement weight. US spelling is the
 standardised form in the `en_US` locale ("Statistical Modeling").
 
-## Choose by the reader's decision
+## Choose by Jim's word and the understanding
 
-The reader of this profile decides whether Jim originates, makes sense of problems that have no
-shape yet, and shapes strategy and systems at scale, never whether he fits a line role
-(`docs/editorial/decision-records/008-the-innovator-never-the-engineering-leader.md`). A skill
-is a retrieval tag before it is a claim, so each name is judged by the search it answers:
+Jim is the authority on every name. The CV content, the entity graph's `knowsAbout`, LinkedIn's
+taxonomy, the research in `linkedin/research/` and the editorial readers are sources to explore
+and instruments to test with, never a baseline the list is corrected to; there is no "true" list
+to match. The list is derived from the understanding the headline and the About carry:
+innovator, engineer, scientist; making sense of the unknown; shaping strategy and systems. The
+reader decides whether Jim originates, makes sense of problems that have no shape yet, and
+shapes strategy and systems at scale, with the breadth to do it again, never whether he fits a
+line role (`docs/editorial/decision-records/008-the-innovator-never-the-engineering-leader.md`).
+His words on the names, 11 October 2026: originator, innovator, scientist before engineering
+leader; leadership in general and leading innovation at the top; the engineering-function skills
+a door, not the aim; the testing trade left behind; the past kept where its endorsements buy
+something; nothing trimmed to a number. The tiers he set the same day: the three pins, the next
+two, the long tail, under a cap of 45 as a ceiling.
 
-1. **The pins echo the headline.** Three names a scanner can map to the headline's words.
-2. **The next two** carry the coordinates the right searches run on (the AI coordinate, leadership
-   in general).
-3. **The tail, in display order,** runs originator, AI, strategy and systems, open and public,
-   scientist, the leadership doors, the endorsed craft.
+A name earns its place when the page shows it (a card, the About, a publication), when it says
+one of those things about him or carries an endorsed past he keeps at his word, and when a
+reader meeting it beside the pins reads the same person. A name leaves when it classifies him as
+something he is not (the testing trade, a contractor's stack, a line manager, a consultant),
+when the typeahead does not know it, when a kept neighbour already says it, or when it says
+nothing. Retrieval follows from truthful names and is never the selector.
 
-Remove, by class: stack and tool tags that answer contractor searches (the CV and the entity
-graph keep them); process and operations tags at technique altitude; generic self-descriptions no
-reader searches; duplicates covered by a kept neighbour; over-specific research tags the
-publications carry. Keep against the grain: an endorsed tag that opens a door stays low in the
-tail (Team Leadership). Keep by Jim's word: JavaScript, Software Development, Web Applications,
-Software Engineering, for their endorsements.
-
-The tiers Jim set on 11 October 2026: a cap of 45 as a ceiling, never a target (nothing is
-trimmed to a number); the top three, the next two, the long tail. The proposal under those
-tiers, 39 entries, is in the registry with its removal class per name.
+Provenance first. The registry records who set each name and when; a name Jim set is never
+proposed for removal. A proposal about a name carries one sentence of what the name says about
+him to the reader, the card that shows it and the endorsements it carries, and nothing else as
+its reason. Uncertainty goes to Jim in open conversation, as one draft, never to a surrogate
+authority: on 11 October 2026 a taxonomy, a retrieval frame, the CV and the graph each decided
+names in turn, and each decision pulled the list back to the engineering leader until he
+corrected it.
 
 ## Validate every name
 
@@ -108,9 +116,9 @@ tiers, 39 entries, is in the registry with its removal class per name.
 
 ## The registry
 
-`references/skills-registry.md` holds every name in play: its position on the live profile at the
-last baseline, its position in the canonical list, its tier in the current proposal, its 2018
-and typeahead status, and the note that explains it. Update it when `linkedin/profile.md`'s list
+`references/skills-registry.md` holds every name in play: its provenance (who set it and when),
+its position on the live profile at the last baseline, its position in the canonical list, its
+tier, its 2018 and typeahead status, and the note that explains it. Update it when `linkedin/profile.md`'s list
 changes, when a name is validated, and after every application from the new baseline. The
 header carries the last-updated date and every source.
 
