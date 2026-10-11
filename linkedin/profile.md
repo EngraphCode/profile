@@ -22,13 +22,13 @@ Innovator, engineer, scientist | Making sense of the unknown. Shaping strategy a
 
 Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word, awaiting Jim)
 
-I like problems that don't have a shape yet. At Oak I have set the engineering strategy since 2020, and conceived and built the service that puts England's curriculum inside ChatGPT and Claude.
+I like problems that don't have a shape yet. At Oak I have set the engineering strategy since 2020, and conceived and built the service that puts Oak's open, National Curriculum-aligned curriculum inside ChatGPT and Claude.
 
 The liking comes from physics research: studying the early Universe, where understanding is something you build, assess, and let reality overturn. When I moved into technology I kept the method and changed the aim. Explaining a system is satisfying. Changing one is better.
 
 In the spring of 2020 Oak National Academy was a few months old, an emergency response to school closures that became a new kind of national public service. I joined to get the first teacher-facing service over the line and stayed to shape the engineering strategy behind the whole thing. The hardest call was arguing to rebuild the emergency platform while it was still what kept lessons online. Four years on, the rebuild is what everything new is built on.
 
-The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI tools they use. I conceived the Oak AI plugin and built it, from an open SDK on Oak's curriculum data to the service that now puts a fully sequenced and resourced, openly licensed curriculum into ChatGPT and Claude. The immediate impacts are something I care deeply about, but the higher-order impacts, what other people build once innovation is cheap, are where the biggest changes are made.
+The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI tools they use. I conceived the Oak AI plugin and built it, from an open SDK on Oak's curriculum data to the service that now puts a National Curriculum-aligned, fully sequenced and resourced, open curriculum into ChatGPT and Claude. The immediate impacts are something I care deeply about, but the higher-order impacts, what other people build once innovation is cheap, are where the biggest changes are made.
 
 To build it, I first built the way of working. The Practice is a framework for engineering with AI agents: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. With it, AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. The engineers on the Open Curriculum Ecosystem, Oak's public repository for building on its curriculum data, work in it, and so do I, every day. It is how the plugin got made.
 
