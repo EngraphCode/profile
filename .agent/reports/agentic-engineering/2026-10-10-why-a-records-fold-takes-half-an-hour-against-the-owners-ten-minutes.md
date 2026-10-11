@@ -454,6 +454,13 @@ choice, each named so the owner can overturn it by number:
    its prediction and falsifier as this record states them, noting that proposals 1 and 2 landed as
    code on the day of the decision.
 
+**The open question of proposal 1, answered by the owner on 2026-10-11**, verbatim: "we don't need a
+timeout, GitHub says plainly if copilot is currently working on a review". The at-green reading stands
+as his decision: a bot-authored records-class pull request merges once the required contexts are green
+and no thread is open, whatever the vendor's run is doing, and the run's state (the
+`copilot-pull-request-reviewer` check-run, the request on the timeline) is read and named, never waited
+on. The ten-minute timeout arm remains the code class's settlement reading only.
+
 Not yet done at this writing: the sibling estate's carry of the shared bytes (the two skills, the
 two PDRs, the agent-tools sources), the next step after 328 merges.
 
