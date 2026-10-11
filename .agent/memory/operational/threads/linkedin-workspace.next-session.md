@@ -257,7 +257,48 @@ the commit-msg hook refuses a header over 100 characters, a subject that starts 
 (sentence-case), and a body line that begins with a word and a colon (commitlint reads it as a
 footer and refuses the missing blank line); a refused commit inside a chained command leaves the
 push running with nothing new, so the commit's sha is read back before any push is reported.
-moved for the sites: nothing / moved for the Practice: nothing.
+The owner's last word before the boundary, verbatim, for the first act after it: "post-compaction,
+let's explore the [Skills], without changing the canonical list yet. Assume a cap of 45, divided
+into three sections, the top three skills, the next two skills, the rest of the long tail. I
+agree that many of the skills are overly specific given the kind of role I want. Some carry
+endorsements that I want to keep, javascript, software development, web applications, software
+engineering. We also need an official list of LinkedIn's taxonomy, so that we can validate skills
+against it." So the next session opens with that exploration, in the container and in chat, not
+in `profile.md`: a 45-entry proposal in three tiers (the pinned three, the next two, the tail),
+the four endorsed tags kept by name, every candidate checked against LinkedIn's standardised
+skills, for which an official list is to be found first (the candidates to check: LinkedIn's own
+help and talent pages, the Marketing API's Skills data, the typeahead at application as the
+final arbiter; a free-text skill may not feed Recruiter's filter). This paragraph was written at
+his word after the wrap's push and rides the next commit uncommitted. moved for the sites:
+nothing / moved for the Practice: nothing.
+
+### 2026-10-11T12:5xZ — the Skills exploration done as the linkedin-skills skill, with apply-linkedin-profile beside it; the canonical list unchanged (Shrew rides Eventide, 371a2b)
+
+The owner's words after the compaction: the Skills exploration under a cap of 45 in three tiers
+(the boundary block above, verbatim), then "under editorial we should create a LinkedIn Skills
+skill ... so we don't have to rediscover all of this at a later time, including a reference file
+with the current skill list and a last updated and source and other relevant metadata ... if you
+identify other relevant LinkedIn skills to create, please create them", and the Microsoft Learn
+MCP server as the source for LinkedIn's API reference. Landed: the `linkedin-skills` skill
+(`.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md`: what LinkedIn does with the
+list with every fact sourced and dated, the selection method by EDR-008 under his tiers, the
+validation procedure with the typeahead as arbiter, `references/skills-registry.md` with every
+name's live, canonical, proposal, 2018-crawl and typeahead status, and the crawl-check script);
+the `apply-linkedin-profile` skill (the sitting's order of work under his standing conditions,
+the believed field limits with their status, the industry taxonomy rows for Oak's sector); both
+registered in the practice index and `linkedin/README.md`, adapters generated, the checks
+green. The proposal (thirty-nine entries: pins Innovation, Systems Thinking, Engineering
+Strategy; next Artificial Intelligence (AI), Leadership; the tail by cluster; thirty-nine
+removals by class; Generative AI and EdTech added) is in the container's §Skills;
+`profile.md` is unchanged at his word. Open for him: the third pin's string if Engineering
+Strategy is not standardised; the two additions; the five generic endorsed tags removed; whether
+the typeahead check runs now in Chrome as a read or at application; the six empty slots under
+the cap. Processes: the editor task stopped at the compaction, restart only at his word; no
+watcher, no claim (the claims helper refuses a claim while the retired consolidation seat's
+claim is held for its successor and no watcher runs; the napkin block of this hour is the
+consultation artefact), no heartbeat, no cron. Next: his dispositions on the proposal, then his
+full review and edit of the profile, then the application per the new skill. moved for the
+sites: nothing / moved for the Practice: the two editorial skills and the registry.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

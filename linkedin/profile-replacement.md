@@ -305,6 +305,39 @@ both left the Principal card and the Featured card. Oak's other official lines o
 the Featured captions in Oak's and Anthropic's words. Available and not used, because it dates
 the text: the plugin page's "with Gemini, Copilot and others to follow".
 
+The 45-cap exploration, 11 October, at Jim's word ("explore the Skills, without changing the
+canonical list yet. Assume a cap of 45, divided into three sections, the top three skills, the
+next two skills, the rest of the long tail ... Some carry endorsements that I want to keep,
+javascript, software development, web applications, software engineering. We also need an
+official list of LinkedIn's taxonomy"). The list above is unchanged; this is the proposal, and
+the platform facts, the validation method and the registry of every name now live in the
+`linkedin-skills` skill (`.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md`, his word
+the same hour, so none of it is rediscovered). What the facts settle: the official list is
+LinkedIn's Standardized Data API, open to approved partner applications only, so the profile
+typeahead at application is the arbiter; a member skill is a free-text phrase with an optional
+standardised match; Recruiter's export to an ATS and Apply with LinkedIn carry exactly the three
+pinned skills, so the pins are the identity and the export, the next two the first lines under
+"Show all", the tail retrieval and endorsement weight. The proposal, thirty-nine entries (the
+cap is a ceiling, six slots left to Jim): pins Innovation, Systems Thinking, Engineering
+Strategy; next Artificial Intelligence (AI), Leadership; the tail in display order runs the
+originator (R&D, Prototyping, Emerging Technologies), the AI coordinates (AI Agents, MCP,
+Generative AI, added), strategy and systems (Product Strategy, Digital Strategy, System
+Architecture, Platform Engineering, Product Engineering, Developer Experience), open and public
+(Open Data, Open Standards, Open-Source Software, Public Sector, Digital Public Services, EdTech,
+added), the scientist (Research, Astrophysics, Cosmology, Computational Physics, Statistical
+Modeling, Physics, Data Analysis), the doors (Technical Leadership, Team Leadership, Coaching,
+Psychological Safety), the endorsed craft (Software Engineering, Software Development, Web
+Applications, JavaScript, TypeScript). Thirty-nine removed, by class in the registry: nineteen
+stack and tool tags, nine process and operations tags, five generic self-descriptions, four
+duplicates, two over-specific research tags. Kept against the grain: Team Leadership (first in
+the September display order, so probably the most endorsed) and Data Analysis. Ten new names
+await the typeahead (Innovation, Engineering Strategy, Artificial Intelligence (AI), AI Agents,
+MCP, Generative AI, Digital Public Services, Platform Engineering, Developer Experience,
+Psychological Safety), with a fallback named for each; twelve new names are confirmed by a 2018
+crawl of the taxonomy; the rest are on the live profile already. Open for Jim: the third pin's
+string if Engineering Strategy is not standardised; the two additions; the five generic endorsed
+tags removed; whether the typeahead check runs now in Chrome, as a read, or at application.
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.
