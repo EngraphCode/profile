@@ -462,7 +462,7 @@ when he says the draft is his. moved for the sites: nothing / moved for the Prac
 
 ### 2026-10-12T09:xxZ — Jim's dispositions on the seat's own review; four names to add; the titles are his to change, by discussion (Shrew rides Eventide, 371a2b)
 
-This block is the pickup. At his word the seat reviewed the whole draft itself (the readers off
+At his word the seat reviewed the whole draft itself (the readers off
 until he says so) and reported eight findings; his dispositions, decisions only: (0) Digital
 Public Goods, Citizen Science, Entrepreneurship and Thought Leadership are added in their places;
 Strategic Partnerships is not; (1) the Principal card is refined to the 2,000-character limit by
@@ -490,6 +490,28 @@ titles discussion with him from the seat's table in chat (one proposal per title
 is truth to the role in his words); the Principal card redrafted at density, the seat's draft put
 to him in chat; then the editor and prose passes on the whole and the readers. The claim's heartbeat renewed past its freshness. moved for the sites: nothing / moved
 for the Practice: nothing.
+
+### 2026-10-12T10:xxZ — the owner's correction: the contact links restored, Scholar and ORCID in Featured; the card is a conversation, not a compression; the process fix (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. A side agent's note surfaced that the seat had replaced the CV and
+GitHub contact links with Google Scholar and ORCID to fit LinkedIn's three; the owner: removing
+those links was not appropriate, there is more than one way; stop deferring with "at your word",
+he can change his mind and circumstances change, so the seat assesses what is best in context;
+he had asked for a discussion of the Principal card and for improvement without cutting or
+compressing, and the seat chased the character count and made changes without him. The owner then
+agreed the seat's proposed process (a conversation by default; apply only what the conversation
+settled, as a named list; a limit is never a reason to cut; additions and corrections he lists
+are applied and named) and settled the records: Scholar as the one Featured item, the papers by
+DOI and the thesis as a third Publications entry, the ORCID iD on the PhD entry, the contact card
+as drafted. Applied in this block's commit, nothing outside that list; the editorial-guidance
+Process note carries the agreement; the napkin and a per-user memory carry the generator. The
+Principal card: no draft; the conversation opened in chat on what the card carries and where its
+content has homes of its own (the Practice as a Projects card; the product's standards with the
+plugin's Project card), so the limit is met by design. The titles table stands for the
+discussion, with the directive's caution on "Founder" (not a claim on the canonical CV) beside
+the live profile's own Obaith title. The list, the fold fix, "since 2021" and the certificates
+stand as applied. Next: the card conversation, then the titles, then the editor and prose passes
+and the readers. moved for the sites: nothing / moved for the Practice: nothing.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

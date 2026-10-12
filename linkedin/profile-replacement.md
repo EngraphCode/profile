@@ -80,9 +80,8 @@ evening):
 4. The new sections' calls: the top-card industry (read at application); the banner; pronouns;
    the Portsmouth school field; the two safety certificates and the two Johns Hopkins course
    certificates out at the seat's verdict (both readers read the courses as lowering the
-   altitude beside a PhD; Jim's word, 12 October: he does not much care either way); the Google
-   Scholar profile (the two papers and the thesis, 128 citations) as a contact website, the
-   Publications being the evidence for Science Communication; the volunteering cause field; the
+   altitude beside a PhD; Jim's word, 12 October: he does not much care either way); the Google Scholar profile as a Featured item, the DOIs and the thesis on Publications, the
+   ORCID iD on the PhD entry, the Publications being the evidence for Science Communication; the volunteering cause field; the
    Institute of Physics grade.
 5. Skills: settled at Jim's list of 11 October, evening, plus four names at his word of 12
    October (§Skills below, last paragraphs); nothing in question. Public Speaking stands on his
@@ -510,12 +509,16 @@ course), the two Johns Hopkins course certificates (not a specialization), and t
 
 Jim's word, 12 October: the two Johns Hopkins course certificates out with the two safety
 certificates (both readers read the courses as lowering the altitude beside a PhD; he does not
-much care either way, so the seat's verdict stands); his Google Scholar profile and his ORCID
-record on the profile (the record lists the thesis and the two papers, the same three the
-Publications carry, with their DOIs; the print view is in the local reference directory).
-LinkedIn's contact information carries three websites, so they take the
-CV and code slots beside the site, which links to both; the trade is his to reverse, and
-Featured is the other home for the two records if he wants all five routes.
+much care either way); his Google Scholar profile and his ORCID record on the profile (the
+record lists the thesis and the two papers, the same three the Publications carry, with their
+DOIs; the print view is in the local reference directory). The seat first put the two records in
+the contact websites in place of the CV and GitHub links, LinkedIn's contact information
+carrying three; his correction the same morning: removing those links was not appropriate, and
+there is more than one way. So, settled in conversation: the contact routes stand as drafted; Scholar is the one Featured
+item, in its own figures (a hundred and twenty-eight citations, significant to some readers and
+ignored by others, a large net positive in his assessment); the two papers link by DOI and the
+thesis is a third Publications entry, the three works the ORCID record lists; the ORCID iD sits
+on the PhD entry.
 
 ## Settings — open
 

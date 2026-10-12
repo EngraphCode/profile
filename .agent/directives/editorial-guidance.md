@@ -49,7 +49,16 @@ capabilities.
 thinking, AI for public benefit. Where a concept appears in both, framing must be consistent.
 
 **Process note** — editorial discussions require open conversation for nuanced content decisions.
-Don't use structured question tools (checkboxes/multiple-choice) for editorial work.
+Don't use structured question tools (checkboxes/multiple-choice) for editorial work. The working
+agreement of 2026-10-12, at the owner's correction and with his agreement, after a seat traded
+away two contact links to fit two more and compressed a card to a character limit: editorial
+changes are a conversation by default, in which the seat brings the trade space and what it
+thinks is best in context and why, and the draft does not move; applying happens only on what
+the conversation settled, as a named list, and nothing outside that list changes; a limit (a
+field's characters, a count of links) is never a reason to cut, it is a reason to ask where else
+the content lives, since there is more than one way; additions and corrections the owner has
+listed are applied and named; and the seat never defers with "at your word" nor cites his earlier
+words back at him as rules, because he can change his mind, learn, and meet new circumstances.
 
 ## Impact framing
 

@@ -36,7 +36,7 @@ Before Oak: a consultancy of my own, the FT Web App, testing and delivery practi
 
 ## Featured
 
-Status: drafted (11 October 2026: each item a warrant in its owner's words, nothing of Jim's claims, which the About above has just made; awaiting Jim)
+Status: drafted (11 October 2026: each item a warrant in its owner's words, nothing of Jim's claims, which the About above has just made; Google Scholar added 12 October as the research record, in its own figures; awaiting Jim)
 
 ### The Oak AI plugin: Oak's curriculum inside the AI assistants teachers already use
 
@@ -61,6 +61,14 @@ Status: drafted (11 October 2026; Oak's own words from its who-we-are page; awai
 Every national curriculum subject, every unit, every lesson, created by subject and curriculum experts, free to every teacher and funded by the Department for Education.
 
 Link: <https://www.thenational.academy/>
+
+### Google Scholar · James G Cresswell
+
+Status: drafted (12 October 2026; Scholar's own figures, read 11 October; awaiting Jim)
+
+Cited by 128: two journal articles and the doctoral thesis.
+
+Link: <https://scholar.google.com/citations?user=7yf2vEEAAAAJ>
 
 ## Experience
 
@@ -150,7 +158,7 @@ Status: drafted (11 October 2026, from the live entries and draft 1, awaiting Ji
 
 Status: drafted (11 October 2026, awaiting Jim)
 
-Institute of Cosmology and Gravitation. Thesis: Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey.
+Institute of Cosmology and Gravitation. Thesis: Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey. ORCID 0000-0003-3074-3799.
 
 Link: <https://researchportal.port.ac.uk/en/studentTheses/luminosity-functions-and-galaxy-bias-in-the-sloan-digital-sky-sur/>
 
@@ -212,7 +220,7 @@ Link: <https://app.ft.com/>
 
 ## Publications
 
-Status: drafted (11 October 2026, from the live entries and draft 1, awaiting Jim)
+Status: drafted (12 October 2026: the two papers linked by DOI and the thesis as a third entry, the works the ORCID record lists; awaiting Jim)
 
 ### Scale-dependent galaxy bias in the Sloan Digital Sky Survey as a function of luminosity and colour · Monthly Notices of the Royal Astronomical Society · 2009
 
@@ -220,7 +228,7 @@ Status: drafted (11 October 2026; the journal's form of the title, as the entity
 
 Galaxies of different kinds cluster differently. We measured how the relationship between galaxies and the underlying matter changes with scale, luminosity and colour, and showed why those differences have to be modelled before a galaxy survey yields cosmological information. With Will J. Percival.
 
-Link: <https://arxiv.org/abs/0808.1101>
+Link: <https://doi.org/10.1111/j.1365-2966.2008.14082.x>
 
 ### Cosmic microwave background multipole alignments in slab topologies · Physical Review D · 2006
 
@@ -228,7 +236,15 @@ Status: drafted (11 October 2026, awaiting Jim)
 
 We tested whether one particular shape of the Universe, a slab, could explain unexpected alignments in the microwave sky. In simulation it made the observed alignment somewhat more likely, but even the smallest slab we considered gave a probability below one per cent. With Andrew R. Liddle, Pia Mukherjee and Alain Riazuelo.
 
-Link: <https://arxiv.org/abs/astro-ph/0512017>
+Link: <https://doi.org/10.1103/PhysRevD.73.041302>
+
+### Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey · University of Portsmouth · 2010
+
+Status: drafted (12 October 2026, from the ORCID record and the research portal; awaiting Jim)
+
+Doctoral thesis, Institute of Cosmology and Gravitation: how galaxies of different luminosities and colours trace the underlying matter in the Sloan Digital Sky Survey, measured by fitting parametric and non-parametric models, with the Galaxy Zoo morphologies as a check on what a galaxy's colour stands for.
+
+Link: <https://researchportal.port.ac.uk/en/studentTheses/luminosity-functions-and-galaxy-bias-in-the-sloan-digital-sky-sur/>
 
 ## Volunteering
 
@@ -314,10 +330,10 @@ Status: open (as now; activity and interests are not profile content and are lef
 
 ## Contact
 
-Status: drafted (12 October 2026: LinkedIn's contact information carries three websites, so the site, Google Scholar and ORCID at Jim's word; the CV and the code are reachable from the site; awaiting Jim)
+Status: drafted (12 October 2026: the three routes as drafted on 11 October, with distinct labels where LinkedIn allows them; Google Scholar and ORCID sit in Featured, where nothing is displaced; awaiting Jim)
 
 Website: <https://www.jimcresswell.net/>
 
-Google Scholar: <https://scholar.google.com/citations?user=7yf2vEEAAAAJ>
+CV: <https://www.jimcresswell.net/cv/>
 
-ORCID: <https://orcid.org/0000-0003-3074-3799>
+Code: <https://github.com/jimCresswell>
