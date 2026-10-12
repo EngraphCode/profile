@@ -519,7 +519,10 @@ the clients named, Assanka on the FT card, the first term's scale on the 2020 ca
 report of July 2020, the Institute as the PhD's school, the paper links back to arXiv (his
 aside: no paywall), the industry and banner proposed. Next: his edit in the editor
 (`pnpm --filter linkedin editor`, the tab reloaded before typing; `profile.review.md` is his
-copy); then the editor and prose passes on the whole and the readers. moved for the sites: nothing / moved for the Practice: nothing.
+copy); then the editor and prose passes on the whole and the readers. Cold pause at the owner's word
+(12 October, 11:xxZ) with the editor running on 127.0.0.1:4780 and the review copy identical to
+the draft at `SHA:49f6b2c4`; the seat does nothing until he says otherwise. moved for the sites:
+nothing / moved for the Practice: nothing.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
