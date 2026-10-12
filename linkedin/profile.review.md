@@ -20,9 +20,9 @@ Innovator, engineer, scientist | Making sense of the unknown. Shaping strategy a
 
 ## About
 
-Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word, awaiting Jim)
+Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; awaiting Jim)
 
-I like problems that don't have a shape yet. At Oak I have set the engineering strategy since 2020, and conceived and built the service that puts Oak's open, National Curriculum-aligned curriculum inside ChatGPT and Claude.
+I like problems that don't have a shape yet. At Oak I have set the engineering strategy since 2021, and conceived and built the service that puts Oak's open curriculum inside ChatGPT and Claude.
 
 The liking comes from physics research: studying the early Universe, where understanding is something you build, assess, and let reality overturn. When I moved into technology I kept the method and changed the aim. Explaining a system is satisfying. Changing one is better.
 
@@ -168,7 +168,7 @@ Thesis: The Design and Construction of a Theremin. Music journalist for the stud
 
 ## Licences and certifications
 
-Status: drafted (11 October 2026: the five below retained with their current labels; the Fire Marshal course of 2013 and the First Aid at Work certificate that expired in 2016 proposed for removal as a relevance choice; awaiting Jim)
+Status: drafted (12 October 2026: the three below retained with their current labels; the Fire Marshal course of 2013, the First Aid at Work certificate that expired in 2016 and the two Johns Hopkins course certificates of 2016 removed, the courses at the seat's verdict after both readers read them as lowering the altitude beside a PhD and Jim's word that he does not much care either way; awaiting Jim)
 
 ### AgilePM Foundation · APMG International · June 2023
 
@@ -179,14 +179,6 @@ Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no 
 Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no description)
 
 ### Monitoring the Oceans from Space · EUMETSAT, FutureLearn · November 2016
-
-Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no description)
-
-### R Programming · Johns Hopkins University, Coursera · September 2016
-
-Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no description)
-
-### The Data Scientist's Toolbox · Johns Hopkins University, Coursera · August 2016
 
 Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no description)
 
@@ -262,7 +254,7 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, every name confirmed at the typeahead on 11 October, Strategic Leadership by Jim himself; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review)
+Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, Digital Public Goods, Citizen Science, Entrepreneurship and Thought Leadership added at his word of 12 October; every name confirmed at the typeahead on 11 October, Strategic Leadership by Jim himself; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review)
 
 - Technological Innovation
 - Artificial Intelligence (AI)
@@ -271,11 +263,13 @@ Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technol
 - Strategic Leadership
 - Social Innovation
 - Technology Leadership
+- Thought Leadership
 - Research and Development (R&D)
 - Prototyping
 - Scientific Research
 - Emerging Technologies
 - Startups
+- Entrepreneurship
 - AI Agents
 - Model Context Protocol (MCP)
 - Generative AI
@@ -289,6 +283,7 @@ Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technol
 - Open Standards
 - Open-Source Software
 - Open-Source Development
+- Digital Public Goods
 - Public Sector
 - Digital Government
 - Edtech
@@ -298,6 +293,7 @@ Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technol
 - Statistical Modeling
 - Parameter Estimation
 - Physics
+- Citizen Science
 - Scientific Writing
 - Science Communication
 - Public Speaking
@@ -318,10 +314,10 @@ Status: open (as now; activity and interests are not profile content and are lef
 
 ## Contact
 
-Status: drafted (11 October 2026: the three existing routes with distinct labels where LinkedIn allows them, awaiting Jim)
+Status: drafted (12 October 2026: LinkedIn's contact information carries three websites, so the site, Google Scholar and ORCID at Jim's word; the CV and the code are reachable from the site; awaiting Jim)
 
 Website: <https://www.jimcresswell.net/>
 
-CV: <https://www.jimcresswell.net/cv/>
+Google Scholar: <https://scholar.google.com/citations?user=7yf2vEEAAAAJ>
 
-Code: <https://github.com/jimCresswell>
+ORCID: <https://orcid.org/0000-0003-3074-3799>

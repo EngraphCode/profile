@@ -13,8 +13,9 @@ known of it. The copy's home is `linkedin/profile.md` §Skills; the decisions ar
 - **Live profile:** the baseline recorded on 2026-09-27
   (`linkedin/reference/current-profile-2026-09-27.md` §Skills, 63 skills in display order;
   endorsement counts not recorded there).
-- **Canonical list:** `linkedin/profile.md` §Skills as of 2026-10-11, evening: 43 entries in
-  display order, Jim's list; nothing in question.
+- **Canonical list:** `linkedin/profile.md` §Skills as of 2026-10-12: 47 entries in display
+  order, Jim's list of 11 October with four names added at his word of 12 October; nothing in
+  question.
 - **2018 crawl:** varadchoudhari/LinkedIn-Skills-Crawler `output/all_skills.txt` (MIT, 37,339
   names, last pushed 2018-03-10), checked 2026-10-11 by exact case-insensitive match with
   `scripts/check-against-2018-crawl.sh`. Found means the name existed in the taxonomy in 2018;
@@ -24,7 +25,8 @@ known of it. The copy's home is `linkedin/profile.md` §Skills; the decisions ar
   string, "live" for a name already on the profile and not typed, or "confirmed by Jim" for a
   name he checked himself the same day. Every name on the canonical list is confirmed: the last
   four (Software Engineering Practices, Web Technologies, Parameter Estimation, Scientific
-  Writing) in the evening of 2026-10-11, the same dialog, nothing saved.
+  Writing) in the evening of 2026-10-11, the same dialog, nothing saved, and the four names of
+  12 October at the same typeahead the same evening.
 - **Live endorsements:** read on 2026-10-11 in Chrome from the skills detail page (self view, Jim
   present): twelve skills carry an endorsement line, the other fifty-one show none, and the
   display order is not endorsement order. The counts are in the endorsements section below.
@@ -34,7 +36,7 @@ Columns: provenance; live position on 2026-09-27 (— if absent); the tier (pin,
 
 ## The canonical list, in display order (2026-10-11, evening, Jim's list)
 
-The forty-three entries of `linkedin/profile.md` §Skills. The tail runs in the order of the page
+The forty-seven entries of `linkedin/profile.md` §Skills. The tail runs in the order of the page
 (Oak's innovation and strategy, the plugin's AI, systems and the open ecosystem, the public
 sector, physics, the communicating, mentoring, the craft); beyond that, at Jim's word, the order
 carries no meaning.
@@ -48,42 +50,46 @@ carries no meaning.
 | 5 | Strategic Leadership | Jim, 11 Oct, evening | — | next | found | confirmed by Jim | At what level; in place of Leadership and Strategy. |
 | 6 | Social Innovation | Jim, 11 Oct | — | tail | found | Social Innovation |  |
 | 7 | Technology Leadership | Jim, 11 Oct | — | tail | not checked | Technology Leadership |  |
-| 8 | Research and Development (R&D) | Jim, 11 Oct | — | tail | found | Research and Development (R&D) |  |
-| 9 | Prototyping | Jim, 11 Oct | — | tail | found | Prototyping |  |
-| 10 | Scientific Research | Jim, 11 Oct | — | tail | not checked | Scientific Research | "Research" alone is not standardised. |
-| 11 | Emerging Technologies | seat, 11 Oct; Jim kept it | — | tail | found | Emerging Technologies | A cold reader called it self-appointed; kept at his word of the evening. |
-| 12 | Startups | Jim, 11 Oct | — | tail | not checked | Startups | The taxonomy's string, not "Start-ups". |
-| 13 | AI Agents | seat, 11 Oct; Jim kept it | — | tail | missing | AI Agents |  |
-| 14 | Model Context Protocol (MCP) | seat, 11 Oct; Jim kept it | — | tail | missing | Model Context Protocol (MCP) |  |
-| 15 | Generative AI | Jim, 11 Oct | — | tail | missing | Generative AI |  |
-| 16 | Large Language Models (LLM) | seat, 11 Oct; Jim kept it | — | tail | missing | Large Language Models (LLM) | The specific term beside the broad AI tag. |
-| 17 | Responsible AI | Jim, 11 Oct | — | tail | missing | Responsible AI |  |
-| 18 | System Architecture | live; Jim kept it | 11 | tail | found | live |  |
-| 19 | Platform Engineering | seat, 11 Oct; Jim kept it | — | tail | missing | Platform Engineering |  |
-| 20 | Product Engineering | Jim, 11 Oct | — | tail | found | Product Engineering |  |
-| 21 | Software Engineering Practices | Jim, 11 Oct, evening | — | tail | found | Software Engineering Practices | The taxonomy's noun for the Practice; with Software Development, in place of Software Engineering. |
-| 22 | Open Data | seat, 11 Oct; Jim kept it | — | tail | found | Open Data |  |
-| 23 | Open Standards | live; Jim kept it | 16 | tail | found | live |  |
-| 24 | Open-Source Software | live; Jim kept it | 17 | tail | found as "Open Source Software" | Open-Source Software |  |
-| 25 | Open-Source Development | Jim, 11 Oct | — | tail | not checked | Open-Source Development | Also LinkedIn's own suggestion for his profile. |
-| 26 | Public Sector | seat, 11 Oct; Jim kept it | — | tail | found | Public Sector |  |
-| 27 | Digital Government | seat, 11 Oct; Jim kept it | — | tail | missing | Digital Government | Took the slot of Digital Public Services, not standardised. |
-| 28 | Edtech | Jim, 11 Oct | — | tail | found as "EdTech" | Edtech | So spelt by the taxonomy. |
-| 29 | Astrophysics | seat, 11 Oct; Jim accepted | — | tail | found | Astrophysics |  |
-| 30 | Cosmology | Jim, 11 Oct | — | tail | found | Cosmology |  |
-| 31 | Computational Physics | Jim, 11 Oct | — | tail | found | Computational Physics | His cluster; the seat's string, typeahead-confirmed. |
-| 32 | Statistical Modeling | Jim, 11 Oct | — | tail | found | Statistical Modeling | His cluster; the US spelling is the standardised one. |
-| 33 | Parameter Estimation | Jim, 11 Oct | — | tail | found | Parameter Estimation | His cluster. |
-| 34 | Physics | live; Jim kept it | 39 | tail | found | Physics | 3 endorsements. |
-| 35 | Scientific Writing | Jim, 11 Oct | 41 | tail | found | Scientific Writing |  |
-| 36 | Science Communication | Jim, 11 Oct | — | tail | not checked | Science Communication |  |
-| 37 | Public Speaking | Jim, 11 Oct | — | tail | not checked | Public Speaking |  |
-| 38 | Mentoring | Jim, 11 Oct | — | tail | found | Mentoring | In place of Coaching. |
-| 39 | Software Development | Jim, 11 Oct | 31 | tail | found | Software Development | 12 endorsements, kept for them at his word. |
-| 40 | Web Technologies | Jim, 11 Oct, evening | — | tail | found | Web Technologies | In place of Web Applications. |
-| 41 | JavaScript | Jim, 11 Oct | 29 | tail | found | live | At least 4 endorsements, kept for them at his word. |
-| 42 | TypeScript | live; Jim kept it | 23 | tail | found | live | The one language of the present. |
-| 43 | C | Jim, 11 Oct | 50 | tail | found | live | 2 endorsements; kept at his word. |
+| 8 | Thought Leadership | Jim, 12 Oct | — | tail | found | Thought Leadership | At his word of 12 October. |
+| 9 | Research and Development (R&D) | Jim, 11 Oct | — | tail | found | Research and Development (R&D) |  |
+| 10 | Prototyping | Jim, 11 Oct | — | tail | found | Prototyping |  |
+| 11 | Scientific Research | Jim, 11 Oct | — | tail | not checked | Scientific Research | "Research" alone is not standardised. |
+| 12 | Emerging Technologies | seat, 11 Oct; Jim kept it | — | tail | found | Emerging Technologies | A cold reader called it self-appointed; kept at his word of the evening. |
+| 13 | Startups | Jim, 11 Oct | — | tail | not checked | Startups | The taxonomy's string, not "Start-ups". |
+| 14 | Entrepreneurship | Jim, 12 Oct | — | tail | found | Entrepreneurship | At his word of 12 October; the start-ups are named under the earlier entries in the container. |
+| 15 | AI Agents | seat, 11 Oct; Jim kept it | — | tail | missing | AI Agents |  |
+| 16 | Model Context Protocol (MCP) | seat, 11 Oct; Jim kept it | — | tail | missing | Model Context Protocol (MCP) |  |
+| 17 | Generative AI | Jim, 11 Oct | — | tail | missing | Generative AI |  |
+| 18 | Large Language Models (LLM) | seat, 11 Oct; Jim kept it | — | tail | missing | Large Language Models (LLM) | The specific term beside the broad AI tag. |
+| 19 | Responsible AI | Jim, 11 Oct | — | tail | missing | Responsible AI |  |
+| 20 | System Architecture | live; Jim kept it | 11 | tail | found | live |  |
+| 21 | Platform Engineering | seat, 11 Oct; Jim kept it | — | tail | missing | Platform Engineering |  |
+| 22 | Product Engineering | Jim, 11 Oct | — | tail | found | Product Engineering |  |
+| 23 | Software Engineering Practices | Jim, 11 Oct, evening | — | tail | found | Software Engineering Practices | The taxonomy's noun for the Practice; with Software Development, in place of Software Engineering. |
+| 24 | Open Data | seat, 11 Oct; Jim kept it | — | tail | found | Open Data |  |
+| 25 | Open Standards | live; Jim kept it | 16 | tail | found | live |  |
+| 26 | Open-Source Software | live; Jim kept it | 17 | tail | found as "Open Source Software" | Open-Source Software |  |
+| 27 | Open-Source Development | Jim, 11 Oct | — | tail | not checked | Open-Source Development | Also LinkedIn's own suggestion for his profile. |
+| 28 | Digital Public Goods | Jim, 12 Oct | — | tail | missing | Digital Public Goods | At his word of 12 October; the About's public digital infrastructure in the funders' noun. |
+| 29 | Public Sector | seat, 11 Oct; Jim kept it | — | tail | found | Public Sector |  |
+| 30 | Digital Government | seat, 11 Oct; Jim kept it | — | tail | missing | Digital Government | Took the slot of Digital Public Services, not standardised. |
+| 31 | Edtech | Jim, 11 Oct | — | tail | found as "EdTech" | Edtech | So spelt by the taxonomy. |
+| 32 | Astrophysics | seat, 11 Oct; Jim accepted | — | tail | found | Astrophysics |  |
+| 33 | Cosmology | Jim, 11 Oct | — | tail | found | Cosmology |  |
+| 34 | Computational Physics | Jim, 11 Oct | — | tail | found | Computational Physics | His cluster; the seat's string, typeahead-confirmed. |
+| 35 | Statistical Modeling | Jim, 11 Oct | — | tail | found | Statistical Modeling | His cluster; the US spelling is the standardised one. |
+| 36 | Parameter Estimation | Jim, 11 Oct | — | tail | found | Parameter Estimation | His cluster. |
+| 37 | Physics | live; Jim kept it | 39 | tail | found | Physics | 3 endorsements. |
+| 38 | Citizen Science | Jim, 12 Oct | — | tail | found | Citizen Science | At his word of 12 October; Galaxy Zoo on the PhD card. |
+| 39 | Scientific Writing | Jim, 11 Oct | 41 | tail | found | Scientific Writing |  |
+| 40 | Science Communication | Jim, 11 Oct | — | tail | not checked | Science Communication |  |
+| 41 | Public Speaking | Jim, 11 Oct | — | tail | not checked | Public Speaking |  |
+| 42 | Mentoring | Jim, 11 Oct | — | tail | found | Mentoring | In place of Coaching. |
+| 43 | Software Development | Jim, 11 Oct | 31 | tail | found | Software Development | 12 endorsements, kept for them at his word. |
+| 44 | Web Technologies | Jim, 11 Oct, evening | — | tail | found | Web Technologies | In place of Web Applications. |
+| 45 | JavaScript | Jim, 11 Oct | 29 | tail | found | live | At least 4 endorsements, kept for them at his word. |
+| 46 | TypeScript | live; Jim kept it | 23 | tail | found | live | The one language of the present. |
+| 47 | C | Jim, 11 Oct | 50 | tail | found | live | 2 endorsements; kept at his word. |
 
 ## Free-text names the typeahead did not know, 2026-10-11
 
@@ -221,8 +227,10 @@ Language Models (LLM), Responsible AI) with the plugin on the page do the distin
 ## Candidates from the gap analysis, 2026-10-11, evening, not proposed
 
 Read at the typeahead the same evening at Jim's request ("see what we are missing"), each with
-the seat's one sentence of what it would say about him and the card that shows it; his word
-decides. The 2018 crawl's answer is in brackets where it differs from the typeahead.
+the seat's one sentence of what it would say about him and the card that shows it. The 2018
+crawl's answer is in brackets where it differs from the typeahead. Jim's word, 12 October:
+Digital Public Goods, Citizen Science, Entrepreneurship and Thought Leadership join the list
+(applied 12 October); Strategic Partnerships does not; the rest are not proposed.
 
 | Skill | Typeahead 2026-10-11 | What it says, and where the page shows it |
 | --- | --- | --- |

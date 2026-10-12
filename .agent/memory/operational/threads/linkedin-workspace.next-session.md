@@ -433,7 +433,7 @@ and edit in the editor. moved for the sites: nothing / moved for the Practice: n
 
 ### 2026-10-11T18:xxZ — Jim's list applied: the pins reset, forty-three names, every removal ratified (Shrew rides Eventide, 371a2b)
 
-This block is the pickup. After the compaction the owner asked for the proposal as a four-column
+After the compaction the owner asked for the proposal as a four-column
 table (pins, next two, tail, removing), returned his own list with the removals ratified and asked
 for a critique, then settled it: the pins Technological Innovation, Artificial Intelligence (AI),
 Social Impact; the next two Systems Thinking, Strategic Leadership (confirmed by him at the
@@ -459,6 +459,37 @@ are off until he says so (his word: changes first, then another round); the hist
 request 6 for him to merge. Next: his full review and edit in the editor at his word
 (`pnpm --filter linkedin editor`, the tab reloaded before typing); the application plan authored
 when he says the draft is his. moved for the sites: nothing / moved for the Practice: nothing.
+
+### 2026-10-12T09:xxZ — Jim's dispositions on the seat's own review; four names to add; the titles are his to change, by discussion (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. At his word the seat reviewed the whole draft itself (the readers off
+until he says so) and reported eight findings; his dispositions, decisions only: (0) Digital
+Public Goods, Citizen Science, Entrepreneurship and Thought Leadership are added in their places;
+Strategic Partnerships is not; (1) the Principal card is refined to the 2,000-character limit by
+information density and writing quality, never cut down; (2) the fold fix agreed ("National
+Curriculum-aligned" out of the About's second sentence); (3) "since 2021" agreed; (4) Public
+Speaking stands on his word; Science Communication is shown by the Publications (his Google
+Scholar profile lists the two papers and the thesis, 128 citations); the start-ups behind
+Startups are Assanka (which became FT Labs), We Predict, Oak in its first months, and Obaith with
+Reforest Now and the ventures that stopped at research; Mentoring is understood in a Principal; a
+post of his may follow later, the claims are made now; (5) the titles are his to change, some
+change and some stay, by a discussion with him (the seat had read his word that the past is real
+as the title strings being fixed; corrected); (6) the Johns Hopkins courses: he does not much
+care, so the seat's verdict stands, the two courses out with the two safety certificates; (7)
+scientist is a discipline, mindset and approach, not a role, shown by how the page is written and
+never by a name's position (the seat had counted it absent from the top five; corrected); (8)
+Recommendations were agreed before the review; the seat had critiqued agreed intent (corrected).
+Then his "keep going", with the note that his Google Scholar and ORCID pages must be on the
+profile. Applied in this block's commit: the four names placed (Thought Leadership after
+Technology Leadership, Entrepreneurship beside Startups, Digital Public Goods after Open-Source
+Development, Citizen Science after Physics; forty-seven, the registry renumbered, the check
+script green), the fold fix, "since 2021", the four certificates out, and the contact websites
+now the site, Google Scholar and ORCID (LinkedIn carries three; the CV and code routes are
+reachable from the site; Featured is the other home if he wants all five). Next, in order: the
+titles discussion with him from the seat's table in chat (one proposal per title; the constraint
+is truth to the role in his words); the Principal card redrafted at density, the seat's draft put
+to him in chat; then the editor and prose passes on the whole and the readers. The claim's heartbeat renewed past its freshness. moved for the sites: nothing / moved
+for the Practice: nothing.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

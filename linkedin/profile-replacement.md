@@ -56,33 +56,42 @@ understanding.
 Open for Jim's full review and edit, in one list (11 October 2026, afternoon, amended in the
 evening):
 
-1. The About: the fold proposal (in chat, not applied); "England's official curriculum body"
-   against "arm's-length body of the Department for Education"; a sentence that shows a decision
-   above the engineering function, if one exists; "since 2020" as arrival or strategy (a cold
-   reader checked it against the Senior Developer card's dates); the Practice paragraph read by
-   both readers at mechanism altitude, the one line that moved them being that the engineers
-   working there use it; "the standards travel with the data" unclear to both at reading speed,
-   explained by the sentence after it.
-2. The Oak cards: "meant no child missed out on education" (his phrase, the editor's objection
-   beside it); the gloss of the Open Curriculum Ecosystem for a reader who has never met it;
-   decide or recommend on the rebuild; "Inside it the agents build; the judgement and the calls
-   are mine" read by a cold reader as lowering the altitude to one person operating tools.
-3. The earlier entries' facts: Code Science's dates and clients; Obaith's title, dates and
-   pattern; "won multiple awards"; the one-in-ten finding's attribution; the Firefox OS app; the
-   plugin project's start year; Startups is shown only by the Medicspot card.
+1. The About: the fold fix agreed by Jim on 12 October ("National Curriculum-aligned" out of
+   the second sentence, so ChatGPT and Claude land above the fold) and "since 2021" agreed, both
+   applied at his word; "England's official curriculum body" against "arm's-length body of the
+   Department for Education"; a sentence that shows a decision above the engineering function,
+   if one exists; the Practice paragraph read by both readers at mechanism altitude, the one
+   line that moved them being that the engineers working there use it.
+2. The Oak cards: the Principal card is 2,573 characters against LinkedIn's 2,000, and Jim's
+   word (12 October) is to refine it at information density and writing quality, never to cut
+   it down; inside that pass, "the standards travel with the data" (unclear to both readers at
+   speed) and "Inside it the agents build; the judgement and the calls are mine" (read by a cold
+   reader as lowering the altitude); "meant no child missed out on education" (his phrase, the
+   editor's objection beside it); the gloss of the Open Curriculum Ecosystem for a reader who
+   has never met it; decide or recommend on the rebuild.
+3. The earlier entries: the titles are Jim's to change, some change and some stay, by a
+   discussion with him (his word, 12 October; the seat's table of each title, what a cold reader
+   takes from it and one proposal, in chat); the start-ups behind the Startups name are Assanka,
+   which became FT Labs, We Predict (off the page at his word of 11 October, on the CV), Oak in
+   its first months, and Obaith with Reforest Now and the ventures that stopped at research, so
+   the FT Labs and Obaith cards can show them; Code Science's dates and clients; "won multiple
+   awards"; the one-in-ten finding's attribution; the Firefox OS app; the plugin project's start
+   year.
 4. The new sections' calls: the top-card industry (read at application); the banner; pronouns;
-   the Portsmouth school field; the two safety certificates proposed for removal, and now the two
-   Johns Hopkins course certificates, which both readers read as lowering the altitude beside a
-   PhD and one as a retraining toward data science; the volunteering cause field; the Institute
-   of Physics grade.
-5. Skills: settled at Jim's list of 11 October, evening (§Skills below, last paragraph);
-   nothing in question. The readers' result on the whole, read on the afternoon's list: the page
-   describes an engineering strategist and originator inside a national public service with a
-   physics past; that list's first five names read to a cold recruiter as a founder or
-   impact-sector lead the record does not show, and to a warm funder as the direction he is
-   going, informative rather than a mark against him; both would forward or longlist. Every pin
-   has changed since; whether the readers run once more on the final list is his call.
-6. Recommendations: who to ask; a warm reader found institutional listings and no named voucher.
+   the Portsmouth school field; the two safety certificates and the two Johns Hopkins course
+   certificates out at the seat's verdict (both readers read the courses as lowering the
+   altitude beside a PhD; Jim's word, 12 October: he does not much care either way); the Google
+   Scholar profile (the two papers and the thesis, 128 citations) as a contact website, the
+   Publications being the evidence for Science Communication; the volunteering cause field; the
+   Institute of Physics grade.
+5. Skills: settled at Jim's list of 11 October, evening, plus four names at his word of 12
+   October (§Skills below, last paragraphs); nothing in question. Public Speaking stands on his
+   word, Mentoring is understood in a Principal, and a post of his may follow later without the
+   claims waiting for it. The readers' result on the whole, read on the afternoon's list: the
+   page describes an engineering strategist and originator inside a national public service
+   with a physics past; both would forward or longlist. The readers run again after his changes,
+   at his word.
+6. Recommendations: agreed before the review, Jim asks at application; who to ask is his.
 7. Settings, at application: Open to Work off; profile-update sharing off during editing, one
    notification at the end.
 
@@ -93,7 +102,9 @@ The copy: [`profile.md` § Headline](profile.md#headline).
 ## About — approved (Jim, 7 October 2026, "I am very happy")
 
 The copy: [`profile.md` § About](profile.md#about). Paragraph one is what shows before "see
-more"; the editor reports the count.
+more"; the editor reports the count. Two edits at Jim's word, 12 October: "National
+Curriculum-aligned" out of the second sentence, so ChatGPT and Claude land above the fold, and
+"since 2021" to match the cards.
 
 ## Experience — Oak National Academy — drafted, revised by Jim, under the readers
 
@@ -464,6 +475,14 @@ the headline does not, and the five specific AI names in the tail with the plugi
 the distinguishing. The registry carries every name's provenance and the removed names with
 their endorsements. Forty-three entries.
 
+Jim's word, 12 October, on the seat's gap analysis of the evening: Digital Public Goods (the
+About's public digital infrastructure in the noun funders use), Citizen Science (Galaxy Zoo on
+the PhD card), Entrepreneurship (the start-ups named under the earlier entries) and Thought
+Leadership are added in their places (Thought Leadership after Technology Leadership,
+Entrepreneurship beside Startups, Digital Public Goods after Open-Source Development, Citizen
+Science after Physics; forty-seven entries, applied 12 October); Strategic Partnerships is not
+added, at his word.
+
 ## Recommendations — open
 
 Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.
@@ -488,6 +507,15 @@ line; Contact three routes with distinct labels, the GitHub URL in the graph's s
 Foundation (not Practitioner), Monitoring the Oceans from Space (not a satellite meteorology
 course), the two Johns Hopkins course certificates (not a specialization), and the Institute
 "of" Cosmology and Gravitation; the site's unit tests green.
+
+Jim's word, 12 October: the two Johns Hopkins course certificates out with the two safety
+certificates (both readers read the courses as lowering the altitude beside a PhD; he does not
+much care either way, so the seat's verdict stands); his Google Scholar profile and his ORCID
+record on the profile (the record lists the thesis and the two papers, the same three the
+Publications carry, with their DOIs; the print view is in the local reference directory).
+LinkedIn's contact information carries three websites, so they take the
+CV and code slots beside the site, which links to both; the trade is his to reverse, and
+Featured is the other home for the two records if he wants all five routes.
 
 ## Settings — open
 
