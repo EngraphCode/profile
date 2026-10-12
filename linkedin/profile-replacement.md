@@ -53,46 +53,35 @@ are the first lines under Show all: how he thinks and at what level. Jim is the 
 every name; the method is the `linkedin-skills` skill's §Choose by Jim's word and the
 understanding.
 
-Open for Jim's full review and edit, in one list (11 October 2026, afternoon, amended in the
-evening):
+Settled with Jim on 12 October, in a round of self-contained questions at his request, for the
+next editable draft, which he edits in the editor: the Principal card stands alone at the fold
+and shows the level by decision (he decides what gets built and makes the case; the two
+decisions named); the Practice to its own Project card, the product's values with the plugin's,
+the function's growth to the consulting card; off the card the Team Topologies line, the vendors
+and partners, the Practice's mechanism; the standards as one sentence; "the agents build; the
+judgement and the calls are mine" stays; the rebuild as his call, backed by Oak's leadership;
+"testing practice" on the consulting card stays; "arm's-length body" stays; the consequences in
+their abstract forms; the descriptor "Principal Engineer, Strategy and Innovation" on the
+current title only; Code Science titled Founder, with Oak, the Home Office, British Airways and
+ad-hoc work for Teacher Tapp and BorrowMyDoggy named; Obaith as now; the Medicspot, Home Office
+and British Airways titles his own edits; the FT card names Assanka and the Firefox OS app as a
+prototype, the awards unnamed until he confirms them (at least one Webby by his recollection;
+the Global Mobile Award for publishing innovation in the press of February 2012); the one-in-ten
+finding his, as written; We Predict stays off; the plugin's start 2024; "meant no child missed
+out on education" stays, with the first term's scale from Oak's own report of July 2020 (twenty
+million lessons, 4.7 million users) as one clause; the industry Technology, Information and
+Internet, confirmed at the dropdown; the volunteering cause Environment; the PhD's school field
+the Institute of Cosmology and Gravitation; the Institute of Physics grade Member; the Open
+Curriculum Ecosystem's long gloss on both cards; the banner one of his own photographs, wide and
+quiet, without text; the paper links the arXiv versions, so there is no paywall. The Principal
+card at that shape is 2,139 characters against 2,000; the trade is made in his edit (the
+candidates: the Practice sentence's definition clause, which the Project card's title and the
+About carry; the long gloss on the card; "cross-discipline").
 
-1. The About: the fold fix agreed by Jim on 12 October ("National Curriculum-aligned" out of
-   the second sentence, so ChatGPT and Claude land above the fold) and "since 2021" agreed, both
-   applied at his word; "England's official curriculum body" against "arm's-length body of the
-   Department for Education"; a sentence that shows a decision above the engineering function,
-   if one exists; the Practice paragraph read by both readers at mechanism altitude, the one
-   line that moved them being that the engineers working there use it.
-2. The Oak cards: the Principal card is 2,573 characters against LinkedIn's 2,000, and Jim's
-   word (12 October) is to refine it at information density and writing quality, never to cut
-   it down; inside that pass, "the standards travel with the data" (unclear to both readers at
-   speed) and "Inside it the agents build; the judgement and the calls are mine" (read by a cold
-   reader as lowering the altitude); "meant no child missed out on education" (his phrase, the
-   editor's objection beside it); the gloss of the Open Curriculum Ecosystem for a reader who
-   has never met it; decide or recommend on the rebuild.
-3. The earlier entries: the titles are Jim's to change, some change and some stay, by a
-   discussion with him (his word, 12 October; the seat's table of each title, what a cold reader
-   takes from it and one proposal, in chat); the start-ups behind the Startups name are Assanka,
-   which became FT Labs, We Predict (off the page at his word of 11 October, on the CV), Oak in
-   its first months, and Obaith with Reforest Now and the ventures that stopped at research, so
-   the FT Labs and Obaith cards can show them; Code Science's dates and clients; "won multiple
-   awards"; the one-in-ten finding's attribution; the Firefox OS app; the plugin project's start
-   year.
-4. The new sections' calls: the top-card industry (read at application); the banner; pronouns;
-   the Portsmouth school field; the two safety certificates and the two Johns Hopkins course
-   certificates out at the seat's verdict (both readers read the courses as lowering the
-   altitude beside a PhD; Jim's word, 12 October: he does not much care either way); the Google Scholar profile as a Featured item, the DOIs and the thesis on Publications, the
-   ORCID iD on the PhD entry, the Publications being the evidence for Science Communication; the volunteering cause field; the
-   Institute of Physics grade.
-5. Skills: settled at Jim's list of 11 October, evening, plus four names at his word of 12
-   October (§Skills below, last paragraphs); nothing in question. Public Speaking stands on his
-   word, Mentoring is understood in a Principal, and a post of his may follow later without the
-   claims waiting for it. The readers' result on the whole, read on the afternoon's list: the
-   page describes an engineering strategist and originator inside a national public service
-   with a physics past; both would forward or longlist. The readers run again after his changes,
-   at his word.
-6. Recommendations: agreed before the review, Jim asks at application; who to ask is his.
-7. Settings, at application: Open to Work off; profile-update sharing off during editing, one
-   notification at the end.
+Open for Jim's edit, 12 October: the Principal card's 139 characters; the three titles he
+changes himself; the awards' names; the industry value at the dropdown; the banner photograph;
+Recommendations (who to ask, at application); the settings at application (Open to Work off;
+profile-update sharing off during editing, one notification at the end).
 
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 

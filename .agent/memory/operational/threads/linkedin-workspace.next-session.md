@@ -510,8 +510,16 @@ content has homes of its own (the Practice as a Projects card; the product's sta
 plugin's Project card), so the limit is met by design. The titles table stands for the
 discussion, with the directive's caution on "Founder" (not a claim on the canonical CV) beside
 the live profile's own Obaith title. The list, the fold fix, "since 2021" and the certificates
-stand as applied. Next: the card conversation, then the titles, then the editor and prose passes
-and the readers. moved for the sites: nothing / moved for the Practice: nothing.
+stand as applied. Then, at his request, every open question as self-contained
+structured questions (seven rounds); his answers are the settled list in the container's
+one-system section, and the next editable draft is built from them in this block's commit: the
+Principal card at the agreed shape (2,139 characters, the trade his in the edit), the Practice
+as a Project card, the consulting card with the function's growth, Founder at Code Science with
+the clients named, Assanka on the FT card, the first term's scale on the 2020 card from Oak's
+report of July 2020, the Institute as the PhD's school, the paper links back to arXiv (his
+aside: no paywall), the industry and banner proposed. Next: his edit in the editor
+(`pnpm --filter linkedin editor`, the tab reloaded before typing; `profile.review.md` is his
+copy); then the editor and prose passes on the whole and the readers. moved for the sites: nothing / moved for the Practice: nothing.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

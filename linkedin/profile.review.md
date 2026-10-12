@@ -2,7 +2,7 @@
 
 ## Top card
 
-Status: drafted (11 October 2026: name, pronouns and location as now; the photo stays; the banner is Jim's call; the live industry value was never recorded, so it is read at application and, if it names a function, replaced by the sector Oak sits in, against LinkedIn's taxonomy; awaiting Jim)
+Status: drafted (12 October 2026: name, pronouns and location as now; the photo stays; the banner is one of Jim's own photographs, wide and quiet, without text, chosen by him; the industry value proposed below and confirmed against LinkedIn's list at application; awaiting Jim)
 
 Name: Dr Jim Cresswell
 
@@ -10,7 +10,7 @@ Pronouns: He/Him
 
 Location: United Kingdom
 
-Industry: the sector Oak sits in, chosen at application
+Industry: Technology, Information and Internet (Jim: "broadly it is technology"; confirmed against the dropdown at application)
 
 ## Headline
 
@@ -74,39 +74,37 @@ Link: <https://scholar.google.com/citations?user=7yf2vEEAAAAJ>
 
 Status: drafted
 
-### Principal Engineer · Oak National Academy · June 2022 – Present · United Kingdom
+### Principal Engineer, Strategy and Innovation · Oak National Academy · June 2022 – Present · United Kingdom
 
-Status: drafted (8 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the level and the Practice paragraphs added at Jim's word, awaiting Jim)
+Status: drafted (12 October 2026, to the shape settled with Jim: the fold shows the level by decision; the function's growth on the consulting card, the Practice's mechanism on its own Project card, the product's values with the plugin's; the descriptor on the title his; awaiting Jim's edit)
 
-I hold Oak's engineering strategy: the long-term technical direction, what gets built and what does not, the case for it to senior leadership, engineers and non-engineers alike, and Oak's engineering relationships with the vendors and partners it builds with. Oak's engineering was four contractors when I arrived in 2020 and is now six product squads and three platform groups. I have carried its strategy through all of it and helped define the function as it grew, to its first platform group and a Team Topologies design for the cross-functional teams.
+I hold Oak's engineering strategy: I decide what gets built and what does not, and make the case for it to the people who fund and run the service. Two decisions shaped the last four years: to rebuild the emergency platform while it was still what kept lessons online, and to put Oak's open curriculum inside the AI assistants teachers already use.
 
-Even with the emergency platform safe to change, every change got harder and every release slower. I argued that optimising it was the wrong starting point and that Oak should rebuild. Oak did; I stood behind the call and accepted the near-term risk to delivery and reputation. Everything Oak has built in the four years since stands on that rebuild.
+Even with the emergency platform safe to change, every change got harder and every release slower. I argued that optimising it was the wrong starting point and that Oak should rebuild. The call was mine to make and I made it; Oak's leadership backed it, and I carried the near-term risk to delivery and reputation. Everything Oak has built in the four years since stands on that rebuild.
 
-The Oak AI plugin began in 2024 as an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. I made the case, built a public SDK on the data by hand before the route existed, then the route itself, a service now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP). The curriculum is the experts' work; the plugin's shape, its development and its strategy came from me.
+The Oak AI plugin began in 2024 as an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. I made the case, built a public SDK on the data by hand before the route existed, then the route itself, a service now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP). The curriculum is the experts' work; the plugin's shape, its development and its strategy came from me. It carries the curriculum principles and the accessibility bar the lessons were written to, so whatever is built on Oak builds on them.
 
-As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data. The plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
-
-The Practice came before the plugin was a product. While the plugin was still an SDK, I was building the way of working it would be built in: every decision recorded with its reasons, every agent working to the same written rules, what one session learns kept for the next. Inside it the agents build; the judgement and the calls are mine. I built it to be taken up a piece at a time. Practice and plugin alike are public in the Open Curriculum Ecosystem, Oak's repository for building on its curriculum data, and the engineers working there use it.
+The Practice came before the plugin was a product: the way of working it would be built in, a framework for engineering with AI agents. Inside it the agents build; the judgement and the calls are mine. I built it to be taken up a piece at a time. Practice and plugin alike are public in the Open Curriculum Ecosystem, Oak's public tools for working with its openly licensed curriculum data, by API, SDK and the Oak AI plugin, and the engineers working there use it.
 
 Zero to one is complete. The plugin has its own cross-discipline product squad now, building out the direction I set, and that is the pattern: build the first version and the way of working, hand them on, and go where the next problem is still unformed.
 
 ### Principal Engineer (consulting) · Oak National Academy · Jan 2021 – May 2022 · United Kingdom
 
-Status: drafted (10 October 2026, at Jim's word on the consulting years, awaiting Jim)
+Status: drafted (12 October 2026: the function's growth moved here from the Principal card, whose years it spans; awaiting Jim's edit)
 
-Oak was becoming a permanent service and its engineering was growing into teams. I set the engineering strategy through that transition, helped shape the function as it took on its first QA engineer and first engineering manager, and put in the delivery infrastructure, testing practice and developer experience that made the emergency platform safe to change. As Oak became an arm's-length body of the Department for Education, the position was formalised as Principal Engineer in June 2022.
+Oak was becoming a permanent service and its engineering was growing into teams: four contractors when I arrived in 2020, six product squads and three platform groups today. Through that growth I set the engineering strategy, helped shape the function as it took on its first QA engineer, first engineering manager and first platform group, and put in the delivery infrastructure, testing practice and developer experience that made the emergency platform safe to change. As Oak became an arm's-length body of the Department for Education, the position was formalised as Principal Engineer in June 2022.
 
 ### Senior Developer (consulting) · Oak National Academy · Aug 2020 – Dec 2020 · United Kingdom
 
-Status: drafted (8 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the consulting years split at Jim's word, awaiting Jim)
+Status: drafted (12 October 2026: the first term's scale from Oak's own report of July 2020, as the press carried it, one clause at Jim's choice; awaiting Jim's edit)
 
-Oak had launched in April 2020 as an emergency pandemic response, and four contractors were building the platform that meant no child missed out on education. I joined to get the first teacher-facing service shipped, and it shipped, backed by the testing and engineering foundations the first months had left no time for.
+Oak had launched in April 2020 as an emergency pandemic response, and four contractors were building the platform that meant no child missed out on education: twenty million lessons to 4.7 million users in its first term. I joined to get the first teacher-facing service shipped, and it shipped, backed by the testing and engineering foundations the first months had left no time for.
 
-### Managing Director · Code Science Limited · Feb 2015 – Feb 2024 · United Kingdom
+### Founder · Code Science Limited · Feb 2015 – Feb 2024 · United Kingdom
 
-Status: drafted (11 October 2026, awaiting Jim)
+Status: drafted (12 October 2026: the title and the named clients settled with Jim; awaiting Jim's edit)
 
-Code Science was my consultancy. Through it I consulted for Oak National Academy and other public and private sector clients, on software, technical strategy and how teams specify, test and deliver.
+Code Science was my consultancy. Through it I consulted for Oak National Academy, the Home Office and British Airways, with ad-hoc work for Teacher Tapp and BorrowMyDoggy, on software, technical strategy and how teams specify, test and deliver.
 
 ### Head of Test (consulting) · Medicspot · Apr 2020 – Jul 2020 · United Kingdom
 
@@ -134,9 +132,9 @@ I instigated BA's move from bespoke version control to Git and GitHub, and co-cr
 
 ### Senior Developer · FT Labs · Aug 2011 – Jul 2014 · London
 
-Status: drafted (11 October 2026; one card and the title at Jim's word, awaiting Jim)
+Status: drafted (12 October 2026: Assanka named, the Firefox OS app as a prototype; the awards stay unnamed on the card until Jim confirms them, he recalls at least one Webby and the press of February 2012 records the Global Mobile Award for publishing innovation; awaiting Jim's edit)
 
-I joined as a developer and helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline. It was among the first of its kind and won multiple awards. I led the technical delivery of the FT Windows 8 app and the FT Firefox OS app, then took on the FT's test automation strategy and tooling.
+I joined Assanka, the start-up the FT bought to make FT Labs, and helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline. It was among the first of its kind and won multiple awards. I led the technical delivery of the FT Windows 8 app and a Firefox OS prototype, then took on the FT's test automation strategy and tooling.
 
 ### PhD Researcher · University of Portsmouth · Sep 2005 – Dec 2010 · United Kingdom
 
@@ -154,11 +152,11 @@ I started with manual test plans for HP's D2D storage product. I automated them,
 
 Status: drafted (11 October 2026, from the live entries and draft 1, awaiting Jim)
 
-### University of Portsmouth · PhD, Astrophysics and Cosmology · 2005 – 2010
+### Institute of Cosmology and Gravitation, University of Portsmouth · PhD, Astrophysics and Cosmology · 2005 – 2010
 
-Status: drafted (11 October 2026, awaiting Jim)
+Status: drafted (12 October 2026: the Institute as the school field at Jim's choice, the university beside it; awaiting Jim)
 
-Institute of Cosmology and Gravitation. Thesis: Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey. ORCID 0000-0003-3074-3799.
+Thesis: Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey. ORCID 0000-0003-3074-3799.
 
 Link: <https://researchportal.port.ac.uk/en/studentTheses/luminosity-functions-and-galaxy-bias-in-the-sloan-digital-sky-sur/>
 
@@ -198,7 +196,15 @@ Status: drafted (11 October 2026, awaiting Jim)
 
 Status: drafted (11 October 2026, awaiting Jim)
 
-The Open Curriculum Ecosystem: Oak's public tools for working with its openly licensed curriculum data, by API, SDK and the Oak AI plugin. The plugin's source, its contributors, and the way of working it was built in, every decision recorded with its reasons. I conceived the plugin and set its direction; the curriculum it carries is the work of Oak's curriculum experts.
+The Open Curriculum Ecosystem: Oak's public tools for working with its openly licensed curriculum data, by API, SDK and the Oak AI plugin. The plugin's source and its contributors. I conceived the plugin and set its direction; the curriculum it carries is the work of Oak's curriculum experts. As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data: the plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
+
+Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
+
+### The Practice, a framework for engineering with AI agents · 2024 – Present · Associated with Oak National Academy
+
+Status: drafted (12 October 2026: the Practice's mechanism moved here from the Principal card, as settled with Jim; awaiting Jim's edit)
+
+The way of working the Oak AI plugin was built in, and the way the engineers on the Open Curriculum Ecosystem work now: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. Every decision is recorded with its reasons, every agent works to the same written rules, and what one session learns is kept for the next, so AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. Built to be taken up a piece at a time, and public with the plugin.
 
 Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 
@@ -220,7 +226,7 @@ Link: <https://app.ft.com/>
 
 ## Publications
 
-Status: drafted (12 October 2026: the two papers linked by DOI and the thesis as a third entry, the works the ORCID record lists; awaiting Jim)
+Status: drafted (12 October 2026: the two papers linked to their arXiv versions so there is no paywall, the thesis as a third entry, the three works the ORCID record lists; awaiting Jim)
 
 ### Scale-dependent galaxy bias in the Sloan Digital Sky Survey as a function of luminosity and colour · Monthly Notices of the Royal Astronomical Society · 2009
 
@@ -228,7 +234,7 @@ Status: drafted (11 October 2026; the journal's form of the title, as the entity
 
 Galaxies of different kinds cluster differently. We measured how the relationship between galaxies and the underlying matter changes with scale, luminosity and colour, and showed why those differences have to be modelled before a galaxy survey yields cosmological information. With Will J. Percival.
 
-Link: <https://doi.org/10.1111/j.1365-2966.2008.14082.x>
+Link: <https://arxiv.org/abs/0808.1101>
 
 ### Cosmic microwave background multipole alignments in slab topologies · Physical Review D · 2006
 
@@ -236,7 +242,7 @@ Status: drafted (11 October 2026, awaiting Jim)
 
 We tested whether one particular shape of the Universe, a slab, could explain unexpected alignments in the microwave sky. In simulation it made the observed alignment somewhat more likely, but even the smallest slab we considered gave a probability below one per cent. With Andrew R. Liddle, Pia Mukherjee and Alain Riazuelo.
 
-Link: <https://doi.org/10.1103/PhysRevD.73.041302>
+Link: <https://arxiv.org/abs/astro-ph/0512017>
 
 ### Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey · University of Portsmouth · 2010
 
@@ -252,7 +258,7 @@ Status: drafted (11 October 2026, awaiting Jim)
 
 ### Volunteer market gardener · Growing Communities · January 2018 – December 2021
 
-Status: drafted (11 October 2026; the title as the CV and the graph carry it; the cause field, live Economic Empowerment, is Jim's call, Environment matching the work; awaiting Jim)
+Status: drafted (12 October 2026; the title as the CV and the graph carry it; the cause field Environment, settled with Jim, set at application; awaiting Jim)
 
 Growing vegetables and perennial crops on a patchwork farm in Hackney, for public education and a veg box scheme.
 
