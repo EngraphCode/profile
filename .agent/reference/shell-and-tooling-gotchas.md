@@ -15,6 +15,8 @@ tool retires them.
   REMAINING chained commands invisibly: zsh's default `EQUALS` option
   performs command-path expansion on an unquoted word beginning with
   `=` (the `=cmd` form). Quote the separator or emit it with `printf`.
+  Recurred 2026-10-13 (an `echo ==label` separator in a chained inspection, the
+  rest of the chain lost): label with a leading `--` and a space.
 - **`GID` is a READONLY integer parameter in zsh** (2026-07-20).
   Assigning a uuid to it fails as "bad math expression"; never use it
   as a variable name (same family: `UID`, `EUID`, `EGID`).
@@ -26,7 +28,10 @@ tool retires them.
   does not word-split, and `"$n:a…"` reads `:a` as a path modifier, so write
   `${n}:`; run watch loops as `bash` scripts, prove a loop on a landed event
   before trusting its silence, and never pipe a Monitor through `grep` (the
-  filter goes inside the script, or the exit code is the pipe's).
+  filter goes inside the script, or the exit code is the pipe's). Recurred
+  2026-10-13: a doctrine probe passed its directory list as `$D` and every grep
+  read zero, the control term included; the control term is what showed it,
+  so a probe batch runs its known-positive term first and spells its paths out.
 - **A `:` straight after an unbraced parameter is a modifier, inside double
   quotes too** (verified 2026-10-01): zsh reads `$NAME:r` (and `:h`, `:t`,
   `:e`, and `:a` above) as a history-style modifier on the parameter, so
@@ -136,6 +141,14 @@ tool retires them.
   The muscle-memory `checkout -b` bundles create+switch and moves the
   shared primary; `git branch --show-current` after every
   branch-affecting command is the cheap tripwire.
+- **A checked-out lane with no commits of its own is re-pointed without a
+  reset** (2026-10-13): the hook refuses `git reset --hard` whatever the tree
+  holds, and the block is a concept to reappraise, not a command to swap. The
+  forward shape: `git switch --detach`, `git branch -d <lane>` (the safe
+  delete refuses an unmerged branch), `git switch -c <lane> <new base>`, then
+  `git merge --ff-only <parent>` to follow the parent afterwards; prove the
+  preconditions first (`git rev-list --count <base>..HEAD` is 0 and
+  `git status --porcelain` is empty), in the same command as the move.
 
 A fast-forward of the primary succeeds over staged ride-along files whose content equals the
 incoming tip: "the identical files were staged before the fast-forward, which git's two-way merge
@@ -165,6 +178,14 @@ Director's landing record of 2026-09-06, event f05a54da).
   line is read literally. Read that line before diagnosing; the
   pre-draft `check-commit-message` step in the commit skill collapses
   the whole layer.
+- **A new bash script's first command is the 5.2 floor guard, and the commit
+  hook never checks it** (2026-10-11): the shell lint gate requires every
+  `#!/usr/bin/env bash` script to open with the floor guard copied from
+  `.agent/claude-harness-integrations/cloud-environment-preflight.sh`, and
+  `lint:shell` runs in the push gate and in `check`, not in the pre-commit
+  light gate, so a script committed without the guard fails at the push.
+  Copy the guard before anything else; run `pnpm lint:shell` once before
+  the commit when a script is new.
 
 ## 2026-07-30 consolidation batch (each measured first-hand in the 07-24→30 window)
 

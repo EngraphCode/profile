@@ -99,7 +99,13 @@ Before substantive work:
    recomputation, Director-confirmed). Prediction (PDR-130): with this step
    loaded, staged-base mismatches surface AT pickup and stale-base rotations
    drop to zero; if the check never fires across a quarter of staged
-   sessions, fold it into the general grounding line.
+   sessions, fold it into the general grounding line. Second instance
+   (2026-10-13): the dedicated seat's lane was cut from the default branch by
+   the worktree rule's default and lacked three days of records; a side agent
+   surfaced it before pickup, and the owner had the lane re-based onto the
+   coordination branch with the default branch merged in first. The mismatch
+   surfaced at pickup, as predicted, but by another reader; this step's own
+   check runs before the first edit, never after a staged cut is trusted.
 7. **Read the register for directive-bound entries, and declare the shape.**
    If any due entry in `pending-graduations.md` targets
    `.agent/directives/`, the pass needs a context below 30 % at the directive

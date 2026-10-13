@@ -561,6 +561,59 @@ byte-identical.
   checkout's absolute path (`$HOME`-relative passes), and a heredoc whose text carries a banned
   phrase (write the brief with the file tool).
 
+### Captured 2026-10-13 from the post-drain buffers (Glowworm lifts Embers, a8c4f8)
+
+The six napkin blocks written since the 11 October drain and the seven per-user memory files
+written since it were read whole by the seat; every lesson with a non-directive home was written
+there in the same pass (the gotchas reference, read-before-asking, consolidate-until-done,
+write-for-the-reader, comms-channels, PDR-063) and only the directive-bound lessons sit here.
+
+- **The owner's instruments for editorial decisions; a review reads his words and the open list**
+  `[captured: 2026-10-13 | source: napkin blocks 2026-10-11T16:xxZ, 2026-10-12T09:xxZ and
+  2026-10-13T11:xxZ (Shrew rides Eventide); the per-user memory
+  review-against-his-words-not-the-seats-frames | target: .agent/directives/editorial-guidance.md
+  §Process (this estate only; the editorial directive is estate-specific) | trigger: the context
+  after the next compaction, under the directive-file budget | size: one paragraph | status: due]`
+
+  His instruments: a table he edits in place and a numbered reply; for a backlog, self-contained
+  question cards, each carrying the text under decision, the reader's take and one proposal per
+  option ("ask me all open questions now, as user questions, each self-contained so I can answer
+  it from the card alone", 2026-10-12). The process: a conversation by default, the seat bringing
+  the trade space and its view of what is best in context; apply only what the conversation
+  settled, as a named list; a limit is a question about homes, never a reason to cut; every
+  message leads with what changed that he did not ask for. A review reads the open list first and
+  marks each item agreed or open; agreed intent is never critiqued; a settled item is never listed
+  again, not even as closed ("stop bringing it up as open, I will do it, the matter is settled",
+  2026-10-13); an item he calls his own edit gets no proposal; a mindset he names is shown by how
+  the page is written, never by a noun's position. Outside eyes go to every removal and every
+  number: a side agent, not the seat's own sweep, found the privacy class and the count-driven
+  trade (2026-10-11 and 2026-10-13).
+
+- **His reasons about himself leave the public repository at once; the sweep searches for the class**
+  `[captured: 2026-10-13 | source: the owner's words of 2026-10-11 (napkin blocks 13:4xZ and
+  16:xxZ; the per-user memory owner-reasons-are-private-decisions-are-public) | target:
+  .agent/directives/privacy.md §Private editorial material, two sentences | trigger: the context
+  after the next compaction, under the directive-file budget | size: two sentences | status: due]`
+
+  When his sentence answers why he can claim a thing or what he is, the tracked file carries the
+  decision only and the sentence goes to the private editorial repository the section names,
+  never to a directory the seat invents ("you can't just make up a private directory and label it
+  as a repo"); a tracked file or an unpushed commit already carrying it is amended before any
+  push. The sweep after such a correction searches for the class (his intentions, his reasons
+  about himself), never the corrected sentence, and a second reader runs it.
+
+- **On a shared primary the claims and the commit queue coordinate; a message only when the peer must act**
+  `[captured: 2026-10-13 | source: the owner's word of 2026-10-11 11:1xZ (napkin block 11:2xZ,
+  lesson 4; the per-user memory peer-messages-only-when-the-peer-must-act) | target:
+  .agent/directives/user-collaboration.md, the working-model clause on peer coordination, the
+  same bytes in both estates; the skill half landed in comms-channels §The behaviours in this
+  pass | trigger: the context after the next compaction, under the directive-file budget | size:
+  two sentences | status: due]`
+
+  Verbatim: "stop messaging every little to Shrew, they are concentrating on a different task".
+  A direct message goes only when the peer must act (a hold to release, a push that will block
+  their edits for minutes), batched into one; the registry and the queue carry the rest.
+
 ## Slow lane (PDR-130 — constitutional-class concepts, decided at their review date)
 
 Rows here are live deliverables under a named review gate, NOT decision-debt:

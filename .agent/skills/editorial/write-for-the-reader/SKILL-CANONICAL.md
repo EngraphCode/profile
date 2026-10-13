@@ -77,6 +77,11 @@ into the prose.
 - Facts and attribution against the sources: the particulars, the records, the public
   repositories. Names, dates, titles, numbers, licences and product names exactly as their owners
   spell them (for the Oak AI plugin, EDR-007).
+- An award or honour goes on the page only in the status the awarding body's own record shows.
+  A win and a nomination feel the same from the inside (13 October 2026: a remembered Webby win
+  was a nominee twice and an honoree once on the winners pages), so the body's page or the press
+  release decides the verb, and a remembered win with no record is named to Jim as unconfirmed,
+  never written.
 - Length is information, never a target. Measure once and state it with the draft. If the
   surface's field refuses the text at application, the choice of what moves to another surface
   is editorial and Jim's, never a cut by counting. His words of 8 October 2026: "we don't trim to
