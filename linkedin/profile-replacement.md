@@ -65,8 +65,9 @@ their abstract forms; the descriptor "Principal Engineer, Strategy and Innovatio
 current title only; Code Science titled Founder, with Oak, the Home Office, British Airways and
 ad-hoc work for Teacher Tapp and BorrowMyDoggy named; Obaith as now; the Medicspot, Home Office
 and British Airways titles his own edits; the FT card names Assanka and the Firefox OS app as a
-prototype, the awards unnamed until he confirms them (at least one Webby by his recollection;
-the Global Mobile Award for publishing innovation in the press of February 2012); the one-in-ten
+prototype, the awards at his word of 13 October: the 2012 Global Mobile Award named on the card
+and the others clearly more than one and unnamed (a Webby among them by his recollection, the
+trophy a spring, which is the Webby statuette's shape; not found in two searches); the one-in-ten
 finding his, as written; We Predict stays off; the plugin's start 2024; "meant no child missed
 out on education" stays, with the first term's scale from Oak's own report of July 2020 (twenty
 million lessons, 4.7 million users) as one clause; the industry Technology, Information and
@@ -80,16 +81,17 @@ Services). The Oak figures on the 2020 card come from Oak's report of 23 July 20
 carried it (fenews.co.uk, 2020: a quarter of a million lessons on the first day; 20 million
 lessons and 4.7 million users by the end of the first term); the FT app's award from the press
 of February 2012 (talkingbiznews.com, "FT mobile app wins award": the Global Mobile Award for
-Best Mobile Innovation for Publishing), an inference that it is the web app, to confirm. The
+Best Mobile Innovation for Publishing); the report describes the HTML5 web app launched in
+2011, so the award is the web app's. The
 Principal
 card at that shape is 2,139 characters against 2,000; the trade is made in his edit (the
 candidates: the Practice sentence's definition clause, which the Project card's title and the
 About carry; the long gloss on the card; "cross-discipline").
 
-Open for Jim's edit, 12 October: the Principal card's 139 characters; the three titles he
-changes himself; the awards' names; the industry value at the dropdown; the banner photograph;
-Recommendations (who to ask, at application); the settings at application (Open to Work off;
-profile-update sharing off during editing, one notification at the end).
+Open for Jim's edit, 13 October: the Principal card's 139 characters; the three titles, his
+own; the banner photograph; the industry value confirmed at the dropdown at application; the
+settings at application (Open to Work off; profile-update sharing off during editing, one
+notification at the end).
 
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
@@ -479,9 +481,10 @@ Entrepreneurship beside Startups, Digital Public Goods after Open-Source Develop
 Science after Physics; forty-seven entries, applied 12 October); Strategic Partnerships is not
 added, at his word.
 
-## Recommendations — open
+## Recommendations — settled (Jim, 11 October 2026: he will ask)
 
-Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's.
+Two or three specific ones from senior colleagues at Oak or its department; who to ask is Jim's,
+at application.
 
 ## Education, publications, certifications, contact — drafted, awaiting Jim
 

@@ -132,9 +132,9 @@ I instigated BA's move from bespoke version control to Git and GitHub, and co-cr
 
 ### Senior Developer · FT Labs · Aug 2011 – Jul 2014 · London
 
-Status: drafted (12 October 2026: Assanka named, the Firefox OS app as a prototype; the awards stay unnamed on the card until Jim confirms them, he recalls at least one Webby and the press of February 2012 records the Global Mobile Award for publishing innovation; awaiting Jim's edit)
+Status: drafted (13 October 2026: Assanka named, the Firefox OS app as a prototype; the Global Mobile Award named from the press of February 2012 and the others left unnamed, at Jim's word; a Webby among them by his recollection, unconfirmed; awaiting Jim's edit)
 
-I joined Assanka, the start-up the FT bought to make FT Labs, and helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline. It was among the first of its kind and won multiple awards. I led the technical delivery of the FT Windows 8 app and a Firefox OS prototype, then took on the FT's test automation strategy and tooling.
+I joined Assanka, the start-up the FT bought to make FT Labs, and helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline. It was among the first of its kind and won multiple awards, among them the 2012 Global Mobile Award for Best Mobile Innovation for Publishing. I led the technical delivery of the FT Windows 8 app and a Firefox OS prototype, then took on the FT's test automation strategy and tooling.
 
 ### PhD Researcher · University of Portsmouth · Sep 2005 – Dec 2010 · United Kingdom
 
