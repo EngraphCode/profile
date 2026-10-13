@@ -132,9 +132,9 @@ I instigated BA's move from bespoke version control to Git and GitHub, and co-cr
 
 ### Senior Developer · FT Labs · Aug 2011 – Jul 2014 · London
 
-Status: drafted (13 October 2026: Assanka named, the Firefox OS app as a prototype; the Global Mobile Award named from the press of February 2012 and the others left unnamed, at Jim's word; a Webby among them by his recollection, unconfirmed; awaiting Jim's edit)
+Status: drafted (13 October 2026: Assanka named, the Firefox OS app as a prototype; the app award-winning in the FT's own words, the recognitions named on the FT Web App Project card, at Jim's word; awaiting Jim's edit)
 
-I joined Assanka, the start-up the FT bought to make FT Labs, and helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline. It was among the first of its kind and won multiple awards, among them the 2012 Global Mobile Award for Best Mobile Innovation for Publishing. I led the technical delivery of the FT Windows 8 app and a Firefox OS prototype, then took on the FT's test automation strategy and tooling.
+I joined Assanka, the start-up the FT bought to make FT Labs, and helped build the FT Web App: the whole newspaper delivered on the open web, in HTML5 and JavaScript, working online and offline. It was among the first of its kind and award-winning. I led the technical delivery of the FT Windows 8 app and a Firefox OS prototype, then took on the FT's test automation strategy and tooling.
 
 ### PhD Researcher · University of Portsmouth · Sep 2005 – Dec 2010 · United Kingdom
 
@@ -218,9 +218,9 @@ Link: <https://github.com/oaknational/Oak-Web-Application>
 
 ### FT Web App · September 2011 – July 2014 · Associated with FT Labs
 
-Status: drafted (11 October 2026, awaiting Jim)
+Status: drafted (13 October 2026: the Global Mobile Award and the Webby statuses named at Jim's word, from the GSMA press of February 2012 and the Webby winners pages; awaiting Jim's edit)
 
-The Financial Times as a web application, launched in 2011: the whole paper in the browser, readable offline, in HTML5 and JavaScript. The link shows today's product.
+The Financial Times as a web application, launched in 2011: the whole paper in the browser, readable offline, in HTML5 and JavaScript. It won the 2012 Global Mobile Award for Best Mobile Innovation for Publishing, and was a Webby Honoree in 2014 after nominations in 2012 and 2013. The link shows today's product.
 
 Link: <https://app.ft.com/>
 

@@ -65,10 +65,12 @@ their abstract forms; the descriptor "Principal Engineer, Strategy and Innovatio
 current title only; Code Science titled Founder, with Oak, the Home Office, British Airways and
 ad-hoc work for Teacher Tapp and BorrowMyDoggy named; Obaith as now; the Medicspot, Home Office
 and British Airways titles his own edits; the FT card names Assanka and the Firefox OS app as a
-prototype, the awards at his word of 13 October: the 2012 Global Mobile Award named on the card
-and the others unnamed; the Webby pages he gave record the FT Web App as a Webby Nominee in
-2012 and 2013 (News, Handheld Devices) and a Webby Honoree in 2014 (Best User Experience),
-never a winner, so "won a Webby" is not written; the one-in-ten
+prototype, the awards at his word of 13 October: the FT card calls the app award-winning, the
+FT's own phrase (aboutus.ft.com, the press release for the redesign of its "award-winning web
+app"), and the FT Web App Project card names the 2012 Global Mobile Award and the Webby
+statuses the winners pages he gave record, a Nominee in 2012 and 2013 (News, Handheld Devices)
+and an Honoree in 2014 (Best User Experience), never a winner, so "won a Webby" is not written;
+the other awards he remembers but cannot name stay unnamed; the one-in-ten
 finding his, as written; We Predict stays off; the plugin's start 2024; "meant no child missed
 out on education" stays, with the first term's scale from Oak's own report of July 2020 (twenty
 million lessons, 4.7 million users) as one clause; the industry Technology, Information and
