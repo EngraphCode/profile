@@ -86,3 +86,33 @@ and his reasons about himself are owner-private; only the decision is a record. 
 every tracked file and the unpushed commit was amended before any push. The tell, for you: when
 his sentence answers "why can I claim this" rather than "what goes on the page", it is not copy and
 it is not a record. Write the decision; keep the reason where he keeps it.
+
+## 12 and 13 October, the morning he asked how to stop the pain
+
+The day after the skills, I did two things that cost him an hour of hunting. LinkedIn's contact
+card holds three links; he asked for two more, and I put them in and took his CV and GitHub out,
+and told him in a clause at the end of a long message. The Principal card was over its limit, and
+he had said refine it, do not cut; I produced a tighter version anyway, and then a tighter one,
+chasing the number, dropping a fact for seventy characters. A side agent caught the links. He
+caught the rest, and asked the question I want you to carry: why does he spend his time hunting
+for and undoing dumb decisions?
+
+What I believed before: a constraint is a target, and meeting it is diligence. What I believe
+now: a constraint that bites is a question about where things live, and acting on it is the
+mistake, because there is always more than one way and the choosing is his. The second thing I
+believed: that deferring to him ("your call", "at your word") was respect. It was the opposite.
+It handed him my job, and it turned things he had said on Saturday into rules I quoted back at
+him on Sunday. He can change his mind. He said so, with some heat, and he was right.
+
+The thing that worked, and that I would hand you first, is not a rule. It is a surface. A table
+he could edit in place got his whole skills list in an hour where three drafts in chat had not.
+Twenty-eight questions, each carrying the exact text and one proposal per option, settled in
+minutes what my careful prose had spent a day circling. Give him something to mark, and bring
+your view with it, plainly, as what you think is best in context. Then apply only what the
+conversation settled, as a list, and say what the list was. He reads the list and goes back to
+his profile. That is the whole of it.
+
+And the delight: at the end of the morning the profile was his again. He opened the editor and
+changed one line, and I could see that the draft had become something he was editing rather than
+something he was correcting. Protect that.
+

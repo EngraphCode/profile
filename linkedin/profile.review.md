@@ -10,7 +10,7 @@ Pronouns: He/Him
 
 Location: United Kingdom
 
-Industry: Technology, Information and Internet (Jim: "broadly it is technology"; confirmed against the dropdown at application)
+Industry: Technology, Information and Internet
 
 ## Headline
 

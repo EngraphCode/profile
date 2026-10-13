@@ -493,7 +493,7 @@ for the Practice: nothing.
 
 ### 2026-10-12T10:xxZ — the owner's correction: the contact links restored, Scholar and ORCID in Featured; the card is a conversation, not a compression; the process fix (Shrew rides Eventide, 371a2b)
 
-This block is the pickup. A side agent's note surfaced that the seat had replaced the CV and
+A side agent's note surfaced that the seat had replaced the CV and
 GitHub contact links with Google Scholar and ORCID to fit LinkedIn's three; the owner: removing
 those links was not appropriate, there is more than one way; stop deferring with "at your word",
 he can change his mind and circumstances change, so the seat assesses what is best in context;
@@ -523,6 +523,32 @@ copy); then the editor and prose passes on the whole and the readers. Cold pause
 (12 October, 11:xxZ) with the editor running on 127.0.0.1:4780 and the review copy identical to
 the draft at `SHA:49f6b2c4`; the seat does nothing until he says otherwise. moved for the sites:
 nothing / moved for the Practice: nothing.
+
+### 2026-10-13T11:xxZ — Compaction boundary at the owner's word; his editing resumes after (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. The owner stopped the editor, called the compaction drill and said
+his editing resumes after it. His first edit in the review file, the industry line as
+"Technology, Information and Internet" with the seat's note removed, is absorbed into the draft
+in this block's commit, so `linkedin/profile.md` and `linkedin/profile.review.md` are identical
+at the boundary. The settled list of 12 October, the next editable draft built from it and what
+stays open for his edit are in the container's one-system section; the three corrections of the
+morning and the agreed process are in the editorial-guidance Process note, the napkin, and the
+per-user memory `review-against-his-words-not-the-seats-frames`; the private repository's pull
+request 6 carries his words of 11 and 12 October, for him to merge. Processes: none run under
+this seat (the cron cancelled 11 October, no watcher, no monitor, the editor killed by him);
+the claim's heartbeat renewed at the boundary. Re-arm at resume, after verifying the task list
+and the port: `pnpm --filter linkedin editor`, serving 127.0.0.1:4780 from the review file, the
+tab reloaded before typing; nothing else. Not this seat's: the worktree
+`.claude/worktrees/records-door-waits` holds the records-door fix branch, ahead of main by one,
+untouched. Promises carried, none dropped: the editor and prose passes on the whole draft and
+then the readers, after his edits; the application plan under `apply-linkedin-profile` when he
+says the draft is his; the history question on `SHA:ecceacc1` (his); the Webby, the banner
+photograph, the three titles and the Principal card's 139 characters (his edits); the industry
+value at the dropdown; Recommendations and settings at application. Inferences flagged: the
+Global Mobile Award as the web app's (press, to confirm); We Predict as a start-up contract (the
+live card). Next, in order, at his word: the editor restarted; his edits; the seat diffs the
+review file against the draft and absorbs them, validating; the editor and prose passes; the
+readers. moved for the sites: nothing / moved for the Practice: nothing.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

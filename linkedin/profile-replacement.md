@@ -73,7 +73,15 @@ million lessons, 4.7 million users) as one clause; the industry Technology, Info
 Internet, confirmed at the dropdown; the volunteering cause Environment; the PhD's school field
 the Institute of Cosmology and Gravitation; the Institute of Physics grade Member; the Open
 Curriculum Ecosystem's long gloss on both cards; the banner one of his own photographs, wide and
-quiet, without text; the paper links the arXiv versions, so there is no paywall. The Principal
+quiet, without text; the paper links the arXiv versions, so there is no paywall; the industry value is his first
+edit in the editor, 12 October, the parenthetical note removed (the dropdown's neighbours, if
+it is not offered as such: Software Development; IT Services and IT Consulting; Research
+Services). The Oak figures on the 2020 card come from Oak's report of 23 July 2020 as FE News
+carried it (fenews.co.uk, 2020: a quarter of a million lessons on the first day; 20 million
+lessons and 4.7 million users by the end of the first term); the FT app's award from the press
+of February 2012 (talkingbiznews.com, "FT mobile app wins award": the Global Mobile Award for
+Best Mobile Innovation for Publishing), an inference that it is the web app, to confirm. The
+Principal
 card at that shape is 2,139 characters against 2,000; the trade is made in his edit (the
 candidates: the Practice sentence's definition clause, which the Project card's title and the
 About carry; the long gloss on the card; "cross-discipline").
