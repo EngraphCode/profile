@@ -109,6 +109,75 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-13T20:5xZ — the third consolidation resumes in a dedicated seat; the counts, the finish list, the contexts (Glowworm lifts Embers, a8c4f8)
+
+- **Counts first**: pending graduations JC.net 31 due (the fitness readout's live decision-debt
+  at 20:4xZ), the sibling 16 due (15 at the handoff; the sixteenth is read at the sibling stage);
+  open questions 0 and 0; distilled empty in both; slow-lane rows 3 here (reviews 2026-10-19,
+  2026-12-15, 2026-12-15), the sibling's read at its stage. Undrained buffers: this napkin's six
+  blocks since the 11 October drain (Shrew rides Eventide's five, 12:5xZ to 2026-10-13T11:xxZ,
+  and this seat's 20:xxZ) plus the drain-boundary block's own lessons; seven per-user memory
+  files written since the drain; the two stream selections (85 and 120 events, 157 and 208 KB,
+  unread); the Codex memory (four files and 23 rollout summaries, about 370 KB, unread); the
+  memory-directory dispositions of the 11:2xZ block (decided, unapplied); the sibling napkin's
+  blocks since 2026-10-05 (one guest block and three live blocks of Walrus seeks Maelstrom,
+  9585cc, whose session is open there).
+- **The owner's words, verbatim (2026-10-13)**: the goal at seating, "This is a dedicated
+  consolidation session. The goal is knowledge curation, never fitness numbers. Done means empty
+  pending graduations and empty buffers: say those counts first in every report. This job is
+  higher priority than the daily branch fold. If the buffers are empty, and not before, deal with
+  all the pending promotions. Do not stop until it is all done"; "use the full cricket suite
+  regularly"; ultracode on for the session. Read with his word of 11 October (single-agent
+  reading): the seat reads every piece itself; the workflows and the Cricket panel verify and
+  judge, never read for the seat. The lane: "the worktree should be off the coordination branch"
+  (20:2xZ); main merged in at his "appropriate merge" (02e2a764); "no pushing".
+- **The finish list, counted, each with its landing path** (items 1 and 2 of the 11:1xZ list
+  stand done; this list replaces its remainder):
+  1. The JC.net post-drain buffers: the six napkin blocks and the seven memory files read (done
+     at this block); their lessons homed directly where the home is clear, else as register
+     entries; the 11:2xZ memory dispositions applied (index lines retired, "Graduated to"
+     markers). Landing: records commits on this lane; the memory directory on this machine.
+  2. The JC.net register's non-directive entries (26 of 31) graduated into their homes on this
+     lane, each home read before and after the write, the entry removed in the same commit as
+     its home. Landing: commits on `docs/consolidation-3`; the lane's pull request against main
+     after 327 folds (a build-ahead lane carries the day branch until then).
+  3. The JC.net stream selection (85 events) read whole by the seat in a context of its own;
+     the lessons joined to the register and graduated. Landing: as item 2.
+  4. The Codex memory read whole in a context of its own; dispositions; as item 2. Cursor
+     (nothing after 2026-05-28) and Gemini (empty) stand as the opening block found them.
+  5. The sibling: Walrus seeks Maelstrom told once before any write there; the stale curator
+     claim 99c21ba4 closed; its register (16) graduated the same way on a lane of its own, the
+     shared bytes carried; its stream selection (120 events) in its own context; its napkin
+     blocks since 2026-10-05 read. Landing: its lane's commits and pull request.
+  6. The directive-bound entries (five here: continuity-practice, user-collaboration twice,
+     principles, testing-strategy; the sibling's own) in a fresh context below the 30 percent
+     budget, after items 1 to 5.
+  7. Both napkins rotated by proof after their drains (archive byte-identical against the
+     committed blob; a fresh napkin with the rotation note).
+  8. The slow-lane rows, the owner's "pending promotions": after items 1 to 7 and not before,
+     each decided promote or kill at his word of today, review date or not.
+  9. The oversized memory files by `continuity-practice` §Disposition (here
+     `repo-continuity.md` at 976 lines and `director-handoff.md` at 372, both critical; the
+     sibling's named in the 11:1xZ list), a context each, priced by entries.
+  10. The close: `practice:fitness:strict-hard` read as a signal, the counts first, the 7c and
+      7d findings, the wrap.
+- **The contexts, priced at open**: this context carries items 1 and 2 (the register's 45 KB
+  and the homes, about 25 K tokens of reads plus the writes) and ends at a compaction, never a
+  chosen wrap; the next carries 3 and 4 (about 180 K tokens of reading, each file whole, one at
+  a time); then 5; then 6 in a fresh context with the figure read before the first directive
+  edit; then 7 to 10. The 30 percent gate prices only item 6.
+- **The team**: n=2 on this estate with Shrew rides Eventide (371a2b, implementer, the LinkedIn
+  lane, live by the harness's session list, its claim past freshness, no watcher of its own);
+  the sibling carries Walrus seeks Maelstrom (reviewer on its #356, live). This seat: watcher
+  armed (Monitor bkf0kjx79, green), no heartbeat (no consumer), claim 094031ad as curator, team
+  start 7cdbb455. No message to either peer unless one must act.
+- **The fold**: the coordination branch here is on day four with 327 open, the sibling's on day
+  eight; late by the owner's word that this job ranks above it; recorded here and on 327 when
+  the next GitHub write runs as the bot.
+- **State**: lane `docs/consolidation-3` at the merged tip 02e2a764 plus this seat's records
+  commits; the primary clean at 02e2a764, four commits unpushed (three of Shrew's records and
+  the merge), riding the next push at the owner's word.
+
 ### 2026-10-11T11:4xZ — handed off mid-pass at the owner's word; the successor's start-here (Corsair weaves Seabed, 459358)
 
 - **The owner's word, verbatim (11:3xZ)**: "make sure there is a full handoff in place, I want the work continued by a different agent /jc-wrap". PDR-063's protocol applies: this seat retires, the owner names the successor. The handoff record (the four sections and the assumption ledger) is the untracked file under `.agent/state/collaboration/handoffs/` named by claim c119d0f9 in this estate (the file `handoffs/c119d0f9-8a65-4df0-bb16-b84a5a7bd2cb.md`, gitignored, on this machine; the claim was closed and archived with that path at the owner's word on 11 October 13:0xZ, "remove the stale claim, I will start a dedicated consolidation session later", so the file name, not the claim, is the pointer) and by claim 99c21ba4 in OCE, each claim pointing at its record; the directed handoff event and the retirement broadcast are on both comms streams.
