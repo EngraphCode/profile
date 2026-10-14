@@ -55,6 +55,14 @@ function harness(initial: Readonly<Record<string, string>>): Harness {
 }
 
 describe('profanity CLI', () => {
+  it('check reads a path that begins with a dash after a -- separator, and refuses it bare', async () => {
+    const h = harness({ '/repo/-notes.md': 'no swear here\n' });
+    await expect(h.run(['check', '--', '-notes.md'])).resolves.toBe(0);
+    expect(h.stdout()).toBe('profanity: clean\n');
+    await expect(h.run(['check', '-notes.md'])).resolves.toBe(2);
+    expect(h.stderr()).toContain('unknown option: -notes.md');
+  });
+
   it('check reports each swear with its path and line and exits 1', async () => {
     const h = harness({ '/repo/napkin.md': 'fine\nFinish the fucking basic editor\n' });
     await expect(h.run(['check', 'napkin.md'])).resolves.toBe(1);

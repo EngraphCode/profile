@@ -39,6 +39,7 @@ import {
 import { runDepcruiseGate } from './repo-check-depcruise.js';
 import { runKnipGate } from './repo-check-knip.js';
 import { runLintChanged } from './repo-check-lint-changed.js';
+import { runProfanityStaged } from './repo-check-profanity.js';
 import { runProfile } from './repo-check-runner.js';
 import { runShellcheckTracked } from './repo-check-shellcheck.js';
 
@@ -61,6 +62,8 @@ function usage(): string {
     '  prettier-tracked [--write]',
     "                         Run Prettier on every file in git's index (the root gate);",
     '                         a staged new file counts, an untracked one does not.',
+    '  profanity-staged       Run the profanity check on the staged text files (binaries and the',
+    "                         lexicon's own directory left out); fail on any swear.",
     '  profile [--dry-run] [--capture-output]',
     '                         Capture the pnpm check Turbo graph and, unless dry-run is set, time pnpm check.',
     '                         --capture-output stores pnpm check stdout/stderr beside the profile artifact.',
@@ -99,6 +102,7 @@ const COMMANDS: ReadonlyMap<string, RepoCheckCommand> = new Map<string, RepoChec
       run: (args) => runPrettierTracked(args.includes('--write') ? 'write' : 'check'),
     },
   ],
+  ['profanity-staged', { flags: NO_FLAGS, run: () => runProfanityStaged() }],
   // profile reads its own flags; they are listed here too, so a new one needs both.
   [
     'profile',

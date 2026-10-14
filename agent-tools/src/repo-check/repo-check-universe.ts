@@ -93,3 +93,35 @@ export function readTrackedTreeResult(
     return err(failureAsError(error, 'readTrackedTree').message);
   }
 }
+
+/**
+ * The paths git counts as binary in a numstat listing: the records whose added
+ * and deleted counts are both "-". Rename detection is off at the read, so a
+ * rename reads as an addition and every record is the added count, the deleted
+ * count and the path, tab-separated: a path never spans two records. A file an
+ * attribute marks -diff or binary counts as binary too.
+ *
+ * @param numstatOutput - What a -z numstat git command wrote.
+ * @returns The binary paths.
+ */
+function parseBinaryPaths(numstatOutput: string): ReadonlySet<string> {
+  const binaries = new Set<string>();
+  for (const record of parseNulSeparatedPaths(numstatOutput)) {
+    const [added, deleted, ...path] = record.split('\t');
+    if (added === '-' && deleted === '-' && path.join('\t') !== '') {
+      binaries.add(path.join('\t'));
+    }
+  }
+  return binaries;
+}
+
+/** The staged files git reads as binary, from the index (a rename reads as an addition). */
+export function stagedBinaryFiles(runtime: RepoCheckRuntime): ReadonlySet<string> {
+  return parseBinaryPaths(
+    gitOutput(
+      runtime,
+      ['diff', '--cached', '--numstat', '--no-renames', '--diff-filter=ACMR', '-z'],
+      'staged binary files',
+    ),
+  );
+}
