@@ -1,4 +1,5 @@
 import { err, unwrapOrThrow } from '@engraph/result';
+import { typeSafeKeys } from '@engraph/type-helpers';
 
 import { agentIdentityCliEnvironmentFromProcessEnv } from './agent-identity-cli-environment.js';
 import { runAgentIdentityCli } from './agent-identity-cli.js';
@@ -18,6 +19,7 @@ import {
   runSkillEvalsTopic,
 } from './agent-tools-cli-topics.js';
 import { runArcMetricsTopic } from './arc-metrics-topic.js';
+import { runProfanityTopic } from './profanity-topic.js';
 import type {
   AgentToolsCliInput,
   AgentToolsCliResult,
@@ -136,6 +138,7 @@ const UNIFORM_TOPIC_HANDLERS: Readonly<Record<string, UniformTopicHandler>> = {
   'merge-bot': runMergeBotTopic,
   pr: runPrTopic,
   'pr-watch': runPrWatchTopic,
+  profanity: runProfanityTopic,
   'review-cost': runReviewCostTopic,
   'skill-evals': runSkillEvalsTopic,
   spawn: runSpawnTopic,
@@ -224,25 +227,17 @@ function logLifecycle(
   );
 }
 
+// The two topics dispatched above the table, listed with it in the usage.
+const BESPOKE_TOPICS = ['agent-identity', 'collaboration-state'] as const;
+
 function usage(): string {
+  const topics = [...BESPOKE_TOPICS, ...typeSafeKeys(UNIFORM_TOPIC_HANDLERS)].toSorted(
+    (left, right) => left.localeCompare(right),
+  );
   return [
     'Usage: agent-tools <topic> [action] [options]',
     '',
     'Topics:',
-    '  agent-identity',
-    '  arc-metrics',
-    '  collaboration-state',
-    '  commit-queue',
-    '  branch-touched-files',
-    '  context-cost',
-    '  coordination',
-    '  session-metadata',
-    '  codex-exec',
-    '  merge-bot',
-    '  pr',
-    '  pr-watch',
-    '  review-cost',
-    '  skill-evals',
-    '  spawn',
+    ...topics.map((topic) => `  ${topic}`),
   ].join('\n');
 }
