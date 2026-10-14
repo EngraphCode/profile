@@ -109,6 +109,94 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T12:4xZ — the sibling stage landed; the registers at zero and one; the napkin here rotated by proof; the slow lanes decided (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here (the last entry, the DUE-fold carry, landed in the
+  sibling's wrap skill at its stage), 1 in the sibling (the operator-profile half of the Oak GitHub
+  read ruling, a write to the owner's own profile at his word); open questions 0 and 0; distilled
+  empty in both; this napkin rotated, the sibling's not (its live seat holds an uncommitted block).
+- **The owner's words** (verbatim, in order): "No meter, just do the work, we have already done the
+  hard cogitation. Please continue"; "my word is, do it all please". Read as the go for the whole
+  finish list, the slow-lane rows included, with the meter no longer read.
+- **The sibling stage, under the join ceremony**: guest registration and an adoption event on its
+  stream (the full identity block; the live seat named, its three uncommitted files untouched, no
+  action asked of it); the retired curator claim of 2026-10-11 adopted in place and heartbeated;
+  a comms watcher armed with the sibling's tooling under this session's process and asserted live;
+  a lane `docs/consolidation-3` cut from its coordination branch in a linked worktree (the first
+  script run there installed its dependencies from the store, fifteen seconds). What landed in one
+  commit on that lane, author the owner as its git identity requires, forty-one files: twenty-two
+  shared files whose copies were byte-identical to this estate's pre-graduation copies took the
+  graduation hunks as bytes; seven shared-doctrine files are now the same bytes as this lane's
+  settled copies (owner-signal-interpretation, the cross-estate rule, downstream-checkout,
+  consolidate-until-done, wrap, PDR-117, the shell gotchas less one bullet about a shell-lint gate
+  unverified there), carrying the passages prior seats wrote here with the carry owed; five
+  host-flavoured files took their shared passages (pr-lifecycle's three, author-skills,
+  under-the-hood, the shared start-right, coordination-fold's ten-minute paragraph); five directive
+  homes took the eight shared texts the owner agreed; its register went from sixteen committed
+  entries to one by deciding (fifteen homed, the write-list entry found already carried there);
+  its continuity record carries the stage. Two passages were made true in both estates before
+  they travelled, on this lane first: the fold paragraph names the estate whose folds it measured
+  and scopes its fold-clock clause to the tooling that carries the command; the turbo gotcha drops
+  a pointer into this estate's build-system document. Left divergent with the reason named: the
+  fold doctrine of 2026-10-10 in coordination-fold and pr-lifecycle (merge at green by class, the
+  fold clock), which names this estate's merge-bot class detection and fold clock that the
+  sibling's tooling lacks, so its door doctrine stands until its tool learns the class, as its own
+  prediction says; this estate's harness-integrations bullet about its own write hook; the two
+  build-system documents; the shell-lint floor-guard bullet.
+- **The divergence measure** (the retrospective's script, shared Practice paths): 45 files and
+  3,453 lines at the prior seat's tip; 66 and 3,821 after the graduation here; 39 and 3,410 after
+  the sibling stage, below the open on both counts. The 10:0xZ block's "24" and "12" were
+  miscounts: 22 files took the hunks as bytes and 13 differed. The largest remaining differences
+  are host content (build-system, principles' gates text, AGENT, under-the-hood, privacy,
+  testing-strategy's bindings) and one shared executive memory, invoke-code-experts, whose 212
+  differing lines predate this pass and are a finding for the next.
+- **This napkin rotated by proof**: lines 1 to 1482 of the committed blob (the 2026-10-02 rotation
+  note and 53 blocks to Glowworm lifts Embers' boundary of 09:0xZ) moved whole to
+  `archive/napkin-2026-10-02-to-2026-10-14.md`, byte-identical by `cmp` before the live file was
+  written; the live file keeps a rotation note naming the three drains that read the range and
+  this seat's blocks of the day. The words "uncommitted", "deferred" and "blocking" occur on
+  twenty lines of the range, every one narrative (files uncommitted at a boundary, cures deferred
+  to a landing that then merged), none an unresolved marker. The sibling's napkin waits on its
+  live seat committing its uncommitted block; nothing of that seat's is touched.
+- **The slow lanes at the owner's word**: this estate's three rows stand to their dates (the
+  settlement row's test, a landing of more than two hundred files, has not occurred; the placement
+  row and the until-the-tool-learns row are untested, and today's finding on the latter is that
+  the sibling's door clause has stood since 2026-10-02 with no code-lane item, which is routed to
+  that estate as a code lane for its implementer). The sibling's six: two promoted as carried
+  (close-time single-lesson graduation and cure-the-governing-text, both doctrine since 2026-10-08
+  in the rule permanent-doc-is-the-consolidation-record and in principles §Code Quality) and
+  removed with the reasoning in the register; the settlement row shared with this estate stands;
+  the blame-referent, signal and clocked-obligations rows stand to their dates with the day's
+  evidence logged in their prediction cells. The clocked-obligations row's prediction held in its
+  first instance (this consolidation met a DUE fold; the owner ranked the job above it; the
+  register moved to zero), and its directive line is put to the owner as a proposal in this
+  stage's report, to land as the same bytes in both estates on his reply: "When a clocked standing
+  obligation (a DUE branch fold) would consume the budget of the owner's stated job, the collision
+  goes to the owner at its first occurrence as one question about which gives way; a seat never
+  resolves it by obeying whichever obligation is due (the retrospective of 2026-09-20; the owner's
+  ranking of 2026-10-13, 'This job is higher priority than the daily branch fold', the first
+  instance in which the prediction held)", for user-collaboration §Owner Signals Express Practice
+  Intent, after the paragraph on a ratified constraint set.
+- **The finish list from here**: (1) the owner's reply on the clocked-obligations line; (2) the
+  oversized memory files by `continuity-practice` §Disposition, a context each: here
+  repo-continuity (990 lines against a limit of 525) and director-handoff (377 against 160), in
+  the sibling repo-continuity (2,969 lines); (3) the close: the strict fitness readout as a signal,
+  the divergence named file by file, the wrap, the sibling closeout (claim closed, watcher stood
+  down with its end event, closeout event), this estate's closeout.
+- **Open at the owner**: the push of every unpushed commit in both estates when he lifts "no
+  pushing"; the fold of this estate's coordination branch (day four) and the sibling's (day nine),
+  both late by his ranking; the operator-profile line for the Oak GitHub read ruling; the
+  clocked-obligations directive line.
+- **Work safety**: this lane and the sibling's lane are unpushed at his word; the sibling's lane
+  worktree sits beside its primary checkout under the same name as this one.
+- **Processes and the re-arm, as if nothing survives**: two comms watchers as Monitor tasks, one
+  per estate, each from its lane worktree with its own tooling, `--supervisor-pid 41401`, under
+  `/opt/homebrew/bin/timeout 1790`, re-armed at each thirty-minute expiry; the assertion command
+  (`comms assert-watcher-live --platform claude --model claude-fable-5-1`) from each lane is the
+  proof (it takes no comms-dir flag; the heartbeat resolves to the primary home); claims 094031ad
+  here and 99c21ba4 in the sibling held and heartbeated; no heartbeat cron; the eight Cricket
+  agents of the morning idle.
+
 ### 2026-10-14T10:5xZ — the owner agreed proposals 1 to 10; the agreed texts; the edits are the first act after the pause (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 10 due here, 17 in the sibling (unchanged); open questions 0

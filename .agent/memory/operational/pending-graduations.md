@@ -124,16 +124,6 @@ retire when the home is read back. Every memory file and every home below was re
 the seat; an analyst fleet had been sent first and was stopped at the owner's word (the next
 entry).
 
-- **A DUE fold is never run inside a wrap called at the owner's compaction word**
-  `[captured: 2026-10-11 | source: the owner's correction of 2026-10-09 13:3xZ; the clause landed in
-  this estate's wrap skill lines 76 to 82 and is absent from the sibling's copy | target: the
-  sibling's .agent/skills/wrap/SKILL-CANONICAL.md at the same paragraph, the same bytes | trigger:
-  the doctrine pull request of this pass | size: one paragraph carried | status: due]`
-
-  The owner, verbatim: "I said prepare for compaction, you ran so long the compaction happened on
-  its own, who knows what was lost because you failed to follow my instructions." The wrap is one
-  records commit and one push; the fold is named in the report as the next session's first act.
-
 <!-- Register drained to empty at the 2026-09-09 dedicated consolidation (Vanilla lifts
 Nectar): the one row — the triage rule step 4 naming the exhaustion and late-cure transitions
 — graduated to review-feedback-defaults-to-triage §Action step 4 in the same change; home
@@ -193,7 +183,8 @@ write-for-the-reader, comms-channels, PDR-063) and only the directive-bound less
 <!-- Nine directive-bound entries graduated 2026-10-14 at the owner's word ("agreed on 1-10") into
 continuity-practice, user-collaboration, agent-collaboration, principles, testing-strategy,
 editorial-guidance and privacy, the texts as the thread record's 10:5xZ block holds them; the one
-remaining entry is the sibling-side carry. The commit and the homes are the record. -->
+sibling-side carry (the DUE-fold clause into the sibling's wrap skill) landed at the sibling
+stage the same day, so the register reads empty. The commit and the homes are the record. -->
 
 ## Slow lane (PDR-130 — constitutional-class concepts, decided at their review date)
 
