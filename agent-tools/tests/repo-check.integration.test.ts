@@ -57,7 +57,7 @@ function gateRuntime(input: {
   const capturedCalls: CommandCall[] = [];
   const inheritedCalls: CommandCall[] = [];
   const answers: ReadonlyMap<string, GitAnswer> = new Map([
-    ['diff --cached --name-only --diff-filter=ACMR -z', input.staged ?? {}],
+    ['diff --cached --name-only --diff-filter=ACMRT -z', input.staged ?? {}],
     ['ls-files -z --deduplicate', input.tracked ?? {}],
     ['diff-files --name-only --diff-filter=DT -z', input.goneFromWorkingTree ?? {}],
     ['ls-files --cached -s -z', input.lsFiles ?? {}],
@@ -96,7 +96,7 @@ describe('repo-check staged scanners', () => {
     expect(capturedCalls).toStrictEqual([
       {
         command: 'git',
-        args: ['diff', '--cached', '--name-only', '--diff-filter=ACMR', '-z'],
+        args: ['diff', '--cached', '--name-only', '--diff-filter=ACMRT', '-z'],
       },
       {
         command: 'git',
@@ -171,7 +171,7 @@ describe('repo-check staged scanners', () => {
     expect(capturedCalls).toStrictEqual([
       {
         command: 'git',
-        args: ['diff', '--cached', '--name-only', '--diff-filter=ACMR', '-z'],
+        args: ['diff', '--cached', '--name-only', '--diff-filter=ACMRT', '-z'],
       },
       {
         command: 'git',
