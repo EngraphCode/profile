@@ -109,6 +109,32 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T00:0xZ — the owner's answer on the promotions; the finish list reordered at the cricket suite's word (Glowworm lifts Embers, a8c4f8)
+
+- **Counts first**: pending graduations 34 due here (31 at seating plus three directive-bound
+  entries from the post-drain buffers, commit b44fcc02), the sibling 16; open questions 0 and 0;
+  distilled empty in both. Drained: the six napkin blocks and seven memory files since the 11
+  October drain (item 1 of the list below, done); the memory dispositions applied.
+- **The owner's answer, 2026-10-14 00:0xZ, to one closed question**: "pending promotions" are the
+  register's three slow-lane rows, and all three are decided promote-or-kill at his word today,
+  after the buffers and the register are empty, overriding their review dates (2026-10-19,
+  2026-12-15, 2026-12-15). Done, in his words and nothing added: empty pending graduations and
+  empty buffers, the counts first in every report.
+- **The finish list, reordered** (the cricket suite's convergent finding: his "if the buffers are
+  empty, and not before" and the handoff's own order put every drain ahead of any graduation):
+  1 the post-drain buffers (done); 2 the stream selection (85 events) read whole by the seat; 3
+  the Codex memory read whole; 4 the sibling's buffers (its napkin blocks since 2026-10-05, its
+  stream selection of 120) read, coordinated with its live seat before any write there; 5 both
+  napkins rotated by proof; 6 the register graduated to zero in both estates, non-directive homes
+  on the lanes, the five directive-bound entries here (and the sibling's) in a fresh context
+  below the 30 percent budget; 7 the three slow-lane rows here and the sibling's decided at his
+  word; 8 the oversized memory files by `continuity-practice` §Disposition, a context each; 9 the
+  close. Landing paths as the block below names them.
+- **The cricket suite at seating** (eight legs as one workflow): work ON-TRACK on seven, one
+  DRIFTING on proportion; frame CONTRADICTED on six and NARROWED on two, every one on the
+  promotions reading and the Done sentence, both cured above; the napkin's 21:2xZ block carries
+  the adjudication and the lesson.
+
 ### 2026-10-13T20:5xZ — the third consolidation resumes in a dedicated seat; the counts, the finish list, the contexts (Glowworm lifts Embers, a8c4f8)
 
 - **Counts first**: pending graduations JC.net 31 due (the fitness readout's live decision-debt
