@@ -109,6 +109,70 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T12:1xZ — the merge-tool code lane in the sibling done to its gate; the fold doctrine the same bytes once both its lanes land; divergence 37 and 3,306 on the simulated merge (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here, 1 in the sibling (owner-gated); open questions 0 and
+  0; the sibling's code lane three commits (16, 26 and 2 files), every gate it has green; unpushed
+  commits 18 on this lane, 4 on the sibling's records lane, 3 on its code lane; the divergence
+  measure 39 files and 3,410 lines before this stage, 37 and 3,306 on the simulated merge of the
+  sibling's two lanes against this lane's tree.
+- **The code lane** (`fix/merge-bot-records-class-and-fold-clock`, cut from the sibling's default
+  branch in a linked worktree): first the fold clock, sixteen files, the sibling's pull request 328
+  change set under the sibling's package scope with the two modules it reads (the read-path
+  executor, the required-checks reader), the directory's tests green (8 files, 69 tests); then the
+  records-class door, twenty-six files: the eight merge-bot files, the two divergent modules (the
+  merge execution and the argument contract) ported by hand onto the sibling's own text, the pull
+  request's author carried through the view schema, the reading type, three fixtures and one literal
+  test reading (the one field the sibling's reading lacked, the gate the ruling of 2026-09-03 names),
+  the records merge set derived from the sibling's own verdict ladder (seven reviewer-leg states the
+  ladder reaches only after checks green, threads resolved and the base current: the five shared
+  with this estate plus the quiet window, a dead run and an unreadable run surface;
+  UNCLASSIFIED-EVIDENCE excluded, it fires on a refused unavailability declaration before the ladder;
+  the sibling has no suppressed-findings rung, so the two doc comments naming one were rewritten),
+  and the records-class execution tests in their own file with the input builder as a shared test
+  helper, because the carried suite put the sibling's longer base file six lines over the 700-line
+  gate; then the five doctrine passages (below). Gates on the lane: type check clean; eslint clean on
+  every changed file; prettier clean; the full agent-tools suite 679 files and 8,030 tests; the
+  dependency cruiser clean over 4,771 modules; knip clean once the workspace package its config
+  loader resolves was built in the worktree (a fresh linked worktree carries no package dist, and
+  knip then fails loading a smoke config with "No exports main defined"; the sibling's records lane
+  fails the same way, so it is the host, not the lane; the gate reads a crash as a failure by design,
+  F-147). The sibling's commit hooks ran prettier, markdownlint and the changed-files lint on each
+  commit. Two commit attempts failed on the message, not the content: a header of 104 characters
+  that an awk check printed without gating, and a body line opening `tool:` that commitlint reads as
+  a footer; both checks now exit non-zero and gate the commit.
+- **The doctrine, true here first, then the same bytes there**: the five passages of coordination-fold
+  and pr-lifecycle that the 12:4xZ block left divergent were edited on this lane so they hold in both
+  estates: the estate whose folds and gate the retrospective measured is named (jimcresswell.net),
+  the two "since 2026-10-10" clauses are date-free, the "no suppressed finding held" clause is
+  dropped as redundant with "differ from SETTLE-READY only by the vendor leg" (the sibling's ladder
+  has no such rung), and the lifecycle's history sentence records the carry to OCE at the owner's
+  word of 2026-10-14. The patch of those five hunks applied clean on the code lane and is its third
+  commit: the doctrine rides with the tool it describes, so no default-branch state of the sibling
+  describes a tool it lacks. Proof of the end state: `git merge-tree` of the sibling's records lane
+  and code lane writes a tree with no conflict and no file in common, and in that tree both skills
+  are byte-identical to this lane's copies (`cmp`).
+- **The owner's word absorbed**: "There is ONE Practice with local instances, if OCE needs an update,
+  it needs an update" is step 3 of the cross-estate rule in both estates (this lane and the sibling's
+  records lane, same bytes) and the behaviour of this stage. Decisions this seat took under it that he
+  may want to read: the seven-state merge set and its exclusion; the test split; the doctrine riding
+  the code lane rather than the records lane; the wording "carried to OCE at his word of 2026-10-14".
+- **The remaining divergence is host content**: build-system 1,126 lines, principles 326, AGENT 325,
+  under-the-hood 323, invoke-code-experts 212 (predates this pass, a finding for the next), the
+  design-system skill 141, agent-tools README 119 (the two tools' own docs), privacy 109,
+  testing-strategy 72; thirty-seven files in all, the top twelve listed in the scratch readout.
+- **Finish list from here**: the sibling's continuity record by the disposition runbook (2,989 lines
+  against a limit of 525; §Next Safe Steps alone 2,354 lines, with a 1,772-line pickup block of
+  2026-09-21 inside it and sixteen dated sub-sections from June to September below it); then the
+  close: the strict fitness readout as a signal, the wrap, the sibling closeout (claim closed, watcher
+  stood down with its end event, closeout event), this estate's closeout.
+- **Open at the owner**: the push of every unpushed commit in both estates when he lifts "no
+  pushing", the sibling's code lane as one pull request against its default branch (its records lane
+  and code lane merge in either order); the folds (day four here, day nine there); the
+  operator-profile line; the clocked-obligations directive line (12:4xZ block).
+- **Processes**: both watchers re-armed at their thirty-minute caps and live (the re-arm recipe in the
+  12:4xZ block); claims heartbeated; no heartbeat cron; the Cricket agents idle.
+
 ### 2026-10-14T11:4xZ — the owner's word on divergence by tooling: one Practice; the merge-tool code lane opens in the sibling (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here, 1 in the sibling (owner-gated); open questions 0 and 0;

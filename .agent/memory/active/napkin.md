@@ -98,3 +98,28 @@ only, never check-ins or state; `start-right` loads it whole.
 - **Processes**: both watchers live by assertion at 12:1xZ; claims heartbeated; the sibling's lane
   commit landed with the owner as author, commitlint strict, no commit identifiers in its records
   (its hook's doctrine).
+
+## 2026-10-14T12:1xZ — The code lane in the sibling; six tool facts (Flint guards Vapor, 9b835d)
+
+- **A check that prints and does not gate is not a check**: the header-length awk printed 104 and the
+  commit ran into the hook; the footer-shaped body line (`tool:` at line start) recurred in the next
+  message. Both checks now exit non-zero inside the `&&` chain. The recurrence is this seat's
+  signature (counts, lengths): the reading is taken, the act does not wait for it.
+- **BSD grep has no `\b`**: `grep -o '\bok('` matched nothing and read as "the block uses no `ok(`";
+  the chain then imported nothing and the type check told the truth. Fixed strings or python `in`.
+- **A port's seams are type errors before they are test failures**: vitest passed 905 tests while the
+  type check held six errors (a view literal without the new field). On a port, tsc first.
+- **Fresh linked worktree and knip**: a workspace package's `exports` points at a dist the worktree
+  has not built; knip's config loader fails on the first config that imports it and reports a crash
+  class; the gate (F-147) refuses a crashed analysis by design. Build the package, rerun. The
+  sibling's records lane fails the same way, so the failure is the host's, not the lane's.
+- **The file-length gate meets a carried test file**: the sibling's base file was longer than this
+  estate's by 22 lines; the carried hunk put it six over 700. Split by cohesion (the records-class
+  suite as its own file) with the shared builder as a test helper, not by trimming.
+- **A shared constant's membership is local**: the sibling's verdict set has seven vendor-leg states
+  to this estate's four and no suppressed-findings rung; `RECORDS_CLASS_MERGE_STATES` is derived from
+  its own ladder, and the doctrine sentence ("differ from SETTLE-READY only by the vendor leg") is
+  the invariant the two lists both satisfy. Doc comments copied with the code name rungs the host
+  lacks; read them against the host's ladder.
+- **Processes**: both watchers re-armed at their caps; the sibling's hooks ran on every lane commit;
+  the knip and depcruise gates run by hand (the hooks do not run them).
