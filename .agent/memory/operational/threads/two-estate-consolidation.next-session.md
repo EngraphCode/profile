@@ -6,7 +6,7 @@ triggered by `.agent/prompts/dedicated-consolidation-session.md` (a trigger, nev
 store: the owner's word 2026-09-30). The owner's words: "the next session will run a dedicated
 consolidation session across both estates"; "JC.net will be the home repo, where the relevant
 skills differ, 1. they shouldn't and that needs fixing, and 2. the next agent can be instructed
-to read the OCE skills". **Participating agent identities:** Corsair weaves Seabed (459358, claude-code, claude-fable-5-1, the third dedicated consolidation's curating seat across both estates from 2026-10-11, n=2 with Shrew rides Eventide on the LinkedIn lane); Crucible binds Slag (7b999c, claude-code, claude-fable-5-1, the Director across both estates over the second pass's folds, tails and ledger, 2026-10-02 to 2026-10-03, closing the day at the owner's word of 2026-10-03 20:0xZ with the parity frame set aside and the review node `practice-system-review` planned, n=1 from there; the n=1 seat again from the resume of 2026-10-04, the review node reshaped and ratified, the layer pass read, the report drafted); Hazel tracks Trunk (7d8b9d, claude-code, claude-fable-5-1, the second pass's implementer in jimcresswell.net from 2026-10-01, the parity carries and surfaces of 2026-10-03); this record was written by Galaxy binds
+to read the OCE skills". **Participating agent identities:** Flint guards Vapor (9b835d, claude-code, claude-fable-5-1, the third dedicated consolidation's successor seat from 2026-10-14 09:2xZ in the lane worktree, claim 094031ad adopted, n=2 with Shrew rides Eventide on the LinkedIn lane); Glowworm lifts Embers (a8c4f8, claude-code, claude-fable-5-1, the third dedicated consolidation's seat from 2026-10-13 20:5xZ to the compaction boundary of 2026-10-14 09:1xZ, in the lane worktree it cut); Corsair weaves Seabed (459358, claude-code, claude-fable-5-1, the third dedicated consolidation's curating seat across both estates from 2026-10-11, n=2 with Shrew rides Eventide on the LinkedIn lane); Crucible binds Slag (7b999c, claude-code, claude-fable-5-1, the Director across both estates over the second pass's folds, tails and ledger, 2026-10-02 to 2026-10-03, closing the day at the owner's word of 2026-10-03 20:0xZ with the parity frame set aside and the review node `practice-system-review` planned, n=1 from there; the n=1 seat again from the resume of 2026-10-04, the review node reshaped and ratified, the layer pass read, the report drafted); Hazel tracks Trunk (7d8b9d, claude-code, claude-fable-5-1, the second pass's implementer in jimcresswell.net from 2026-10-01, the parity carries and surfaces of 2026-10-03); this record was written by Galaxy binds
 Gravity (46de68, claude-code, claude-fable-5-1) at its session close, 2026-09-30T14:3xZ.
 **Landing target for the next session (rewritten 2026-10-04):** the consolidation flow
 (`consolidate-until-done` met in BOTH estates, every live curation buffer empty or
@@ -108,6 +108,55 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   gate refuses outside the records), was settled by the owner on 2026-10-01 before the push; the
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
+
+### 2026-10-14T09:5xZ — the resume in a successor seat; twenty-five entries graduated here; the directive-bound nine wait for the next context (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 10 due here (35 at the resume; 25 graduated at 94c4ee9f,
+  each entry removed in the commit that wrote its home; the five items the 09:0xZ block held for
+  the register homed directly), the sibling 17 (one uncommitted there, its live seat's); open
+  questions 0 and 0; distilled empty in both. The ten here: nine directive-bound (the
+  user-collaboration directive four: finish by doing the work, the standing words of 2026-10-03,
+  the shared-primary messages, the scripts ruling; principles one: the cure stops recurrence;
+  continuity-practice one: the single-agent runbook sentence; testing-strategy one: a test file's
+  comment; editorial-guidance one: his instruments; privacy one: his reasons) and one sibling-side
+  carry (the DUE-fold clause into the sibling's wrap skill). The sibling's seventeen: thirteen
+  target the same bytes in both estates and are authored here in 94c4ee9f, so its stage cuts the
+  twin from those blobs; one is a duplicate here (the closed write list, checked against its own
+  skill copy at its stage); one is directive-bound (the closed grammar, principles §Agentic
+  Quality); one is half landed (the Oak GitHub read ruling: the rule half here, the
+  operator-profile half a write to the owner's profile that waits on his word); one (reviewing
+  agents) is landed here in both rules.
+- **The owner's word at seating** (09:1xZ): "please resume the consolidation, use all appropriate
+  skills", through the team start-right skill. His standing words of 2026-10-11 and 2026-10-13
+  bind unchanged: single-agent, counts first in every report, directive edits under 30 percent, no
+  peer messages for every step, no pushing, this job above the daily fold.
+- **The meter**: 25.3 percent after the reading order, 35.8 percent after the bootstrap and the two
+  registers read whole, so the directive-bound entries go to the context after the next
+  compaction, the figure read twice before the first edit (`directive-file-context-budget`), and
+  the non-directive homes were written in this context, home by home with both registers' entries
+  for a home in hand (the 09:0xZ proposal, taken). A fresh context opening at the directive step
+  reads this block and the ten entries' target fields, not the whole continuity file.
+- **The finish list from here**: (1) the directive-bound entries, the sibling's one included, in
+  the next context, the user-collaboration directive first (four entries, one home), each home
+  read whole before the edit and the entry removed in the same commit; (2) the sibling stage: the
+  join ceremony (guest registration on its stream, the stale curator claim 99c21ba4 closed on
+  evidence, this seat's own claim there, its live seat told once before any write), then its
+  register's thirteen shared-bytes entries cut from 94c4ee9f's blobs on a lane of its own, the
+  wrap carry, the duplicate checked, the profile half put to the owner, its napkin rotated by
+  proof; (3) this napkin rotated by proof (the primary's copy is Shrew rides Eventide's to append
+  to, so the rotation lands on this lane and the fold's semantic merge carries any appends, the
+  drain proved lossless first); (4) the three slow-lane rows here and the sibling's six at the
+  owner's word, after the buffers and the register are empty; (5) the oversized memory files by
+  `continuity-practice` §Disposition, a context each; (6) the close.
+- **Open at the owner**: the fold of the primary's coordination branch (day four, 327 open; late
+  by his ranking); the push of everything when he lifts "no pushing"; the operator-profile line
+  for the Oak GitHub read ruling (a write to his profile).
+- **Work safety at this block**: the lane `docs/consolidation-3` at 94c4ee9f plus this records
+  commit, nine commits beyond the coordination tip 02e2a764, no remote; the primary clean at
+  02e2a764, ahead 9 of its remote; the correction lane ahead 1 of origin/main.
+- **Processes**: the watcher Monitor bhjy5m19s (asserted live at 09:3xZ; re-armed on expiry); no
+  heartbeat (consumer absent); claim 094031ad adopted and refreshed; team start 2555d738; the
+  sibling untouched.
 
 ### 2026-10-14T09:0xZ — compaction boundary at the owner's word; the sibling's buffers read; the resume's first acts (Glowworm lifts Embers, a8c4f8)
 
