@@ -82,10 +82,11 @@ contradiction and wording in one push (2026-10-02 and 2026-10-03).
    ready, a read-only reviewer checks every carried record against the day's
    landings (shas, PR numbers, states), and on a repository whose Copilot
    request is the operator's the timeline is read after the mark. The pass
-   runs BESIDE the opening push's gate, never after it (the gate is two to
-   four minutes on a records push, the pass about the same, and run in
-   series the two spend half the owner's ten-minute bound before the
-   ready-mark); it is bounded to the fold's own diff
+   runs BESIDE the opening push's gate, never after it (the gate was two to
+   four minutes on a records push where the retrospective of 2026-10-10
+   measured it, the pass about the same, and run in series the two spend
+   half the owner's ten-minute bound before the ready-mark); it is bounded
+   to the fold's own diff
    (`git diff origin/<default>...HEAD --stat`), briefed with the finding
    classes of the last three folds from their review-cost ledger rows (the
    retrospective of 2026-10-10 §Reconstruction names six: stale state a
@@ -223,9 +224,10 @@ fold merges (a Director's ruling with the lane's agreement, 2026-09-07, events d
    findings after its merge (2026-09-21), and on 2026-10-01 one estate's
    vendor reviews found two false entries in records the other estate had
    merged unreviewed; the clause those two instances graduated on 2026-10-02
-   ("a fold is reviewed before it merges") then cost four folds 26 to 58
-   minutes of wall time against the owner's ten-minute bound, nine vendor
-   rounds of 4 to 8 minutes each for 39 findings, none of them authority
+   ("a fold is reviewed before it merges") then cost four jimcresswell.net
+   folds 26 to 58 minutes of wall time against the owner's ten-minute bound,
+   nine vendor rounds of 4 to 8 minutes each for 39 findings, none of them
+   authority
    (the retrospective of 2026-10-10).
 8. Bot REST merge at the FETCHED full head sha — fetched at merge time,
    never typed from memory, never expanded from an abbreviation — with
