@@ -109,6 +109,87 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T10:0xZ — the owner's compaction word; the meter already under the budget; the directive proposals are the first act after it; the sibling stage's real scope (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 10 due here, 17 in the sibling (unchanged since 09:5xZ:
+  no entry graduated in this stretch); open questions 0 and 0; distilled empty in both; both
+  napkins unrotated.
+- **The owner's word** (10:0xZ, verbatim): "prepare for compaction ultrathink /jc-metacognition
+  /jc-free-play /jc-concept-exploration /jc-reason /jc-wrap , immediately post compaction show
+  me the proposed directive edits". Read: the five skills run in the order given, the wrap last;
+  the records are made safe and the seat stops (his word of 2026-10-09 on "prepare for
+  compaction"); the first act after the compaction is the nine directive-bound proposals shown
+  to him, each as the home's section, the text to insert and the entry it discharges, nothing
+  applied before his reply ("show me" is a presentation; applying waits on his word).
+- **The meter**: the automatic compaction at 09:5xZ was the "next compaction" the 09:5xZ block
+  waited on. Read after it from the transcript's newest assistant usage (the `session-metadata`
+  command fails from a linked worktree, deriving the transcript directory from the working
+  directory): 15.9 percent at 10:01Z and 16.1 percent a few calls later, under the 30 percent
+  line of `directive-file-context-budget`, so the directive window is open in this context. The
+  seat planned to wait for a compaction that had already happened because the 35.8 figure
+  travelled across the boundary as a fact; a meter reading is a function of the context and is
+  re-read first in any context that opens with the harness's continuation summary (one instance;
+  the observation and its home are in the napkin).
+- **The Cricket panel at the re-plan boundary** (eight roles, both stances, on the finish list
+  and the deferral): work verdicts six ON-TRACK, two DRIFTING (both procedure roles, on gates:
+  the frame's NEXT ended on a wait for the owner's word where the rule says carry on with other
+  work, and the claim 99c21ba4 named stale with the sibling's registry not in evidence); frame
+  verdicts three SOUND, five NARROWED. The frame's omissions: the four captured items' status
+  (homed at 94c4ee9f, unsaid); "items 7 to 9" unquoted; "use the full cricket suite regularly"
+  absent from the reading; "the fold suspended" where his word is "higher priority than the daily
+  branch fold". Adjudication: the frame defects stand and this block carries his words; the
+  passive wait is moot at his compaction word, and the frame's lesson is that a NEXT ends on the
+  ask, never on a wait for the owner; the claim's staleness is read at the sibling's registry
+  before it is closed (the join ceremony's "on evidence"); the frame's "38 homes" was wrong,
+  94c4ee9f touched 36 home files and the register.
+- **The two-estate divergence measure** (the retrospective's script of 2026-09-30 over the shared
+  Practice paths, this lane against the sibling's committed tip): at the prior seat's tip 45
+  files differing, 3,453 diff lines; at this lane's tip 66 and 3,821. The growth is 94c4ee9f,
+  whose shared text is written here and not yet in the sibling; the sibling stage is its cure
+  and the close names any file still more divergent than at the open. Of the 37 files 94c4ee9f
+  touched, 24 are byte-identical in the sibling to this estate's pre-commit copy, so their hunks
+  land there as bytes; one (write-for-the-reader) is this estate's alone; 12 differ in the
+  sibling, and the diffs show the sibling LAGS this estate on shared doctrine the prior seats
+  wrote here with the carry owed: owner-signal-interpretation ("Acknowledge, then stop",
+  2026-10-04), the cross-estate rule (the clean-regions paragraph, 2026-10-03),
+  downstream-checkout (the git-remote sentence, 2026-10-07), consolidate-until-done (the second
+  instance, 2026-10-13), wrap (the DUE-fold clause, 2026-10-09; the register's own entry),
+  PDR-117 (the 2026-10-02 amendment), shell-and-tooling-gotchas (the 2026-10-11 and 2026-10-13
+  entries), and the 2026-10-10 retrospective's decisions in coordination-fold and pr-lifecycle
+  (merge at green by class, the fold clock), which name this estate's merge-bot class detection
+  and land in the sibling only where its tool carries the class, otherwise they stay divergent
+  with that reason (`cross-estate-work-must-reduce-divergence` step 2, a host binding in
+  disguise). Host content legitimately divergent: start-right's command block, under-the-hood,
+  author-skills' prefix, build-system. The sibling stage's worklist is the 24 byte hunks, the 12
+  differing files' shared passages cut from the sibling's own text, and each carry checked
+  against the sibling's tooling before it is written.
+- **The finish list from here**: (1) at the owner's word, the nine directive proposals drafted and
+  shown (the meter read twice first; each home read whole; the four user-collaboration entries as
+  one proposal for one home; the text in the home's register with the entry's title beside it),
+  applied and the entries removed in one commit on his reply, the sibling's directive entry (the
+  closed grammar, principles §Agentic Quality) drafted in the same pass as the same bytes; (2) the
+  sibling stage as the 09:5xZ block has it, its worklist widened as above; (3) this napkin rotated
+  by proof on the lane; (4) the slow-lane rows at his word after the buffers and the register are
+  empty; (5) the oversized memory files, a context each; (6) the close, with the divergence
+  measured against the open and every remaining divergent file named with its reason.
+- **Open at the owner**: the fold of the primary's coordination branch (day four; late by his
+  ranking, "higher priority than the daily branch fold"); the push of everything when he lifts
+  "no pushing"; the operator-profile line for the Oak GitHub read ruling; the structural cure
+  proposed in the napkin for the boundary defect above (a harness SessionStart hook on the
+  compaction source printing the post-compaction first acts), sized small, his call.
+- **Work safety**: the lane `docs/consolidation-3`, unpushed at his "no pushing"; git's own
+  position is reported in the wrap message, never written here.
+- **Processes and the re-arm, as if nothing survives the compaction**: the comms watcher is a
+  Monitor task (b5hmtzj5o at this block; 30-minute expiry; re-armed on each expiry) running
+  `pnpm agent-tools:collaboration-state -- comms watch --platform claude --model claude-fable-5-1
+  --supervisor-pid 41401 --step-timeout-ms 120000 --max-events-per-drain 100` under
+  `/opt/homebrew/bin/timeout 1790` from the lane worktree (41401 is this session's `claude`
+  process, from the harness's sessions directory; a new process re-derives it); the resume
+  verifies by the task list first and re-arms only what is absent; `comms assert-watcher-live`
+  against the primary's comms directory is the proof; no heartbeat cron (consumer absent); claim
+  094031ad held, refreshed at the resume; the eight Cricket sub-agents returned and idle; the
+  sibling untouched.
+
 ### 2026-10-14T09:5xZ — the resume in a successor seat; twenty-five entries graduated here; the directive-bound nine wait for the next context (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 10 due here (35 at the resume; 25 graduated at 94c4ee9f,
@@ -151,9 +232,8 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
 - **Open at the owner**: the fold of the primary's coordination branch (day four, 327 open; late
   by his ranking); the push of everything when he lifts "no pushing"; the operator-profile line
   for the Oak GitHub read ruling (a write to his profile).
-- **Work safety at this block**: the lane `docs/consolidation-3` at 94c4ee9f plus this records
-  commit, nine commits beyond the coordination tip 02e2a764, no remote; the primary clean at
-  02e2a764, ahead 9 of its remote; the correction lane ahead 1 of origin/main.
+- **Work safety at this block**: the lane `docs/consolidation-3`, unpushed at the owner's "no
+  pushing" (git's own position is reported in the wrap message, never written here).
 - **Processes**: the watcher Monitor bhjy5m19s (asserted live at 09:3xZ; re-armed on expiry); no
   heartbeat (consumer absent); claim 094031ad adopted and refreshed; team start 2555d738; the
   sibling untouched.

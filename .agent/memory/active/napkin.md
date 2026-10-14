@@ -1490,3 +1490,50 @@ wake. The seats resume by this seat's message after the owner's word: Hazel trac
 - **Tool facts**: `session-metadata` derives the transcript directory from the working directory's project path, so from the lane worktree it looks under a worktree-named directory and fails ENOENT; the reading comes from the primary's path (a friction: the command wants a project-directory option). `collaboration-state <topic> <action> --help` works only as separate words; a quoted "topic action" prints the topic index. `comms list --since <iso>` is the gap sweep after a watcher arm. The Monitor arm from the worktree with a literal supervisor pid (the `claude` process, 41401, from the harness session file) and the Homebrew `timeout` binary drained the stream and asserted green.
 - **The write hook bans the sibling's repository slug in every file, the scratchpad included** (recurred, 09:5xZ): a Cricket frame that cited the sibling's register by its checkout path was refused at the Write, after four roles had been dispatched to read it; the frame names the sibling by its product word and a relative path, and a dispatch waits for the Write's result before it goes out.
 - **Processes**: the watcher Monitor bhjy5m19s (asserted live 09:3xZ); no heartbeat (consumer absent); claim 094031ad adopted and refreshed; team start 2555d738.
+
+## 2026-10-14T10:0xZ — The compaction word at sixteen percent; the panel's verdicts; the divergence measured; the play harvest (Flint guards Vapor, 9b835d)
+
+- **A meter reading carried across an automatic compaction is stale by construction** (one
+  instance): the summary boundary at 09:5xZ was the compaction the 09:5xZ block waited on; the
+  seat kept planning on 35.8 percent and wrote "wait for the owner's compaction word" into a
+  Cricket frame while the meter read 15.9. The signal exists: a context that opens with the
+  harness's continuation summary is the post-compaction context. Home when it recurs or when the
+  rule is next read whole: `directive-file-context-budget`, one sentence naming the summary as the
+  trigger and the meter as the first read; the same class as the command-shape lesson homed in
+  start-right this morning (a fact that is a function of the context is read before use, never
+  carried).
+- **A structural cure to put to the owner** (from the concept pass over the boundary defect): the
+  estate's harness hooks run the identity script on every SessionStart, and the harness's
+  SessionStart event carries a source for a compaction resume; a hook on that source printing the
+  post-compaction first acts (the meter read, the process census by id, the plan's context-bound
+  gates re-checked) makes the cue generated rather than remembered. To verify before any plan:
+  the matcher value for the compaction source against the harness's current documentation
+  (`verify-vendor-call-shapes-at-plan-author-time`). Sized small: one settings entry and one
+  script beside the identity hook. Falsifier: a deliberate compaction after which the seat's
+  first acts still carry a pre-boundary figure.
+- **A judge's default on absent input** (one instance; a play seed kept): the first Cricket
+  dispatch went out before the frame's Write had returned (the hook refused it), and four roles
+  read a missing file; three returned no verdict, one returned "ON-TRACK (default only; not a
+  judgement)". A default verdict on no evidence is the shape `verify-dont-trust` names in a
+  validator that passes on empty input. Noted for the cricket templates when a second instance
+  arrives; a dispatch waits for the frame's Write to return.
+- **"Suspended" is the seat's word; his is "higher priority than the daily branch fold"** (a play
+  seed kept; an instance of the owner-signal bullet homed this morning, a word read at the scope
+  he gave it): the Cricket frame and the per-user memory carried the inferred effect as his word;
+  the thread record from 09:5xZ carries "late by his ranking", which is right; the memory
+  corrected at this block.
+- **Counts stated are this seat's error signature**: the frame said "38 homes"; the graduation
+  commit touched 36 home files and the register. Caught by the procedure role, not self-caught.
+- **Play, visibly discarded**: the inverted reading of the budget rule (a detector whose trigger
+  the event hides) is the first observation restated; a translator-and-blank-pages analogy for
+  the divergence growth was forced; the sibling's bot git identity is already in the handoff's
+  commit route; the eight-reader panel set against the review-cost gate is the owner's own
+  instrument choice, nothing new in it.
+- **Tool facts**: the Monitor's `timeout` exit 124 at the 30-minute cap is the designed end and
+  the re-arm is the act; the context meter from a linked worktree is read from the transcript's
+  newest assistant usage (input plus cache read plus cache creation, over the window) until
+  `session-metadata` takes a project-directory option; the write hook refuses a user-home path
+  inside a scratchpad frame as it refuses the sibling's slug, so a frame names roots by role and
+  the dispatch message carries the absolute root.
+- **Processes**: the watcher re-armed as b5hmtzj5o at 10:0xZ after bhjy5m19s expired at its cap;
+  asserted live; the comms stream silent since 09:30Z; claim 094031ad fresh.
