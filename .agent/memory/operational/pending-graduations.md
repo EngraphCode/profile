@@ -614,6 +614,20 @@ write-for-the-reader, comms-channels, PDR-063) and only the directive-bound less
   A direct message goes only when the peer must act (a hold to release, a push that will block
   their edits for minutes), batched into one; the registry and the queue carry the rest.
 
+- **A script used repeatedly becomes a standardised agent tool in the agent-tools workspace**
+  `[captured: 2026-10-14 | source: the owner's ruling of 2026-10-03 12:1xZ, relayed on this
+  estate's stream in the Director's team start of 12:46Z and resume of 13:28Z ("if a script is
+  used repeatedly it should be made into a standardised agent tool in the agent tools
+  workspace"); the sibling's register carries the same ruling as its own due entry | target:
+  .agent/directives/user-collaboration.md, beside the owner's standing words of 2026-10-03 (the
+  same bytes in both estates; the Director's resume of 2026-10-03 named this home and no estate
+  carries the sentence) | trigger: the context after the next compaction, under the
+  directive-file budget | size: one sentence | status: due]`
+
+  A script a seat runs twice is routed for sizing as an agent-tools command, never extended in
+  place; the candidates routed on 2026-10-03 (twin-apply, twin-added, reply-resolve, the
+  inventory and census scripts, a commit-by-pathspec command) are the open instances.
+
 ## Slow lane (PDR-130 — constitutional-class concepts, decided at their review date)
 
 Rows here are live deliverables under a named review gate, NOT decision-debt:

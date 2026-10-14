@@ -42,6 +42,11 @@ transplant, or an edit to any path that exists at the same relative location in 
    diff shows that the estates differ; only history shows
    who decided (two instances on 2026-10-01: assertions one estate had deleted on purpose were
    restored in the other and removed again at review).
+   A conflicted file's clean regions, where one estate alone moved since the base, are read by
+   nobody in a three-way build and would land silently: each row's reading is applied to the
+   receiver's own file by its author, who reads the file whole and names the clean-region
+   readings in the landing line; nothing is taken from a clean region unread (the Director's
+   ruling of 2026-10-03, from a finding on the alignment ledger).
 3. **Measure at the close.** The activity closes only when neither number is above the baseline
    and at least one is below it (or both are zero), and every shared file that grew more
    divergent is named in the close record with its reason: phenotype by nature (an

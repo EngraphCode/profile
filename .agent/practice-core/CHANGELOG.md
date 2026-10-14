@@ -16,6 +16,11 @@ tag in both repositories; the other repository's slug is never written here
   claim until a watcher is armed. Written by the third dedicated consolidation
   from the napkin's 2026-10-11 blocks; the same bytes are carried to the
   sibling estate at its stage of the pass.
+- PDR-117 gains the amendment of 2026-10-02: the owner's words licensing the
+  Director role (context preservation over longer timescales for team-level
+  continuity; strategic decisions shared, implementation delegated; cohesion
+  while seats rotate in and out), read from the comms stream of that day by
+  the same consolidation; the same bytes to the sibling estate.
 
 ## [jimcresswell.net] 2026-10-04 — the general layer aligned by class: one Core text in both estates
 

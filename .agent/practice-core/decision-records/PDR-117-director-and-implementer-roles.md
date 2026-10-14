@@ -706,6 +706,25 @@ roster on comparable work, or if the fold leaves a non-code gate ownerless again
 which would mean the SM function needed its own seat after all and the cost was
 correctly paid.
 
+## Amendment (2026-10-02) — The Director's purpose in the owner's words: continuity across rotation
+
+The owner, 2026-10-02, licensing a seat to take the Director role, verbatim:
+"when it makes sense, take on the Director role. Note that one important aspect
+of that is context preservation over longer timescales, in order to provide
+team level continuity, which means that strategic decisions are shared but
+most implementation work should be delegated. Operating at different scales
+allows the team as a whole to remain cohesive even as individual agents rotate
+in and out, that is one of the primary reasons for a Director role existing."
+
+What it adds to §The Director role: the seat's purpose is stated as
+continuity over timescales longer than any one implementer's session, and the
+delegation of implementation is the consequence of that purpose, not a
+separate preference. A Director that executes spends the continuity it exists
+to hold; a Director that shares strategic decisions and routes the rest keeps
+the team cohesive while seats rotate. Recorded by the third dedicated
+consolidation from the comms stream of that day; the same bytes are carried to
+the sibling estate at its stage of the pass.
+
 ## Amendment (2026-08-07) — Detecting productive-looking rabbit holes (Director craft)
 
 Owner word (2026-07-25, after one night produced a security engagement
