@@ -109,6 +109,43 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T11:4xZ — the owner's word on divergence by tooling: one Practice; the merge-tool code lane opens in the sibling (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here, 1 in the sibling (owner-gated); open questions 0 and 0;
+  distilled empty; this napkin rotated; the two oversized continuity surfaces here curated (the finished
+  ranges in three dated archives, byte-identical by proof; the live files at 209 and 207 lines).
+- **The owner's word** (verbatim, on a side agent's note that the fold passage of 2026-10-10 was held back
+  from the sibling for want of its merge tool's class detection): "There is ONE Practice with local
+  instances, if OCE needs an update, it needs an update". Read: a divergence is never left standing
+  because one estate's tooling lacks what the shared doctrine names; the tooling is updated as a code lane
+  opened the day the gap is found, and the doctrine lands as the same bytes once it has. Landed as step 3
+  of `cross-estate-work-must-reduce-divergence`, the same bytes in both estates, this hour.
+- **The code lane, opened in the sibling**: branch `fix/merge-bot-records-class-and-fold-clock`, cut from
+  its default branch in a linked worktree beside the records lane. Value, ratified: the owner's decision
+  of 2026-10-10 (a records-class fold merges at green by name, the review harvested after; the fold clock
+  measured, never felt) applied to the sibling's folds, which the retrospective measured at 26 to 58
+  minutes against his ten-minute bound. Criterion: the sibling's `merge-bot merge` computes the records
+  class from the pull request's changed files and merges a records-class pull request at checks green by
+  name with the vendor's pending run set aside and named; `coordination fold-clock --pr <n>` prints the
+  fold's clock there; every carried test green in its gate; then the fold and lifecycle passages of
+  2026-10-10 land there as the same bytes and the divergence measure falls by them. Sizing, from the
+  trees compared file by file this hour: the change set is pull request 328's code here (its first-parent
+  diff); this estate holds eight merge-bot files the sibling lacks (change-class, merge-changed-files,
+  merge-records-checks, merge-required-contexts, merge-read-env and their tests, 923 lines), the fold
+  clock's eleven files under coordination (2,067 lines) and pr-watch's required-checks pair; of the eighty
+  merge-bot files both estates name, forty-one differ (merge, merge-decision, merge-args, cli, the push and
+  retire modules among them), and the sibling's pr-watch carries thirty-five files of its own (declared
+  unavailability, content binding, completion comments, vendor error reviews). So the port is a
+  convergence, not a copy: the fold clock first (self-contained but for the coordination CLI's wiring),
+  then the class detection wired into the sibling's own merge decision with its tests re-derived at its
+  seams, each step committed on the lane with the directory's tests green, one pull request there at the
+  owner's push word. The estimate is a working day; past twice that the shape is wrong (the owner's
+  yardstick).
+- **Order from here**: the fold clock ported and tested; the class detection; the doctrine twins; the
+  divergence re-measured; then the close of the consolidation (the sibling's continuity record, the
+  closeouts). The sibling's continuity record carries the lane in its §Next Safe Steps.
+- **Processes**: both watchers re-armed at their caps and live; claims held.
+
 ### 2026-10-14T12:4xZ — the sibling stage landed; the registers at zero and one; the napkin here rotated by proof; the slow lanes decided (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here (the last entry, the DUE-fold carry, landed in the
