@@ -149,6 +149,12 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
 - **Open at the owner**: the fold of the primary's coordination branch, late by his ranking of
   this job above it; the push of everything above when he lifts "no pushing"; the late-fold note
   on PR 327, written when the next GitHub write runs as the bot.
+- **At the owner's compaction word a second time, 09:1xZ**: the records above verified
+  first-hand, unchanged. One correction: the sibling's live seat captured the owner's
+  reviewing-agents word of 2026-10-14 in its register since this seat's read (uncommitted there
+  at the reading; the napkin's 09:0xZ block quotes it), a fifth item for this estate's register
+  with the same two rule homes, so the counts read 35 plus five to write here and 17 in the
+  sibling, one uncommitted. The per-user memory index now names this block as the pickup.
 
 ### 2026-10-14T00:0xZ — the owner's answer on the promotions; the finish list reordered at the cricket suite's word (Glowworm lifts Embers, a8c4f8)
 
