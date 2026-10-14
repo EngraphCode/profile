@@ -142,7 +142,7 @@ From `.agent/memory/operational/review-cost-ledger.md`: 322, the code landing of
 seven rounds and six settlement pushes at 62.74 of a rebudgeted 120, and the door merged it on a
 tip-bound Copilot review with zero findings; 321, the doctrine landing, two rounds at 13.98 of 40;
 325, the editor, zero vendor rounds, nine commits over five pushes, the cost being the seat's own six
-reviewers and a Cricket suite that the owner stopped ("Finish the fucking basic editor"), and the
+reviewers and a Cricket suite that the owner stopped ("Finish the forking basic editor"), and the
 door read SETTLED-NO-REVIEW until the owner's word merged it through the bot's REST path. OCE's
 ledger, read from its checkout on this machine, shows the coordination folds its rows name on the
 same shape: #135 five rounds and 38 findings at 112.22 of 40; #137 four; #148 three; #153 three;

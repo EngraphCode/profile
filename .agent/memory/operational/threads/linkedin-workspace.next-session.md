@@ -550,6 +550,97 @@ live card). Next, in order, at his word: the editor restarted; his edits; the se
 review file against the draft and absorbs them, validating; the editor and prose passes; the
 readers. moved for the sites: nothing / moved for the Practice: nothing.
 
+### 2026-10-14T11:xxZ — the About and the Oak sections: the dedupe and enhancement proposal, pending Jim's dispositions (Shrew rides Eventide, 371a2b)
+
+State at 11:xxZ: the editor restarted at his word after the overnight break; his edits of 14 October are in the review copy (the About reshaped, the headline, the consulting titles his own, six Experience cards, the FT Web App project line, the Scholar item gone at his word, the two OCE glosses and the Principal card's OCE sentence his); the seat's corrections of the day in the napkin (his figures are not checked; "England's" was never his word; the OCE is one repository among Oak's many; adjectives true by his authority stand). The draft `profile.md` is unchanged since 737cb1ed; absorption follows his dispositions below.
+
+Jim's word of 14 October: two Oak cards, not three ("Broadly agreed, but let's sort everything
+else out first"); then "what changes should we make around the dedupe and enhancement? ... Don't
+edit the draft yet, but do write down what edits you think matter and why". Everything else is
+sorted (his edits of 14 October in the review copy, the Scholar item gone, the OCE glosses his).
+Nothing below is applied; each item is applied only at his disposition, as a named list.
+
+The rule that decides every cut: the About tells the story once; the Experience card proves the
+role (scope, the decisions, their consequences, the pattern); the Project cards describe the
+artefacts and how they were made. A fact lives at full strength on one surface and is echoed
+elsewhere only by a clause in different words.
+
+1. **Two Oak cards.** Merge "Principal Engineer part 1" (Jan 2021 – May 2022) and "part 2" (June
+   2022 – Present) into one card, Jan 2021 – Present; the title his. "Senior Developer" (Aug – Dec
+   2020) stays. Why: the About says "led the engineering strategy since 2021" and the merged card's
+   dates show exactly that; the June 2022 formalisation is a sentence inside the card; the other
+   merge would put one title across a promotion. A merged card holds one employment type; the Code
+   Science card already says the first period ran through the consultancy.
+2. **The merged card's fold paragraph.** "I hold Oak's engineering strategy: I decide what gets
+   built and what does not, and make the case for it to the people who fund and run the service.
+   Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's
+   open curriculum into the AI assistants teachers use." Why: the fold shows the level by decision
+   (settled 12 October) for a scanner who never opens the About; "while it was still what kept
+   lessons online" is the About's line and stays there; "the AI assistants teachers already use"
+   is on the page three times, so the card varies it.
+3. **The growth paragraph**, from part 1, one change: "its engineering grew from the handful of
+   contractors I joined into six product squads and three platform groups". Why: "four
+   contractors" is the Senior Developer card's scene; the merged card carries the arc. The rest
+   as it is, the formalisation sentence closing it.
+4. **The rebuild paragraph**, as now. Why: the reasons, the call, the backing and the risk are
+   the proof, and the consequence sentence belongs beside the decision it follows from.
+5. **The plugin paragraph** keeps the decision and its consequence, and the making moves to the
+   plugin Project card: "The Oak AI plugin began in 2024 as an opportunity I saw in Oak's
+   curriculum, sequenced end to end, written by curriculum experts and published under the Open
+   Government Licence: any AI assistant could reach it, if someone built the route. I made the
+   case and built it; it is now in ChatGPT, Claude and any assistant that supports Model Context
+   Protocol (MCP), and the plugin's shape, its development and its strategy came from me." Cut
+   from the card: "built a public SDK on the data by hand before the route existed, then the
+   route itself" (to the Project card, item 10) and "It carries the curriculum principles and the
+   accessibility bar the lessons were written to, so whatever is built on Oak builds on them" (on
+   the Project card already, word for word). Why: how it was made belongs beside the repository
+   link; the values sentence is said once.
+6. **The Practice paragraph**: "The Practice came first: the way of working the plugin would be
+   built in, a framework for engineering with AI agents, in which the agents build and the
+   judgement and the calls are mine." Then his sentence of 14 October on the Open Curriculum
+   Ecosystem. Cut: "I built it to be taken up a piece at a time." Why: on the Practice Project
+   card already.
+7. **The pattern paragraph** ("Zero to one is complete..."), unchanged. Why: unique to the card.
+8. **The count.** The merged card lands about 2,200 characters against a believed 2,000; the
+   counter at application is the test, and nothing above is cut for the number. If the counter
+   refuses, the one further move by division of labour: the rebuild paragraph's reasons ("Even
+   with the emergency platform safe to change, every change got harder and every release slower.
+   I argued that optimising it was the wrong starting point and that Oak should rebuild.") move
+   to the rebuild Project card, which then carries why as well as what, and the Experience card
+   keeps the call, the backing and the risk.
+9. **The About, one change.** The third paragraph's last sentence (fifty words) split in two: "I
+   joined to get the first teacher-facing service over the line. I stayed to shape the first,
+   second, and third order effects of a digital-native, fully sequenced, fully resourced,
+   world-class curriculum, and what other people build with it." Why: the join and the stay each
+   get their own weight. Nothing else in the About changes: the hardest-call paragraph keeps its
+   line (the card's fold drops the clause), the Practice summary stays (the Project card has the
+   mechanism), "UK Passport Office" stays by his rule of 14 October (the official name on the
+   card, the descriptive name in prose).
+10. **The plugin Project card** gains the making, between his gloss and the values paragraph: "I
+    conceived the plugin and set its direction: a public SDK on the data, built by hand before
+    the route existed, then the route itself. The curriculum it carries is the work of Oak's
+    curriculum experts." Why: the card has the repository link, so how it was made belongs
+    beside it.
+11. **The Practice Project card**, two phrases: "and how the engineers working on the Open
+    Curriculum Ecosystem build now" for "and the way the engineers on the Open Curriculum
+    Ecosystem work now" (his "working on" of 14 October, the verb changed so "working" and
+    "work" do not collide); "public in the Open Curriculum Ecosystem repository" for "public with
+    the plugin". Why: the repository framing he set on 14 October.
+12. **The rebuild Project card**: drop "and everything Oak has built since stands on it". Why:
+    said on the Experience card as the decision's consequence and in the About as narrative; the
+    Project card describes the artefact and his part.
+13. **The Senior Developer card**, unchanged. Why: the scene (four contractors, the first term's
+    figures, the first service shipped) is this card's only job and, after item 3, nowhere else;
+    the About's "I joined to get the first teacher-facing service over the line" is the narrative
+    echo, a clause in different words.
+14. **Enhancement, a question for Jim, not a proposal.** The plugin has no outcome on the page
+    beyond where it runs. If there is a figure or a fact he wants public, the merged card's
+    plugin paragraph is its place.
+
+At application of his dispositions: the status lines of every touched section, the container's
+decisions paragraph, and the container's "England's official curriculum body" attribution
+(his words were "the UK's official curriculum body" throughout) corrected in the same commit.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of
@@ -577,7 +668,7 @@ readers. moved for the sites: nothing / moved for the Practice: nothing.
   Cricket suite and a twenty-five-finding triage on the editor: "you are building an MVP editing
   app, which requires the basest ability to be read then changed... and you are applying the
   a11y requirements of a public service, and thus wasting my time, my money, and your attention.
-  Finish the fucking basic editor"; then "stopping is not enough, fix the state of the editor,
+  Finish the forking basic editor"; then "stopping is not enough, fix the state of the editor,
   it is supposed to be SIMPLE ... and then we get back to what we are SUPPOSED to be doing which
   is writing my Oak entry for linkedin". The reviewers and the remaining Cricket legs were
   stopped; the findings stand on the PR in one line each, nothing further taken. Taken before
