@@ -825,9 +825,8 @@ Director's landing record of 2026-09-06, event f05a54da).
   the verdict while its hint count is information: the two estates differ on
   `treatConfigHintsAsErrors`, a family drift to name, not a finding (2026-10-05).
 - **A dry run under `TURBO_FORCE=true` needs `--cache=local:rw`**: `local:r` meets "WARNING no
-  caches are enabled" while `local:rw` is silent (2026-09-30); the five places that name the
-  remote cache's team and the `turbo config` check that they agree are in
-  `docs/engineering/build-system.md` §Caching.
+  caches are enabled" while `local:rw` is silent (2026-09-30); every place that names the remote
+  cache's team must agree, and `turbo config` on each host is the check that they do.
 - **A table transform rebuilds each row from its cells**; the closer's width check is
   necessary, not sufficient, and `grep ' | |$'` finds the empty cell (2026-10-03).
 - **Markdownlint by explicit path still ignores `.agent/reports/**`**: lint a report by copying
