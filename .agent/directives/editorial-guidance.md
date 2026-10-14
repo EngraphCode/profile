@@ -49,7 +49,16 @@ capabilities.
 thinking, AI for public benefit. Where a concept appears in both, framing must be consistent.
 
 **Process note** — editorial discussions require open conversation for nuanced content decisions.
-Don't use structured question tools (checkboxes/multiple-choice) for editorial work.
+Don't use structured question tools (checkboxes/multiple-choice) for editorial work. The working
+agreement of 2026-10-12, at the owner's correction and with his agreement, after a seat traded
+away two contact links to fit two more and compressed a card to a character limit: editorial
+changes are a conversation by default, in which the seat brings the trade space and what it
+thinks is best in context and why, and the draft does not move; applying happens only on what
+the conversation settled, as a named list, and nothing outside that list changes; a limit (a
+field's characters, a count of links) is never a reason to cut, it is a reason to ask where else
+the content lives, since there is more than one way; additions and corrections the owner has
+listed are applied and named; and the seat never defers with "at your word" nor cites his earlier
+words back at him as rules, because he can change his mind, learn, and meet new circumstances.
 
 ## Impact framing
 
@@ -164,6 +173,15 @@ content work.
   inability to commit. The experience sections must provide enough staying-power evidence —
   sustained impact, long-term consequences of decisions, systems that endured — to anchor the
   forward-leaning positioning.
+- **The innovator, not the engineering leader.** The profile expresses Jim's innovation and his
+  breadth of interest and capability: systems thinking, multi-order impact, making sense of
+  problems before their requirements exist, creating the first options, setting direction. It
+  never collapses to "engineering leader" (Jim, 7 and 11 October 2026;
+  [EDR-008](../../docs/editorial/decision-records/008-the-innovator-never-the-engineering-leader.md)).
+- **Level shows, it is never argued.** The job title is a fact and is carried plainly. What was
+  built and what was not, the call made and the cost accepted, what others now build on: these
+  carry the level of operation. An org chart or a reporting line argues a title up, which is
+  justification by another name.
 
 ## Editorial hierarchy
 

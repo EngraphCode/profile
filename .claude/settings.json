@@ -1,8 +1,10 @@
 {
+  "skillListingBudgetFraction": 0.03,
   "permissions": {
     "allow": [
       "Bash(git mv *)",
       "Skill(jc-accessibility)",
+      "Skill(jc-apply-linkedin-profile)",
       "Skill(jc-architecture)",
       "Skill(jc-assess-specification)",
       "Skill(jc-author-skills)",
@@ -32,6 +34,7 @@
       "Skill(jc-go)",
       "Skill(jc-inter-practice-collaboration)",
       "Skill(jc-knowledge-safety-sweep)",
+      "Skill(jc-linkedin-skills)",
       "Skill(jc-metacognition)",
       "Skill(jc-napkin)",
       "Skill(jc-parallax)",
@@ -81,7 +84,6 @@
       "Skill(jc-write-for-the-reader)"
     ]
   },
-  "skillListingBudgetFraction": 0.03,
   "hooks": {
     "SessionStart": [
       {
@@ -171,5 +173,8 @@
     "type": "command",
     "command": "node \"${CLAUDE_PROJECT_DIR}/.claude/scripts/statusline-identity.mjs\"",
     "refreshInterval": 10
+  },
+  "enabledPlugins": {
+    "oak-national-academy@anthropic-plugin-directory": true
   }
 }

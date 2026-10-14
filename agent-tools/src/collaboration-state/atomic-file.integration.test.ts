@@ -93,3 +93,33 @@ describe('directorySyncStrategy', () => {
     ).resolves.toBeUndefined();
   });
 });
+
+describe('atomicTextWriter with a mode', () => {
+  it('hands the mode to the synced write, so the landed file keeps the target’s permission bits', async () => {
+    const modes: (number | undefined)[] = [];
+    const { calls, fileSystem } = recordingFileSystem({
+      writeSyncedFile: async (filePath, _text, mode) => {
+        modes.push(mode);
+        calls.push(`write:${filePath}`);
+      },
+    });
+
+    await atomicTextWriter(fileSystem)('/records/napkin.md', 'text', { mode: 0o755 });
+
+    expect(modes).toStrictEqual([0o755]);
+    expect(calls[1]).toMatch(/^rename:\/records\/napkin\.md\.tmp-.*->\/records\/napkin\.md$/u);
+  });
+
+  it('passes no mode when none is given, leaving the file at the default', async () => {
+    const modes: (number | undefined)[] = [];
+    const { fileSystem } = recordingFileSystem({
+      writeSyncedFile: async (_filePath, _text, mode) => {
+        modes.push(mode);
+      },
+    });
+
+    await atomicTextWriter(fileSystem)('/records/napkin.md', 'text');
+
+    expect(modes).toStrictEqual([undefined]);
+  });
+});

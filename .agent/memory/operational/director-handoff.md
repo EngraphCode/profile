@@ -150,7 +150,11 @@ the owner should see the team delivering, not the Director reporting.
   order; Dependabot PRs count and a seat lands each green one at its size turn; the word "[the
   owner's local-only wording]" stays out of the repository for now and reads "Student Support
   Experiments".
-- The WIP limit (owner, 2026-09-26 19:2xZ, verbatim summary: "Each repo is allowed one
+- The WIP limit. Superseded 2026-10-02 by the owner's per-estate word, carried verbatim by
+  `pr-lifecycle` §Phase 7: one coordination and one in-progress feature/fix pull request per
+  estate, counting open pull requests; a pull request held at its door for the owner's reading
+  leaves the slot free (the Director's ruling of 2026-10-02 under delegation). The reading below
+  is the history it replaced. (Owner, 2026-09-26 19:2xZ, verbatim summary: "Each repo is allowed one
   coordination PR"; "The total number of allowed PRs not including coordination PRs is the number
   of implementer agents, in this case three"; "We always strive for all PRs to be merged"). The
   count is read across both estates together; external PRs (fork syncs, Dependabot, CV content)
@@ -167,7 +171,28 @@ the owner should see the team delivering, not the Director reporting.
   words: the napkin's 2026-09-26T19:29Z and 19:38Z blocks; the operated rule as amended: the
   2026-09-27T09:39Z and 09:52Z blocks.
 
-## Current handoff state (2026-10-10, pointer-biased by design)
+## Current handoff state (2026-10-14, pointer-biased by design)
+
+**§STATE, 2026-10-14 17:xxZ (Shrew rides Eventide, `371a2b`, the n=1 seat; this block is the
+pickup)**: no Director seat is held. Flint guards Vapor (`9b835d`) closed out the third dedicated
+consolidation at 12:36Z on the lane `docs/consolidation-3` (its close commit `SHA:db295b47`
+unpushed at the owner's word; the consolidation blocks below and in `repo-continuity.md` are
+superseded by that lane's landing). The LinkedIn lane is this seat's (claim `3b4a1be4`): the
+draft awaits the owner's dispositions on a fourteen-item proposal, and the pickup is the head of
+`threads/linkedin-workspace.next-session.md`. Pull request 334 (the records door's correction)
+is open as a draft at `SHA:3414d9cb`. At the owner's word of 14 October the public repository
+carries no swearing (the agent-tools `profanity` topic; the pre-commit check on the lane
+`feat/profanity-pre-commit-check`). No watcher or heartbeat runs (consumer absent).
+`repo-continuity.md` §Current State carries the dated landings; this file's blocks beneath are
+history.
+
+**§STATE, 2026-10-10 11:3xZ (Shrew rides Eventide, `371a2b`, the successor seat, post-fold; this
+block adds the fold to the 11:1xZ pickup below, which stands).** The coordination branch
+`2026-10-09-213f94` folded as 326 at `SHA:f436b6fc` (one Copilot round, one settlement push);
+the successor `coordination/2026-10-10-f436b6` is cut from it and the folded branch is retired
+through the bot. moved for the sites: nothing / moved for the Practice: the handoff records and
+the wrap skill's clause on `main`. No Director seat is held; the seat is n=1 after Cedar turns
+Grove's close; no watcher, heartbeat or claim runs.
 
 **§STATE, 2026-10-10 11:1xZ (Cedar turns Grove, `1950d1`, the n=1 seat, closing; this block is
 the pickup on its own, and the dated blocks below it are the history it rests on).** The LinkedIn lane is handed to Shrew rides Eventide (`371a2b`) at

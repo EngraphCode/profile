@@ -47,8 +47,8 @@ audience may be served without controlling the order or vocabulary of the whole 
 
 The CV and LinkedIn profile commonly serve:
 
-1. **Hiring managers and senior leaders** deciding whether Jim's judgement fits a consequential
-   problem.
+1. **Hiring managers, senior leaders and the search partners acting for them** deciding whether
+   Jim originates and shapes at scale, never whether he fits a line role (EDR-008).
 2. **Recruiters** deciding whether they can recognise, place and forward the profile accurately.
 3. **Peers and collaborators** deciding whether the work and way of thinking merit engagement.
 4. **Founders, funders and public-interest leaders** looking for origination, leverage and

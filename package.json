@@ -31,6 +31,7 @@
     "agent-tools:pr-watch": "pnpm --filter @engraph/agent-tools pr-watch",
     "agent-tools:pre-tool-use-dispatch": "pnpm --filter @engraph/agent-tools pre-tool-use-dispatch",
     "agent-tools:prevent-accidental-major-version": "pnpm --filter @engraph/agent-tools prevent-accidental-major-version",
+    "agent-tools:profanity": "pnpm --filter @engraph/agent-tools profanity",
     "agent-tools:repo-check": "pnpm --fail-if-no-match --filter @engraph/agent-tools repo-check",
     "agent-tools:secret-scan": "pnpm --filter @engraph/agent-tools secret-scan",
     "agent-tools:test": "pnpm --filter @engraph/agent-tools test",

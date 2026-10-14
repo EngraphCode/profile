@@ -32,7 +32,11 @@ Write it down and show it with the draft (`editorial-strategy.md` §Begin with t
 decision):
 
 1. the primary reader by role, and any secondary reader that matters;
-2. what that reader is deciding or doing;
+2. what that reader is deciding or doing, on the axis `editorial-strategy.md` §Standing audiences
+   fixes (origination, sense-making where nothing has a shape yet, strategy and systems shaped at
+   scale, breadth), and what they are not deciding: a reader who screens for a line role, with
+   headcount, budget or reporting line as the first questions, is the wrong reader for this
+   profile (EDR-008);
 3. what they already believe, misunderstand or doubt at first contact;
 4. the surface and the reading mode: a card, a collapsed preview, a scan, a full read, a search
    result, a machine extracting nouns;
@@ -93,7 +97,8 @@ dispositions with the draft.
    evidence and attribution, register and voice. Revise on its letter before any sentence work.
 3. **`prose-expert`**, the line pass: clarity, rhythm, word choice, redundancy, with its
    before-and-after rewrites inside the register. Revise again.
-4. **`audience-reader`**, on the revised draft: give it items 1 to 4 of the reader's decision and
+4. **`audience-reader`**, on the revised draft: give it items 1 to 4 of the reader's decision,
+   built from the private brief where one exists and never from a generic professional search, and
    the draft in its reading path, and withhold item 5 and the beliefs from step 2, so that what it
    reports believing is the draft's effect and not the brief's. Compare its belief with step 2
    afterwards; the gap is the finding.
@@ -150,6 +155,10 @@ pass is the seat's own, run against the sources.
   listing; elsewhere the product's own name (EDR-007).
 - Repetition hides in nouns: "built ... built", "the way of working ... the way of working".
   Read aloud before the readers do.
+- A mis-cast reader's question answered in the open ("who reported to you", an org chart, who
+  holds the budget) grades Jim on that reader's axis. If the axis is wrong the question is not
+  answered in copy. Three rounds on 10 October 2026 cured to such a question before the brief
+  was found to be the fault (EDR-008).
 
 ## References
 
