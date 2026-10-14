@@ -4,7 +4,7 @@ Every skill name in play for Jim's LinkedIn profile, with who set it, where it s
 known of it. The copy's home is `linkedin/profile.md` §Skills; the decisions are in
 `linkedin/profile-replacement.md` §Skills; this file records status, never copy.
 
-- **Last updated:** 2026-10-11, evening (Shrew rides Eventide, 371a2b).
+- **Last updated:** 2026-10-12 (Shrew rides Eventide, 371a2b).
 - **Provenance:** who set each name and when. "Jim, 11 Oct" is his word that day, "Jim, 11 Oct,
   evening" the list he wrote himself that evening (his reasons are in the private editorial
   repository, never here); "live" is a name on the profile at the 2026-09-27 baseline; "seat, 11
@@ -202,7 +202,7 @@ Skills, PostgreSQL, Strategy and Technical Architecture among them, show no endo
 | Web Applications     | at least 1 (3 colleagues)    | a person; 3 colleagues at Financial Times; no number              |
 | Communication        | 1                            | 1 endorsement                                                     |
 
-Of the twelve, five stay on the list (Software Development, JavaScript, Physics, C and nothing
+Of the twelve, four stay on the list (Software Development, JavaScript, Physics, C and nothing
 else above one; Web Applications leaves for Web Technologies).
 
 ## Names confirmed at the typeahead and held

@@ -511,8 +511,8 @@ course), the two Johns Hopkins course certificates (not a specialization), and t
 "of" Cosmology and Gravitation; the site's unit tests green.
 
 Jim's word, 12 October: the two Johns Hopkins course certificates out with the two safety
-certificates (both readers read the courses as lowering the altitude beside a PhD; he does not
-much care either way); his Google Scholar profile and his ORCID record on the profile (the
+certificates (both readers read the courses as lowering the altitude beside a PhD; removed at
+the seat's verdict, at his word); his Google Scholar profile and his ORCID record on the profile (the
 record lists the thesis and the two papers, the same three the Publications carry, with their
 DOIs; the print view is in the local reference directory). The seat first put the two records in
 the contact websites in place of the CV and GitHub links, LinkedIn's contact information

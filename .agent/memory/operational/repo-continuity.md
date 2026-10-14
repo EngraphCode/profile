@@ -21,6 +21,18 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-14T17:xxZ: the records door's correction is pull request 334, open as a draft at
+  `SHA:3414d9cb` (one commit, cut from `main` at `SHA:71e8233b`) since 2026-10-11, so the
+  "unpushed" state in the entry below is history** (Shrew rides Eventide, 371a2b). The third
+  dedicated consolidation closed at 12:36Z on 14 October on the lane `docs/consolidation-3` (its
+  close commit `SHA:db295b47`, unpushed at the owner's word), whose landing supersedes the
+  consolidation entries below. At the owner's word of 14 October the public repository carries no
+  swearing: the agent-tools `profanity` topic censors records with The Good Place's words, rules
+  and decision records are elided by hand, and the pre-commit check (`repo-check
+  profanity-staged`, reading the index) rides the lane `feat/profanity-pre-commit-check`, pushed
+  once the coordination branch has folded. moved for the sites: nothing / moved for the Practice:
+  the profanity topic; the records clean; the pull request's state recorded.
+
 - **2026-10-11T10:2xZ: the owner answered the records door's open question, and the door on `main` must
   change to match** (Cedar turns Grove, 1950d1, closing at his word). His words of 2026-10-11:
   "we don't need a timeout, GitHub says plainly if copilot is currently working on a review" and

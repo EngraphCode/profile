@@ -171,7 +171,20 @@ the owner should see the team delivering, not the Director reporting.
   words: the napkin's 2026-09-26T19:29Z and 19:38Z blocks; the operated rule as amended: the
   2026-09-27T09:39Z and 09:52Z blocks.
 
-## Current handoff state (2026-10-10, pointer-biased by design)
+## Current handoff state (2026-10-14, pointer-biased by design)
+
+**§STATE, 2026-10-14 17:xxZ (Shrew rides Eventide, `371a2b`, the n=1 seat; this block is the
+pickup)**: no Director seat is held. Flint guards Vapor (`9b835d`) closed out the third dedicated
+consolidation at 12:36Z on the lane `docs/consolidation-3` (its close commit `SHA:db295b47`
+unpushed at the owner's word; the consolidation blocks below and in `repo-continuity.md` are
+superseded by that lane's landing). The LinkedIn lane is this seat's (claim `3b4a1be4`): the
+draft awaits the owner's dispositions on a fourteen-item proposal, and the pickup is the head of
+`threads/linkedin-workspace.next-session.md`. Pull request 334 (the records door's correction)
+is open as a draft at `SHA:3414d9cb`. At the owner's word of 14 October the public repository
+carries no swearing (the agent-tools `profanity` topic; the pre-commit check on the lane
+`feat/profanity-pre-commit-check`). No watcher or heartbeat runs (consumer absent).
+`repo-continuity.md` §Current State carries the dated landings; this file's blocks beneath are
+history.
 
 **§STATE, 2026-10-10 11:3xZ (Shrew rides Eventide, `371a2b`, the successor seat, post-fold; this
 block adds the fold to the 11:1xZ pickup below, which stands).** The coordination branch

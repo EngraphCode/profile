@@ -10,7 +10,38 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-10T11:1xZ, the lane handed to Shrew rides Eventide (371a2b) at the owner's word; Cedar turns Grove closes; the Oak entry is next; Cedar turns Grove, 1950d1)
+## Current Continuation (2026-10-14T17:xxZ, the LinkedIn rewrite awaiting the owner's dispositions; the pre-commit profanity check on its own lane; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the dated blocks beneath the previous continuation are history in
+  time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
+  acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The LinkedIn lane: `linkedin/profile.md` is the draft at the owner's edits of 13 October
+  (unchanged since `SHA:737cb1ed`); `linkedin/profile.review.md` is his uncommitted working copy
+  with his edits of 14 October, which no seat edits or commits; the fourteen-item dedupe and
+  enhancement proposal for the About and the Oak sections (the block of 2026-10-14T11:xxZ below)
+  awaits his dispositions by number, and "Don't edit the draft yet" stands. Next, at his
+  dispositions: apply the settled items as a named list in the review copy, merge the two
+  Principal cards (the title his), the status lines, the container's corrections named in that
+  block, validate, prettier, both profile copies identical, one commit by pathspec. The readers run
+  only when he says so; the application plan is authored when he says the draft is his; the
+  private repository's pull request 6 is his to merge.
+- Swearing: at his word of 14 October the public repository carries none. The agent-tools
+  `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
+  The Good Place's words; rules and decision records are elided by hand. The pre-commit check
+  (`repo-check profanity-staged`, reading each staged file from the index) is the lane
+  `feat/profanity-pre-commit-check` (worktree `.claude/worktrees/profanity-pre-commit`, one
+  commit `SHA:fd0efcfa` cut from this branch's tip), pushed and pulled-requested once the
+  coordination branch has folded, since the topic reaches `main` with that fold. A tracked-tree
+  leg in `pnpm check` is the owner's call.
+- Pull request 334 (`fix/records-door-waits-for-a-review-in-progress`) is open as a draft at
+  `SHA:3414d9cb`, one commit, since 2026-10-11; the continuity record's "unpushed" lines of that
+  day are history. The third consolidation closed on the lane `docs/consolidation-3` (its close
+  commit `SHA:db295b47`, unpushed at the owner's word); its blocks in the continuity records here
+  are superseded by that lane's landing.
+- Seat state: n=1 (Flint guards Vapor closed out 2026-10-14 12:36Z); no watcher or heartbeat
+  (consumer absent); the LinkedIn claim `3b4a1be4` stands with its areas.
+
+## Previous Continuation (2026-10-10T11:1xZ, the lane handed to Shrew rides Eventide (371a2b) at the owner's word; Cedar turns Grove closes; the Oak entry is next; Cedar turns Grove, 1950d1)
 
 - The owner's words, verbatim: 2026-10-09 13:4xZ, "the next session works on the Oak entry,
   consolidation waits until I say so"; 2026-10-10 10:5xZ, "Prepare a full handoff to Shrew rides
@@ -268,8 +299,7 @@ in `profile.md`: a 45-entry proposal in three tiers (the pinned three, the next 
 the four endorsed tags kept by name, every candidate checked against LinkedIn's standardised
 skills, for which an official list is to be found first (the candidates to check: LinkedIn's own
 help and talent pages, the Marketing API's Skills data, the typeahead at application as the
-final arbiter; a free-text skill may not feed Recruiter's filter). This paragraph was written at
-his word after the wrap's push and rides the next commit uncommitted. moved for the sites:
+final arbiter; a free-text skill may not feed Recruiter's filter). moved for the sites:
 nothing / moved for the Practice: nothing.
 
 ### 2026-10-11T12:5xZ — the Skills exploration done as the linkedin-skills skill, with apply-linkedin-profile beside it; the canonical list unchanged (Shrew rides Eventide, 371a2b)
@@ -469,13 +499,12 @@ Strategic Partnerships is not; (1) the Principal card is refined to the 2,000-ch
 information density and writing quality, never cut down; (2) the fold fix agreed ("National
 Curriculum-aligned" out of the About's second sentence); (3) "since 2021" agreed; (4) Public
 Speaking stands on his word; Science Communication is shown by the Publications (his Google
-Scholar profile lists the two papers and the thesis, 128 citations); the start-ups behind
-Startups are Assanka (which became FT Labs), We Predict, Oak in its first months, and Obaith with
-Reforest Now and the ventures that stopped at research; Mentoring is understood in a Principal; a
+Scholar profile lists the two papers and the thesis, 128 citations); Startups and Mentoring
+stand at his word (his reasons are in the private editorial repository, never here); a
 post of his may follow later, the claims are made now; (5) the titles are his to change, some
 change and some stay, by a discussion with him (the seat had read his word that the past is real
-as the title strings being fixed; corrected); (6) the Johns Hopkins courses: he does not much
-care, so the seat's verdict stands, the two courses out with the two safety certificates; (7)
+as the title strings being fixed; corrected); (6) the Johns Hopkins courses: removed at the seat's verdict, at his word, the two courses out
+with the two safety certificates; (7)
 scientist is a discipline, mindset and approach, not a role, shown by how the page is written and
 never by a name's position (the seat had counted it absent from the top five; corrected); (8)
 Recommendations were agreed before the review; the seat had critiqued agreed intent (corrected).
@@ -577,7 +606,7 @@ elsewhere only by a clause in different words.
    open curriculum into the AI assistants teachers use." Why: the fold shows the level by decision
    (settled 12 October) for a scanner who never opens the About; "while it was still what kept
    lessons online" is the About's line and stays there; "the AI assistants teachers already use"
-   is on the page three times, so the card varies it.
+   is on the page twice, and once as a variant in the About, so the card varies it.
 3. **The growth paragraph**, from part 1, one change: "its engineering grew from the handful of
    contractors I joined into six product squads and three platform groups". Why: "four
    contractors" is the Senior Developer card's scene; the merged card carries the arc. The rest
@@ -608,7 +637,7 @@ elsewhere only by a clause in different words.
    I argued that optimising it was the wrong starting point and that Oak should rebuild.") move
    to the rebuild Project card, which then carries why as well as what, and the Experience card
    keeps the call, the backing and the risk.
-9. **The About, one change.** The third paragraph's last sentence (fifty words) split in two: "I
+9. **The About, one change.** The third paragraph's last sentence (thirty-eight words) split in two: "I
    joined to get the first teacher-facing service over the line. I stayed to shape the first,
    second, and third order effects of a digital-native, fully sequenced, fully resourced,
    world-class curriculum, and what other people build with it." Why: the join and the stay each
@@ -639,7 +668,9 @@ elsewhere only by a clause in different words.
 
 At application of his dispositions: the status lines of every touched section, the container's
 decisions paragraph, and the container's "England's official curriculum body" attribution
-(his words were "the UK's official curriculum body" throughout) corrected in the same commit.
+(his words were "the UK's official curriculum body" throughout) corrected in the same commit,
+with the container's settled sentence "Scholar is the one Featured item" (the item left at his
+word on 14 October).
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
