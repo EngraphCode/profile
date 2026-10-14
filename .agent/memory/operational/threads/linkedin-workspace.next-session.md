@@ -39,11 +39,11 @@ authorisation.
 - Swearing: at his word of 14 October the public repository carries none. The agent-tools
   `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
   The Good Place's words; rules and decision records are elided by hand. The pre-commit check
-  (`repo-check profanity-staged`, reading each staged file from the index) is the lane
-  `feat/profanity-pre-commit-check` (worktree `.claude/worktrees/profanity-pre-commit`, one
-  commit `SHA:fd0efcfa` cut from this branch's tip), pushed and pulled-requested once the
-  coordination branch has folded, since the topic reaches `main` with that fold. A tracked-tree
-  leg in `pnpm check` is the owner's call.
+  (`repo-check profanity-staged`: each staged file read from the index, binary by its content,
+  the lexicon's own directory excepted) is on `main` as 335 at `SHA:c275c866` and live on the
+  primary since `SHA:536bb2e9`. Leaves for his call: the index lookup under native Windows
+  (`toGitPath`), a size pre-check naming the 50 MiB capture limit, a tracked-tree leg in
+  `pnpm check`.
 - Pull request 334 (`fix/records-door-waits-for-a-review-in-progress`) is open as a draft at
   `SHA:3414d9cb`, one commit, since 2026-10-11; the continuity record's "unpushed" lines of that
   day are history. The third consolidation closed on the lane `docs/consolidation-3` (its close

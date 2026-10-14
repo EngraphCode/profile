@@ -1554,3 +1554,39 @@ wake. The seats resume by this seat's message after the owner's word: Hazel trac
   substance that the cure of 6c0f45d0 had not reached; both out now.
 - **Claims and seat**: n=1 throughout (Flint guards Vapor closed out 12:36Z); no watcher or
   heartbeat (consumer absent); the LinkedIn claim stands; no peer message owed.
+
+## 2026-10-14T18:0xZ — The pre-commit profanity check on main as 335; three rounds, two leaves; the hook live on the primary (Shrew rides Eventide, 371a2b)
+
+- **Landed**: 335 merged at `c275c866` (the bot on SETTLE-READY), the lane
+  `feat/profanity-pre-commit-check` cut from the coordination tip 3a125069 and retired through
+  the bot; `origin/main` merged into the successor as `536bb2e9`, agent-tools rebuilt, the hook
+  leg live in the primary's `.husky/pre-commit`. The owner's bound of thirty minutes for the two
+  merges was not met: the fold's clock reads 28.4 minutes from the ready-mark to the merge, and
+  335 took 38 minutes from its opening to its merge (three vendor rounds of about nine minutes
+  each, two settlement pushes with a five-minute gate on each); the two merges together ran
+  from 16:56Z to 18:07Z.
+- **The rounds of 335**: opening `fd0efcfa`, one finding (a staged file named `--help` or `-h`
+  made the CLI print its usage and the gate pass; cured, a help flag counts only before the `--`
+  after the action); settlement `4531e96b`, two findings (an unstaged `.gitattributes` line such
+  as `notes.md -diff` made the numstat read call a staged text file binary, so the gate skipped it
+  unread; type changes sat outside the ACMR filter; cured: a file is binary by its staged content,
+  a NUL byte, read from the index, the numstat read gone; the shared staged listing asks for
+  ACMRT, index symlinks still excluded, so the prettier and markdownlint staged gates now read a
+  retyped regular file too); settlement `9d2af0d0`, two findings dispositioned at the spent budget
+  of two settlement pushes (the review-cost gate read warn, rounds 3): the index lookup needs
+  `toGitPath` on native Windows (one call, a leaf), and a staged blob over the 50 MiB capture limit
+  fails closed with exit 2 and the path named, by design (a size pre-check with a message naming
+  the limit is a leaf if wanted). A third review on the old tip, from a re-request made before the
+  push result was read, found nothing.
+- **Leaves, for the owner's call**: the Windows lookup; the size pre-check; a tracked-tree
+  profanity leg in `pnpm check` (a merge commit, a hook-less host and a sibling commit before its
+  carry bypass a pre-commit hook, and CI never re-reads the tree); the crawl check's grep error
+  read as MISSING; a single `staged` command running the three staged gates in one process. The
+  sibling estate needs the `profanity` topic and `profanity-staged` landed before it carries the
+  hook.
+- **Slips**: the first settlement push failed on the full suite (the entry-level test under
+  `agent-tools/tests` pins the staged git arguments; the partial runs under `src/` never covered
+  it), and the resolve script had already answered the threads with a sha not yet on origin and
+  re-requested the review on the old tip; read the push, then resolve, then re-request. A second
+  commit carried the pin. The lane's commits were made under the new hook: each was the leg's own
+  live run.

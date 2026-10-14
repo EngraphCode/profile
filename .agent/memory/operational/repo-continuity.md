@@ -21,6 +21,17 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-14T18:0xZ: the pre-commit profanity check is on `main` as 335 at `SHA:c275c866`
+  (`repo-check profanity-staged`, each staged file read from the index, binary by content, the
+  lexicon's own directory excepted), and `origin/main` is merged into the successor as
+  `SHA:536bb2e9` with the hook live on the primary** (Shrew rides Eventide, 371a2b; the lane
+  retired through the bot). Three vendor rounds: one cure, two cures, two dispositions at the
+  spent budget. Leaves for the owner: the index lookup under native Windows (`toGitPath`, one
+  call); a size pre-check naming the 50 MiB capture limit; a tracked-tree profanity leg in
+  `pnpm check`; the sibling estate carries the hook only after the topic and the command. moved
+  for the sites: nothing / moved for the Practice: the commit gate holds the owner's ruling on
+  swearing by itself.
+
 - **2026-10-14T17:2xZ: the coordination branch `2026-10-10-f436b6` folded as 327 at
   `SHA:d0c995c5`; the successor `coordination/2026-10-14-d0c995` cut from it** (Shrew rides
   Eventide, 371a2b, at the owner's word; the bot's merge on SETTLE-READY from head `SHA:e4a0d507`
