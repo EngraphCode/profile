@@ -120,6 +120,16 @@ describe('runProfanityStaged', () => {
     expect(run.stderr).toBe('');
   });
 
+  it('reads a staged file named --help as a file, so a help-named path cannot pass the gate', async () => {
+    const swear = aSwear();
+    const run = await gate({
+      staged: ['--help', 'notes.md'],
+      index: { '--help': 'fine\n', 'notes.md': `not ${swear.from} fine\n` },
+    });
+    expect(run.exitCode).toBe(1);
+    expect(run.stdout).toBe(`notes.md:1: ${swear.from} -> ${swear.to}\nprofanity: 1 found\n`);
+  });
+
   it('exits 0 and says clean when no staged text file holds a swear', async () => {
     const run = await gate({ staged: ['notes.md'], index: { 'notes.md': 'a fine record\n' } });
     expect(run).toStrictEqual({ exitCode: 0, stdout: 'profanity: clean\n', stderr: '' });

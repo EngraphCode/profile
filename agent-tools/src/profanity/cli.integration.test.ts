@@ -63,6 +63,14 @@ describe('profanity CLI', () => {
     expect(h.stderr()).toContain('unknown option: -notes.md');
   });
 
+  it('reads a file named --help or -h after the separator as a path, never as a help flag', async () => {
+    const h = harness({ '/repo/--help': 'fine\nnot fucking fine\n', '/repo/-h': 'fine\n' });
+    await expect(h.run(['check', '--', '--help', '-h'])).resolves.toBe(1);
+    expect(h.stdout()).toBe('--help:2: fucking -> forking\nprofanity: 1 found\n');
+    await expect(h.run(['check', '--help'])).resolves.toBe(0);
+    expect(h.stdout()).toContain(PROFANITY_USAGE);
+  });
+
   it('check reports each swear with its path and line and exits 1', async () => {
     const h = harness({ '/repo/napkin.md': 'fine\nFinish the fucking basic editor\n' });
     await expect(h.run(['check', 'napkin.md'])).resolves.toBe(1);

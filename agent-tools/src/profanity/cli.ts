@@ -112,16 +112,26 @@ function writeFindings(input: ProfanityCliInput, outcomes: readonly FileOutcome[
   return total;
 }
 
+/**
+ * A help flag counts only before a `--` after the action: past the separator every argument
+ * is a path, so a staged file named `--help` is read, never shown the usage.
+ */
+function wantsHelp(action: string | undefined, rest: readonly string[]): boolean {
+  const separator = rest.indexOf('--');
+  const options = [action ?? '', ...(separator === -1 ? rest : rest.slice(0, separator))];
+  return options.includes('--help') || options.includes('-h');
+}
+
 function parseArgs(args: readonly string[]): ParsedArgs | Error | 'help' {
   const normalised = args[0] === '--' ? args.slice(1) : args;
-  if (normalised.includes('--help') || normalised.includes('-h')) {
+  const [action, ...rest] = normalised;
+  if (wantsHelp(action, rest)) {
     return 'help';
   }
-  const [action, ...paths] = normalised;
   if (action !== 'check' && action !== 'replace') {
     return new Error(`expected an action of check or replace, got: ${action ?? '(none)'}`);
   }
-  return parsePaths(action, paths);
+  return parsePaths(action, rest);
 }
 
 /** A `--` after the action ends the options: every later argument is a path, a leading dash included. */
