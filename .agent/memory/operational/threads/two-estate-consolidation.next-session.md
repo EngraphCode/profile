@@ -109,6 +109,62 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T12:3xZ — the close: both estates drained to the owner's definition, the day's lessons homed, the stamps corrected, the seats closed out (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here and 1 in the sibling (the operator-profile half of the
+  Oak GitHub read ruling, a write to the owner's own profile at his word); open questions 5 and 5,
+  none opened by this pass; the napkin here drained and rotated twice (two byte-identical archives,
+  the live file a rotation note); the sibling's napkin drained to the 2026-10-11 handoff by the
+  earlier seats and its rotation waiting on the reviewer seat's uncommitted block, untouched;
+  distilled 44 and 42 lines, unchanged today; unpushed at the owner's standing word 22 commits on
+  this lane, 8 on the sibling's records lane, 3 on its merge-tool code lane; the divergence measure
+  45 files and 3,453 lines at the open, 36 and 3,297 on the simulated merge of the sibling's two
+  lanes at the close. The register readout at the close ran three times: 31 on the first run, 0 on
+  the second and third (pending 0, due 0, overdue 0, with the full output saved); the first reading
+  is unexplained and one instance.
+- **Since the 12:1xZ block**: the sibling's continuity record curated by the disposition runbook
+  from 2,989 lines to 679 (three archives: the state entries of 2026-09-29 to 2026-10-05, the
+  next-safe-steps blocks of 2026-09-21 to 2026-10-11, two retired sections; a compact state block
+  of this date there carries every item those blocks still held, the J2 docs-validators worktree
+  with its 23 uncommitted entries among them; what remains over its limit is the estate's programme
+  content, its own reading). The stamps this seat wrote by hand after 10:00Z were the local clock
+  written as Z, an hour fast; each corrected by the commit times in both estates and the memory
+  (the 11:3xZ stage block, the curated surfaces' entries, the sibling's bullet). The day's napkin
+  drained into eleven homes by reading each target (the rotation note lists them), the shared
+  homes the same bytes in the sibling with the watcher rule's idle-expiry clause carried there, a
+  friction registered in each estate for the session-metadata path derivation. Four observations
+  wait in the napkin archive on a second instance.
+- **The wrap's readings**: work safety is REPORTED here and in the closeout event, never written as
+  state: every commit is on its lane, nothing pushed at the owner's word, the lanes enumerated by
+  `git worktree list` in the closeout; the review-cost survey since 2026-10-14: 2 output lines, none for a pull request this seat touched (nothing was pushed);
+  the strict fitness readout names as signals, not work, the directives over their hard or critical
+  lines (principles, testing-strategy, user-collaboration, agent-collaboration, AGENT,
+  continuity-practice, editorial-guidance, privacy), the typescript gotchas, the lineage
+  exploration, the director handoff (its standing-rulings section, the next curation of that file),
+  the artefact inventory and the collaboration-state conventions. The metaloss passes: the compressed
+  reasoning of the afternoon is in this record's blocks and the commit messages; every promise is
+  discharged or at the owner (the open list below); the one attribution inference is the side
+  agent's note being read as the owner's framing, which his own sentence then settled; the blind
+  spots are the sibling's napkin (unread today past its handoff) and the register's first readout;
+  the index of homes is this block and the rotation note; the error signature stays counts and
+  stamps, and a third pass would only re-find them, so the recursion closes here. The formation
+  letter of the morning takes an afternoon addendum.
+- **The closeout**: the sibling's curator claim closed with its summary, its guest watcher stood down
+  (end event 5f8d7d12, closeout event 332e8b3f on its stream); this estate's claim 094031ad closed,
+  the watcher stood down (end event 7783689b, closeout event e9ed91d3). Nothing of this seat's
+  runs: both Monitor tasks stopped, no cron, the Cricket agents idle. A successor opens a fresh
+  claim and arms a watcher by the recipe in the 11:3xZ block; nothing is adopted.
+- **Open at the owner**: the pushes of the three lanes (the sibling's code lane as one pull request
+  against its default branch; its two lanes merge in either order); the folds, day four here and
+  day nine there, both ranked below this job by his word of 2026-10-13; the clocked-obligations
+  directive line (11:3xZ block) and the SessionStart compaction-source hook cure (10:0xZ block),
+  each at his word; the operator-profile line; the sibling's register entry; the sibling's J2
+  worktree's disposition; the sibling's continuity record's programme content over its limit.
+- **Done, to his definition**: the registers empty here and at their owner-gated floor there, the
+  buffers drained here and to the handoff there, the shared texts the same bytes, the tooling gap
+  his word named closed as a code lane done to its gate. The consolidation is complete; what is
+  left is his.
+
 ### 2026-10-14T12:1xZ — the merge-tool code lane in the sibling done to its gate; the fold doctrine the same bytes once both its lanes land; divergence 37 and 3,306 on the simulated merge (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here, 1 in the sibling (owner-gated); open questions 0 and
