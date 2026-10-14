@@ -41,12 +41,16 @@ function indexSymlinkPaths(runtime: RepoCheckRuntime): ReadonlySet<string> {
   return parseSymlinkPaths(gitOutput(runtime, ['ls-files', '--cached', '-s', '-z'], 'symlinks'));
 }
 
-/** The files staged for the next commit (added, copied, modified, renamed), without symlinks. */
+/**
+ * The files staged for the next commit (added, copied, modified, renamed, retyped), without
+ * the entries that are symlinks in the index: a symlink retyped to a regular file is staged
+ * content the commit carries, so it is listed; a file retyped to a symlink is not.
+ */
 export function stagedFiles(runtime: RepoCheckRuntime): readonly string[] {
   const names = parseNulSeparatedPaths(
     gitOutput(
       runtime,
-      ['diff', '--cached', '--name-only', '--diff-filter=ACMR', '-z'],
+      ['diff', '--cached', '--name-only', '--diff-filter=ACMRT', '-z'],
       'staged files',
     ),
   );
@@ -92,36 +96,4 @@ export function readTrackedTreeResult(
   } catch (error: unknown) {
     return err(failureAsError(error, 'readTrackedTree').message);
   }
-}
-
-/**
- * The paths git counts as binary in a numstat listing: the records whose added
- * and deleted counts are both "-". Rename detection is off at the read, so a
- * rename reads as an addition and every record is the added count, the deleted
- * count and the path, tab-separated: a path never spans two records. A file an
- * attribute marks -diff or binary counts as binary too.
- *
- * @param numstatOutput - What a -z numstat git command wrote.
- * @returns The binary paths.
- */
-function parseBinaryPaths(numstatOutput: string): ReadonlySet<string> {
-  const binaries = new Set<string>();
-  for (const record of parseNulSeparatedPaths(numstatOutput)) {
-    const [added, deleted, ...path] = record.split('\t');
-    if (added === '-' && deleted === '-' && path.join('\t') !== '') {
-      binaries.add(path.join('\t'));
-    }
-  }
-  return binaries;
-}
-
-/** The staged files git reads as binary, from the index (a rename reads as an addition). */
-export function stagedBinaryFiles(runtime: RepoCheckRuntime): ReadonlySet<string> {
-  return parseBinaryPaths(
-    gitOutput(
-      runtime,
-      ['diff', '--cached', '--numstat', '--no-renames', '--diff-filter=ACMR', '-z'],
-      'staged binary files',
-    ),
-  );
 }

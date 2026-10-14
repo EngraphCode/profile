@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import type { RepoCheckCommandResult, RepoCheckRuntime } from './repo-check-types.js';
-import { readTrackedTreeResult, stagedBinaryFiles, stagedFiles } from './repo-check-universe.js';
+import { readTrackedTreeResult, stagedFiles } from './repo-check-universe.js';
 
 /**
  * The file universes read from literal git outputs through a fake runtime
@@ -10,13 +10,12 @@ import { readTrackedTreeResult, stagedBinaryFiles, stagedFiles } from './repo-ch
  * never an empty list.
  */
 
-/** What each git read answers, keyed by the read: the index listing, the working tree diff, the index modes, the staged diff, the staged numstat. */
+/** What each git read answers, keyed by the read: the index listing, the working tree diff, the index modes, the staged diff. */
 interface GitAnswers {
   readonly tracked?: RepoCheckCommandResult;
   readonly gone?: RepoCheckCommandResult;
   readonly stage?: RepoCheckCommandResult;
   readonly staged?: RepoCheckCommandResult;
-  readonly numstat?: RepoCheckCommandResult;
 }
 
 const ok = (stdout: string): RepoCheckCommandResult => ({
@@ -36,9 +35,6 @@ const failed = (status: number | null, stderr: string): RepoCheckCommandResult =
 function readOf(args: readonly string[]): keyof GitAnswers {
   if (args[0] === 'diff-files') {
     return 'gone';
-  }
-  if (args.includes('--numstat')) {
-    return 'numstat';
   }
   if (args[0] === 'diff') {
     return 'staged';
@@ -156,26 +152,19 @@ describe('stagedFiles', () => {
   });
 });
 
-describe('stagedBinaryFiles', () => {
-  it('names the staged files git counts as binary, and no text file', () => {
-    const binaries = stagedBinaryFiles(
-      gitRuntime({
-        numstat: ok(
-          '12\t3\tdocs/a.md\u0000-\t-\tpublic/icon.png\u00000\t0\tempty.txt\u0000-\t-\tfonts/odd\tname.ttf\u0000',
-        ),
-      }),
-    );
-
-    expect(binaries).toStrictEqual(new Set(['public/icon.png', 'fonts/odd\tname.ttf']));
-  });
-
-  it('reads an empty index as no binaries', () => {
-    expect(stagedBinaryFiles(gitRuntime({ numstat: ok('') }))).toStrictEqual(new Set());
-  });
-
-  it('throws in git’s own words when the numstat read fails', () => {
-    expect(() =>
-      stagedBinaryFiles(gitRuntime({ numstat: failed(128, 'fatal: bad revision') })),
-    ).toThrow('fatal: bad revision');
+describe('stagedFiles and type changes', () => {
+  it('asks git for type changes as well, so a symlink retyped to a regular file is listed', () => {
+    const filters: string[] = [];
+    const runtime: RepoCheckRuntime = {
+      runCaptured: (_command, args) => {
+        filters.push(...args.filter((arg) => arg.startsWith('--diff-filter=')));
+        return ok('retyped.md\u0000');
+      },
+      runInherited: () => {
+        throw new Error('the universe never spawns an inherited child');
+      },
+    };
+    expect(stagedFiles(runtime)).toStrictEqual(['retyped.md']);
+    expect(filters).toStrictEqual(['--diff-filter=ACMRT']);
   });
 });
