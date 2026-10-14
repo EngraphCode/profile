@@ -21,7 +21,7 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
-- **2026-10-14T13:xxZ: the third dedicated two-estate consolidation at its sibling stage's close** (Flint
+- **2026-10-14T11:3xZ: the third dedicated two-estate consolidation at its sibling stage's close** (Flint
   guards Vapor, 9b835d, on lane `docs/consolidation-3` in a linked worktree; n=2 with Shrew rides Eventide,
   371a2b, on the primary's LinkedIn lane). Pending graduations 0 here and 1 in the sibling (the
   operator-profile half of the Oak GitHub read ruling, at the owner's word); the ten directive texts the
@@ -99,7 +99,7 @@ The state entries from 2026-09-13 to 2026-09-28 that stood here are archived byt
 
 ## Next Safe Steps
 
-STATE, 2026-10-14T13:xxZ (Flint guards Vapor, 9b835d, the third dedicated consolidation's seat, on lane
+STATE, 2026-10-14T11:3xZ (Flint guards Vapor, 9b835d, the third dedicated consolidation's seat, on lane
 `docs/consolidation-3` in a linked worktree; Shrew rides Eventide, 371a2b, on the Oak entry; n=2 on the
 primary): the consolidation's own next steps are the newest block of
 `threads/two-estate-consolidation.next-session.md`. The state blocks of 2026-10-01 to 2026-10-11 that stood

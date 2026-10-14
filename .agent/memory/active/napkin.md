@@ -71,7 +71,7 @@ only, never check-ins or state; `start-right` loads it whole.
 - **Processes**: the watcher re-armed as b5hmtzj5o at 10:0xZ after bhjy5m19s expired at its cap;
   asserted live; the comms stream silent since 09:30Z; claim 094031ad fresh.
 
-## 2026-10-14T12:4xZ — The sibling stage; tool facts and two recurrences (Flint guards Vapor, 9b835d)
+## 2026-10-14T11:3xZ — The sibling stage; tool facts and two recurrences (Flint guards Vapor, 9b835d)
 
 - **A piped exit read a failing assertion as green** (recurrence of `exit-codes-in-band-never-piped`,
   one dated line): the watcher assertion piped through `tail` with `|| rc=$?` reported exit 0 at
@@ -95,7 +95,7 @@ only, never check-ins or state; `start-right` loads it whole.
 - **Counts, again**: "24 and 12" in the 10:0xZ block were 22 and 13; "17 in the sibling" counted
   the live seat's uncommitted entry (16 committed). A count is taken from the listing at the
   moment of writing, and a count of another checkout's register names which copy it read.
-- **Processes**: both watchers live by assertion at 12:1xZ; claims heartbeated; the sibling's lane
+- **Processes**: both watchers live by assertion at 11:1xZ; claims heartbeated; the sibling's lane
   commit landed with the owner as author, commitlint strict, no commit identifiers in its records
   (its hook's doctrine).
 

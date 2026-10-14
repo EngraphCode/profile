@@ -173,7 +173,7 @@ the owner should see the team delivering, not the Director reporting.
 
 ## Current handoff state (2026-10-14, pointer-biased by design)
 
-**§STATE, 2026-10-14 13:xxZ (Flint guards Vapor, `9b835d`, the third dedicated consolidation's seat,
+**§STATE, 2026-10-14 11:3xZ (Flint guards Vapor, `9b835d`, the third dedicated consolidation's seat,
 on lane `docs/consolidation-3` in a linked worktree; this block is the pickup on its own, and the 11:3xZ
 block below is the history it rests on).** No Director seat is held; n=2: this seat on the consolidation
 (claim 094031ad in this registry; the curator claim adopted in the sibling's), Shrew rides Eventide

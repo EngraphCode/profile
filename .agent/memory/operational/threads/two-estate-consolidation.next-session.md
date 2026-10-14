@@ -142,7 +142,7 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   that an awk check printed without gating, and a body line opening `tool:` that commitlint reads as
   a footer; both checks now exit non-zero and gate the commit.
 - **The doctrine, true here first, then the same bytes there**: the five passages of coordination-fold
-  and pr-lifecycle that the 12:4xZ block left divergent were edited on this lane so they hold in both
+  and pr-lifecycle that the 11:3xZ block left divergent were edited on this lane so they hold in both
   estates: the estate whose folds and gate the retrospective measured is named (jimcresswell.net),
   the two "since 2026-10-10" clauses are date-free, the "no suppressed finding held" clause is
   dropped as redundant with "differ from SETTLE-READY only by the vendor leg" (the sibling's ladder
@@ -169,9 +169,9 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
 - **Open at the owner**: the push of every unpushed commit in both estates when he lifts "no
   pushing", the sibling's code lane as one pull request against its default branch (its records lane
   and code lane merge in either order); the folds (day four here, day nine there); the
-  operator-profile line; the clocked-obligations directive line (12:4xZ block).
+  operator-profile line; the clocked-obligations directive line (11:3xZ block).
 - **Processes**: both watchers re-armed at their thirty-minute caps and live (the re-arm recipe in the
-  12:4xZ block); claims heartbeated; no heartbeat cron; the Cricket agents idle.
+  11:3xZ block); claims heartbeated; no heartbeat cron; the Cricket agents idle.
 
 ### 2026-10-14T11:4xZ — the owner's word on divergence by tooling: one Practice; the merge-tool code lane opens in the sibling (Flint guards Vapor, 9b835d)
 
@@ -210,7 +210,7 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   closeouts). The sibling's continuity record carries the lane in its §Next Safe Steps.
 - **Processes**: both watchers re-armed at their caps and live; claims held.
 
-### 2026-10-14T12:4xZ — the sibling stage landed; the registers at zero and one; the napkin here rotated by proof; the slow lanes decided (Flint guards Vapor, 9b835d)
+### 2026-10-14T11:3xZ — the sibling stage landed; the registers at zero and one; the napkin here rotated by proof; the slow lanes decided (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here (the last entry, the DUE-fold carry, landed in the
   sibling's wrap skill at its stage), 1 in the sibling (the operator-profile half of the Oak GitHub
