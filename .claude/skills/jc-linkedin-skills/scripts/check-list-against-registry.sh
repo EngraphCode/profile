@@ -49,6 +49,11 @@ registry_names() {
 list_count="$(list_names | wc -l | tr -d ' ')"
 registry_count="$(registry_names | wc -l | tr -d ' ')"
 
+if [ "$list_count" -eq 0 ] || [ "$registry_count" -eq 0 ]; then
+  echo "nothing to compare: the list extracted ${list_count} names and the registry ${registry_count} rows (the Skills section or the canonical table was not found)" >&2
+  exit 2
+fi
+
 if diff_output="$(diff <(list_names) <(registry_names))"; then
   echo "the list and the registry agree: ${list_count} names in the same order"
   exit 0

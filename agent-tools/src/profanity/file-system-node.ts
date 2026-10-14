@@ -12,7 +12,8 @@ function describe(action: string, absolutePath: string, cause: unknown): Error {
 
 /**
  * The node seam. The write is atomic (a synced sibling file renamed into place, so a
- * process killed mid-write leaves the record whole) and never follows a symbolic link at
+ * process killed mid-write leaves the record whole), keeps the target's mode (a rewrite drops
+ * no executable bit and widens no restrictive permission) and never follows a symbolic link at
  * the target, as the estate's writer-boundary pattern asks of a writer under a
  * caller-supplied path.
  */
@@ -26,10 +27,11 @@ export const nodeProfanityFileSystem: ProfanityFileSystem = {
   },
   async writeFileUtf8(absolutePath, text): Promise<Result<void, Error>> {
     try {
-      if ((await lstat(absolutePath)).isSymbolicLink()) {
+      const target = await lstat(absolutePath);
+      if (target.isSymbolicLink()) {
         return err(new Error(`refusing to write through the symbolic link ${absolutePath}`));
       }
-      await writeTextAtomically(absolutePath, text);
+      await writeTextAtomically(absolutePath, text, { mode: target.mode & 0o7777 });
       return ok(undefined);
     } catch (cause) {
       return err(describe('write', absolutePath, cause));

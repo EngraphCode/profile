@@ -52,9 +52,10 @@ Work in `profile.md`'s order, one section at a time, and read every field at its
 
 1. **Top card:** name, pronouns, location, industry (see `references/industry-taxonomy.md`),
    the custom URL unchanged.
-2. **Headline, About:** paste the plain text; LinkedIn shows markdown literally (the validator
-   reports markup sightings), keeps line breaks, and folds the About after the first lines
-   (`references/field-limits.md`).
+2. **Update sharing off, then Headline, About:** "Share profile updates with your network" off
+   before the first Save, since a saved edit with it on notifies the network at once; then paste
+   the plain text; LinkedIn shows markdown literally (the validator reports markup sightings),
+   keeps line breaks, and folds the About after the first lines (`references/field-limits.md`).
 3. **Featured:** links first, captions in their owners' words after LinkedIn's generated
    caption is replaced.
 4. **Experience, Education, Licences, Projects, Publications, Volunteering, Organisations:**
@@ -63,8 +64,8 @@ Work in `profile.md`'s order, one section at a time, and read every field at its
 5. **Skills:** the list, then the order, then the three pins; every name per the typeahead
    (`linkedin-skills` §Validate every name). A rename is a delete and an add and drops the
    endorsements.
-6. **Settings, last:** Open to Work off; "Share profile updates with your network" off during
-   the sitting, one deliberate notification at the end if Jim wants it; public visibility as now.
+6. **Settings, last:** Open to Work off; the one deliberate notification at the end if Jim wants
+   it (update sharing was turned off at step 2); public visibility as now.
 
 Jim reads each field before Save; the seat presses nothing he has not read. A dialog nobody
 read is closed without saving.

@@ -3,7 +3,7 @@ import { link, open, rename, rm } from 'node:fs/promises';
 import { dirname } from 'node:path';
 
 export interface AtomicFileSystem {
-  readonly writeSyncedFile: (filePath: string, text: string) => Promise<void>;
+  readonly writeSyncedFile: (filePath: string, text: string, mode?: number) => Promise<void>;
   readonly link: (existingPath: string, newPath: string) => Promise<void>;
   readonly rename: (oldPath: string, newPath: string) => Promise<void>;
   readonly remove: (path: string) => Promise<void>;
@@ -46,10 +46,20 @@ function nodeAtomicFileSystem(): AtomicFileSystem {
   };
 }
 
+interface AtomicWriteOptions {
+  readonly exclusiveCreate?: boolean;
+  /**
+   * The permission bits the landed file carries (a stat's mode and 0o7777), set on the
+   * sibling before it lands, so a rewrite keeps the file's mode: no executable bit dropped,
+   * no restrictive mode widened to the umask default.
+   */
+  readonly mode?: number;
+}
+
 type AtomicTextWriter = (
   filePath: string,
   text: string,
-  options?: { readonly exclusiveCreate?: boolean },
+  options?: AtomicWriteOptions,
 ) => Promise<void>;
 
 export const writeTextAtomically: AtomicTextWriter = atomicTextWriter(nodeAtomicFileSystem());
@@ -58,11 +68,11 @@ export function atomicTextWriter(fileSystem: AtomicFileSystem): AtomicTextWriter
   return async (
     filePath: string,
     text: string,
-    options: { readonly exclusiveCreate?: boolean } = {},
+    options: AtomicWriteOptions = {},
   ): Promise<void> => {
     const tmpPath = `${filePath}.tmp-${randomUUID()}`;
     try {
-      await fileSystem.writeSyncedFile(tmpPath, text);
+      await fileSystem.writeSyncedFile(tmpPath, text, options.mode);
       if (options.exclusiveCreate === true) {
         await fileSystem.link(tmpPath, filePath);
         await fileSystem.remove(tmpPath).catch(() => undefined);
@@ -77,9 +87,12 @@ export function atomicTextWriter(fileSystem: AtomicFileSystem): AtomicTextWriter
   };
 }
 
-async function writeSyncedFile(filePath: string, text: string): Promise<void> {
-  const file = await open(filePath, 'wx');
+async function writeSyncedFile(filePath: string, text: string, mode?: number): Promise<void> {
+  const file = await open(filePath, 'wx', mode);
   try {
+    if (mode !== undefined) {
+      await file.chmod(mode);
+    }
     await file.writeFile(text);
     await file.sync();
   } finally {
