@@ -590,6 +590,15 @@ pnpm agent-tools profanity check <path...>    # path:line: word -> replacement; 
 pnpm agent-tools profanity replace <path...>  # rewrite each file in place and report; exit 0
 ```
 
+The pre-commit hook runs `check` over the staged text files as
+`pnpm agent-tools:repo-check profanity-staged` (`src/repo-check/repo-check-profanity.ts`):
+git's staged set, less the files git reads as binary and less `src/profanity/`
+itself, the one directory that names the words on purpose; each file is read from
+the index, so a cure applied on disk must be staged to count, and a file is binary
+by its staged content (a NUL byte), so no diff attribute, staged or not, can exempt
+a text file. A find refuses the commit and names each swear as
+`path:line: word -> replacement`.
+
 ## Repo gate status
 
 `agent-tools` checks currently run via:

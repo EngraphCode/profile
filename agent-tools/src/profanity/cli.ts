@@ -26,7 +26,7 @@ interface FileOutcome {
 }
 
 export const PROFANITY_USAGE = [
-  'profanity <check|replace> <path...>',
+  'profanity <check|replace> [--] <path...>',
   '',
   'A tiny search and replace for swearing in records: each swear becomes the word The Good',
   'Place would let through (fork, shirt, bench, ash, deck, cork) or a fill-in made the same',
@@ -36,7 +36,8 @@ export const PROFANITY_USAGE = [
   '  check    report every swear as path:line: word -> replacement; exit 1 when any, 0 when clean',
   '  replace  rewrite each file in place and report what changed; exit 0',
   '',
-  'Paths are files, relative to the repository root, where the workspace script runs. Exit 2 on',
+  'Paths are files, relative to the repository root, where the workspace script runs. A `--`',
+  'after the action ends the options, for a path that begins with a dash. Exit 2 on',
   'a usage or file error.',
   '',
   'Examples:',
@@ -111,25 +112,37 @@ function writeFindings(input: ProfanityCliInput, outcomes: readonly FileOutcome[
   return total;
 }
 
+/**
+ * A help flag counts only before a `--` after the action: past the separator every argument
+ * is a path, so a staged file named `--help` is read, never shown the usage.
+ */
+function wantsHelp(action: string | undefined, rest: readonly string[]): boolean {
+  const separator = rest.indexOf('--');
+  const options = [action ?? '', ...(separator === -1 ? rest : rest.slice(0, separator))];
+  return options.includes('--help') || options.includes('-h');
+}
+
 function parseArgs(args: readonly string[]): ParsedArgs | Error | 'help' {
   const normalised = args[0] === '--' ? args.slice(1) : args;
-  if (normalised.includes('--help') || normalised.includes('-h')) {
+  const [action, ...rest] = normalised;
+  if (wantsHelp(action, rest)) {
     return 'help';
   }
-  const [action, ...paths] = normalised;
   if (action !== 'check' && action !== 'replace') {
     return new Error(`expected an action of check or replace, got: ${action ?? '(none)'}`);
   }
-  return parsePaths(action, paths);
+  return parsePaths(action, rest);
 }
 
+/** A `--` after the action ends the options: every later argument is a path, a leading dash included. */
 function parsePaths(action: Action, paths: readonly string[]): ParsedArgs | Error {
-  const unknown = paths.find((path) => path.startsWith('-'));
+  const files = paths[0] === '--' ? paths.slice(1) : paths;
+  const unknown = paths[0] === '--' ? undefined : files.find((path) => path.startsWith('-'));
   if (unknown !== undefined) {
     return new Error(`unknown option: ${unknown}`);
   }
-  if (paths.length === 0) {
+  if (files.length === 0) {
     return new Error(`${action} needs at least one path`);
   }
-  return { action, paths };
+  return { action, paths: files };
 }

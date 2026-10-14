@@ -55,6 +55,22 @@ function harness(initial: Readonly<Record<string, string>>): Harness {
 }
 
 describe('profanity CLI', () => {
+  it('check reads a path that begins with a dash after a -- separator, and refuses it bare', async () => {
+    const h = harness({ '/repo/-notes.md': 'no swear here\n' });
+    await expect(h.run(['check', '--', '-notes.md'])).resolves.toBe(0);
+    expect(h.stdout()).toBe('profanity: clean\n');
+    await expect(h.run(['check', '-notes.md'])).resolves.toBe(2);
+    expect(h.stderr()).toContain('unknown option: -notes.md');
+  });
+
+  it('reads a file named --help or -h after the separator as a path, never as a help flag', async () => {
+    const h = harness({ '/repo/--help': 'fine\nnot fucking fine\n', '/repo/-h': 'fine\n' });
+    await expect(h.run(['check', '--', '--help', '-h'])).resolves.toBe(1);
+    expect(h.stdout()).toBe('--help:2: fucking -> forking\nprofanity: 1 found\n');
+    await expect(h.run(['check', '--help'])).resolves.toBe(0);
+    expect(h.stdout()).toContain(PROFANITY_USAGE);
+  });
+
   it('check reports each swear with its path and line and exits 1', async () => {
     const h = harness({ '/repo/napkin.md': 'fine\nFinish the fucking basic editor\n' });
     await expect(h.run(['check', 'napkin.md'])).resolves.toBe(1);
