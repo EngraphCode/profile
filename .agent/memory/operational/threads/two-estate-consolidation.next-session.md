@@ -109,6 +109,47 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T09:0xZ — compaction boundary at the owner's word; the sibling's buffers read; the resume's first acts (Glowworm lifts Embers, a8c4f8)
+
+- **Counts first**: pending graduations 35 due here, the sibling 16; open questions 0 and 0;
+  distilled empty in both. Item 4 of the list below is read (the sibling's register whole, its
+  stream selection of 120 whole, its napkin's live blocks at the 01:0xZ stage); four items from
+  it are captured on the napkin's 09:0xZ block for the register and unwritten there at this
+  boundary, so the register reads 35 plus four to write. Items 5 to 9 untouched. Nothing
+  written in the sibling; no join ceremony run; its live seat not messaged.
+- **The owner's words of this boundary, verbatim**: "prepare for compaction", with the cognition
+  skills and wrap named, and "we will resume the consolidation session after that". Standing
+  from the session: "no pushing, I want this done quick". So this wrap is one records commit on
+  the lane and no push; the seat stays seated, claim held, watcher running.
+- **What the sibling stage found that changes the plan** (the napkin block carries the
+  evidence): thirteen of the sibling's sixteen entries target the same bytes in both estates and
+  nine of eleven probed phrasings read zero here, so item 6 lands them here from one authoring
+  with the twin cut from the settled blobs; the directive-bound count here is nine by a computed
+  listing, not five; the entries group by home (principles.md four, the user-collaboration
+  directive four, the cricket skill three, the gotchas three), so item 6 works home by home
+  with both registers' entries for a home in hand, directive homes first.
+- **The resume's first acts, in order**: (1) `git status --branch` in the three worktrees and
+  the lane's log against the coordination tip 02e2a764 (five commits plus this one; no remote);
+  the task list for the watcher, re-armed only if absent; (2) the context meter read twice, a
+  few calls apart; under 30 percent, the directive-bound graduations here go first (the nine
+  titles on the napkin block, recomputed from the register's target fields), each home read
+  before and after, the entry removed in the same commit; (3) the four captured items written
+  as register entries, or homed where the home is read anyway; (4) the non-directive homes,
+  home by home; (5) the sibling: the join ceremony before any write (guest registration on its
+  stream, the stale curator claim closed on evidence, this seat's own claim), then its
+  register's entries landed from the settled blobs and its napkin rotated by proof; (6) items
+  7 to 9 as listed.
+- **Work safety at this boundary, read first-hand**: the lane `docs/consolidation-3` at this
+  commit, no remote, six commits beyond the coordination tip, tree clean after it; the primary's
+  `coordination/2026-10-10-f436b6` ahead 9 of its remote, tree clean, unpushed at the owner's
+  word; `fix/records-door-waits-for-a-review-in-progress` ahead 1 of origin/main, tree clean,
+  the owner's correction, not this seat's. The sibling's primary on its day-8 coordination
+  branch, level with its remote, two tracked files modified by its live seat, untouched by this
+  one.
+- **Open at the owner**: the fold of the primary's coordination branch, late by his ranking of
+  this job above it; the push of everything above when he lifts "no pushing"; the late-fold note
+  on PR 327, written when the next GitHub write runs as the bot.
+
 ### 2026-10-14T00:0xZ — the owner's answer on the promotions; the finish list reordered at the cricket suite's word (Glowworm lifts Embers, a8c4f8)
 
 - **Counts first**: pending graduations 34 due here (31 at seating plus three directive-bound
