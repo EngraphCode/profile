@@ -59,3 +59,7 @@ to 2026-10-08):
 - The write hook bans the sibling estate's organisation slug and its one-word
   name in tracked files, never the product word, so a record about Oak's
   products passes and one that names the organisation's slug does not.
+  The ban reads every file the Write tool touches, the scratchpad included,
+  and a user-home path inside a scratchpad frame is refused the same way
+  (2026-10-14): a frame names roots by role and the dispatch message carries
+  the absolute root.
