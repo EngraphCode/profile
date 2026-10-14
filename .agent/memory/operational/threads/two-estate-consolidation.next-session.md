@@ -109,6 +109,100 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-14T10:5xZ — the owner agreed proposals 1 to 10; the agreed texts; the edits are the first act after the pause (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 10 due here, 17 in the sibling (unchanged); open questions 0
+  and 0; distilled empty in both.
+- **The owner's words** (verbatim): "cold pause, now", then "agreed on 1-10. Record that, then
+  stop". The ten proposals this seat put to him at 10:1xZ (the nine directive-bound entries of this
+  register and the sibling's one) are agreed as written; this block is the record of that word and
+  carries the agreed texts so the next act copies them in without re-drafting.
+- **The next act, after the pause**: the meter read twice under 30 percent (30.1 percent at 10:28Z at this
+  block, over the line, so the edits belong to the next
+  context); each text inserted at
+  its anchor below, the home read whole first; the nine entries removed from this register in the
+  same commit; proposals 1 to 8 the same bytes in both estates (the sibling's copies of
+  continuity-practice, user-collaboration, agent-collaboration and testing-strategy's anchor are
+  byte-identical today; its principles differs away from the two anchors), applied there at the
+  sibling stage with its own entry; 9 and 10 this estate's alone.
+- **The agreed texts**:
+  1. `continuity-practice.md` runbook step 1: replace from "The reading may be done by the
+     curating seat" to the end of the step with: "The reading is the curating seat's own: a surface
+     too large for one context is split into pieces the seat reads in turn with its notes kept as it
+     goes, never dispatched to readers (the owner, 2026-10-11: "Consolidation sessions are single
+     agent only, work via subagents loses all direct understand and therefore loses lessons",
+     withdrawing the set-of-readers reading of 2026-09-20), because a summary of a block is not the
+     block and the understanding that makes a lesson homeable is formed only in the reading. The join
+     checks (every cross-reference resolves, every id occurs once, a status stated in another entry
+     agrees) run at the seams between pieces; the split method and its checks are
+     `consolidate-until-done` step 7."
+  2. `user-collaboration.md` §Scope Discipline, a new paragraph after "Process is the last
+     resort": "**Finish by doing the work, never by reframing it.** The owner, 2026-10-03: "At every
+     turn you seem to be inventing complexity instead of getting on with a simple job"; "you
+     prioritise finishing the work by doing the work, and I will try to do better, and we both ask
+     each other questions". A reporting duty is one message, never a wait or a gate on the work; when
+     a finish looks large, size it and start the smallest piece rather than move the boundary.
+     Analysis and framing carry no review risk and landing diffs does, which is why a seat drifts to
+     them."
+  3. Same section, the paragraph directly after text 2: "A script a seat runs twice is routed for
+     sizing as an agent-tools command, never extended in place (the owner, 2026-10-03: "if a script
+     is used repeatedly it should be made into a standardised agent tool in the agent tools
+     workspace")."
+  4. `user-collaboration.md` §Risk and Decisions, a new paragraph after "Risk acceptance requires
+     a human decision...": "What survives the Decision Lenses is decided and recorded by the seat;
+     only an unknown, high-risk item reaches the owner (his standing word of 2026-10-03: "Anything
+     that survives the lenses should be assessed for risk, anything unknown and high-risk should
+     still come to me, but that is a high bar and I do not expect it to happen often"). Before any
+     stamp, the seat highlights the sentences he would object to ("agents need to highlight things I
+     might object to, and I need to read questions more carefully")."
+  5. `agent-collaboration.md` §Working Model (the register's entry named user-collaboration, which
+     has no peer clause), a new paragraph after "The normal posture is shared reasoning across the
+     working tree...": "On a shared primary the claims registry and the commit queue are the
+     coordination; a direct message goes only when the peer must act (a hold to release, a push that
+     will block their edits for minutes), batched into one (the owner, 2026-10-11: "stop messaging
+     every little to Shrew, they are concentrating on a different task")."
+  6. `principles.md` §Code Quality, a new bullet after "Every issue earns a check": "**The cure
+     stops recurrence; symptom removal is hygiene** - The cure is the action that stops the issue
+     happening again, never the one that removes the symptom (the owner, 2026-10-07: "the cure is
+     the action that stops it from happening again, not the action the removes the symptom"). A cure
+     names the change to the generator (a skill, a rule, a validator, a hook) first and alone;
+     removing the symptom is hygiene, stated as such."
+  7. `principles.md` §Agentic Quality, a second paragraph (the sibling's entry): "Text a model
+     wrote (a program's printed output read as evidence, a command's argument tail, a flag value
+     that becomes a path) crosses into host authority only after a harness-owned parser has admitted
+     it against a closed grammar; what the grammar does not name is refused, and the refusal names
+     it, never passed through. The engineering instance is the pattern
+     `cli-writer-boundary-discipline`; this is its general form, promoted from the slow lane at its
+     2026-10-10 review."
+  8. `testing-strategy.md` §TDD at All Levels, a new paragraph after "...Both are required.": "A
+     test file's opening comment names which surface each of its tests proves (the source, the
+     configuration, the rendered adapter), so a reader knows what a green run certifies
+     (2026-10-03)."
+  9. `editorial-guidance.md`, the Process note, a new paragraph after the 2026-10-12 agreement:
+     "His instruments: a table he edits in place and a numbered reply; for a backlog, self-contained
+     question cards, each carrying the text under decision, the reader's take and one proposal per
+     option (2026-10-12: "ask me all open questions now, as user questions, each self-contained so I
+     can answer it from the card alone"). A review reads the open list first and marks each item
+     agreed or open; agreed intent is never critiqued; a settled item is never listed again, not even
+     as closed (2026-10-13: "stop bringing it up as open, I will do it, the matter is settled"); an
+     item he calls his own edit gets no proposal; a mindset he names is shown by how the page is
+     written, never by a noun's position; every message leads with what changed that he did not ask
+     for. Outside eyes go to every removal and every number. A profile audit inventories every
+     section present and every relevant absent one, then spends its depth where a reader's
+     misunderstanding or a consequential choice is material (2026-09-26: "Every single part of my
+     LinkedIn needs evaluating"); concrete, evidence-based proposals come before any question to him,
+     and a question is asked only where his answer changes the result."
+  10. `privacy.md` §Private editorial material, a new paragraph after the first: "When his
+      sentence answers why he can claim a thing or what he is, the tracked file carries the decision
+      only and the sentence goes to the private editorial repository this section names, never to a
+      directory the seat invents (the owner, 2026-10-11: "you can't just make up a private directory
+      and label it as a repo"); a tracked file or an unpushed commit already carrying it is amended
+      before any push. The sweep after such a correction searches for the class (his intentions, his
+      reasons about himself), never the corrected sentence, and a second reader runs it."
+- **Processes**: every process this seat started is stopped at the cold pause (the watcher's
+  re-arm recipe is in the 10:0xZ block); claim 094031ad held; no comms event posted; the sibling
+  untouched.
+
 ### 2026-10-14T10:0xZ — the owner's compaction word; the meter already under the budget; the directive proposals are the first act after it; the sibling stage's real scope (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 10 due here, 17 in the sibling (unchanged since 09:5xZ:
