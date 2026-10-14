@@ -124,22 +124,6 @@ retire when the home is read back. Every memory file and every home below was re
 the seat; an analyst fleet had been sent first and was stopped at the owner's word (the next
 entry).
 
-- **A consolidation is single-agent: the seat reads every piece itself; sub-agents lose the lessons**
-  `[captured: 2026-10-11 | source: the owner's word of 2026-10-11 11:0xZ, verbatim: "Consolidation
-  sessions are single agent only, work via subagents loses all direct understand and therefore
-  loses lessons", after this seat sent seventeen analysts over the notebooks, the stream and the
-  memories | target: .agent/directives/continuity-practice.md runbook step 1 ("or by a set of
-  readers over pieces"), the same bytes in both estates; the skill homes (consolidate-until-done
-  §Approach, its step 7 split clause and its fleet line; consolidate-docs §Approach, by the
-  owner's own commit) carry the word since 2026-10-14 | trigger: the context after the next
-  compaction, under the directive-file budget | size: one sentence cure | status: due]`
-
-  The split of a large surface is for the seat's own reading, one piece at a time with its notes
-  kept as it goes, never a dispatch: a summary of a block is not the block, the understanding that
-  makes a lesson homeable is formed only in the reading, and a seat that reads summaries homes
-  plausible artefacts it has not understood (the anti-pattern §Forbidden names from 2026-06-16;
-  recurred 2026-10-11 under a skill clause that invited it).
-
 - **A DUE fold is never run inside a wrap called at the owner's compaction word**
   `[captured: 2026-10-11 | source: the owner's correction of 2026-10-09 13:3xZ; the clause landed in
   this estate's wrap skill lines 76 to 82 and is absent from the sibling's copy | target: the
@@ -149,44 +133,6 @@ entry).
   The owner, verbatim: "I said prepare for compaction, you ran so long the compaction happened on
   its own, who knows what was lost because you failed to follow my instructions." The wrap is one
   records commit and one push; the fold is named in the report as the next session's first act.
-
-- **Finish by doing the work, never by reframing; a reporting duty is one message, never a gate**
-  `[captured: 2026-10-11 | source: the owner's words of 2026-10-03 ("At every turn you seem to be
-  inventing complexity instead of getting on with a simple job"; "you prioritise finishing the
-  work by doing the work, and I will try to do better, and we both ask each other questions") |
-  target: .agent/directives/user-collaboration.md §Scope Discipline, the same bytes in both
-  estates | trigger: the context after the next compaction, under the directive-file budget |
-  size: one paragraph | status: due]`
-
-  A reporting duty is one message, never a wait; when a finish looks large, size it and start the
-  smallest piece rather than move the boundary; analysis and framing carry no review risk and
-  landing diffs does, which is why a seat drifts to them.
-
-- **The cure is the action that stops recurrence, never the one that removes the symptom**
-  `[captured: 2026-10-11 | source: the owner's word of 2026-10-07 | target:
-  .agent/directives/principles.md §Code Quality, beside "Every issue earns a check", the same bytes
-  in both estates | trigger: the context after the next compaction, under the directive-file
-  budget | size: two sentences | status: due]`
-
-  Verbatim: "the cure is the action that stops it from happening again, not the action the removes
-  the symptom". A cure names the change to the generator (skill, rule, validator, hook) first and
-  alone; symptom removal is hygiene, stated as such.
-
-- **The owner's standing words of 2026-10-03: decide and record; highlight the refusable; a start-right word lifts a freeze; fewer seats**
-  `[captured: 2026-10-11 | source: the owner's four answers of 2026-10-03, verbatim in the
-  per-user memory | target: .agent/directives/user-collaboration.md (decide under the lenses and
-  record, only an unknown high-risk item reaches the owner; surface the sentences he would refuse
-  before a stamp), the same bytes in both estates; the executive and skill homes
-  (owner-signal-interpretation §Stop Words Are Freezes, the wrap skill's freeze paragraph,
-  PDR-117's seat-count amendment) carry their sentences since 2026-10-14 | trigger: the context
-  after the next compaction, under the directive-file budget | size: two sentences | status: due]`
-
-  Verbatim: "Anything that survives the lenses should be assessed for risk, anything unknown and
-  high-risk should still come to me, but that is a high bar and I do not expect it to happen
-  often"; "agents need to highlight things I might object to, and I need to read questions more
-  carefully"; "As a standing rule, if I invoke a start right skill and do not explicitly say that
-  the freeze remains then the freeze/pause is lifted"; "I agree that fewer seats working
-  continuously might be more effective."
 
 <!-- Register drained to empty at the 2026-09-09 dedicated consolidation (Vanilla lifts
 Nectar): the one row — the triage rule step 4 naming the exhaustion and late-cure transitions
@@ -237,15 +183,6 @@ of the same date; every target below is the same bytes in both estates unless ma
 are rotated after this batch, so a source cites the block's heading, which the archive keeps
 byte-identical.
 
-- **A test file's comment names what each surface proves**
-  `[captured: 2026-10-11 | source: napkin block 2026-10-03T07:1xZ (Hazel) | target:
-  .agent/directives/testing-strategy.md, the test-description clause (directive, the next
-  context below the budget) | trigger: the context after the next compaction | size: one
-  sentence | status: due]`
-
-  A test file's opening comment names which surface each test proves (the source, the
-  configuration, the rendered adapter), so a reader knows what a green run certifies.
-
 ### Captured 2026-10-13 from the post-drain buffers (Glowworm lifts Embers, a8c4f8)
 
 The six napkin blocks written since the 11 October drain and the seven per-user memory files
@@ -253,69 +190,10 @@ written since it were read whole by the seat; every lesson with a non-directive 
 there in the same pass (the gotchas reference, read-before-asking, consolidate-until-done,
 write-for-the-reader, comms-channels, PDR-063) and only the directive-bound lessons sit here.
 
-- **The owner's instruments for editorial decisions; a review reads his words and the open list**
-  `[captured: 2026-10-13 | source: napkin blocks 2026-10-11T16:xxZ, 2026-10-12T09:xxZ and
-  2026-10-13T11:xxZ (Shrew rides Eventide); the per-user memory
-  review-against-his-words-not-the-seats-frames | target: .agent/directives/editorial-guidance.md
-  §Process (this estate only; the editorial directive is estate-specific) | trigger: the context
-  after the next compaction, under the directive-file budget | size: one paragraph | status: due]`
-
-  His instruments: a table he edits in place and a numbered reply; for a backlog, self-contained
-  question cards, each carrying the text under decision, the reader's take and one proposal per
-  option ("ask me all open questions now, as user questions, each self-contained so I can answer
-  it from the card alone", 2026-10-12). The process: a conversation by default, the seat bringing
-  the trade space and its view of what is best in context; apply only what the conversation
-  settled, as a named list; a limit is a question about homes, never a reason to cut; every
-  message leads with what changed that he did not ask for. A review reads the open list first and
-  marks each item agreed or open; agreed intent is never critiqued; a settled item is never listed
-  again, not even as closed ("stop bringing it up as open, I will do it, the matter is settled",
-  2026-10-13); an item he calls his own edit gets no proposal; a mindset he names is shown by how
-  the page is written, never by a noun's position. Outside eyes go to every removal and every
-  number: a side agent, not the seat's own sweep, found the privacy class and the count-driven
-  trade (2026-10-11 and 2026-10-13). A profile audit inventories every section present and every
-  relevant absent one, then spends its depth where a reader's misunderstanding or a consequential
-  choice is material (his correction of 2026-09-26 to a Codex seat, verbatim: "Every single part
-  of my LinkedIn needs evaluating"); concrete, evidence-based proposals come before any question
-  to him, and a question is asked only where his answer changes the result.
-
-- **His reasons about himself leave the public repository at once; the sweep searches for the class**
-  `[captured: 2026-10-13 | source: the owner's words of 2026-10-11 (napkin blocks 13:4xZ and
-  16:xxZ; the per-user memory owner-reasons-are-private-decisions-are-public) | target:
-  .agent/directives/privacy.md §Private editorial material, two sentences | trigger: the context
-  after the next compaction, under the directive-file budget | size: two sentences | status: due]`
-
-  When his sentence answers why he can claim a thing or what he is, the tracked file carries the
-  decision only and the sentence goes to the private editorial repository the section names,
-  never to a directory the seat invents ("you can't just make up a private directory and label it
-  as a repo"); a tracked file or an unpushed commit already carrying it is amended before any
-  push. The sweep after such a correction searches for the class (his intentions, his reasons
-  about himself), never the corrected sentence, and a second reader runs it.
-
-- **On a shared primary the claims and the commit queue coordinate; a message only when the peer must act**
-  `[captured: 2026-10-13 | source: the owner's word of 2026-10-11 11:1xZ (napkin block 11:2xZ,
-  lesson 4; the per-user memory peer-messages-only-when-the-peer-must-act) | target:
-  .agent/directives/user-collaboration.md, the working-model clause on peer coordination, the
-  same bytes in both estates; the skill half landed in comms-channels §The behaviours in this
-  pass | trigger: the context after the next compaction, under the directive-file budget | size:
-  two sentences | status: due]`
-
-  Verbatim: "stop messaging every little to Shrew, they are concentrating on a different task".
-  A direct message goes only when the peer must act (a hold to release, a push that will block
-  their edits for minutes), batched into one; the registry and the queue carry the rest.
-
-- **A script used repeatedly becomes a standardised agent tool in the agent-tools workspace**
-  `[captured: 2026-10-14 | source: the owner's ruling of 2026-10-03 12:1xZ, relayed on this
-  estate's stream in the Director's team start of 12:46Z and resume of 13:28Z ("if a script is
-  used repeatedly it should be made into a standardised agent tool in the agent tools
-  workspace"); the sibling's register carries the same ruling as its own due entry | target:
-  .agent/directives/user-collaboration.md, beside the owner's standing words of 2026-10-03 (the
-  same bytes in both estates; the Director's resume of 2026-10-03 named this home and no estate
-  carries the sentence) | trigger: the context after the next compaction, under the
-  directive-file budget | size: one sentence | status: due]`
-
-  A script a seat runs twice is routed for sizing as an agent-tools command, never extended in
-  place; the candidates routed on 2026-10-03 (twin-apply, twin-added, reply-resolve, the
-  inventory and census scripts, a commit-by-pathspec command) are the open instances.
+<!-- Nine directive-bound entries graduated 2026-10-14 at the owner's word ("agreed on 1-10") into
+continuity-practice, user-collaboration, agent-collaboration, principles, testing-strategy,
+editorial-guidance and privacy, the texts as the thread record's 10:5xZ block holds them; the one
+remaining entry is the sibling-side carry. The commit and the homes are the record. -->
 
 ## Slow lane (PDR-130 — constitutional-class concepts, decided at their review date)
 

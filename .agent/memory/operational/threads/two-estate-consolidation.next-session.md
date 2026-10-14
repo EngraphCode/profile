@@ -199,6 +199,11 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
       and label it as a repo"); a tracked file or an unpushed commit already carrying it is amended
       before any push. The sweep after such a correction searches for the class (his intentions, his
       reasons about himself), never the corrected sentence, and a second reader runs it."
+- **The owner's override** (10:5xZ, verbatim): "The context is 31, but the limit is for
+  designing changes, not for simple text applications, so we are fine. Please make the edits,
+  then stop". The ten texts above landed in this context under that authorisation (the budget
+  rule's own override clause), the nine entries removed from this register in the same commit;
+  the sibling's copies of 1 to 8 and its own entry wait for its stage.
 - **Processes**: every process this seat started is stopped at the cold pause (the watcher's
   re-arm recipe is in the 10:0xZ block); claim 094031ad held; no comms event posted; the sibling
   untouched.
