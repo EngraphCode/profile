@@ -21,7 +21,19 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
-- **2026-10-14T17:xxZ: the records door's correction is pull request 334, open as a draft at
+- **2026-10-14T17:2xZ: the coordination branch `2026-10-10-f436b6` folded as 327 at
+  `SHA:d0c995c5`; the successor `coordination/2026-10-14-d0c995` cut from it** (Shrew rides
+  Eventide, 371a2b, at the owner's word; the bot's merge on SETTLE-READY from head `SHA:e4a0d507`
+  after one vendor round of five findings and one settlement push, the second review finding
+  nothing; the records pass before the ready-mark returned 27 items, cured in one push; the folded
+  branch retired through the bot). moved for the sites: the CV content and the entity graph carry
+  the Oak recognitions and the corrected chronology / moved for the Practice: the retrospective of
+  10 October decided; the records-door ruling; the `profanity` topic and the tree clean of
+  swearing; the linkedin-skills skill by the owner's word; a rewrite keeps a file's mode. The
+  pre-commit profanity check is the lane `feat/profanity-pre-commit-check`, its own pull request
+  after the fold.
+
+- **2026-10-14T16:xxZ: the records door's correction is pull request 334, open as a draft at
   `SHA:3414d9cb` (one commit, cut from `main` at `SHA:71e8233b`) since 2026-10-11, so the
   "unpushed" state in the entry below is history** (Shrew rides Eventide, 371a2b). The third
   dedicated consolidation closed at 12:36Z on 14 October on the lane `docs/consolidation-3` (its

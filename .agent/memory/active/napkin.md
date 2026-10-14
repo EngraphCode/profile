@@ -1513,3 +1513,44 @@ wake. The seats resume by this seat's message after the owner's word: Hazel trac
   (094031ad) when the words were elided at 12:1xZ; the seat closed out at 12:36Z before the
   commit, so no event; the sibling estate's copies of those files meet the same words at the
   next consolidation.
+
+## 2026-10-14T17:2xZ — The fold of 327 at the owner's word; the hook on its own lane; the order turned round before any edit (Shrew rides Eventide, 371a2b)
+
+- **The owner's word, verbatim**: "add the new tool as a pre-commit check, get it merged, fold the
+  coordination branch, then we continue with the linkedin work. I expect the two merges to take
+  no more than 30 minutes total. Use all appropriate skills, and plan work before carrying it out".
+- **The order**: the plan put the hook on the coordination branch and one fold; the Cricket turned
+  it round before any edit: the lifetime rule's exception covers a source change found on the
+  branch (the `profanity` topic), not one added at the fold, and "the two merges" are two merges
+  into `main`. So: the fold first with the topic named in its scope, the hook on a lane after,
+  since a lane cannot run a check whose tool is not yet on `main`. The lane
+  `feat/profanity-pre-commit-check` was cut from the coordination tip (a build-ahead lane,
+  `worktree-hygiene` §1) and worked in a worktree while the fold's review ran; its diff against
+  the folded `main` is the hook alone.
+- **The fold**: `2026-10-10-f436b6` folded as 327 at `d0c995c5` from head `e4a0d507` (the bot on
+  SETTLE-READY, code-class: the topic, the skill scripts, the settings file and the content JSON
+  were on the branch). The records pass before the ready-mark (a read-only reviewer, 19 minutes)
+  returned 27 items under the six classes; cured in one push before the ready-mark by risk, cost
+  and value, the consolidation lane's own files left to its landing. The vendor's first round:
+  five findings, all true and all on surfaces the branch already carried (the atomic writer
+  dropped a file's mode on rewrite, the crawl script accepted a partial download, the registry
+  check passed an empty extraction, the application skill turned update sharing off last, a stale
+  industry reference); one settlement push; the second review no finding, one observation without
+  a thread (a grep error reads as MISSING in the crawl check, which exits 0 by design as a report;
+  below the bar, a leaf if wanted). Clock: ready 16:56Z, merged +28.4 min, two vendor rounds of
+  9.3 and 8.9 minutes. Successor `coordination/2026-10-14-d0c995`; the folded branch retired
+  through the bot.
+- **The hook**: `repo-check profanity-staged` reads each staged file from the index, never the
+  working tree (the code-expert's one must-fix: a cure applied on disk but not staged would have
+  passed the gate and landed the swear); binaries by git's numstat, the lexicon's own directory
+  excepted; `--` after the action for a dash-leading path; the trials ran against a temporary
+  index (`GIT_INDEX_FILE`), since the hook policy refuses `git restore --staged`; the lane's own
+  commit was the leg's first live run. A tracked-tree leg in `pnpm check` is the owner's call.
+- **Slips**: the bot merge took `--expect copilot` twice and refused twice with "no review binds
+  the current tip"; the leg matches the author login with the suffix stripped,
+  `copilot-pull-request-reviewer`, as the 326 fold used. The machine clock is BST: three state
+  blocks were stamped 17:xxZ at a true 16:4xZ and corrected in this commit; read `date -u` before
+  stamping. The two class-2 items of the records pass were his reasons and the private brief's
+  substance that the cure of 6c0f45d0 had not reached; both out now.
+- **Claims and seat**: n=1 throughout (Flint guards Vapor closed out 12:36Z); no watcher or
+  heartbeat (consumer absent); the LinkedIn claim stands; no peer message owed.

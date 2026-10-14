@@ -10,11 +10,22 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-14T17:xxZ, the LinkedIn rewrite awaiting the owner's dispositions; the pre-commit profanity check on its own lane; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-14T16:xxZ, the LinkedIn rewrite awaiting the owner's dispositions; the pre-commit profanity check on its own lane; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
   acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The fold, 2026-10-14T17:2xZ: the branch `2026-10-10-f436b6` folded as 327, merged at
+  `SHA:d0c995c5` from head `SHA:e4a0d507` by the bot on SETTLE-READY (one vendor round of five
+  findings, all true and on surfaces the branch already carried, one settlement push; the second
+  review no finding); the records pass before the ready-mark returned 27 items, cured in one push.
+  Successor `coordination/2026-10-14-d0c995` cut from `SHA:d0c995c5`; the folded branch retired
+  through the bot, local and remote. moved for the sites: the CV content and the entity graph
+  carry the Oak recognitions and the corrected chronology / moved for the Practice: the
+  retrospective of 10 October decided; the records-door ruling; the `profanity` topic and every
+  tracked file clean of swearing; the linkedin-skills skill by the owner's word; a rewrite keeps a
+  file's mode. The hook lane `feat/profanity-pre-commit-check` is pushed after the fold as its own
+  pull request. The LinkedIn lane is unchanged by the fold.
 - The LinkedIn lane: `linkedin/profile.md` is the draft at the owner's edits of 13 October
   (unchanged since `SHA:737cb1ed`); `linkedin/profile.review.md` is his uncommitted working copy
   with his edits of 14 October, which no seat edits or commits; the fourteen-item dedupe and
