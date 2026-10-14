@@ -46,7 +46,13 @@ repositories. Calls with no repository target (a `users/...` endpoint, a
   each time.** The one standing grant: a read-only `git fetch` of the
   upstream remote for comparison (owner verbatim, 2026-09-08: "you have
   standing permission to fetch the upstream remote for the purposes of
-  read-only comparison"). Nothing else is standing.
+  read-only comparison"). Nothing else is standing. Amended for Oak's
+  GitHub on 2026-10-13 (owner verbatim: "You are always permitted read-only
+  access to Oak github, write access is forbidden for now, that will change
+  at a later date"): a read of any Oak GitHub surface needs no permission;
+  a write of any kind stays forbidden until the owner lifts it by word. The
+  2026-09-06 ruling's read half is superseded there and its write half
+  stands.
 - **Writes to the upstream's surfaces are forbidden without exception**:
   no pull request, comment, review, issue, label, tracker ticket or chat
   message on the upstream's repository, tracker or chat.

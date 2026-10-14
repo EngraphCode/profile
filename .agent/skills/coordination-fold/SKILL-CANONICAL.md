@@ -21,6 +21,24 @@ Executes the converge-and-rotate shape whose doctrine lives in
 seat running it is normally the Director/principal (the primary checkout
 resides on the coordination branch).
 
+A fold past ten minutes is a finding, never read as normal. The owner,
+2026-10-10, verbatim: "an HOUR is a ridiculous typical time for a fold,
+ridiculous, and a clear signal of a process and engineering failure. 20
+minutes would be somewhat excessive, 10 minutes would be acceptable. We have a
+problem with our PR approaches and mechanisms". The retrospective of that day
+measured the folds of 320 to 326 at 25.9 to 57.8 minutes wall each: a
+records-only push reaches CI within 2.1 to 3.8 minutes of its commit, a
+vendor review round costs 3.9 to 7.8 minutes, and the door's floor was about
+fourteen minutes before any finding. So no ceremony is added to a fold, and a
+gate's duration is never stated from feel: it is read from the commit-to-CI
+interval or the hook's own clock (`coordination fold-clock --pr <n>` prints
+it). A records commit on a coordination branch whose draft is ready is a
+settlement push of the fold, so a spent fold budget freezes every seat's
+records until the fold merges: fold early, or before the ready-mark's review
+legs run. A records fold's findings land on the paragraph that states a
+decision; a dated estimate line that records the hour's rulings cures count,
+contradiction and wording in one push (2026-10-02 and 2026-10-03).
+
 ## Preconditions
 
 1. Confirm the primary sits on the live coordination branch and that its
@@ -72,7 +90,10 @@ resides on the coordination branch).
    classes of the last three folds from their review-cost ledger rows (the
    retrospective of 2026-10-10 §Reconstruction names six: stale state a
    successor would act on, confidential material, a record's contract
-   against practice, scope, arithmetic, doctrine contradiction), and its
+   against practice, scope, arithmetic, doctrine contradiction; a seventh
+   from 2026-10-03: a sentence about what a tool, hook or validator does
+   written without its source and its configuration opened, "already" and
+   "names none" its tells), and its
    slips are cured in one push before the ready-mark (the owner's decision
    of 2026-10-10 on that retrospective's proposal 3). The fold is
    the Director's ceremony in a team session and the seat's own at n=1; it

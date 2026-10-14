@@ -655,6 +655,13 @@ The refined doctrine, stated as a test rather than a headcount:
 > When the critical path narrows to a single owner-gated or infrastructure-gated
 > blocker, there is no parallel work — **fold the functions into fewer seats.**
 
+The owner restated the direction on 2026-10-03, after a day in which a second
+seat twinned the first's work and the Director became a serial gate on the
+instrument, verbatim: "I agree that fewer seats working continuously might be
+more effective." A roster is sized to the parallel work it has, and a seat that
+runs continuously through its arc is preferred to two that hand each other
+work.
+
 **Convergence discipline (Director craft).** The over-instantiation was visible as
 a specific shape: three seats all investigating and all broadcasting about ONE
 blocker. When a single blocker pulls multiple seats in, keep **one investigating

@@ -77,6 +77,12 @@ worked modes:
   pending minutes earlier). This composes with `precedence-is-not-approval`:
   the relay must carry provenance and grant; a vague second-hand "the owner
   said" remains a claim to verify.
+- **A word is read at the scope the owner gave it.** An owner's guide or
+  ruling applies to the whole he spoke of, never to each part a seat has
+  carved (a cost guide given for an arc was read per landing, 2026-10-04),
+  and the latest ruling on a scope replaces the earlier one ("finished" was
+  tested against an older guide a later ruling had replaced, 2026-10-05). A
+  seat that re-scopes a guide to fit a shape it has chosen is narrowing.
 
 ## A Binary Owner Rule Is Executed Literally
 
@@ -229,7 +235,10 @@ by a seat that read it softer:
   after): a freeze. Stop wakeups and monitors, start nothing until the
   compaction lands, run the wrap programme, write the re-arm recipe in the
   boundary block, and resume only on "carry on". The freeze governs the
-  compaction it names and no other.
+  compaction it names and no other. A start-right invocation lifts it (the
+  owner, 2026-10-03, verbatim: "As a standing rule, if I invoke a start
+  right skill and do not explicitly say that the freeze remains then the
+  freeze/pause is lifted").
 - **"Acknowledge, record, then stop"** (2026-09-29): no git. The record is
   written and the commit waits for the resume (a seat committed at the
   resume and that was right).

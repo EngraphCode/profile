@@ -164,6 +164,10 @@ pass is the seat's own, run against the sources.
   holds the budget) grades Jim on that reader's axis. If the axis is wrong the question is not
   answered in copy. Three rounds on 10 October 2026 cured to such a question before the brief
   was found to be the fault (EDR-008).
+- Jim's answers in chat are facts supplied to the seat, never copy. Extract the facts, write the
+  reader's sentence in the surface's register, run the readers; his words are quoted only where
+  he wrote them as copy (his correction of 10 October 2026: "I wrote them for you, I did not
+  write them for the audience of linkedin").
 
 ## References
 
