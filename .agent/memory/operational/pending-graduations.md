@@ -587,7 +587,11 @@ write-for-the-reader, comms-channels, PDR-063) and only the directive-bound less
   2026-10-13); an item he calls his own edit gets no proposal; a mindset he names is shown by how
   the page is written, never by a noun's position. Outside eyes go to every removal and every
   number: a side agent, not the seat's own sweep, found the privacy class and the count-driven
-  trade (2026-10-11 and 2026-10-13).
+  trade (2026-10-11 and 2026-10-13). A profile audit inventories every section present and every
+  relevant absent one, then spends its depth where a reader's misunderstanding or a consequential
+  choice is material (his correction of 2026-09-26 to a Codex seat, verbatim: "Every single part
+  of my LinkedIn needs evaluating"); concrete, evidence-based proposals come before any question
+  to him, and a question is asked only where his answer changes the result.
 
 - **His reasons about himself leave the public repository at once; the sweep searches for the class**
   `[captured: 2026-10-13 | source: the owner's words of 2026-10-11 (napkin blocks 13:4xZ and

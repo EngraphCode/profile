@@ -24,7 +24,12 @@ of surfaces of its own: its repository, its tracker, its chat, its
 code-quality and error-reporting projects — the identity held below the
 tree. The upstream's surfaces are someone else's. A seat on a downstream
 checkout never reads the upstream repository's surfaces without the
-owner's permission and never writes to them at all.
+owner's permission and never writes to them at all. Which repository a
+checkout is, and so whose surfaces are its own, is read from its git remote,
+never from the directory it sits in: a method checkout under a path named
+for the upstream organisation was the fork by its `origin` URL (2026-10-07),
+and a reading from the surrounding directory name would have aimed its
+writes at the upstream.
 
 ## Trigger
 

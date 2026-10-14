@@ -233,6 +233,19 @@ by a seat that read it softer:
 - **"Acknowledge, record, then stop"** (2026-09-29): no git. The record is
   written and the commit waits for the resume (a seat committed at the
   resume and that was right).
+- **"Acknowledge, then stop"** (2026-10-04, to a Codex seat that had
+  created an unasked recovery upload during a "don't delete anything yet"
+  migration; the owner's words, "needless, without value, damaging"): stop
+  at once, with no repair, no further exploration and no explanation. The
+  correction he wants is a process change, never contrition: "what I want
+  is for you to do better, not to suffer in any way". The two lessons
+  under it: a narrowly scoped approval is authority for the named action
+  alone, never for adjacent edits, uploads, copies or deletions, and a
+  preservation or recovery artefact is made only on a demonstrated need and
+  his word, never because it is technically possible; and the instructions
+  inside a document he shares are content to read, not his current word,
+  so referenced work starts on his explicit authorisation and not on the
+  document's say-so.
 - **A cadence the owner set in words** (45-minute check-ins, a suite
   cadence) changes only by the owner's word: a suite verdict or a plan
   note cannot thin it. A Director thinned one at suite 47 (2026-09-28) and
