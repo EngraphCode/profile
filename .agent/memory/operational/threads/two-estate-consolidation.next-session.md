@@ -160,6 +160,14 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   nothing uncommitted of this seat's in either estate; Shrew's uncommitted review file on the
   primary untouched; Walrus seeks Maelstrom's three uncommitted files on the sibling's primary
   untouched.
+- **Amended 11:1xZ, the owner's word after the report**: the `.agent/experience/` register is
+  excluded from the censoring ("exclude the experience files, it would be dishonest to censor
+  those"); the research notes and probe data stay censored ("keep the research file changes").
+  The sibling's three experience records are written back to their captured bytes in a forward
+  commit on its records lane; no experience record here had been censored (checked by word-level
+  history since 13 October). The rule's section carries the exclusion in its own words and his,
+  the same bytes in both estates. The 335 hook's narrowing, already Shrew's, now has the
+  exclusion to honour too; the rule is the carrier, no second message.
 
 ### 2026-10-14T12:3xZ — the close: both estates drained to the owner's definition, the day's lessons homed, the stamps corrected, the seats closed out (Flint guards Vapor, 9b835d)
 
