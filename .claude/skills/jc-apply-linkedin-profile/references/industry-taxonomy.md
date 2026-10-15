@@ -6,9 +6,9 @@ hierarchy path, description; active and inactive nodes; LinkedIn notes it is not
 additions). Read on 2026-10-11. The profile's picker is believed to use this taxonomy; confirm
 at the picker.
 
-The top card in `linkedin/profile.md` says the industry is the sector Oak sits in, chosen at
-application. Oak National Academy's own company page shows its industry; read it live and
-decide with Jim. The candidate rows:
+The top card in `linkedin/profile.md` names Technology, Information and Internet (ID 6), Jim's
+own first edit in the editor on 12 October, confirmed at the dropdown. The rows below were the
+candidates read before his choice and stay for the check at the picker:
 
 | ID   | Label                                 | Hierarchy                                                                          |
 | ---- | ------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -27,6 +27,6 @@ decide with Jim. The candidate rows:
 | 70   | Research Services                     | Professional Services > Research Services                                          |
 | 130  | Think Tanks                           | Professional Services > Research Services > Think Tanks                            |
 
-The decision is Jim's at the sitting. The reader's decision axis (EDR-008) favours the sector
-the work serves over the trade that delivers it, so an education or public-service row reads
-truer than a software row; the company page's row is the anchor.
+The decision was Jim's, 12 October, and stands; at the sitting the picker confirms the row. The
+reader's decision axis (EDR-008) had favoured the sector the work serves over the trade that
+delivers it; his word decided it.

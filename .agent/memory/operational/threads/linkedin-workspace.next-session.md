@@ -10,7 +10,49 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-10T11:1xZ, the lane handed to Shrew rides Eventide (371a2b) at the owner's word; Cedar turns Grove closes; the Oak entry is next; Cedar turns Grove, 1950d1)
+## Current Continuation (2026-10-14T16:xxZ, the LinkedIn rewrite awaiting the owner's dispositions; the pre-commit profanity check on its own lane; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the dated blocks beneath the previous continuation are history in
+  time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
+  acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The fold, 2026-10-14T17:2xZ: the branch `2026-10-10-f436b6` folded as 327, merged at
+  `SHA:d0c995c5` from head `SHA:e4a0d507` by the bot on SETTLE-READY (one vendor round of five
+  findings, all true and on surfaces the branch already carried, one settlement push; the second
+  review no finding); the records pass before the ready-mark returned 27 items, cured in one push.
+  Successor `coordination/2026-10-14-d0c995` cut from `SHA:d0c995c5`; the folded branch retired
+  through the bot, local and remote. moved for the sites: the CV content and the entity graph
+  carry the Oak recognitions and the corrected chronology / moved for the Practice: the
+  retrospective of 10 October decided; the records-door ruling; the `profanity` topic and every
+  tracked file clean of swearing; the linkedin-skills skill by the owner's word; a rewrite keeps a
+  file's mode. The hook lane `feat/profanity-pre-commit-check` is pushed after the fold as its own
+  pull request. The LinkedIn lane is unchanged by the fold.
+- The LinkedIn lane: `linkedin/profile.md` is the draft at the owner's edits of 13 October
+  (unchanged since `SHA:737cb1ed`); `linkedin/profile.review.md` is his uncommitted working copy
+  with his edits of 14 October, which no seat edits or commits; the fourteen-item dedupe and
+  enhancement proposal for the About and the Oak sections (the block of 2026-10-14T11:xxZ below)
+  awaits his dispositions by number, and "Don't edit the draft yet" stands. Next, at his
+  dispositions: apply the settled items as a named list in the review copy, merge the two
+  Principal cards (the title his), the status lines, the container's corrections named in that
+  block, validate, prettier, both profile copies identical, one commit by pathspec. The readers run
+  only when he says so; the application plan is authored when he says the draft is his; the
+  private repository's pull request 6 is his to merge.
+- Swearing: at his word of 14 October the public repository carries none. The agent-tools
+  `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
+  The Good Place's words; rules and decision records are elided by hand. The pre-commit check
+  (`repo-check profanity-staged`: each staged file read from the index, binary by its content,
+  the lexicon's own directory excepted) is on `main` as 335 at `SHA:c275c866` and live on the
+  primary since `SHA:536bb2e9`. Leaves for his call: the index lookup under native Windows
+  (`toGitPath`), a size pre-check naming the 50 MiB capture limit, a tracked-tree leg in
+  `pnpm check`.
+- Pull request 334 (`fix/records-door-waits-for-a-review-in-progress`) is open as a draft at
+  `SHA:3414d9cb`, one commit, since 2026-10-11; the continuity record's "unpushed" lines of that
+  day are history. The third consolidation closed on the lane `docs/consolidation-3` (its close
+  commit `SHA:db295b47`, unpushed at the owner's word); its blocks in the continuity records here
+  are superseded by that lane's landing.
+- Seat state: n=1 (Flint guards Vapor closed out 2026-10-14 12:36Z); no watcher or heartbeat
+  (consumer absent); the LinkedIn claim `3b4a1be4` stands with its areas.
+
+## Previous Continuation (2026-10-10T11:1xZ, the lane handed to Shrew rides Eventide (371a2b) at the owner's word; Cedar turns Grove closes; the Oak entry is next; Cedar turns Grove, 1950d1)
 
 - The owner's words, verbatim: 2026-10-09 13:4xZ, "the next session works on the Oak entry,
   consolidation waits until I say so"; 2026-10-10 10:5xZ, "Prepare a full handoff to Shrew rides
@@ -268,8 +310,7 @@ in `profile.md`: a 45-entry proposal in three tiers (the pinned three, the next 
 the four endorsed tags kept by name, every candidate checked against LinkedIn's standardised
 skills, for which an official list is to be found first (the candidates to check: LinkedIn's own
 help and talent pages, the Marketing API's Skills data, the typeahead at application as the
-final arbiter; a free-text skill may not feed Recruiter's filter). This paragraph was written at
-his word after the wrap's push and rides the next commit uncommitted. moved for the sites:
+final arbiter; a free-text skill may not feed Recruiter's filter). moved for the sites:
 nothing / moved for the Practice: nothing.
 
 ### 2026-10-11T12:5xZ — the Skills exploration done as the linkedin-skills skill, with apply-linkedin-profile beside it; the canonical list unchanged (Shrew rides Eventide, 371a2b)
@@ -469,13 +510,12 @@ Strategic Partnerships is not; (1) the Principal card is refined to the 2,000-ch
 information density and writing quality, never cut down; (2) the fold fix agreed ("National
 Curriculum-aligned" out of the About's second sentence); (3) "since 2021" agreed; (4) Public
 Speaking stands on his word; Science Communication is shown by the Publications (his Google
-Scholar profile lists the two papers and the thesis, 128 citations); the start-ups behind
-Startups are Assanka (which became FT Labs), We Predict, Oak in its first months, and Obaith with
-Reforest Now and the ventures that stopped at research; Mentoring is understood in a Principal; a
+Scholar profile lists the two papers and the thesis, 128 citations); Startups and Mentoring
+stand at his word (his reasons are in the private editorial repository, never here); a
 post of his may follow later, the claims are made now; (5) the titles are his to change, some
 change and some stay, by a discussion with him (the seat had read his word that the past is real
-as the title strings being fixed; corrected); (6) the Johns Hopkins courses: he does not much
-care, so the seat's verdict stands, the two courses out with the two safety certificates; (7)
+as the title strings being fixed; corrected); (6) the Johns Hopkins courses: removed at the seat's verdict, at his word, the two courses out
+with the two safety certificates; (7)
 scientist is a discipline, mindset and approach, not a role, shown by how the page is written and
 never by a name's position (the seat had counted it absent from the top five; corrected); (8)
 Recommendations were agreed before the review; the seat had critiqued agreed intent (corrected).
@@ -550,6 +590,99 @@ live card). Next, in order, at his word: the editor restarted; his edits; the se
 review file against the draft and absorbs them, validating; the editor and prose passes; the
 readers. moved for the sites: nothing / moved for the Practice: nothing.
 
+### 2026-10-14T11:xxZ — the About and the Oak sections: the dedupe and enhancement proposal, pending Jim's dispositions (Shrew rides Eventide, 371a2b)
+
+State at 11:xxZ: the editor restarted at his word after the overnight break; his edits of 14 October are in the review copy (the About reshaped, the headline, the consulting titles his own, six Experience cards, the FT Web App project line, the Scholar item gone at his word, the two OCE glosses and the Principal card's OCE sentence his); the seat's corrections of the day in the napkin (his figures are not checked; "England's" was never his word; the OCE is one repository among Oak's many; adjectives true by his authority stand). The draft `profile.md` is unchanged since 737cb1ed; absorption follows his dispositions below.
+
+Jim's word of 14 October: two Oak cards, not three ("Broadly agreed, but let's sort everything
+else out first"); then "what changes should we make around the dedupe and enhancement? ... Don't
+edit the draft yet, but do write down what edits you think matter and why". Everything else is
+sorted (his edits of 14 October in the review copy, the Scholar item gone, the OCE glosses his).
+Nothing below is applied; each item is applied only at his disposition, as a named list.
+
+The rule that decides every cut: the About tells the story once; the Experience card proves the
+role (scope, the decisions, their consequences, the pattern); the Project cards describe the
+artefacts and how they were made. A fact lives at full strength on one surface and is echoed
+elsewhere only by a clause in different words.
+
+1. **Two Oak cards.** Merge "Principal Engineer part 1" (Jan 2021 – May 2022) and "part 2" (June
+   2022 – Present) into one card, Jan 2021 – Present; the title his. "Senior Developer" (Aug – Dec
+   2020) stays. Why: the About says "led the engineering strategy since 2021" and the merged card's
+   dates show exactly that; the June 2022 formalisation is a sentence inside the card; the other
+   merge would put one title across a promotion. A merged card holds one employment type; the Code
+   Science card already says the first period ran through the consultancy.
+2. **The merged card's fold paragraph.** "I hold Oak's engineering strategy: I decide what gets
+   built and what does not, and make the case for it to the people who fund and run the service.
+   Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's
+   open curriculum into the AI assistants teachers use." Why: the fold shows the level by decision
+   (settled 12 October) for a scanner who never opens the About; "while it was still what kept
+   lessons online" is the About's line and stays there; "the AI assistants teachers already use"
+   is on the page twice, and once as a variant in the About, so the card varies it.
+3. **The growth paragraph**, from part 1, one change: "its engineering grew from the handful of
+   contractors I joined into six product squads and three platform groups". Why: "four
+   contractors" is the Senior Developer card's scene; the merged card carries the arc. The rest
+   as it is, the formalisation sentence closing it.
+4. **The rebuild paragraph**, as now. Why: the reasons, the call, the backing and the risk are
+   the proof, and the consequence sentence belongs beside the decision it follows from.
+5. **The plugin paragraph** keeps the decision and its consequence, and the making moves to the
+   plugin Project card: "The Oak AI plugin began in 2024 as an opportunity I saw in Oak's
+   curriculum, sequenced end to end, written by curriculum experts and published under the Open
+   Government Licence: any AI assistant could reach it, if someone built the route. I made the
+   case and built it; it is now in ChatGPT, Claude and any assistant that supports Model Context
+   Protocol (MCP), and the plugin's shape, its development and its strategy came from me." Cut
+   from the card: "built a public SDK on the data by hand before the route existed, then the
+   route itself" (to the Project card, item 10) and "It carries the curriculum principles and the
+   accessibility bar the lessons were written to, so whatever is built on Oak builds on them" (on
+   the Project card already, word for word). Why: how it was made belongs beside the repository
+   link; the values sentence is said once.
+6. **The Practice paragraph**: "The Practice came first: the way of working the plugin would be
+   built in, a framework for engineering with AI agents, in which the agents build and the
+   judgement and the calls are mine." Then his sentence of 14 October on the Open Curriculum
+   Ecosystem. Cut: "I built it to be taken up a piece at a time." Why: on the Practice Project
+   card already.
+7. **The pattern paragraph** ("Zero to one is complete..."), unchanged. Why: unique to the card.
+8. **The count.** The merged card lands about 2,200 characters against a believed 2,000; the
+   counter at application is the test, and nothing above is cut for the number. If the counter
+   refuses, the one further move by division of labour: the rebuild paragraph's reasons ("Even
+   with the emergency platform safe to change, every change got harder and every release slower.
+   I argued that optimising it was the wrong starting point and that Oak should rebuild.") move
+   to the rebuild Project card, which then carries why as well as what, and the Experience card
+   keeps the call, the backing and the risk.
+9. **The About, one change.** The third paragraph's last sentence (thirty-eight words) split in two: "I
+   joined to get the first teacher-facing service over the line. I stayed to shape the first,
+   second, and third order effects of a digital-native, fully sequenced, fully resourced,
+   world-class curriculum, and what other people build with it." Why: the join and the stay each
+   get their own weight. Nothing else in the About changes: the hardest-call paragraph keeps its
+   line (the card's fold drops the clause), the Practice summary stays (the Project card has the
+   mechanism), "UK Passport Office" stays by his rule of 14 October (the official name on the
+   card, the descriptive name in prose).
+10. **The plugin Project card** gains the making, between his gloss and the values paragraph: "I
+    conceived the plugin and set its direction: a public SDK on the data, built by hand before
+    the route existed, then the route itself. The curriculum it carries is the work of Oak's
+    curriculum experts." Why: the card has the repository link, so how it was made belongs
+    beside it.
+11. **The Practice Project card**, two phrases: "and how the engineers working on the Open
+    Curriculum Ecosystem build now" for "and the way the engineers on the Open Curriculum
+    Ecosystem work now" (his "working on" of 14 October, the verb changed so "working" and
+    "work" do not collide); "public in the Open Curriculum Ecosystem repository" for "public with
+    the plugin". Why: the repository framing he set on 14 October.
+12. **The rebuild Project card**: drop "and everything Oak has built since stands on it". Why:
+    said on the Experience card as the decision's consequence and in the About as narrative; the
+    Project card describes the artefact and his part.
+13. **The Senior Developer card**, unchanged. Why: the scene (four contractors, the first term's
+    figures, the first service shipped) is this card's only job and, after item 3, nowhere else;
+    the About's "I joined to get the first teacher-facing service over the line" is the narrative
+    echo, a clause in different words.
+14. **Enhancement, a question for Jim, not a proposal.** The plugin has no outcome on the page
+    beyond where it runs. If there is a figure or a fact he wants public, the merged card's
+    plugin paragraph is its place.
+
+At application of his dispositions: the status lines of every touched section, the container's
+decisions paragraph, and the container's "England's official curriculum body" attribution
+(his words were "the UK's official curriculum body" throughout) corrected in the same commit,
+with the container's settled sentence "Scholar is the one Featured item" (the item left at his
+word on 14 October).
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of
@@ -577,7 +710,7 @@ readers. moved for the sites: nothing / moved for the Practice: nothing.
   Cricket suite and a twenty-five-finding triage on the editor: "you are building an MVP editing
   app, which requires the basest ability to be read then changed... and you are applying the
   a11y requirements of a public service, and thus wasting my time, my money, and your attention.
-  Finish the fucking basic editor"; then "stopping is not enough, fix the state of the editor,
+  Finish the forking basic editor"; then "stopping is not enough, fix the state of the editor,
   it is supposed to be SIMPLE ... and then we get back to what we are SUPPOSED to be doing which
   is writing my Oak entry for linkedin". The reviewers and the remaining Cricket legs were
   stopped; the findings stand on the PR in one line each, nothing further taken. Taken before

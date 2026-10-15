@@ -173,6 +173,30 @@ the owner should see the team delivering, not the Director reporting.
 
 ## Current handoff state (2026-10-14, pointer-biased by design)
 
+**§STATE, 2026-10-14 17:2xZ (Shrew rides Eventide, `371a2b`, the n=1 seat; this block is the
+pickup)**: `2026-10-10-f436b6` folded as 327 at `SHA:d0c995c5` (one vendor round of five
+findings, one settlement push, the second review no finding); the successor
+`coordination/2026-10-14-d0c995` is cut from it and the folded branch is retired through the
+bot. moved for the sites: the CV content and the entity graph carry the Oak recognitions and the
+corrected chronology / moved for the Practice: the retrospective of 10 October decided, the
+records-door ruling, the `profanity` topic with the tree clean of swearing, the linkedin-skills
+skill by the owner's word, a rewrite keeping a file's mode. The pre-commit profanity check is the
+lane `feat/profanity-pre-commit-check`, its own pull request after the fold. The block beneath
+(16:xxZ) carries the seat and lane state, unchanged by the fold.
+
+**§STATE, 2026-10-14 16:xxZ (Shrew rides Eventide, `371a2b`, the n=1 seat; this block is the
+pickup)**: no Director seat is held. Flint guards Vapor (`9b835d`) closed out the third dedicated
+consolidation at 12:36Z on the lane `docs/consolidation-3` (its close commit `SHA:db295b47`
+unpushed at the owner's word; the consolidation blocks below and in `repo-continuity.md` are
+superseded by that lane's landing). The LinkedIn lane is this seat's (claim `3b4a1be4`): the
+draft awaits the owner's dispositions on a fourteen-item proposal, and the pickup is the head of
+`threads/linkedin-workspace.next-session.md`. Pull request 334 (the records door's correction)
+is open as a draft at `SHA:3414d9cb`. At the owner's word of 14 October the public repository
+carries no swearing (the agent-tools `profanity` topic; the pre-commit check on the lane
+`feat/profanity-pre-commit-check`). No watcher or heartbeat runs (consumer absent).
+`repo-continuity.md` §Current State carries the dated landings; this file's blocks beneath are
+history.
+
 **§STATE, 2026-10-14 11:3xZ (Flint guards Vapor, `9b835d`, the third dedicated consolidation's seat,
 on lane `docs/consolidation-3` in a linked worktree; this block is the pickup on its own, and the 11:3xZ
 block below is the history it rests on).** No Director seat is held; n=2: this seat on the consolidation

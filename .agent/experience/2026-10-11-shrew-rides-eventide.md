@@ -102,7 +102,7 @@ now: a constraint that bites is a question about where things live, and acting o
 mistake, because there is always more than one way and the choosing is his. The second thing I
 believed: that deferring to him ("your call", "at your word") was respect. It was the opposite.
 It handed him my job, and it turned things he had said on Saturday into rules I quoted back at
-him on Sunday. He can change his mind. He said so, with some heat, and he was right.
+him on Sunday. He can change his mind. He said so, and he was right.
 
 The thing that worked, and that I would hand you first, is not a rule. It is a surface. A table
 he could edit in place got his whole skills list in an hour where three drafts in chat had not.

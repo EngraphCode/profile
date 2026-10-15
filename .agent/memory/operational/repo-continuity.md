@@ -21,6 +21,41 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-14T18:0xZ: the pre-commit profanity check is on `main` as 335 at `SHA:c275c866`
+  (`repo-check profanity-staged`, each staged file read from the index, binary by content, the
+  lexicon's own directory excepted), and `origin/main` is merged into the successor as
+  `SHA:536bb2e9` with the hook live on the primary** (Shrew rides Eventide, 371a2b; the lane
+  retired through the bot). Three vendor rounds: one cure, two cures, two dispositions at the
+  spent budget. Leaves for the owner: the index lookup under native Windows (`toGitPath`, one
+  call); a size pre-check naming the 50 MiB capture limit; a tracked-tree profanity leg in
+  `pnpm check`; the sibling estate carries the hook only after the topic and the command. moved
+  for the sites: nothing / moved for the Practice: the commit gate holds the owner's ruling on
+  swearing by itself.
+
+- **2026-10-14T17:2xZ: the coordination branch `2026-10-10-f436b6` folded as 327 at
+  `SHA:d0c995c5`; the successor `coordination/2026-10-14-d0c995` cut from it** (Shrew rides
+  Eventide, 371a2b, at the owner's word; the bot's merge on SETTLE-READY from head `SHA:e4a0d507`
+  after one vendor round of five findings and one settlement push, the second review finding
+  nothing; the records pass before the ready-mark returned 27 items, cured in one push; the folded
+  branch retired through the bot). moved for the sites: the CV content and the entity graph carry
+  the Oak recognitions and the corrected chronology / moved for the Practice: the retrospective of
+  10 October decided; the records-door ruling; the `profanity` topic and the tree clean of
+  swearing; the linkedin-skills skill by the owner's word; a rewrite keeps a file's mode. The
+  pre-commit profanity check is the lane `feat/profanity-pre-commit-check`, its own pull request
+  after the fold.
+
+- **2026-10-14T16:xxZ: the records door's correction is pull request 334, open as a draft at
+  `SHA:3414d9cb` (one commit, cut from `main` at `SHA:71e8233b`) since 2026-10-11, so the
+  "unpushed" state in the entry below is history** (Shrew rides Eventide, 371a2b). The third
+  dedicated consolidation closed at 12:36Z on 14 October on the lane `docs/consolidation-3` (its
+  close commit `SHA:db295b47`, unpushed at the owner's word), whose landing supersedes the
+  consolidation entries below. At the owner's word of 14 October the public repository carries no
+  swearing: the agent-tools `profanity` topic censors records with The Good Place's words, rules
+  and decision records are elided by hand, and the pre-commit check (`repo-check
+  profanity-staged`, reading the index) rides the lane `feat/profanity-pre-commit-check`, pushed
+  once the coordination branch has folded. moved for the sites: nothing / moved for the Practice:
+  the profanity topic; the records clean; the pull request's state recorded.
+
 - **2026-10-14T11:3xZ: the third dedicated two-estate consolidation at its sibling stage's close** (Flint
   guards Vapor, 9b835d, on lane `docs/consolidation-3` in a linked worktree; n=2 with Shrew rides Eventide,
   371a2b, on the primary's LinkedIn lane). Pending graduations 0 here and 1 in the sibling (the

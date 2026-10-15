@@ -3087,7 +3087,7 @@ then every process stopped).**
 **2026-09-29 09:1xZ to 09:57Z: resumed; the owner's corrections on tests, validators and WIP.**
 
 - The owner's words to this seat, verbatim, in order:
-  - 09:2xZ: "for fuck sake, how many times, tests are FORBIDDEN to create real IO and child
+  - 09:2xZ: "for fork sake, how many times, tests are FORBIDDEN to create real IO and child
     processes. I don't want excuses or carve outs, we have these rules for a reason. read the
     principles, testing strategy and validation strategy. This is not optional, following the
     requirements is not optional."

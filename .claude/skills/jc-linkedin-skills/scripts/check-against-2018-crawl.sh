@@ -41,7 +41,16 @@ else
   crawl_file="$crawl_dir/all_skills.txt"
   if [ ! -s "$crawl_file" ]; then
     echo "downloading the 2018 crawl to $crawl_file" >&2
-    curl -fsSL -o "$crawl_file" "$crawl_url"
+    # Download beside the cache and publish only a complete file: a partial download left in
+    # place would be accepted by -s next time and report every later name MISSING.
+    download_file="$crawl_file.download.$$"
+    if curl -fsSL -o "$download_file" "$crawl_url"; then
+      mv "$download_file" "$crawl_file"
+    else
+      rm -f "$download_file"
+      echo "download failed: $crawl_url" >&2
+      exit 2
+    fi
   fi
 fi
 if [ ! -r "$crawl_file" ]; then

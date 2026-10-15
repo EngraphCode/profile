@@ -41,12 +41,16 @@ function indexSymlinkPaths(runtime: RepoCheckRuntime): ReadonlySet<string> {
   return parseSymlinkPaths(gitOutput(runtime, ['ls-files', '--cached', '-s', '-z'], 'symlinks'));
 }
 
-/** The files staged for the next commit (added, copied, modified, renamed), without symlinks. */
+/**
+ * The files staged for the next commit (added, copied, modified, renamed, retyped), without
+ * the entries that are symlinks in the index: a symlink retyped to a regular file is staged
+ * content the commit carries, so it is listed; a file retyped to a symlink is not.
+ */
 export function stagedFiles(runtime: RepoCheckRuntime): readonly string[] {
   const names = parseNulSeparatedPaths(
     gitOutput(
       runtime,
-      ['diff', '--cached', '--name-only', '--diff-filter=ACMR', '-z'],
+      ['diff', '--cached', '--name-only', '--diff-filter=ACMRT', '-z'],
       'staged files',
     ),
   );
