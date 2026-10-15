@@ -170,6 +170,29 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   commit carried the pin. The lane's commits were made under the new hook: each was the leg's own
   live run.
 
+## 2026-10-15T09:3xZ — Copilot reviews reduced at the GitHub level; what the bot does after a settlement push now (Shrew rides Eventide, 371a2b)
+
+- **The owner's word (2026-10-15 09:2xZ)**: Copilot reviews are reduced at the GitHub level across
+  all Engraph repositories. Verified on this repository: the ruleset `protect main` (12555444)
+  keeps its `copilot_code_review` rule with `review_on_push: false` and
+  `review_draft_pull_requests: false`. Copilot reviews a pull request once, when it opens
+  non-draft or is marked ready; a later push gets no automatic review.
+- **What the bot does now** (`merge-decision.ts`, `reviewer-legs.ts`, `settlement.ts`, read
+  today): the declared set is still `--expect copilot-pull-request-reviewer`, since the leg is
+  configured and the first round is owed. After a settlement push the new tip has no tip-bound
+  review and no request: the leg reads OWED, the verdict SILENT-WAIT-NO-REVIEWER, and ten minutes
+  after checks green the timeout arm reads the leg SKIPPED and the verdict SETTLED-NO-REVIEW. A
+  records-class pull request merges on that verdict. A code-class one does not: only SETTLE-READY
+  merges, so a code-class settlement push still needs Copilot re-requested on the new tip by hand
+  (the operator-credential request, as on 335) before the bot merges. The automatic round is
+  gone; the bot's demand for one on code-class after a push is not.
+- **Leaf, for the owner's call**: a code-class door on SETTLED-NO-REVIEW when every thread of the
+  last round is resolved and no review was requested on the tip, so a settlement push merges at
+  the timeout arm with no round. Until then the fold and lane practice is one round per
+  code-class pull request, with a re-request only when the seat wants a second reading.
+- Yesterday's five rounds across 327 and 335 in this light: three were on settlement pushes and
+  would not fire automatically today; two of those three found something.
+
 ## 2026-10-15T09:5xZ — The finish hour (Flint guards Vapor, 9b835d)
 
 - **The Bash hook's wildcard-staging pattern fired on a compound command**: two `git add -- <paths>`
