@@ -169,3 +169,17 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   re-requested the review on the old tip; read the push, then resolve, then re-request. A second
   commit carried the pin. The lane's commits were made under the new hook: each was the leg's own
   live run.
+
+## 2026-10-15T09:5xZ — The finish hour (Flint guards Vapor, 9b835d)
+
+- **The Bash hook's wildcard-staging pattern fired on a compound command**: two `git add -- <paths>`
+  calls with heredocs in one command were refused as `git add .`; the same `git add -- <paths>`
+  alone passed. One instance; the shape to keep is staging as its own short command.
+- **A lane's `agent-tools/dist` is stale after a merge brings tool changes**: `profanity replace` run
+  from the lane's dist did nothing and printed nothing (the topic was not in that build); rebuild
+  before running a lane's binary after a merge, or run the primary's built one. The class is the
+  fresh-worktree dist lesson of 2026-10-14 (worktree-hygiene §8).
+- **An archive cut from a committed blob takes the public branch's later bytes for its shared
+  range**: the coordination branch censored three words and removed two owner-private phrases in
+  that range after the cut; the archive carried the pre-removal bytes until it was rewritten from
+  the branch, proved by a line diff of the range (four lines, then none).

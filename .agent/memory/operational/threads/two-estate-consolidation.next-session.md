@@ -109,6 +109,58 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-15T09:5xZ — the finish at the owner's one-hour word; the frame corrected; the landings (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here, 1 in the sibling (the operator-profile half of the Oak
+  GitHub read ruling, owner-gated, unchanged); the napkin here holds Shrew rides Eventide's three
+  live blocks of 14 October, that seat's own (its claim heartbeat 09:28Z today); unpushed before
+  this block's landing: this lane (the 23 commits of the consolidation, the successor merge, the
+  clause, this block), the sibling's records lane (8 and the day's two), the sibling's code lane (3,
+  pushed this hour).
+- **The owner's words of the morning, verbatim, in order**: "before you go any further I want a
+  bounded, completable plan to finish this consolidation session that will take no more than one
+  hour. If the estimate is that it will take longer, the plan is wrong"; "the swearing check should
+  apply only to the Practice and key documentation, nothing else, and never to content"; "Run your
+  questions through the decision matrix. We already massively failed the one hour mark because you
+  stopped to ask unecessary questions. So, how do we make this work in one hour from now. Outside
+  the hour is not an allowed concept, no trickery, get it done, where it seems impossible ask why,
+  then step back and question the validity of the frame"; on the standing "no pushing": "I meant the
+  request for merges to override that, I should have been clearer".
+- **The three questions put to him the evening before, resolved by the lenses**: the sibling's
+  code pull request is opened now and the merge-bot settles it (the tool's job), while the
+  profanity tooling's port (the topic, the repo-check command and the hook, about thirty-five files
+  after 335) is a parity code lane with its own vendor rounds, homed in the sibling's continuity
+  record beside the merge-bot parity item; the pushes were his word and he gave it; the
+  clocked-obligations directive line fails `one-instance-is-an-observation`, so the slow-lane row
+  stands and no line is written. None of the three needed him.
+- **The frame corrected**: what looked impossible was two code lanes with nine-minute vendor rounds
+  inside a records hour. The consolidation's finish is doctrine as the same bytes, swearing out of
+  both Practices at his scope, the records landed where successors read them, the seats closed;
+  code parity runs on its own clock through the bot. The folds are not this job (his ranking of
+  2026-10-13; the sibling's branch is DUE at day ten and its record says so).
+- **What landed**: the successor coordination branch merged into this lane, three records by
+  concept (the napkin keeps the rotation note and Shrew's live blocks; the archive's shared range
+  takes the successor's bytes, Shrew's censoring and two owner-private removals included; the
+  director handoff and repo-continuity take Shrew's blocks above this seat's); the owner's rule and
+  its scope as a section of `records-are-technical-not-emotional`, the same bytes in the sibling;
+  the sibling's Practice censored by this estate's tool from here (nineteen matches in fourteen
+  records; the three rules and two decision records elided as here; one false positive named and
+  left, a truncated word in an API-path capture in a report; a zip not read); the sibling's code
+  lane pushed and its pull request opened; this lane landed on `coordination/2026-10-14-d0c995` by
+  fast-forward push; the sibling's records lane landed on its coordination branch the same way.
+- **Open, each with its home**: the pre-commit check of 335 reads every staged text file, wider than
+  the owner's scope word, so Shrew (live, its author) has one message with the verbatim and the
+  hook to narrow; the sibling's profanity tooling parity in its repo-continuity carried follow-ups;
+  the sibling's coordination branch DUE (day ten) in the same record; the J2 worktree and the
+  register's operator-profile entry at the owner, unchanged.
+- **Lessons of the hour** (napkin, this date): the Bash hook's wildcard-staging pattern fired on a
+  compound command; a lane's `agent-tools/dist` is stale after a merge brings tool changes; an
+  archive cut from a blob takes the public branch's later bytes for its shared range.
+- **Work safety**: this lane pushed as the coordination branch; the sibling's two lanes pushed;
+  nothing uncommitted of this seat's in either estate; Shrew's uncommitted review file on the
+  primary untouched; Walrus seeks Maelstrom's three uncommitted files on the sibling's primary
+  untouched.
+
 ### 2026-10-14T12:3xZ — the close: both estates drained to the owner's definition, the day's lessons homed, the stamps corrected, the seats closed out (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here and 1 in the sibling (the operator-profile half of the
