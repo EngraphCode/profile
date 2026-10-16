@@ -378,3 +378,15 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   quotation, the former does not), so a review that quotes a skip phrase reads as a skip on the leg
   and as a review in the tally. One consolidation at the second consumer, with a test for the quoted
   case, is owed; home: the two-estate-consolidation thread record's open items.
+- The sibling's bot token (`pull-request-work` scope) was refused 403 on the `requested_reviewers`
+  POST for Copilot, where the lifecycle skill's merge boundary (item 5) records 201 first-hand on four
+  pull requests of September; the same token was refused on the branch delete this morning. The
+  operator credential registered the request within twenty seconds. Observation on one day; if a
+  second day shows the same, the skill's sentence about the sibling's token is corrected and the
+  app's permissions are read at GitHub rather than assumed. Home: the lifecycle skill's item 5 and
+  the merge-bot reference's request paragraph.
+- The sibling's Copilot rule reviews at open for a human-authored pull request within seconds (this
+  estate's 339) and registered nothing at open for a bot-authored one (the sibling's 355 at
+  ready-mark and 359 at open; the first request on each was made by hand). Observation on two pull
+  requests of one day; home: the lifecycle skill's first-round rule, which assumes the configured
+  review fires for every author.

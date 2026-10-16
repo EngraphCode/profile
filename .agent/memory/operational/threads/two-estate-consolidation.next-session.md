@@ -109,6 +109,67 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
 
+### 2026-10-16T15:5xZ — the merge-tool fix landed in both estates at the owner's routing; the records and the open list (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pull requests landed by this seat today 4 (338, 334 and 339 here; 355 in the
+  sibling), open 1 (the sibling's 359, its bot merge running at this block); vendor rounds spent on
+  the merge-tool fix 1 per vendor per estate (four findings, three cured, one rejected with its
+  premise written into the module); expert passes 2 (code-expert before the pull request, test-
+  expert on the committed suite); mutation checks run by hand 12, every one red; gates green in each
+  estate 7 (type check, eslint, the full agent-tools suite, the dependency cruiser, knip,
+  markdownlint, prettier); napkin entries written today 9, each with its home; pending graduations 0
+  here, 1 in the sibling (unchanged: the operator-profile half, which the owner wrote on his word
+  today).
+- **The merge-tool fix, the owner's routing of 2026-10-16** ("the tooling fix goes to Flint"; the
+  tool was over-coupled to Copilot reviewing every push after he set `review_on_push` false at
+  GitHub on 2026-10-15; both estates carry that rule). Pull request 339 here: `pr state` reads the
+  base branch's `copilot_code_review` rule with every reading and derives what a tip is owed from
+  it; Copilot's leg reads UNOWED on a tip the vendor is not requested on once it has reviewed an
+  earlier tip and no Copilot body binds the tip; a hand-made request makes it owed again; an unread
+  or absent configuration keeps every leg owed, named in the evidence; the suppressed-findings hold
+  reads the vendor's standing review on an unreviewed head (Copilot's finding, cured). Merged by the
+  bot at 15:27Z at the UNOWED leg after two settlement pushes with no hand-made request: the live
+  proof of the fix on its own pull request. The lifecycle skill's state machine carries the UNOWED
+  leg, its sweep says when a request is wanted and that the merge waits for the request to be read
+  back; the merge-bot reference carries the paragraph. The merged worktree is removed here; the
+  lane's `agent-tools/dist` is stale until rebuilt from main.
+- **The sibling's port, pull request 359**, written against its own `pr-watch` shape (content
+  binding, round requests, the completion and declared-unavailable transports; its pending-request
+  surface never lists a bot, so the UNOWED leg honours the rounds asked in the pull request's
+  history, the finding both vendors made there, cured). Opened under its bot; Copilot requested by
+  the operator credential after the bot's token was refused 403 on the request, as it was on the
+  branch delete this morning and on the reply and the thread resolution this hour (pull request
+  creation still works): the lifecycle skill's item 5 says that token returns 201 in the sibling, a
+  claim to correct if a second day shows the same. Copilot's rule registered no review at open for
+  this bot-authored pull request, as for 355 at ready-mark; both first requests were made by hand
+  (observation on two instances; home: the skill's first-round rule).
+- **Open, each with its home**: (1) `pr tally` keeps its own reading of owed-ness (every expected
+  reviewer with no non-skip review bound to the head) and does not see the configuration, so under
+  this rule its unsettled column disagrees with `pr state` on a later tip; the cure is one owed-ness
+  function both read, with the recorded harvest carrying the configuration; recorded debt, this
+  record. (2) `reviewer-legs.ts` here keeps private copies of the skip-marker predicates that
+  drifted from `skip-markers.ts` (quotation-aware); one consolidation at the second consumer with a
+  test for the quoted case; this record. (3) The lifecycle skill's item 3 names `pr-watch/vendor-
+  error-reviews.ts`, a module the sibling carries and this estate lacks; shared text, so the module
+  is ported or the sentence qualified in both estates together; the sibling's continuity record
+  carries the parity list. (4) The sibling has no suppressed-findings hold at all, so the hold's
+  cure has no counterpart there; parity item on its continuity record. (5) The sibling bot's reduced
+  permissions, above. (6) Unchanged and exact in the 10:3xZ amendment of this date: the J2 worktree
+  (put to the owner 2026-10-02), the SessionStart compaction-source hook cure (2026-10-14). (7) Work
+  needing a seat: the 335 hook's narrowing (Shrew); the sibling's profanity tooling parity; this
+  estate's coordination branch over its lifetime.
+- **Lessons of the day**: in the napkin on this lane, nine entries with their homes (the harness cwd
+  on two instances; the hook substrings; commitlint's footer reading; the Copilot request consumed
+  by a review of the old tip; the comms send that needs its directory named; a vendor setting
+  carried as an assumption; the skip-marker copies; the sibling bot's 403s; the rule's silence at
+  open for a bot author).
+- **Work safety**: this lane carries two unpushed commits (the napkin, this block) for
+  `coordination/2026-10-16-7ffab0`; the sibling's records lane carries one (its continuity bullet)
+  for `coordination/2026-10-16-f1e9d3`; the sibling's code worktree stays until 359 merges and is
+  then removed; the two merged worktrees of 338 and 334 here are removed at this close; Shrew's
+  primary checkout untouched; Walrus seeks Maelstrom's three uncommitted files on the sibling's
+  primary untouched, which re-homes to the successor when that seat commits.
+
 ### 2026-10-15T09:5xZ — the finish at the owner's one-hour word; the frame corrected; the landings (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here, 1 in the sibling (the operator-profile half of the Oak
