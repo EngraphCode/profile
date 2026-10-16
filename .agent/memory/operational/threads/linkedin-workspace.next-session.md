@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-14T16:xxZ, the LinkedIn rewrite awaiting the owner's dispositions; the pre-commit profanity check on its own lane; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-16T11:xxZ, the owner's dispositions of 16 October applied to the LinkedIn draft; his review of the applied draft next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
@@ -26,16 +26,17 @@ authorisation.
   tracked file clean of swearing; the linkedin-skills skill by the owner's word; a rewrite keeps a
   file's mode. The hook lane `feat/profanity-pre-commit-check` is pushed after the fold as its own
   pull request. The LinkedIn lane is unchanged by the fold.
-- The LinkedIn lane: `linkedin/profile.md` is the draft at the owner's edits of 13 October
-  (unchanged since `SHA:737cb1ed`); `linkedin/profile.review.md` is his uncommitted working copy
-  with his edits of 14 October, which no seat edits or commits; the fourteen-item dedupe and
-  enhancement proposal for the About and the Oak sections (the block of 2026-10-14T11:xxZ below)
-  awaits his dispositions by number, and "Don't edit the draft yet" stands. Next, at his
-  dispositions: apply the settled items as a named list in the review copy, merge the two
-  Principal cards (the title his), the status lines, the container's corrections named in that
-  block, validate, prettier, both profile copies identical, one commit by pathspec. The readers run
-  only when he says so; the application plan is authored when he says the draft is his; the
-  private repository's pull request 6 is his to merge.
+- The LinkedIn lane: the owner's dispositions of 16 October on the fourteen-item dedupe and
+  enhancement proposal are applied in `SHA:9a2a66a7` (the block of 2026-10-16T11:xxZ below):
+  `linkedin/profile.md` and `linkedin/profile.review.md` are identical, his edits of 14 October
+  committed with the dispositions, the two Principal cards merged into one (January 2021 to
+  present), the validator OK on both copies. Next: his review of the applied draft in the editor
+  (`pnpm --filter linkedin editor`, restarted only at his word); item 10's sentence on the plugin
+  Project card is his, under his review (the seat's reading of it is in that block); the count of
+  the merged card (2,824 characters against the believed 2,000) is edited later across the whole
+  profile at his word, never to one number; the Senior Developer card may take an editorial review
+  at his word. The readers run only when he says so; the application plan is authored when he says
+  the draft is his; the private repository's pull request 6 is his to merge.
 - Swearing: at his word of 14 October the public repository carries none. The agent-tools
   `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
   The Good Place's words; rules and decision records are elided by hand. The pre-commit check
@@ -682,6 +683,47 @@ decisions paragraph, and the container's "England's official curriculum body" at
 (his words were "the UK's official curriculum body" throughout) corrected in the same commit,
 with the container's settled sentence "Scholar is the one Featured item" (the item left at his
 word on 14 October).
+
+### 2026-10-16T11:xxZ — Jim's dispositions on the fourteen items applied; the two Principal cards merged; both copies identical at `SHA:9a2a66a7` (Shrew rides Eventide, 371a2b)
+
+- His dispositions by number (16 October, 10:5xZ): 1, 4, 7, 9, 11 and 12 agreed as put; 2 agreed
+  with the fold's verb changed, the leadership stated as authority with guidance and coaching
+  where needed, enabling the team rather than directing it; 3 agreed with Engineering as the
+  department's name, the growth from in effect one team into cross-functional teams delivering a
+  digital service end to end in a specialised and important field; 5 agreed with the origin and
+  the urgency added, a wish to make the curriculum available inside AI assistants, then teachers
+  found already working in them; 6 agreed with his sentence, "in which the human defines the
+  vision and strategy, and the agent builds with context, fast, and to the highest standards";
+  8 nothing cut or moved for the count, edited later across the whole profile; 10 his own
+  sentence for the making, with a review asked; 13 agreed, an editorial review of the card
+  possible later; 14 the plugin only just soft-launched, its impact not yet defined or measured,
+  so no outcome is written.
+- Applied in `SHA:9a2a66a7`: the review copy edited and copied over the draft, both identical,
+  the validator OK on both, prettier run; the merged card "Principal Engineer, Strategy and
+  Innovation · Jan 2021 – Present" at 2,824 characters against the believed 2,000, by his word
+  on item 8; the fold "I set Oak's engineering strategy: I decide what gets built and what does
+  not, and make the case for it to the people who fund and run the service. I lead the engineers
+  by enabling them, with guidance and coaching where they are needed, rather than by directing
+  the work."; "set" also on the rebuild Project card in place of "held", the same word; the growth
+  paragraph without "set the engineering strategy", which the fold now says; the Senior Developer
+  card unchanged; the status lines of every touched section; the container's decisions
+  paragraph, its Experience paragraph's count of positions, the UK attribution and the Scholar
+  item's leaving. His edits of 14 October in the review copy are committed with it.
+- Item 10 as applied: "I conceived the plugin: a public SDK, semantic search and an MCP app,
+  generated automatically from the ontology of Oak's public API and carrying a curriculum written
+  by experts." The seat's reading, for his word: in his sentence "generated automatically from
+  the Oak public API ontology" can bind the MCP app alone or all three; the applied form binds
+  all three, and if only the MCP app is generated the phrase moves next to it. "An expert
+  curriculum" became "a curriculum written by experts" so it is not read as a curriculum for
+  experts. "Set its direction" left this card; the Experience card carries "the plugin's shape,
+  its development and its strategy came from me". With item 5's cut and his sentence, "built by
+  hand before the route existed" is off the page.
+- Next: his review of the applied draft in the editor, restarted at his word; item 10 at his
+  word; the readers when he says so; the application plan when he says the draft is his.
+- The branch: the dispositions commit's first push was rejected non-fast-forward; the remote
+  coordination branch carried the consolidation lane's thirty commits (62 files, none under
+  `linkedin/`, the last `SHA:01e2df9b` at 10:40Z); the one local commit rebased onto that tip and
+  pushed. The branch is past its lifetime (cut 14 October 17:24Z); the fold follows this block.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

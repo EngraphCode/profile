@@ -206,3 +206,22 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   range**: the coordination branch censored three words and removed two owner-private phrases in
   that range after the cut; the archive carried the pre-removal bytes until it was rewritten from
   the branch, proved by a line diff of the range (four lines, then none).
+
+## 2026-10-16T11:xxZ — The owner's dispositions applied to the LinkedIn draft; the branch found moved under the seat; the fold due (Shrew rides Eventide, 371a2b)
+
+- **Applied** as `9a2a66a7`: his dispositions of 16 October on the fourteen-item dedupe and
+  enhancement proposal (the thread record `linkedin-workspace`, block 2026-10-16T11:xxZ, carries
+  the list and the seat's reading of his item-10 sentence). The two Principal cards are one card;
+  both profile copies are identical; the validator reads the merged card at 2,824 characters
+  against a believed 2,000 and he has said the count is edited later across the whole profile,
+  never to one number.
+- **The branch moved under the seat.** The first push of the dispositions commit was rejected
+  non-fast-forward: the consolidation lane's thirty commits (62 files, none under `linkedin/`)
+  were on the remote coordination branch, the last at 10:40Z today, fifteen minutes before this
+  session read `git status`. The claims registry showed one claim, this seat's; the lane's seat
+  pushed under the owner's git identity with its claim closed. The one local commit was rebased
+  onto `01e2df9b` and pushed. Lesson, for the start-right skills if it recurs: on a shared
+  coordination branch, `git fetch` and a divergence read come before the session's first commit,
+  not after its first push; the claims registry is not a read of the remote branch.
+- **The fold is due.** The branch was cut 14 October 17:24Z; the 24-hour ceiling passed at
+  15 October 17:24Z and three half-day boundaries since. The fold runs now, after this block.
