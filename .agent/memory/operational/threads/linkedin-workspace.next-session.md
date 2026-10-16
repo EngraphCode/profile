@@ -15,17 +15,12 @@ authorisation.
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
   acting: `git status`, the claims registry, the comms stream, `gh pr list`.
-- The fold, 2026-10-14T17:2xZ: the branch `2026-10-10-f436b6` folded as 327, merged at
-  `SHA:d0c995c5` from head `SHA:e4a0d507` by the bot on SETTLE-READY (one vendor round of five
-  findings, all true and on surfaces the branch already carried, one settlement push; the second
-  review no finding); the records pass before the ready-mark returned 27 items, cured in one push.
-  Successor `coordination/2026-10-14-d0c995` cut from `SHA:d0c995c5`; the folded branch retired
-  through the bot, local and remote. moved for the sites: the CV content and the entity graph
-  carry the Oak recognitions and the corrected chronology / moved for the Practice: the
-  retrospective of 10 October decided; the records-door ruling; the `profanity` topic and every
-  tracked file clean of swearing; the linkedin-skills skill by the owner's word; a rewrite keeps a
-  file's mode. The hook lane `feat/profanity-pre-commit-check` is pushed after the fold as its own
-  pull request. The LinkedIn lane is unchanged by the fold.
+- The fold, 2026-10-16T11:3xZ: the branch `2026-10-14-d0c995` folded as 336, merged at `SHA:682ad083` from
+  head `SHA:2c49b7da` by the bot (records-class, at checks green, 2.3 minutes from the
+  ready-mark; the vendor review harvested after the merge). Successor `coordination/2026-10-16-682ad0` cut from
+  `SHA:682ad083`; the folded branch retired through the bot, local and remote. The LinkedIn lane
+  continues on the successor; the draft is at the owner's dispositions of 16 October
+  (`SHA:9a2a66a7`), on `main` through this fold.
 - The LinkedIn lane: the owner's dispositions of 16 October on the fourteen-item dedupe and
   enhancement proposal are applied in `SHA:9a2a66a7` (the block of 2026-10-16T11:xxZ below):
   `linkedin/profile.md` and `linkedin/profile.review.md` are identical, his edits of 14 October

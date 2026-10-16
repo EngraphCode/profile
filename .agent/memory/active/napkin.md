@@ -189,7 +189,9 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **Leaf, for the owner's call**: a code-class door on SETTLED-NO-REVIEW when every thread of the
   last round is resolved and no review was requested on the tip, so a settlement push merges at
   the timeout arm with no round. Until then the fold and lane practice is one round per
-  code-class pull request, with a re-request only when the seat wants a second reading.
+  code-class pull request on its first tip, and after a settlement push that changes the diff
+  the re-request on the new tip is required, since the bot merges code-class on SETTLE-READY
+  alone: cures batch into one settlement push and one re-request.
 - Yesterday's five rounds across 327 and 335 in this light: three were on settlement pushes and
   would not fire automatically today; two of those three found something.
 
@@ -225,3 +227,46 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   not after its first push; the claims registry is not a read of the remote branch.
 - **The fold is due.** The branch was cut 14 October 17:24Z; the 24-hour ceiling passed at
   15 October 17:24Z and three half-day boundaries since. The fold runs now, after this block.
+
+## 2026-10-16T11:3xZ — The fold of 336: the overdue branch folded records-class at checks green; the successor cut (Shrew rides Eventide, 371a2b)
+
+- **The fold**: `coordination/2026-10-14-d0c995` folded as 336 at `682ad083` from head `2c49b7da`
+  (the bot's merge, the class computed from the paths, 67 Markdown files, on verdict WAITING-REVIEW-RUN-LIVE).
+  Clock: ready 11:14:59Z, merged +2.3 min. The merge ran while the vendor review was in flight,
+  which the owner's ruling of 2026-10-11 holds for (a review in progress is waited for, never a
+  timer); pull request 334 is the cure and is still a draft, and the seat did not hold the merge
+  by hand. Until 334 lands, a records-class fold with a review in flight is held by hand. `main` merged in
+  content-free (the merge-tree equality, no merge commit). The branch was 41 hours past its cut
+  and 18 past its ceiling: the consolidation lane's seat rebased its thirty commits onto it on
+  15 October and pushed the last today at 10:40Z, and no seat folded at the half-day boundaries
+  of 15 October or at the rollover of 16 October (the registry read n=1; the lane's seat pushed
+  with its claim closed). This session folded as its third act, after the owner's dispositions
+  and their records, where the lifetime rule's session-open trigger asks for the first.
+- **The records pass** ran beside the push's gate on the fold's diff (a read-only reviewer,
+  thirteen minutes, reporting after the merge): ten items. Cured in this commit, six: the
+  records rule's sentence on what the profanity checks read (the topic over records and
+  doctrine, the pre-commit check over every staged text file); the pathspec rule's "at every
+  commit" for the link validator, which runs at the push; two hook descriptions stale since 335
+  (the worktree-hygiene rule and the shell gotchas reference now name the staged profanity
+  check); a carry clause in the pr-lifecycle skill narrating the sibling's state; and the tense
+  of "the same bytes are carried to the sibling estate" in the practice-core changelog and
+  PDR-117. Declined, three: a superseded continuity bullet, the 17:2xZ Director block and the
+  consolidation thread record's dated blocks, history by the records' convention that the
+  newest block governs. Noted, one: an experience letter's count of twenty-four against the
+  thread record's twenty-two, kept as captured at the owner's word of 15 October. The tenth,
+  the author-skills skill's "portability:check does not read descriptions", was unverified
+  until the vendor review named the projection validation; cured below.
+- **The vendor review**, harvested after the merge under clause 9(e): landed 11:26:27Z, nine
+  minutes after the merge, six findings. Cured in this commit, five: the napkin's sentence of
+  15 October on re-requesting (optional as written, required after a settlement push, since the
+  bot merges code-class on SETTLE-READY alone); the continuity record's Next Safe Steps item 3
+  (the fold now run, the review in flight held for until 334 lands) and its consolidation status
+  line (the pass complete, its lane on `main`); the worktree-hygiene rule and the shell gotchas
+  reference, where "run by hand before a push" contradicted the owner's ruling in AGENT.md
+  against running gates beside the hooks (knip and the dependency cruiser run inside the
+  pre-push gate); the author-skills sentence (portability:check reads rule descriptions through
+  the rendered adapters, skills:check skill descriptions). Rejected, one: the triage rule's "a
+  triage never cures all nor declines all" is the owner's ruling of 2026-10-02 as recorded, the
+  per-finding assessment preceding it; its wording is his to soften.
+- **Successor** `coordination/2026-10-16-682ad0` cut from `682ad083`; the folded branch retired through the bot, local and
+  remote. The LinkedIn lane continues on the successor at the owner's word.

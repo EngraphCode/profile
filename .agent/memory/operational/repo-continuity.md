@@ -21,6 +21,15 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-16T11:3xZ: the coordination branch `2026-10-14-d0c995` folded as 336 at `SHA:682ad083`; the
+  successor `coordination/2026-10-16-682ad0` cut from it** (Shrew rides Eventide, 371a2b; records-class, the bot's merge at
+  checks green from head `SHA:2c49b7da`, 2.3 minutes from the ready-mark; the branch a day past
+  its lifetime, the third consolidation's close carried on it by its own seat's rebase of
+  15 October; the folded branch retired through the bot). moved for the sites: nothing / moved
+  for the Practice: the third consolidation's close on `main`; the records rule carries the
+  owner's no-swearing ruling and its scope; the fold doctrine the same in both estates; the
+  LinkedIn draft at the owner's dispositions of 16 October.
+
 - **2026-10-14T18:0xZ: the pre-commit profanity check is on `main` as 335 at `SHA:c275c866`
   (`repo-check profanity-staged`, each staged file read from the index, binary by content, the
   lexicon's own directory excepted), and `origin/main` is merged into the successor as
@@ -148,10 +157,13 @@ the work they still held, compacted, each a lane of its own at the owner's routi
    the pr-watch required-checks and settlement modules, with their tests), under the join ceremony and
    the divergence measure; its fold and lifecycle doctrine stays divergent until that code lands there
    (the third consolidation's finding of 2026-10-14).
-3. The next fold runs the new door (the records pass beside the opening gate, the review requested at the
-   ready-mark and never waited on, the fold-clock line on the ledger row); its clock is the first
-   measurement of the cure against the owner's ten-minute bound. The coordination branch of 2026-10-10 is
-   late by the owner's ranking of the consolidation above it.
+3. The fold of 336 (2026-10-16) ran the new door: the records pass beside the opening gate, the review
+   requested at the ready-mark, the bot's merge at checks green 2.3 minutes after it, inside the owner's
+   ten-minute bound. It merged while that review was in flight, which the owner's ruling of 2026-10-11
+   holds for (a review in progress is waited for, never a timer); pull request 334 is the cure and is
+   open as a draft, so until it lands a records-class fold with a review in progress is held by hand.
+   The review, harvested after the merge, gave six findings, five cured in the successor's first
+   records commit.
 4. `--fail-if-no-match` on every filtered alias in the family manifest and the root scripts, with the
    manifest self-check in `validate-family-conformance`, the same bytes in both estates.
 5. The LinkedIn lane, Shrew rides Eventide's: the Oak entry and the container's opening-sentence scope (the
@@ -165,8 +177,9 @@ the work they still held, compacted, each a lane of its own at the owner's routi
 7. Owner acts owed for the turbo node's first criterion (the Vercel OIDC policy; the `TURBO_TEAM`
    variable), per `threads/turbo-remote-cache.next-session.md`.
 
-Deep consolidation status: the third dedicated pass in progress; registers 0 here and 1 in the sibling at
-2026-10-14 12:xxZ; the oversized memory files and the close remain (the thread record).
+Deep consolidation status: the third dedicated pass complete, closed 2026-10-14 12:3xZ with the registers
+at 0 here and 1 in the sibling; its lane landed on `main` through the fold of 336 (2026-10-16); the next
+pass is at the owner's word (the thread record).
 
 The items below are still open from the 2026-09-16 snapshot, each verified in the tree on
 2026-09-30; the snapshot itself, with its later state notes, is archived byte-identical in
