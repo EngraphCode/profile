@@ -6,6 +6,22 @@ Practice Core package. A joint change carries the writing seat's repository
 tag in both repositories; the other repository's slug is never written here
 (the write hook refuses it, 2026-10-02).
 
+## [jimcresswell.net] 2026-10-13 — PDR-063 amended: a claim retained for an unnamed successor closes at the owner's word
+
+- PDR-063 §Retirement authority ruling 3 gains the owner's word of 2026-10-11:
+  where no successor is named at the handoff, the retained claim closes at his
+  word with the record path kept in its archived closure, and the successor
+  picks up by the thread record's pointer with a fresh claim rather than by
+  adoption, because a retained claim keeps F-95 refusing every other seat's
+  claim until a watcher is armed. Written by the third dedicated consolidation
+  from the napkin's 2026-10-11 blocks; the same bytes are carried to the
+  sibling estate at its stage of the pass.
+- PDR-117 gains the amendment of 2026-10-02: the owner's words licensing the
+  Director role (context preservation over longer timescales for team-level
+  continuity; strategic decisions shared, implementation delegated; cohesion
+  while seats rotate in and out), read from the comms stream of that day by
+  the same consolidation; the same bytes to the sibling estate.
+
 ## [jimcresswell.net] 2026-10-04 — the general layer aligned by class: one Core text in both estates
 
 - The Core's two copies become one text, merged by concept from the parity

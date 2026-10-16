@@ -145,7 +145,15 @@ into the permanent record):
 ## Phase 1 — Before opening
 
 1. **Divergence**: `git fetch origin main`; if behind, merge `origin/main`
-   into the branch (never rebase-and-force-push an already-pushed branch).
+   into the branch. Anything coming in from the default branch is merged,
+   never rebased, pushed or not, whatever a handoff or plan line says (the
+   owner, 2026-10-02: "anything coming in from main must always be merged, not
+   rebased, we must maintain the shared history"; a rebase rewrites commits
+   that carrier pull requests, the mirror branch and ancestry proofs depend
+   on). The host's mergeability reading does not follow renames across the
+   merge base, so a branch that renamed what the default branch edited reads
+   CONFLICTING until the default branch is merged in; the cure is the merge
+   (2026-10-03).
    When the update touches agent memory/state files, author the union by hand
    per the `semantic-merge` skill — a git line-merge silently corrupts them.
    Tripwire: a conflict beyond trivial union-append on `.agent`
@@ -288,9 +296,9 @@ diff carries the request (under the held-cure shape that is the slot's one
 sync push, so the cadence and the tip-bound gate meet at the same push); a
 pure sync requests nothing (§merge boundary item 5). Copilot's
 absence never blocks a merge on a docs-only bot-authored pull request (the
-owner's 2026-09-03 exception, §merge boundary item 5; since 2026-10-10
-`merge-bot merge` reads the class from the diff and merges it at green,
-the review harvested after the merge); on a code pull
+owner's 2026-09-03 exception, §merge boundary item 5; `merge-bot merge`
+reads the class from the diff and merges it at green, the review harvested
+after the merge); on a code pull
 request the configured Copilot leg is OWED until it binds the tip, and the
 bot obtains it with its own request (§Phase 1, §merge boundary). Suppressed findings are Copilot's own low-confidence
 bucket: the burden of proof is REPRODUCTION before cure — a non-reproducing
@@ -895,7 +903,11 @@ line to its round and item; a body-only disposition without it, or a
 comment that batches findings under prose headings, reads as "manual tally
 required" for those items, exactly as an unmarked review body does — where
 an unmarked body is one carrying finding prose without the reviewer's
-markers; a reviewer's no-finding boilerplate carries no item and raises zero,
+markers (a sentence under a "Findings: None" heading that says conflicts
+remain is a finding to test, never prose: an overview said so above three
+true contradictions, and a watch counting threads alone fired READY under
+a body listing "previously missed" findings, 2026-10-02); a reviewer's
+no-finding boilerplate carries no item and raises zero,
 never manual — and boilerplate is proven by the reviewer's own marker parse
 yielding no item, never by a footer: Codex's ordinary summary has no
 badge-and-heading item; a Copilot body counts as boilerplate only when its
@@ -1476,24 +1488,25 @@ create` on such a branch exits non-zero with "a pull request for branch …
    configured leg bound plus the posted subagent review where a vendor
    is unavailable (item 3's owner ruling of 2026-09-10), never by the
    REST merge below. The exception stands for
-   the docs-only bot-authored class on its own grounds, and since
-   2026-10-10 the tool knows the class: `merge-bot merge` computes it from
+   the docs-only bot-authored class on its own grounds, and the tool knows
+   the class: `merge-bot merge` computes it from
    the pull request's changed files (every path documentation or Practice
    prose, decided per path as above; `change-class.ts`), merges at checks
    green BY NAME (the base branch's required contexts, read from its rules at
    run time; a pending check the rules do not require, the vendor's own
    review run among them, does not hold a records-class pull request, a
-   failed check of any name does) with zero unresolved threads and no
-   suppressed finding held on the verdicts that differ from SETTLE-READY only
-   by the vendor leg (`RECORDS_CLASS_MERGE_STATES`), and names the ground in
+   failed check of any name does) with zero unresolved threads on the
+   verdicts that differ from SETTLE-READY only by the vendor leg
+   (`RECORDS_CLASS_MERGE_STATES`), and names the ground in
    its evidence; a
    vendor review requested on the tip is harvested after the merge under
    PDR-140 clause 9(e). The interim this clause carried until then ("until
    the tool learns that class, the merging seat recomputes that gate by name
    and lands the merge through the sanctioned REST endpoint as the bot")
-   ended as its own PDR-130 prediction said it would: four folds waited on
-   the leg between 2026-10-04 and 2026-10-10, and the tool learned the class
-   (the retrospective of 2026-10-10; the owner's decision on its proposal 1). The two
+   ended as its own PDR-130 prediction said it would: four jimcresswell.net
+   folds waited on the leg between 2026-10-04 and 2026-10-10, and the tool
+   learned the class there (the retrospective of 2026-10-10; the owner's
+   decision on its proposal 1), carried to OCE at his word of 2026-10-14. The two
    non-bot shapes remain: the explicit
    `gh pr merge --merge` command, or ARMING auto-merge — permitted
    exactly and only **at settled-READY under a Director grant**
@@ -2085,7 +2098,12 @@ allow_squash_merge, allow_rebase_merge}'`; `allow_merge_commit` has
     and pushed two branches while its PR was open (2026-10-01); the recurrence
     is the push and the second pull request, never the local commit. The cure
     is a check at the first push, in the frictions register, and not this
-    sentence.
+    sentence. A pull request held at its door for the owner's reading is a
+    review surface, not work in progress: it leaves the estate's one
+    in-progress slot free and the next lane opens beside it (the Director's
+    ruling of 2026-10-02 under the owner's delegation, on the parity ledger's
+    twin pull requests). A guard encodes a reading of a rule and is re-read
+    against the current ruling before a seat waits on it.
   - **The owner lands small green pull requests by hand, in changed-file
     order** (owner, 2026-09-26: "I can make judgements that allow me to merge
     small PRs many, many times faster than Practice agents"). Never hold a

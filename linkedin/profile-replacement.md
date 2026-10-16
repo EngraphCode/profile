@@ -40,7 +40,7 @@ and the Skills say them in LinkedIn's nouns:
   Modeling, Parameter Estimation, Scientific Writing, Science Communication, Public Speaking.
 - **Making sense of the unknown**: the About's first line; Obaith; the Passport Office. Skills:
   Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
-- **Shaping strategy and systems**: "I hold Oak's engineering strategy" and the rebuild on the
+- **Shaping strategy and systems**: "I set Oak's engineering strategy" and the rebuild on the
   Principal card. Skills: Strategic Leadership, Technology Leadership, System Architecture, Open
   Data, Open Standards, Public Sector, Digital Government, Edtech, Social Impact, Mentoring.
 
@@ -52,6 +52,21 @@ Impact (the direction, shown by Oak). The next two, Systems Thinking and Strateg
 are the first lines under Show all: how he thinks and at what level. Jim is the authority on
 every name; the method is the `linkedin-skills` skill's §Choose by Jim's word and the
 understanding.
+
+Settled with Jim on 16 October, by his dispositions on the fourteen-item dedupe and enhancement
+proposal for the About and the Oak sections: two Oak cards, the two Principal cards merged into
+one, January 2021 to present, with the function's growth inside it (Engineering the department,
+one team into cross-functional teams delivering end to end) and the formalisation sentence
+closing that paragraph; the fold shows the level by decision and the leadership as enabling,
+with guidance and coaching where needed; the plugin paragraph carries its origin and its urgency
+(teachers already working in the assistants); the Practice paragraph in his words (the human
+defines the vision and strategy, the agent builds with context, fast, and to the highest
+standards); the About's third paragraph's last sentence split in two; the making on the plugin
+Project card in his sentence, under his review; the Practice Project card's two phrases; the
+rebuild Project card without the consequence clause; the Senior Developer card unchanged, an
+editorial review of it pending at his word; nothing cut or moved for the count, which is edited
+later across the whole profile; the plugin's impact not yet defined or measured, a soft launch,
+so no outcome is written. Each item applied only at his disposition.
 
 Settled with Jim on 12 October, in a round of self-contained questions at his request, for the
 next editable draft, which he edits in the editor: the Principal card stands alone at the fold
@@ -109,7 +124,9 @@ Curriculum-aligned" out of the second sentence, so ChatGPT and Claude land above
 
 ## Experience — Oak National Academy — drafted, revised by Jim, under the readers
 
-Three positions, grouped under Oak, dated by Jim on 10 October (correcting the chronology the
+Two positions from 16 October, when Jim merged the two Principal cards into one, January 2021 to
+present (the decisions paragraph above); as first dated by Jim on 10 October, three positions,
+grouped under Oak (correcting the chronology the
 8 October draft carried; "a consulting Principal after the first 5 months", the dates showing
 the move from independent consultant to employee): **Senior Developer (consulting)**, August to
 December 2020, "there at the beginning", five months to ship the first teacher-facing service;
@@ -183,8 +200,8 @@ Open for Jim, with the draft:
   stands beside it, that a funder discounts an absolute no reader can check.
 - "As Oak became a permanent public body, an arm's-length body of the Department for
   Education": Oak's own description (the status from September 2022, after the June 2022
-  formalisation, so the sentence ties the two by "as", a process, not a date); Jim's "England's
-  official curriculum body" is the stronger phrase and his to restore.
+  formalisation, so the sentence ties the two by "as", a process, not a date); Jim's "the UK's
+  official curriculum body", his phrase throughout, is the stronger one and is in the About.
 - The About's fold: the first ~200 characters carry the opener and the physics sentence and no
   leadership signal; a proposed second sentence that states the level and the largest
   consequence is with Jim in chat, not applied, the About being approved copy.
@@ -517,9 +534,9 @@ record lists the thesis and the two papers, the same three the Publications carr
 DOIs; the print view is in the local reference directory). The seat first put the two records in
 the contact websites in place of the CV and GitHub links, LinkedIn's contact information
 carrying three; his correction the same morning: removing those links was not appropriate, and
-there is more than one way. So, settled in conversation: the contact routes stand as drafted; Scholar is the one Featured
-item, in its own figures (a hundred and twenty-eight citations, significant to some readers and
-ignored by others, a large net positive in his assessment); the two papers link by DOI and the
+there is more than one way. So, settled in conversation: the contact routes stand as drafted; the
+Scholar Featured item of 12 October, in its own figures, left at his word on 14 October; the two
+papers link by DOI and the
 thesis is a third Publications entry, the three works the ORCID record lists; the ORCID iD sits
 on the PhD entry.
 

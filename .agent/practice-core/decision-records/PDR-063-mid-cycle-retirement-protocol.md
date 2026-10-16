@@ -8,7 +8,9 @@ pdr_kind: governance
 §Deliberate succession, owner rulings; amended 2026-07-13 — signal
 model, observable floor, executable bounds, transport exception;
 amended 2026-09-25 — context readings never stop a seat, owner word;
-the owner starts every handoff)
+the owner starts every handoff; amended 2026-10-11 — with no successor
+named, the retained claim closes at the owner's word and pickup is by the
+record's pointer, §Retirement authority ruling 3)
 **Date**: 2026-05-22
 **Related**:
 [PDR-026](PDR-026-per-session-landing-commitment.md)
@@ -298,7 +300,18 @@ progress on the handed-off work).
    successor later picks up via claim ADOPTION (the §Deliberate
    succession in-flight substrate), which needs no directed event from
    the departed seat. The seat closes cleanly; successor instantiation
-   then follows ruling 4 from the record.
+   then follows ruling 4 from the record. Amended 2026-10-11 at the
+   owner's word ("remove the stale claim, I will start a dedicated
+   consolidation session later, just make sure the consolidation handover
+   remains discoverable"): where no successor is named at the handoff,
+   the retained claim closes at the owner's word with the record path kept
+   in the claim's archived closure, and the successor picks up by the
+   thread record's pointer with a fresh claim in its own name rather than
+   by adoption. The cost the word removed: a claim retained for an unnamed
+   successor keeps F-95 refusing every other seat's claim in that registry
+   until a watcher is armed (the third dedicated consolidation's claim,
+   2026-10-11; its twin in the sibling estate stayed open two days and
+   blocked nothing only because that registry had no other claimant).
 4. **Successor instantiation is owner-mediated until session-spawn
    automation exists** (the owner's named automation gap: "yes to
    automated handoff, however we have no way of automatically

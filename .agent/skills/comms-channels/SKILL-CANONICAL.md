@@ -164,7 +164,11 @@ which always does (2026-10-02).
    to learn which live seats this session can currently address, and
    refresh the discovery before relying on it — a session-open
    snapshot goes stale as sessions and Remote Control connections
-   change. Non-Claude seats have no s2s ceremony at all (behaviours 2
+   change. The listing can show a peer the stream does not: on
+   2026-10-11 the canonical stream read n=1 while the harness list showed a
+   live seat on the primary that had posted no team-start event, so the
+   roster is read from both before a seat calls itself solo. Non-Claude
+   seats have no s2s ceremony at all (behaviours 2
    and 3 keep every flow whole without it). Discovery is directional,
    not reciprocal — inbound delivery can be held for approval — so
    reachability is confirmed only by an answered ping, never by a
@@ -180,6 +184,12 @@ another agent that a file got bigger? … tools like git don't need 'telling'",
 then "it is also reasonable to send information to a fellow agent, sometimes
 that is important and is neither a question not a request, but it should be
 useful information". Git and the file already record edits to a shared file.
+Second instance, the owner, 2026-10-11, verbatim: "stop messaging every little
+to Shrew, they are concentrating on a different task", after a seat had agreed
+a word before every commit and push on the shared primary. On a shared primary
+the claims registry, the commit queue and the push gate are the coordination;
+a direct message goes only when the peer must act (a hold to release, a push
+that will block their edits for minutes), and those are batched into one.
 A Director that posts nothing on the canonical stream holds no id there, so
 `comms direct` cannot reach it: the question goes as a narrative event (the
 record) plus a native message (the delivery) (2026-09-24).

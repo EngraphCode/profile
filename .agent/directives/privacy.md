@@ -251,5 +251,13 @@ reviewer's reading of this section: "That was overkill, there is no problem indi
 private repo exists"). Never publish its remote, commit identifiers, history or custody records.
 The parent repository never tracks it as a submodule. `.agent/private/` is an ignored boundary for isolated local notes.
 
+When his sentence answers why he can claim a thing or what he is, the tracked file carries the
+decision only and the sentence goes to the private editorial repository this section names,
+never to a directory the seat invents (the owner, 2026-10-11: "you can't just make up a private
+directory and label it as a repo"); a tracked file or an unpushed commit already carrying it is
+amended before any push. The sweep after such a correction searches for the class (his
+intentions, his reasons about himself), never the corrected sentence, and a second reader runs
+it.
+
 Git ignore is not a complete tooling boundary: whole-repository tools take the tracked tree as
 their universe, so ignored material is never entered or read.

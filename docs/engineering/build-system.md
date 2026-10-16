@@ -427,6 +427,12 @@ cache only (`--cache=local:rw`), so a lapsed token, a missing one or no network
 cannot fail a commit: a dry run that reaches the remote cache and cannot
 authenticate writes a `WARNING` the step reads as the diagnostic it is. The lint
 run itself and every full gate use both caches, and the warning still shows there.
+The dry run takes `local:rw`, not `local:r`: under `TURBO_FORCE=true` a dry run
+with `--cache=local:r` meets "WARNING no caches are enabled" while `local:rw` is
+silent (probed first-hand, 2026-09-30). The team is named in five places, which
+must agree: `turbo.json`'s `remoteCache.teamSlug`, the CI workflow, the keychain
+token, the `TURBO_TEAM` repository variable and the hook notice; `turbo config`
+on each host is the check that they do.
 
 | Task                            | Cached | Notes                                                            |
 | ------------------------------- | ------ | ---------------------------------------------------------------- |

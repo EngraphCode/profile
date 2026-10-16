@@ -60,6 +60,20 @@ the content lives, since there is more than one way; additions and corrections t
 listed are applied and named; and the seat never defers with "at your word" nor cites his earlier
 words back at him as rules, because he can change his mind, learn, and meet new circumstances.
 
+His instruments: a table he edits in place and a numbered reply; for a backlog, self-contained
+question cards, each carrying the text under decision, the reader's take and one proposal per
+option (2026-10-12: "ask me all open questions now, as user questions, each self-contained so I
+can answer it from the card alone"). A review reads the open list first and marks each item
+agreed or open; agreed intent is never critiqued; a settled item is never listed again, not even
+as closed (2026-10-13: "stop bringing it up as open, I will do it, the matter is settled"); an
+item he calls his own edit gets no proposal; a mindset he names is shown by how the page is
+written, never by a noun's position; every message leads with what changed that he did not ask
+for. Outside eyes go to every removal and every number. A profile audit inventories every
+section present and every relevant absent one, then spends its depth where a reader's
+misunderstanding or a consequential choice is material (2026-09-26: "Every single part of my
+LinkedIn needs evaluating"); concrete, evidence-based proposals come before any question to him,
+and a question is asked only where his answer changes the result.
+
 ## Impact framing
 
 Impact means climate, ecological, and societal good — as in "impact funding", not "business impact"
