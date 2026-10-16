@@ -27,15 +27,17 @@ authorisation.
   committed with the dispositions, the two Principal cards merged into one (January 2021 to
   present), the validator OK on both copies; his corrections of 12:1xZ applied after (the fold
   carries responsibility and authority through enabling, never "set"; item 10's sentence his
-  verbatim, deliberate in every part). Next, at his word of 12:1xZ: a holistic editorial review of
-  the Oak sections and the Oak-related content (the About's Oak paragraphs, the two Oak cards,
-  the Featured items, the three Oak Project cards), the editor's developmental pass first, its
-  findings put to him for dispositions; then his review in the editor (`pnpm --filter linkedin
-  editor`, restarted only at his word). The count of the merged card (2,824 characters against
-  the believed 2,000) is edited later across the whole profile, never to one number. The
-  application plan is authored when he says the draft is his; the private repository's pull
-  request 6 is his to merge. This seat works the LinkedIn lane only (his word of 16 October);
-  the merge tooling's fix is Flint's.
+  verbatim, deliberate in every part); the editor's holistic review of the Oak content ran at
+  12:3xZ and his dispositions on its nine items are applied (the block of 2026-10-16T12:4xZ
+  below). Next, after the compaction of 16 October at his word: the review of the Oak cards and
+  the Oak-related content with him, starting from that block's three open items (the merged
+  card's opening sentence, his to edit by hand, a candidate offered; the Practice Project card's
+  second sentence; its opener rewritten from the surface's intent, a proposal offered); then his
+  review in the editor (`pnpm --filter linkedin editor`, restarted only at his word). The count
+  of the merged card (2,824 characters against the believed 2,000) is edited later across the
+  whole profile, never to one number. The application plan is authored when he says the draft is
+  his; the private repository's pull request 6 is his to merge. This seat works the LinkedIn
+  lane only (his word of 16 October); the merge tooling's fix is Flint's.
 - Swearing: at his word of 14 October the public repository carries none. The agent-tools
   `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
   The Good Place's words; rules and decision records are elided by hand. The pre-commit check
@@ -742,6 +744,48 @@ word on 14 October).
   from it; the corrections land there.
 - Next: the holistic editorial review of the Oak sections and the Oak-related content, the
   editor first, findings to him by number; the readers beyond the editor at his word.
+
+### 2026-10-16T12:4xZ — The editor's holistic review of the Oak content: nine items, Jim's dispositions applied; three open for the review after compaction (Shrew rides Eventide, 371a2b)
+
+- The `editor` agent read the Oak content as one system (the About, the two Oak cards, the three
+  Featured items, the three Oak Project cards) against the container and EDR-007/EDR-008; nine
+  items, the division of labour of 16 October found holding, no wrong noun on any Oak surface.
+- His dispositions (12:3xZ), applied in the commit of 12:4xZ, both copies identical, the
+  validator OK: (1) the pipeline's consequence as the sentence after his on the plugin Project
+  card, "The whole pipeline runs from the API's OpenAPI specification, so when the API changes
+  the SDK, the search and the MCP app follow."; (2) the Senior Developer card's second sentence
+  his, "I joined to ship the first teacher-facing service, delivered it, then built the
+  engineering foundations the first months had left no time for."; (3) the plugin paragraph's
+  attribution before the reach, the paragraph ending on where the plugin runs; (6) agreed, no
+  change; (7) "It was alongside": the card's Practice paragraph now opens "Alongside the plugin I
+  built the Practice, the way of working it was built in:"; (9) the Featured caption says "free,
+  openly licensed", both.
+- Open, for the review after the compaction of 16 October:
+  - (0) the merged card's opening sentence on the strategy is his to edit by hand; he asked for
+    suggestions, and said "setting direction and holding space for the teams to achieve delivery
+    is about right". The seat's candidate: "Oak's engineering strategy is my responsibility: I
+    set the direction, decide what gets built and what does not, and make the case for it to the
+    people who fund and run the service. The teams deliver it, and I hold the space for them to,
+    with guidance, mentoring and coaching where it helps."
+  - (4) the Practice Project card's second sentence restates the parts as clauses and ends on
+    the About's pace-and-knowledge claim; his view: justified by the section's own audience, open
+    to discussion. The seat's reading: the About-to-card echo is defensible (a Projects reader
+    may never read the About); the within-card relist is not audience-driven. Proposal: keep the
+    why ("so AI-first delivery runs at pace without losing the institutional knowledge it puts
+    at risk") and drop the relist before it.
+  - (5) the identical opener ("The way of working the Oak AI plugin was built in") on the merged
+    card and the Practice Project card; his word: examine each surface's intent, never smooth.
+    The intents: the card's Practice paragraph is the role's proof, why he built it and the
+    division between human and agent; the Project card describes the artefact, what it is, who
+    uses it, where it lives. The opener defines the artefact by its relation to the plugin, the
+    card's job, so the Project card opens on the artefact. Proposal: "Three parts: the tooling,
+    the rules every agent works to, and the written memory that keeps what the work learns."
+    then the kept second sentence, then "The Oak AI plugin was built in it; the engineers working
+    on the Open Curriculum Ecosystem build in it now; it is public in that repository, made to be
+    taken up a piece at a time."
+  - (8) "building out the direction I set" in the pattern paragraph stands at his word.
+- The merged card remains over the believed limit (edited across the whole profile later, never
+  to one number). The editor stays stopped until he says.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

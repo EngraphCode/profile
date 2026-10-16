@@ -303,3 +303,37 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   message with the facts and the source pointers; this seat works the LinkedIn lane only.
 - **Next on the lane**: a holistic editorial review of the Oak sections and the Oak-related
   content, once these corrections are landed.
+
+## 2026-10-16T12:5xZ — Compaction boundary at the owner's word; n=2 under his routing; the LinkedIn lane resumes after (Shrew rides Eventide, 371a2b)
+
+- **The owner's word (12:3xZ)**: the editorial review's dispositions resolved, then "prepare for
+  compaction, and after compaction we review the Oak cards and related content"; the cognition
+  skills and the wrap run, then every process stopped. His routing the same hour, as Flint guards
+  Vapor's claim records it: Shrew the editorial work; Flint everything else, pushes and merges
+  included. Flint re-seated at 12:39Z, absorbed the merge tooling's Copilot coupling (334 first,
+  the coupling after) and opened the lane `fix/profanity-check-scope-at-the-owners-word` (the
+  staged check narrowed to the Practice files at his word of 14 October); the records rule's
+  sentence on what the check reads is theirs to make true with the tool.
+- **Landed today**: the fourteen dispositions (`9a2a66a7`), the fold of 336 and his merge of 337,
+  the corrections of 12:1xZ (`6d7c7809`, `fe0cb547`, `b9f7cb1c`), the editorial review's
+  dispositions (`17e457b1`, rebased onto Flint's commits at the boundary). The merged Oak card
+  reads 2,824 characters against a believed 2,000, by his word untouched until the whole-profile
+  pass.
+- **After compaction, the first acts**: read ahead/behind on the coordination branch before any
+  edit (the branch moved under this seat twice today); renew the LinkedIn claim's heartbeat; then
+  the review of the Oak cards and related content with him from the thread record's block of
+  12:4xZ (the three open items, the proposals written there); the editor server only at his word
+  (`pnpm --filter linkedin editor`, 127.0.0.1:4780).
+- **Processes**: none running at the boundary. The four background tasks of the day (the bot's
+  settle watch, the review wait, the records pass, the editor's review) each completed and
+  reported; no monitor, cron or watcher was armed; the editor server never ran. Nothing to
+  re-arm: the claim `3b4a1be4` is held across the boundary, its heartbeat renewed here
+  (`collaboration-state claims heartbeat --claim-id 3b4a1be4-a590-4bf1-b0f6-83b9b30a4554`).
+- **Metaloss, the fixed point**: the compressed reasoning behind every applied sentence is in the
+  thread record's blocks of 11:xxZ, 12:2xZ and 12:4xZ with his dispositions by number; every
+  promise is discharged or named (the tooling to Flint, absorbed 12:39Z; the fold-cadence wording
+  of the lifetime rule left for him; the Senior Developer card's pass taken by the editor); the
+  one inference flagged: that Flint's rule and test edits in the primary's working tree belong to
+  their lane, read from their claim, not from their word. What this seat cannot see: the inside
+  of Flint's lane and whether their push carries this seat's commits before compaction. A further
+  pass would only re-find these; the recursion closes here.
