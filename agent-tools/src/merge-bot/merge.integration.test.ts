@@ -435,3 +435,56 @@ describe('runMergeExecution — what is owed is read from the review configurati
     expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
   });
 });
+
+describe('runMergeExecution — suppressed findings survive an unreviewed push (Copilot on #339, 2026-10-16)', () => {
+  const OLD_TIP = 'b'.repeat(40);
+  const earlierWithSuppressed = makeReading({
+    reviewConfiguration: { kind: 'configured', reviewOnPush: false, reviewDraft: false },
+    reviews: [
+      {
+        id: 'PRR_1',
+        author: 'copilot-pull-request-reviewer',
+        state: 'COMMENTED',
+        body: '### 🔵 Needs a closer look\n\n<details>\n### Suppressed comments (1)\n</details>',
+        commitOid: OLD_TIP,
+        submittedAt: '2026-08-06T07:05:00Z',
+      },
+    ],
+  });
+
+  it("refuses the unreviewed later tip while the earlier review's suppressed finding stands undispositioned", async () => {
+    const { fetchImpl, calls } = makeFetchPort({});
+
+    const outcome = await runMergeExecution(makeInput(earlierWithSuppressed, fetchImpl));
+
+    expect(outcome.ok).toBe(true);
+    if (outcome.ok) {
+      expect(outcome.value.kind).toBe('refused');
+      if (outcome.value.kind === 'refused') {
+        expect(outcome.value.verdictState).toBe('SUPPRESSED-FINDINGS-OPEN');
+        expect(outcome.value.evidence.join('\n')).toContain(`head SHA:${OLD_TIP.slice(0, 7)}`);
+      }
+    }
+    expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
+  });
+
+  it('merges once a signed disposition line against the earlier tip lifts the finding', async () => {
+    const { fetchImpl } = makeFetchPort({});
+    const dispositioned = makeReading({
+      ...earlierWithSuppressed,
+      issueComments: [
+        {
+          author: 'acme-bot',
+          body: `**Over-bar** head SHA:${OLD_TIP.slice(0, 7)} · review PRR_1 · a.ts:1 · item 1 of 1 — Rejected: the finding misreads the guard.\n\n— Flint guards Vapor (9b835d)`,
+        },
+      ],
+    });
+
+    const outcome = await runMergeExecution(makeInput(dispositioned, fetchImpl));
+
+    expect(outcome.ok).toBe(true);
+    if (outcome.ok) {
+      expect(outcome.value.kind).toBe('merged');
+    }
+  });
+});
