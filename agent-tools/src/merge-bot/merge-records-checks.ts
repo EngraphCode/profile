@@ -174,9 +174,13 @@ async function resolveChecksRunning(
     };
   }
   const changeClass = classifyChangedPaths(paths.value);
-  return changeClass.kind === 'records'
-    ? { verdict: narrowed.verdict, changeClass }
-    : { verdict, changeClass };
+  if (changeClass.kind !== 'records') {
+    return { verdict, changeClass };
+  }
+  // The narrowed verdict passes the same door as a verdict read whole: a
+  // deployment check set aside must not let an outstanding request through.
+  const held = heldRecordsDoor(input.reading, narrowed.verdict);
+  return held ?? { verdict: narrowed.verdict, changeClass };
 }
 
 /**

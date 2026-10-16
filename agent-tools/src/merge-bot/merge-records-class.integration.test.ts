@@ -151,6 +151,33 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
     expect(calls.some((call) => call.url.includes('/pulls/42/files'))).toBe(false);
   });
 
+  it('waits on an outstanding request when a pending deployment check sent the verdict through the narrowing branch', async () => {
+    const { fetchImpl, calls } = makeClassPort(recordsFiles);
+    const reading = makeReading({
+      author: 'app/acme-bot',
+      reviews: [],
+      checksGreenAt: null,
+      expectedReviewers: ['copilot-pull-request-reviewer', 'chatgpt-codex-connector'],
+      reviewRequests: ['chatgpt-codex-connector'],
+      namedChecks: [
+        { name: 'run-quality-gates', bucket: 'passed' },
+        { name: 'CodeQL', bucket: 'passed' },
+        { name: 'Vercel Preview Comments', bucket: 'pending' },
+      ],
+      checks: { total: 3, passed: 2, failed: 0, pending: 1 },
+    });
+
+    const outcome = await runMergeExecution(makeInput(reading, fetchImpl));
+
+    expect(refusedState(outcome)).toBe('WAITING-REVIEW-RUN-LIVE');
+    expect(
+      refusedEvidence(outcome).some((line) =>
+        line.includes('expected reviewer requested: chatgpt-codex-connector'),
+      ),
+    ).toBe(true);
+    expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
+  });
+
   it('waits on a request still outstanding past the checks-green timeout, never merging a records fold on SETTLED-NO-REVIEW', async () => {
     const { fetchImpl, calls } = makeClassPort(recordsFiles);
     const reading = makeReading({
