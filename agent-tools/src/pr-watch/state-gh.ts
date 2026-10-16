@@ -8,6 +8,7 @@ import {
   type PathExistsCheck,
   type PrTarget,
 } from './gh.js';
+import { readReviewConfigurationLeg } from './review-configuration-leg.js';
 import { readReviewRunsLeg } from './review-runs.js';
 import { readHarvestBracket, readReviewThreads } from './harvest-bracket.js';
 import { readIssueComments } from './issue-comments.js';
@@ -145,7 +146,9 @@ export function readPrStateReading(options: ReadPrStateOptions): PrStateReading 
       const reviewRuns = readReviewRunsLeg({ run, gh, prNumber: number, prUrl });
       const tip = readMergeabilityComputedView({ run, gh, viewArgs, prNumber });
       const issueComments = readIssueComments(legInput);
-      return { reviewThreads, reviewRuns, issueComments, confirm: tip };
+      // The base branch's configuration, from the view the reading composes from.
+      const reviewConfiguration = readReviewConfigurationLeg({ run, gh, repo, view: tip });
+      return { reviewThreads, reviewRuns, issueComments, reviewConfiguration, confirm: tip };
     });
     if (confirm.headRefOid === view.headRefOid) {
       return {

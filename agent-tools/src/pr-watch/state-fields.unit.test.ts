@@ -117,6 +117,7 @@ describe('parseStateView', () => {
       'mergeable',
       'mergeStateStatus',
       'headRefOid',
+      'baseRefName',
       'statusCheckRollup',
       'autoMergeRequest',
     ]);

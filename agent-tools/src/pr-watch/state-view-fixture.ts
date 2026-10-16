@@ -13,6 +13,7 @@ export interface StateViewSeed {
   readonly mergeable: string;
   readonly mergeStateStatus: string;
   readonly headRefOid: string;
+  readonly baseRefName: string;
   readonly statusCheckRollup: readonly unknown[];
   readonly autoMergeRequest: unknown;
 }
@@ -27,6 +28,7 @@ export function stateViewFixture(): StateViewSeed {
     mergeable: 'MERGEABLE',
     mergeStateStatus: 'BLOCKED',
     headRefOid: 'f'.repeat(40),
+    baseRefName: 'main',
     statusCheckRollup: [
       {
         __typename: 'CheckRun',

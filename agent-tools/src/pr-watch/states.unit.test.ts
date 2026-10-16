@@ -52,6 +52,7 @@ function settledReading(overrides: Partial<PrStateReading> = {}): PrStateReading
     ],
     reviewRuns: { kind: 'read', runs: [] },
     issueComments: [],
+    reviewConfiguration: { kind: 'unread', reason: 'the test reading declares none' },
     ...overrides,
   };
 }

@@ -1,7 +1,9 @@
 import { describe, expect, it } from 'vitest';
 
-import { computeReviewerLegs, isSignedSelfReply, mostBlockingLeg } from './reviewer-legs.js';
+import { mostBlockingLeg } from './most-blocking-leg.js';
+import { computeReviewerLegs, isSignedSelfReply } from './reviewer-legs.js';
 import type { HarvestedReview } from './reviewer-legs.js';
+import type { ReviewConfiguration } from './review-configuration.js';
 
 /**
  * Per-(reviewer, tip) leg computation per the pr-lifecycle SKILL's review-round
@@ -27,9 +29,20 @@ function review(overrides: Partial<HarvestedReview>): HarvestedReview {
   };
 }
 
-const base: { headRefOid: string; checksGreenAt: string | null } = {
+const base: {
+  headRefOid: string;
+  checksGreenAt: string | null;
+  reviewConfiguration: ReviewConfiguration;
+} = {
   headRefOid: TIP,
   checksGreenAt: '2026-07-21T11:50:00Z',
+  reviewConfiguration: { kind: 'unread', reason: 'the test reading declares none' },
+};
+
+const NO_REVIEW_ON_PUSH: ReviewConfiguration = {
+  kind: 'configured',
+  reviewOnPush: false,
+  reviewDraft: false,
 };
 
 describe('computeReviewerLegs', () => {
@@ -347,4 +360,105 @@ describe('isSignedSelfReply', () => {
     expect(isSignedSelfReply('— see the note above (line 42)')).toBe(false);
     expect(isSignedSelfReply('Moth mends Dreamscape (92e9d6)')).toBe(false);
   });
+});
+
+describe('computeReviewerLegs — the base branch reviews no later push (review_on_push false)', () => {
+  const earlier = review({ commitOid: OLD, submittedAt: '2026-07-21T11:00:00Z' });
+
+  it('UNOWED on a later tip once the vendor reviewed an earlier one and nothing is requested', () => {
+    const legs = computeReviewerLegs({
+      ...base,
+      reviewConfiguration: NO_REVIEW_ON_PUSH,
+      expectedReviewers: ['copilot-pull-request-reviewer'],
+      reviews: [earlier],
+      reviewRequests: [],
+      now: T0,
+    });
+    expect(legs[0]?.state).toBe('UNOWED');
+    expect(mostBlockingLeg({ legs, reviewRequests: [] })).toEqual({ kind: 'settled' });
+  });
+
+  it('OWED while a request is outstanding on the tip: a hand-made request makes the leg owed again', () => {
+    const legs = computeReviewerLegs({
+      ...base,
+      reviewConfiguration: NO_REVIEW_ON_PUSH,
+      expectedReviewers: ['copilot-pull-request-reviewer'],
+      reviews: [earlier],
+      reviewRequests: ['copilot-pull-request-reviewer'],
+      now: T0,
+    });
+    expect(legs[0]?.state).toBe('OWED');
+  });
+
+  it('OWED before the vendor has reviewed any tip: the configured first review is awaited, never raced', () => {
+    const legs = computeReviewerLegs({
+      ...base,
+      reviewConfiguration: NO_REVIEW_ON_PUSH,
+      expectedReviewers: ['copilot-pull-request-reviewer'],
+      reviews: [],
+      reviewRequests: [],
+      now: T0,
+    });
+    expect(legs[0]?.state).toBe('OWED');
+  });
+
+  it('binds the Copilot leg only: another expected reviewer stays OWED on the same tip', () => {
+    const legs = computeReviewerLegs({
+      ...base,
+      reviewConfiguration: NO_REVIEW_ON_PUSH,
+      expectedReviewers: ['copilot-pull-request-reviewer', 'chatgpt-codex-connector'],
+      reviews: [earlier, review({ author: 'chatgpt-codex-connector', commitOid: OLD })],
+      reviewRequests: [],
+      now: T0,
+    });
+    expect(legs.map((leg) => leg.state)).toEqual(['UNOWED', 'OWED']);
+  });
+
+  it('a failed review of this tip is never UNOWED: a tip-bound unevaluable marker keeps the leg OWED and the timeout arm ends it', () => {
+    // The seat requested a review by hand; the vendor answered on the tip with a
+    // body that is neither a review nor a scope-declared skip, and the request
+    // cleared when it posted. The configuration's silence must not read that as
+    // nothing asked.
+    const bounce = review({
+      body: 'Copilot encountered an error and was unable to review this pull request: service unavailable',
+      submittedAt: '2026-07-21T11:55:00Z',
+    });
+    const inside = computeReviewerLegs({
+      ...base,
+      reviewConfiguration: NO_REVIEW_ON_PUSH,
+      expectedReviewers: ['copilot-pull-request-reviewer'],
+      reviews: [earlier, bounce],
+      reviewRequests: [],
+      now: T0,
+    });
+    expect(inside[0]?.state).toBe('OWED');
+    const past = computeReviewerLegs({
+      ...base,
+      reviewConfiguration: NO_REVIEW_ON_PUSH,
+      expectedReviewers: ['copilot-pull-request-reviewer'],
+      reviews: [earlier, bounce],
+      reviewRequests: [],
+      now: '2026-07-21T12:30:00Z',
+    });
+    expect(past[0]).toMatchObject({ state: 'SKIPPED', skipReason: 'timeout' });
+  });
+
+  it.each<ReviewConfiguration>([
+    { kind: 'unread', reason: 'the test reading declares none' },
+    { kind: 'absent' },
+    { kind: 'configured', reviewOnPush: true, reviewDraft: false },
+  ])(
+    'keeps the leg OWED under a configuration that is not a read review_on_push=false: %o',
+    (reviewConfiguration) => {
+      const legs = computeReviewerLegs({
+        ...base,
+        reviewConfiguration,
+        expectedReviewers: ['copilot-pull-request-reviewer'],
+        reviews: [earlier],
+        reviewRequests: [],
+        now: T0,
+      });
+      expect(legs[0]?.state).toBe('OWED');
+    },
+  );
 });

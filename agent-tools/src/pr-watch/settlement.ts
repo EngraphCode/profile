@@ -2,12 +2,13 @@ import {
   computeReviewerLegs,
   hasLanded,
   isSignedSelfReply,
-  mostBlockingLeg,
   normaliseLogin,
 } from './reviewer-legs.js';
 import type { ReviewerLeg } from './reviewer-legs.js';
 import { suppressedFindingsPhrase, tallyReviewBody } from './body-tally.js';
-import type { PrStateReading, PrVerdict, ReviewRun } from './state-types.js';
+import { mostBlockingLeg } from './most-blocking-leg.js';
+import { liveRuns, readingEvidence, runsEvidence } from './settlement-evidence.js';
+import type { PrStateReading, PrVerdict } from './state-types.js';
 
 /**
  * The reviewer-leg and settlement half of the `pr state` verdict (SKILL items
@@ -34,43 +35,8 @@ import type { PrStateReading, PrVerdict, ReviewRun } from './state-types.js';
  * verdict on #65, 2026-09-14).
  */
 
-/**
- * The run surface's gaps, named on every verdict that carries the runs leg.
- * A truncated read that still observed a live run says so through the run's
- * own line (roundInFlight), not through a "none observed" line beside it.
- */
-function runsEvidence(reading: PrStateReading): string[] {
-  if (reading.reviewRuns.kind === 'unavailable') {
-    return [
-      `review-run surface unavailable (${reading.reviewRuns.reason}): no live run observed; the review round is measured by the request surface, which this read carries`,
-    ];
-  }
-  const note = reading.reviewRuns.note === undefined ? [] : [reading.reviewRuns.note];
-  return reading.reviewRuns.truncated === true && liveRuns(reading).length === 0
-    ? [
-        ...note,
-        'review-run surface incomplete: no live run observed in the part read; the review round is measured by the request surface, which this read carries',
-      ]
-    : note;
-}
-
-function expectedSetEvidence(reading: PrStateReading): string[] {
-  return reading.expectedDeclared
-    ? []
-    : [
-        'expected reviewer set DEFAULTED from the observed surface — declare --expect for the first-round guarantee',
-      ];
-}
-
 function legLine(leg: ReviewerLeg): string {
   return `${leg.reviewer}: ${leg.state} — ${leg.detail}`;
-}
-
-/** The runs mapped to the PR and still in flight; none when the leg is unavailable. */
-function liveRuns(reading: PrStateReading): readonly ReviewRun[] {
-  return reading.reviewRuns.kind === 'read'
-    ? reading.reviewRuns.runs.filter((run) => run.completedAt === null)
-    : [];
 }
 
 // SKILL item 4, measured: on a tip whose legs have all landed, an outstanding
@@ -129,8 +95,7 @@ function settledVerdict(input: {
   const shared = [
     ...legs.map((leg) => legLine(leg)),
     ...bodyTallyEvidence(reading),
-    ...expectedSetEvidence(reading),
-    ...runsEvidence(reading),
+    ...readingEvidence(reading),
   ];
   // A SKIPPED leg is classified first: a request still outstanding after the
   // checks-green timeout is the leg nobody served, and the timeout arm (SKILL
@@ -230,6 +195,7 @@ export function reviewerLegVerdict(reading: PrStateReading, now: string): PrVerd
     reviewRequests: reading.reviewRequests,
     checksGreenAt: reading.checksGreenAt,
     now,
+    reviewConfiguration: reading.reviewConfiguration,
   });
   const blocking = mostBlockingLeg({ legs, reviewRequests: reading.reviewRequests });
   if (blocking.kind === 'settled') {
@@ -242,8 +208,7 @@ export function reviewerLegVerdict(reading: PrStateReading, now: string): PrVerd
       `most blocking reviewer leg: ${blocking.reviewer}`,
       ...legDetail,
       ...unmappedLiveRunEvidence(reading, blocking.kind),
-      ...expectedSetEvidence(reading),
-      ...runsEvidence(reading),
+      ...readingEvidence(reading),
     ],
   };
 }
