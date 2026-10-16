@@ -70,9 +70,9 @@ Status: drafted
 
 ### Principal Engineer, Strategy and Innovation · Oak National Academy · Jan 2021 – Present · United Kingdom
 
-Status: drafted (16 October 2026: the two Principal cards merged into one at Jim's word, the title his; his dispositions of 16 October on the dedupe and enhancement proposal applied: the fold's leadership in his terms, the growth with Engineering as the department, the plugin's origin and urgency, the Practice in his words; nothing cut for the count, which is edited later across the whole profile; awaiting Jim's edit)
+Status: drafted (16 October 2026: the two Principal cards merged into one at Jim's word, the title his; his dispositions of 16 October on the dedupe and enhancement proposal applied: the fold's responsibility and authority carried by enabling, at his correction of the same day, the growth with Engineering as the department, the plugin's origin and urgency, the Practice in his words; nothing cut for the count, which is edited later across the whole profile; awaiting Jim's edit)
 
-I set Oak's engineering strategy: I decide what gets built and what does not, and make the case for it to the people who fund and run the service. I lead the engineers by enabling them, with guidance and coaching where they are needed, rather than by directing the work. Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's open curriculum into the AI assistants teachers use.
+Oak's engineering strategy is my responsibility: I decide what gets built and what does not, and make the case for it to the people who fund and run the service. I carry that authority by enabling the engineers, guiding, mentoring and coaching them rather than directing their work. Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's open curriculum into the AI assistants teachers use.
 
 Oak was becoming a permanent service, and Engineering grew with it: from what was in effect one team, the handful of contractors I joined, into cross-functional teams that deliver a digital service end to end in a specialised and important field, six product squads and three platform groups today. Through that growth I helped shape the department as it took on its first QA engineer, first engineering manager and first platform group, and put in the delivery infrastructure, testing practice and developer experience that made the emergency platform safe to change. As Oak became an arm's-length body of the Department for Education, the position was formalised as Principal Engineer in June 2022.
 
@@ -184,9 +184,9 @@ Status: drafted (11 October 2026, awaiting Jim)
 
 ### The Oak AI plugin · 2024 – Present · Associated with Oak National Academy
 
-Status: drafted (16 October 2026: the making in Jim's sentence, under his review; awaiting Jim)
+Status: drafted (16 October 2026: the making in Jim's sentence, his verbatim at his word; awaiting Jim)
 
-The Open Curriculum Ecosystem: an openly licensed repository for working with Oak's public data, directly, and as AI-native infrastructure. The AI plugin, an SDK and tools for the sector to build with, and the Practice they are built in. I conceived the plugin: a public SDK, semantic search and an MCP app, generated automatically from the ontology of Oak's public API and carrying a curriculum written by experts. As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data: the plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
+The Open Curriculum Ecosystem: an openly licensed repository for working with Oak's public data, directly, and as AI-native infrastructure. The AI plugin, an SDK and tools for the sector to build with, and the Practice they are built in. I conceived the plugin: a public SDK, semantic search, and MCP app generated automatically from the Oak public API ontology, carrying an expert curriculum. As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data: the plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
 
 Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 
@@ -202,7 +202,7 @@ Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 
 Status: drafted (11 October 2026, from Jim's word on the repositories; no dates at his word; the consequence clause dropped at his word of 16 October, said on the Experience card; awaiting Jim)
 
-The site that replaced the emergency platform: Oak's teacher- and pupil-facing front end, public under the MIT licence. I argued for the rebuild and set the engineering strategy through it; Oak's engineers built it.
+The site that replaced the emergency platform: Oak's teacher- and pupil-facing front end, public under the MIT licence. I argued for the rebuild and guided the engineering strategy through it; Oak's engineers built it.
 
 Link: <https://github.com/oaknational/Oak-Web-Application>
 

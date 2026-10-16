@@ -25,13 +25,17 @@ authorisation.
   enhancement proposal are applied in `SHA:9a2a66a7` (the block of 2026-10-16T11:xxZ below):
   `linkedin/profile.md` and `linkedin/profile.review.md` are identical, his edits of 14 October
   committed with the dispositions, the two Principal cards merged into one (January 2021 to
-  present), the validator OK on both copies. Next: his review of the applied draft in the editor
-  (`pnpm --filter linkedin editor`, restarted only at his word); item 10's sentence on the plugin
-  Project card is his, under his review (the seat's reading of it is in that block); the count of
-  the merged card (2,824 characters against the believed 2,000) is edited later across the whole
-  profile at his word, never to one number; the Senior Developer card may take an editorial review
-  at his word. The readers run only when he says so; the application plan is authored when he says
-  the draft is his; the private repository's pull request 6 is his to merge.
+  present), the validator OK on both copies; his corrections of 12:1xZ applied after (the fold
+  carries responsibility and authority through enabling, never "set"; item 10's sentence his
+  verbatim, deliberate in every part). Next, at his word of 12:1xZ: a holistic editorial review of
+  the Oak sections and the Oak-related content (the About's Oak paragraphs, the two Oak cards,
+  the Featured items, the three Oak Project cards), the editor's developmental pass first, its
+  findings put to him for dispositions; then his review in the editor (`pnpm --filter linkedin
+  editor`, restarted only at his word). The count of the merged card (2,824 characters against
+  the believed 2,000) is edited later across the whole profile, never to one number. The
+  application plan is authored when he says the draft is his; the private repository's pull
+  request 6 is his to merge. This seat works the LinkedIn lane only (his word of 16 October);
+  the merge tooling's fix is Flint's.
 - Swearing: at his word of 14 October the public repository carries none. The agent-tools
   `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
   The Good Place's words; rules and decision records are elided by hand. The pre-commit check
@@ -719,6 +723,25 @@ word on 14 October).
   coordination branch carried the consolidation lane's thirty commits (62 files, none under
   `linkedin/`, the last `SHA:01e2df9b` at 10:40Z); the one local commit rebased onto that tip and
   pushed. The branch is past its lifetime (cut 14 October 17:24Z); the fold follows this block.
+
+### 2026-10-16T12:2xZ — Jim's corrections after the fold: the fold verb, item 10 verbatim; the next step a holistic editorial review of the Oak content (Shrew rides Eventide, 371a2b)
+
+- The fold verb: "set" was the opposite of item 2's ask (supporting, mentoring, coaching,
+  guiding; responsibility and authority through enabling). Now: "Oak's engineering strategy is my
+  responsibility: I decide what gets built and what does not, and make the case for it to the
+  people who fund and run the service. I carry that authority by enabling the engineers, guiding,
+  mentoring and coaching them rather than directing their work." The rebuild Project card
+  "guided" for "set".
+- Item 10: his sentence deliberate in every part, restored verbatim: "I conceived the plugin: a
+  public SDK, semantic search, and MCP app generated automatically from the Oak public API
+  ontology, carrying an expert curriculum." His fact for the review: the pipeline from the Open
+  Curriculum API's OpenAPI specification to the SDK, the search and the MCP app is built
+  automatically, so an API change updates the tools trivially; the hand-built first SDK is off
+  the page by his word.
+- Branch: he merged 337 (`SHA:7ffab023`); the successor `coordination/2026-10-16-7ffab0` is cut
+  from it; the corrections land there.
+- Next: the holistic editorial review of the Oak sections and the Oak-related content, the
+  editor first, findings to him by number; the readers beyond the editor at his word.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
