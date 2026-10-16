@@ -32,7 +32,11 @@ Write it down and show it with the draft (`editorial-strategy.md` §Begin with t
 decision):
 
 1. the primary reader by role, and any secondary reader that matters;
-2. what that reader is deciding or doing;
+2. what that reader is deciding or doing, on the axis `editorial-strategy.md` §Standing audiences
+   fixes (origination, sense-making where nothing has a shape yet, strategy and systems shaped at
+   scale, breadth), and what they are not deciding: a reader who screens for a line role, with
+   headcount, budget or reporting line as the first questions, is the wrong reader for this
+   profile (EDR-008);
 3. what they already believe, misunderstand or doubt at first contact;
 4. the surface and the reading mode: a card, a collapsed preview, a scan, a full read, a search
    result, a machine extracting nouns;
@@ -73,6 +77,11 @@ into the prose.
 - Facts and attribution against the sources: the particulars, the records, the public
   repositories. Names, dates, titles, numbers, licences and product names exactly as their owners
   spell them (for the Oak AI plugin, EDR-007).
+- An award or honour goes on the page only in the status the awarding body's own record shows.
+  A win and a nomination feel the same from the inside (13 October 2026: a remembered Webby win
+  was a nominee twice and an honoree once on the winners pages), so the body's page or the press
+  release decides the verb, and a remembered win with no record is named to Jim as unconfirmed,
+  never written.
 - Length is information, never a target. Measure once and state it with the draft. If the
   surface's field refuses the text at application, the choice of what moves to another surface
   is editorial and Jim's, never a cut by counting. His words of 8 October 2026: "we don't trim to
@@ -93,7 +102,8 @@ dispositions with the draft.
    evidence and attribution, register and voice. Revise on its letter before any sentence work.
 3. **`prose-expert`**, the line pass: clarity, rhythm, word choice, redundancy, with its
    before-and-after rewrites inside the register. Revise again.
-4. **`audience-reader`**, on the revised draft: give it items 1 to 4 of the reader's decision and
+4. **`audience-reader`**, on the revised draft: give it items 1 to 4 of the reader's decision,
+   built from the private brief where one exists and never from a generic professional search, and
    the draft in its reading path, and withhold item 5 and the beliefs from step 2, so that what it
    reports believing is the draft's effect and not the brief's. Compare its belief with step 2
    afterwards; the gap is the finding.
@@ -150,6 +160,14 @@ pass is the seat's own, run against the sources.
   listing; elsewhere the product's own name (EDR-007).
 - Repetition hides in nouns: "built ... built", "the way of working ... the way of working".
   Read aloud before the readers do.
+- A mis-cast reader's question answered in the open ("who reported to you", an org chart, who
+  holds the budget) grades Jim on that reader's axis. If the axis is wrong the question is not
+  answered in copy. Three rounds on 10 October 2026 cured to such a question before the brief
+  was found to be the fault (EDR-008).
+- Jim's answers in chat are facts supplied to the seat, never copy. Extract the facts, write the
+  reader's sentence in the surface's register, run the readers; his words are quoted only where
+  he wrote them as copy (his correction of 10 October 2026: "I wrote them for you, I did not
+  write them for the audience of linkedin").
 
 ## References
 

@@ -42,7 +42,11 @@ general clause; a divergence is called after the file's open pull requests
 are read, since one may already carry the convergence; and a new rule or
 pattern file is authored after the candidate homes' headings are read, since
 a phrase search misses the home that already answers (three instances,
-2026-09-27 and 09-28).
+2026-09-27 and 09-28; a fourth 2026-10-11, with this rule in place: a search
+of the home and code directories stood in for the privacy directive's own
+sentence naming the private editorial repository, and the seat told the owner
+the location was unrecorded, so a "no record names it" claim is a search
+result until the governing directive has been read).
 
 **A card built on a premise the seat knows is unverified is void.** Naming
 the verification as pending inside the recommendation is worse than

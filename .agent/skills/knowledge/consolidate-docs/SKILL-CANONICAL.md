@@ -8,6 +8,8 @@ description: >-
 
 # Consolidate Docs
 
+All consolidation sessions are single agent ONLY, sub-agents lose information.
+
 **Scope**: **THREAD-SCOPED** (cross-session). This workflow acts on
 artefacts that accumulate across multiple sessions on one or more
 threads — pattern candidates ready to graduate (single-instance
@@ -593,7 +595,7 @@ Rule; the standalone crosswalk plan was archived in the same pass.)
    a. **Extract** — read every "Patterns to Remember", "Mistakes Made", "Key Insight", and "Lessons" section from the outgoing napkin. Collect all entries that would change behaviour if read next session.
    b. **Merge** — compare extracted entries against existing `distilled.md`. For each entry: new insight → add it to the appropriate section; duplicate → skip; refinement of existing rule → update with the sharper formulation; contradiction → investigate (the more recent finding usually wins, but verify before overwriting).
    c. **Prune** — remove entries from `distilled.md` that have already been captured in permanent documentation. No duplication across tiers. (Graduation of settled content happens in step 7.)
-   d. **Archive** — move the processed outgoing napkin to `.agent/memory/active/archive/napkin-YYYY-MM-DD.md` using the current date. Prove the move: `cmp` the archive against the pre-move napkin (or its committed blob) before the fresh napkin starts, and name the proof in the rotation record (the 2026-08-14 and 2026-09-02 rotations both did). Archive only a processed napkin: a rotation whose lessons were not consolidated goes to `.agent/memory/active/unconsolidated/` and stays there until a consolidation pass processes it (owner ruling 2026-09-13: an archive is where material goes after full processing, never a place to tick a box).
+   d. **Archive** — move the processed outgoing napkin to `.agent/memory/active/archive/napkin-YYYY-MM-DD.md` using the current date. Prove the move: `cmp` the archive against the pre-move napkin (or its committed blob) before the fresh napkin starts, and name the proof in the rotation record (the 2026-08-14 and 2026-09-02 rotations both did). Archive only a processed napkin: a rotation whose lessons were not consolidated goes to `.agent/memory/active/unconsolidated/` and stays there until a consolidation pass processes it (owner ruling 2026-09-13: an archive is where material goes after full processing, never a place to tick a box; the owner again, 2026-10-02, verbatim: "we don't archive napkins, we fully process them, and once all knowledge is safe we move them to an archive, we don't do it to park them somewhere"; a "for the user" bucket that calls work paused is the shape he named as prioritising by ease rather than value).
    e. **Start fresh** — create a new `.agent/memory/active/napkin.md` with a session heading documenting the distillation.
 
    Target: `distilled.md` should stay under 200 lines of high-signal content.

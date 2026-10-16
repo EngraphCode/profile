@@ -63,6 +63,7 @@ pnpm agent-tools agent-identity --seed example-session-id-001 --format display
 pnpm agent-tools collaboration-state identity preflight --platform codex --model GPT-5
 pnpm agent-tools context-cost --glob '.agent/rules/*.md'
 pnpm agent-tools arc-metrics --vendor claude --json
+pnpm agent-tools profanity check .agent/memory/active/napkin.md
 pnpm agent-tools:claude-agent-ops status
 pnpm agent-tools:claude-agent-ops health
 pnpm agent-tools:cursor-session-from-claude-session find --last-hours 2
@@ -574,6 +575,29 @@ Examples:
 pnpm agent-tools:codex-reviewer-resolve sentry-expert
 pnpm agent-tools:codex-reviewer-resolve architecture-expert-fred --json
 ```
+
+## `profanity` quick reference
+
+A tiny search and replace for swearing in records. Each swear becomes the
+word The Good Place would let through (fork, shirt, bench, ash, deck, cork)
+or a fill-in made the same way; the table and each row's provenance are in
+`src/profanity/lexicon.ts`. Whole words only, case kept, common suffixes
+carried (forking, forked, forkers). Records get these words; rules and
+decision records carry no swearing at all, so those are edited by hand.
+
+```bash
+pnpm agent-tools profanity check <path...>    # path:line: word -> replacement; exit 1 when any
+pnpm agent-tools profanity replace <path...>  # rewrite each file in place and report; exit 0
+```
+
+The pre-commit hook runs `check` over the staged text files as
+`pnpm agent-tools:repo-check profanity-staged` (`src/repo-check/repo-check-profanity.ts`):
+git's staged set, less the files git reads as binary and less `src/profanity/`
+itself, the one directory that names the words on purpose; each file is read from
+the index, so a cure applied on disk must be staged to count, and a file is binary
+by its staged content (a NUL byte), so no diff attribute, staged or not, can exempt
+a text file. A find refuses the commit and names each swear as
+`path:line: word -> replacement`.
 
 ## Repo gate status
 

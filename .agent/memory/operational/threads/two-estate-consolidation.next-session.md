@@ -6,7 +6,7 @@ triggered by `.agent/prompts/dedicated-consolidation-session.md` (a trigger, nev
 store: the owner's word 2026-09-30). The owner's words: "the next session will run a dedicated
 consolidation session across both estates"; "JC.net will be the home repo, where the relevant
 skills differ, 1. they shouldn't and that needs fixing, and 2. the next agent can be instructed
-to read the OCE skills". **Participating agent identities:** Crucible binds Slag (7b999c, claude-code, claude-fable-5-1, the Director across both estates over the second pass's folds, tails and ledger, 2026-10-02 to 2026-10-03, closing the day at the owner's word of 2026-10-03 20:0xZ with the parity frame set aside and the review node `practice-system-review` planned, n=1 from there; the n=1 seat again from the resume of 2026-10-04, the review node reshaped and ratified, the layer pass read, the report drafted); Hazel tracks Trunk (7d8b9d, claude-code, claude-fable-5-1, the second pass's implementer in jimcresswell.net from 2026-10-01, the parity carries and surfaces of 2026-10-03); this record was written by Galaxy binds
+to read the OCE skills". **Participating agent identities:** Flint guards Vapor (9b835d, claude-code, claude-fable-5-1, the third dedicated consolidation's successor seat from 2026-10-14 09:2xZ in the lane worktree, claim 094031ad adopted, n=2 with Shrew rides Eventide on the LinkedIn lane); Glowworm lifts Embers (a8c4f8, claude-code, claude-fable-5-1, the third dedicated consolidation's seat from 2026-10-13 20:5xZ to the compaction boundary of 2026-10-14 09:1xZ, in the lane worktree it cut); Corsair weaves Seabed (459358, claude-code, claude-fable-5-1, the third dedicated consolidation's curating seat across both estates from 2026-10-11, n=2 with Shrew rides Eventide on the LinkedIn lane); Crucible binds Slag (7b999c, claude-code, claude-fable-5-1, the Director across both estates over the second pass's folds, tails and ledger, 2026-10-02 to 2026-10-03, closing the day at the owner's word of 2026-10-03 20:0xZ with the parity frame set aside and the review node `practice-system-review` planned, n=1 from there; the n=1 seat again from the resume of 2026-10-04, the review node reshaped and ratified, the layer pass read, the report drafted); Hazel tracks Trunk (7d8b9d, claude-code, claude-fable-5-1, the second pass's implementer in jimcresswell.net from 2026-10-01, the parity carries and surfaces of 2026-10-03); this record was written by Galaxy binds
 Gravity (46de68, claude-code, claude-fable-5-1) at its session close, 2026-09-30T14:3xZ.
 **Landing target for the next session (rewritten 2026-10-04):** the consolidation flow
 (`consolidate-until-done` met in BOTH estates, every live curation buffer empty or
@@ -108,6 +108,793 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   gate refuses outside the records), was settled by the owner on 2026-10-01 before the push; the
   primary tree was clean of it at the close. The owner-act rows among the 51 are brought as they are
   met.
+
+### 2026-10-15T09:5xZ — the finish at the owner's one-hour word; the frame corrected; the landings (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here, 1 in the sibling (the operator-profile half of the Oak
+  GitHub read ruling: one line in his profile's scope file for that repository line, written on his
+  word only, due since 2026-10-13); the napkin here holds Shrew rides Eventide's three
+  live blocks of 14 October, that seat's own (its claim heartbeat 09:28Z today); unpushed before
+  this block's landing: this lane (the 23 commits of the consolidation, the successor merge, the
+  clause, this block), the sibling's records lane (8 and the day's two), the sibling's code lane (3,
+  pushed this hour).
+- **The owner's words of the morning, verbatim, in order**: "before you go any further I want a
+  bounded, completable plan to finish this consolidation session that will take no more than one
+  hour. If the estimate is that it will take longer, the plan is wrong"; "the swearing check should
+  apply only to the Practice and key documentation, nothing else, and never to content"; "Run your
+  questions through the decision matrix. We already massively failed the one hour mark because you
+  stopped to ask unecessary questions. So, how do we make this work in one hour from now. Outside
+  the hour is not an allowed concept, no trickery, get it done, where it seems impossible ask why,
+  then step back and question the validity of the frame"; on the standing "no pushing": "I meant the
+  request for merges to override that, I should have been clearer".
+- **The three questions put to him the evening before, resolved by the lenses**: the sibling's
+  code pull request is opened now and the merge-bot settles it (the tool's job), while the
+  profanity tooling's port (the topic, the repo-check command and the hook, about thirty-five files
+  after 335) is a parity code lane with its own vendor rounds, homed in the sibling's continuity
+  record beside the merge-bot parity item; the pushes were his word and he gave it; the
+  clocked-obligations directive line fails `one-instance-is-an-observation`, so the slow-lane row
+  stands and no line is written. None of the three needed him.
+- **The frame corrected**: what looked impossible was two code lanes with nine-minute vendor rounds
+  inside a records hour. The consolidation's finish is doctrine as the same bytes, swearing out of
+  both Practices at his scope, the records landed where successors read them, the seats closed;
+  code parity runs on its own clock through the bot. The folds are not this job (his ranking of
+  2026-10-13; the sibling's branch is DUE at day ten and its record says so).
+- **What landed**: the successor coordination branch merged into this lane, three records by
+  concept (the napkin keeps the rotation note and Shrew's live blocks; the archive's shared range
+  takes the successor's bytes, Shrew's censoring and two owner-private removals included; the
+  director handoff and repo-continuity take Shrew's blocks above this seat's); the owner's rule and
+  its scope as a section of `records-are-technical-not-emotional`, the same bytes in the sibling;
+  the sibling's Practice censored by this estate's tool from here (nineteen matches in fourteen
+  records; the three rules and two decision records elided as here; one false positive named and
+  left, a truncated word in an API-path capture in a report; a zip not read); the sibling's code
+  lane pushed and its pull request opened; this lane landed on `coordination/2026-10-14-d0c995` by
+  fast-forward push; the sibling's records lane landed on its coordination branch the same way.
+- **Open, each with its home**: the pre-commit check of 335 reads every staged text file, wider than
+  the owner's scope word, so Shrew (live, its author) has one message with the verbatim and the
+  hook to narrow; the sibling's profanity tooling parity in its repo-continuity carried follow-ups;
+  the sibling's coordination branch DUE (day ten) in the same record; the J2 worktree and the
+  register's operator-profile entry, two decisions put to him, exact in the 10:3xZ amendment of
+  2026-10-16 below.
+- **Lessons of the hour** (napkin, this date): the Bash hook's wildcard-staging pattern fired on a
+  compound command; a lane's `agent-tools/dist` is stale after a merge brings tool changes; an
+  archive cut from a blob takes the public branch's later bytes for its shared range.
+- **Work safety**: this lane pushed as the coordination branch; the sibling's two lanes pushed;
+  nothing uncommitted of this seat's in either estate; Shrew's uncommitted review file on the
+  primary untouched; Walrus seeks Maelstrom's three uncommitted files on the sibling's primary
+  untouched.
+- **Amended 11:1xZ, the owner's word after the report**: the `.agent/experience/` register is
+  excluded from the censoring ("exclude the experience files, it would be dishonest to censor
+  those"); the research notes and probe data stay censored ("keep the research file changes").
+  The sibling's three experience records are written back to their captured bytes in a forward
+  commit on its records lane; no experience record here had been censored (checked by word-level
+  history since 13 October). The rule's section carries the exclusion in its own words and his,
+  the same bytes in both estates. The 335 hook's narrowing, already Shrew's, now has the
+  exclusion to honour too; the rule is the carrier, no second message.
+- **Amended 2026-10-16T10:3xZ, the owner's correction**: "owner-gated" was abolished by PDR-100
+  and "at the owner" names no item, so work behind either phrase is lost; the blocks of
+  2026-10-15 above used both and are corrected in place. The decisions put to him, each exact:
+  (1) the operator-profile scope line for the sibling's repository line, whose standing text says
+  every Oak surface beyond `git fetch upstream` needs permission, to carry his word of 2026-10-13
+  (every read of Oak GitHub permitted, every write forbidden until he lifts it); the profile is
+  written on his word only; due since 2026-10-13; the sibling's register entry graduates on the
+  write. (2) The sibling's J2 worktree (`feat/exchange-j2-docs-validators`): twenty-one added and
+  two modified files, validators for cited paths, cited scripts, markdown links and lineage
+  names, uncommitted since 2026-09-29, no commit ahead of its base, 346 behind the default
+  branch; commit and push to its branch, or drop; put to him 2026-10-02. (3) The SessionStart
+  compaction-source hook cure proposed 2026-10-14 (a harness hook that prints the post-compaction
+  first acts): build or decline. Work needing a seat, not him: this estate's coordination branch
+  at forty-one hours and thirty-two commits, over its lifetime; the sibling's at day eleven; the
+  four bot review comments on the sibling's merge-tool pull request; the 335 hook's narrowing
+  (Shrew); the sibling's profanity tooling parity.
+
+### 2026-10-14T12:3xZ — the close: both estates drained to the owner's definition, the day's lessons homed, the stamps corrected, the seats closed out (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here and 1 in the sibling (the operator-profile half of the
+  Oak GitHub read ruling, a write to the owner's own profile at his word); open questions 5 and 5,
+  none opened by this pass; the napkin here drained and rotated twice (two byte-identical archives,
+  the live file a rotation note); the sibling's napkin drained to the 2026-10-11 handoff by the
+  earlier seats and its rotation waiting on the reviewer seat's uncommitted block, untouched;
+  distilled 44 and 42 lines, unchanged today; unpushed at the owner's standing word 22 commits on
+  this lane, 8 on the sibling's records lane, 3 on its merge-tool code lane; the divergence measure
+  45 files and 3,453 lines at the open, 36 and 3,297 on the simulated merge of the sibling's two
+  lanes at the close. The register readout at the close ran three times: 31 on the first run, 0 on
+  the second and third (pending 0, due 0, overdue 0, with the full output saved); the first reading
+  is unexplained and one instance.
+- **Since the 12:1xZ block**: the sibling's continuity record curated by the disposition runbook
+  from 2,989 lines to 679 (three archives: the state entries of 2026-09-29 to 2026-10-05, the
+  next-safe-steps blocks of 2026-09-21 to 2026-10-11, two retired sections; a compact state block
+  of this date there carries every item those blocks still held, the J2 docs-validators worktree
+  with its 23 uncommitted entries among them; what remains over its limit is the estate's programme
+  content, its own reading). The stamps this seat wrote by hand after 10:00Z were the local clock
+  written as Z, an hour fast; each corrected by the commit times in both estates and the memory
+  (the 11:3xZ stage block, the curated surfaces' entries, the sibling's bullet). The day's napkin
+  drained into eleven homes by reading each target (the rotation note lists them), the shared
+  homes the same bytes in the sibling with the watcher rule's idle-expiry clause carried there, a
+  friction registered in each estate for the session-metadata path derivation. Four observations
+  wait in the napkin archive on a second instance.
+- **The wrap's readings**: work safety is REPORTED here and in the closeout event, never written as
+  state: every commit is on its lane, nothing pushed at the owner's word, the lanes enumerated by
+  `git worktree list` in the closeout; the review-cost survey since 2026-10-14: 2 output lines, none for a pull request this seat touched (nothing was pushed);
+  the strict fitness readout names as signals, not work, the directives over their hard or critical
+  lines (principles, testing-strategy, user-collaboration, agent-collaboration, AGENT,
+  continuity-practice, editorial-guidance, privacy), the typescript gotchas, the lineage
+  exploration, the director handoff (its standing-rulings section, the next curation of that file),
+  the artefact inventory and the collaboration-state conventions. The metaloss passes: the compressed
+  reasoning of the afternoon is in this record's blocks and the commit messages; every promise is
+  discharged or at the owner (the open list below); the one attribution inference is the side
+  agent's note being read as the owner's framing, which his own sentence then settled; the blind
+  spots are the sibling's napkin (unread today past its handoff) and the register's first readout;
+  the index of homes is this block and the rotation note; the error signature stays counts and
+  stamps, and a third pass would only re-find them, so the recursion closes here. The formation
+  letter of the morning takes an afternoon addendum.
+- **The closeout**: the sibling's curator claim closed with its summary, its guest watcher stood down
+  (end event 5f8d7d12, closeout event 332e8b3f on its stream); this estate's claim 094031ad closed,
+  the watcher stood down (end event 7783689b, closeout event e9ed91d3). Nothing of this seat's
+  runs: both Monitor tasks stopped, no cron, the Cricket agents idle. A successor opens a fresh
+  claim and arms a watcher by the recipe in the 11:3xZ block; nothing is adopted.
+- **Open at the owner**: the pushes of the three lanes (the sibling's code lane as one pull request
+  against its default branch; its two lanes merge in either order); the folds, day four here and
+  day nine there, both ranked below this job by his word of 2026-10-13; the clocked-obligations
+  directive line (11:3xZ block) and the SessionStart compaction-source hook cure (10:0xZ block),
+  each at his word; the operator-profile line; the sibling's register entry; the sibling's J2
+  worktree's disposition; the sibling's continuity record's programme content over its limit.
+- **Done, to his definition**: the registers empty here and at their owner-gated floor there, the
+  buffers drained here and to the handoff there, the shared texts the same bytes, the tooling gap
+  his word named closed as a code lane done to its gate. The consolidation is complete; what is
+  left is his.
+
+### 2026-10-14T12:1xZ — the merge-tool code lane in the sibling done to its gate; the fold doctrine the same bytes once both its lanes land; divergence 37 and 3,306 on the simulated merge (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here, 1 in the sibling (owner-gated); open questions 0 and
+  0; the sibling's code lane three commits (16, 26 and 2 files), every gate it has green; unpushed
+  commits 18 on this lane, 4 on the sibling's records lane, 3 on its code lane; the divergence
+  measure 39 files and 3,410 lines before this stage, 37 and 3,306 on the simulated merge of the
+  sibling's two lanes against this lane's tree.
+- **The code lane** (`fix/merge-bot-records-class-and-fold-clock`, cut from the sibling's default
+  branch in a linked worktree): first the fold clock, sixteen files, the sibling's pull request 328
+  change set under the sibling's package scope with the two modules it reads (the read-path
+  executor, the required-checks reader), the directory's tests green (8 files, 69 tests); then the
+  records-class door, twenty-six files: the eight merge-bot files, the two divergent modules (the
+  merge execution and the argument contract) ported by hand onto the sibling's own text, the pull
+  request's author carried through the view schema, the reading type, three fixtures and one literal
+  test reading (the one field the sibling's reading lacked, the gate the ruling of 2026-09-03 names),
+  the records merge set derived from the sibling's own verdict ladder (seven reviewer-leg states the
+  ladder reaches only after checks green, threads resolved and the base current: the five shared
+  with this estate plus the quiet window, a dead run and an unreadable run surface;
+  UNCLASSIFIED-EVIDENCE excluded, it fires on a refused unavailability declaration before the ladder;
+  the sibling has no suppressed-findings rung, so the two doc comments naming one were rewritten),
+  and the records-class execution tests in their own file with the input builder as a shared test
+  helper, because the carried suite put the sibling's longer base file six lines over the 700-line
+  gate; then the five doctrine passages (below). Gates on the lane: type check clean; eslint clean on
+  every changed file; prettier clean; the full agent-tools suite 679 files and 8,030 tests; the
+  dependency cruiser clean over 4,771 modules; knip clean once the workspace package its config
+  loader resolves was built in the worktree (a fresh linked worktree carries no package dist, and
+  knip then fails loading a smoke config with "No exports main defined"; the sibling's records lane
+  fails the same way, so it is the host, not the lane; the gate reads a crash as a failure by design,
+  F-147). The sibling's commit hooks ran prettier, markdownlint and the changed-files lint on each
+  commit. Two commit attempts failed on the message, not the content: a header of 104 characters
+  that an awk check printed without gating, and a body line opening `tool:` that commitlint reads as
+  a footer; both checks now exit non-zero and gate the commit.
+- **The doctrine, true here first, then the same bytes there**: the five passages of coordination-fold
+  and pr-lifecycle that the 11:3xZ block left divergent were edited on this lane so they hold in both
+  estates: the estate whose folds and gate the retrospective measured is named (jimcresswell.net),
+  the two "since 2026-10-10" clauses are date-free, the "no suppressed finding held" clause is
+  dropped as redundant with "differ from SETTLE-READY only by the vendor leg" (the sibling's ladder
+  has no such rung), and the lifecycle's history sentence records the carry to OCE at the owner's
+  word of 2026-10-14. The patch of those five hunks applied clean on the code lane and is its third
+  commit: the doctrine rides with the tool it describes, so no default-branch state of the sibling
+  describes a tool it lacks. Proof of the end state: `git merge-tree` of the sibling's records lane
+  and code lane writes a tree with no conflict and no file in common, and in that tree both skills
+  are byte-identical to this lane's copies (`cmp`).
+- **The owner's word absorbed**: "There is ONE Practice with local instances, if OCE needs an update,
+  it needs an update" is step 3 of the cross-estate rule in both estates (this lane and the sibling's
+  records lane, same bytes) and the behaviour of this stage. Decisions this seat took under it that he
+  may want to read: the seven-state merge set and its exclusion; the test split; the doctrine riding
+  the code lane rather than the records lane; the wording "carried to OCE at his word of 2026-10-14".
+- **The remaining divergence is host content**: build-system 1,126 lines, principles 326, AGENT 325,
+  under-the-hood 323, invoke-code-experts 212 (predates this pass, a finding for the next), the
+  design-system skill 141, agent-tools README 119 (the two tools' own docs), privacy 109,
+  testing-strategy 72; thirty-seven files in all, the top twelve listed in the scratch readout.
+- **Finish list from here**: the sibling's continuity record by the disposition runbook (2,989 lines
+  against a limit of 525; §Next Safe Steps alone 2,354 lines, with a 1,772-line pickup block of
+  2026-09-21 inside it and sixteen dated sub-sections from June to September below it); then the
+  close: the strict fitness readout as a signal, the wrap, the sibling closeout (claim closed, watcher
+  stood down with its end event, closeout event), this estate's closeout.
+- **Open at the owner**: the push of every unpushed commit in both estates when he lifts "no
+  pushing", the sibling's code lane as one pull request against its default branch (its records lane
+  and code lane merge in either order); the folds (day four here, day nine there); the
+  operator-profile line; the clocked-obligations directive line (11:3xZ block).
+- **Processes**: both watchers re-armed at their thirty-minute caps and live (the re-arm recipe in the
+  11:3xZ block); claims heartbeated; no heartbeat cron; the Cricket agents idle.
+
+### 2026-10-14T11:4xZ — the owner's word on divergence by tooling: one Practice; the merge-tool code lane opens in the sibling (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here, 1 in the sibling (owner-gated); open questions 0 and 0;
+  distilled empty; this napkin rotated; the two oversized continuity surfaces here curated (the finished
+  ranges in three dated archives, byte-identical by proof; the live files at 209 and 207 lines).
+- **The owner's word** (verbatim, on a side agent's note that the fold passage of 2026-10-10 was held back
+  from the sibling for want of its merge tool's class detection): "There is ONE Practice with local
+  instances, if OCE needs an update, it needs an update". Read: a divergence is never left standing
+  because one estate's tooling lacks what the shared doctrine names; the tooling is updated as a code lane
+  opened the day the gap is found, and the doctrine lands as the same bytes once it has. Landed as step 3
+  of `cross-estate-work-must-reduce-divergence`, the same bytes in both estates, this hour.
+- **The code lane, opened in the sibling**: branch `fix/merge-bot-records-class-and-fold-clock`, cut from
+  its default branch in a linked worktree beside the records lane. Value, ratified: the owner's decision
+  of 2026-10-10 (a records-class fold merges at green by name, the review harvested after; the fold clock
+  measured, never felt) applied to the sibling's folds, which the retrospective measured at 26 to 58
+  minutes against his ten-minute bound. Criterion: the sibling's `merge-bot merge` computes the records
+  class from the pull request's changed files and merges a records-class pull request at checks green by
+  name with the vendor's pending run set aside and named; `coordination fold-clock --pr <n>` prints the
+  fold's clock there; every carried test green in its gate; then the fold and lifecycle passages of
+  2026-10-10 land there as the same bytes and the divergence measure falls by them. Sizing, from the
+  trees compared file by file this hour: the change set is pull request 328's code here (its first-parent
+  diff); this estate holds eight merge-bot files the sibling lacks (change-class, merge-changed-files,
+  merge-records-checks, merge-required-contexts, merge-read-env and their tests, 923 lines), the fold
+  clock's eleven files under coordination (2,067 lines) and pr-watch's required-checks pair; of the eighty
+  merge-bot files both estates name, forty-one differ (merge, merge-decision, merge-args, cli, the push and
+  retire modules among them), and the sibling's pr-watch carries thirty-five files of its own (declared
+  unavailability, content binding, completion comments, vendor error reviews). So the port is a
+  convergence, not a copy: the fold clock first (self-contained but for the coordination CLI's wiring),
+  then the class detection wired into the sibling's own merge decision with its tests re-derived at its
+  seams, each step committed on the lane with the directory's tests green, one pull request there at the
+  owner's push word. The estimate is a working day; past twice that the shape is wrong (the owner's
+  yardstick).
+- **Order from here**: the fold clock ported and tested; the class detection; the doctrine twins; the
+  divergence re-measured; then the close of the consolidation (the sibling's continuity record, the
+  closeouts). The sibling's continuity record carries the lane in its §Next Safe Steps.
+- **Processes**: both watchers re-armed at their caps and live; claims held.
+
+### 2026-10-14T11:3xZ — the sibling stage landed; the registers at zero and one; the napkin here rotated by proof; the slow lanes decided (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 0 here (the last entry, the DUE-fold carry, landed in the
+  sibling's wrap skill at its stage), 1 in the sibling (the operator-profile half of the Oak GitHub
+  read ruling, a write to the owner's own profile at his word); open questions 0 and 0; distilled
+  empty in both; this napkin rotated, the sibling's not (its live seat holds an uncommitted block).
+- **The owner's words** (verbatim, in order): "No meter, just do the work, we have already done the
+  hard cogitation. Please continue"; "my word is, do it all please". Read as the go for the whole
+  finish list, the slow-lane rows included, with the meter no longer read.
+- **The sibling stage, under the join ceremony**: guest registration and an adoption event on its
+  stream (the full identity block; the live seat named, its three uncommitted files untouched, no
+  action asked of it); the retired curator claim of 2026-10-11 adopted in place and heartbeated;
+  a comms watcher armed with the sibling's tooling under this session's process and asserted live;
+  a lane `docs/consolidation-3` cut from its coordination branch in a linked worktree (the first
+  script run there installed its dependencies from the store, fifteen seconds). What landed in one
+  commit on that lane, author the owner as its git identity requires, forty-one files: twenty-two
+  shared files whose copies were byte-identical to this estate's pre-graduation copies took the
+  graduation hunks as bytes; seven shared-doctrine files are now the same bytes as this lane's
+  settled copies (owner-signal-interpretation, the cross-estate rule, downstream-checkout,
+  consolidate-until-done, wrap, PDR-117, the shell gotchas less one bullet about a shell-lint gate
+  unverified there), carrying the passages prior seats wrote here with the carry owed; five
+  host-flavoured files took their shared passages (pr-lifecycle's three, author-skills,
+  under-the-hood, the shared start-right, coordination-fold's ten-minute paragraph); five directive
+  homes took the eight shared texts the owner agreed; its register went from sixteen committed
+  entries to one by deciding (fifteen homed, the write-list entry found already carried there);
+  its continuity record carries the stage. Two passages were made true in both estates before
+  they travelled, on this lane first: the fold paragraph names the estate whose folds it measured
+  and scopes its fold-clock clause to the tooling that carries the command; the turbo gotcha drops
+  a pointer into this estate's build-system document. Left divergent with the reason named: the
+  fold doctrine of 2026-10-10 in coordination-fold and pr-lifecycle (merge at green by class, the
+  fold clock), which names this estate's merge-bot class detection and fold clock that the
+  sibling's tooling lacks, so its door doctrine stands until its tool learns the class, as its own
+  prediction says; this estate's harness-integrations bullet about its own write hook; the two
+  build-system documents; the shell-lint floor-guard bullet.
+- **The divergence measure** (the retrospective's script, shared Practice paths): 45 files and
+  3,453 lines at the prior seat's tip; 66 and 3,821 after the graduation here; 39 and 3,410 after
+  the sibling stage, below the open on both counts. The 10:0xZ block's "24" and "12" were
+  miscounts: 22 files took the hunks as bytes and 13 differed. The largest remaining differences
+  are host content (build-system, principles' gates text, AGENT, under-the-hood, privacy,
+  testing-strategy's bindings) and one shared executive memory, invoke-code-experts, whose 212
+  differing lines predate this pass and are a finding for the next.
+- **This napkin rotated by proof**: lines 1 to 1482 of the committed blob (the 2026-10-02 rotation
+  note and 53 blocks to Glowworm lifts Embers' boundary of 09:0xZ) moved whole to
+  `archive/napkin-2026-10-02-to-2026-10-14.md`, byte-identical by `cmp` before the live file was
+  written; the live file keeps a rotation note naming the three drains that read the range and
+  this seat's blocks of the day. The words "uncommitted", "deferred" and "blocking" occur on
+  twenty lines of the range, every one narrative (files uncommitted at a boundary, cures deferred
+  to a landing that then merged), none an unresolved marker. The sibling's napkin waits on its
+  live seat committing its uncommitted block; nothing of that seat's is touched.
+- **The slow lanes at the owner's word**: this estate's three rows stand to their dates (the
+  settlement row's test, a landing of more than two hundred files, has not occurred; the placement
+  row and the until-the-tool-learns row are untested, and today's finding on the latter is that
+  the sibling's door clause has stood since 2026-10-02 with no code-lane item, which is routed to
+  that estate as a code lane for its implementer). The sibling's six: two promoted as carried
+  (close-time single-lesson graduation and cure-the-governing-text, both doctrine since 2026-10-08
+  in the rule permanent-doc-is-the-consolidation-record and in principles §Code Quality) and
+  removed with the reasoning in the register; the settlement row shared with this estate stands;
+  the blame-referent, signal and clocked-obligations rows stand to their dates with the day's
+  evidence logged in their prediction cells. The clocked-obligations row's prediction held in its
+  first instance (this consolidation met a DUE fold; the owner ranked the job above it; the
+  register moved to zero), and its directive line is put to the owner as a proposal in this
+  stage's report, to land as the same bytes in both estates on his reply: "When a clocked standing
+  obligation (a DUE branch fold) would consume the budget of the owner's stated job, the collision
+  goes to the owner at its first occurrence as one question about which gives way; a seat never
+  resolves it by obeying whichever obligation is due (the retrospective of 2026-09-20; the owner's
+  ranking of 2026-10-13, 'This job is higher priority than the daily branch fold', the first
+  instance in which the prediction held)", for user-collaboration §Owner Signals Express Practice
+  Intent, after the paragraph on a ratified constraint set.
+- **The finish list from here**: (1) the owner's reply on the clocked-obligations line; (2) the
+  oversized memory files by `continuity-practice` §Disposition, a context each: here
+  repo-continuity (990 lines against a limit of 525) and director-handoff (377 against 160), in
+  the sibling repo-continuity (2,969 lines); (3) the close: the strict fitness readout as a signal,
+  the divergence named file by file, the wrap, the sibling closeout (claim closed, watcher stood
+  down with its end event, closeout event), this estate's closeout.
+- **Open at the owner**: the push of every unpushed commit in both estates when he lifts "no
+  pushing"; the fold of this estate's coordination branch (day four) and the sibling's (day nine),
+  both late by his ranking; the operator-profile line for the Oak GitHub read ruling; the
+  clocked-obligations directive line.
+- **Work safety**: this lane and the sibling's lane are unpushed at his word; the sibling's lane
+  worktree sits beside its primary checkout under the same name as this one.
+- **Processes and the re-arm, as if nothing survives**: two comms watchers as Monitor tasks, one
+  per estate, each from its lane worktree with its own tooling, `--supervisor-pid 41401`, under
+  `/opt/homebrew/bin/timeout 1790`, re-armed at each thirty-minute expiry; the assertion command
+  (`comms assert-watcher-live --platform claude --model claude-fable-5-1`) from each lane is the
+  proof (it takes no comms-dir flag; the heartbeat resolves to the primary home); claims 094031ad
+  here and 99c21ba4 in the sibling held and heartbeated; no heartbeat cron; the eight Cricket
+  agents of the morning idle.
+
+### 2026-10-14T10:5xZ — the owner agreed proposals 1 to 10; the agreed texts; the edits are the first act after the pause (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 10 due here, 17 in the sibling (unchanged); open questions 0
+  and 0; distilled empty in both.
+- **The owner's words** (verbatim): "cold pause, now", then "agreed on 1-10. Record that, then
+  stop". The ten proposals this seat put to him at 10:1xZ (the nine directive-bound entries of this
+  register and the sibling's one) are agreed as written; this block is the record of that word and
+  carries the agreed texts so the next act copies them in without re-drafting.
+- **The next act, after the pause**: the meter read twice under 30 percent (30.1 percent at 10:28Z at this
+  block, over the line, so the edits belong to the next
+  context); each text inserted at
+  its anchor below, the home read whole first; the nine entries removed from this register in the
+  same commit; proposals 1 to 8 the same bytes in both estates (the sibling's copies of
+  continuity-practice, user-collaboration, agent-collaboration and testing-strategy's anchor are
+  byte-identical today; its principles differs away from the two anchors), applied there at the
+  sibling stage with its own entry; 9 and 10 this estate's alone.
+- **The agreed texts**:
+  1. `continuity-practice.md` runbook step 1: replace from "The reading may be done by the
+     curating seat" to the end of the step with: "The reading is the curating seat's own: a surface
+     too large for one context is split into pieces the seat reads in turn with its notes kept as it
+     goes, never dispatched to readers (the owner, 2026-10-11: "Consolidation sessions are single
+     agent only, work via subagents loses all direct understand and therefore loses lessons",
+     withdrawing the set-of-readers reading of 2026-09-20), because a summary of a block is not the
+     block and the understanding that makes a lesson homeable is formed only in the reading. The join
+     checks (every cross-reference resolves, every id occurs once, a status stated in another entry
+     agrees) run at the seams between pieces; the split method and its checks are
+     `consolidate-until-done` step 7."
+  2. `user-collaboration.md` §Scope Discipline, a new paragraph after "Process is the last
+     resort": "**Finish by doing the work, never by reframing it.** The owner, 2026-10-03: "At every
+     turn you seem to be inventing complexity instead of getting on with a simple job"; "you
+     prioritise finishing the work by doing the work, and I will try to do better, and we both ask
+     each other questions". A reporting duty is one message, never a wait or a gate on the work; when
+     a finish looks large, size it and start the smallest piece rather than move the boundary.
+     Analysis and framing carry no review risk and landing diffs does, which is why a seat drifts to
+     them."
+  3. Same section, the paragraph directly after text 2: "A script a seat runs twice is routed for
+     sizing as an agent-tools command, never extended in place (the owner, 2026-10-03: "if a script
+     is used repeatedly it should be made into a standardised agent tool in the agent tools
+     workspace")."
+  4. `user-collaboration.md` §Risk and Decisions, a new paragraph after "Risk acceptance requires
+     a human decision...": "What survives the Decision Lenses is decided and recorded by the seat;
+     only an unknown, high-risk item reaches the owner (his standing word of 2026-10-03: "Anything
+     that survives the lenses should be assessed for risk, anything unknown and high-risk should
+     still come to me, but that is a high bar and I do not expect it to happen often"). Before any
+     stamp, the seat highlights the sentences he would object to ("agents need to highlight things I
+     might object to, and I need to read questions more carefully")."
+  5. `agent-collaboration.md` §Working Model (the register's entry named user-collaboration, which
+     has no peer clause), a new paragraph after "The normal posture is shared reasoning across the
+     working tree...": "On a shared primary the claims registry and the commit queue are the
+     coordination; a direct message goes only when the peer must act (a hold to release, a push that
+     will block their edits for minutes), batched into one (the owner, 2026-10-11: "stop messaging
+     every little to Shrew, they are concentrating on a different task")."
+  6. `principles.md` §Code Quality, a new bullet after "Every issue earns a check": "**The cure
+     stops recurrence; symptom removal is hygiene** - The cure is the action that stops the issue
+     happening again, never the one that removes the symptom (the owner, 2026-10-07: "the cure is
+     the action that stops it from happening again, not the action the removes the symptom"). A cure
+     names the change to the generator (a skill, a rule, a validator, a hook) first and alone;
+     removing the symptom is hygiene, stated as such."
+  7. `principles.md` §Agentic Quality, a second paragraph (the sibling's entry): "Text a model
+     wrote (a program's printed output read as evidence, a command's argument tail, a flag value
+     that becomes a path) crosses into host authority only after a harness-owned parser has admitted
+     it against a closed grammar; what the grammar does not name is refused, and the refusal names
+     it, never passed through. The engineering instance is the pattern
+     `cli-writer-boundary-discipline`; this is its general form, promoted from the slow lane at its
+     2026-10-10 review."
+  8. `testing-strategy.md` §TDD at All Levels, a new paragraph after "...Both are required.": "A
+     test file's opening comment names which surface each of its tests proves (the source, the
+     configuration, the rendered adapter), so a reader knows what a green run certifies
+     (2026-10-03)."
+  9. `editorial-guidance.md`, the Process note, a new paragraph after the 2026-10-12 agreement:
+     "His instruments: a table he edits in place and a numbered reply; for a backlog, self-contained
+     question cards, each carrying the text under decision, the reader's take and one proposal per
+     option (2026-10-12: "ask me all open questions now, as user questions, each self-contained so I
+     can answer it from the card alone"). A review reads the open list first and marks each item
+     agreed or open; agreed intent is never critiqued; a settled item is never listed again, not even
+     as closed (2026-10-13: "stop bringing it up as open, I will do it, the matter is settled"); an
+     item he calls his own edit gets no proposal; a mindset he names is shown by how the page is
+     written, never by a noun's position; every message leads with what changed that he did not ask
+     for. Outside eyes go to every removal and every number. A profile audit inventories every
+     section present and every relevant absent one, then spends its depth where a reader's
+     misunderstanding or a consequential choice is material (2026-09-26: "Every single part of my
+     LinkedIn needs evaluating"); concrete, evidence-based proposals come before any question to him,
+     and a question is asked only where his answer changes the result."
+  10. `privacy.md` §Private editorial material, a new paragraph after the first: "When his
+      sentence answers why he can claim a thing or what he is, the tracked file carries the decision
+      only and the sentence goes to the private editorial repository this section names, never to a
+      directory the seat invents (the owner, 2026-10-11: "you can't just make up a private directory
+      and label it as a repo"); a tracked file or an unpushed commit already carrying it is amended
+      before any push. The sweep after such a correction searches for the class (his intentions, his
+      reasons about himself), never the corrected sentence, and a second reader runs it."
+- **The owner's override** (10:5xZ, verbatim): "The context is 31, but the limit is for
+  designing changes, not for simple text applications, so we are fine. Please make the edits,
+  then stop". The ten texts above landed in this context under that authorisation (the budget
+  rule's own override clause), the nine entries removed from this register in the same commit;
+  the sibling's copies of 1 to 8 and its own entry wait for its stage.
+- **Processes**: every process this seat started is stopped at the cold pause (the watcher's
+  re-arm recipe is in the 10:0xZ block); claim 094031ad held; no comms event posted; the sibling
+  untouched.
+
+### 2026-10-14T10:0xZ — the owner's compaction word; the meter already under the budget; the directive proposals are the first act after it; the sibling stage's real scope (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 10 due here, 17 in the sibling (unchanged since 09:5xZ:
+  no entry graduated in this stretch); open questions 0 and 0; distilled empty in both; both
+  napkins unrotated.
+- **The owner's word** (10:0xZ, verbatim): "prepare for compaction ultrathink /jc-metacognition
+  /jc-free-play /jc-concept-exploration /jc-reason /jc-wrap , immediately post compaction show
+  me the proposed directive edits". Read: the five skills run in the order given, the wrap last;
+  the records are made safe and the seat stops (his word of 2026-10-09 on "prepare for
+  compaction"); the first act after the compaction is the nine directive-bound proposals shown
+  to him, each as the home's section, the text to insert and the entry it discharges, nothing
+  applied before his reply ("show me" is a presentation; applying waits on his word).
+- **The meter**: the automatic compaction at 09:5xZ was the "next compaction" the 09:5xZ block
+  waited on. Read after it from the transcript's newest assistant usage (the `session-metadata`
+  command fails from a linked worktree, deriving the transcript directory from the working
+  directory): 15.9 percent at 10:01Z and 16.1 percent a few calls later, under the 30 percent
+  line of `directive-file-context-budget`, so the directive window is open in this context. The
+  seat planned to wait for a compaction that had already happened because the 35.8 figure
+  travelled across the boundary as a fact; a meter reading is a function of the context and is
+  re-read first in any context that opens with the harness's continuation summary (one instance;
+  the observation and its home are in the napkin).
+- **The Cricket panel at the re-plan boundary** (eight roles, both stances, on the finish list
+  and the deferral): work verdicts six ON-TRACK, two DRIFTING (both procedure roles, on gates:
+  the frame's NEXT ended on a wait for the owner's word where the rule says carry on with other
+  work, and the claim 99c21ba4 named stale with the sibling's registry not in evidence); frame
+  verdicts three SOUND, five NARROWED. The frame's omissions: the four captured items' status
+  (homed at 94c4ee9f, unsaid); "items 7 to 9" unquoted; "use the full cricket suite regularly"
+  absent from the reading; "the fold suspended" where his word is "higher priority than the daily
+  branch fold". Adjudication: the frame defects stand and this block carries his words; the
+  passive wait is moot at his compaction word, and the frame's lesson is that a NEXT ends on the
+  ask, never on a wait for the owner; the claim's staleness is read at the sibling's registry
+  before it is closed (the join ceremony's "on evidence"); the frame's "38 homes" was wrong,
+  94c4ee9f touched 36 home files and the register.
+- **The two-estate divergence measure** (the retrospective's script of 2026-09-30 over the shared
+  Practice paths, this lane against the sibling's committed tip): at the prior seat's tip 45
+  files differing, 3,453 diff lines; at this lane's tip 66 and 3,821. The growth is 94c4ee9f,
+  whose shared text is written here and not yet in the sibling; the sibling stage is its cure
+  and the close names any file still more divergent than at the open. Of the 37 files 94c4ee9f
+  touched, 24 are byte-identical in the sibling to this estate's pre-commit copy, so their hunks
+  land there as bytes; one (write-for-the-reader) is this estate's alone; 12 differ in the
+  sibling, and the diffs show the sibling LAGS this estate on shared doctrine the prior seats
+  wrote here with the carry owed: owner-signal-interpretation ("Acknowledge, then stop",
+  2026-10-04), the cross-estate rule (the clean-regions paragraph, 2026-10-03),
+  downstream-checkout (the git-remote sentence, 2026-10-07), consolidate-until-done (the second
+  instance, 2026-10-13), wrap (the DUE-fold clause, 2026-10-09; the register's own entry),
+  PDR-117 (the 2026-10-02 amendment), shell-and-tooling-gotchas (the 2026-10-11 and 2026-10-13
+  entries), and the 2026-10-10 retrospective's decisions in coordination-fold and pr-lifecycle
+  (merge at green by class, the fold clock), which name this estate's merge-bot class detection
+  and land in the sibling only where its tool carries the class, otherwise they stay divergent
+  with that reason (`cross-estate-work-must-reduce-divergence` step 2, a host binding in
+  disguise). Host content legitimately divergent: start-right's command block, under-the-hood,
+  author-skills' prefix, build-system. The sibling stage's worklist is the 24 byte hunks, the 12
+  differing files' shared passages cut from the sibling's own text, and each carry checked
+  against the sibling's tooling before it is written.
+- **The finish list from here**: (1) at the owner's word, the nine directive proposals drafted and
+  shown (the meter read twice first; each home read whole; the four user-collaboration entries as
+  one proposal for one home; the text in the home's register with the entry's title beside it),
+  applied and the entries removed in one commit on his reply, the sibling's directive entry (the
+  closed grammar, principles §Agentic Quality) drafted in the same pass as the same bytes; (2) the
+  sibling stage as the 09:5xZ block has it, its worklist widened as above; (3) this napkin rotated
+  by proof on the lane; (4) the slow-lane rows at his word after the buffers and the register are
+  empty; (5) the oversized memory files, a context each; (6) the close, with the divergence
+  measured against the open and every remaining divergent file named with its reason.
+- **Open at the owner**: the fold of the primary's coordination branch (day four; late by his
+  ranking, "higher priority than the daily branch fold"); the push of everything when he lifts
+  "no pushing"; the operator-profile line for the Oak GitHub read ruling; the structural cure
+  proposed in the napkin for the boundary defect above (a harness SessionStart hook on the
+  compaction source printing the post-compaction first acts), sized small, his call.
+- **Work safety**: the lane `docs/consolidation-3`, unpushed at his "no pushing"; git's own
+  position is reported in the wrap message, never written here.
+- **Processes and the re-arm, as if nothing survives the compaction**: the comms watcher is a
+  Monitor task (b5hmtzj5o at this block; 30-minute expiry; re-armed on each expiry) running
+  `pnpm agent-tools:collaboration-state -- comms watch --platform claude --model claude-fable-5-1
+  --supervisor-pid 41401 --step-timeout-ms 120000 --max-events-per-drain 100` under
+  `/opt/homebrew/bin/timeout 1790` from the lane worktree (41401 is this session's `claude`
+  process, from the harness's sessions directory; a new process re-derives it); the resume
+  verifies by the task list first and re-arms only what is absent; `comms assert-watcher-live`
+  against the primary's comms directory is the proof; no heartbeat cron (consumer absent); claim
+  094031ad held, refreshed at the resume; the eight Cricket sub-agents returned and idle; the
+  sibling untouched.
+
+### 2026-10-14T09:5xZ — the resume in a successor seat; twenty-five entries graduated here; the directive-bound nine wait for the next context (Flint guards Vapor, 9b835d)
+
+- **Counts first**: pending graduations 10 due here (35 at the resume; 25 graduated at 94c4ee9f,
+  each entry removed in the commit that wrote its home; the five items the 09:0xZ block held for
+  the register homed directly), the sibling 17 (one uncommitted there, its live seat's); open
+  questions 0 and 0; distilled empty in both. The ten here: nine directive-bound (the
+  user-collaboration directive four: finish by doing the work, the standing words of 2026-10-03,
+  the shared-primary messages, the scripts ruling; principles one: the cure stops recurrence;
+  continuity-practice one: the single-agent runbook sentence; testing-strategy one: a test file's
+  comment; editorial-guidance one: his instruments; privacy one: his reasons) and one sibling-side
+  carry (the DUE-fold clause into the sibling's wrap skill). The sibling's seventeen: thirteen
+  target the same bytes in both estates and are authored here in 94c4ee9f, so its stage cuts the
+  twin from those blobs; one is a duplicate here (the closed write list, checked against its own
+  skill copy at its stage); one is directive-bound (the closed grammar, principles §Agentic
+  Quality); one is half landed (the Oak GitHub read ruling: the rule half here, the
+  operator-profile half a write to the owner's profile that waits on his word); one (reviewing
+  agents) is landed here in both rules.
+- **The owner's word at seating** (09:1xZ): "please resume the consolidation, use all appropriate
+  skills", through the team start-right skill. His standing words of 2026-10-11 and 2026-10-13
+  bind unchanged: single-agent, counts first in every report, directive edits under 30 percent, no
+  peer messages for every step, no pushing, this job above the daily fold.
+- **The meter**: 25.3 percent after the reading order, 35.8 percent after the bootstrap and the two
+  registers read whole, so the directive-bound entries go to the context after the next
+  compaction, the figure read twice before the first edit (`directive-file-context-budget`), and
+  the non-directive homes were written in this context, home by home with both registers' entries
+  for a home in hand (the 09:0xZ proposal, taken). A fresh context opening at the directive step
+  reads this block and the ten entries' target fields, not the whole continuity file.
+- **The finish list from here**: (1) the directive-bound entries, the sibling's one included, in
+  the next context, the user-collaboration directive first (four entries, one home), each home
+  read whole before the edit and the entry removed in the same commit; (2) the sibling stage: the
+  join ceremony (guest registration on its stream, the stale curator claim 99c21ba4 closed on
+  evidence, this seat's own claim there, its live seat told once before any write), then its
+  register's thirteen shared-bytes entries cut from 94c4ee9f's blobs on a lane of its own, the
+  wrap carry, the duplicate checked, the profile half put to the owner, its napkin rotated by
+  proof; (3) this napkin rotated by proof (the primary's copy is Shrew rides Eventide's to append
+  to, so the rotation lands on this lane and the fold's semantic merge carries any appends, the
+  drain proved lossless first); (4) the three slow-lane rows here and the sibling's six at the
+  owner's word, after the buffers and the register are empty; (5) the oversized memory files by
+  `continuity-practice` §Disposition, a context each; (6) the close.
+- **Open at the owner**: the fold of the primary's coordination branch (day four, 327 open; late
+  by his ranking); the push of everything when he lifts "no pushing"; the operator-profile line
+  for the Oak GitHub read ruling (a write to his profile).
+- **Work safety at this block**: the lane `docs/consolidation-3`, unpushed at the owner's "no
+  pushing" (git's own position is reported in the wrap message, never written here).
+- **Processes**: the watcher Monitor bhjy5m19s (asserted live at 09:3xZ; re-armed on expiry); no
+  heartbeat (consumer absent); claim 094031ad adopted and refreshed; team start 2555d738; the
+  sibling untouched.
+
+### 2026-10-14T09:0xZ — compaction boundary at the owner's word; the sibling's buffers read; the resume's first acts (Glowworm lifts Embers, a8c4f8)
+
+- **Counts first**: pending graduations 35 due here, the sibling 16; open questions 0 and 0;
+  distilled empty in both. Item 4 of the list below is read (the sibling's register whole, its
+  stream selection of 120 whole, its napkin's live blocks at the 01:0xZ stage); four items from
+  it are captured on the napkin's 09:0xZ block for the register and unwritten there at this
+  boundary, so the register reads 35 plus four to write. Items 5 to 9 untouched. Nothing
+  written in the sibling; no join ceremony run; its live seat not messaged.
+- **The owner's words of this boundary, verbatim**: "prepare for compaction", with the cognition
+  skills and wrap named, and "we will resume the consolidation session after that". Standing
+  from the session: "no pushing, I want this done quick". So this wrap is one records commit on
+  the lane and no push; the seat stays seated, claim held, watcher running.
+- **What the sibling stage found that changes the plan** (the napkin block carries the
+  evidence): thirteen of the sibling's sixteen entries target the same bytes in both estates and
+  nine of eleven probed phrasings read zero here, so item 6 lands them here from one authoring
+  with the twin cut from the settled blobs; the directive-bound count here is nine by a computed
+  listing, not five; the entries group by home (principles.md four, the user-collaboration
+  directive four, the cricket skill three, the gotchas three), so item 6 works home by home
+  with both registers' entries for a home in hand, directive homes first.
+- **The resume's first acts, in order**: (1) `git status --branch` in the three worktrees and
+  the lane's log against the coordination tip 02e2a764 (five commits plus this one; no remote);
+  the task list for the watcher, re-armed only if absent; (2) the context meter read twice, a
+  few calls apart; under 30 percent, the directive-bound graduations here go first (the nine
+  titles on the napkin block, recomputed from the register's target fields), each home read
+  before and after, the entry removed in the same commit; (3) the four captured items written
+  as register entries, or homed where the home is read anyway; (4) the non-directive homes,
+  home by home; (5) the sibling: the join ceremony before any write (guest registration on its
+  stream, the stale curator claim closed on evidence, this seat's own claim), then its
+  register's entries landed from the settled blobs and its napkin rotated by proof; (6) items
+  7 to 9 as listed.
+- **Work safety at this boundary, read first-hand**: the lane `docs/consolidation-3` at this
+  commit, no remote, six commits beyond the coordination tip, tree clean after it; the primary's
+  `coordination/2026-10-10-f436b6` ahead 9 of its remote, tree clean, unpushed at the owner's
+  word; `fix/records-door-waits-for-a-review-in-progress` ahead 1 of origin/main, tree clean,
+  the owner's correction, not this seat's. The sibling's primary on its day-8 coordination
+  branch, level with its remote, two tracked files modified by its live seat, untouched by this
+  one.
+- **Open at the owner**: the fold of the primary's coordination branch, late by his ranking of
+  this job above it; the push of everything above when he lifts "no pushing"; the late-fold note
+  on PR 327, written when the next GitHub write runs as the bot.
+- **At the owner's compaction word a second time, 09:1xZ**: the records above verified
+  first-hand, unchanged. One correction: the sibling's live seat captured the owner's
+  reviewing-agents word of 2026-10-14 in its register since this seat's read (uncommitted there
+  at the reading; the napkin's 09:0xZ block quotes it), a fifth item for this estate's register
+  with the same two rule homes, so the counts read 35 plus five to write here and 17 in the
+  sibling, one uncommitted. The per-user memory index now names this block as the pickup.
+
+### 2026-10-14T00:0xZ — the owner's answer on the promotions; the finish list reordered at the cricket suite's word (Glowworm lifts Embers, a8c4f8)
+
+- **Counts first**: pending graduations 34 due here (31 at seating plus three directive-bound
+  entries from the post-drain buffers, commit b44fcc02), the sibling 16; open questions 0 and 0;
+  distilled empty in both. Drained: the six napkin blocks and seven memory files since the 11
+  October drain (item 1 of the list below, done); the memory dispositions applied.
+- **The owner's answer, 2026-10-14 00:0xZ, to one closed question**: "pending promotions" are the
+  register's three slow-lane rows, and all three are decided promote-or-kill at his word today,
+  after the buffers and the register are empty, overriding their review dates (2026-10-19,
+  2026-12-15, 2026-12-15). Done, in his words and nothing added: empty pending graduations and
+  empty buffers, the counts first in every report.
+- **The finish list, reordered** (the cricket suite's convergent finding: his "if the buffers are
+  empty, and not before" and the handoff's own order put every drain ahead of any graduation):
+  1 the post-drain buffers (done); 2 the stream selection (85 events) read whole by the seat; 3
+  the Codex memory read whole; 4 the sibling's buffers (its napkin blocks since 2026-10-05, its
+  stream selection of 120) read, coordinated with its live seat before any write there; 5 both
+  napkins rotated by proof; 6 the register graduated to zero in both estates, non-directive homes
+  on the lanes, the five directive-bound entries here (and the sibling's) in a fresh context
+  below the 30 percent budget; 7 the three slow-lane rows here and the sibling's decided at his
+  word; 8 the oversized memory files by `continuity-practice` §Disposition, a context each; 9 the
+  close. Landing paths as the block below names them.
+- **The cricket suite at seating** (eight legs as one workflow): work ON-TRACK on seven, one
+  DRIFTING on proportion; frame CONTRADICTED on six and NARROWED on two, every one on the
+  promotions reading and the Done sentence, both cured above; the napkin's 21:2xZ block carries
+  the adjudication and the lesson.
+
+### 2026-10-13T20:5xZ — the third consolidation resumes in a dedicated seat; the counts, the finish list, the contexts (Glowworm lifts Embers, a8c4f8)
+
+- **Counts first**: pending graduations JC.net 31 due (the fitness readout's live decision-debt
+  at 20:4xZ), the sibling 16 due (15 at the handoff; the sixteenth is read at the sibling stage);
+  open questions 0 and 0; distilled empty in both; slow-lane rows 3 here (reviews 2026-10-19,
+  2026-12-15, 2026-12-15), the sibling's read at its stage. Undrained buffers: this napkin's six
+  blocks since the 11 October drain (Shrew rides Eventide's five, 12:5xZ to 2026-10-13T11:xxZ,
+  and this seat's 20:xxZ) plus the drain-boundary block's own lessons; seven per-user memory
+  files written since the drain; the two stream selections (85 and 120 events, 157 and 208 KB,
+  unread); the Codex memory (four files and 23 rollout summaries, about 370 KB, unread); the
+  memory-directory dispositions of the 11:2xZ block (decided, unapplied); the sibling napkin's
+  blocks since 2026-10-05 (one guest block and three live blocks of Walrus seeks Maelstrom,
+  9585cc, whose session is open there).
+- **The owner's words, verbatim (2026-10-13)**: the goal at seating, "This is a dedicated
+  consolidation session. The goal is knowledge curation, never fitness numbers. Done means empty
+  pending graduations and empty buffers: say those counts first in every report. This job is
+  higher priority than the daily branch fold. If the buffers are empty, and not before, deal with
+  all the pending promotions. Do not stop until it is all done"; "use the full cricket suite
+  regularly"; ultracode on for the session. Read with his word of 11 October (single-agent
+  reading): the seat reads every piece itself; the workflows and the Cricket panel verify and
+  judge, never read for the seat. The lane: "the worktree should be off the coordination branch"
+  (20:2xZ); main merged in at his "appropriate merge" (02e2a764); "no pushing".
+- **The finish list, counted, each with its landing path** (items 1 and 2 of the 11:1xZ list
+  stand done; this list replaces its remainder):
+  1. The JC.net post-drain buffers: the six napkin blocks and the seven memory files read (done
+     at this block); their lessons homed directly where the home is clear, else as register
+     entries; the 11:2xZ memory dispositions applied (index lines retired, "Graduated to"
+     markers). Landing: records commits on this lane; the memory directory on this machine.
+  2. The JC.net register's non-directive entries (26 of 31) graduated into their homes on this
+     lane, each home read before and after the write, the entry removed in the same commit as
+     its home. Landing: commits on `docs/consolidation-3`; the lane's pull request against main
+     after 327 folds (a build-ahead lane carries the day branch until then).
+  3. The JC.net stream selection (85 events) read whole by the seat in a context of its own;
+     the lessons joined to the register and graduated. Landing: as item 2.
+  4. The Codex memory read whole in a context of its own; dispositions; as item 2. Cursor
+     (nothing after 2026-05-28) and Gemini (empty) stand as the opening block found them.
+  5. The sibling: Walrus seeks Maelstrom told once before any write there; the stale curator
+     claim 99c21ba4 closed; its register (16) graduated the same way on a lane of its own, the
+     shared bytes carried; its stream selection (120 events) in its own context; its napkin
+     blocks since 2026-10-05 read. Landing: its lane's commits and pull request.
+  6. The directive-bound entries (five here: continuity-practice, user-collaboration twice,
+     principles, testing-strategy; the sibling's own) in a fresh context below the 30 percent
+     budget, after items 1 to 5.
+  7. Both napkins rotated by proof after their drains (archive byte-identical against the
+     committed blob; a fresh napkin with the rotation note).
+  8. The slow-lane rows, the owner's "pending promotions": after items 1 to 7 and not before,
+     each decided promote or kill at his word of today, review date or not.
+  9. The oversized memory files by `continuity-practice` §Disposition (here
+     `repo-continuity.md` at 976 lines and `director-handoff.md` at 372, both critical; the
+     sibling's named in the 11:1xZ list), a context each, priced by entries.
+  10. The close: `practice:fitness:strict-hard` read as a signal, the counts first, the 7c and
+      7d findings, the wrap.
+- **The contexts, priced at open**: this context carries items 1 and 2 (the register's 45 KB
+  and the homes, about 25 K tokens of reads plus the writes) and ends at a compaction, never a
+  chosen wrap; the next carries 3 and 4 (about 180 K tokens of reading, each file whole, one at
+  a time); then 5; then 6 in a fresh context with the figure read before the first directive
+  edit; then 7 to 10. The 30 percent gate prices only item 6.
+- **The team**: n=2 on this estate with Shrew rides Eventide (371a2b, implementer, the LinkedIn
+  lane, live by the harness's session list, its claim past freshness, no watcher of its own);
+  the sibling carries Walrus seeks Maelstrom (reviewer on its #356, live). This seat: watcher
+  armed (Monitor bkf0kjx79, green), no heartbeat (no consumer), claim 094031ad as curator, team
+  start 7cdbb455. No message to either peer unless one must act.
+- **The fold**: the coordination branch here is on day four with 327 open, the sibling's on day
+  eight; late by the owner's word that this job ranks above it; recorded here and on 327 when
+  the next GitHub write runs as the bot.
+- **State**: lane `docs/consolidation-3` at the merged tip 02e2a764 plus this seat's records
+  commits; the primary clean at 02e2a764, four commits unpushed (three of Shrew's records and
+  the merge), riding the next push at the owner's word.
+
+### 2026-10-11T11:4xZ — handed off mid-pass at the owner's word; the successor's start-here (Corsair weaves Seabed, 459358)
+
+- **The owner's word, verbatim (11:3xZ)**: "make sure there is a full handoff in place, I want the work continued by a different agent /jc-wrap". PDR-063's protocol applies: this seat retires, the owner names the successor. The handoff record (the four sections and the assumption ledger) is the untracked file under `.agent/state/collaboration/handoffs/` named by claim c119d0f9 in this estate (the file `handoffs/c119d0f9-8a65-4df0-bb16-b84a5a7bd2cb.md`, gitignored, on this machine; the claim was closed and archived with that path at the owner's word on 11 October 13:0xZ, "remove the stale claim, I will start a dedicated consolidation session later", so the file name, not the claim, is the pointer) and by claim 99c21ba4 in OCE, each claim pointing at its record; the directed handoff event and the retirement broadcast are on both comms streams.
+- **Start here, successor**: (1) seat with `start-right-team`; read the napkin's 11:2xZ block, this record's 11:2xZ block (the counts, the memory dispositions, the open items, the resume order) and the handoff record; (2) `git status --branch` in both primaries, then push this seat's unpushed records commits once through the bot (`merge-bot push`) in each estate; (3) the two lines at the top of `.agent/skills/knowledge/consolidate-docs/SKILL-CANONICAL.md` are the owner's, committed by him as 33dbeed6 on 11 October, so that question is closed; open your own claim with `--role curator` (this estate's c119d0f9 was closed at the owner's word on 11 October; OCE's 99c21ba4 stands until adopted or closed there); arm one comms watcher per estate; no heartbeat without a consumer; (4) PDR-063's pickup checks: every file the handoff record names is committed where it says, no commit-queue intent of this seat is live, no sub-agent of this seat exists; (5) continue from the 11:2xZ resume order, counts first.
+- **The owner's standing words for this session, binding the successor as they bound this seat**: consolidation is single-agent (no sub-agents of any kind; every piece read by the seat); do not message Shrew rides Eventide for every step (the claims and the commit queue coordinate the shared primary; one message only when the peer must act); counts first in every report; directive edits only in a context below 30 %; a question is a stop to the owner, never a guess. The fold of the coordination branches was suspended "until this session is complete" at seating; this seat reads that as until the consolidation completes in the successor (an inference, flagged; confirm with the owner if a fold falls DUE).
+- **What this seat did not do, with the constraint**: the napkin rotations, the stream selections, the Codex memory, the memory dispositions and the graduation; the owner's compaction and handoff words came at 11:1xZ and 11:3xZ, after the napkin drain, so the finish list of the 11:1xZ block stands with items 1 and 2 (the memory drain, the napkin drain) done and the rest open. No push (the shared primary's gate would block the peer's tree); the successor's first act. This seat's session goal hook (Stop blocked until the registers are empty) is surfaced to the owner for clearing or transfer, as PDR-063 step 5 says.
+- **Lane obligations that outlive the seat**: none (no server, no monitor another seat reads). Gates handed over as NOT-OBTAINED: none were dispatched. Reviewer outputs in flight: none.
+
+### 2026-10-11T11:2xZ — compaction boundary at the owner's word: the napkins read and drained, the registers at 31 and 15, the resume order (Corsair weaves Seabed, 459358)
+
+- **Counts first**: pending graduations JC.net 31 due, OCE 15 due (this pass wrote all of them: 17 and 3 from the Claude per-user memories, the Turbo plan and a slow-lane promotion; 14 and 12 from the two napkins, read whole by the seat); open questions 0 and 0; distilled empty and empty. The slow-lane row the 2026-10-05 retrospective named as its home (review 2026-10-19) is registered in both estates. Buffers not yet drained: the two napkin rotations (the lessons are in the registers; the rotation is by proof, the next act), the selected stream events (85 JC.net, 120 OCE, dumped under the session's state directory, unread), the Codex per-user memory (unread), the Claude memory directory's dispositions (decided, not applied; below).
+- **The owner's words, verbatim**: 11:0xZ, "Consolidation sessions are single agent only, work via subagents loses all direct understand and therefore loses lessons" (seventeen analyst sub-agents stopped at the word; their output under the session's state directory is not a source; the register's entry carries the word for the two consolidation skills now and the continuity directive in a context below the budget); 11:1xZ, "and stop messaging every little to Shrew, they are concentrating on a different task" (the per-seat protocol of a message before every commit and push on the shared primary is retired; the claims and the commit queue are the coordination; one message releases the peer's napkin hold and is the last); 11:1xZ, "prepare for compaction ... we will resume the dedicated consolidation session after compaction".
+- **The Claude memory directory's dispositions (verified first-hand against each home; to apply at the resume)**: retire the index line and add a "Graduated to <path> (2026-10-11)" marker in the file for estimates-separate-ceremony-from-work (plan skill §Size), practice-extraction-is-the-larger-goal (PDR-143), commit-header-length-assert-before-writing (the commit skill), knowledge-not-tidiness-ceremony-only-as-enabler, capability-parity-across-estates, heartbeats-are-liveness-never-pause-them (liveness-heartbeat-cron), wip-limit-three-across-both-estates (pr-lifecycle §Phase 7), prose-edits-with-the-edit-tool-not-regex-scripts (unattended-seats-never-prompt), tooling-agnostic-policy-strict-universal-contracts (PDR-143), and the trailer half of carry-trailer-and-merge-bot-expect-copilot-only (record-generalisation-moves; its "expect Copilot alone" half is superseded by pr-lifecycle's live-config clause and is rejected with that reason). Keep untouched, owner-private: pr-240-private-material-pointer, cursor-process-env-carries-github-tokens, napkin-2026-03-08-line-608, linkedin-impact-brief (the first and third await the owner's answer). Rewrite as pointers with no frozen seat names or branch state: next-session-oak-entry, practice-parity-goal-and-plan-node, direction-evaluation-before-next-session, successor-sycamore-holds-spore. records-door-at-green-no-timeout: its home is pull request 334's files; the stale "unpushed" sentence becomes a pointer to 334; retire when 334 lands and is carried to OCE. The remaining sixteen are the register's entries from the memory and retire when their homes are read back. OCE's memory: four owner-private kept, two drained (OCE commit e2f50a6ed). Codex (`~/.codex/memories/`, four files and 23 rollout summaries), Cursor (nothing after 2026-05-28) and Gemini (empty) as the opening block says.
+- **Open for the owner, found by the reading**: the plan sketch `practice-alignment-conservation` (JC.net only, status sketch, no ratifier, born 2026-10-05) awaits a word, ratify or archive; OCE carries three paused threads at the thread root (`agentic-mechanisms-discovery`, `data-sources-governance`, `eslint-no-throw-result-migration`) and one open conversation of 2026-04-26; the agent-tools candidates under the repeated-scripts ruling (twin-apply, twin-added, reply-resolve, the inventory and census scripts, a commit-by-pathspec command) were routed on 2026-10-03 (OCE event 3ea642e5) and none is converted; the records-class door (328) and its correction (334) are not yet carried to OCE; the two-line single-agent sentence at the top of `consolidate-docs` sits uncommitted in the primary's tree and is held out of every commit of this seat until its author is known (the register's entry carries the word either way).
+- **Decided at this pass and standing**: the previous pass's leftover omnibus commits (`docs/consolidation-2-routed-cures` here and in OCE, `docs/consolidation-2s-skills` in OCE) carry nothing left to land; the local branches are deleted at the closeout by name. The fold of the coordination branches is suspended for this session at the owner's word.
+- **State, first-hand at 11:2xZ**: this estate's records (the register, the napkin, this record) committed on the shared primary's coordination branch through the commit queue, not pushed (a push gate blocks the peer's edits; the branch is shared, so the commits ride the next push by either seat); OCE's records (its register and napkin) committed on its coordination branch, not pushed; n=2 with Shrew rides Eventide (371a2b) on the LinkedIn lane; no sub-agent of this seat since the owner's word; the two comms watchers expired at their backstops and are not re-armed at the boundary; the two curator claims stand to their TTL and are re-asserted at the resume; no heartbeat (no consumer).
+- **Resume order**: this block, counts first; the context figure read twice a few calls apart (directive edits only below the budget); both napkins rotated by proof (archive byte-identical against the committed blob, a fresh napkin with the rotation note and this seat's block; OCE's archive named by the date); the selected stream events read by the seat; the Codex memory read; the memory dispositions applied; then the graduation: one doctrine pull request per estate from a worktree cut from the latest default branch, the same bytes, the entries removed from the coordination branches after the merge; the directive-bound entries in a context below the budget; `pnpm practice:fitness:strict-hard` as a signal and the counts first in every report.
+
+### 2026-10-11T11:1xZ — the third dedicated consolidation opens: the counts, the finish list, the team (Corsair weaves Seabed, 459358)
+
+The owner's word of 2026-10-11, verbatim: "This is a dedicated consolidation session. The goal
+is knowledge curation, never fitness numbers. Done means empty pending graduations and empty
+buffers: say those counts first in every report. This daily branch fold requirement is
+suspended until this session is complete. Perform the consolidation across both estates, JC.net
+and OCE, keeping the Practice aligned in both. If you have questions, stop, and ask them." His
+note at 10:5xZ: "the act of draining the buffers is likely to result in decision debt, this is
+expected and the proper operation of consolidation. Processing and so reducing that decision
+debt then becomes the post-drain priority." So the pass drains every buffer INTO the
+pending-graduations registers first (the count rises), then graduates the registers to zero.
+
+**The counts at open.** Pending graduations: 0 here, 0 in the sibling; open questions 0 and 0;
+distilled empty and empty. Undrained: this notebook 37 blocks (1,376 lines, 2026-10-02 to
+2026-10-11); the sibling's 20 blocks (459 lines, 2026-09-29 to 2026-10-05); the stream's selected
+events since 2026-10-02, 85 here and 120 there (every over-length body, every directed, owner-word,
+closeout, ruling or correction event); the Claude per-user memory, 36 index entries here and 5
+there; the Codex memory (three files and 23 rollout summaries), the Cursor and Gemini surfaces,
+the three platform plans since 2026-09-30; the previous pass's leftover omnibus commit on
+`docs/consolidation-2-routed-cures` (767c05a9 here, f9f0a2ca6 there) and `docs/consolidation-2s-skills`
+(78547cb3f there); the sibling's slow-lane row whose review date arrived 2026-10-10.
+
+**Decided at open, first-hand.** The omnibus residue: every unlanded line lives on `main` in other
+words (the non-contiguous archive clause in `continuity-practice` §Disposition and
+`consolidate-docs` 6b; the commit skill's build-through-a-check clause; the fold skill's
+two-moments sentence; F-219 and F-224; the Monitor rule's one-shot clause in the owner's later
+wording), and PDR-075's "Accepted" text was superseded by the reviewed landing as Proposed,
+consistent across PDR-075, PDR-130 §First review, the Core changelog and the index in both
+estates; the three branches carry nothing left to land. Three eight-day-stale claims archived
+with their closure evidence (Hazel tracks Trunk's two, whose flow the alignment node closed on
+2026-10-05; Efreet lifts Scorch's, whose retire port merged as #333 on 2026-10-02). The 7c audit
+here: every active thread has its record, the retired `practice-exchange-seat` carries its
+banner; in the sibling three root records (`agentic-mechanisms-discovery`,
+`data-sources-governance`, `eslint-no-throw-result-migration`) are paused threads filed at the
+root, for the close report.
+
+**The finish list, counted, each with its landing path.**
+
+1. This notebook's 37 blocks: read in nine pieces by analysts, every claim re-read at source;
+   the lessons that have homes confirmed there, the rest written into
+   `pending-graduations.md` as entries; then the rotation: the whole file archived byte-identical
+   against its committed blob to `archive/napkin-2026-10-02-to-2026-10-11.md`, a fresh napkin
+   opened; Shrew rides Eventide's "napkin clear" word given at 3ca7953a, writes held until
+   "rotation done". A records commit on the coordination branch.
+2. The sibling's 20 blocks: the same in two pieces; its register; its rotation to its archive; a
+   records commit on its coordination branch.
+3. The selected stream events, 85 and 120: the non-state ones read, lessons joined to the
+   notebook's, un-homed ones into the registers.
+4. The Claude per-user memory, 36 and 5 index entries: graduated ones' index lines retired;
+   un-homed doctrine into the registers; owner-private files untouched, chat-only.
+5. Codex, Cursor, Gemini and the three plans: swept, each item with a disposition.
+6. The sibling's slow-lane row (model-authored text crosses a trust boundary only through a
+   harness-owned closed grammar): the wrappers and the reader hold, F-218 is the third instance
+   found with its cure open, the falsifier never fired; promoted, as a register entry whose home
+   is `principles.md` in both estates (a directive edit, the next context).
+7. The registers graduated to zero: every entry decided; non-directive homes land in this
+   context as one doctrine pull request per estate from a worktree, the same bytes; directive-bound
+   entries land in the context after the next compaction under the 30 % gate.
+8. The oversized memory files, by `continuity-practice` §Disposition (leave-if-live; else
+   graduate, then archive byte-identical): here `repo-continuity.md` (950 lines),
+   `director-handoff.md` (365), this record (184 KB), the retired `practice-exchange-seat` record
+   (225 KB); there `repo-continuity.md` (2,918 lines), `director-handoff.md` (1,000),
+   `frictions-register.md` (4,792), the `estate-coordination` (2,988), `codex-dialogues` (1,342)
+   and `agentic-engineering-enhancements` records. Priced by their entries, not their size; a
+   surface that does not fit a context gets a context of its own, never a half-read.
+9. The close: `practice:fitness:strict-hard` read as a signal and named, the counts first, the
+   7c findings to the owner, the wrap.
+
+**The team.** n=2: Shrew rides Eventide (371a2b) on the primary on the LinkedIn lane (its push of
+3ca7953a landed at 11:0xZ, gate green); it held no claim and no heartbeat, so the coordination
+surfaces read quiet at this seat's open and the direct channel showed it. Protocol both ways: say
+on the channel before any commit or push on the primary, stage by explicit pathspec, never edit
+the tree while a push gate runs. This seat edits nothing of the LinkedIn lane's. Context at open
+25.4 % of a million-token window; directive edits queue for the next context. Watchers live on
+both streams (asserted); claims open in both registries with `--role curator`.
 
 ### 2026-10-05T17:1xZ — the 2026-10-04-eebe40 branch folded as 320; the successor cut (Sycamore holds Spore, 18d874)
 

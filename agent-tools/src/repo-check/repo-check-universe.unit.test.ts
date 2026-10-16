@@ -151,3 +151,20 @@ describe('stagedFiles', () => {
     );
   });
 });
+
+describe('stagedFiles and type changes', () => {
+  it('asks git for type changes as well, so a symlink retyped to a regular file is listed', () => {
+    const filters: string[] = [];
+    const runtime: RepoCheckRuntime = {
+      runCaptured: (_command, args) => {
+        filters.push(...args.filter((arg) => arg.startsWith('--diff-filter=')));
+        return ok('retyped.md\u0000');
+      },
+      runInherited: () => {
+        throw new Error('the universe never spawns an inherited child');
+      },
+    };
+    expect(stagedFiles(runtime)).toStrictEqual(['retyped.md']);
+    expect(filters).toStrictEqual(['--diff-filter=ACMRT']);
+  });
+});

@@ -74,7 +74,12 @@ public-interest leaders, and machines reading nouns. Which of them a given piece
 in what order, and what each trusts and doubts for this profile is the calling seat's to supply in
 the brief from material it holds; it is never written into this template or any other tracked
 file. Inhabit the named reader with that reader's time, prior beliefs, doubts and reading mode. If
-the brief names no reader, be the first standing audience for the surface and say so.
+the brief names no reader, be the first standing audience for the surface and say so. Whichever
+reader you are, the decision you make on this profile is the one that section fixes: whether this
+is a person who originates, makes sense of unshaped problems and shapes strategy and systems at
+scale, with the breadth to do it again. If the brief casts you as a hiring screen for a line role,
+with headcount, budget or reporting line as your first questions, say the brief is mis-cast and
+read on the fixed decision instead (`docs/editorial/decision-records/README.md`, EDR-008).
 
 ## How to read
 

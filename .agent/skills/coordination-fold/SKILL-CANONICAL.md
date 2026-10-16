@@ -21,6 +21,24 @@ Executes the converge-and-rotate shape whose doctrine lives in
 seat running it is normally the Director/principal (the primary checkout
 resides on the coordination branch).
 
+A fold past ten minutes is a finding, never read as normal. The owner,
+2026-10-10, verbatim: "an HOUR is a ridiculous typical time for a fold,
+ridiculous, and a clear signal of a process and engineering failure. 20
+minutes would be somewhat excessive, 10 minutes would be acceptable. We have a
+problem with our PR approaches and mechanisms". The retrospective of that day
+measured the jimcresswell.net folds 320 to 326 at 25.9 to 57.8 minutes wall each: a
+records-only push reaches CI within 2.1 to 3.8 minutes of its commit, a
+vendor review round costs 3.9 to 7.8 minutes, and the door's floor was about
+fourteen minutes before any finding. So no ceremony is added to a fold, and a
+gate's duration is never stated from feel: it is read from the commit-to-CI
+interval or the hook's own clock (where the estate's tooling carries
+`coordination fold-clock --pr <n>`, it prints the intervals). A records commit on a coordination branch whose draft is ready is a
+settlement push of the fold, so a spent fold budget freezes every seat's
+records until the fold merges: fold early, or before the ready-mark's review
+legs run. A records fold's findings land on the paragraph that states a
+decision; a dated estimate line that records the hour's rulings cures count,
+contradiction and wording in one push (2026-10-02 and 2026-10-03).
+
 ## Preconditions
 
 1. Confirm the primary sits on the live coordination branch and that its
@@ -64,15 +82,19 @@ resides on the coordination branch).
    ready, a read-only reviewer checks every carried record against the day's
    landings (shas, PR numbers, states), and on a repository whose Copilot
    request is the operator's the timeline is read after the mark. The pass
-   runs BESIDE the opening push's gate, never after it (the gate is two to
-   four minutes on a records push, the pass about the same, and run in
-   series the two spend half the owner's ten-minute bound before the
-   ready-mark); it is bounded to the fold's own diff
+   runs BESIDE the opening push's gate, never after it (the gate was two to
+   four minutes on a records push where the retrospective of 2026-10-10
+   measured it, the pass about the same, and run in series the two spend
+   half the owner's ten-minute bound before the ready-mark); it is bounded
+   to the fold's own diff
    (`git diff origin/<default>...HEAD --stat`), briefed with the finding
    classes of the last three folds from their review-cost ledger rows (the
    retrospective of 2026-10-10 §Reconstruction names six: stale state a
    successor would act on, confidential material, a record's contract
-   against practice, scope, arithmetic, doctrine contradiction), and its
+   against practice, scope, arithmetic, doctrine contradiction; a seventh
+   from 2026-10-03: a sentence about what a tool, hook or validator does
+   written without its source and its configuration opened, "already" and
+   "names none" its tells), and its
    slips are cured in one push before the ready-mark (the owner's decision
    of 2026-10-10 on that retrospective's proposal 3). The fold is
    the Director's ceremony in a team session and the seat's own at n=1; it
@@ -208,9 +230,10 @@ fold merges (a Director's ruling with the lane's agreement, 2026-09-07, events d
    findings after its merge (2026-09-21), and on 2026-10-01 one estate's
    vendor reviews found two false entries in records the other estate had
    merged unreviewed; the clause those two instances graduated on 2026-10-02
-   ("a fold is reviewed before it merges") then cost four folds 26 to 58
-   minutes of wall time against the owner's ten-minute bound, nine vendor
-   rounds of 4 to 8 minutes each for 39 findings, none of them authority
+   ("a fold is reviewed before it merges") then cost four jimcresswell.net
+   folds 26 to 58 minutes of wall time against the owner's ten-minute bound,
+   nine vendor rounds of 4 to 8 minutes each for 39 findings, none of them
+   authority
    (the retrospective of 2026-10-10).
 8. Bot REST merge at the FETCHED full head sha — fetched at merge time,
    never typed from memory, never expanded from an abbreviation — with

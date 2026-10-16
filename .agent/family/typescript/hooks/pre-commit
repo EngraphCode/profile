@@ -26,6 +26,16 @@ if ! pnpm agent-tools:repo-check markdownlint-staged; then
   exit 1
 fi
 
+echo "🧼 Checking staged text files for swearing..."
+# The repository is a public surface (the owner's ruling of 2026-10-14): no
+# tracked file carries swearing. The gate reads the staged text files, the
+# profanity topic's own directory excepted, since its lexicon names the words.
+if ! pnpm agent-tools:repo-check profanity-staged; then
+  echo "❌ The swearing check refused the commit: the lines above name each swear as path:line: word -> replacement, or the staged file it could not read."
+  echo "   Records take The Good Place's words: 'pnpm agent-tools profanity replace <path...>'; rules and decision records are elided by hand with the omission marked. Then stage the changes."
+  exit 1
+fi
+
 echo "🔍 Linting workspaces changed since HEAD..."
 # git exports GIT_DIR / GIT_INDEX_FILE (a transient lock file during a real
 # commit) to hooks; turbo's children must not inherit them. Unset for the

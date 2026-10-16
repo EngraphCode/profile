@@ -90,7 +90,9 @@ An entry belongs ONLY if all three hold:
 The test: if you cannot name the _exact_ rule / PDR / ADR / pattern / doc section
 the entry will be written into, it is probably not a graduation — find its real
 home above. An item only remains live decision-debt when it is genuinely settled
-doctrine, has a doctrine home, and that home just has not been authored yet.
+doctrine, has a doctrine home, and that home just has not been authored yet. An entry
+leaves this file by its exact title: the five bullets above share the entry shape, so a
+removal by shape takes them too (2026-10-14).
 
 ## Draining and dwell
 
@@ -115,6 +117,14 @@ fields once left four items reading as a clean register (vacuous-green in a
 debt register, 2026-07-08).
 
 <!-- New pending-graduation capture appends below as inline-bracket entries. -->
+
+### Drained 2026-10-11 from the Claude per-user memory and the platform plans (Corsair weaves Seabed, 459358)
+
+Each entry carries the owner's words or the lesson as the home will read them, so the graduation
+copies the paragraph in. The memory files keep their text as the audit trail; their index lines
+retire when the home is read back. Every memory file and every home below was read first-hand by
+the seat; an analyst fleet had been sent first and was stopped at the owner's word (the next
+entry).
 
 <!-- Register drained to empty at the 2026-09-09 dedicated consolidation (Vanilla lifts
 Nectar): the one row — the triage rule step 4 naming the exhaustion and late-cure transitions
@@ -154,6 +164,30 @@ verification-method-must-answer-the-question pattern; the no-escape-hatches ruli
 graduated to principles.md §Strict and Complete. All homes verified live before this
 drain. The commits and the homes are the record. -->
 
+### Drained 2026-10-11 from the two napkins (Corsair weaves Seabed, 459358)
+
+The JC.net napkin (1,376 lines, 37 blocks, 2026-10-02T23:16Z to 2026-10-11) and the OCE napkin
+(459 lines, 20 blocks, 2026-09-29 to 2026-10-05) were read whole by the seat, every candidate
+lesson probed by phrase in both estates' rules, skills, directives, Core, reference, patterns and
+executive memory before it was written here (a control term first; a lesson a home already
+carries is not an entry). The entries sourced from the OCE napkin sit in the OCE register's batch
+of the same date; every target below is the same bytes in both estates unless marked. The napkins
+are rotated after this batch, so a source cites the block's heading, which the archive keeps
+byte-identical.
+
+### Captured 2026-10-13 from the post-drain buffers (Glowworm lifts Embers, a8c4f8)
+
+The six napkin blocks written since the 11 October drain and the seven per-user memory files
+written since it were read whole by the seat; every lesson with a non-directive home was written
+there in the same pass (the gotchas reference, read-before-asking, consolidate-until-done,
+write-for-the-reader, comms-channels, PDR-063) and only the directive-bound lessons sit here.
+
+<!-- Nine directive-bound entries graduated 2026-10-14 at the owner's word ("agreed on 1-10") into
+continuity-practice, user-collaboration, agent-collaboration, principles, testing-strategy,
+editorial-guidance and privacy, the texts as the thread record's 10:5xZ block holds them; the one
+sibling-side carry (the DUE-fold clause into the sibling's wrap skill) landed at the sibling
+stage the same day, so the register reads empty. The commit and the homes are the record. -->
+
 ## Slow lane (PDR-130 — constitutional-class concepts, decided at their review date)
 
 Rows here are live deliverables under a named review gate, NOT decision-debt:
@@ -165,6 +199,7 @@ review — promote/kill applies only to not-yet-minted concepts.**
 
 | Concept | Prediction (by review) | Falsifier | Review |
 | ------- | ---------------------- | --------- | ------ |
+| Settlement under sampling reviewers cures the class, not the instance, and the budget counts the rounds two reviewers add at every push (retrospective 2026-10-05, proposal 3; the record named this section as the row's home in both estates and no row existed until the third dedicated consolidation registered it on 2026-10-11) | the next landing of more than two hundred files settles in at most three pushes per estate | a class cure that draws a further round on the same class | 2026-10-19 |
 | Owned doctrine is placed where the situation arises, not only where the instrument's ceremony lives (the arc's retrospective and its second protected pass, 2026-09-16; owner's card filing it to this lane): an estate that imports or accumulates doctrine faster than it places it leaves rules that read correctly and fire nowhere; four situations the arc met were answered by doctrine already in the tree (PDR-140's response pricing, the 2026-07-15 handover ruling, the coordination branch's home clause, pr-lifecycle's silent-CI clause), each surfacing through the owner or a peer, while doctrine firing was otherwise the norm (seventeen decision records and twenty-eight rules cited); the placement question is whether a general mechanism is needed (triggers keyed to the seat's situation) or whether per-instrument gates suffice | With the per-instrument gates adopted (PDR-140's declaration at open, the push-time budget gate, records riding their pull request), owner corrections that already-owned doctrine answered fall to at most one per arc | Two or more such corrections in any arc after the gates land: the gates are too narrow and a general placement mechanism is needed | 2026-12-15 (first consolidation on/after) |
 | An "until the tool learns X" clause opens a code-lane item the day it lands, and a synchronous step added to a recurring ceremony states its daily price before it lands, beside PDR-130's falsifier (the retrospective of 2026-10-10, proposal 4: the fold-review clause of 2026-10-02 cost about an hour a day across two estates, never stated; three retrospectives in four weeks priced the review loop and their mechanism findings became doctrine text, while the door's code changed only at the owner's word) | By the review no new mandatory synchronous step has entered the push or fold ceremony without a stated daily price, and at least one proposal of the 2026-10-10 record has landed as code (proposals 1 and 2 landed on 2026-10-10 as the records-class door and the fold clock, the day of the decision) | One unpriced synchronous step lands in either ceremony, or a retrospective proposal that names a mechanism reaches only doctrine text by the review | 2026-12-15 (first consolidation on/after) |
 

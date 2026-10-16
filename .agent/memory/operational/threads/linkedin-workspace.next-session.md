@@ -10,7 +10,45 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-10T11:1xZ, the lane handed to Shrew rides Eventide (371a2b) at the owner's word; Cedar turns Grove closes; the Oak entry is next; Cedar turns Grove, 1950d1)
+## Current Continuation (2026-10-16T11:xxZ, the owner's dispositions of 16 October applied to the LinkedIn draft; his review of the applied draft next; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the dated blocks beneath the previous continuation are history in
+  time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
+  acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The fold, 2026-10-16T11:3xZ: the branch `2026-10-14-d0c995` folded as 336, merged at `SHA:682ad083` from
+  head `SHA:2c49b7da` by the bot (records-class, at checks green, 2.3 minutes from the
+  ready-mark; the vendor review harvested after the merge). Successor `coordination/2026-10-16-682ad0` cut from
+  `SHA:682ad083`; the folded branch retired through the bot, local and remote. The LinkedIn lane
+  continues on the successor; the draft is at the owner's dispositions of 16 October
+  (`SHA:9a2a66a7`), on `main` through this fold.
+- The LinkedIn lane: the owner's dispositions of 16 October on the fourteen-item dedupe and
+  enhancement proposal are applied in `SHA:9a2a66a7` (the block of 2026-10-16T11:xxZ below):
+  `linkedin/profile.md` and `linkedin/profile.review.md` are identical, his edits of 14 October
+  committed with the dispositions, the two Principal cards merged into one (January 2021 to
+  present), the validator OK on both copies. Next: his review of the applied draft in the editor
+  (`pnpm --filter linkedin editor`, restarted only at his word); item 10's sentence on the plugin
+  Project card is his, under his review (the seat's reading of it is in that block); the count of
+  the merged card (2,824 characters against the believed 2,000) is edited later across the whole
+  profile at his word, never to one number; the Senior Developer card may take an editorial review
+  at his word. The readers run only when he says so; the application plan is authored when he says
+  the draft is his; the private repository's pull request 6 is his to merge.
+- Swearing: at his word of 14 October the public repository carries none. The agent-tools
+  `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
+  The Good Place's words; rules and decision records are elided by hand. The pre-commit check
+  (`repo-check profanity-staged`: each staged file read from the index, binary by its content,
+  the lexicon's own directory excepted) is on `main` as 335 at `SHA:c275c866` and live on the
+  primary since `SHA:536bb2e9`. Leaves for his call: the index lookup under native Windows
+  (`toGitPath`), a size pre-check naming the 50 MiB capture limit, a tracked-tree leg in
+  `pnpm check`.
+- Pull request 334 (`fix/records-door-waits-for-a-review-in-progress`) is open as a draft at
+  `SHA:3414d9cb`, one commit, since 2026-10-11; the continuity record's "unpushed" lines of that
+  day are history. The third consolidation closed on the lane `docs/consolidation-3` (its close
+  commit `SHA:db295b47`, unpushed at the owner's word); its blocks in the continuity records here
+  are superseded by that lane's landing.
+- Seat state: n=1 (Flint guards Vapor closed out 2026-10-14 12:36Z); no watcher or heartbeat
+  (consumer absent); the LinkedIn claim `3b4a1be4` stands with its areas.
+
+## Previous Continuation (2026-10-10T11:1xZ, the lane handed to Shrew rides Eventide (371a2b) at the owner's word; Cedar turns Grove closes; the Oak entry is next; Cedar turns Grove, 1950d1)
 
 - The owner's words, verbatim: 2026-10-09 13:4xZ, "the next session works on the Oak entry,
   consolidation waits until I say so"; 2026-10-10 10:5xZ, "Prepare a full handoff to Shrew rides
@@ -70,6 +108,618 @@ authorisation.
   successor registers its identity row here on join and, if it answers the Moment-1 event, does
   so on the comms stream.
 
+### 2026-10-10T11:3xZ — the 2026-10-09-213f94 branch folded as 326; the successor cut (Shrew rides Eventide, 371a2b)
+
+Merged as `SHA:f436b6fc` at head `SHA:6c340d86` by the bot on SETTLE-READY. Successor
+`coordination/2026-10-10-f436b6` cut from `SHA:f436b6fc`; the folded branch retired through the
+bot after every tip read merged. The fold's review: the records pass before the ready-mark (a
+read-only reviewer) found eight slips, cured before the push; one Copilot round of five findings
+(the company page's backstory in the container and the napkin, the privacy class; the Active
+Threads end date; the Director handoff's current-state heading; this record's current block not
+first), each cured in one settlement push with a signed line, the second review on that tip
+finding nothing. Cedar turns Grove's handoff records rode the fold as the same files. moved for
+the sites: nothing / moved for the Practice: the handoff records and the wrap skill's clause on
+`main`.
+
+### 2026-10-10T15:1xZ — the owner's edits to the About and the Oak entries; the chronology corrected; the readers' second pass; awaiting the owner (Shrew rides Eventide, 371a2b)
+
+The owner edited the About and both Oak entries in the editor and "fixed one factual error with
+the Oak dates": Principal Engineer June 2022 to present; Senior Developer (consulting) August
+2020 to May 2022, closing on the position being formalised as Principal Engineer; then, in chat,
+the consulting entry's opening sentence ("Oak had launched that April as an emergency pandemic
+response ... meant no child missed out on education."). His edits are in `linkedin/profile.md`
+(the status lines say so); the container's Oak section and the rewrite handoff carry his
+chronology in place of the January 2021 reading, and EDR-007's chronology line is dated. The
+revised text went through `prose-expert` and the `audience-reader` in parallel (the `editor` not
+re-run: the structure is his from 8 October and the edits are line-level): nine of twelve line
+findings applied, three of his phrasings kept as his words, one fact corrected by the seat
+("England's official curriculum body" for "the UK's", Oak being funded by the Department for
+Education and serving England's national curriculum; reversible at his word). The editor file
+`profile.review.md` is a copy of the home after the pass, so the editor shows him the draft he
+reads second. Open for the owner, with the container's standing items: the consulting card's
+title for January 2021 to May 2022 (the seat's verdict: a second consulting card, Principal
+Engineer (consulting), consistent with his 27 September direction and his "formalised"; the head
+hunter named the title history as the client's first objection); the head hunter's reading of a
+principal who advises leadership and hands work on, with no headcount or reporting line (the
+level claim); "the Practice" read as a personal method by both readers; the About's fold carrying
+no leadership signal; the site's entity graph (Head of DevOps and Quality for 2021 to 2022, "five
+product squads") against his edits. Next: his reading of the draft; then the earlier entries,
+Featured, Projects, skills, recommendations, settings; the application only at his express
+request with him present. moved for the sites: nothing / moved for the Practice: nothing.
+
+### 2026-10-10T15:4xZ — the Oak block as three cards at the owner's word; the level and the Practice written for the reader; the graph brought to the cards; awaiting the owner (Shrew rides Eventide, 371a2b)
+
+The owner's dispositions on the 15:1xZ report: the consulting years are two cards ("a consulting
+Principal after the first 5 months"), so the Oak block is Senior Developer (consulting) Aug to
+Dec 2020, Principal Engineer (consulting) Jan 2021 to May 2022, Principal Engineer from June 2022
+as an employee; the level at Oak (Principal beside Head of Engineering under the Director of
+Engineering; strategy, standard and vendor and partner relationships against budget and people
+through the engineering managers) is the Principal card's opening, stated as the shape of the
+function; the Practice is defined in the About for a reader who has never met it and
+particularised in the card, with its adoption by the engineers on the Open Curriculum Ecosystem
+repository; the site's entity graph is brought to the cards at his word (the 2021 to 2022 role
+Principal Engineer (Consulting), January 2021 to May 2022, description kept; six product squads
+in the graph and the CV content; the site's unit tests green). His correction of this round,
+kept as a lesson: his answers to the seat are facts, never copy; the reader's sentence is
+written from the fact. The `editor` and `prose-expert` read the new material, the editor's
+structural change landed, and the `audience-reader` read the whole block: the head hunter now
+reads a strategy peer of the Head of Engineering with the reporting line placed, approaches for
+founding-CTO and technical-director searches, and asks, with certainty now, whether he has held
+budget or people; the funder takes the conversation and asks what anyone outside Oak has built
+on the plugin. Open for the owner: the rebuild's date (which card owns the movement; decide or
+recommend); "meant no child missed out on education" (his phrase, the editor's objection
+beside it); the About's fold (a proposed second sentence in chat, not applied); the
+"arm's-length body" phrasing against his "England's official curriculum body"; the pre-Oak
+line's "testing" read as a QA pedigree; a reach figure for the plugin if publishable. Rounds of
+editing remain and the count comes down later (his word). Draft 327's body still names the
+profile and product code out of scope; the fold's ready-mark rewrites it to the branch's
+content. moved for the sites: the entity graph's Oak roles and squad count, the CV content's
+squad count / moved for the Practice: nothing.
+
+### 2026-10-11T0x:xxZ — the owner's step-back; EDR-008 fixes the reader's axis; the Oak block at that altitude; the three-layer direction captured (Shrew rides Eventide, 371a2b)
+
+The owner on the 10 October rounds: "Incorrect, and frankly the wording is still clumsy. Step
+back. Step back more. ... What is this all for?", then: not a run-the-org engineering-leader
+profile; one that expresses his innovation and broad interests and capabilities; any route to a
+reader; good cold approaches welcome, irrelevant ones not; "update the editorial skills, rules,
+agents, guidance if needed, and then continue with your rewrite". The diagnosis: the seat's
+audience brief had cast a head hunter for a senior engineering search, and three rounds cured to
+that reader's objection (an org chart and a reporting line on the current card). Landed:
+EDR-008 (the reader's decision: origination, sense-making where nothing has a shape yet,
+strategy and systems shaped at scale, breadth; never a line-role screen; level shows in
+decisions, never argued; no route privileged); `editorial-strategy.md` §Standing audiences item
+1 on that axis; two principles in `editorial-guidance.md`; `write-for-the-reader` §1, §5 and a
+gotcha; the `audience-reader` template names the axis and refuses a line-role brief; adapters
+regenerated, portability and subagents checks green. The Oak block: the org chart and the
+reporting line off the current card (2,549 characters now); the consulting Principal card plain
+facts without the borrowed number; the five-month card unchanged; the About unchanged. The
+`audience-reader` under a brief on the axis: both readers take the conversation; "I hold Oak's
+engineering strategy ... what gets built and what does not" is the sentence that corrects the
+title's prior; the rebuild paragraph the strongest evidence; the one sentence above engineering
+is the curriculum-wherever-teachers-are idea, and the remaining question for both is whether he
+has shaped a problem whose answer was not a system. Reported, not yet acted on: the About and the
+current card tell the same three stories (selective repetition by design; a reader of both skims
+the second), and "Oak's Open Curriculum Ecosystem repository" was opaque to both readers. The
+owner's second direction, "not for right now", the editorial doctrine in three layers (general
+writing practice, the surface class, the author instance, in separate directories and files), is
+the sketch delivery node `editorial-doctrine-in-three-layers` under an owner gate to 2026-11-01.
+Open for the owner: the rebuild's date (which card owns the movement); decide or recommend on
+the rebuild; "meant no child missed out on education" (his phrase, the editor's objection
+beside it); "arm's-length body of the Department for Education" against his "England's official
+curriculum body"; the About's fold proposal (in chat, not applied); a sentence that shows a
+decision above the engineering function, if one exists; what to call the Open Curriculum
+Ecosystem for a reader who has never met it. moved for the sites: nothing / moved for the
+Practice: EDR-008 and the doctrine clauses above; the three-layer sketch.
+
+### 2026-10-11T10:5xZ — the earlier entries drafted by the method; awaiting the owner (Shrew rides Eventide, 371a2b)
+
+The eleven earlier Experience entries (Code Science to Hewlett-Packard Laboratories) drafted
+into `linkedin/profile.md` from the live baseline, draft 1, the CV content and the entity graph,
+each with one job on EDR-008's axis (the mapping is in the container's earlier-entries section);
+the `editor` and `prose-expert` in parallel (two unsupported claims removed at the evidence
+pass: completed developer-support work at FT Labs, continuous-delivery tooling in place at the
+Passport Office), then the `audience-reader` on the run: both readers read Oak as a pattern, the
+Passport Office and PhD sentences answered the "not a system" question, the breadth read as
+range, and the three two-month fragments plus Medicspot were the noise and the restlessness
+flicker. Open for the owner, in the container: Code Science's dates and named clients; Obaith's
+title, dates, pattern and outcome (the card both readers would open with); FT Labs as one card;
+the two short contracts, whose removal is the seat's verdict; "multi-award-winning"; the
+one-in-ten finding's attribution; the Firefox OS app; the inferred locations. Also the blog as an
+existing surface class for the three-layer sketch (the owner, 11 October). Next: his dispositions
+on the Oak block and the run; then Featured, Projects, skills, recommendations, settings; the
+application only at his express request with him present. moved for the sites: nothing / moved
+for the Practice: nothing.
+
+### 2026-10-11T12:xxZ — the whole profile drafted, every section; ready for the owner's full review (Shrew rides Eventide, 371a2b)
+
+The owner's word: "get it to a state where you are happy with it, then I will do a full review
+and edit". His dispositions of the morning applied first: the About's second sentence inside the
+fold; We Predict and Carnegie Mellon removed on the reasoning in the container (no decision
+changed for the readers the profile is for; keyword hooks for the approaches he does not want;
+the CV keeps both); FT Labs one card, Senior Developer, "I joined as a developer"; Obaith's
+outcome written from his words; the rebuild with no date at his word, the current card keeping
+the call and the consulting card the groundwork; the Open Curriculum Ecosystem glossed as Oak's
+public repository for building on its curriculum data (Oak has 32 public repositories; the
+repository's own line is the source). Then every open section drafted from the settled decisions
+and the sources (the top card, Featured as three warrants in their owners' words including the
+Claude listing, Education, Licences, Projects with the rebuild's public code
+`oaknational/Oak-Web-Application` at his word, Publications, Volunteering, Organisations, the
+ordered Skills list with three pins and eight additions, Contact), read by the `editor` (whole
+profile) and `prose-expert` (the new sections) in parallel, their findings applied in one pass
+(each new section given a function the About and the cards do not perform; the Featured
+captions in Oak's and Anthropic's words; the second abstracts out of Education; the pins
+re-set), every link checked (eleven, all 200), and the `audience-reader` on the whole profile
+as the last falsification. The entity graph's three credential names and the institute's "of"
+corrected to the badges and the institute; site unit tests green. Open for the owner, all in the
+container: the Oak items (decide or recommend; "meant no child"; "arm's-length body"; a decision
+above the engineering function; "England's curriculum" at the fold; "since 2020" as arrival or
+strategy); the earlier entries' facts (Code Science's dates and clients; Obaith's title, dates
+and pattern; "won multiple awards"; the one-in-ten finding's attribution; the Firefox OS app;
+the plugin project's start year); the new sections' calls (the industry value; the Portsmouth
+school field; the two 2016 certificates; the volunteering cause; the IoP grade; the Skills pins
+against endorsement counts; "GitHub" against its endorsements). Next: his full review and edit
+in the editor (reload the tab first); his word on Recommendations; then the application through
+Chrome with him present, after a PDF export of the live profile. moved for the sites: the entity
+graph's credential names and the institute's name / moved for the Practice: nothing.
+
+### 2026-10-11T12:2xZ — compaction boundary at the owner's word; the profile complete and awaiting his full review and edit (Shrew rides Eventide, 371a2b)
+
+The owner's word: "prepare for compaction, do nothing else". This block is the pickup. The
+state, by his words of the afternoon: the whole profile is drafted in `linkedin/profile.md`, its
+editor copy identical, and he will "do a full review and edit" in the editor (reload the tab
+first; the page autosaves the whole text area and has no conflict check). After his review, the
+decisions of the afternoon that shape the lane: Oak's official claims are used wherever they
+benefit him, each high-impact claim once and prominently (the reach of over 200,000 teachers
+and the AI-ready infrastructure framing sit once each in the About); "originator, innovator,
+scientist" outranks "engineering leader" everywhere, with leadership in general and leading
+innovation kept at the top of the Skills and the engineering-function leadership terms lower,
+kept because they open doors; the testing trade's tags are gone from the Skills at his word.
+Open at the boundary, beyond the container's lists: the Skills tail (about twenty developer-tool
+tags that hook contractor searches; the seat's verdict is a cut to around forty-five, decided at
+application with the endorsement counts visible; the counts were never recorded); the exact
+taxonomy strings for the twenty-two added skills, checked at application. Next, in order: his
+full review and edit; his dispositions on the container's open items and the Skills tail; his
+word on Recommendations; a PDF export of the live profile; the application through Chrome with
+him present, in one sitting, settings last (Open to Work off, update-sharing off until one
+deliberate notification). The daily fold of the coordination branch is suspended by the owner's
+word of 11 October for the consolidation seat's session, so draft 327 stays open until he lifts
+it; the fold is never run inside a wrap. The records door merged in 328 does not yet wait for a
+review in progress (the owner's word of 11 October; the correction is held unpushed on a worktree
+branch of the closed Cedar turns Grove seat), so a records fold's merge is held by hand while a
+review runs. Processes at the boundary: the owner's editor (`pnpm --filter linkedin editor`, on
+127.0.0.1:4780, reading `linkedin/profile.review.md`) as a background task of this seat; no
+watcher (not re-armed at the owner's word to attend only to the rewrite), no claim, no
+heartbeat, no cron. After a resume, verify the task list first and restart the editor only if it
+is absent and he wants it. Tool facts kept here because they cost three refused commits today:
+the commit-msg hook refuses a header over 100 characters, a subject that starts with a capital
+(sentence-case), and a body line that begins with a word and a colon (commitlint reads it as a
+footer and refuses the missing blank line); a refused commit inside a chained command leaves the
+push running with nothing new, so the commit's sha is read back before any push is reported.
+The owner's last word before the boundary, verbatim, for the first act after it: "post-compaction,
+let's explore the [Skills], without changing the canonical list yet. Assume a cap of 45, divided
+into three sections, the top three skills, the next two skills, the rest of the long tail. I
+agree that many of the skills are overly specific given the kind of role I want. Some carry
+endorsements that I want to keep, javascript, software development, web applications, software
+engineering. We also need an official list of LinkedIn's taxonomy, so that we can validate skills
+against it." So the next session opens with that exploration, in the container and in chat, not
+in `profile.md`: a 45-entry proposal in three tiers (the pinned three, the next two, the tail),
+the four endorsed tags kept by name, every candidate checked against LinkedIn's standardised
+skills, for which an official list is to be found first (the candidates to check: LinkedIn's own
+help and talent pages, the Marketing API's Skills data, the typeahead at application as the
+final arbiter; a free-text skill may not feed Recruiter's filter). moved for the sites:
+nothing / moved for the Practice: nothing.
+
+### 2026-10-11T12:5xZ — the Skills exploration done as the linkedin-skills skill, with apply-linkedin-profile beside it; the canonical list unchanged (Shrew rides Eventide, 371a2b)
+
+The owner's words after the compaction: the Skills exploration under a cap of 45 in three tiers
+(the boundary block above, verbatim), then "under editorial we should create a LinkedIn Skills
+skill ... so we don't have to rediscover all of this at a later time, including a reference file
+with the current skill list and a last updated and source and other relevant metadata ... if you
+identify other relevant LinkedIn skills to create, please create them", and the Microsoft Learn
+MCP server as the source for LinkedIn's API reference. Landed: the `linkedin-skills` skill
+(`.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md`: what LinkedIn does with the
+list with every fact sourced and dated, the selection method by EDR-008 under his tiers, the
+validation procedure with the typeahead as arbiter, `references/skills-registry.md` with every
+name's live, canonical, proposal, 2018-crawl and typeahead status, and the crawl-check script);
+the `apply-linkedin-profile` skill (the sitting's order of work under his standing conditions,
+the believed field limits with their status, the industry taxonomy rows for Oak's sector); both
+registered in the practice index and `linkedin/README.md`, adapters generated, the checks
+green. The proposal (thirty-nine entries: pins Innovation, Systems Thinking, Engineering
+Strategy; next Artificial Intelligence (AI), Leadership; the tail by cluster; thirty-nine
+removals by class; Generative AI and EdTech added) is in the container's §Skills;
+`profile.md` is unchanged at his word. Open for him: the third pin's string if Engineering
+Strategy is not standardised; the two additions; the five generic endorsed tags removed; whether
+the typeahead check runs now in Chrome as a read or at application; the six empty slots under
+the cap. Processes: the editor task stopped at the compaction, restart only at his word; no
+watcher, no claim (the claims helper refuses a claim while the retired consolidation seat's
+claim is held for its successor and no watcher runs; the napkin block of this hour is the
+consultation artefact), no heartbeat, no cron. Next: his dispositions on the proposal, then his
+full review and edit of the profile, then the application per the new skill. moved for the
+sites: nothing / moved for the Practice: the two editorial skills and the registry.
+
+### 2026-10-11T13:2xZ — the live Skills read and the typeahead check in Chrome; the owner's words on the names; the script's floor guard (Shrew rides Eventide, 371a2b)
+
+At the owner's `/claude-in-chrome` with his profile URL: the skills detail page read in the self
+view (63 skills; twelve carry an endorsement line, Java 13, Software Development 12, Test
+Automation 8, Programming 5, HTML5 5, JavaScript at least 4, Physics 3, Software Engineering 2 to
+3, CSS 2, C 2, Web Applications at least 1, Communication 1; the other fifty-one none, so the
+September display order was never an endorsement order), then the Add skill dialog's typeahead
+typed and read for every new name and its fallbacks, nothing saved. Not standardised: Innovation,
+Engineering Strategy, Technology Strategy, Technical Strategy, Digital Public Services, Research,
+Agentic AI. His words on the result: "as Innovation isn't on the list I am happy with 'Creativity
+and Innovation' but perhaps it should be paired with scientific research"; "make sure that
+Open-Source Development is one of the skills on my list". Applied to the canonical list: Creativity
+and Innovation and Scientific Research at the top, Statistical Modeling, Open-Source Development
+beside Open-Source Software; the rest of the proposal (forty entries, pins Creativity and
+Innovation, Scientific Research, Systems Thinking; next Strategy, Artificial Intelligence (AI))
+stays in the container and the registry for his dispositions: Engineering Strategy's replacement,
+Generative AI, Edtech, Java. Three Fable subagents at his word: the ideal skill sets for a
+mission-led founder and for a thought leader in AI for public services (reported in chat, not
+recorded), and the `pnpm check` diagnosis, which found the shellcheck gate refusing the new
+script for lacking the bash floor guard; the guard added, adapters re-carried, the leg green.
+Next: his dispositions; his full review and edit; the application per the apply-linkedin-profile
+skill. moved for the sites: nothing / moved for the Practice: the registry's live counts and
+typeahead results; the floor-guard lesson in the napkin.
+
+### 2026-10-11T13:4xZ — compaction boundary at the owner's word; the Skills list at his decisions; the removal list ready for him (Shrew rides Eventide, 371a2b)
+
+The owner's word: "bring the current work to a pause, then prepare for compaction ... post
+compaction we will continue looking at the skills. Move by words on skill legitimacy to the private
+editorial repo, that is clearly sensitive psychological information about me and must not be in a
+public repo. keep "C" it communicates genuine engineering chops. Post compaction give me the full
+list of skills you would like to remove". This block is the pickup. State: `linkedin/profile.md`
+§Skills holds forty-nine decided entries in display order (his pins Social Entrepreneurship,
+Systems Thinking, Artificial Intelligence (AI); his next two Social Impact, Leadership; the tail
+by cluster; C kept at his word) and, after them, thirty-nine proposed removals awaiting his word,
+four of them strings the typeahead does not know; the editor copy is identical. Every name's
+status is in the `linkedin-skills` skill's registry (live endorsement counts read 2026-10-11;
+the typeahead's exact strings; the research candidates with their crawl status). His reasoning on
+which names he can claim is owner-private: it was quoted in tracked files for an hour, then removed
+from every tracked file and from the unpushed commit that carried it (amended before any push); it
+is in the private editorial repository's LinkedIn replacement record (7 October, its section of 11
+October), moved there at his word of 15:xxZ; `privacy.md` names that repository's location,
+which the seat had not read, so an isolated local note held the words for two hours. **First act
+after the compaction**: give him the full list the seat would remove,
+which is the thirty-nine pending entries (Engineering Strategy, Technical Strategy, Research and
+Digital Public Services as unknown strings; Technical Architecture, Digital Services, Parameter
+Estimation, Scientific Writing, Consulting, Project Management, Agile Methodologies, CI/CD, Pair
+Programming, DevOps, Infrastructure Automation, Configuration Management, Cloud Computing,
+Analytical Skills, Creative Problem Solving, Problem Solving, Solution-oriented, Communication,
+Programming, Web Development, Node.js, React.js, Next.js, GraphQL, HTML, HTML5, CSS, Scripting,
+Linux, Git, GitHub, PostgreSQL, Hasura, Google Cloud Platform (GCP), Cloudflare) plus six from the
+decided list (Technical Leadership, Team Leadership, System Architecture, Product Engineering,
+Digital Strategy, Data Analysis), with the five additions confirmed at the typeahead (Large
+Language Models (LLM), Strategic Thinking, Open Innovation, Knowledge Graphs, Digital
+Transformation) and the endorsements each removal costs (Programming 5, HTML5 5, CSS 2,
+Communication 1); the seat's one-sentence risk on the first pin was said once in chat and belongs
+to the private material. Then his dispositions; the About earning the first pin if it stays; his
+full review and edit; the application per `apply-linkedin-profile`. Processes at the boundary:
+the Chrome tab closed; no watcher, no claim, no heartbeat, no cron; the editor stopped; the three
+Fable subagents of the afternoon complete. Tool facts kept: the commit-msg header refused twice
+today at 101 and 104 characters (count before writing, and never chain the commit after a failed
+check); a new bash script needs the floor guard before its first command; the Add skill dialog's
+Dismiss raises a Discard prompt only when the input holds text; the typeahead's strings are the
+taxonomy's house style ("Startups", "Edtech"). moved for the sites: nothing / moved for the
+Practice: the two editorial skills, the registry, the floor-guard lesson.
+
+### 2026-10-11T16:xxZ — the owner's corrections of the afternoon; the method fixed; the plan node ratified; the remaining names put to him (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. The owner's words of the afternoon, decisions only: the private
+editorial repository is the ignored nested repository under `.agent/reference-local/`
+(`privacy.md` names it; the seat had not read that sentence and had held the words in an
+isolated local note); his reasons went there as a dated section on the LinkedIn replacement
+record, pull request 6 on that repository for him to merge, the note deleted. His dispositions on
+the seat's removal list: Parameter Estimation and Scientific Writing stay; Product Engineering
+stays; Digital Strategy stays; Mentoring replaces Coaching; Digital Transformation is not added;
+Social Entrepreneurship stands as the first pin with the About unchanged. His corrections on the
+frame, three in one hour: the direction is an identity, never a domain or an employer
+(innovator, originator, scientist); the CV content and the entity graph are sources to explore,
+never an authority, and there is no true baseline to match; finishing the rewrite is the
+priority, and the LinkedIn work will later feed changes to the graph and the CV, information
+only. The seat's generator, named in the napkin: after each correction it reached for a
+surrogate authority (a taxonomy, a retrieval frame, the CV, the graph), each generic, each
+pulling the list back to the engineering leader; the cure is in the method. Landed: the plan
+node `linkedin-profile-rewrite-completion` (delivery, serves `content-as-cv`, ratified at his
+approval of the plan in this session); the `linkedin-skills` skill's selection section rewritten
+as §Choose by Jim's word and the understanding, the registry with provenance on every table and
+the archetype candidates struck (`SHA:532e4536`); his dispositions applied, fifty-one decided and
+thirty-seven in question (`SHA:f7d18842`); the container's whole-profile section with the open
+items for his review in one list (this commit). Put to him in chat and awaiting his word: the
+thirty-seven names; the four questioned in the decided list (Technical Leadership, Team
+Leadership and Data Analysis to leave, System Architecture to keep); eighteen technique and
+generic names to leave; the fifteen stack tags as one decision with the trade stated; the
+additions (Large Language Models (LLM) to add; Knowledge Graphs, Technology Policy and Teaching
+held; Open Innovation not added). Processes: a cron every fifteen minutes checks the context by
+a transcript proxy (the exact figure is the statusline's) and continues the plan; the harness
+plan file and an immutable summary beside it on this machine; the claim open as implementer; no
+watcher, no heartbeat. Next: his dispositions applied; the `audience-reader` once on the whole
+profile; the records; then his full review and edit in the editor at his word. moved for the
+sites: nothing / moved for the Practice: the plan node, the skill's method, the registry's
+provenance.
+
+### 2026-10-11T17:xxZ — the readers on the whole draft; the tail reordered; a privacy fix pushed; the loop cancelled (Shrew rides Eventide, 371a2b)
+
+A side agent's note found two verbatim sentences of the owner on the
+positions he is and is not looking for in the napkin's blocks of the morning, pushed at
+`SHA:ecceacc1`, and the seat's own paraphrase in the skill's new section; out of the tree at
+`SHA:6c0f45d0` (the napkin carries EDR-008's public form with his correction, not typical
+engineering-leadership positions; the skill carries the retrieval rule); the branch pushed, tip
+`SHA:6c0f45d0`; the history on the remote is his call (force-push barred by his standing rule; a
+squash at the fold or leaving it). The owner cancelled the fifteen-minute loop ("cancel the loop,
+and do some work") and said the seat had neither compacted nor kept going; a seat cannot trigger
+the compaction, and it should have continued the plan's steps instead of holding. Step 7 run:
+the `audience-reader` as two readers (the cold search partner, the warm funder) on the draft with
+the fifty-one decided names. Both would act: longlist, or forward and message. Dispositions:
+absorbed, Strategy, Technology Leadership and Product Strategy moved to positions six to eight
+(the About's second sentence is the strategy remit and the list had no strategy name before
+seventeen; reversible at his word); routed to his review in the container's list, the Practice
+paragraph's altitude, "the standards travel with the data", "since 2020" against the Senior
+Developer card, the Johns Hopkins certificates beside a PhD, the Principal card's "the judgement
+and the calls are mine", no named voucher (Recommendations); added to the names in question,
+Psychological Safety (a people-manager reading with Team Leadership and Mentoring) and Emerging
+Technologies (self-appointed, to the cold reader); recorded without change at his word, the pins
+(the cold reader read a founder the record does not show, the warm reader a direction he is
+going and found it informative; his word of the afternoon stands), C, the physics-methods cluster,
+the headline (the cold reader called it noise and the About's second sentence did its job);
+rejected, the cold reader's wish to ask an Oak contact where he sat in the leadership line
+(EDR-008 §4, the mis-cast question is never answered on the page) and the funder's question of
+what he wants next (inform only, offer only, by design). The tester reading comes from the
+earlier titles, not the list; the past is real and stays. Next: his dispositions on the names
+(the afternoon's draft plus the two added); then the records of his word; then his full review
+and edit in the editor. moved for the sites: nothing / moved for the Practice: nothing.
+
+### 2026-10-11T18:xxZ — Jim's list applied: the pins reset, forty-three names, every removal ratified (Shrew rides Eventide, 371a2b)
+
+After the compaction the owner asked for the proposal as a four-column
+table (pins, next two, tail, removing), returned his own list with the removals ratified and asked
+for a critique, then settled it: the pins Technological Innovation, Artificial Intelligence (AI),
+Social Impact; the next two Systems Thinking, Strategic Leadership (confirmed by him at the
+typeahead); Software Development and Software Engineering Practices in place of Software
+Engineering, Web Technologies in place of Web Applications; six names of the afternoon's decided
+list left at his own hand (Leadership, Strategy, Product Strategy, Digital Strategy, Social
+Entrepreneurship, Creativity and Innovation) with the seat's Developer Experience and
+Psychological Safety; Emerging Technologies stays and Programming goes. His rule on the tail: the
+order roughly matches the rest of the profile, otherwise order and gaps carry no meaning; the
+seat placed Software Engineering Practices with the systems names and Software Development with
+the craft. His question on the broad AI tag as a pin and the seat's reading are in the
+container's §Skills, last paragraph. Applied in this block's commit: `linkedin/profile.md`
+§Skills (forty-three entries, the status line), the registry (the canonical table rewritten with
+provenance, the in-question section folded into the removed table with endorsements and the time
+of each removal, the held names and the alternatives trimmed), the container's one-system
+section, its open item 5 and §Skills; the review copy identical; validator green; adapters
+regenerated; pushed, tip `SHA:5a848254`. The same hour, in the Add skill dialog with him present
+and nothing saved: the four names the morning had not typed (Software Engineering Practices, Web
+Technologies, Parameter Estimation, Scientific Writing) are the taxonomy's own strings, so every
+name on the list is confirmed; sixteen gap-analysis candidates read at his request and recorded
+in the registry, not proposed (Change Leadership the one not standardised). Open: the readers
+are off until he says so (his word: changes first, then another round); the history question on `SHA:ecceacc1`; the private repository's pull
+request 6 for him to merge. Next: his full review and edit in the editor at his word
+(`pnpm --filter linkedin editor`, the tab reloaded before typing); the application plan authored
+when he says the draft is his. moved for the sites: nothing / moved for the Practice: nothing.
+
+### 2026-10-12T09:xxZ — Jim's dispositions on the seat's own review; four names to add; the titles are his to change, by discussion (Shrew rides Eventide, 371a2b)
+
+At his word the seat reviewed the whole draft itself (the readers off
+until he says so) and reported eight findings; his dispositions, decisions only: (0) Digital
+Public Goods, Citizen Science, Entrepreneurship and Thought Leadership are added in their places;
+Strategic Partnerships is not; (1) the Principal card is refined to the 2,000-character limit by
+information density and writing quality, never cut down; (2) the fold fix agreed ("National
+Curriculum-aligned" out of the About's second sentence); (3) "since 2021" agreed; (4) Public
+Speaking stands on his word; Science Communication is shown by the Publications (his Google
+Scholar profile lists the two papers and the thesis, 128 citations); Startups and Mentoring
+stand at his word (his reasons are in the private editorial repository, never here); a
+post of his may follow later, the claims are made now; (5) the titles are his to change, some
+change and some stay, by a discussion with him (the seat had read his word that the past is real
+as the title strings being fixed; corrected); (6) the Johns Hopkins courses: removed at the seat's verdict, at his word, the two courses out
+with the two safety certificates; (7)
+scientist is a discipline, mindset and approach, not a role, shown by how the page is written and
+never by a name's position (the seat had counted it absent from the top five; corrected); (8)
+Recommendations were agreed before the review; the seat had critiqued agreed intent (corrected).
+Then his "keep going", with the note that his Google Scholar and ORCID pages must be on the
+profile. Applied in this block's commit: the four names placed (Thought Leadership after
+Technology Leadership, Entrepreneurship beside Startups, Digital Public Goods after Open-Source
+Development, Citizen Science after Physics; forty-seven, the registry renumbered, the check
+script green), the fold fix, "since 2021", the four certificates out, and the contact websites
+now the site, Google Scholar and ORCID (LinkedIn carries three; the CV and code routes are
+reachable from the site; Featured is the other home if he wants all five). Next, in order: the
+titles discussion with him from the seat's table in chat (one proposal per title; the constraint
+is truth to the role in his words); the Principal card redrafted at density, the seat's draft put
+to him in chat; then the editor and prose passes on the whole and the readers. The claim's heartbeat renewed past its freshness. moved for the sites: nothing / moved
+for the Practice: nothing.
+
+### 2026-10-12T10:xxZ — the owner's correction: the contact links restored, Scholar and ORCID in Featured; the card is a conversation, not a compression; the process fix (Shrew rides Eventide, 371a2b)
+
+A side agent's note surfaced that the seat had replaced the CV and
+GitHub contact links with Google Scholar and ORCID to fit LinkedIn's three; the owner: removing
+those links was not appropriate, there is more than one way; stop deferring with "at your word",
+he can change his mind and circumstances change, so the seat assesses what is best in context;
+he had asked for a discussion of the Principal card and for improvement without cutting or
+compressing, and the seat chased the character count and made changes without him. The owner then
+agreed the seat's proposed process (a conversation by default; apply only what the conversation
+settled, as a named list; a limit is never a reason to cut; additions and corrections he lists
+are applied and named) and settled the records: Scholar as the one Featured item, the papers by
+DOI and the thesis as a third Publications entry, the ORCID iD on the PhD entry, the contact card
+as drafted. Applied in this block's commit, nothing outside that list; the editorial-guidance
+Process note carries the agreement; the napkin and a per-user memory carry the generator. The
+Principal card: no draft; the conversation opened in chat on what the card carries and where its
+content has homes of its own (the Practice as a Projects card; the product's standards with the
+plugin's Project card), so the limit is met by design. The titles table stands for the
+discussion, with the directive's caution on "Founder" (not a claim on the canonical CV) beside
+the live profile's own Obaith title. The list, the fold fix, "since 2021" and the certificates
+stand as applied. Then, at his request, every open question as self-contained
+structured questions (seven rounds); his answers are the settled list in the container's
+one-system section, and the next editable draft is built from them in this block's commit: the
+Principal card at the agreed shape (2,139 characters, the trade his in the edit), the Practice
+as a Project card, the consulting card with the function's growth, Founder at Code Science with
+the clients named, Assanka on the FT card, the first term's scale on the 2020 card from Oak's
+report of July 2020, the Institute as the PhD's school, the paper links back to arXiv (his
+aside: no paywall), the industry and banner proposed. Next: his edit in the editor
+(`pnpm --filter linkedin editor`, the tab reloaded before typing; `profile.review.md` is his
+copy); then the editor and prose passes on the whole and the readers. Cold pause at the owner's word
+(12 October, 11:xxZ) with the editor running on 127.0.0.1:4780 and the review copy identical to
+the draft at `SHA:49f6b2c4`; the seat does nothing until he says otherwise. moved for the sites:
+nothing / moved for the Practice: nothing.
+
+### 2026-10-13T11:xxZ — Compaction boundary at the owner's word; his editing resumes after (Shrew rides Eventide, 371a2b)
+
+This block is the pickup. The owner stopped the editor, called the compaction drill and said
+his editing resumes after it. His first edit in the review file, the industry line as
+"Technology, Information and Internet" with the seat's note removed, is absorbed into the draft
+in this block's commit, so `linkedin/profile.md` and `linkedin/profile.review.md` are identical
+at the boundary. The settled list of 12 October, the next editable draft built from it and what
+stays open for his edit are in the container's one-system section; the three corrections of the
+morning and the agreed process are in the editorial-guidance Process note, the napkin, and the
+per-user memory `review-against-his-words-not-the-seats-frames`; the private repository's pull
+request 6 carries his words of 11 and 12 October, for him to merge. Processes: none run under
+this seat (the cron cancelled 11 October, no watcher, no monitor, the editor killed by him);
+the claim's heartbeat renewed at the boundary. Re-arm at resume, after verifying the task list
+and the port: `pnpm --filter linkedin editor`, serving 127.0.0.1:4780 from the review file, the
+tab reloaded before typing; nothing else. Not this seat's: the worktree
+`.claude/worktrees/records-door-waits` holds the records-door fix branch, ahead of main by one,
+untouched. Promises carried, none dropped: the editor and prose passes on the whole draft and
+then the readers, after his edits; the application plan under `apply-linkedin-profile` when he
+says the draft is his; the history question on `SHA:ecceacc1` (his); the Webby, the banner
+photograph, the three titles and the Principal card's 139 characters (his edits); the industry
+value at the dropdown; Recommendations and settings at application. Inferences flagged: the
+Global Mobile Award as the web app's (press, to confirm); We Predict as a start-up contract (the
+live card). Next, in order, at his word: the editor restarted; his edits; the seat diffs the
+review file against the draft and absorbs them, validating; the editor and prose passes; the
+readers. moved for the sites: nothing / moved for the Practice: nothing.
+
+### 2026-10-14T11:xxZ — the About and the Oak sections: the dedupe and enhancement proposal, pending Jim's dispositions (Shrew rides Eventide, 371a2b)
+
+State at 11:xxZ: the editor restarted at his word after the overnight break; his edits of 14 October are in the review copy (the About reshaped, the headline, the consulting titles his own, six Experience cards, the FT Web App project line, the Scholar item gone at his word, the two OCE glosses and the Principal card's OCE sentence his); the seat's corrections of the day in the napkin (his figures are not checked; "England's" was never his word; the OCE is one repository among Oak's many; adjectives true by his authority stand). The draft `profile.md` is unchanged since 737cb1ed; absorption follows his dispositions below.
+
+Jim's word of 14 October: two Oak cards, not three ("Broadly agreed, but let's sort everything
+else out first"); then "what changes should we make around the dedupe and enhancement? ... Don't
+edit the draft yet, but do write down what edits you think matter and why". Everything else is
+sorted (his edits of 14 October in the review copy, the Scholar item gone, the OCE glosses his).
+Nothing below is applied; each item is applied only at his disposition, as a named list.
+
+The rule that decides every cut: the About tells the story once; the Experience card proves the
+role (scope, the decisions, their consequences, the pattern); the Project cards describe the
+artefacts and how they were made. A fact lives at full strength on one surface and is echoed
+elsewhere only by a clause in different words.
+
+1. **Two Oak cards.** Merge "Principal Engineer part 1" (Jan 2021 – May 2022) and "part 2" (June
+   2022 – Present) into one card, Jan 2021 – Present; the title his. "Senior Developer" (Aug – Dec
+   2020) stays. Why: the About says "led the engineering strategy since 2021" and the merged card's
+   dates show exactly that; the June 2022 formalisation is a sentence inside the card; the other
+   merge would put one title across a promotion. A merged card holds one employment type; the Code
+   Science card already says the first period ran through the consultancy.
+2. **The merged card's fold paragraph.** "I hold Oak's engineering strategy: I decide what gets
+   built and what does not, and make the case for it to the people who fund and run the service.
+   Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's
+   open curriculum into the AI assistants teachers use." Why: the fold shows the level by decision
+   (settled 12 October) for a scanner who never opens the About; "while it was still what kept
+   lessons online" is the About's line and stays there; "the AI assistants teachers already use"
+   is on the page twice, and once as a variant in the About, so the card varies it.
+3. **The growth paragraph**, from part 1, one change: "its engineering grew from the handful of
+   contractors I joined into six product squads and three platform groups". Why: "four
+   contractors" is the Senior Developer card's scene; the merged card carries the arc. The rest
+   as it is, the formalisation sentence closing it.
+4. **The rebuild paragraph**, as now. Why: the reasons, the call, the backing and the risk are
+   the proof, and the consequence sentence belongs beside the decision it follows from.
+5. **The plugin paragraph** keeps the decision and its consequence, and the making moves to the
+   plugin Project card: "The Oak AI plugin began in 2024 as an opportunity I saw in Oak's
+   curriculum, sequenced end to end, written by curriculum experts and published under the Open
+   Government Licence: any AI assistant could reach it, if someone built the route. I made the
+   case and built it; it is now in ChatGPT, Claude and any assistant that supports Model Context
+   Protocol (MCP), and the plugin's shape, its development and its strategy came from me." Cut
+   from the card: "built a public SDK on the data by hand before the route existed, then the
+   route itself" (to the Project card, item 10) and "It carries the curriculum principles and the
+   accessibility bar the lessons were written to, so whatever is built on Oak builds on them" (on
+   the Project card already, word for word). Why: how it was made belongs beside the repository
+   link; the values sentence is said once.
+6. **The Practice paragraph**: "The Practice came first: the way of working the plugin would be
+   built in, a framework for engineering with AI agents, in which the agents build and the
+   judgement and the calls are mine." Then his sentence of 14 October on the Open Curriculum
+   Ecosystem. Cut: "I built it to be taken up a piece at a time." Why: on the Practice Project
+   card already.
+7. **The pattern paragraph** ("Zero to one is complete..."), unchanged. Why: unique to the card.
+8. **The count.** The merged card lands about 2,200 characters against a believed 2,000; the
+   counter at application is the test, and nothing above is cut for the number. If the counter
+   refuses, the one further move by division of labour: the rebuild paragraph's reasons ("Even
+   with the emergency platform safe to change, every change got harder and every release slower.
+   I argued that optimising it was the wrong starting point and that Oak should rebuild.") move
+   to the rebuild Project card, which then carries why as well as what, and the Experience card
+   keeps the call, the backing and the risk.
+9. **The About, one change.** The third paragraph's last sentence (thirty-eight words) split in two: "I
+   joined to get the first teacher-facing service over the line. I stayed to shape the first,
+   second, and third order effects of a digital-native, fully sequenced, fully resourced,
+   world-class curriculum, and what other people build with it." Why: the join and the stay each
+   get their own weight. Nothing else in the About changes: the hardest-call paragraph keeps its
+   line (the card's fold drops the clause), the Practice summary stays (the Project card has the
+   mechanism), "UK Passport Office" stays by his rule of 14 October (the official name on the
+   card, the descriptive name in prose).
+10. **The plugin Project card** gains the making, between his gloss and the values paragraph: "I
+    conceived the plugin and set its direction: a public SDK on the data, built by hand before
+    the route existed, then the route itself. The curriculum it carries is the work of Oak's
+    curriculum experts." Why: the card has the repository link, so how it was made belongs
+    beside it.
+11. **The Practice Project card**, two phrases: "and how the engineers working on the Open
+    Curriculum Ecosystem build now" for "and the way the engineers on the Open Curriculum
+    Ecosystem work now" (his "working on" of 14 October, the verb changed so "working" and
+    "work" do not collide); "public in the Open Curriculum Ecosystem repository" for "public with
+    the plugin". Why: the repository framing he set on 14 October.
+12. **The rebuild Project card**: drop "and everything Oak has built since stands on it". Why:
+    said on the Experience card as the decision's consequence and in the About as narrative; the
+    Project card describes the artefact and his part.
+13. **The Senior Developer card**, unchanged. Why: the scene (four contractors, the first term's
+    figures, the first service shipped) is this card's only job and, after item 3, nowhere else;
+    the About's "I joined to get the first teacher-facing service over the line" is the narrative
+    echo, a clause in different words.
+14. **Enhancement, a question for Jim, not a proposal.** The plugin has no outcome on the page
+    beyond where it runs. If there is a figure or a fact he wants public, the merged card's
+    plugin paragraph is its place.
+
+At application of his dispositions: the status lines of every touched section, the container's
+decisions paragraph, and the container's "England's official curriculum body" attribution
+(his words were "the UK's official curriculum body" throughout) corrected in the same commit,
+with the container's settled sentence "Scholar is the one Featured item" (the item left at his
+word on 14 October).
+
+### 2026-10-16T11:xxZ — Jim's dispositions on the fourteen items applied; the two Principal cards merged; both copies identical at `SHA:9a2a66a7` (Shrew rides Eventide, 371a2b)
+
+- His dispositions by number (16 October, 10:5xZ): 1, 4, 7, 9, 11 and 12 agreed as put; 2 agreed
+  with the fold's verb changed, the leadership stated as authority with guidance and coaching
+  where needed, enabling the team rather than directing it; 3 agreed with Engineering as the
+  department's name, the growth from in effect one team into cross-functional teams delivering a
+  digital service end to end in a specialised and important field; 5 agreed with the origin and
+  the urgency added, a wish to make the curriculum available inside AI assistants, then teachers
+  found already working in them; 6 agreed with his sentence, "in which the human defines the
+  vision and strategy, and the agent builds with context, fast, and to the highest standards";
+  8 nothing cut or moved for the count, edited later across the whole profile; 10 his own
+  sentence for the making, with a review asked; 13 agreed, an editorial review of the card
+  possible later; 14 the plugin only just soft-launched, its impact not yet defined or measured,
+  so no outcome is written.
+- Applied in `SHA:9a2a66a7`: the review copy edited and copied over the draft, both identical,
+  the validator OK on both, prettier run; the merged card "Principal Engineer, Strategy and
+  Innovation · Jan 2021 – Present" at 2,824 characters against the believed 2,000, by his word
+  on item 8; the fold "I set Oak's engineering strategy: I decide what gets built and what does
+  not, and make the case for it to the people who fund and run the service. I lead the engineers
+  by enabling them, with guidance and coaching where they are needed, rather than by directing
+  the work."; "set" also on the rebuild Project card in place of "held", the same word; the growth
+  paragraph without "set the engineering strategy", which the fold now says; the Senior Developer
+  card unchanged; the status lines of every touched section; the container's decisions
+  paragraph, its Experience paragraph's count of positions, the UK attribution and the Scholar
+  item's leaving. His edits of 14 October in the review copy are committed with it.
+- Item 10 as applied: "I conceived the plugin: a public SDK, semantic search and an MCP app,
+  generated automatically from the ontology of Oak's public API and carrying a curriculum written
+  by experts." The seat's reading, for his word: in his sentence "generated automatically from
+  the Oak public API ontology" can bind the MCP app alone or all three; the applied form binds
+  all three, and if only the MCP app is generated the phrase moves next to it. "An expert
+  curriculum" became "a curriculum written by experts" so it is not read as a curriculum for
+  experts. "Set its direction" left this card; the Experience card carries "the plugin's shape,
+  its development and its strategy came from me". With item 5's cut and his sentence, "built by
+  hand before the route existed" is off the page.
+- Next: his review of the applied draft in the editor, restarted at his word; item 10 at his
+  word; the readers when he says so; the application plan when he says the draft is his.
+- The branch: the dispositions commit's first push was rejected non-fast-forward; the remote
+  coordination branch carried the consolidation lane's thirty commits (62 files, none under
+  `linkedin/`, the last `SHA:01e2df9b` at 10:40Z); the one local commit rebased onto that tip and
+  pushed. The branch is past its lifetime (cut 14 October 17:24Z); the fold follows this block.
+
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
 - The owner's asks of 2026-10-08, verbatim: "can we put the content so far into some kind of
@@ -97,7 +747,7 @@ authorisation.
   Cricket suite and a twenty-five-finding triage on the editor: "you are building an MVP editing
   app, which requires the basest ability to be read then changed... and you are applying the
   a11y requirements of a public service, and thus wasting my time, my money, and your attention.
-  Finish the fucking basic editor"; then "stopping is not enough, fix the state of the editor,
+  Finish the forking basic editor"; then "stopping is not enough, fix the state of the editor,
   it is supposed to be SIMPLE ... and then we get back to what we are SUPPOSED to be doing which
   is writing my Oak entry for linkedin". The reviewers and the remaining Cricket legs were
   stopped; the findings stand on the PR in one line each, nothing further taken. Taken before
