@@ -112,7 +112,8 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
 ### 2026-10-15T09:5xZ — the finish at the owner's one-hour word; the frame corrected; the landings (Flint guards Vapor, 9b835d)
 
 - **Counts first**: pending graduations 0 here, 1 in the sibling (the operator-profile half of the Oak
-  GitHub read ruling, owner-gated, unchanged); the napkin here holds Shrew rides Eventide's three
+  GitHub read ruling: one line in his profile's scope file for that repository line, written on his
+  word only, due since 2026-10-13); the napkin here holds Shrew rides Eventide's three
   live blocks of 14 October, that seat's own (its claim heartbeat 09:28Z today); unpushed before
   this block's landing: this lane (the 23 commits of the consolidation, the successor merge, the
   clause, this block), the sibling's records lane (8 and the day's two), the sibling's code lane (3,
@@ -152,7 +153,8 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   the owner's scope word, so Shrew (live, its author) has one message with the verbatim and the
   hook to narrow; the sibling's profanity tooling parity in its repo-continuity carried follow-ups;
   the sibling's coordination branch DUE (day ten) in the same record; the J2 worktree and the
-  register's operator-profile entry at the owner, unchanged.
+  register's operator-profile entry, two decisions put to him, exact in the 10:3xZ amendment of
+  2026-10-16 below.
 - **Lessons of the hour** (napkin, this date): the Bash hook's wildcard-staging pattern fired on a
   compound command; a lane's `agent-tools/dist` is stale after a merge brings tool changes; an
   archive cut from a blob takes the public branch's later bytes for its shared range.
@@ -168,6 +170,22 @@ which is the consolidation flow's record. **Grounding order:** JC.net's `AGENT.m
   history since 13 October). The rule's section carries the exclusion in its own words and his,
   the same bytes in both estates. The 335 hook's narrowing, already Shrew's, now has the
   exclusion to honour too; the rule is the carrier, no second message.
+- **Amended 2026-10-16T10:3xZ, the owner's correction**: "owner-gated" was abolished by PDR-100
+  and "at the owner" names no item, so work behind either phrase is lost; the blocks of
+  2026-10-15 above used both and are corrected in place. The decisions put to him, each exact:
+  (1) the operator-profile scope line for the sibling's repository line, whose standing text says
+  every Oak surface beyond `git fetch upstream` needs permission, to carry his word of 2026-10-13
+  (every read of Oak GitHub permitted, every write forbidden until he lifts it); the profile is
+  written on his word only; due since 2026-10-13; the sibling's register entry graduates on the
+  write. (2) The sibling's J2 worktree (`feat/exchange-j2-docs-validators`): twenty-one added and
+  two modified files, validators for cited paths, cited scripts, markdown links and lineage
+  names, uncommitted since 2026-09-29, no commit ahead of its base, 346 behind the default
+  branch; commit and push to its branch, or drop; put to him 2026-10-02. (3) The SessionStart
+  compaction-source hook cure proposed 2026-10-14 (a harness hook that prints the post-compaction
+  first acts): build or decline. Work needing a seat, not him: this estate's coordination branch
+  at forty-one hours and thirty-two commits, over its lifetime; the sibling's at day eleven; the
+  four bot review comments on the sibling's merge-tool pull request; the 335 hook's narrowing
+  (Shrew); the sibling's profanity tooling parity.
 
 ### 2026-10-14T12:3xZ — the close: both estates drained to the owner's definition, the day's lessons homed, the stamps corrected, the seats closed out (Flint guards Vapor, 9b835d)
 
