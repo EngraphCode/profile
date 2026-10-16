@@ -4,7 +4,7 @@ import type { PrStateReading } from '../pr-watch/state-types.js';
 import type { GithubApiFetch } from './mint-installation-token.js';
 import { ReadingUnavailableError, runMergeExecution } from './merge.js';
 import { makeInput } from './test-helpers/merge-execution-input.js';
-import { settledReading } from './test-helpers/pr-state-reading.js';
+import { settledReading, SETTLED_HEAD_OID } from './test-helpers/pr-state-reading.js';
 
 /**
  * The records class at the merge door (the owner ruling of 2026-09-03, bounded
@@ -163,6 +163,43 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
 
     expect(refusedState(outcome)).toBe('WAITING-REVIEW-RUN-LIVE');
     expect(refusedEvidence(outcome).some((line) => line.includes('SETTLED-NO-REVIEW'))).toBe(true);
+    expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
+  });
+
+  it('waits on a live run beside a quota-skipped leg: the skip settles the leg, the run is a review in progress', async () => {
+    const { fetchImpl, calls } = makeClassPort(recordsFiles);
+    const reading = makeReading({
+      author: 'app/acme-bot',
+      reviews: [
+        {
+          id: 'PRR_q',
+          author: 'copilot-pull-request-reviewer',
+          state: 'COMMENTED',
+          body: 'Review skipped: spend limit reached for this billing cycle',
+          commitOid: SETTLED_HEAD_OID,
+          submittedAt: '2026-08-06T08:05:00Z',
+        },
+      ],
+      reviewRuns: {
+        kind: 'read',
+        runs: [
+          {
+            id: 'run-7',
+            name: 'Copilot review',
+            createdAt: '2026-08-06T08:50:00Z',
+            completedAt: null,
+          },
+        ],
+      },
+    });
+
+    const outcome = await runMergeExecution(makeInput(reading, fetchImpl));
+
+    expect(refusedState(outcome)).toBe('WAITING-REVIEW-RUN-LIVE');
+    expect(refusedEvidence(outcome).some((line) => line.includes('review run live: run-7'))).toBe(
+      true,
+    );
+    expect(refusedEvidence(outcome).some((line) => line.includes('QUOTA-SKIPPED'))).toBe(true);
     expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
   });
 
