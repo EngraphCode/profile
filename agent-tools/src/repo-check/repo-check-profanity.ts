@@ -1,7 +1,8 @@
 /**
  * The swearing gate of the pre-commit hook: the profanity topic's `check` over
  * the staged text files. The owner's ruling of 2026-10-14: the repository is a
- * public surface, so no tracked file carries swearing; records take The Good
+ * public surface, so no tracked file of the Practice or the key documentation
+ * carries swearing; records take The Good
  * Place's words (the topic's `replace` action), rules and decision records none
  * at all (elided by hand). The owner's scope of the same day: the check applies
  * only to the Practice and the key documentation, nothing else, and never to
