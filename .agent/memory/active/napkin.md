@@ -270,3 +270,36 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   per-finding assessment preceding it; its wording is his to soften.
 - **Successor** `coordination/2026-10-16-682ad0` cut from `682ad083`; the folded branch retired through the bot, local and
   remote. The LinkedIn lane continues on the successor at the owner's word.
+
+## 2026-10-16T12:2xZ — The owner's corrections after the fold: the fold verb, the triage sentence, folds when useful, the tooling to Flint; the successor recut from 337 (Shrew rides Eventide, 371a2b)
+
+- **The fold verb**: "set" read as the opposite of what he asked for on item 2 (supporting,
+  mentoring, coaching, guiding; responsibility and authority through enabling). The merged card
+  now opens "Oak's engineering strategy is my responsibility: I decide what gets built and what
+  does not, and make the case for it to the people who fund and run the service. I carry that
+  authority by enabling the engineers, guiding, mentoring and coaching them rather than directing
+  their work." The rebuild Project card says "guided" where the seat had put "set". Lesson for
+  the write-for-the-reader method: when the owner names the quality a sentence must carry, the
+  verb is chosen for that quality first and the level second; "set" carries authority alone.
+- **Item 10**: his sentence was deliberate in every part and stands verbatim; the seat's two
+  readings are withdrawn. His fact for the editorial review: the pipeline from the Open
+  Curriculum API's OpenAPI specification to the SDK, the search and the MCP app is built
+  automatically, so an API change updates the tools trivially; the hand-built first SDK is not
+  important and is off the page.
+- **Branch**: he merged 337 himself at 12:09:04Z (`7ffab023`), so the fold's records and the
+  cures are on `main`; the successor `coordination/2026-10-16-7ffab0` is cut from it and
+  `2026-10-16-682ad0` retired through the bot.
+- **The triage rule**: "a triage never cures all nor declines all" was nonsense to him ("triage
+  is triage, each point taken individually"); the sentence now states the intent it had, that
+  the outcome is the sum of the per-finding assessments and never a blanket cure or decline
+  made without them.
+- **Folds**: his word, verbatim: "'Folds' exist as a mechanism to preserve knowledge, not as
+  ceremony, we do them when they are useful, not because the stars align". The lifetime rule's
+  twice-a-day clause reads as a trigger; its wording is for the owner or the rule's next pass,
+  not this seat (LinkedIn only, his word).
+- **The tooling**: his word: the cadence and triggers for Copilot reviews changed in GitHub, our
+  tooling was over-coupled to a specific configuration of an external tool, and the tooling needs
+  fixing ("This is engineering, not mysticism"). Routed to Flint guards Vapor by a directed comms
+  message with the facts and the source pointers; this seat works the LinkedIn lane only.
+- **Next on the lane**: a holistic editorial review of the Oak sections and the Oak-related
+  content, once these corrections are landed.
