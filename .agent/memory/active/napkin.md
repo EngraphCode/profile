@@ -337,3 +337,44 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   their lane, read from their claim, not from their word. What this seat cannot see: the inside
   of Flint's lane and whether their push carries this seat's commits before compaction. A further
   pass would only re-find these; the recursion closes here.
+
+## 2026-10-16T14:4xZ, Flint guards Vapor (9b835d), the merge-tool, hook and fold lanes of the day
+
+- A leading `cd <dir> &&` in a compound shell call did not take effect twice in this seat's harness,
+  and three files of a fix lane were edited in the primary checkout (another seat's) before the
+  tree was written back from HEAD. Lesson: address every command at its tree (`git -C <abs>`,
+  `pnpm -C <abs>`, absolute paths inside scripts) and never rely on a `cd`; a write to the wrong
+  tree is found by `git -C <primary> status`, not by the command's own output. Home: the
+  shell-and-tooling gotchas (two instances).
+- The shell hook's policy substrings reach further than their intent: a `-f` flag on an unrelated
+  command in the same call, and the words "checked out" inside a heredoc body, were both refused
+  as the forbidden forms. Lesson: one push per call with nothing else in it; message bodies go
+  through `--body-file`; never spell a forbidden form in prose that a hooked call carries.
+  Observation on one instance each; home: the hook-policy-substring-discipline rule.
+- commitlint under `--strict` reads any body line that begins `word:` or `digits:` as a footer and
+  fails the commit on the warning (a numbered item "3:" tripped it). Guard before committing:
+  `awk 'NR>1 && /^[A-Za-z0-9][A-Za-z0-9-]*:/ && !/^Co-Authored-By:/' <msg>` must print nothing.
+  Home: the shell-and-tooling gotchas.
+- A Copilot review request made before a push is consumed by the vendor's review of the old tip,
+  and the new tip is left unrequested. Lesson: request on the tip after the push has landed, and
+  read the request back on the GraphQL `reviewRequests` connection. With the configuration-derived
+  owing (the fix of this date), a request is the seat's choice, made only when a review of that
+  tip is wanted. Home: the merge-bot reference's request paragraph (one instance).
+- A `comms send` without `--comms-dir` landed a rotation notice meant for the sibling estate in this
+  estate's stream, and the seat on the sibling's primary never saw it until it was resent with the
+  directory named. Lesson: every comms write names its `--comms-dir`, `--active` and `--repo-root`
+  explicitly; the lane a command runs from is never the stream. Home: the collaboration-state
+  conventions (one instance).
+- The merge tooling carried a vendor setting as an assumption (Copilot reviews every push) and read
+  every later tip as owed after the owner changed the setting at GitHub, so no code-class pull
+  request could merge after a settlement push without a hand-made request. Cure: read the base
+  branch's `copilot_code_review` rule with every reading and derive what is owed from it (the
+  fix branch `fix/review-owed-from-the-repository-review-configuration`). Generator: a tool that
+  encodes a vendor's configuration as a constant fails silently when the owner changes the
+  configuration; the configuration is read, never assumed. Home: the decision lenses, if a second
+  instance appears.
+- Observation for the code lane: `reviewer-legs.ts` keeps private copies of `isSkipMarker` and
+  `isScopeDeclaredSkip` that have drifted from `skip-markers.ts` (the latter ignores a marker inside
+  quotation, the former does not), so a review that quotes a skip phrase reads as a skip on the leg
+  and as a review in the tally. One consolidation at the second consumer, with a test for the quoted
+  case, is owed; home: the two-estate-consolidation thread record's open items.
