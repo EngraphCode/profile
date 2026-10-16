@@ -35,16 +35,19 @@ describe('parseReviewConfiguration', () => {
     });
   });
 
-  it('reads a branch without the rule as absent, and refuses a rule without readable parameters', () => {
+  it('reads a branch without the rule as absent', () => {
     expect(parseReviewConfiguration([{ type: 'required_status_checks' }])).toStrictEqual({
       ok: true,
       value: { kind: 'absent' },
     });
-    expect(parseReviewConfiguration([{ type: 'copilot_code_review' }]).ok).toBe(false);
-    expect(parseReviewConfiguration([{ type: 'copilot_code_review', parameters: {} }]).ok).toBe(
-      false,
-    );
-    expect(parseReviewConfiguration({ message: 'Not Found' }).ok).toBe(false);
+  });
+
+  it.each([
+    ['a Copilot rule without parameters', [{ type: 'copilot_code_review' }]],
+    ['a Copilot rule with empty parameters', [{ type: 'copilot_code_review', parameters: {} }]],
+    ['a response that is not a rules list', { message: 'Not Found' }],
+  ])('refuses %s rather than reading it as an unconfigured branch', (_case, value) => {
+    expect(parseReviewConfiguration(value).ok).toBe(false);
   });
 
   it('names each state in one evidence line, carrying the decision tokens', () => {

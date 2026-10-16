@@ -155,9 +155,9 @@ describe('readPrStateReading — the review-configuration leg', () => {
       }),
     });
     expect(reading.reviewConfiguration).toMatchObject({ kind: 'unread' });
-    expect(
-      reading.reviewConfiguration.kind === 'unread' && reading.reviewConfiguration.reason,
-    ).toMatch(/^branch rules read failed: /u);
+    expect(JSON.stringify(reading.reviewConfiguration)).toContain(
+      'github.com/<owner>/<repo>/pull/<n>',
+    );
   });
 
   it('a base that is not a branch name reads unread and names the ref', () => {

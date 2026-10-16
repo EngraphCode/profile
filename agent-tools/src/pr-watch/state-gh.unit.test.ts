@@ -160,6 +160,7 @@ describe('readPrStateReading', () => {
     const isViewCall = (call: readonly string[]): boolean => call[0] === 'pr';
     const isHarvestCall = (call: readonly string[]): boolean =>
       call[0] === 'api' &&
+      !String(call[1]).startsWith('repos/') &&
       !isCommentsCall(call) &&
       !call.some((arg) => arg.includes('reviewThreads'));
     const commentsAt = calls.findIndex(isCommentsCall);
@@ -656,6 +657,9 @@ describe('readPrStateReading — tip consistency (r4 regression)', () => {
         const oid = oids[Math.min(viewCall, oids.length - 1)] ?? HEAD;
         viewCall += 1;
         return viewPayload(oid);
+      }
+      if (args[0] === 'api' && String(args[1]).startsWith('repos/')) {
+        return rulesPayload();
       }
       if (args[0] === 'api') {
         return graphqlResponse(args, graphqlPayloads);

@@ -14,6 +14,14 @@ import { parseWithSchema } from '../core/schema-parse.js';
  * after a settlement push without a hand-made request (the owner's framing,
  * 2026-10-16: read the configuration and derive what is owed from it).
  *
+ * The source read is the repository's: its rulesets, which the rules API
+ * exposes. An author's personal Copilot setting (automatic review of the
+ * author's own pushes) is a separate source no API exposes to the tooling;
+ * it is read empirically, by whether later tips receive a review nobody
+ * requested (none did on three settlement pushes of 2026-10-16), and an
+ * author who enables it makes every later tip owed by the review it brings,
+ * which the request surface shows within seconds and the legs read as OWED.
+ *
  * @packageDocumentation
  */
 

@@ -14,6 +14,16 @@ import { parseReviewConfiguration, type ReviewConfiguration } from './review-con
  * @packageDocumentation
  */
 
+/** The repository a pull request's URL names, through the one validated target grammar. */
+function repositoryOf(url: string): string {
+  const { repo } = parsePrTarget(url);
+  if (repo === undefined) {
+    // parsePrTarget returns a repository for every URL it accepts; a bare number is not a URL.
+    throw new Error(`the view's URL names no repository: ${url}`);
+  }
+  return repo;
+}
+
 /**
  * The configuration is the base branch's, not the tip's: read once per
  * reading, from the view the reading composes from (the repository from the
@@ -27,11 +37,8 @@ export function readReviewConfigurationLeg(input: {
   readonly view: { readonly url: string; readonly baseRefName: string };
 }): ReviewConfiguration {
   try {
-    const repo = input.repo ?? parsePrTarget(input.view.url).repo;
+    const repo = input.repo ?? repositoryOf(input.view.url);
     const base = input.view.baseRefName;
-    if (repo === undefined) {
-      return { kind: 'unread', reason: 'the target names no repository' };
-    }
     if (!isBranchName(base)) {
       return { kind: 'unread', reason: `the base ref '${base}' is not a branch name` };
     }

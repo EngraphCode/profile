@@ -67,19 +67,7 @@ const stateViewSchema = z.object({
  * flight read as "nobody requested" (verified live 2026-09-13, PR #60); the
  * GraphQL harvest carries them (`parseHarvest`).
  */
-export const PR_STATE_VIEW_JSON_FIELDS = [
-  'number',
-  'url',
-  'author',
-  'state',
-  'isDraft',
-  'mergeable',
-  'mergeStateStatus',
-  'headRefOid',
-  'baseRefName',
-  'statusCheckRollup',
-  'autoMergeRequest',
-] as const;
+export const PR_STATE_VIEW_JSON_FIELDS: readonly string[] = stateViewSchema.keyof().options;
 
 /** The parsed `gh pr view` legs specific to `pr state`. */
 export interface ParsedStateView {

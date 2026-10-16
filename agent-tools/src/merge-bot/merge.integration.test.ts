@@ -428,6 +428,8 @@ describe('runMergeExecution — what is owed is read from the review configurati
       expect(outcome.value.kind).toBe('refused');
       if (outcome.value.kind === 'refused') {
         expect(outcome.value.verdictState).toBe('WAITING-REVIEW-RUN-LIVE');
+        // The leg itself reads OWED (the request made it so), not UNOWED held by the round.
+        expect(outcome.value.evidence.join('\n')).toContain('copilot-pull-request-reviewer: OWED');
       }
     }
     expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);

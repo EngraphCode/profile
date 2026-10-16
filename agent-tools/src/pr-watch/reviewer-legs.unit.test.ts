@@ -443,6 +443,32 @@ describe('computeReviewerLegs — the base branch reviews no later push (review_
     expect(past[0]).toMatchObject({ state: 'SKIPPED', skipReason: 'timeout' });
   });
 
+  it.each([
+    [
+      'a quota bounce on the earlier tip: no review ever happened',
+      review({ commitOid: OLD, body: 'Code review skipped: overage spend limit reached.' }),
+    ],
+    [
+      "another author's review of the earlier tip",
+      review({ author: 'jimCresswell', commitOid: OLD }),
+    ],
+    ['an earlier review whose commit gh omitted', review({ commitOid: '' })],
+    ['a PENDING draft on the earlier tip', review({ commitOid: OLD, state: 'PENDING' })],
+  ])(
+    'an earlier-tip body that is not a landed substantive Copilot review on a real oid never makes the leg UNOWED: %s',
+    (_case, earlierBody) => {
+      const legs = computeReviewerLegs({
+        ...base,
+        reviewConfiguration: NO_REVIEW_ON_PUSH,
+        expectedReviewers: ['copilot-pull-request-reviewer'],
+        reviews: [earlierBody],
+        reviewRequests: [],
+        now: T0,
+      });
+      expect(legs[0]?.state).toBe('OWED');
+    },
+  );
+
   it.each<ReviewConfiguration>([
     { kind: 'unread', reason: 'the test reading declares none' },
     { kind: 'absent' },

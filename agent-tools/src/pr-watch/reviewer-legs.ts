@@ -183,8 +183,7 @@ function unowedByConfiguration(
       normaliseLogin(review.author) === normaliseLogin(reviewer) &&
       hasLanded(review) &&
       !isSkipMarker(review.body) &&
-      review.commitOid !== '' &&
-      review.commitOid !== input.headRefOid,
+      review.commitOid !== '',
   );
   if (requested || !reviewedAnEarlierTip) {
     return undefined;

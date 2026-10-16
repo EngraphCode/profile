@@ -22,7 +22,7 @@ export function liveRuns(reading: PrStateReading): readonly ReviewRun[] {
  * A truncated read that still observed a live run says so through the run's
  * own line (roundInFlight), not through a "none observed" line beside it.
  */
-export function runsEvidence(reading: PrStateReading): string[] {
+function runsEvidence(reading: PrStateReading): string[] {
   if (reading.reviewRuns.kind === 'unavailable') {
     return [
       `review-run surface unavailable (${reading.reviewRuns.reason}): no live run observed; the review round is measured by the request surface, which this read carries`,

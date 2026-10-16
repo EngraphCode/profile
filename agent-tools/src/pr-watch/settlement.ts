@@ -7,7 +7,7 @@ import {
 import type { ReviewerLeg } from './reviewer-legs.js';
 import { suppressedFindingsPhrase, tallyReviewBody } from './body-tally.js';
 import { mostBlockingLeg } from './most-blocking-leg.js';
-import { liveRuns, readingEvidence, runsEvidence } from './settlement-evidence.js';
+import { liveRuns, readingEvidence } from './settlement-evidence.js';
 import type { PrStateReading, PrVerdict } from './state-types.js';
 
 /**
@@ -166,7 +166,7 @@ function emptyExpectedSetVerdict(reading: PrStateReading): PrVerdict {
     state: 'SILENT-WAIT-NO-REVIEWER',
     evidence: [
       'expected reviewer set is EMPTY (undeclared and nothing observed on an initial tip) — declare --expect; the first-round guarantee cannot hold vacuously',
-      ...runsEvidence(reading),
+      ...readingEvidence(reading),
     ],
   };
 }
