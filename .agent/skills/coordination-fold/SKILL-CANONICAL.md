@@ -214,8 +214,8 @@ fold merges (a Director's ruling with the lane's agreement, 2026-09-07, events d
    does not hold it, a failed check of any name does) with zero unresolved
    threads and no review in progress — an outstanding request or the
    vendor's live run holds the door until the review lands and its findings
-   are dispositioned; a review never requested, never started or
-   quota-skipped does not hold — naming the ground in its evidence (the
+   are dispositioned; a review never requested or quota-skipped does not
+   hold — naming the ground in its evidence (the
    owner's ruling of 2026-09-03, "Change the merge policy instead"; his
    decision of 2026-10-10 on the retrospective's proposal 1; his word of
    2026-10-11, "if github says a review is in progress, we don't merge, we

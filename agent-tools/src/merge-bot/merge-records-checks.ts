@@ -5,6 +5,7 @@ import { computePrVerdict } from '../pr-watch/states.js';
 import { classifyChangedPaths, type ChangeClass } from './change-class.js';
 import { classWhenItDecides, listChangedPaths } from './merge-changed-files.js';
 import { verdictMergesRecordsClass } from './merge-decision.js';
+import { heldForReview, reviewInProgress, reviewerKey } from './merge-review-in-progress.js';
 import { readRequiredContexts, type RulesTarget } from './merge-required-contexts.js';
 import type { GithubApiFetch } from './mint-installation-token.js';
 
@@ -47,11 +48,6 @@ export interface NarrowedReading {
   readonly setAside: readonly string[];
   /** Pending runs that are an expected reviewer's own: a review in progress, kept as a hold. */
   readonly reviewsInProgress: readonly string[];
-}
-
-/** A reviewer login as GitHub spells it on a check-run: lower-cased, the `[bot]` suffix dropped. */
-function reviewerKey(name: string): string {
-  return name.toLowerCase().replace(/\[bot\]$/u, '');
 }
 
 /** The reading with pending non-required checks set aside, a reviewer's live run kept, and absent required contexts pending. */
@@ -184,6 +180,26 @@ async function resolveChecksRunning(
 }
 
 /**
+ * The door held as a wait when GitHub shows a review in progress, whatever the
+ * aggregate verdict says: on a verdict the records class would pass, and on
+ * SETTLED-NO-REVIEW, the timeout arm's reading of a request still outstanding,
+ * which GitHub shows in progress and which is therefore waited for, whatever
+ * the class. Nothing is held on SETTLE-READY, where every leg landed.
+ */
+function heldRecordsDoor(reading: PrStateReading, verdict: PrVerdict): ResolvedVerdict | undefined {
+  if (verdict.state === 'SETTLE-READY') {
+    return undefined;
+  }
+  if (!verdictMergesRecordsClass(verdict.state) && verdict.state !== 'SETTLED-NO-REVIEW') {
+    return undefined;
+  }
+  const inProgress = reviewInProgress(reading);
+  return inProgress.length > 0
+    ? { verdict: heldForReview(verdict, inProgress), changeClass: undefined }
+    : undefined;
+}
+
+/**
  * The verdict and the class together: the verdict as the core reads it; the
  * class read only where it decides; and, for a reading held at
  * CHECKS-RUNNING, the verdict recomputed over the required contexts when the
@@ -205,6 +221,10 @@ export async function resolveVerdict(input: ResolveInput): Promise<Result<Resolv
   }
   if (verdict.state === 'CHECKS-RUNNING') {
     return ok(await resolveChecksRunning(input, verdict));
+  }
+  const held = heldRecordsDoor(input.reading, verdict);
+  if (held !== undefined) {
+    return ok(held);
   }
   const changeClass = await classWhenItDecides(verdict, input.fetchImpl, input.token, input.target);
   return changeClass.ok ? ok({ verdict, changeClass: changeClass.value }) : changeClass;

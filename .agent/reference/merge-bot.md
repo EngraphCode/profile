@@ -44,8 +44,9 @@ settlement verdict, and merges on SETTLE-READY — or, for a bot-authored
 records-class pull request (every changed path documentation or Practice
 prose, computed from the pull request's files, never declared by a seat; a
 person's pull request keeps the SETTLE-READY door), on the verdicts where
-no review is in progress (the leg never requested, never started or
-quota-skipped), at checks green BY NAME (the base branch's required
+no review is in progress (the leg never requested or quota-skipped; an
+outstanding request, a live run or a pending reviewer check-run holds), at
+checks green BY NAME (the base branch's required
 contexts, read from its rules at run time; a pending check the rules do not
 require does not hold a records-class pull request, a failed check of any
 name does) with zero unresolved threads, the ground named in its evidence;

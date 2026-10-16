@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { settledReading } from './test-helpers/pr-state-reading.js';
 import { isBotAuthored, narrowToRequired } from './merge-records-checks.js';
+import { reviewInProgress } from './merge-review-in-progress.js';
 
 /**
  * "Checks green by name" for the records class: a pending check the base
@@ -119,5 +120,56 @@ describe('narrowToRequired', () => {
     expect(narrowed.setAside).toStrictEqual([]);
     expect(narrowed.reading.namedChecks).toStrictEqual(reading.namedChecks);
     expect(narrowed.reading.checks).toStrictEqual({ total: 1, passed: 1, failed: 0, pending: 0 });
+  });
+});
+
+describe('reviewInProgress', () => {
+  it('names an outstanding request for an expected reviewer and ignores one for anyone else', () => {
+    const reading = settledReading({
+      expectedReviewers: ['copilot-pull-request-reviewer', 'chatgpt-codex-connector'],
+      reviewRequests: ['chatgpt-codex-connector', 'jimCresswell'],
+    });
+    expect(reviewInProgress(reading)).toStrictEqual([
+      'expected reviewer requested: chatgpt-codex-connector',
+    ]);
+  });
+
+  it("names a live run mapped to the pull request and a pending check-run in a reviewer's name", () => {
+    const reading = settledReading({
+      reviewRuns: {
+        kind: 'read',
+        runs: [
+          {
+            id: 'run-1',
+            name: 'Copilot review',
+            createdAt: '2026-08-06T08:50:00Z',
+            completedAt: null,
+          },
+          {
+            id: 'run-0',
+            name: 'Copilot review',
+            createdAt: '2026-08-06T08:00:00Z',
+            completedAt: '2026-08-06T08:05:00Z',
+          },
+        ],
+      },
+      namedChecks: [
+        { name: 'lint', bucket: 'passed' },
+        { name: 'Copilot-Pull-Request-Reviewer[bot]', bucket: 'pending' },
+      ],
+    });
+    expect(reviewInProgress(reading)).toStrictEqual([
+      'review run live: run-1 (Copilot review)',
+      'reviewer check-run pending: Copilot-Pull-Request-Reviewer[bot]',
+    ]);
+  });
+
+  it('is empty when nothing is requested, no run is live and no reviewer check-run is pending', () => {
+    expect(reviewInProgress(settledReading())).toStrictEqual([]);
+    expect(
+      reviewInProgress(
+        settledReading({ reviewRuns: { kind: 'unavailable', reason: 'no gh extension' } }),
+      ),
+    ).toStrictEqual([]);
   });
 });

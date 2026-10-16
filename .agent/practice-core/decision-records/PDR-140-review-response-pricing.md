@@ -262,8 +262,8 @@ scope widens by dated amendment, never by improvisation.
      diff, never declared; a person's pull request keeps the SETTLE-READY
      door) merges at checks green by name (the base branch's
      required contexts, read from its rules at run time; a pending check
-     the rules do not require, the vendor's own review run among them,
-     does not hold it, a failed check of any name does) with zero
+     the rules do not require does not hold it, a failed check of any name
+     does) with zero
      unresolved threads, no suppressed finding held and no review in
      progress; a review GitHub shows in progress — an outstanding request,
      the vendor's live run — is waited for and never a timer (the owner's

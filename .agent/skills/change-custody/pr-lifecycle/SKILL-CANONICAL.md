@@ -1496,8 +1496,9 @@ create` on such a branch exits non-zero with "a pull request for branch …
    run time; a pending check the rules do not require does not hold a
    records-class pull request, a failed check of any name does) with zero
    unresolved threads, no suppressed finding held and NO REVIEW IN PROGRESS
-   (`RECORDS_CLASS_MERGE_STATES`: the leg never requested, never started or
-   quota-skipped), and names the ground in its evidence. A review GitHub
+   (`RECORDS_CLASS_MERGE_STATES`: the leg never requested or quota-skipped,
+   the request and run surfaces read directly), and names the ground in its
+   evidence. A review GitHub
    shows in progress — an outstanding request, the vendor's live run — is
    waited for and never a timer (the owner's word of 2026-10-11: "if github
    says a review is in progress, we don't merge, we wait for that review";

@@ -236,6 +236,18 @@ describe('verdictAwaitsSettlement', () => {
 });
 
 describe('decideMergeAction — the timeout-skip settled round (security D1)', () => {
+  it('refuses SETTLED-NO-REVIEW for a records-class pull request too — a request outstanding past the timeout is a review in progress (the owner, 2026-10-11)', () => {
+    const decision = decideMergeAction({
+      ...baseInput,
+      verdict: { state: 'SETTLED-NO-REVIEW', evidence: [] },
+      changeClass: { kind: 'records', pathCount: 2 },
+    });
+    expect(decision.kind).toBe('refuse');
+    if (decision.kind === 'refuse') {
+      expect(decision.reason).toContain('SETTLED-NO-REVIEW');
+    }
+  });
+
   it('refuses SETTLED-NO-REVIEW by name — a round nobody reviewed never merges', () => {
     const decision = decideMergeAction({
       ...baseInput,

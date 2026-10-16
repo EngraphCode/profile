@@ -104,11 +104,11 @@ worked instance that day was a catch, not a miss.
   the owner's ruling of 2026-09-03 ("Change the merge policy instead") is
   the door's behaviour from this date: it merges at checks green by name
   (the base branch's required contexts, read from its rules at run time; a
-  pending check the rules do not require — the vendor's own review run among
-  them — does not hold a records-class pull request, a failed check of any
-  name does), zero unresolved threads and no suppressed finding held, with no
-  review in progress (`RECORDS_CLASS_MERGE_STATES`: the leg never requested,
-  never started or quota-skipped), naming the ground in its evidence; a review
+  pending check the rules do not require does not hold a records-class pull
+  request, a failed check of any name does), zero unresolved threads and no
+  suppressed finding held, with no review in progress
+  (`RECORDS_CLASS_MERGE_STATES`: the leg never requested or quota-skipped, and
+  the request and run surfaces read directly), naming the ground in its evidence; a review
   GitHub shows in progress — an outstanding request, the vendor's live run — is
   waited for and never a timer (the owner's word of 2026-10-11), and a review
   that lands after a merge made with none in progress is harvested then
