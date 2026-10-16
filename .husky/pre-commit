@@ -28,11 +28,13 @@ fi
 
 echo "🧼 Checking staged text files for swearing..."
 # The repository is a public surface (the owner's ruling of 2026-10-14): no
-# tracked file carries swearing. The gate reads the staged text files, the
-# profanity topic's own directory excepted, since its lexicon names the words.
+# tracked file of the Practice or the key documentation carries swearing. The
+# gate reads the staged text files inside that scope and no other: everything
+# under .agent/ except the experience register, plus the root documents.
+# Content is never read (the owner: "never to content").
 if ! pnpm agent-tools:repo-check profanity-staged; then
   echo "❌ The swearing check refused the commit: the lines above name each swear as path:line: word -> replacement, or the staged file it could not read."
-  echo "   Records take The Good Place's words: 'pnpm agent-tools profanity replace <path...>'; rules and decision records are elided by hand with the omission marked. Then stage the changes."
+  echo "   Records take The Good Place's words: 'pnpm agent-tools profanity replace <path...>'; rules and decision records are elided by hand with the omission marked. Then stage the changes. A refused path outside the Practice or the root documents is a defect in the gate, never a file to censor."
   exit 1
 fi
 
