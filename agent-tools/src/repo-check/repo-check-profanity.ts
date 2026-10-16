@@ -1,11 +1,16 @@
 /**
  * The swearing gate of the pre-commit hook: the profanity topic's `check` over
  * the staged text files. The owner's ruling of 2026-10-14: the repository is a
- * public surface, so no tracked file carries swearing; records take The Good
+ * public surface, so no tracked file of the Practice or the key documentation
+ * carries swearing; records take The Good
  * Place's words (the topic's `replace` action), rules and decision records none
- * at all (elided by hand). The universe is git's staged set (type changes
- * included, index symlinks excluded) less the lexicon's own directory, the one
- * place the words are named on purpose. Each file is read from the index
+ * at all (elided by hand). The owner's scope of the same day: the check applies
+ * only to the Practice and the key documentation, nothing else, and never to
+ * content; of 2026-10-15: the experience register is excluded, its records keep
+ * their words as captured. So the universe is git's staged set (type changes
+ * included, index symlinks excluded) narrowed to that scope: every file under
+ * the Practice's root except the experience register, plus the repository's
+ * root documents. Each file is read from the index
  * (`git show :0:<path>`), never from the working tree: the commit carries the
  * staged content, and a cure applied on disk but not staged would otherwise
  * pass the gate and land the swear. A file is binary by that staged content (a
@@ -27,15 +32,40 @@ import { defaultRuntime } from './repo-check-runtime.js';
 import type { RepoCheckRuntime } from './repo-check-types.js';
 import { stagedFiles } from './repo-check-universe.js';
 
-/** The directory that names the swears on purpose: the lexicon, its matcher and their tests. */
-export const PROFANITY_LEXICON_HOME = 'agent-tools/src/profanity/';
+/** The Practice's root: the owner's scope word names it first (2026-10-14). */
+export const PRACTICE_HOME = '.agent/';
+
+/**
+ * The register the gate never reads: an experience record is what an agent felt
+ * and said at the time, and changing its words would make it untrue (the owner,
+ * 2026-10-15: "exclude the experience files, it would be dishonest to censor those").
+ */
+export const EXPERIENCE_REGISTER = '.agent/experience/';
 
 /** One write port of the gate: a terminal stream, each chunk stripped of control characters. */
 type Writer = Pick<NodeJS.WritableStream, 'write'>;
 
-/** The staged files the gate reads: nothing under the lexicon's home. */
+/** The key documentation: a markdown document at the repository's root (README, CONTRIBUTING and their peers). */
+export function isRootDocument(path: string): boolean {
+  return !path.includes('/') && path.endsWith('.md');
+}
+
+/**
+ * Whether the gate reads a staged path: inside the Practice's root and outside
+ * the experience register, or a root document. Content (the site's content and
+ * entity graph, the CV, the LinkedIn drafts, design captures, generated packages)
+ * and every workspace lie outside, the lexicon that names the words among them.
+ */
+export function isInProfanityScope(path: string): boolean {
+  if (path.startsWith(EXPERIENCE_REGISTER)) {
+    return false;
+  }
+  return path.startsWith(PRACTICE_HOME) || isRootDocument(path);
+}
+
+/** The staged files the gate reads: those inside the owner's scope, in git's order. */
 export function profanityUniverse(staged: readonly string[]): readonly string[] {
-  return staged.filter((file) => !file.startsWith(PROFANITY_LEXICON_HOME));
+  return staged.filter(isInProfanityScope);
 }
 
 /** Binary by content, as git decides it: a NUL byte anywhere in the staged blob. */

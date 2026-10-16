@@ -11,7 +11,7 @@ import { describe, expect, it } from 'vitest';
 
 import { PROFANITY_LEXICON } from '../profanity/lexicon.js';
 
-import { PROFANITY_LEXICON_HOME, runProfanityStaged } from './repo-check-profanity.js';
+import { runProfanityStaged } from './repo-check-profanity.js';
 import type { RepoCheckCommandResult, RepoCheckRuntime } from './repo-check-types.js';
 
 const ROOT = '/repo';
@@ -119,11 +119,11 @@ describe('runProfanityStaged', () => {
     expect(run.stderr).toBe('');
   });
 
-  it('reads a staged file named --help as a file, so a help-named path cannot pass the gate', async () => {
+  it('reads a staged root document named --help.md as a file, so a help-named path cannot pass the gate', async () => {
     const swear = aSwear();
     const run = await gate({
-      staged: ['--help', 'notes.md'],
-      index: { '--help': 'fine\n', 'notes.md': `not ${swear.from} fine\n` },
+      staged: ['--help.md', 'notes.md'],
+      index: { '--help.md': 'fine\n', 'notes.md': `not ${swear.from} fine\n` },
     });
     expect(run.exitCode).toBe(1);
     expect(run.stdout).toBe(`notes.md:1: ${swear.from} -> ${swear.to}\nprofanity: 1 found\n`);
@@ -142,18 +142,39 @@ describe('runProfanityStaged', () => {
   it('leaves a binary blob unchecked by its content, whatever its name, and reads a text file whatever its name', async () => {
     const swear = aSwear();
     const run = await gate({
-      staged: ['public/icon.png', 'notes.bin'],
-      // The PNG's bytes hold the swear's letters after a NUL; the .bin is text.
-      index: { 'public/icon.png': `${PNG} ${swear.from}`, 'notes.bin': `${swear.from}\n` },
+      staged: ['.agent/reports/icon.png', '.agent/notes.bin'],
+      // The PNG's bytes hold the swear's letters after a NUL; the .bin is text. Both sit in the Practice.
+      index: {
+        '.agent/reports/icon.png': `${PNG} ${swear.from}`,
+        '.agent/notes.bin': `${swear.from}\n`,
+      },
     });
     expect(run.exitCode).toBe(1);
-    expect(run.stdout).toBe(`notes.bin:1: ${swear.from} -> ${swear.to}\nprofanity: 1 found\n`);
+    expect(run.stdout).toBe(
+      `.agent/notes.bin:1: ${swear.from} -> ${swear.to}\nprofanity: 1 found\n`,
+    );
   });
 
-  it('reads nothing when only binaries and the lexicon home are staged', async () => {
-    const staged = ['public/icon.png', `${PROFANITY_LEXICON_HOME}replace.unit.test.ts`];
-    // The lexicon home is never read: its path has no index entry here, and a read would be 2.
-    const run = await gate({ staged, index: { 'public/icon.png': PNG } });
+  it('reads nothing outside the scope: content, the experience register, the lexicon, a binary in the Practice', async () => {
+    const swear = aSwear();
+    const staged = [
+      'jcdotnet/content/cv.content.json',
+      '.agent/experience/2026-04-23-a-letter.md',
+      'agent-tools/src/profanity/lexicon.ts',
+      'linkedin/profile.md',
+      '.agent/reports/icon.png',
+    ];
+    // Each file outside the scope holds a swear in the index; the gate never reads them, so none is found.
+    const run = await gate({
+      staged,
+      index: {
+        'jcdotnet/content/cv.content.json': `{ "quote": "${swear.from}" }\n`,
+        '.agent/experience/2026-04-23-a-letter.md': `I felt ${swear.from} about it.\n`,
+        'agent-tools/src/profanity/lexicon.ts': `export const word = '${swear.from}';\n`,
+        'linkedin/profile.md': `${swear.from}\n`,
+        '.agent/reports/icon.png': PNG,
+      },
+    });
     expect(run).toStrictEqual({
       exitCode: 0,
       stdout: 'repo-check profanity-staged: no files\n',
