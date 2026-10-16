@@ -204,20 +204,26 @@ fold merges (a Director's ruling with the lane's agreement, 2026-09-07, events d
    verdict (a code-quality vendor's gate among them) before the merge + zero
    unresolved review threads +
    MERGEABLE. The vendor review is requested at the ready-mark (where the
-   host does not review a ready pull request by itself) and a records-class
-   fold never waits for it: `merge-bot merge` computes the class from the
-   pull request's changed files (every path documentation or Practice
-   prose, decided per path, `change-class.ts`; a seat never declares it) and
-   merges a records-class fold at checks green by name (the required
-   contexts above, read from the rules at run time; a pending check the
-   rules do not require — the vendor's own review run among them — does not
-   hold a records-class fold, a failed check of any name does) with zero
-   unresolved threads on the verdicts that differ from SETTLE-READY only by
-   the vendor leg, naming the ground in its evidence (the owner's ruling of 2026-09-03,
-   "Change the merge policy instead", as the door's behaviour; the owner's
-   decision of 2026-10-10 on the retrospective's proposal 1). The review is
-   harvested after the merge under PDR-140 clause 9(e): each finding is read
-   under clause 9(a), an over-bar finding cures in the successor's first
+   host does not review a ready pull request by itself), and a records-class
+   fold waits for a review GitHub shows in progress and never for a timer:
+   `merge-bot merge` computes the class from the pull request's changed
+   files (every path documentation or Practice prose, decided per path,
+   `change-class.ts`; a seat never declares it) and merges a bot-authored
+   records-class fold at checks green by name (the required contexts above,
+   read from the rules at run time; a pending check the rules do not require
+   does not hold it, a failed check of any name does) with zero unresolved
+   threads and no review in progress — an outstanding request or the
+   vendor's live run holds the door until the review lands and its findings
+   are dispositioned; a review never requested or quota-skipped does not
+   hold — naming the ground in its evidence (the
+   owner's ruling of 2026-09-03, "Change the merge policy instead"; his
+   decision of 2026-10-10 on the retrospective's proposal 1; his word of
+   2026-10-11, "if github says a review is in progress, we don't merge, we
+   wait for that review", and "we don't need a timeout"). The fold's wall
+   time is therefore the longer of the gate and the vendor round, never
+   their sum, and never a timer. A review that lands after a merge made with
+   none in progress is harvested under PDR-140 clause 9(e): each finding is
+   read under clause 9(a), an over-bar finding cures in the successor's first
    records commit, a below-bar one is rejected with rationale or routed. A
    fold carrying a code path keeps the SETTLE-READY door. The history this
    replaces, with its price: a fold merged with no review took six true

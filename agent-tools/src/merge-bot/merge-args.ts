@@ -32,10 +32,12 @@ export const MERGE_USAGE = `merge-bot merge --pr <number> --expect <reviewer> [-
   (${RECORDS_CLASS_DESCRIPTION}; the class is read from the PR's changed
   files, never declared; a person's PR keeps the SETTLE-READY door) also merges on ${RECORDS_CLASS_MERGE_STATES.join(', ')}:
   checks green BY NAME (the base branch's required contexts, read from its
-  rules at run time; a pending check the rules do not require — a vendor's own
-  review run among them — does not hold a records-class PR, a failed check of
-  any name does), zero unresolved threads, the vendor leg not waited on and
-  harvested after the merge (the owner's ruling of 2026-09-03). Wait-class verdicts
+  rules at run time; a pending check the rules do not require does not hold a
+  records-class PR, a failed check of any name does), zero unresolved threads,
+  and NO REVIEW IN PROGRESS: a review GitHub shows in progress — an outstanding
+  request, the vendor's live run — is waited for, never a timer (the owner's
+  ruling of 2026-09-03; his word of 2026-10-11); a review that lands after a
+  merge made with none in progress is harvested then. Wait-class verdicts
   (${SETTLEMENT_WAIT_STATES.join(', ')}) poll under ONE minted
   token (default ${DEFAULT_INTERVAL_SECONDS}s x ${DEFAULT_MAX_POLLS} polls; --interval x --max-polls must not exceed
   ${MAX_BUDGET_SECONDS}s, keeping the whole budget inside GitHub's one-hour
