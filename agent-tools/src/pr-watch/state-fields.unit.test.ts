@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import { parseAgentTaskList, parseAgentTaskView } from './agent-task-fields.js';
 import { parseHarvest } from './harvest-fields.js';
-import { parseStateView, PR_STATE_VIEW_JSON_FIELDS } from './state-fields.js';
+import { parseStateView } from './state-fields.js';
 import { stateViewFixture } from './state-view-fixture.js';
 
 /**
@@ -107,19 +107,10 @@ describe('parseStateView', () => {
     expect(parseStateView(stateViewFixture()).isDraft).toBe(false);
   });
 
-  it('requests exactly the fields it parses', () => {
-    expect([...PR_STATE_VIEW_JSON_FIELDS]).toEqual([
-      'number',
-      'url',
-      'author',
-      'state',
-      'isDraft',
-      'mergeable',
-      'mergeStateStatus',
-      'headRefOid',
-      'statusCheckRollup',
-      'autoMergeRequest',
-    ]);
+  it('refuses a view without its base branch: the configuration leg has nothing to read against', () => {
+    const { baseRefName, ...withoutBase } = stateViewFixture();
+    expect(baseRefName).toBe('main');
+    expect(() => parseStateView(withoutBase)).toThrow();
   });
 });
 

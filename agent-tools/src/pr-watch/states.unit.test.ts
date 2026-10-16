@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 
 import { PR_VERDICT_STATES } from './state-types.js';
-import type { PrStateReading } from './state-types.js';
+import { COPILOT, LATE_NOW, OLD_TIP, settledReading, TIP } from './test-helpers/state-reading.js';
 import { computePrVerdict } from './states.js';
 
 /**
@@ -11,50 +11,6 @@ import { computePrVerdict } from './states.js';
  * fixture, plus the r2 classes: per-reviewer legs (never collapsed), measured
  * settlement (no clock), and the latestReviews backwards-pointer.
  */
-
-const TIP = 'a'.repeat(40);
-const OLD_TIP = 'b'.repeat(40);
-const COPILOT = 'copilot-pull-request-reviewer';
-/** A now safely past every fixture timestamp's checks-green timeout. */
-const LATE_NOW = '2026-07-21T13:00:00Z';
-
-function settledReading(overrides: Partial<PrStateReading> = {}): PrStateReading {
-  return {
-    number: 999,
-    url: 'https://github.com/jimCresswell/jimcresswell.net/pull/999',
-    author: 'app/jimbot-of-the-devonshire-jimbots',
-    state: 'OPEN',
-    isDraft: false,
-    mergeable: 'MERGEABLE',
-    mergeStateStatus: 'BLOCKED',
-    headRefOid: TIP,
-    checks: { total: 3, passed: 3, failed: 0, pending: 0 },
-    namedChecks: [
-      { name: 'secret-scan', bucket: 'passed' },
-      { name: 'SonarCloud Code Analysis', bucket: 'passed' },
-      { name: 'CI / static-checks', bucket: 'passed' },
-    ],
-    checksGreenAt: '2026-07-21T12:00:00Z',
-    reviewThreads: { total: 4, unresolved: 0 },
-    autoMergeArmed: false,
-    reviewRequests: [],
-    expectedReviewers: [COPILOT],
-    expectedDeclared: true,
-    reviews: [
-      {
-        id: 'PRR_1',
-        author: COPILOT,
-        state: 'COMMENTED',
-        body: 'Reviewed 2 of 2 files.',
-        commitOid: TIP,
-        submittedAt: '2026-07-21T12:05:00Z',
-      },
-    ],
-    reviewRuns: { kind: 'read', runs: [] },
-    issueComments: [],
-    ...overrides,
-  };
-}
 
 describe('PR_VERDICT_STATES', () => {
   it('is the closed set from the plan plus the typed extensions', () => {

@@ -43,6 +43,7 @@ export function settledReading(overrides: Partial<PrStateReading> = {}): PrState
     ],
     reviewRuns: { kind: 'read', runs: [] },
     issueComments: [],
+    reviewConfiguration: { kind: 'unread', reason: 'the test reading declares none' },
     ...overrides,
   };
 }

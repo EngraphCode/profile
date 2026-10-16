@@ -7,6 +7,7 @@ import {
   graphqlResponse,
   HEAD,
   PR_URL,
+  rulesPayload,
   threadsPayload,
   viewPayload,
 } from './test-helpers/state-gh-payloads.js';
@@ -95,6 +96,9 @@ function makeExecutor(script: ExecutorScript, calls: string[][]): GhCommandExecu
     if (args[0] === 'pr') {
       return viewPayload();
     }
+    if (args[0] === 'api' && String(args[1]).startsWith('repos/')) {
+      return rulesPayload();
+    }
     if (args[0] === 'api') {
       return graphqlResponse(args, graphqlPayloads);
     }
@@ -156,6 +160,7 @@ describe('readPrStateReading', () => {
     const isViewCall = (call: readonly string[]): boolean => call[0] === 'pr';
     const isHarvestCall = (call: readonly string[]): boolean =>
       call[0] === 'api' &&
+      !String(call[1]).startsWith('repos/') &&
       !isCommentsCall(call) &&
       !call.some((arg) => arg.includes('reviewThreads'));
     const commentsAt = calls.findIndex(isCommentsCall);
@@ -575,6 +580,7 @@ describe('readPrStateReading', () => {
       mergeable: 'UNKNOWN',
       mergeStateStatus: 'UNKNOWN',
       headRefOid: HEAD,
+      baseRefName: 'main',
       statusCheckRollup: [],
       autoMergeRequest: null,
       reviewRequests: [],
@@ -610,6 +616,7 @@ describe('readPrStateReading', () => {
       mergeable: 'UNKNOWN',
       mergeStateStatus: 'UNKNOWN',
       headRefOid: HEAD,
+      baseRefName: 'main',
       statusCheckRollup: [],
       autoMergeRequest: null,
       reviewRequests: [],
@@ -617,18 +624,9 @@ describe('readPrStateReading', () => {
     const reading = readPrStateReading({
       target: { number: 461 },
       ...ghSeam,
-      execFileSync: (_file, args) => {
-        if (args[0] === 'pr') {
-          return mergedView;
-        }
-        if (args[0] === 'api') {
-          return graphqlResponse(args, graphqlPayloads);
-        }
-        if (args[0] === 'agent-task') {
-          return agentTaskResponse({}, args);
-        }
-        throw new Error(`unexpected gh argv: ${args.join(' ')}`);
-      },
+      // Only the view differs: every other leg answers as the quiet fixture does.
+      execFileSync: (file, args, options) =>
+        args[0] === 'pr' ? mergedView : makeExecutor({}, [])(file, args, options),
     });
     expect(reading.state).toBe('MERGED');
   });
@@ -659,6 +657,9 @@ describe('readPrStateReading — tip consistency (r4 regression)', () => {
         const oid = oids[Math.min(viewCall, oids.length - 1)] ?? HEAD;
         viewCall += 1;
         return viewPayload(oid);
+      }
+      if (args[0] === 'api' && String(args[1]).startsWith('repos/')) {
+        return rulesPayload();
       }
       if (args[0] === 'api') {
         return graphqlResponse(args, graphqlPayloads);

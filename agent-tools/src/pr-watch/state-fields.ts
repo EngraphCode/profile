@@ -47,6 +47,7 @@ const stateViewSchema = z.object({
   mergeable: z.string(),
   mergeStateStatus: z.string(),
   headRefOid: z.string(),
+  baseRefName: z.string().min(1),
   statusCheckRollup: z
     .array(namedRollupItemSchema)
     .nullish()
@@ -66,18 +67,7 @@ const stateViewSchema = z.object({
  * flight read as "nobody requested" (verified live 2026-09-13, PR #60); the
  * GraphQL harvest carries them (`parseHarvest`).
  */
-export const PR_STATE_VIEW_JSON_FIELDS = [
-  'number',
-  'url',
-  'author',
-  'state',
-  'isDraft',
-  'mergeable',
-  'mergeStateStatus',
-  'headRefOid',
-  'statusCheckRollup',
-  'autoMergeRequest',
-] as const;
+export const PR_STATE_VIEW_JSON_FIELDS: readonly string[] = stateViewSchema.keyof().options;
 
 /** The parsed `gh pr view` legs specific to `pr state`. */
 export interface ParsedStateView {
@@ -90,6 +80,8 @@ export interface ParsedStateView {
   readonly mergeable: string;
   readonly mergeStateStatus: string;
   readonly headRefOid: string;
+  /** The base branch, whose rules carry the review configuration. */
+  readonly baseRefName: string;
   readonly checks: ChecksSummary;
   readonly namedChecks: readonly NamedCheck[];
   readonly checksGreenAt: string | null;
@@ -157,6 +149,7 @@ export function parseStateView(raw: unknown): ParsedStateView {
     mergeable: parsed.mergeable,
     mergeStateStatus: parsed.mergeStateStatus,
     headRefOid: parsed.headRefOid,
+    baseRefName: parsed.baseRefName,
     checks,
     namedChecks,
     checksGreenAt: checksGreenAt(liveChecks, checks),

@@ -8,28 +8,51 @@
 export const HEAD = 'f'.repeat(40);
 export const PR_URL = 'https://github.com/jimCresswell/jimcresswell.net/pull/461';
 
-/** The `pr view` payload: one green check; no review requests (gh omits Bot requests anyway). */
-export function viewPayload(oid: string = HEAD): string {
+/** The view fields a suite varies: the pull request's URL, its base branch, its state. */
+export interface ViewOverrides {
+  readonly url?: string;
+  readonly baseRefName?: string;
+  readonly state?: string;
+}
+
+/**
+ * The `pr view` payload: one green check; no review requests (gh omits Bot
+ * requests anyway). `overrides` replace the named fields.
+ */
+export function viewPayload(oid: string = HEAD, overrides: ViewOverrides = {}): string {
   return JSON.stringify({
-    number: 461,
-    url: PR_URL,
-    author: { login: 'app/jimbot-of-the-devonshire-jimbots' },
-    state: 'OPEN',
-    isDraft: false,
-    mergeable: 'MERGEABLE',
-    mergeStateStatus: 'BLOCKED',
-    headRefOid: oid,
-    statusCheckRollup: [
-      {
-        __typename: 'CheckRun',
-        name: 'secret-scan',
-        status: 'COMPLETED',
-        conclusion: 'SUCCESS',
-        completedAt: '2026-07-21T10:33:35Z',
-      },
-    ],
-    autoMergeRequest: null,
+    ...{
+      number: 461,
+      url: PR_URL,
+      author: { login: 'app/jimbot-of-the-devonshire-jimbots' },
+      state: 'OPEN',
+      isDraft: false,
+      mergeable: 'MERGEABLE',
+      mergeStateStatus: 'BLOCKED',
+      headRefOid: oid,
+      baseRefName: 'main',
+      statusCheckRollup: [
+        {
+          __typename: 'CheckRun',
+          name: 'secret-scan',
+          status: 'COMPLETED',
+          conclusion: 'SUCCESS',
+          completedAt: '2026-07-21T10:33:35Z',
+        },
+      ],
+      autoMergeRequest: null,
+    },
+    ...overrides,
   });
+}
+
+/**
+ * The base branch's rules as `gh api --paginate --slurp` returns them (a list
+ * of pages): one page, one `copilot_code_review` rule with the given switch.
+ */
+export function rulesPayload(reviewOnPush = false): string {
+  const parameters = { review_on_push: reviewOnPush, review_draft_pull_requests: false };
+  return JSON.stringify([[{ type: 'copilot_code_review', parameters }]]);
 }
 
 /** The review-threads page: `resolved` threads, every one resolved. */

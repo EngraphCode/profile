@@ -1,3 +1,4 @@
+import type { ReviewConfiguration } from './review-configuration.js';
 import type { CheckBucket, ChecksSummary } from './index.js';
 import type { IssueComment } from './issue-comments.js';
 import type { ReviewThreadsSummary } from './review-threads.js';
@@ -95,6 +96,12 @@ export interface PrStateReading {
    * finding's signed disposition lives (`suppressed-hold.ts`).
    */
   readonly issueComments: readonly IssueComment[];
+  /**
+   * The base branch's automatic-review configuration (`review-configuration.ts`):
+   * what the vendor reviews on its own, so a leg is owed only where the
+   * configuration or a request says so; `unread` keeps every leg owed.
+   */
+  readonly reviewConfiguration: ReviewConfiguration;
 }
 
 /** The closed verdict set. Adding a state is a reviewed contract change. */
