@@ -1506,7 +1506,7 @@ create` on such a branch exits non-zero with "a pull request for branch …
    ended as its own PDR-130 prediction said it would: four jimcresswell.net
    folds waited on the leg between 2026-10-04 and 2026-10-10, and the tool
    learned the class there (the retrospective of 2026-10-10; the owner's
-   decision on its proposal 1), carried to OCE at his word of 2026-10-14. The two
+   decision on its proposal 1). The two
    non-bot shapes remain: the explicit
    `gh pr merge --merge` command, or ARMING auto-merge — permitted
    exactly and only **at settled-READY under a Director grant**

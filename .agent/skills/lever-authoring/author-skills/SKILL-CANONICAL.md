@@ -305,8 +305,8 @@ A skill change is complete when:
   follows any rule frontmatter edit and `pnpm skills:generate`
   any skill edit (the sibling estate under its prefix flag), both
   before the push and in both estates when the bytes are shared;
-  `portability:check` does not read descriptions, `skills:check`
-  does. A new slash skill also needs its `Skill(<prefix>-<name>)`
+  `portability:check` reads rule descriptions through the rendered
+  rule adapters, and `skills:check` reads skill descriptions. A new slash skill also needs its `Skill(<prefix>-<name>)`
   entry in the tracked Claude settings, and a description
   containing ": " is quoted or the declaration parser refuses it
   (four seats, 2026-10-03 to 2026-10-08)

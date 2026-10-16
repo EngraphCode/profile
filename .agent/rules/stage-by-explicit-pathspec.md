@@ -78,7 +78,7 @@ red tests failed the earlier cycle's gate, 2026-09-24). A pathspec commit runs
 the hooks over a temporary index holding only its paths while the link validator
 reads the whole working tree, with two consequences: two halves whose gates read
 each other (a record and the script that names it) land as one commit, and a
-tracked file that links a not-yet-tracked file is BLOCKING at every commit while
+tracked file that links a not-yet-tracked file is BLOCKING at every push while
 both sit uncommitted, so the new file lands first or with its riders; on a
 shared primary a report and its index row are committed together before anyone
 pushes (three refusals in one night, 2026-10-03; a partner's push failed on a

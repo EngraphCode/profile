@@ -14,7 +14,7 @@ tag in both repositories; the other repository's slug is never written here
   picks up by the thread record's pointer with a fresh claim rather than by
   adoption, because a retained claim keeps F-95 refusing every other seat's
   claim until a watcher is armed. Written by the third dedicated consolidation
-  from the napkin's 2026-10-11 blocks; the same bytes are carried to the
+  from the napkin's 2026-10-11 blocks; the same bytes were carried to the
   sibling estate at its stage of the pass.
 - PDR-117 gains the amendment of 2026-10-02: the owner's words licensing the
   Director role (context preservation over longer timescales for team-level

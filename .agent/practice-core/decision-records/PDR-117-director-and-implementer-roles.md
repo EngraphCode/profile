@@ -729,7 +729,7 @@ delegation of implementation is the consequence of that purpose, not a
 separate preference. A Director that executes spends the continuity it exists
 to hold; a Director that shares strategic decisions and routes the rest keeps
 the team cohesive while seats rotate. Recorded by the third dedicated
-consolidation from the comms stream of that day; the same bytes are carried to
+consolidation from the comms stream of that day; the same bytes were carried to
 the sibling estate at its stage of the pass.
 
 ## Amendment (2026-08-07) — Detecting productive-looking rabbit holes (Director craft)

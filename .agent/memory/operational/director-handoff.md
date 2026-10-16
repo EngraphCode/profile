@@ -171,7 +171,17 @@ the owner should see the team delivering, not the Director reporting.
   words: the napkin's 2026-09-26T19:29Z and 19:38Z blocks; the operated rule as amended: the
   2026-09-27T09:39Z and 09:52Z blocks.
 
-## Current handoff state (2026-10-14, pointer-biased by design)
+## Current handoff state (2026-10-16, pointer-biased by design)
+
+**§STATE, 2026-10-16T11:3xZ (Shrew rides Eventide, `371a2b`, the n=1 seat; this block is the
+pickup)**: `2026-10-14-d0c995` folded as 336 at `SHA:682ad083` (records-class, the bot's merge at
+checks green from head `SHA:2c49b7da`, 2.3 minutes from the ready-mark; the branch a day past
+its lifetime, the third consolidation's close carried on it by its own seat's rebase of
+15 October); the successor `coordination/2026-10-16-682ad0` is cut from it and the folded branch is retired through the
+bot. moved for the sites: nothing / moved for the Practice: the third consolidation's close on
+`main`; the records rule carries the owner's no-swearing ruling and its scope; the fold doctrine
+the same in both estates; the LinkedIn draft at the owner's dispositions of 16 October. The
+blocks beneath carry the seat and lane state as it stood before.
 
 **§STATE, 2026-10-14 17:2xZ (Shrew rides Eventide, `371a2b`, the n=1 seat; this block is the
 pickup)**: `2026-10-10-f436b6` folded as 327 at `SHA:d0c995c5` (one vendor round of five

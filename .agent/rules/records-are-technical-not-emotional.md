@@ -164,9 +164,11 @@ the key documentation (the root README, CONTRIBUTING and their peers) carries a
 swear word, the owner's verbatim included. Records keep his sentence and take
 The Good Place's censored words in place of the swearing (fork, shirt, bench,
 ash and their kin); rules and decision records carry none, censored or not, and
-mark the omission. The check and the replacement never read content (the site's
-content and entity graph, the CV, the LinkedIn drafts, curriculum data, design
-captures, generated packages), and history is not rewritten. Local per-user
+mark the omission. The topic's check and replacement are run over records and
+doctrine, never over content (the site's content and entity graph, the CV, the
+LinkedIn drafts, curriculum data, design captures, generated packages); the
+pre-commit check reads every staged text file outside the lexicon's own
+directory; and history is not rewritten. Local per-user
 memory may keep the verbatim. The owner, 2026-10-14: "this is a public repo for
 a public surface, please remove all swearing from the head commit, no need to
 change history"; on the scope, the same day: "the swearing check should apply
