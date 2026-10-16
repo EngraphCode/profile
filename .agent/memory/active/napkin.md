@@ -362,9 +362,11 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   tip is wanted. Home: the merge-bot reference's request paragraph (one instance).
 - A `comms send` without `--comms-dir` landed a rotation notice meant for the sibling estate in this
   estate's stream, and the seat on the sibling's primary never saw it until it was resent with the
-  directory named. Lesson: every comms write names its `--comms-dir`, `--active` and `--repo-root`
-  explicitly; the lane a command runs from is never the stream. Home: the collaboration-state
-  conventions (one instance).
+  directory named. The same hour, `claims close` without `--closed` archived the sibling's claim into this
+  estate's closed-claims archive, the harness cwd's; the entry was moved by hand. Lesson: every
+  collaboration-state write names its paths explicitly (`--comms-dir`, `--active`, `--closed`,
+  `--repo-root`); the directory a command runs from is never the estate. Home: the collaboration-state
+  conventions (two instances, one lesson).
 - The merge tooling carried a vendor setting as an assumption (Copilot reviews every push) and read
   every later tip as owed after the owner changed the setting at GitHub, so no code-class pull
   request could merge after a settlement push without a hand-made request. Cure: read the base
