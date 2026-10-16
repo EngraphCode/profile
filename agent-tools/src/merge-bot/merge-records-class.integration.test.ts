@@ -203,14 +203,18 @@ describe('runMergeExecution — the records class (the owner ruling of 2026-09-0
     expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
   });
 
-  it('refuses a records fold on SETTLED-NO-REVIEW by name when nothing is in progress: a round nobody reviewed never merges', async () => {
+  it('merges a records fold on SETTLED-NO-REVIEW when nothing is in progress: a tip the vendor never reviewed, nothing requested, no run', async () => {
     const { fetchImpl, calls } = makeClassPort(recordsFiles);
     const reading = makeReading({ author: 'app/acme-bot', reviews: [] });
 
     const outcome = await runMergeExecution(makeInput(reading, fetchImpl));
 
-    expect(refusedState(outcome)).toBe('SETTLED-NO-REVIEW');
-    expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(false);
+    expect(outcome.ok).toBe(true);
+    if (outcome.ok) {
+      expect(outcome.value.kind).toBe('merged');
+      expect(outcome.value.evidence.some((line) => line.includes('SETTLED-NO-REVIEW'))).toBe(true);
+    }
+    expect(calls.some((call) => call.url.endsWith('/pulls/42/merge'))).toBe(true);
   });
 
   it("waits while the vendor's own review run is in progress: no merge, no files read, the hold named", async () => {

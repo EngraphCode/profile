@@ -47,21 +47,22 @@ export const SETTLEMENT_WAIT_STATES = [
  * reviewer-leg states the verdict ladder reaches only after every check is
  * green, every thread resolved, no suppressed finding held and the base
  * current (`states.ts` precedence), where NO review is in progress: nothing
- * requested and no run observed, or a quota-skipped leg. WAITING-REVIEW-RUN-LIVE
- * — an outstanding request or a live run — is a review in progress and is
- * waited for (the owner's word of 2026-10-11: "we don't need a timeout"), and
- * so is SETTLED-NO-REVIEW, the timeout arm's reading of a request still
- * outstanding ten minutes after checks green: GitHub still shows that review
- * in progress, so the door never opens on it (the review of 2026-10-16). The
- * membership is a necessary condition only; the records door also reads the
- * request and run surfaces directly (`merge-records-checks.ts`, reviewInProgress),
- * since SILENT-WAIT-NO-REVIEWER names the most blocking leg and can stand while
- * another expected reviewer's request is outstanding. Exported as the one
- * authority the usage text and the skills derive from.
+ * requested and no run observed (SILENT-WAIT-NO-REVIEWER; SETTLED-NO-REVIEW,
+ * the timeout arm's reading of a tip the vendor never reviewed, when nothing
+ * is outstanding), or a quota-skipped leg. WAITING-REVIEW-RUN-LIVE — an
+ * outstanding request or a live run — is a review in progress and is waited
+ * for (the owner's word of 2026-10-11: "we don't need a timeout"). The
+ * membership is a necessary condition only: the aggregate verdict names the
+ * most blocking leg and the timeout arm reads a request still outstanding as
+ * a skip, so the records door also reads the request and run surfaces
+ * directly (`merge-review-in-progress.ts`) and holds on anything GitHub shows
+ * in progress, whatever this list says (the review of 2026-10-16). Exported as
+ * the one authority the usage text and the skills derive from.
  */
 export const RECORDS_CLASS_MERGE_STATES = [
   'SETTLE-READY',
   'SILENT-WAIT-NO-REVIEWER',
+  'SETTLED-NO-REVIEW',
   'QUOTA-SKIPPED',
 ] as const satisfies readonly PrVerdict['state'][];
 

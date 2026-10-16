@@ -181,16 +181,13 @@ async function resolveChecksRunning(
 
 /**
  * The door held as a wait when GitHub shows a review in progress, whatever the
- * aggregate verdict says: on a verdict the records class would pass, and on
- * SETTLED-NO-REVIEW, the timeout arm's reading of a request still outstanding,
- * which GitHub shows in progress and which is therefore waited for, whatever
- * the class. Nothing is held on SETTLE-READY, where every leg landed.
+ * aggregate verdict says, on every verdict the records class would otherwise
+ * pass: the timeout arm reads a request still outstanding as a skip, and the
+ * most-blocking leg can name an unrequested reviewer while another's request
+ * is outstanding. Nothing is held on SETTLE-READY, where every leg landed.
  */
 function heldRecordsDoor(reading: PrStateReading, verdict: PrVerdict): ResolvedVerdict | undefined {
-  if (verdict.state === 'SETTLE-READY') {
-    return undefined;
-  }
-  if (!verdictMergesRecordsClass(verdict.state) && verdict.state !== 'SETTLED-NO-REVIEW') {
+  if (verdict.state === 'SETTLE-READY' || !verdictMergesRecordsClass(verdict.state)) {
     return undefined;
   }
   const inProgress = reviewInProgress(reading);
