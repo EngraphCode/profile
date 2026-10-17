@@ -21,6 +21,13 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-17T15:1xZ: cold pause at the owner's word; the LinkedIn lane at `SHA:fe4823f6` on
+  draft 341 with his dispositions on the three Oak items (two applied, the merged card's opening
+  sentence his hand edit next) and his edits of the headline and the About absorbed, the closing
+  line settled in conversation** (Shrew rides Eventide, 371a2b, n=1). The coordination branch
+  rides draft 340 with the day's records; the fold at his word. No process runs. moved for the
+  sites: nothing / moved for the Practice: the guard re-test's workarounds in the residency rule
+  and F-298 and F-299 registered as work that needs doing.
 - **2026-10-17T13:xxZ: the workspace reshaped at the owner's word: the primary checkout is the
   coordination home (the coordination branch, the comms records, the claims), every piece of work
   in a worktree under `.claude/worktrees`, `main` the default and target branch, the coordination

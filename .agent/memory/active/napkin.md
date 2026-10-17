@@ -464,3 +464,44 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   while exiting 0, and the push carried only the earlier commit. Name every path explicitly in
   the command text (the stage-by-explicit-pathspec rule's letter), and read a lint call's
   "Linting: N files" line as the proof it ran.
+
+## 2026-10-17T15:1xZ — Cold pause at the owner's word; the day's second half on the LinkedIn lane (Shrew rides Eventide, 371a2b)
+
+- **His dispositions at 14:2xZ on the three Oak items**: (0) the merged card's opening sentence on
+  the strategy his to edit by hand, nothing applied; (4) the Practice Project card's second sentence
+  keeps the why and drops the relist; (5) the card opens on the artefact and closes in his words
+  ("it is publicly available, and designed to be adopted gradually and reversibly"). Applied in
+  both copies on the lane (`96d7e2dc`, pushed to draft 341); the container's decisions carry them.
+- **The editor at his word**, started from the lane worktree (`pnpm --filter linkedin editor` with
+  the worktree as the working directory; 127.0.0.1:4780), so it read and saved the lane's copies.
+  His edits of the headline and the About analysed and reported as observations, no proposals (the
+  first paragraph's 200-character fold now cuts mid-word; the "Before Oak" list's serial "and"
+  misplaced; the closing line a compression of the line attributed to Einstein). His settlement in
+  conversation: the attribution has no primary source and the compressed form reads as the
+  circulating aphorism, so his earlier closing line stands with his new second sentence; the list's
+  "and" moved to its end. Absorbed into both copies, identical, the status lines dated
+  (`fe4823f6`); his review-file edits conserved first as their own commit (`0dd85854`). The editor
+  restarted for the Oak sections at his word, then stopped at the cold pause.
+- **Observation, one instance**: a stale `index.lock` (zero bytes, 27 minutes old, no git process)
+  in the worktree's git directory blocked a stage; removed after the process check. Its source is
+  unknown; the side agent's note arrived at about the lock's time. A second instance gets a home.
+- **Lesson, the guard from a resident seat**: a chained lint-commit-push command was refused as
+  "too complex to verify"; one plain command per call ran (the lint, the stage, the commit with a
+  message file written by the `Write` tool to the scratchpad, the push). Recorded with the
+  workarounds in the residency rule's clause 4 by reference; the rule's text names them already.
+- **State at the pause**: the lane `docs/linkedin-oak-content-review` at `fe4823f6` on draft 341,
+  the worktree clean; the coordination branch on draft 340 with the day's records; the primary
+  clean. No process runs: the editor stopped twice at his word, the pushes finished; no monitor,
+  cron or watcher was armed. The claim `3b4a1be4` held with a fresh heartbeat.
+- **Open for him, exact**: (a) the merged card's opening sentence, his hand edit (item 0 of
+  16 October), in the editor started from the lane or in the lane's file; (b) the fold of
+  `coordination/2026-10-16-7ffab0` as 340, at his word; (c) the whole-profile count pass later (the
+  merged card at 2,832 characters against a believed 2,000, never to one number); (d) the readers
+  on the whole draft when he says the draft is his, then the application plan. Work that needs
+  doing with no seat: F-298 and F-299 (the frictions register); the five Dependabot pull requests
+  land green at their size turn, outside the count; the sibling's copy of the limit clause at the
+  next cross-estate pass.
+- **Metaloss, the fixed point**: the reasoning behind every applied sentence is in the container's
+  decisions paragraphs of 17 October and the LinkedIn thread record's blocks; every promise is
+  discharged or named above with its home; the one inference flagged is the lock's source. A
+  further pass would only re-find these; the recursion closes here.

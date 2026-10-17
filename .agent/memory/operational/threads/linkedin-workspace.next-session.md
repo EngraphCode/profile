@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-17T13:xxZ, the workspace reshaped at the owner's word: the LinkedIn lane in its own worktree, the primary the coordination home; the Oak cards' review with him next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-17T15:1xZ, cold pause at the owner's word: the Oak items 4 and 5 and his edits of 17 October on the lane; the merged card's opening sentence his hand edit next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
@@ -25,6 +25,13 @@ authorisation.
   (`pnpm --dir .claude/worktrees/linkedin-oak-content --filter linkedin editor`, at his word
   only). The lane's draft pull request is 341; the coordination branch rides its draft fold pull
   request 340, the fold at his word. The block of 2026-10-17T13:xxZ below carries the facts.
+- Pickup, after the cold pause of 17 October: the lane is at `SHA:fe4823f6` on draft 341, both
+  copies identical, the validator OK; the headline and the About are his edits of 17 October,
+  absorbed; the Practice Project card carries his dispositions of 17 October. Next: the merged
+  Principal card's opening sentence on the strategy, his to edit by hand (the editor started from
+  the lane worktree at his word, or the lane's file), analysed and absorbed as on 17 October; then
+  the readers on the whole draft when he says the draft is his; then the application plan. The
+  block of 2026-10-17T15:1xZ below carries the day's second half.
 - The fold, 2026-10-16T11:3xZ: the branch `2026-10-14-d0c995` folded as 336, merged at `SHA:682ad083` from
   head `SHA:2c49b7da` by the bot (records-class, at checks green, 2.3 minutes from the
   ready-mark; the vendor review harvested after the merge). Successor `coordination/2026-10-16-682ad0` cut from
@@ -827,6 +834,33 @@ word on 14 October).
   (8) stands. The fold of `coordination/2026-10-16-7ffab0` as 340 (DUE by the lifetime rule's
   clock; at his word by his ruling of 16 October). The five Dependabot pull requests land green at
   their size turn, outside the count; not this lane's work.
+
+### 2026-10-17T15:1xZ — His dispositions on the three Oak items applied; his edits of the headline and the About absorbed; the closing line settled; cold pause (Shrew rides Eventide, 371a2b)
+
+- His dispositions by number at 14:2xZ: (0) the merged card's opening sentence he edits by hand,
+  nothing applied; (4) the Practice Project card's second sentence keeps the why and drops the
+  relist, his to edit further; (5) the card opens on the artefact ("Three parts: the tooling, the
+  rules every agent works to, and the written memory that keeps what the work learns.") and closes
+  in his words ("The Oak AI plugin was built in it; the engineers working on the Open Curriculum
+  Ecosystem build in it now; it is publicly available, and designed to be adopted gradually and
+  reversibly."). Applied in both copies (`SHA:96d7e2dc`), pushed to draft 341.
+- The editor at his word from the lane worktree; his edits of the headline ("Celebrating the
+  unknown") and the About (the first paragraph leading on the plugin, "AI assistants such as
+  ChatGPT and Claude" still before the 200-character fold; "My joy of the unknown began with
+  physics"; "to ensure access to education"; "the direct and indirect impacts"; the Practice
+  sentence joined with a colon; physics research in the "Before Oak" list). Analysed as
+  observations, no proposals. Settled in conversation: the closing line, his compression of the
+  line attributed to Einstein, replaced by his earlier line with his new second sentence ("The
+  more I learn, the bigger the questions get. I love it."), the attribution having no primary
+  source and the compressed form reading as the circulating aphorism; the list's serial "and"
+  moved to its end. Conserved first as his review-file edits (`SHA:0dd85854`), then absorbed into
+  both copies with the status lines dated (`SHA:fe4823f6`); the container's decisions carry the
+  day. The editor restarted for the Oak sections, then stopped at the cold pause.
+- Observation, one instance: a stale index lock in the worktree's git directory blocked a stage
+  (zero bytes, 27 minutes old, no git process); removed after the check; source unknown.
+- Open, his: the merged card's opening sentence (item 0), by hand; the fold of the coordination
+  branch as 340; the whole-profile count pass later; the readers when he says the draft is his.
+  The editor starts only at his word, from the lane worktree, so it reads the lane's copies.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
