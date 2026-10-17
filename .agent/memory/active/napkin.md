@@ -448,6 +448,22 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   instance, so the sentence is left and the observation homed here. The sibling's copy of the
   limit clause is carried at the next cross-estate pass (home: the two-estate-consolidation thread
   record's open list). The LinkedIn lane pushed from its worktree and its draft opened at once.
+- **His word at 13:5xZ, verbatim**: "Record the tooling enhancements as work that needs doing, and
+  record the temporary workarounds". The guard re-tested resident by `EnterWorktree` at his word,
+  and his correction holds: the refusals name complexity and git operations, never a blanket
+  refusal of writes to the primary (the comms append and render into the primary ran with literal
+  arguments; refused: a shell variable in a pnpm call, `git -C` into the primary even read-only,
+  a `printf` whose text named git, the `Write` tool on a primary path). Recorded: the frictions
+  register's F-298 (an agent-tools records command for a resident seat) and F-299 (`--now`
+  defaulting to the clock); the residency rule's clause 4 carries the re-test and the temporary
+  workarounds (exit with keep, commit, re-enter; literal timestamps; prose through the `Write`
+  tool). The per-user memory holds the same.
+- **Shell gotcha, this seat, 14:0xZ**: a space-separated path list in an unquoted zsh variable is
+  not word-split (zsh's default differs from bash), so `git add $F` and the lint calls before it
+  received one string; `git add` refused it as a pathspec and the lint commands matched nothing
+  while exiting 0, and the push carried only the earlier commit. Name every path explicitly in
+  the command text (the stage-by-explicit-pathspec rule's letter), and read a lint call's
+  "Linting: N files" line as the proof it ran.
 
 ## 2026-10-17T14:1xZ, Flint guards Vapor (9b835d), the close: a removal captured, a bypass attempt owned, an inherited premise
 
