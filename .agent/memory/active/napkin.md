@@ -438,3 +438,13 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   update-dependencies skill (never accepted as they stand; the resolver trips the release-age
   floor) or his word that the LinkedIn draft opens regardless; (c) the three Oak items of the
   LinkedIn thread record's block of 2026-10-16T12:4xZ, his dispositions.
+- **His ruling at 13:4xZ, verbatim**: "The rules is wrong, dependabot PRs don't count toward the
+  limit". The pr-lifecycle skill's limit clause is amended on this branch (doctrine rides the
+  coordination branch by the lifetime rule's clause 4): Dependabot's pull requests are read out of
+  the count as the coordination pull request is; they land green at their size turn. The
+  update-dependencies skill's sentence that a Dependabot npm pull request is "structurally
+  unmergeable" (trips the release-age floor at CI install) did not hold today: 329 to 333 were each
+  mergeable, clean and green, install included; one day's observation against one earlier
+  instance, so the sentence is left and the observation homed here. The sibling's copy of the
+  limit clause is carried at the next cross-estate pass (home: the two-estate-consolidation thread
+  record's open list). The LinkedIn lane pushed from its worktree and its draft opened at once.
