@@ -9,11 +9,15 @@ import { describeOffenders, type ChangeClass } from './change-class.js';
  * the reason, so a supervisor reads the outcome by name, never by inference.
  * A records-class pull request (`change-class.ts`: every changed path
  * documentation or Practice prose, computed from the diff) also merges on the
- * verdicts that differ from SETTLE-READY only by the vendor leg — checks green,
- * zero unresolved threads, no suppressed finding held, the review requested but
- * not yet landed, or never served — the owner's ruling of 2026-09-03 ("Change
- * the merge policy instead") as behaviour; the review, when requested, is
- * harvested after the merge. The two additional gates carry the estate's
+ * verdicts where checks are green, zero threads are unresolved, no suppressed
+ * finding is held and NO REVIEW IS IN PROGRESS — the leg never requested, never
+ * started, or quota-skipped — the owner's ruling of 2026-09-03 ("Change the
+ * merge policy instead") as behaviour, bounded by his word of 2026-10-11: "if
+ * github says a review is in progress, we don't merge, we wait for that
+ * review", and "we don't need a timeout". An outstanding request or a live
+ * vendor run is therefore a wait, never a merge, for every class; a review that
+ * lands after a merge made with none in progress is harvested then. The two
+ * additional gates carry the estate's
  * standing rulings: merge commits must still be allowed by the repo settings
  * (never a squash fallback), and the expected reviewer set must have been
  * DECLARED — a defaulted set can omit a configured-but-never-requested
@@ -40,15 +44,24 @@ export const SETTLEMENT_WAIT_STATES = [
 
 /**
  * The verdicts a records-class pull request merges on: SETTLE-READY and the
- * four reviewer-leg states the verdict ladder reaches only after every check
- * is green, every thread resolved, no suppressed finding held and the base
- * current (`states.ts` precedence). Exported as the one authority the usage
- * text and the skills derive from.
+ * reviewer-leg states the verdict ladder reaches only after every check is
+ * green, every thread resolved, no suppressed finding held and the base
+ * current (`states.ts` precedence), where NO review is in progress: nothing
+ * requested and no run observed (SILENT-WAIT-NO-REVIEWER; SETTLED-NO-REVIEW,
+ * the timeout arm's reading of a tip the vendor never reviewed, when nothing
+ * is outstanding), or a quota-skipped leg. WAITING-REVIEW-RUN-LIVE — an
+ * outstanding request or a live run — is a review in progress and is waited
+ * for (the owner's word of 2026-10-11: "we don't need a timeout"). The
+ * membership is a necessary condition only: the aggregate verdict names the
+ * most blocking leg and the timeout arm reads a request still outstanding as
+ * a skip, so the records door also reads the request and run surfaces
+ * directly (`merge-review-in-progress.ts`) and holds on anything GitHub shows
+ * in progress, whatever this list says (the review of 2026-10-16). Exported as
+ * the one authority the usage text and the skills derive from.
  */
 export const RECORDS_CLASS_MERGE_STATES = [
   'SETTLE-READY',
   'SILENT-WAIT-NO-REVIEWER',
-  'WAITING-REVIEW-RUN-LIVE',
   'SETTLED-NO-REVIEW',
   'QUOTA-SKIPPED',
 ] as const satisfies readonly PrVerdict['state'][];
@@ -84,9 +97,9 @@ function recordsGround(input: MergeDecisionInput): string | undefined {
   }
   return (
     `records-class (${changeClass.pathCount} changed paths, all documentation or Practice prose): ` +
-    `merged at checks green with zero unresolved threads on verdict ${verdict.state}; a vendor ` +
-    'review requested on this tip is harvested after the merge (the owner ruling of 2026-09-03; ' +
-    'the retrospective of 2026-10-10)'
+    `merged at checks green with zero unresolved threads and no review in progress on verdict ` +
+    `${verdict.state}; a review that lands after this merge is harvested then (the owner ruling of ` +
+    '2026-09-03; his word of 2026-10-11: a review in progress is waited for, never a timer)'
   );
 }
 

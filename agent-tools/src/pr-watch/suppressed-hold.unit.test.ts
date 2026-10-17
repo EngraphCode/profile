@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 
 import type { HarvestedReview } from './reviewer-legs.js';
 import type { IssueComment } from './issue-comments.js';
+import type { ReviewConfiguration } from './review-configuration.js';
 import { suppressedHoldEvidence, suppressedHolds } from './suppressed-hold.js';
 
 /**
@@ -54,10 +55,21 @@ function dispositions(...sentences: string[]): IssueComment {
   );
 }
 
+const UNREAD = { kind: 'unread', reason: 'the test reading declares none' } as const;
+const NO_REVIEW_ON_PUSH = { kind: 'configured', reviewOnPush: false, reviewDraft: false } as const;
+
 const reading = (
   reviews: readonly HarvestedReview[],
   issueComments: readonly IssueComment[] = [],
-) => ({ url: URL, author: PR_AUTHOR, headRefOid: TIP, reviews, issueComments });
+  reviewConfiguration: ReviewConfiguration = UNREAD,
+) => ({
+  url: URL,
+  author: PR_AUTHOR,
+  headRefOid: TIP,
+  reviews,
+  issueComments,
+  reviewConfiguration,
+});
 
 describe('suppressedHolds', () => {
   it('holds on a tip-bound closer-look body with suppressed findings and no disposition lines', () => {
@@ -225,5 +237,59 @@ describe('suppressedHolds', () => {
     expect(evidence).toContain('verdict "Needs a closer look", 3 suppressed finding(s), 1 lifted');
     expect(evidence).toContain('2 remaining');
     expect(evidence).toContain('owner card item 78, 2026-09-14');
+  });
+});
+
+describe("suppressedHolds — the vendor's standing review under a base branch that reviews no later push", () => {
+  const earlier = closerLook(1, { commitOid: OLD_TIP });
+
+  it('holds the unreviewed head on the earlier review, as if bound to it, with that tip in the hold', () => {
+    const holds = suppressedHolds(reading([earlier], [], NO_REVIEW_ON_PUSH));
+    expect(holds).toHaveLength(1);
+    expect(holds[0]).toMatchObject({
+      reviewId: REVIEW,
+      headRefOid: OLD_TIP,
+      suppressed: 1,
+      lifted: 0,
+    });
+  });
+
+  it('a disposition line naming the earlier tip and the review lifts it', () => {
+    const lifted = suppressedHolds(
+      reading(
+        [earlier],
+        [
+          comment(
+            'jimCresswell',
+            line('item 1 of 1', 'Rejected: the finding misreads the guard.', OLD_TIP.slice(0, 7)),
+          ),
+        ],
+        NO_REVIEW_ON_PUSH,
+      ),
+    );
+    expect(lifted).toEqual([]);
+  });
+
+  it('a later clean review on another earlier tip supersedes it: the latest standing review carries none', () => {
+    const laterClean = closerLook(0, {
+      id: 'PRR_later',
+      commitOid: 'c'.repeat(40),
+      submittedAt: '2026-09-14T10:00:00Z',
+    });
+    expect(suppressedHolds(reading([earlier, laterClean], [], NO_REVIEW_ON_PUSH))).toEqual([]);
+  });
+
+  it('a Copilot body bound to the head leaves earlier reviews out: the head has its own review', () => {
+    const onHead = closerLook(0, { id: 'PRR_head' });
+    expect(suppressedHolds(reading([earlier, onHead], [], NO_REVIEW_ON_PUSH))).toEqual([]);
+  });
+
+  it('under an unread configuration, or one that reviews every push, an earlier review never holds the head', () => {
+    expect(suppressedHolds(reading([earlier], [], UNREAD))).toEqual([]);
+    expect(
+      suppressedHolds(
+        reading([earlier], [], { kind: 'configured', reviewOnPush: true, reviewDraft: false }),
+      ),
+    ).toEqual([]);
   });
 });

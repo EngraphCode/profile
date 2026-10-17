@@ -1,7 +1,14 @@
 import { suppressedFindingsPhrase, tallyReviewBody } from './body-tally.js';
 import { dispositionLifts, parseDispositionLines } from './disposition-lines.js';
 import type { IssueComment } from './issue-comments.js';
-import { hasLanded, isSignedSelfReply, type HarvestedReview } from './reviewer-legs.js';
+import { COPILOT_REVIEWER_LOGIN, type ReviewConfiguration } from './review-configuration.js';
+import {
+  hasLanded,
+  isSignedSelfReply,
+  normaliseLogin,
+  type HarvestedReview,
+} from './reviewer-legs.js';
+import { isSkipMarker } from './skip-markers.js';
 
 /**
  * The suppressed-findings hold: the fourth measured-state clause (closure item
@@ -26,6 +33,15 @@ import { hasLanded, isSignedSelfReply, type HarvestedReview } from './reviewer-l
  * on a later tip carrying none lifts it too, and the cure for a finding is the
  * cure for a thread: change, push, new review.
  *
+ * Where the base branch reviews no later push (`review_on_push` false), the
+ * vendor's standing review holds as if bound to the head: its latest landed
+ * substantive review on an earlier tip, when none of its bodies binds the
+ * head, is the review the UNOWED leg stands on (reviewer-legs.ts), so its
+ * findings are the round's findings until dispositioned against that tip or
+ * superseded by a later clean review. Without this an unreviewed push dropped
+ * the hold and the round settled over open findings (Copilot's finding on
+ * pull request 339, 2026-10-16).
+ *
  * @packageDocumentation
  */
 
@@ -37,6 +53,14 @@ export interface SuppressedHoldReading {
   readonly headRefOid: string;
   readonly reviews: readonly HarvestedReview[];
   readonly issueComments: readonly IssueComment[];
+  /** The base branch's automatic-review configuration: whether a later push gets its own review. */
+  readonly reviewConfiguration: ReviewConfiguration;
+}
+
+/** A review standing for the head, and the tip its disposition lines name. */
+interface StandingReview {
+  readonly review: HarvestedReview;
+  readonly tip: string;
 }
 
 /** One review holding the merge, with the count and how much of it is lifted. */
@@ -84,7 +108,7 @@ function liftingLogins(reading: SuppressedHoldReading): ReadonlySet<string> {
  * format's definition, and an anchor-qualified key would let one finding lift
  * twice under two anchors.
  */
-function liftedItems(reading: SuppressedHoldReading, reviewId: string): number {
+function liftedItems(reading: SuppressedHoldReading, standing: StandingReview): number {
   const permitted = liftingLogins(reading);
   const items = new Set<string>();
   for (const comment of reading.issueComments) {
@@ -92,7 +116,8 @@ function liftedItems(reading: SuppressedHoldReading, reviewId: string): number {
       continue;
     }
     for (const line of parseDispositionLines(comment.body)) {
-      const boundHere = reading.headRefOid.startsWith(line.headSha) && line.reviewId === reviewId;
+      const boundHere =
+        standing.tip.startsWith(line.headSha) && line.reviewId === standing.review.id;
       if (boundHere && dispositionLifts(line.sentence)) {
         items.add(line.item);
       }
@@ -112,21 +137,58 @@ function isSelfReplyReview(reading: SuppressedHoldReading, review: HarvestedRevi
   return liftingLogins(reading).has(loginKey(review.author)) && isSignedSelfReply(review.body);
 }
 
+/**
+ * The vendor's review standing for an unreviewed head: under a configuration
+ * that reviews no later push, when no Copilot body binds the head, Copilot's
+ * latest landed substantive review on an earlier tip (the premise of the
+ * UNOWED leg); none otherwise.
+ */
+function standingEarlierReview(
+  reading: SuppressedHoldReading,
+  landed: readonly HarvestedReview[],
+): StandingReview | undefined {
+  const configuration = reading.reviewConfiguration;
+  if (configuration.kind !== 'configured' || configuration.reviewOnPush) {
+    return undefined;
+  }
+  const copilot = landed.filter(
+    (review) => normaliseLogin(review.author) === COPILOT_REVIEWER_LOGIN,
+  );
+  if (copilot.some((review) => review.commitOid === reading.headRefOid)) {
+    return undefined;
+  }
+  const latest = copilot
+    .filter((review) => review.commitOid !== '' && !isSkipMarker(review.body))
+    .sort((left, right) => left.submittedAt.localeCompare(right.submittedAt))
+    .at(-1);
+  return latest === undefined ? undefined : { review: latest, tip: latest.commitOid };
+}
+
+/** The reviews standing for the head: those bound to it, and the vendor's standing earlier review. */
+function standingReviews(reading: SuppressedHoldReading): StandingReview[] {
+  const landed = reading.reviews.filter(
+    (review) => hasLanded(review) && !isSelfReplyReview(reading, review),
+  );
+  const tipBound = landed
+    .filter((review) => review.commitOid === reading.headRefOid)
+    .map((review) => ({ review, tip: reading.headRefOid }));
+  const earlier = standingEarlierReview(reading, landed);
+  return earlier === undefined ? tipBound : [...tipBound, earlier];
+}
+
 /** The reviews holding the merge on this tip; none when nothing holds. */
 export function suppressedHolds(reading: SuppressedHoldReading): SuppressedHold[] {
-  return reading.reviews
-    .filter((review) => review.commitOid === reading.headRefOid)
-    .filter((review) => hasLanded(review) && !isSelfReplyReview(reading, review))
-    .map((review) => ({ review, tally: tallyReviewBody(review.body) }))
+  return standingReviews(reading)
+    .map((standing) => ({ standing, tally: tallyReviewBody(standing.review.body) }))
     .filter(({ tally }) => tally.suppressed !== 0)
-    .map(({ review, tally }) => ({
-      author: review.author,
-      state: review.state,
-      reviewId: review.id,
-      headRefOid: reading.headRefOid,
+    .map(({ standing, tally }) => ({
+      author: standing.review.author,
+      state: standing.review.state,
+      reviewId: standing.review.id,
+      headRefOid: standing.tip,
       verdict: tally.verdict,
       suppressed: tally.suppressed,
-      lifted: liftedItems(reading, review.id),
+      lifted: liftedItems(reading, standing),
     }))
     .filter((hold) => hold.suppressed === null || hold.lifted < hold.suppressed);
 }

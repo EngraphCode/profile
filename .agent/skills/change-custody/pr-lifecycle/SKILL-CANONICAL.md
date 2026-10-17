@@ -300,9 +300,9 @@ diff carries the request (under the held-cure shape that is the slot's one
 sync push, so the cadence and the tip-bound gate meet at the same push); a
 pure sync requests nothing (§merge boundary item 5). Copilot's
 absence never blocks a merge on a docs-only bot-authored pull request (the
-owner's 2026-09-03 exception, §merge boundary item 5; `merge-bot merge`
-reads the class from the diff and merges it at green, the review harvested
-after the merge); on a code pull
+owner's 2026-09-03 exception, §merge boundary item 5; since 2026-10-10
+`merge-bot merge` reads the class from the diff and merges it at green when
+no review is in progress, waiting for one that is, his word of 2026-10-11); on a code pull
 request the configured Copilot leg is OWED until it binds the tip, and the
 bot obtains it with its own request (§Phase 1, §merge boundary). Suppressed findings are Copilot's own low-confidence
 bucket: the burden of proof is REPRODUCTION before cure — a non-reproducing
@@ -1308,8 +1308,16 @@ c[n-1] >= c[n-2]` (two consecutive non-decreasing transitions across
    permanently unsatisfiable the moment a reviewer stops reviewing — on
    #390, claude[bot] posted a spend-limit skip review on the first commit
    and nothing on any later tip, so every subsequent tip would read owed
-   forever with no tip-specific marker obtainable). **OWED** — otherwise.
-   The gate never waits more than one timeout for any single reviewer.
+   forever with no tip-specific marker obtainable). **UNOWED** — the base
+   branch's `copilot_code_review` rule reviews no later push (`review_on_push`
+   false, read from the rules API with every reading), the vendor has reviewed
+   an earlier tip of this pull request, and nothing is requested on this tip:
+   the configuration owes this tip no review, the leg settles, and a request
+   made by hand makes it OWED again (the owner's word of 2026-10-16: the tooling
+   derives what is owed from the repository's review configuration, never from
+   an assumed review on every push; binds Copilot's leg only, the rule is
+   Copilot's). **OWED** — otherwise. The gate never waits more than one timeout
+   for any single reviewer.
    CRITICAL first-round rule: the EXPECTED reviewer set is not just "bots
    that previously reviewed this PR" — on a repo whose ruleset configures
    bot review on push, the first round is ALWAYS expected, so before any
@@ -1497,14 +1505,17 @@ create` on such a branch exits non-zero with "a pull request for branch …
    the pull request's changed files (every path documentation or Practice
    prose, decided per path as above; `change-class.ts`), merges at checks
    green BY NAME (the base branch's required contexts, read from its rules at
-   run time; a pending check the rules do not require, the vendor's own
-   review run among them, does not hold a records-class pull request, a
-   failed check of any name does) with zero unresolved threads on the
-   verdicts that differ from SETTLE-READY only by the vendor leg
-   (`RECORDS_CLASS_MERGE_STATES`), and names the ground in
-   its evidence; a
-   vendor review requested on the tip is harvested after the merge under
-   PDR-140 clause 9(e). The interim this clause carried until then ("until
+   run time; a pending check the rules do not require does not hold a
+   records-class pull request, a failed check of any name does) with zero
+   unresolved threads, no suppressed finding held and NO REVIEW IN PROGRESS
+   (`RECORDS_CLASS_MERGE_STATES`: the leg never requested or quota-skipped,
+   the request and run surfaces read directly), and names the ground in its
+   evidence. A review GitHub
+   shows in progress — an outstanding request, the vendor's live run — is
+   waited for and never a timer (the owner's word of 2026-10-11: "if github
+   says a review is in progress, we don't merge, we wait for that review";
+   "we don't need a timeout"); a review that lands after a merge made with
+   none in progress is harvested under PDR-140 clause 9(e). The interim this clause carried until then ("until
    the tool learns that class, the merging seat recomputes that gate by name
    and lands the merge through the sanctioned REST endpoint as the bot")
    ended as its own PDR-130 prediction said it would: four jimcresswell.net
@@ -1681,7 +1692,12 @@ grep -E "^-" | grep -v "^---"` and read every printed line — each is an
   bot requests Copilot on the new tip with the reviewers endpoint, item 5
   of the merge boundary), and a
   tip with no requested reviewer and no tip-bound review waits forever
-  looking healthy (two live instances, 2026-07-20). The request is
+  looking healthy (two live instances, 2026-07-20); a leg `pr state` reads
+  UNOWED (the configuration reviews no later push, item 3) needs no request
+  and settles, so request it only when a review of that tip is wanted, and
+  once a request is made the merge is not attempted until the request is read
+  back on the `reviewRequests` surface: a request not yet registered reads as
+  nothing asked, and the leg reads UNOWED in that minute. The request is
   CONDITIONAL on the tip the front door will verdict: Copilot reviews
   the first push and any tip it is requested on, so request it only
   when that tip's Copilot leg reads OWED — a request on an intermediate

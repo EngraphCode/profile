@@ -43,14 +43,17 @@ It mints its own least-privilege token (`pull-request-merge`), reads the
 settlement verdict, and merges on SETTLE-READY — or, for a bot-authored
 records-class pull request (every changed path documentation or Practice
 prose, computed from the pull request's files, never declared by a seat; a
-person's pull request keeps the SETTLE-READY door), on the verdicts
-that differ from SETTLE-READY only by the vendor leg, at checks green BY
-NAME (the base branch's required contexts, read from its rules at run time;
-a pending check the rules do not require — the vendor's own review run
-among them — does not hold a records-class pull request, a failed check of
-any name does) with zero unresolved threads, the ground named in its
-evidence (the owner's ruling of 2026-09-03; the retrospective of
-2026-10-10; the code class is unchanged, every live check binds it) — merge-commit method
+person's pull request keeps the SETTLE-READY door), on the verdicts where
+no review is in progress (the leg never requested or quota-skipped; an
+outstanding request, a live run or a pending reviewer check-run holds), at
+checks green BY NAME (the base branch's required
+contexts, read from its rules at run time; a pending check the rules do not
+require does not hold a records-class pull request, a failed check of any
+name does) with zero unresolved threads, the ground named in its evidence;
+a review GitHub shows in progress — an outstanding request, the vendor's
+live run — is waited for and never a timer (the owner's ruling of
+2026-09-03; the retrospective of 2026-10-10; his word of 2026-10-11; the
+code class is unchanged, every live check binds it) — merge-commit method
 always, the VERDICTED tip's sha pinned in the call (a moved tip answers
 409), refusing by verdict name on everything else with exit 3. The fold's
 wall clock is read by `agent-tools coordination fold-clock --pr <n>`, one
@@ -324,6 +327,19 @@ minutes, while PDR-140 sat in the estate unapplied (2026-09-15). Request
 the review once per push that settles a round (a cure, a shape change); a
 pure sync push (main merged in, a rebase with no content change) requests
 nothing, and the declared intake on the pull request body bounds the loop.
+
+**What is owed is read from the repository's review configuration.** `pr
+state` reads the base branch's rules (`GET
+/repos/{owner}/{repo}/rules/branches/{base}`, the `copilot_code_review` rule;
+Metadata read suffices) with every reading and names the result in its
+evidence. Where the rule reviews no later push (`review_on_push` false, the
+owner's setting of 2026-10-15), a tip nothing is requested on, once the vendor
+has reviewed an earlier tip of the pull request, reads `UNOWED` and settles; a
+round whose threads are all resolved then merges with no request made. A
+request by hand makes the leg owed again, so the round stays the seat's to
+spend. An unread or absent configuration keeps every expected leg owed, named
+as such in the evidence (the owner's word of 2026-10-16: derive what is owed
+from the configuration, never from an assumed review on every push).
 
 ## Verifying the bot's signatures locally
 

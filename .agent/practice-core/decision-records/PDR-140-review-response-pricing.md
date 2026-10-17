@@ -262,12 +262,13 @@ scope widens by dated amendment, never by improvisation.
      diff, never declared; a person's pull request keeps the SETTLE-READY
      door) merges at checks green by name (the base branch's
      required contexts, read from its rules at run time; a pending check
-     the rules do not require, the vendor's own review run among them,
-     does not hold it, a failed check of any name does) with zero
-     unresolved threads and no suppressed finding held, while a vendor
-     review requested at its ready-mark may still be in flight. That
-     review is read after the
-     merge and each finding is dispositioned under (a): an over-bar
+     the rules do not require does not hold it, a failed check of any name
+     does) with zero
+     unresolved threads, no suppressed finding held and no review in
+     progress; a review GitHub shows in progress — an outstanding request,
+     the vendor's live run — is waited for and never a timer (the owner's
+     word of 2026-10-11). A review that lands after a merge made with none
+     in progress is read then and each finding is dispositioned under (a): an over-bar
      finding cures in the lane's next records commit (on a coordination
      fold, the successor's first), a below-bar finding is rejected with
      rationale or routed under (d); the merged pull request is never
@@ -398,7 +399,10 @@ word is carried.
 The owner's ruling of 2026-09-03 ("Change the merge policy instead": a bot-authored pull request
 touching only documentation and Practice surfaces merges at checks green with no Copilot leg
 expected) became the merge door's behaviour on this date, at the owner's word on the
-retrospective's proposal 1 ("I agree to all four"). Measured before the change: the four
+retrospective's proposal 1 ("I agree to all four"), bounded on 2026-10-11 by his words "if github
+says a review is in progress, we don't merge, we wait for that review" and "we don't need a
+timeout": the door merges a records-class pull request at green only when no review is in
+progress, waits for one that is, and never on a timer. Measured before the change: the four
 coordination folds 320, 323, 324 and 326 took 25.9 to 57.8 minutes of wall time from the first
 fold commit to the successor's draft pull request against the owner's ten-minute bound; nine
 vendor rounds of 3.9 to 7.8 minutes each produced 39 findings, 31 of them cured in pushes that
