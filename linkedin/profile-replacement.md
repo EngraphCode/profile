@@ -96,6 +96,18 @@ engineers working on the Open Curriculum Ecosystem build in it now; it is public
 designed to be adopted gradually and reversibly." Applied in the lane
 `docs/linkedin-oak-content-review`, both copies identical.
 
+Jim's edits of 17 October in the editor, absorbed the same day: the headline's middle phrase
+"Celebrating the unknown"; the About's first paragraph leading on the plugin ("AI assistants such
+as ChatGPT and Claude", still before the 200-character fold) with the strategy after; "My joy of
+the unknown began with physics"; "to ensure access to education"; "the direct and indirect
+impacts"; the Practice sentence joined with a colon, "preserving critical institutional knowledge
+ignored and lost in many AI systems"; physics research added to the "Before Oak" list (the serial
+"and" moved to the end at his word). The closing line settled in conversation: his "The more I
+learn, the less I know" was a deliberate compression of the line attributed to Einstein, tying
+back to physics; the seat's verdict, taken, that the attribution has no primary source and the
+compressed form reads as the circulating aphorism, so his earlier line stands with his new second
+sentence, "The more I learn, the bigger the questions get. I love it."
+
 Settled with Jim on 12 October, in a round of self-contained questions at his request, for the
 next editable draft, which he edits in the editor: the Principal card stands alone at the fold
 and shows the level by decision (he decides what gets built and makes the case; the two

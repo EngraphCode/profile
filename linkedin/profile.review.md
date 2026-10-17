@@ -14,13 +14,13 @@ Industry: Technology, Information and Internet
 
 ## Headline
 
-Status: approved (Jim, 7 October 2026)
+Status: approved (Jim, 7 October 2026; revised by Jim, 17 October 2026)
 
 Innovator, engineer, scientist | Celebrating the unknown. Shaping strategy, systems, and outcomes.
 
 ## About
 
-Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; awaiting Jim)
+Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; revised by Jim in the editor, 17 October 2026, the closing line settled in conversation the same day; awaiting Jim)
 
 I revel in problems that don't have a shape yet. At Oak I conceived and built the AI plugin that puts Oak's open curriculum inside AI assistants such as ChatGPT and Claude, and have led the engineering strategy since 2021.
 
@@ -32,9 +32,9 @@ The hardest call was arguing to rebuild the emergency platform while it was stil
 
 The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI assistants they use. Alongside the AI plugin, I built a way of working: the Practice is an agentic software engineering framework for building innovative products, at pace, without sacrificing quality. It learns as it goes, preserving critical institutional knowledge ignored and lost in many AI systems. Oak's Open Curriculum Ecosystem, the home of the AI plugin, has been built entirely with the Practice.
 
-Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, and HP Labs, physics research.
+Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, HP Labs, and physics research.
 
-The more I learn, the less I know. I love it.
+The more I learn, the bigger the questions get. I love it.
 
 ## Featured
 
