@@ -23,7 +23,8 @@ authorisation.
   `origin/main` with the draft's two commits of 16 October carried across; the lane's
   `linkedin/profile.md` is the copy edited from here, and the editor server runs on it
   (`pnpm --dir .claude/worktrees/linkedin-oak-content --filter linkedin editor`, at his word
-  only). The block of 2026-10-17T13:xxZ below carries the facts.
+  only). The lane's draft pull request is 341; the coordination branch rides its draft fold pull
+  request 340, the fold at his word. The block of 2026-10-17T13:xxZ below carries the facts.
 - The fold, 2026-10-16T11:3xZ: the branch `2026-10-14-d0c995` folded as 336, merged at `SHA:682ad083` from
   head `SHA:2c49b7da` by the bot (records-class, at checks green, 2.3 minutes from the
   ready-mark; the vendor review harvested after the merge). Successor `coordination/2026-10-16-682ad0` cut from
@@ -809,9 +810,11 @@ word on 14 October).
 - The lane: `.claude/worktrees/linkedin-oak-content`, branch `docs/linkedin-oak-content-review`
   cut from `origin/main` at `SHA:f80ccf7e` (the merge of 339); the two LinkedIn commits of 16
   October carried across as `SHA:40f4f3f2` and `SHA:f066e0dc` (`linkedin/` only; the tree equal to
-  the coordination tip's); built by the set-up-worktree-lane skill, the validator OK. Local
-  commits, unpushed: five Dependabot pull requests (329 to 333) hold the work-in-progress count
-  (a solo seat's limit is one open pull request across the repositories, external ones counting).
+  the coordination tip's); built by the set-up-worktree-lane skill, the validator OK. Pushed from
+  the worktree at 13:32Z with its draft pull request 341 at once: his ruling of 13:4xZ, verbatim,
+  "The rules is wrong, dependabot PRs don't count toward the limit", so the five open Dependabot
+  pull requests (329 to 333) are outside the count and the pr-lifecycle skill's clause is amended
+  (`SHA:e627dd43`). The coordination branch rides its draft fold pull request 340 from 13:31Z.
   The LinkedIn files on the coordination branch are the same bytes today; from here the lane's
   copy is the one edited, and the coordination branch takes the change back through `main`.
 - The primary: Flint's six commits fast-forwarded, `origin/main` merged in (`SHA:77888aee`, no
@@ -821,10 +824,9 @@ word on 14 October).
   path (the residency rule's clause 6; a resident lane session could not write the coordination
   records).
 - Open, his: (0), (4) and (5) of the block of 2026-10-16T12:4xZ, unchanged, the proposals there;
-  (8) stands. The fold of `coordination/2026-10-16-7ffab0` (DUE by the lifetime rule's clock; at
-  his word by his ruling of 16 October; the draft fold pull request open from this push). The
-  five Dependabot pull requests: a dependency lane under the update-dependencies skill, or his
-  word that the LinkedIn draft opens regardless.
+  (8) stands. The fold of `coordination/2026-10-16-7ffab0` as 340 (DUE by the lifetime rule's
+  clock; at his word by his ruling of 16 October). The five Dependabot pull requests land green at
+  their size turn, outside the count; not this lane's work.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
