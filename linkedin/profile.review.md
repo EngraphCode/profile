@@ -16,25 +16,25 @@ Industry: Technology, Information and Internet
 
 Status: approved (Jim, 7 October 2026)
 
-Innovator, engineer, scientist | Making sense of the unknown. Shaping strategy, systems, and outcomes.
+Innovator, engineer, scientist | Celebrating the unknown. Shaping strategy, systems, and outcomes.
 
 ## About
 
 Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; awaiting Jim)
 
-I enjoy problems that don't have a shape yet. At Oak I have led the engineering strategy since 2021, and conceived and built the AI plugin that puts Oak's open curriculum inside ChatGPT and Claude.
+I revel in problems that don't have a shape yet. At Oak I conceived and built the AI plugin that puts Oak's open curriculum inside AI assistants such as ChatGPT and Claude, and have led the engineering strategy since 2021.
 
-The joy began in physics. As a published scientist studying the early Universe, I built insight, validated and refined it against reality, and moved knowledge forward. As an innovator and technologist I went further: understanding systems is satisfying, making small changes for big impact more so.
+My joy of the unknown began with physics. As a published scientist studying the early Universe, I built insight; validated and refined it against reality; and moved knowledge forward. As an innovator and technologist I went further: understanding systems is gratifying; learning where to make small changes for outsized impact is sublime, and useful.
 
-In the spring of 2020 Covid was causing schools to close. Oak started as an emergency online classroom: we served over 160 million lessons, with over 1 million peak daily users. Impact scaled and evolved, and now Oak is the UK's official curriculum body, a public service used by over 200,000 teachers. I joined to get the first teacher-facing service over the line. I stayed to shape the first, second, and third order effects of a digital-native, fully sequenced, fully resourced, world-class curriculum, and what other people build with it.
+In the spring of 2020 Covid was causing schools to close. Oak started as an emergency online classroom to ensure access to education: we served over 160 million lessons, with over 1 million peak daily users. Impact scaled and evolved, and now Oak is the UK's official curriculum body, a public service used by over 200,000 teachers. I joined to get the first teacher-facing service over the line. I stayed to shape the direct and indirect impacts of a digital-native, fully sequenced, fully resourced, world-class curriculum, and what other people build with it.
 
 The hardest call was arguing to rebuild the emergency platform while it was still what kept lessons online. Four years on, the resulting platform is what everything is built on.
 
-The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI assistants they use. Alongside the AI plugin, I built a way of working. The Practice is an agentic software engineering framework for building innovative products at pace without sacrificing quality. It learns as it goes, preventing the loss of critical institutional knowledge ignored in many AI systems. Oak's Open Curriculum Ecosystem, the home of the AI plugin, has been built entirely with the Practice.
+The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI assistants they use. Alongside the AI plugin, I built a way of working: the Practice is an agentic software engineering framework for building innovative products, at pace, without sacrificing quality. It learns as it goes, preserving critical institutional knowledge ignored and lost in many AI systems. Oak's Open Curriculum Ecosystem, the home of the AI plugin, has been built entirely with the Practice.
 
-Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, and HP Labs.
+Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, and HP Labs, physics research.
 
-The more I learn, the bigger the questions get.
+The more I learn, the less I know. I love it.
 
 ## Featured
 
