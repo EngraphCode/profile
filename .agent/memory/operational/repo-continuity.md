@@ -21,6 +21,16 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-17T13:xxZ: the workspace reshaped at the owner's word: the primary checkout is the
+  coordination home (the coordination branch, the comms records, the claims), every piece of work
+  in a worktree under `.claude/worktrees`, `main` the default and target branch, the coordination
+  branch brought up to date with `main` when appropriate** (Shrew rides Eventide, 371a2b; n=1
+  after Flint guards Vapor's close of 2026-10-16T16:15Z). The LinkedIn lane is
+  `.claude/worktrees/linkedin-oak-content` on `docs/linkedin-oak-content-review` from `main`, the
+  draft's two commits of 16 October carried across, unpushed under the work-in-progress limit
+  (five Dependabot pull requests open); `main` merged into the coordination branch; the fold at
+  his word, its draft pull request open from this push. moved for the sites: nothing / moved for
+  the Practice: the worktree estate at its canonical shape, one worktree per piece of work.
 - **2026-10-16T12:5xZ: the LinkedIn draft at the owner's dispositions of 16 October (the fourteen items,
   his corrections, the editor's nine items) is on `main` through 336 and 337 and continues on the
   coordination branch; compaction at his word, the Oak cards' review with him after** (Shrew rides

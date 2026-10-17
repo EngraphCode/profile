@@ -392,3 +392,49 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   ready-mark and 359 at open; the first request on each was made by hand). Observation on two pull
   requests of one day; home: the lifecycle skill's first-round rule, which assumes the configured
   review fires for every author.
+
+## 2026-10-17T13:xxZ — The workspace reshaped at the owner's word: the primary the coordination home, every piece of work in a worktree; n=1 (Shrew rides Eventide, 371a2b)
+
+- **The owner's word (2026-10-17, verbatim, the path written repository-relative here)**: "use the
+  primary checkout as the coordination branch, where comms records etc are stored. Each piece of
+  work then happens in a work tree. `engraph` remains the default and target branch, the
+  coordination branch is brought up to date with the default branch when appropriate. Make sure
+  all worktrees are in the canonical location under" `.claude/worktrees`. This repository's
+  default branch is `main` (`gh repo view`); no branch named `engraph` exists here, it is the
+  sibling's default, so his sentence is read as "the default branch" and the reading is in the
+  report, never silently assumed. He confirmed it at 13:3xZ, verbatim: "ahh, I had the wrong repo, my
+  instructions for worktrees remain correct, but substitute `engraph` for `main`".
+- **Found at open**: Flint guards Vapor closed at 2026-10-16T16:15Z (claim 6692f5da closed; 338,
+  334 and 339 on `main`; their three merged worktrees removed), so this seat's claim is the only
+  one and pushes and merges return to it. The primary sat behind the remote by Flint's six records
+  and doctrine commits (fast-forwarded) and `main` fourteen commits ahead of the branch. One
+  leftover worktree, `.claude/worktrees/consolidation-3` on `docs/consolidation-3`: status clean,
+  tip identical to the coordination tip; removed and the branch deleted with `git branch -d`, the
+  safe form, the proof read before the removal.
+- **Done**: `origin/main` merged into the coordination branch (`77888aee`): `git merge-tree`
+  clean beforehand; the only both-sides files were two doctrine files (the records rule, the
+  pr-lifecycle skill) and no memory file changed on `main`'s side, so no semantic merge was owed.
+  The LinkedIn lane cut as `.claude/worktrees/linkedin-oak-content` on
+  `docs/linkedin-oak-content-review` from `origin/main` by the set-up-worktree-lane skill
+  (identity inherited with no worktree-scoped override; install, build, the browser and the
+  pinned shellcheck installed, `.env.local` carried, the hooks present); the two LinkedIn commits
+  of 16 October cherry-picked across (`40f4f3f2`, `f066e0dc`, `linkedin/` only, the tree equal to
+  the coordination tip's); the validator OK in the lane. The lane holds local commits, unpushed:
+  a solo seat's work-in-progress limit is one open pull request across the repositories and five
+  Dependabot pull requests (329 to 333) are open, external ones counting (the pr-lifecycle
+  skill's limit clause), so the sanctioned state is local commits until a slot frees.
+- **Residency, the n=1 shape**: this seat resides in the primary (worktree-residency clause 6,
+  the principal seat) and operates the lane by absolute path and `git -C`, because a
+  worktree-resident session's isolation guard refuses `Edit` and `Write` on primary paths and any
+  git redirected into the primary (clause 4), and at n=1 the same seat writes the coordination
+  records. Named in the report as this seat's one reading of his word; his to redirect.
+- **The fold**: the lifetime rule reads the branch DUE (its stamp 2026-10-16 is before today's
+  date); his word of 16 October is that folds run when useful. Named to him, not run: the
+  LinkedIn commits now ride the lane, and the doctrine and records commits land at the fold when
+  he says. The draft fold pull request opens at this push (worktree-hygiene §1: a pushed
+  coordination branch rides its draft).
+- **Open for him, exact**: (a) the fold of `coordination/2026-10-16-7ffab0`; (b) the five
+  Dependabot pull requests holding the work-in-progress count: a dependency lane under the
+  update-dependencies skill (never accepted as they stand; the resolver trips the release-age
+  floor) or his word that the LinkedIn draft opens regardless; (c) the three Oak items of the
+  LinkedIn thread record's block of 2026-10-16T12:4xZ, his dispositions.

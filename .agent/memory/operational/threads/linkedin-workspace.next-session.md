@@ -10,11 +10,20 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-16T11:xxZ, the owner's dispositions of 16 October applied to the LinkedIn draft; his review of the applied draft next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-17T13:xxZ, the workspace reshaped at the owner's word: the LinkedIn lane in its own worktree, the primary the coordination home; the Oak cards' review with him next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
   acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The workspace, from 2026-10-17 at his word: the primary checkout is the coordination home (the
+  coordination branch, the comms records, the claims); every piece of work happens in a worktree
+  under `.claude/worktrees`; `main` is the default and target branch; the coordination branch is
+  brought up to date with `main` when appropriate. The LinkedIn lane is the worktree
+  `.claude/worktrees/linkedin-oak-content` on `docs/linkedin-oak-content-review`, cut from
+  `origin/main` with the draft's two commits of 16 October carried across; the lane's
+  `linkedin/profile.md` is the copy edited from here, and the editor server runs on it
+  (`pnpm --dir .claude/worktrees/linkedin-oak-content --filter linkedin editor`, at his word
+  only). The block of 2026-10-17T13:xxZ below carries the facts.
 - The fold, 2026-10-16T11:3xZ: the branch `2026-10-14-d0c995` folded as 336, merged at `SHA:682ad083` from
   head `SHA:2c49b7da` by the bot (records-class, at checks green, 2.3 minutes from the
   ready-mark; the vendor review harvested after the merge). Successor `coordination/2026-10-16-682ad0` cut from
@@ -786,6 +795,36 @@ word on 14 October).
   - (8) "building out the direction I set" in the pattern paragraph stands at his word.
 - The merged card remains over the believed limit (edited across the whole profile later, never
   to one number). The editor stays stopped until he says.
+
+### 2026-10-17T13:xxZ — The workspace reshaped at the owner's word: the LinkedIn lane in its own worktree, the primary the coordination home; the three Oak items still his (Shrew rides Eventide, 371a2b)
+
+- His word (verbatim, the path written repository-relative): "use the primary checkout as the
+  coordination branch, where comms records etc are stored. Each piece of work then happens in a
+  work tree. `engraph` remains the default and target branch, the coordination branch is brought
+  up to date with the default branch when appropriate. Make sure all worktrees are in the
+  canonical location under" `.claude/worktrees`. This repository's default branch is `main` and
+  no branch named `engraph` exists here (it is the sibling's default), so the sentence is read as
+  "the default branch"; he confirmed it at 13:3xZ: "I had the wrong repo, my instructions for
+  worktrees remain correct, but substitute `engraph` for `main`".
+- The lane: `.claude/worktrees/linkedin-oak-content`, branch `docs/linkedin-oak-content-review`
+  cut from `origin/main` at `SHA:f80ccf7e` (the merge of 339); the two LinkedIn commits of 16
+  October carried across as `SHA:40f4f3f2` and `SHA:f066e0dc` (`linkedin/` only; the tree equal to
+  the coordination tip's); built by the set-up-worktree-lane skill, the validator OK. Local
+  commits, unpushed: five Dependabot pull requests (329 to 333) hold the work-in-progress count
+  (a solo seat's limit is one open pull request across the repositories, external ones counting).
+  The LinkedIn files on the coordination branch are the same bytes today; from here the lane's
+  copy is the one edited, and the coordination branch takes the change back through `main`.
+- The primary: Flint's six commits fast-forwarded, `origin/main` merged in (`SHA:77888aee`, no
+  memory file on `main`'s side), the leftover `consolidation-3` worktree removed (clean, its tip
+  the coordination tip). Flint guards Vapor closed at 2026-10-16T16:15Z; n=1, so pushes and
+  merges are this seat's again. The seat resides in the primary and operates the lane by absolute
+  path (the residency rule's clause 6; a resident lane session could not write the coordination
+  records).
+- Open, his: (0), (4) and (5) of the block of 2026-10-16T12:4xZ, unchanged, the proposals there;
+  (8) stands. The fold of `coordination/2026-10-16-7ffab0` (DUE by the lifetime rule's clock; at
+  his word by his ruling of 16 October; the draft fold pull request open from this push). The
+  five Dependabot pull requests: a dependency lane under the update-dependencies skill, or his
+  word that the LinkedIn draft opens regardless.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 
