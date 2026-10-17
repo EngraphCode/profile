@@ -194,7 +194,7 @@ Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 
 Status: drafted (12 October 2026: the Practice's mechanism moved here from the Principal card, as settled with Jim; two phrases at Jim's word of 16 October; awaiting Jim's edit)
 
-The way of working the Oak AI plugin was built in, and how the engineers working on the Open Curriculum Ecosystem build now: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. Every decision is recorded with its reasons, every agent works to the same written rules, and what one session learns is kept for the next, so AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. Built to be taken up a piece at a time, and public in the Open Curriculum Ecosystem repository.
+Three parts: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. The Oak AI plugin was built in it; the engineers working on the Open Curriculum Ecosystem build in it now; it is publicly available, and designed to be adopted gradually and reversibly.
 
 Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 

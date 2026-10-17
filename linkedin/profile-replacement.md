@@ -86,6 +86,16 @@ than smoothed (open, for the review after the compaction of 16 October); the mer
 opening sentence on the strategy his to edit by hand; "the direction I set" stands, setting
 direction and holding space for the teams to deliver being about right.
 
+Jim's dispositions of 17 October on the three items left open: the merged card's opening sentence
+on the strategy he edits by hand (no seat proposal applied); the Practice Project card's second
+sentence keeps the why and drops the relist ("AI-first delivery runs at pace without losing the
+institutional knowledge it puts at risk"), his to edit further; the Project card opens on the
+artefact ("Three parts: the tooling, the rules every agent works to, and the written memory that
+keeps what the work learns."), and closes in his words: "The Oak AI plugin was built in it; the
+engineers working on the Open Curriculum Ecosystem build in it now; it is publicly available, and
+designed to be adopted gradually and reversibly." Applied in the lane
+`docs/linkedin-oak-content-review`, both copies identical.
+
 Settled with Jim on 12 October, in a round of self-contained questions at his request, for the
 next editable draft, which he edits in the editor: the Principal card stands alone at the fold
 and shows the level by decision (he decides what gets built and makes the case; the two
