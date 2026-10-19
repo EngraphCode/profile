@@ -96,9 +96,9 @@ Status: drafted (12 October 2026: the title and the named clients settled with J
 
 Code Science was my consultancy. Through it I consulted for Oak National Academy, the Home Office and British Airways, with ad-hoc work for Teacher Tapp and BorrowMyDoggy, on technical strategy and how teams understand, validate, and deliver the right outcomes.
 
-### Product and Platform Delivery Consultant · Medicspot · Apr 2020 – Jul 2020 · United Kingdom
+### Platform Engineering Consultant · Medicspot · Apr 2020 – Jul 2020 · United Kingdom
 
-Status: drafted (11 October 2026, awaiting Jim)
+Status: drafted (11 October 2026; the title at Jim's word of 19 October, one lever per engagement; awaiting Jim)
 
 At a medical technology start-up I built a full-stack automated validation platform in continuous integration for its Express and React applications, and got the team using it.
 
@@ -108,15 +108,15 @@ Status: drafted (11 October 2026, awaiting Jim)
 
 Obaith was research: how shifts in constraints, defaults and access routes steer systems, and how digital services could do the same for challenges in climate, biodiversity and social connection. I chose to stop. The body of work it produced gave me a sharper sense of what I care about, how change happens, the power of networks and higher order effects, and the lesson that delivery beats perfect planning every time.
 
-### Product and Platform Delivery Consultant · UK Home Office · Feb 2017 – Dec 2017 · London
+### Programme Delivery Consultant · UK Home Office · Feb 2017 – Dec 2017 · London
 
-Status: drafted (11 October 2026, awaiting Jim)
+Status: drafted (11 October 2026; the title at Jim's word of 19 October, one lever per engagement; awaiting Jim)
 
 Across six agile teams building HM Passport Office's public-facing service, I made specification a whole-team act: workshops around concrete examples, each checked automatically against the product. The teams agreed what to build before anyone built it, and rework fell.
 
-### Product and Platform Delivery Consultant · British Airways · Mar 2015 – Dec 2015 · United Kingdom
+### Engineering Practice Consultant · British Airways · Mar 2015 – Dec 2015 · United Kingdom
 
-Status: drafted (11 October 2026, awaiting Jim)
+Status: drafted (11 October 2026; the title at Jim's word of 19 October, one lever per engagement; awaiting Jim)
 
 I instigated BA's move from bespoke version control to Git and GitHub, and co-created Specs, which published the version-controlled product specifications, validated against the product quality suites, through a search interface colleagues outside engineering could use.
 

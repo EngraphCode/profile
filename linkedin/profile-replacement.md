@@ -189,6 +189,14 @@ status lines corrected, the Scholar item having left Featured at his word of 14 
 acts protected and the believed limit of 2,000 on an Experience description verified at the
 live form before any cut. Applied in the lane, both copies identical.
 
+Jim's word, later on 19 October: the three consultant titles, one lever per engagement,
+Platform Engineering Consultant (Medicspot), Programme Delivery Consultant (UK Home Office) and
+Engineering Practice Consultant (British Airways), replacing the one neutral label on all three;
+the live titles they supersede are Head of Test (consulting), Programme QA Consultant and QA
+Automation Consultant. Nothing is cut for the count, at his word: if a verified limit requires
+it the card is recrafted, that process has not begun, and the first step is to find the real
+limits and consider the options.
+
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
 The copy: [`profile.md` § Headline](profile.md#headline).
