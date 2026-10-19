@@ -32,6 +32,7 @@ Jim’s request only.
 | [Brief review](reference/brief-review-2026-09-26.md)                                    | Historical assessment of the application brief, preceding the profile audit; the current assessment governs  |
 | [Research report](research/exceptional-cv-linkedin-research-report-2026-09-26.md)       | What strong CVs and LinkedIn profiles can usefully communicate                                               |
 | [Research companion](research/exceptional-cv-linkedin-evidence-companion-2026-09-26.md) | Sources, claims, methods and limitations                                                                     |
+| [Oak impact figures](research/oak-impact-figures-2026-10-19.md)                         | Oak's published reach, workload and platform figures with their sources, periods and page references         |
 
 ## Working agreement
 
