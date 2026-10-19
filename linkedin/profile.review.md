@@ -14,23 +14,23 @@ Industry: Technology, Information and Internet
 
 ## Headline
 
-Status: approved (Jim, 7 October 2026; revised by Jim, 17 October 2026)
+Status: approved (Jim, 7 October 2026; revised by Jim, 17 October 2026; revised by Jim in the editor, 19 October 2026)
 
-Innovator, engineer, scientist | Celebrating the unknown. Shaping strategy, systems, and outcomes.
+Innovator, engineer, scientist | Celebrating the unknown, making space for change.
 
 ## About
 
-Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; revised by Jim in the editor, 17 October 2026, the closing line settled in conversation the same day; awaiting Jim)
+Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; revised by Jim in the editor, 17 October 2026, the closing line settled in conversation the same day; 19 October 2026 at Jim's word: the peak figure swapped for the 2023/24 evaluation's 2.5 million pupils in one week, and the plugin's name capitalised as a product name; awaiting Jim)
 
-I revel in problems that don't have a shape yet. At Oak I conceived and built the AI plugin that puts Oak's open curriculum inside AI assistants such as ChatGPT and Claude, and have led the engineering strategy since 2021.
+I revel in problems that don't have a shape yet. At Oak I conceived and built the Oak AI Plugin that puts Oak's open curriculum inside AI assistants such as ChatGPT and Claude, and have led the engineering strategy since 2021.
 
 My joy of the unknown began with physics. As a published scientist studying the early Universe, I built insight; validated and refined it against reality; and moved knowledge forward. As an innovator and technologist I went further: understanding systems is gratifying; learning where to make small changes for outsized impact is sublime, and useful.
 
-In the spring of 2020 Covid was causing schools to close. Oak started as an emergency online classroom to ensure access to education: we served over 160 million lessons, with over 1 million peak daily users. Impact scaled and evolved, and now Oak is the UK's official curriculum body, a public service used by over 200,000 teachers. I joined to get the first teacher-facing service over the line. I stayed to shape the direct and indirect impacts of a digital-native, fully sequenced, fully resourced, world-class curriculum, and what other people build with it.
+In the spring of 2020 Covid was causing schools to close. Oak started as an emergency online classroom to ensure access to education: we served over 160 million lessons, with 2.5 million pupils using Oak in one week at the peak. Impact scaled and evolved, and now Oak is the UK's official curriculum body, a public service used by over 200,000 teachers. I joined to get the first teacher-facing service over the line. I stayed to shape the direct and indirect impacts of a digital-native, fully sequenced, fully resourced, world-class curriculum, and what other people build with it.
 
 The hardest call was arguing to rebuild the emergency platform while it was still what kept lessons online. Four years on, the resulting platform is what everything is built on.
 
-The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI assistants they use. Alongside the AI plugin, I built a way of working: the Practice is an agentic software engineering framework for building innovative products, at pace, without sacrificing quality. It learns as it goes, preserving critical institutional knowledge ignored and lost in many AI systems. Oak's Open Curriculum Ecosystem, the home of the AI plugin, has been built entirely with the Practice.
+The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI assistants they use. Alongside the plugin, I built a way of working: the Practice is an agentic software engineering framework for building innovative products, at pace, without sacrificing quality. It learns as it goes, preserving critical institutional knowledge ignored and lost in many AI systems. Oak's Open Curriculum Ecosystem, the home of the plugin, has been built entirely with the Practice.
 
 Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, HP Labs, and physics research.
 
@@ -40,9 +40,9 @@ The more I learn, the bigger the questions get. I love it.
 
 Status: drafted (11 October 2026: each item a warrant in its owner's words, nothing of Jim's claims, which the About above has just made; Google Scholar added 12 October as the research record, in its own figures; awaiting Jim)
 
-### The Oak AI plugin: Oak's curriculum inside the AI assistants teachers already use
+### The Oak AI Plugin: Oak's curriculum inside the AI assistants teachers already use
 
-Status: drafted (11 October 2026; Oak's own line from its page, read 11 October; "free, openly licensed", both, at Jim's word of 16 October; awaiting Jim)
+Status: drafted (11 October 2026; Oak's own line from its page, read 11 October; "free, openly licensed", both, at Jim's word of 16 October; the name capitalised, 19 October, at Jim's word; awaiting Jim)
 
 Connect the AI assistant you already use to Oak's free, openly licensed curriculum content.
 
@@ -70,17 +70,17 @@ Status: drafted
 
 ### Principal Engineer, Strategy and Innovation · Oak National Academy · Jan 2021 – Present · United Kingdom
 
-Status: drafted (16 October 2026: the two Principal cards merged into one at Jim's word, the title his; his dispositions of 16 October on the dedupe and enhancement proposal applied: the fold's responsibility and authority carried by enabling, at his correction of the same day, the growth with Engineering as the department, the plugin's origin and urgency, the Practice in his words; nothing cut for the count, which is edited later across the whole profile; the editorial review of 16 October at his dispositions: the plugin paragraph closes on its reach, the Practice alongside the plugin as the About says; the opening sentence his to edit by hand; awaiting Jim's edit)
+Status: drafted (16 October 2026: the two Principal cards merged into one at Jim's word, the title his; his dispositions of 16 October on the dedupe and enhancement proposal applied: the fold's responsibility and authority carried by enabling, at his correction of the same day, the growth with Engineering as the department, the plugin's origin and urgency, the Practice in his words; nothing cut for the count, which is edited later across the whole profile; the editorial review of 16 October at his dispositions: the plugin paragraph closes on its reach, the Practice alongside the plugin as the About says; the opening sentence his to edit by hand; 19 October 2026: Jim's two rounds of edits in the editor absorbed, every paragraph but the close his; the seat's line suggestions applied at his numbered dispositions with his amendments; the rebuild's staged adoption in one sentence at his word; Oak's published figures from the research note at his choice, the share of schools, the value of teachers' time saved, the hours a week, the use where disadvantage is highest; the product name capitalised at his word; awaiting Jim)
 
-Oak's engineering strategy is my responsibility: I decide what gets built and what does not, and make the case for it to the people who fund and run the service. I carry that authority by enabling the engineers, guiding, mentoring and coaching them rather than directing their work. Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's open curriculum into the AI assistants teachers use.
+I am responsible for Oak's engineering vision and strategy. I carry that responsibility by guiding, mentoring and, where necessary, correcting course. Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's open curriculum into the AI assistants teachers use. Both followed two organising principles: increase reach, and invest in making innovation cheap.
 
-Oak was becoming a permanent service, and Engineering grew with it: from what was in effect one team, the handful of contractors I joined, into cross-functional teams that deliver a digital service end to end in a specialised and important field, six product squads and three platform groups today. Through that growth I helped shape the department as it took on its first QA engineer, first engineering manager and first platform group, and put in the delivery infrastructure, testing practice and developer experience that made the emergency platform safe to change. As Oak became an arm's-length body of the Department for Education, the position was formalised as Principal Engineer in June 2022.
+Oak grew from an emergency response into a government-funded national digital service now used in 72% of England's schools, and Engineering grew with it: the initial handful of contractors has become six cross-discipline product squads and three platform groups. At each scale I made the interventions with the most impact: early, the delivery infrastructure and the first QA engineer; later, the first engineering manager, the first platform group, and the design of the team structure and practices. As Oak became an arm's-length body of the Department for Education, I chose to join permanently, and the position was formalised as Principal Engineer in 2022. In 2023-24, its first full year as a public body, Oak saved £290m worth of teachers' time, 300% above the estimate it was established on.
 
-Even with the emergency platform safe to change, every change got harder and every release slower. I argued that optimising it was the wrong starting point and that Oak should rebuild. The call was mine to make and I made it; Oak's leadership backed it, and I carried the near-term risk to delivery and reputation. Everything Oak has built in the four years since stands on that rebuild.
+Developing the emergency platform became harder, the cost of the speed the emergency had demanded. I argued for a rebuild over incremental improvement. Oak's directors backed it, and I carried the near-term risk to delivery and reputation. I designed it to be adopted in stages, each carrying live traffic before the next began: Oak's public site within six months, then the teacher experience, then the pupil experience. The rebuild let rapid development and high standards coexist. Everything Oak has built in the four years since stands on it. The service it carries saves the teachers who use it four hours a week, and is used most where disadvantage is highest.
 
-The Oak AI plugin began in 2024 with an opportunity I saw in Oak's curriculum, sequenced end to end, written by curriculum experts and published under the Open Government Licence: any AI assistant could reach it, if someone built the route. The wish was to make the curriculum available inside AI assistants; the urgency came as we realised teachers were already doing their work in them, and Oak's support had to reach them there. I made the case and built it, and its shape, its development and its strategy came from me; it is now in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP).
+The Oak AI Plugin began in 2024 with an opportunity I saw in Oak's high-quality, fully sequenced and resourced, openly licensed curriculum: any AI assistant that could see it could create with it. Teachers were working in their favourite AI assistants, and I knew we had to bring Oak's support to them. I presented the vision, made the case, and delivered the platform. The Oak AI Plugin is now available in ChatGPT, Claude and any assistant that supports Model Context Protocol (MCP).
 
-Alongside the plugin I built the Practice, the way of working it was built in: a framework for engineering with AI agents, in which the human defines the vision and strategy, and the agent builds with context, fast, and to the highest standards. The Practice, the AI plugin, and the SDK, MCP and tooling that support it, are openly available in the public Open Curriculum Ecosystem repository, which is itself developed using the Practice.
+Alongside the plugin I built the Practice, a framework for engineering with AI agents, in which the human defines the vision and strategy, and agents build fast without sacrificing quality, learning as they go. The Practice was used to build the Oak AI Plugin, the SDK, semantic search, and the MCP app, and all are openly available in the public Open Curriculum Ecosystem repository.
 
 Zero to one is complete. The plugin has its own cross-discipline product squad now, building out the direction I set, and that is the pattern: build the first version and the way of working, hand them on, and go where the next problem is still unformed.
 
@@ -182,19 +182,19 @@ Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no 
 
 Status: drafted (11 October 2026, awaiting Jim)
 
-### The Oak AI plugin · 2024 – Present · Associated with Oak National Academy
+### The Oak AI Plugin · 2024 – Present · Associated with Oak National Academy
 
-Status: drafted (16 October 2026: the making in Jim's sentence, his verbatim at his word; the pipeline's consequence as the sentence after it, at his disposition on the editorial review's item 1; awaiting Jim)
+Status: drafted (16 October 2026: the making in Jim's sentence, his verbatim at his word; the pipeline's consequence as the sentence after it, at his disposition on the editorial review's item 1; the name capitalised, 19 October, at Jim's word; awaiting Jim)
 
-The Open Curriculum Ecosystem: an openly licensed repository for working with Oak's public data, directly, and as AI-native infrastructure. The AI plugin, an SDK and tools for the sector to build with, and the Practice they are built in. I conceived the plugin: a public SDK, semantic search, and MCP app generated automatically from the Oak public API ontology, carrying an expert curriculum. The whole pipeline runs from the API's OpenAPI specification, so when the API changes the SDK, the search and the MCP app follow. As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data: the plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
+The Open Curriculum Ecosystem: an openly licensed repository for working with Oak's public data, directly, and as AI-native infrastructure. The Oak AI Plugin, an SDK and tools for the sector to build with, and the Practice they are built in. I conceived the plugin: a public SDK, semantic search, and MCP app generated automatically from the Oak public API ontology, carrying an expert curriculum. The whole pipeline runs from the API's OpenAPI specification, so when the API changes the SDK, the search and the MCP app follow. As it became a product the question changed, from what was possible to how Oak's values would live in it. The answer is that the standards travel with the data: the plugin carries the curriculum principles and the accessibility bar the lessons were written to, and an assistant building on Oak builds on them too.
 
 Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 
 ### The Practice, a framework for engineering with AI agents · 2024 – Present · Associated with Oak National Academy
 
-Status: drafted (12 October 2026: the Practice's mechanism moved here from the Principal card, as settled with Jim; two phrases at Jim's word of 16 October; awaiting Jim's edit)
+Status: drafted (12 October 2026: the Practice's mechanism moved here from the Principal card, as settled with Jim; two phrases at Jim's word of 16 October; the plugin's name capitalised, 19 October, at Jim's word; awaiting Jim's edit)
 
-Three parts: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. The Oak AI plugin was built in it; the engineers working on the Open Curriculum Ecosystem build in it now; it is publicly available, and designed to be adopted gradually and reversibly.
+Three parts: the tooling, the rules every agent works to, and the written memory that keeps what the work learns. AI-first delivery runs at pace without losing the institutional knowledge it puts at risk. The Oak AI Plugin was built in it; the engineers working on the Open Curriculum Ecosystem build in it now; it is publicly available, and designed to be adopted gradually and reversibly.
 
 Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 

@@ -151,6 +151,28 @@ own; the banner photograph; the industry value confirmed at the dropdown at appl
 settings at application (Open to Work off; profile-update sharing off during editing, one
 notification at the end).
 
+Jim's edits of 19 October in the editor, two rounds, absorbed the same day: the headline's second
+half, "making space for change"; the merged Principal card rewritten by him through every
+paragraph but the close, framed as the history of Oak and his place in it (his frame, agreed):
+the opening on responsibility for vision and strategy, carried by guiding, mentoring and
+correcting course, the two decisions and their two organising principles, reach and cheap
+innovation; the growth paragraph with his interventions at each scale; the rebuild argued, backed
+and carried; the plugin's opportunity, case and delivery; the Practice. The seat's line
+suggestions applied at his numbered dispositions, with his amendments: the interventions matched
+to Oak's scale as it grew; "the cost of the speed the emergency had demanded"; the product name
+"Oak AI Plugin" capitalised throughout at his word, the bare "plugin" lower case as the common
+noun; "the MCP app". The rebuild's staged adoption in one sentence at his word, the same rebuild
+the annual reports measure by user migration: the public site within six months, then the
+teacher experience, then the pupil experience; the six-month and parallel-running detail stays
+out of the copy beyond that at his word. Oak's published figures, from
+[the research note](research/oak-impact-figures-2026-10-19.md), at his choice: the About's peak
+swapped for the evaluation's 2.5 million pupils in one week; the card carries the 72% of
+England's schools, the £290m of teachers' time saved in 2023-24 (300% above estimate), the four
+hours a week, and the greater use where disadvantage is highest. Left out at the seat's
+judgement, open to his word: the uptime figure (the 99.9% target met at an average quarterly
+uptime of 100%, Engineering's own) and the retention comparison (the evaluation says only "could
+be linked"). The count is set aside at his word. Applied in the lane, both copies identical.
+
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
 The copy: [`profile.md` § Headline](profile.md#headline).
