@@ -20,9 +20,9 @@ Innovator, engineer, scientist | Celebrating the unknown, making space for chang
 
 ## About
 
-Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; revised by Jim in the editor, 17 October 2026, the closing line settled in conversation the same day; 19 October 2026 at Jim's word: the peak figure swapped for the 2023/24 evaluation's 2.5 million pupils in one week, and the plugin's name capitalised as a product name; awaiting Jim)
+Status: approved (Jim, 7 October 2026; revised by Jim, 10 October 2026; the readers' line pass applied; the Practice defined and the opening's second sentence at Jim's word; two edits at Jim's word of 12 October, the second sentence shortened so the fold shows ChatGPT and Claude, and "since 2021" to match the cards; the third paragraph's last sentence split in two at Jim's word of 16 October; revised by Jim in the editor, 17 October 2026, the closing line settled in conversation the same day; 19 October 2026 at Jim's word: the peak figure swapped for the 2023/24 evaluation's 2.5 million pupils in one week, and the plugin's name capitalised as a product name; later the same day at his word: the plugin sentence rephrased so Oak is named twice, not three times, and one sentence naming the pattern across the career added after the "Before Oak" list; awaiting Jim)
 
-I revel in problems that don't have a shape yet. At Oak I conceived and built the Oak AI Plugin that puts Oak's open curriculum inside AI assistants such as ChatGPT and Claude, and have led the engineering strategy since 2021.
+I revel in problems that don't have a shape yet. At Oak I conceived and built the Oak AI Plugin that puts the open curriculum inside AI assistants such as ChatGPT and Claude, and have led the engineering strategy since 2021.
 
 My joy of the unknown began with physics. As a published scientist studying the early Universe, I built insight; validated and refined it against reality; and moved knowledge forward. As an innovator and technologist I went further: understanding systems is gratifying; learning where to make small changes for outsized impact is sublime, and useful.
 
@@ -32,13 +32,13 @@ The hardest call was arguing to rebuild the emergency platform while it was stil
 
 The last few years have been driven by one idea: Oak's curriculum should be wherever teachers already are, including inside the AI assistants they use. Alongside the plugin, I built a way of working: the Practice is an agentic software engineering framework for building innovative products, at pace, without sacrificing quality. It learns as it goes, preserving critical institutional knowledge ignored and lost in many AI systems. Oak's Open Curriculum Ecosystem, the home of the plugin, has been built entirely with the Practice.
 
-Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, HP Labs, and physics research.
+Before Oak: a consultancy of my own, the FT Web App, quality and delivery practice and tools for British Airways and the UK Passport Office, HP Labs, and physics research. Each was the same move at a different scale: see where the system gives, build what moves it, hand it on, and go looking for the next problem that has no shape yet.
 
 The more I learn, the bigger the questions get. I love it.
 
 ## Featured
 
-Status: drafted (11 October 2026: each item a warrant in its owner's words, nothing of Jim's claims, which the About above has just made; Google Scholar added 12 October as the research record, in its own figures; awaiting Jim)
+Status: drafted (11 October 2026: each item a warrant in its owner's words, nothing of Jim's claims, which the About above has just made; Google Scholar added 12 October as the research record, in its own figures, and out again at Jim's word of 14 October; awaiting Jim)
 
 ### The Oak AI Plugin: Oak's curriculum inside the AI assistants teachers already use
 
@@ -70,11 +70,11 @@ Status: drafted
 
 ### Principal Engineer, Strategy and Innovation · Oak National Academy · Jan 2021 – Present · United Kingdom
 
-Status: drafted (16 October 2026: the two Principal cards merged into one at Jim's word, the title his; his dispositions of 16 October on the dedupe and enhancement proposal applied: the fold's responsibility and authority carried by enabling, at his correction of the same day, the growth with Engineering as the department, the plugin's origin and urgency, the Practice in his words; nothing cut for the count, which is edited later across the whole profile; the editorial review of 16 October at his dispositions: the plugin paragraph closes on its reach, the Practice alongside the plugin as the About says; the opening sentence his to edit by hand; 19 October 2026: Jim's two rounds of edits in the editor absorbed, every paragraph but the close his; the seat's line suggestions applied at his numbered dispositions with his amendments; the rebuild's staged adoption in one sentence at his word; Oak's published figures from the research note at his choice, the share of schools, the value of teachers' time saved, the hours a week, the use where disadvantage is highest; the product name capitalised at his word; awaiting Jim)
+Status: drafted (16 October 2026: the two Principal cards merged into one at Jim's word, the title his; his dispositions of 16 October on the dedupe and enhancement proposal applied: the fold's responsibility and authority carried by enabling, at his correction of the same day, the growth with Engineering as the department, the plugin's origin and urgency, the Practice in his words; nothing cut for the count, which is edited later across the whole profile; the editorial review of 16 October at his dispositions: the plugin paragraph closes on its reach, the Practice alongside the plugin as the About says; the opening sentence his to edit by hand; 19 October 2026: Jim's two rounds of edits in the editor absorbed, every paragraph but the close his; the seat's line suggestions applied at his numbered dispositions with his amendments; the rebuild's staged adoption in one sentence at his word; Oak's published figures from the research note at his choice, the share of schools, the value of teachers' time saved, the hours a week, the use where disadvantage is highest; the product name capitalised at his word; later the same day the £290m sentence out at his word, the four hours a week kept over it; awaiting Jim)
 
 I am responsible for Oak's engineering vision and strategy. I carry that responsibility by guiding, mentoring and, where necessary, correcting course. Two decisions shaped the last four years: to rebuild the emergency platform, and to put Oak's open curriculum into the AI assistants teachers use. Both followed two organising principles: increase reach, and invest in making innovation cheap.
 
-Oak grew from an emergency response into a government-funded national digital service now used in 72% of England's schools, and Engineering grew with it: the initial handful of contractors has become six cross-discipline product squads and three platform groups. At each scale I made the interventions with the most impact: early, the delivery infrastructure and the first QA engineer; later, the first engineering manager, the first platform group, and the design of the team structure and practices. As Oak became an arm's-length body of the Department for Education, I chose to join permanently, and the position was formalised as Principal Engineer in 2022. In 2023-24, its first full year as a public body, Oak saved £290m worth of teachers' time, 300% above the estimate it was established on.
+Oak grew from an emergency response into a government-funded national digital service now used in 72% of England's schools, and Engineering grew with it: the initial handful of contractors has become six cross-discipline product squads and three platform groups. At each scale I made the interventions with the most impact: early, the delivery infrastructure and the first QA engineer; later, the first engineering manager, the first platform group, and the design of the team structure and practices. As Oak became an arm's-length body of the Department for Education, I chose to join permanently, and the position was formalised as Principal Engineer in 2022.
 
 Developing the emergency platform became harder, the cost of the speed the emergency had demanded. I argued for a rebuild over incremental improvement. Oak's directors backed it, and I carried the near-term risk to delivery and reputation. I designed it to be adopted in stages, each carrying live traffic before the next began: Oak's public site within six months, then the teacher experience, then the pupil experience. The rebuild let rapid development and high standards coexist. Everything Oak has built in the four years since stands on it. The service it carries saves the teachers who use it four hours a week, and is used most where disadvantage is highest.
 
@@ -164,11 +164,7 @@ Thesis: The Design and Construction of a Theremin. Music journalist for the stud
 
 ## Licences and certifications
 
-Status: drafted (12 October 2026: the three below retained with their current labels; the Fire Marshal course of 2013, the First Aid at Work certificate that expired in 2016 and the two Johns Hopkins course certificates of 2016 removed, the courses at the seat's verdict after both readers read them as lowering the altitude beside a PhD and Jim's word that he does not much care either way; awaiting Jim)
-
-### AgilePM Foundation · APMG International · June 2023
-
-Status: drafted (11 October 2026, awaiting Jim; the entry as it stands live, no description)
+Status: drafted (12 October 2026: the three below retained with their current labels; 19 October 2026: the AgilePM Foundation certificate of June 2023 removed at Jim's word, the two FutureLearn courses kept at his word; the Fire Marshal course of 2013, the First Aid at Work certificate that expired in 2016 and the two Johns Hopkins course certificates of 2016 removed, the courses at the seat's verdict after both readers read them as lowering the altitude beside a PhD and Jim's word that he does not much care either way; awaiting Jim)
 
 ### Citizen Science: From Soil to Sky · FutureLearn · March 2018
 
@@ -326,7 +322,7 @@ Status: open (as now; activity and interests are not profile content and are lef
 
 ## Contact
 
-Status: drafted (12 October 2026: the three routes as drafted on 11 October, with distinct labels where LinkedIn allows them; Google Scholar and ORCID sit in Featured, where nothing is displaced; awaiting Jim)
+Status: drafted (12 October 2026: the three routes as drafted on 11 October, with distinct labels where LinkedIn allows them; Google Scholar left Featured at Jim's word of 14 October and the ORCID iD sits on the PhD entry, so the three routes stand; awaiting Jim)
 
 Website: <https://www.jimcresswell.net/>
 

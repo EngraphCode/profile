@@ -173,6 +173,22 @@ judgement, open to his word: the uptime figure (the 99.9% target met at an avera
 uptime of 100%, Engineering's own) and the retention comparison (the evaluation says only "could
 be linked"). The count is set aside at his word. Applied in the lane, both copies identical.
 
+Later on 19 October, the seat's holistic review of the whole profile and Jim's dispositions on
+it: Oak as "the UK's official curriculum body" in the About beside "72% of England's schools" on
+the card is no tension (his word: Oak is the UK body, the curriculum applies to England;
+settled); the Practice defined in the About, the card and its Project card, with a near-verbatim
+phrase shared by the first two, noted for the count pass; the three identical titles "Product
+and Platform Delivery Consultant" his choice, open to suggestion, the seat's suggestions in
+conversation (one lever per engagement in the title); the AgilePM Foundation certificate
+removed at his word, the two FutureLearn courses kept at his word; the About's plugin sentence
+rephrased at his word so Oak is named twice ("the open curriculum"); one sentence naming the
+pattern across the career added to the About at his word, after the "Before Oak" list; the
+£290m sentence out at his word, the four hours a week kept over it; the Featured and Contact
+status lines corrected, the Scholar item having left Featured at his word of 14 October (landed
+16 October) while both status lines still placed it there. Open: the count pass, next, with his
+acts protected and the believed limit of 2,000 on an Experience description verified at the
+live form before any cut. Applied in the lane, both copies identical.
+
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
 The copy: [`profile.md` § Headline](profile.md#headline).
