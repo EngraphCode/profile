@@ -214,9 +214,31 @@ structure and practices in the later; the dates are his from the draft of 12 Oct
 employment type (Full-time, Contract) is LinkedIn's field, set at application; nothing cut. The
 source is unchanged; the
 review file differs from it by design until his word, when it is absorbed or copied back from
-the source. The readers run on the whole draft when he says it is his, as agreed. Open and his:
-the split (take it, vary the titles or the seam, or choose the Projects move instead); the
-uptime figure.
+the source. The readers run on the whole draft when he says it is his, as agreed. Superseded
+the same afternoon by the paragraph below; open and his: the uptime figure.
+
+Jim's verdict of 21 October on the split, verbatim: "you are turning it from good writing into
+a litany of facts with no soul and no connection". The seat's reflection against the editorial
+skills and directives, reported and agreed, is EDR-009: the split was written for the material
+(two date ranges and a count), its joining sentences were labels and tells, the sentences whose
+meaning is their span were halved, the count chose where the seam fell, and a diff page is an
+instrument for what moved, never for whether the result reads; the fourth instance of the
+failure the write-for-the-reader skill names, now in its gotchas. Settled with him: the Oak
+block is two cards, the Senior Developer card as it stands and the Principal card as one piece
+of writing from January 2021, carrying the why, the call, the cost, the authority and the
+impact; the three Project cards (the plugin, the Practice, the rebuild; a project description's
+limit of 2,000, read by him at the counter on 21 October) carry the how as warrants written for
+the reader who opens them; Featured is a showcase of a post, article, link, image or document
+and takes no copy, the three links standing; the FT Web App stays a Project card reworded in
+the past tense, its opening a label without a verb, the awards carrying "lauded at the time",
+whether it names his part his to say. The split is withdrawn and the review file is the source
+again. Next, in order: the reader's decision and the beliefs for the Principal card on paper,
+shown to him before any draft; one draft by the method, his sentences kept where they are his;
+the three Project cards and the FT card; the voice check, editor, prose-expert and the
+audience-reader with dispositions shown; then Jim, in the editor, the diff page showing his
+edits against the source. The count is read once, as information; if a card written by the
+method still refuses its field, what moves elsewhere is his. While he iterates on the text, the
+review file is the surface and commits wait for a boundary he names.
 
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
