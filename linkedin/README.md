@@ -81,8 +81,9 @@ order, an H3 per entry under the sections that hold entries, and a `Status:` lin
 `drafted` or `open`, with an optional note) under every heading. The structure is validated by
 `pnpm --filter linkedin validate-profile profile.md`, which the workspace's `lint` script runs,
 so a missing section, a bad status or an entry under a section that takes none fails the gate.
-Counts and the 200 and 300 character folds are reported as notes against believed limits; they
-are information, never a target.
+Counts and the 200 and 300 character folds are reported as notes against the limits read from
+LinkedIn's edit forms on 19 October 2026 (headline 220, About 2,600, a position's description
+2,000); they are information, never a target.
 
 `profile.review.md` is where Jim's edits land: it starts as a copy of `profile.md` and the editor
 writes it; prettier, markdownlint and the gate leave it alone, so nothing he writes there can
@@ -90,9 +91,16 @@ fail a commit. The editor is a local two-pane page, markdown on the left and an 
 rendering on the right, with the status, the count, the folds and a changed-from-source badge per
 field, and linked highlighting between the panes. Run it with `pnpm --filter linkedin editor` and
 open the printed URL (`localhost` on the same port also works); it listens on 127.0.0.1 only and
-serves nothing but the page and the two files. Edits save after a short pause in typing. The seat
-triages the review file against the source by the editorial method; nothing publishes to
+serves nothing but the two pages and the two files. Edits save after a short pause in typing. The
+seat triages the review file against the source by the editorial method; nothing publishes to
 LinkedIn.
+
+The editor's second page, at `/diff`, shows the review file against the source: section by
+section in two columns, the words removed struck through on the left and the words added marked
+on the right, a block that moved marked at both ends, sections with no difference folded, and
+each entry's count against its limit on both sides. Status lines are not compared. A seat's
+proposal is written into the review file and read there; after Jim's edits the same page shows
+his changes against the source. Reload reads both files again.
 
 This workspace is not an additional published website. It is a private pnpm workspace package;
 the repository's root Markdown and formatting checks cover its documents, and its own `lint`,

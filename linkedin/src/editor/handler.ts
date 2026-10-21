@@ -2,9 +2,10 @@
  * The editor's request handler, below the listener: a request value in, a response value out,
  * every file read or write through an injected seam, so the whole surface is proven in process.
  *
- * Routes: `GET /` the page; `GET /app.js` the page script; `GET /api/document` both files'
- * reports and the fold offsets; `PUT /api/review` the review file's new text, answered with its
- * report. Nothing in a request names a path: the seams fix the files.
+ * Routes: `GET /` the editor page; `GET /app.js` its script; `GET /diff` the diff page, the
+ * review against the source; `GET /diff.js` its script; `GET /api/document` both files' reports
+ * and the fold offsets; `PUT /api/review` the review file's new text, answered with its report.
+ * Nothing in a request names a path: the seams fix the files.
  *
  * @packageDocumentation
  */
@@ -20,13 +21,15 @@ interface DocumentPayload {
   readonly folds: readonly number[];
 }
 
-/** The editor's IO, injected: the two files and the page's two static texts. */
+/** The editor's IO, injected: the two files and the two pages' static texts. */
 export interface EditorSeams {
   readonly readSource: () => Promise<string>;
   readonly readReview: () => Promise<string>;
   readonly writeReview: (text: string) => Promise<void>;
   readonly pageHtml: string;
   readonly pageScript: string;
+  readonly diffHtml: string;
+  readonly diffScript: string;
 }
 
 /** The loopback address the editor listens on; a Host that is neither it nor localhost is refused. */
@@ -111,6 +114,10 @@ async function route(seams: EditorSeams, request: EditorRequest): Promise<Editor
       return { status: 200, contentType: HTML, body: seams.pageHtml };
     case 'GET /app.js':
       return { status: 200, contentType: SCRIPT, body: seams.pageScript };
+    case 'GET /diff':
+      return { status: 200, contentType: HTML, body: seams.diffHtml };
+    case 'GET /diff.js':
+      return { status: 200, contentType: SCRIPT, body: seams.diffScript };
     case 'GET /api/document':
       return documentPayload(seams);
     case 'PUT /api/review':
