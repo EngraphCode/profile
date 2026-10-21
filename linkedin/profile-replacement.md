@@ -204,11 +204,15 @@ the editor page and the apply skill's field-limits reference, which records the 
 confirmations. The Principal card at 2,852 is the only field over. His word of 21 October: a diff
 page in the editor, the review file against the source, and the seat's proposed split of the
 Principal card shown on it. The proposal is in the review file: two positions under Oak with the
-same title, the later Jun 2022 to present at 1,866 characters (his opening sentences, the plugin,
-the Practice and the close verbatim), the earlier Jan 2021 to May 2022 at 1,468 (the rebuild
-paragraph and his sentence on joining permanently verbatim); only the seam sentences are the
-seat's; the dates are his from the draft of 12 October, and the employment type (Full-time,
-Contract) is LinkedIn's field, set at application; nothing cut. The source is unchanged; the
+same title, the later Jun 2022 to present at 1,891 characters (his opening sentences, the growth
+paragraph's arc, the plugin, the Practice and the close verbatim), the earlier Jan 2021 to May
+2022 at 1,533 (the growth paragraph's arc, the rebuild paragraph and his sentence on joining
+permanently verbatim); only the seam sentences are the seat's; his correction of 21 October
+applied, the growth paragraph keeping his language in both cards, with the first QA engineer,
+engineering manager and platform group in the earlier period and the design of the team
+structure and practices in the later; the dates are his from the draft of 12 October, and the
+employment type (Full-time, Contract) is LinkedIn's field, set at application; nothing cut. The
+source is unchanged; the
 review file differs from it by design until his word, when it is absorbed or copied back from
 the source. The readers run on the whole draft when he says it is his, as agreed. Open and his:
 the split (take it, vary the titles or the seam, or choose the Projects move instead); the
