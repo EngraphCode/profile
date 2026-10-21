@@ -197,6 +197,23 @@ Automation Consultant. Nothing is cut for the count, at his word: if a verified 
 it the card is recrafted, that process has not begun, and the first step is to find the real
 limits and consider the options.
 
+Jim's word of 19 and 21 October on the limits: he read the counters on the live edit forms
+himself, headline 220, About 2,600, a position's description (the field LinkedIn now labels
+Highlights) 2,000, each the figure the validator held; "believed" is retired from the validator,
+the editor page and the apply skill's field-limits reference, which records the three
+confirmations. The Principal card at 2,852 is the only field over. His word of 21 October: a diff
+page in the editor, the review file against the source, and the seat's proposed split of the
+Principal card shown on it. The proposal is in the review file: two positions under Oak with the
+same title, the later Jun 2022 to present at 1,866 characters (his opening sentences, the plugin,
+the Practice and the close verbatim), the earlier Jan 2021 to May 2022 at 1,468 (the rebuild
+paragraph and his sentence on joining permanently verbatim); only the seam sentences are the
+seat's; the dates are his from the draft of 12 October, and the employment type (Full-time,
+Contract) is LinkedIn's field, set at application; nothing cut. The source is unchanged; the
+review file differs from it by design until his word, when it is absorbed or copied back from
+the source. The readers run on the whole draft when he says it is his, as agreed. Open and his:
+the split (take it, vary the titles or the seam, or choose the Projects move instead); the
+uptime figure.
+
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
 The copy: [`profile.md` § Headline](profile.md#headline).
