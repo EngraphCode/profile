@@ -10,7 +10,79 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-17T15:1xZ, cold pause at the owner's word: the Oak items 4 and 5 and his edits of 17 October on the lane; the merged card's opening sentence his hand edit next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-21T13:xxZ, the Oak card's shape settled as EDR-009 at the owner's verdict on the split; the Principal card to be written by the method, the how to the Project cards; the diff page in the editor; compaction at his word; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status` on the lane worktree and on the primary, the claims registry, the comms
+  stream, `gh pr list --repo jimCresswell/jimcresswell.net`.
+- **The lane.** `docs/linkedin-oak-content-review` in the worktree
+  `.claude/worktrees/linkedin-oak-content`, draft pull request 341 against `main`, the seat
+  resident by `EnterWorktree`. Its commits of 17 to 21 October, in order: `SHA:fe4823f6` and
+  `SHA:96d7e2dc` (the owner's edits of 17 October absorbed; the Practice Project card);
+  `SHA:5ff64298` (Oak's published figures and their sources,
+  `linkedin/research/oak-impact-figures-2026-10-19.md`); `SHA:602b52ab`, `SHA:90518fc3` and
+  `SHA:69420b9a` (his two rounds of 19 October absorbed with his dispositions, the holistic
+  review's dispositions, the three consultant titles); `SHA:1bcf6764` (the limits verified at
+  the counters, "believed" retired); `SHA:7d4a7601` and `SHA:0733a0e9` (the split proposed in
+  the review file, then corrected, both withdrawn below); `SHA:b8043154` and `SHA:afa1ffaa` (the
+  editor's diff page; the push gate's findings); `SHA:48d5ee5d` (a project description's limit);
+  `SHA:664b6b2b` (EDR-009, the skill's gotcha, the container, the plan node, the review file
+  reset). The work-safety evidence is in the wrap message, never here.
+- **The decision of the day, EDR-009**
+  (`docs/editorial/decision-records/009-the-oak-card-is-one-piece-of-writing-under-the-limits.md`).
+  The limits verified by the owner at the live counters: headline 220, About 2,600, a position's
+  description 2,000 (19 October), a project's description 2,000 (21 October); the structure
+  table and `apply-linkedin-profile/references/field-limits.md` carry them. His merged Principal
+  card (`SHA:69420b9a`) is 2,852. The seat's split of it into two positions by date, shown on
+  the diff page, drew his verdict, verbatim: "you are turning it from good writing into a litany
+  of facts with no soul and no connection". The reflection against the editorial skills and
+  directives, agreed with him: the split was written for the material, its joining sentences
+  were labels, the span sentences were halved, the count chose the seam, and a diff judges what
+  moved, never whether it reads. Settled: two Oak cards; the Principal card one piece of writing
+  carrying the why, the call, the cost, the authority and the impact; the how in the three
+  Project cards (the Oak AI Plugin 911, the Practice 460, the rebuild 278 characters today, each
+  with over a thousand of room under 2,000); Featured a showcase (a post, article, link, image
+  or document) that takes no copy, the three links standing; the FT Web App kept as a Project
+  card, reworded in the past tense, its awards carrying "lauded at the time", whether it names
+  his part his to say. The split is withdrawn: `linkedin/profile.review.md` equals
+  `linkedin/profile.md` again.
+- **What happens next, in order.** (1) After the compaction, a start-right read of this block;
+  the editor task and the browser tab verified by the task list and the tab list, re-armed only
+  if absent and only at his word (`pnpm --filter linkedin editor` from the lane worktree;
+  127.0.0.1:4780, the diff page at `/diff`). (2) The reader's decision and the beliefs for the
+  Principal card on paper, by `write-for-the-reader` §1 and §2 under EDR-008's axis, shown to
+  him before any draft. (3) One draft of the Principal card by the method, in his voice, his
+  sentences kept where they are his, measured once. (4) The three Project cards as warrants,
+  written for the reader who opens them, and the FT card in the past tense. (5) The voice check,
+  `editor`, `prose-expert`, the `audience-reader` on the revised draft, each finding with a
+  disposition shown; then Jim reads, in the editor, the diff page showing his edits against the
+  source. (6) If a card written by the method still refuses its field, what moves elsewhere is
+  his, never a cut. The whole-profile pass by the readers and the application plan follow when
+  he says the draft is his.
+- **Working agreement of 21 October, his words.** While he iterates on the text, the review file
+  is the surface and the diff page shows it; commits and the push gate (about four minutes each)
+  wait for a boundary he names ("I don't want you to run a lengthy commit, I want to iterate on
+  the text"). A change he did not ask for leads the message. The tooling lessons of the day are
+  in the napkin's block of 2026-10-21.
+- **Constraints in force, each with its interest.** The live profile is edited only through
+  Chrome at his express request with him present (it is his and public). His figures are not
+  web-checked unless he asks; his reasons and the target readers are owner-private, in chat and
+  the seat's per-user memory only. No swearing on public surfaces. No `git stash`, `--no-verify`
+  or force-push; stage by pathspec; `shared-comms-log.md` is never committed. The editor starts
+  only at his word. "Just say OCE"; Oak alone is the upstream organisation. The six-month,
+  parallel-running rebuild detail stays out of the copy beyond the staged-adoption sentence.
+- **Open and his:** the uptime figure (99.9% target met, 100% average quarterly, in the research
+  note; one word adds it); the FT card naming his part; the fold of
+  `coordination/2026-10-16-7ffab0` as 340 (his call, first put 17 October); Dependabot 342 to
+  346 (outside the WIP count); F-298 and F-299 in the frictions register; recommendations from
+  Oak leadership, at application.
+- **Seat state:** n=1; the claim `3b4a1be4` with its areas (this window also touched the
+  write-for-the-reader skill and the editorial decision records, outside the claim's areas,
+  safe at n=1 and noted here); no watcher or heartbeat (consumer absent); the boundary event on
+  the comms stream. The Chrome extension connects when his Chrome is open and signed in; a tab
+  in the extension's group holds the diff page.
+
+## Previous Continuation (2026-10-17T15:1xZ, cold pause at the owner's word: the Oak items 4 and 5 and his edits of 17 October on the lane; the merged card's opening sentence his hand edit next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before

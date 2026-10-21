@@ -21,6 +21,19 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-21T13:xxZ: the LinkedIn lane at a compaction boundary; the Oak card's shape settled
+  as EDR-009 at the owner's verdict** (Shrew rides Eventide, 371a2b; n=1; the lane
+  `docs/linkedin-oak-content-review`, draft 341 against `main`, in a worktree). The limits
+  verified by the owner at LinkedIn's counters (headline 220, About 2,600, a position's and a
+  project's description 2,000); the editor's diff page landed (`SHA:b8043154`); the seat's split
+  of the Principal card withdrawn at his words ("a litany of facts with no soul and no
+  connection"); the decision: one Principal card whole, the how in the Project cards, Featured a
+  showcase (`SHA:664b6b2b`). Next on the lane: the reader's decision and the beliefs for the
+  Principal card on paper, then one draft by the method, the Project cards, the readers, then
+  the owner (the thread record's current block). moved for the sites: nothing / moved for the
+  Practice: EDR-009 and the write-for-the-reader gotcha; the diff page in the linkedin
+  workspace.
+
 - **2026-10-17T15:1xZ: cold pause at the owner's word; the LinkedIn lane at `SHA:fe4823f6` on
   draft 341 with his dispositions on the three Oak items (two applied, the merged card's opening
   sentence his hand edit next) and his edits of the headline and the About absorbed, the closing
@@ -195,8 +208,9 @@ the work they still held, compacted, each a lane of its own at the owner's routi
    records commit.
 4. `--fail-if-no-match` on every filtered alias in the family manifest and the root scripts, with the
    manifest self-check in `validate-family-conformance`, the same bytes in both estates.
-5. The LinkedIn lane, Shrew rides Eventide's: the Oak entry and the container's opening-sentence scope (the
-   LinkedIn thread record's current block, `threads/linkedin-workspace.next-session.md`).
+5. The LinkedIn lane, Shrew rides Eventide's: the Principal card written by the method under EDR-009, the
+   how to its Project cards (the LinkedIn thread record's current block,
+   `threads/linkedin-workspace.next-session.md`).
 6. The capability-parity code lanes, unassigned: the 309 twin here (the repair smoke out,
    validation-strategy's §Validators), the security lane (the push's `insteadOf` and `GIT_TRACE` cures),
    the `retire` port into the sibling, the push-tests lane in both estates, the arc-metrics follow-ons,
