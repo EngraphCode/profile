@@ -41,8 +41,9 @@ function section(
 
 /**
  * The LinkedIn profile's structure. The limits are LinkedIn's, read from its edit forms' counters
- * by the owner on 19 October 2026 (headline 220, About 2,600, a position's description 2,000); a
- * field whose counter has not been read has none. The folds are the first 200 and 300
+ * by the owner on 19 October 2026 (headline 220, About 2,600, a position's description 2,000) and
+ * on 21 October 2026 (a project's description 2,000); a field whose counter has not been read
+ * has none. The folds are the first 200 and 300
  * characters, what a collapsed entry shows.
  */
 export const PROFILE_STRUCTURE: StructureTable = {
@@ -54,7 +55,7 @@ export const PROFILE_STRUCTURE: StructureTable = {
     section('Experience', 'paragraphs', true, null, 2000),
     section('Education', 'paragraphs', true, null, null),
     section('Licences and certifications', 'paragraphs', true, null, null),
-    section('Projects', 'paragraphs', true, null, null),
+    section('Projects', 'paragraphs', true, null, 2000),
     section('Publications', 'paragraphs', true, null, null),
     section('Volunteering', 'paragraphs', true, null, null),
     section('Organisations', 'paragraphs', true, null, null),

@@ -19,7 +19,8 @@ limit (Jim's standing word); the counter is read when the copy is applied.
 | Position description                     | 2,000 characters | the validator's belief; third-party posts agree                                 | confirmed at the counter by Jim, 2026-10-19 |
 | Skills, entries                          | 100              | LinkedIn Help a549047, read 2026-10-11                                          | confirmed by Help           |
 | Skills, pinned "top skills"              | 3                | Talent Solutions StubProfile and AWLI schema (Microsoft Learn), read 2026-10-11 | confirmed by the API docs   |
-| Featured, Projects, Publications, Licences | not known       | no source read                                                                  | read the counter            |
+| Project description                      | 2,000 characters | the counter, read by Jim                                                        | confirmed at the counter by Jim, 2026-10-21 |
+| Featured, Publications, Licences         | not known        | no source read                                                                  | read the counter            |
 
 LinkedIn's Help Center pages read on 2026-10-11 state no character limits for the headline or
 the About (a553140 recommends "one or two paragraphs"); the numbers above come from the
