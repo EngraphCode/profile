@@ -615,3 +615,16 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   with a look-ahead so a heading waits past an inserted paragraph for its namesake, words diffed
   inside a changed pair, status lines not compared; the review file's structure errors ride the
   page as a strip, since the diff alone cannot show a dash-less Skills line.
+- **The wrap report's open list, corrected by him.** The report listed four items as open and
+  his: the uptime figure, the FT Web App card naming his part, the fold of the coordination
+  branch, the dependency pull requests. His words: the uptime figure was already decided out (an
+  operations claim; the profile expresses the innovator, EDR-008); the FT question "was never a
+  valid question"; "I don't want to hear about folds and ceremony until further notice"; "we do
+  not care about dependabot PRs, we are ONLY working on linkedin at the moment". The mechanism:
+  the list was assembled from the records' earlier mentions and never checked against his words
+  of the window, so a settled item, a seat-invented question and two items outside the only work
+  were put to him as his. The cure, in force: before any open list, each item is checked against
+  his words and struck where he settled it or never asked it; an item the seat invented is
+  withdrawn, not listed; a report states what is done and what is next, with no ceremony
+  register; the lane is the whole scope until he says otherwise. The seat's per-user memory
+  carries the same.

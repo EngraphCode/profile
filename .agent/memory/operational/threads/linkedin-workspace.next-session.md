@@ -71,11 +71,12 @@ authorisation.
   or force-push; stage by pathspec; `shared-comms-log.md` is never committed. The editor starts
   only at his word. "Just say OCE"; Oak alone is the upstream organisation. The six-month,
   parallel-running rebuild detail stays out of the copy beyond the staged-adoption sentence.
-- **Open and his:** the uptime figure (99.9% target met, 100% average quarterly, in the research
-  note; one word adds it); the FT card naming his part; the fold of
-  `coordination/2026-10-16-7ffab0` as 340 (his call, first put 17 October); Dependabot 342 to
-  346 (outside the WIP count); F-298 and F-299 in the frictions register; recommendations from
-  Oak leadership, at application.
+- **Open:** nothing beyond the next act. His correction of 21 October on the wrap report's open
+  list stands: the uptime figure was decided out before and is settled (an operations claim; the
+  profile expresses the innovator, EDR-008); the FT Web App card's question of naming his part
+  was the seat's own, never valid, withdrawn; the fold, the coordination ceremony and the
+  dependency pull requests are not raised until he says otherwise; the LinkedIn lane is the only
+  work. Recommendations from Oak leadership belong to the application.
 - **Seat state:** n=1; the claim `3b4a1be4` with its areas (this window also touched the
   write-for-the-reader skill and the editorial decision records, outside the claim's areas,
   safe at n=1 and noted here); no watcher or heartbeat (consumer absent); the boundary event on
