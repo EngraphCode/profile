@@ -54,8 +54,7 @@ function countLine(notes: readonly ValidationNote[], where: Where): string {
   if (count === undefined || count.kind !== 'count') {
     return '';
   }
-  const limit =
-    count.limit === null ? 'no believed limit' : `believed limit ${thousands.format(count.limit)}`;
+  const limit = count.limit === null ? 'no known limit' : `limit ${thousands.format(count.limit)}`;
   return `<span class="meta">${thousands.format(count.count)} characters · ${limit}</span>`;
 }
 

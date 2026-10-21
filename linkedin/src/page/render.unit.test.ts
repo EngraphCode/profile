@@ -23,13 +23,13 @@ const profile = (about: string): string =>
   `# Profile\n\n## About\n\nStatus: approved (Jim)\n\n${about}\n\n## Skills\n\nStatus: open\n\n- Tooling\n\n## Contact\n\nStatus: open\n`;
 
 describe('renderDocument', () => {
-  it('renders each section with its heading, status badge, count and believed limit', () => {
+  it('renders each section with its heading, status badge, count and limit', () => {
     const html = render(profile('Copy here.'));
 
     expect(html).toContain('<h2>About <span class="badge status-approved">approved · Jim</span>');
-    expect(html).toContain('<span class="meta">10 characters · believed limit 2,600</span>');
+    expect(html).toContain('<span class="meta">10 characters · limit 2,600</span>');
     expect(html).toContain('<h2>Skills <span class="badge status-open">open</span>');
-    expect(html).toContain('7 characters · no believed limit');
+    expect(html).toContain('7 characters · no known limit');
   });
 
   it('renders an entry with the first part of its heading as the title and the rest as a meta line', () => {
@@ -39,7 +39,7 @@ describe('renderDocument', () => {
 
     expect(html).toContain('<h3>Role <span class="badge status-drafted">drafted</span>');
     expect(html).toContain('<div class="entry-meta">Place · 2020 – 2021</div>');
-    expect(html).toContain('11 characters · believed limit 2,000');
+    expect(html).toContain('11 characters · limit 2,000');
   });
 
   it('shades the first fold in one span and the second in another across paragraphs', () => {
@@ -78,13 +78,13 @@ describe('renderDocument', () => {
     const html = render(profile('Intro.\n\n### Role\n\nStatus: open\n\nEntry.'), changes);
 
     expect(html).toContain(
-      '<h2>About <span class="badge status-approved">approved · Jim</span> <span class="meta">6 characters · believed limit 2,600</span> <span class="badge changed">changed from source</span></h2>',
+      '<h2>About <span class="badge status-approved">approved · Jim</span> <span class="meta">6 characters · limit 2,600</span> <span class="badge changed">changed from source</span></h2>',
     );
     expect(html).toContain(
       '<h3>Role <span class="badge status-open">open</span> <span class="badge changed">changed from source</span></h3>',
     );
     expect(html).not.toContain(
-      '<h2>Skills <span class="badge status-open">open</span> <span class="meta">7 characters · no believed limit</span> <span class="badge changed">',
+      '<h2>Skills <span class="badge status-open">open</span> <span class="meta">7 characters · no known limit</span> <span class="badge changed">',
     );
   });
 
