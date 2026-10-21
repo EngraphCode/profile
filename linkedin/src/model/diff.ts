@@ -16,7 +16,7 @@ import { commonPairs, diffWords, type Pair, type Segment } from './lcs.js';
 import type { Body, ProfileDocument, Section } from './types.js';
 
 /** What a block is: an entry's heading, a paragraph of copy, or an item of a list body. */
-export type BlockKind = 'heading' | 'paragraph' | 'item';
+type BlockKind = 'heading' | 'paragraph' | 'item';
 
 /** One unit of copy as a LinkedIn field or heading receives it. */
 export interface Block {
@@ -56,7 +56,7 @@ function bodyBlocks(body: Body, entry: number | null): readonly Block[] {
 }
 
 /** The blocks of a section in reading order: its own body, then each entry's heading and body. */
-export function sectionBlocks(section: Section): readonly Block[] {
+function sectionBlocks(section: Section): readonly Block[] {
   return [
     ...bodyBlocks(section.body, null),
     ...section.entries.flatMap((entry, index) => [
