@@ -215,7 +215,9 @@ employment type (Full-time, Contract) is LinkedIn's field, set at application; n
 source is unchanged; the
 review file differs from it by design until his word, when it is absorbed or copied back from
 the source. The readers run on the whole draft when he says it is his, as agreed. Superseded
-the same afternoon by the paragraph below; open and his: the uptime figure.
+the same afternoon by the paragraph below. The uptime figure is settled out, at his word of
+21 October: an operations claim, and the profile expresses the innovator (EDR-008); it is not
+raised again.
 
 Jim's verdict of 21 October on the split, verbatim: "you are turning it from good writing into
 a litany of facts with no soul and no connection". The seat's reflection against the editorial
@@ -230,9 +232,11 @@ impact; the three Project cards (the plugin, the Practice, the rebuild; a projec
 limit of 2,000, read by him at the counter on 21 October) carry the how as warrants written for
 the reader who opens them; Featured is a showcase of a post, article, link, image or document
 and takes no copy, the three links standing; the FT Web App stays a Project card reworded in
-the past tense, its opening a label without a verb, the awards carrying "lauded at the time",
-whether it names his part his to say. The split is withdrawn and the review file is the source
-again. Next, in order: the reader's decision and the beliefs for the Principal card on paper,
+the past tense, its opening a label without a verb, the awards carrying "lauded at the time";
+whether it names his part was the seat's question, not a valid one, and is withdrawn. The split
+is withdrawn and the review file is the source again. His scope, 21 October: the LinkedIn work
+is the only work, and folds, ceremony and the dependency pull requests are not raised until he
+says otherwise. Next, in order: the reader's decision and the beliefs for the Principal card on paper,
 shown to him before any draft; one draft by the method, his sentences kept where they are his;
 the three Project cards and the FT card; the voice check, editor, prose-expert and the
 audience-reader with dispositions shown; then Jim, in the editor, the diff page showing his
