@@ -17,9 +17,9 @@ the questions, prior questions, a draft answer, editorial voice, professional hi
 employer's material, something else), confirmed by the writer. Where the writer has not said and
 the agent cannot tell, the row says "unclear: asked" until it is settled.
 
-| Item (file or paste) | Kind, in the writer's words | Support it gives     | Source id, if it feeds the knowledge base | Confirmed |
-| -------------------- | --------------------------- | -------------------- | ----------------------------------------- | --------- |
-|                      |                             |                      |                                           |           |
+| Item (file or paste) | Kind, in the writer's words | Support it gives | Source id, if it feeds the knowledge base | Confirmed |
+| -------------------- | --------------------------- | ---------------- | ----------------------------------------- | --------- |
+|                      |                             |                  |                                           |           |
 
 ## The questions, verbatim
 

@@ -25,7 +25,7 @@ from the knowledge base for anything from a document).
 
 | When, where | What I decided or did | Who else was in it | What came of it | Criteria it could serve | Source |
 | ----------- | --------------------- | ------------------ | --------------- | ----------------------- | ------ |
-| | | | | | |
+|             |                       |                    |                 |                         |        |
 
 ## Criteria with no episode
 

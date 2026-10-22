@@ -29,12 +29,12 @@ the writer confirms, and the source is the publication.
 Every claim about what the writer did belongs to one class. The class fixes the verbs the answer
 may use.
 
-| Class       | Meaning                                                                 | Verbs allowed                                                                | Verbs not allowed                               |
-| ----------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ----------------------------------------------- |
-| Decided     | The writer made the call and it was adopted                             | decided, chose, set, stopped, hired, argued for and won, designed, built      | none withheld; the verb must still match the act |
-| Influenced  | The writer proposed, argued or shaped; someone else decided             | proposed, argued for, made the case, recommended, persuaded, shaped           | decided, led the decision                        |
-| Contributed | The writer did part of the work under someone else's direction           | built, wrote, ran, tested, delivered (the part), worked on, paired on         | led, designed (the whole), owned                 |
-| Observed    | The writer was present or in the team but did not do the thing          | saw, learned from, was part of the team that                                  | any first-person act verb for the thing itself   |
+| Class       | Meaning                                                        | Verbs allowed                                                            | Verbs not allowed                                |
+| ----------- | -------------------------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------ |
+| Decided     | The writer made the call and it was adopted                    | decided, chose, set, stopped, hired, argued for and won, designed, built | none withheld; the verb must still match the act |
+| Influenced  | The writer proposed, argued or shaped; someone else decided    | proposed, argued for, made the case, recommended, persuaded, shaped      | decided, led the decision                        |
+| Contributed | The writer did part of the work under someone else's direction | built, wrote, ran, tested, delivered (the part), worked on, paired on    | led, designed (the whole), owned                 |
+| Observed    | The writer was present or in the team but did not do the thing | saw, learned from, was part of the team that                             | any first-person act verb for the thing itself   |
 
 Two rules follow.
 

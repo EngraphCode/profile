@@ -19,7 +19,7 @@ compatibility: >-
   Python tool, and the pipeline works without it.
 metadata:
   author: Seymore Buttes
-  version: "0.7.0"
+  version: '0.7.0'
   origin: >-
     Tested with fresh assessor reads as the falsifier.
 ---
@@ -122,11 +122,11 @@ a way of deciding the team adopted.
 
 Three tests govern everything in this skill. Each has a gate the pipeline enforces.
 
-| Test              | What it means                                                                                       | Gate                                                                                       |
-| ----------------- | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Excellent         | Scores five against the rubric in [references/rubric.md](references/rubric.md)                      | A fresh assessor read scores it, and the one lever it names is worked                      |
-| True              | Every particular is the writer's, confirmed, and survives being probed at interview                 | The fact ledger: nothing is in the answer that is not in the ledger with a confirmed status |
-| In their own words | The sentences are the writer's; the agent asks, orders, cuts and checks, and writes no claim itself | Every sentence traces to the writer's spoken or written words; the writer reads it aloud   |
+| Test               | What it means                                                                                       | Gate                                                                                        |
+| ------------------ | --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| Excellent          | Scores five against the rubric in [references/rubric.md](references/rubric.md)                      | A fresh assessor read scores it, and the one lever it names is worked                       |
+| True               | Every particular is the writer's, confirmed, and survives being probed at interview                 | The fact ledger: nothing is in the answer that is not in the ledger with a confirmed status |
+| In their own words | The sentences are the writer's; the agent asks, orders, cuts and checks, and writes no claim itself | Every sentence traces to the writer's spoken or written words; the writer reads it aloud    |
 
 ## Your role and the writer's
 
@@ -166,15 +166,15 @@ what it is for, ask, in one question: "What is this, and what do you want it use
 guess; a machine-drafted answer read as the writer's prose poisons the voice profile, and a
 colleague's write-up read as the writer's claim poisons the ledger.
 
-| Support type           | What it is                                                                 | Where it goes                                                                 |
-| ---------------------- | -------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
-| The questions          | The questions being answered or explored now, with limits                   | The brief; step 1                                                             |
-| Prior questions        | Questions from earlier applications, with or without their answers          | The episode bank, as seeds; the knowledge base, as what has been asked before |
-| Draft answers          | An answer to a current question, by the writer, by another, or by a machine | The upgrade conversation, after the provenance pass                           |
-| Editorial voice        | Prose the writer wrote themselves, to be read by someone                    | The voice profile, [references/voice.md](references/voice.md)                 |
-| Professional history   | A CV, a profile export, appraisals, references, project write-ups           | The knowledge base, [references/from-sources.md](references/from-sources.md)  |
+| Support type            | What it is                                                                  | Where it goes                                                                 |
+| ----------------------- | --------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| The questions           | The questions being answered or explored now, with limits                   | The brief; step 1                                                             |
+| Prior questions         | Questions from earlier applications, with or without their answers          | The episode bank, as seeds; the knowledge base, as what has been asked before |
+| Draft answers           | An answer to a current question, by the writer, by another, or by a machine | The upgrade conversation, after the provenance pass                           |
+| Editorial voice         | Prose the writer wrote themselves, to be read by someone                    | The voice profile, [references/voice.md](references/voice.md)                 |
+| Professional history    | A CV, a profile export, appraisals, references, project write-ups           | The knowledge base, [references/from-sources.md](references/from-sources.md)  |
 | The employer's material | The advert, the criteria, the scoring statement, the AI statement, the date | The brief                                                                     |
-| Something else         | Whatever the writer says it is                                              | Where the writer says, or nowhere                                             |
+| Something else          | Whatever the writer says it is                                              | Where the writer says, or nowhere                                             |
 
 Collect, into a copy of [assets/brief.md](assets/brief.md):
 
@@ -400,24 +400,24 @@ The depth is in [references/answer-shape.md](references/answer-shape.md), with w
 
 Each of these cost a star in testing. The fix is structural, in the step named.
 
-| Failure | What the reader sees | Fix |
-| --- | --- | --- |
-| The agent wrote the writer's conversation for them | Reconstructed sentences the writer never said | Your role; step 4; the ledger |
-| The method is unnamed: "I explained it clearly", "I raised my concerns" | A competent answer with no particulars | Step 4 element 2; step 6 pass 1 |
-| The people in the question never appear; the answer is the writer's actions against a backdrop | The counterpart is scenery; the other side of a dispute vanishes | Step 4 element 3; step 6 pass 1 |
-| No reflection, or a moral where a judgement should be | An outcome mentioned, nothing on what worked or would change | Step 4 element 6; step 6 pass 1 |
-| An obstacle listed rather than navigated | The challenge named, its resolution not | Step 4 element 4 |
-| Obstacles named, none of which resisted back | Every obstacle is something the writer overruled | Step 4 elements 3 and 4 |
-| Technical reasoning replaced by preference or rank | A disagreement with no technical substance | Step 4 element 2; step 6 pass 2 |
-| The outcome is not of the counted kind | A launch offered where the criterion counts something else | Step 1; step 4 element 5 |
-| A systems answer to a people question | The people the question asks about are not in the answer | Step 1 (the counted outcome); step 4 |
-| An episode from a neighbouring criterion dressed in the criterion's words | A delivery story with one paragraph in the criterion's vocabulary | Step 3 |
-| What persists stated as attitude | A belief about oneself where an act with a trace should be | Step 4 element 6 |
-| A term or product undefined because it was defined in another answer | Capitalised words with no referent | Step 5 |
-| A list or opener reused across answers | Read together, the set reads as a repertoire | Step 8 script; step 6 |
-| A polished line standing where evidence should be | The case compressed rather than evidenced | Step 6 pass 2, one such line at most |
-| A figure that looks rounded | The figure invites a check | Step 6 pass 3; cite the figure's form |
-| An aside that signals disdain for whoever did it before | Nothing gained, and a doubt about the writer | Step 6 pass 2 |
+| Failure                                                                                        | What the reader sees                                              | Fix                                   |
+| ---------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------- |
+| The agent wrote the writer's conversation for them                                             | Reconstructed sentences the writer never said                     | Your role; step 4; the ledger         |
+| The method is unnamed: "I explained it clearly", "I raised my concerns"                        | A competent answer with no particulars                            | Step 4 element 2; step 6 pass 1       |
+| The people in the question never appear; the answer is the writer's actions against a backdrop | The counterpart is scenery; the other side of a dispute vanishes  | Step 4 element 3; step 6 pass 1       |
+| No reflection, or a moral where a judgement should be                                          | An outcome mentioned, nothing on what worked or would change      | Step 4 element 6; step 6 pass 1       |
+| An obstacle listed rather than navigated                                                       | The challenge named, its resolution not                           | Step 4 element 4                      |
+| Obstacles named, none of which resisted back                                                   | Every obstacle is something the writer overruled                  | Step 4 elements 3 and 4               |
+| Technical reasoning replaced by preference or rank                                             | A disagreement with no technical substance                        | Step 4 element 2; step 6 pass 2       |
+| The outcome is not of the counted kind                                                         | A launch offered where the criterion counts something else        | Step 1; step 4 element 5              |
+| A systems answer to a people question                                                          | The people the question asks about are not in the answer          | Step 1 (the counted outcome); step 4  |
+| An episode from a neighbouring criterion dressed in the criterion's words                      | A delivery story with one paragraph in the criterion's vocabulary | Step 3                                |
+| What persists stated as attitude                                                               | A belief about oneself where an act with a trace should be        | Step 4 element 6                      |
+| A term or product undefined because it was defined in another answer                           | Capitalised words with no referent                                | Step 5                                |
+| A list or opener reused across answers                                                         | Read together, the set reads as a repertoire                      | Step 8 script; step 6                 |
+| A polished line standing where evidence should be                                              | The case compressed rather than evidenced                         | Step 6 pass 2, one such line at most  |
+| A figure that looks rounded                                                                    | The figure invites a check                                        | Step 6 pass 3; cite the figure's form |
+| An aside that signals disdain for whoever did it before                                        | Nothing gained, and a doubt about the writer                      | Step 6 pass 2                         |
 
 ## Writers with less time in the organisation, or a different background
 

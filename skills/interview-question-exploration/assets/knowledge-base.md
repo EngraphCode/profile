@@ -7,17 +7,17 @@ and the document's is kept as history.
 
 ## Sources index
 
-| Id  | Kind                      | Date or vintage | Where held | Reliability note (confirmed with the writer) |
-| --- | ------------------------- | --------------- | ---------- | -------------------------------------------- |
-| S1  |                           |                 |            |                                              |
-| S2  |                           |                 |            |                                              |
-| S3  |                           |                 |            |                                              |
+| Id  | Kind | Date or vintage | Where held | Reliability note (confirmed with the writer) |
+| --- | ---- | --------------- | ---------- | -------------------------------------------- |
+| S1  |      |                 |            |                                              |
+| S2  |      |                 |            |                                              |
+| S3  |      |                 |            |                                              |
 
 ## Timeline of roles
 
-| From | To | Organisation | Where | Title | Scale (team, users, money) | Type | Source |
-| ---- | -- | ------------ | ----- | ----- | -------------------------- | ---- | ------ |
-|      |    |              |       |       |                            |      |        |
+| From | To  | Organisation | Where | Title | Scale (team, users, money) | Type | Source |
+| ---- | --- | ------------ | ----- | ----- | -------------------------- | ---- | ------ |
+|      |     |              |       |       |                            |      |        |
 
 ## Episode bank (sourced)
 
@@ -54,8 +54,8 @@ The verb each source uses for each claim about what the writer did. Recorded, no
 class is set by the writer in the provenance pass.
 
 | Claim | Verb in source | Source | Class set by the writer (decided / influenced / contributed / observed) |
-| ----- | -------------- | ------ | ---------------------------------------------------------------------- |
-|       |                |        |                                                                        |
+| ----- | -------------- | ------ | ----------------------------------------------------------------------- |
+|       |                |        |                                                                         |
 
 ## Third-party claims
 

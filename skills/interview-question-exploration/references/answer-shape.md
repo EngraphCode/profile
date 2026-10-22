@@ -69,12 +69,12 @@ usually contains a verb the writer did and a noun the reader can picture.
 
 One job per paragraph. A workable allocation for 250 words:
 
-| Paragraph | Job                                                          | Share |
-| --------- | ------------------------------------------------------------ | ----- |
-| 1         | The particular and what was at stake                         | 20%   |
-| 2         | The decision, the counterpart and the cost                   | 40%   |
-| 3         | The outcome                                                  | 20%   |
-| 4         | The reflection and what persists                             | 20%   |
+| Paragraph | Job                                        | Share |
+| --------- | ------------------------------------------ | ----- |
+| 1         | The particular and what was at stake       | 20%   |
+| 2         | The decision, the counterpart and the cost | 40%   |
+| 3         | The outcome                                | 20%   |
+| 4         | The reflection and what persists           | 20%   |
 
 Two paragraphs can do the job in 150 words. Five paragraphs in 250 words means one of them is
 context the reader did not need.

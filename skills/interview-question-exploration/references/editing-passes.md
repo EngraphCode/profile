@@ -47,20 +47,20 @@ These are the five ways a true answer goes wrong at the sentence level. Each has
 
 Explaining why, as though the reader needs convincing of your motives.
 
-| Justifying                                                           | Showing                                                                                 |
-| -------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| "I introduced automated checks because quality is important to me"   | "I introduced automated checks; defects found after release fell from nine to two a quarter" |
-| "I believed it was essential to involve the team, so I ran workshops" | "I ran three workshops; the team chose the structure"                                   |
+| Justifying                                                            | Showing                                                                                      |
+| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| "I introduced automated checks because quality is important to me"    | "I introduced automated checks; defects found after release fell from nine to two a quarter" |
+| "I believed it was essential to involve the team, so I ran workshops" | "I ran three workshops; the team chose the structure"                                        |
 
 ### 2. Passive and descriptive framing
 
 The act is there but no one did it.
 
-| Passive                                                      | Agentic                                                          |
-| ------------------------------------------------------------ | ---------------------------------------------------------------- |
-| "A new on-call rota was put in place"                        | "I wrote the on-call rota and ran it for the first month"        |
-| "My role involved ensuring the migration ran smoothly"        | "I ran the migration in three stages over six weeks"              |
-| "This has included working with stakeholders"                | "I met the finance lead weekly until the budget was agreed"       |
+| Passive                                                | Agentic                                                     |
+| ------------------------------------------------------ | ----------------------------------------------------------- |
+| "A new on-call rota was put in place"                  | "I wrote the on-call rota and ran it for the first month"   |
+| "My role involved ensuring the migration ran smoothly" | "I ran the migration in three stages over six weeks"        |
+| "This has included working with stakeholders"          | "I met the finance lead weekly until the budget was agreed" |
 
 ### 3. Tell sentences
 

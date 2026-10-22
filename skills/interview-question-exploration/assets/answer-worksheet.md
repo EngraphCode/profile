@@ -84,9 +84,9 @@ Read aloud by the writer: [date]
 ## Assessor read (step 7)
 
 | Round | Score | Most earned | Most cost | The lever | Disposition (absorb / reject with reason / route to step 4) |
-| ----- | ----- | ----------- | --------- | --------- | ------------------------------------------------------------ |
-| 1     |       |             |           |           |                                                              |
-| 2     |       |             |           |           |                                                              |
+| ----- | ----- | ----------- | --------- | --------- | ----------------------------------------------------------- |
+| 1     |       |             |           |           |                                                             |
+| 2     |       |             |           |           |                                                             |
 
 ## Final (step 8)
 

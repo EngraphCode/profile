@@ -35,15 +35,15 @@ inside a paraphrase that carries its tag.
 
 ## What each kind of source is worth
 
-| Source                           | Reliably holds                                                        | Rarely holds                                     | Reliability notes                                                                 |
-| -------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------- |
-| CV, any vintage                  | Roles, titles, dates, scale, outcomes as claims, skills, qualifications | People, cost, reflection, method                 | Dated to its vintage; verbs inflate; stale after a role change                    |
-| LinkedIn profile                 | The same as a CV, in a public register; recommendations by third parties | Moments, honest cost                             | Written for a public reader; polish is not a fact; recommendations are evidence of others' view |
-| Previous application answers     | Episodes already in the shape; the writer's own first-person prose    | Whatever that question did not ask               | The writer's own words; the best voice sample; check the date and whether the facts moved on |
-| Cover letters                    | Motive, voice, the writer's view of their own pattern                  | Figures, dates                                   | Persuasive register; keep the facts, drop the register                            |
-| Appraisals, feedback, references | Third parties' account of the writer; named outcomes; development needs | The writer's decisions as they saw them          | Evidence class, not the writer's claim; confidential, often names people          |
-| Project write-ups, portfolios    | Method, technical substance, figures                                   | The writer's part versus the team's              | Attribution must be set by the writer                                             |
-| The writer's own notes           | Anything                                                               | Structure                                        | Often the richest and least polished; treat as the writer's words                 |
+| Source                           | Reliably holds                                                           | Rarely holds                            | Reliability notes                                                                               |
+| -------------------------------- | ------------------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| CV, any vintage                  | Roles, titles, dates, scale, outcomes as claims, skills, qualifications  | People, cost, reflection, method        | Dated to its vintage; verbs inflate; stale after a role change                                  |
+| LinkedIn profile                 | The same as a CV, in a public register; recommendations by third parties | Moments, honest cost                    | Written for a public reader; polish is not a fact; recommendations are evidence of others' view |
+| Previous application answers     | Episodes already in the shape; the writer's own first-person prose       | Whatever that question did not ask      | The writer's own words; the best voice sample; check the date and whether the facts moved on    |
+| Cover letters                    | Motive, voice, the writer's view of their own pattern                    | Figures, dates                          | Persuasive register; keep the facts, drop the register                                          |
+| Appraisals, feedback, references | Third parties' account of the writer; named outcomes; development needs  | The writer's decisions as they saw them | Evidence class, not the writer's claim; confidential, often names people                        |
+| Project write-ups, portfolios    | Method, technical substance, figures                                     | The writer's part versus the team's     | Attribution must be set by the writer                                                           |
+| The writer's own notes           | Anything                                                                 | Structure                               | Often the richest and least polished; treat as the writer's words                               |
 
 ## Intake
 
@@ -181,9 +181,9 @@ Rules of assembly:
   sources.
 - The scaffold is labelled at the top, in square brackets so the script excludes it from the
   count: `[scaffold: assembled from your sources. Expect it to read like a list; the
-  conversation is where it becomes yours. Confirm every tagged sentence; answer every ask.]`
+conversation is where it becomes yours. Confirm every tagged sentence; answer every ask.]`
   The closing count line is bracketed the same way: `[count: 74 words without tags and
-  asks. ...]`.
+asks. ...]`.
 
 Expect a scaffold to score about three where the sources hold the particular, the decision and
 the outcome, and below three where a part of the question is wholly unsourced, and say which to

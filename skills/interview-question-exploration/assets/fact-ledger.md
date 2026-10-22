@@ -11,15 +11,15 @@ Attribution class, for claims about what the writer did: `decided`, `influenced`
 `observed`. See `references/truth-and-attribution.md`.
 
 | #   | Particular, as it will appear | Source (writer's words with date, document, public page) | Status | Attribution | Answers |
-| --- | ----------------------------- | --------------------------------------------------------- | ------ | ----------- | ------- |
-| 1   |                               |                                                           |        |             |         |
-| 2   |                               |                                                           |        |             |         |
-| 3   |                               |                                                           |        |             |         |
-| 4   |                               |                                                           |        |             |         |
-| 5   |                               |                                                           |        |             |         |
-| 6   |                               |                                                           |        |             |         |
-| 7   |                               |                                                           |        |             |         |
-| 8   |                               |                                                           |        |             |         |
+| --- | ----------------------------- | -------------------------------------------------------- | ------ | ----------- | ------- |
+| 1   |                               |                                                          |        |             |         |
+| 2   |                               |                                                          |        |             |         |
+| 3   |                               |                                                          |        |             |         |
+| 4   |                               |                                                          |        |             |         |
+| 5   |                               |                                                          |        |             |         |
+| 6   |                               |                                                          |        |             |         |
+| 7   |                               |                                                          |        |             |         |
+| 8   |                               |                                                          |        |             |         |
 
 ## Sensitive particulars
 

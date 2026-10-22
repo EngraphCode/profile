@@ -20,14 +20,14 @@ Current length:
 Present, partial or absent; the sentence that shows it, quoted; the gap class (prose, fact,
 episode) where it is not fully present.
 
-| Element                                         | State   | Evidence (quoted) | Gap class | First probe |
-| ----------------------------------------------- | ------- | ----------------- | --------- | ----------- |
-| 1. The particular (where, when, stakes, scale)  |         |                   |           |             |
-| 2. The decision; the method named, with reason  |         |                   |           |             |
-| 3. The others, read and responded to            |         |                   |           |             |
-| 4. The cost; obstacles navigated                |         |                   |           |             |
-| 5. The outcome, in the counted kind             |         |                   |           |             |
-| 6. The reflection; what persists                |         |                   |           |             |
+| Element                                        | State | Evidence (quoted) | Gap class | First probe |
+| ---------------------------------------------- | ----- | ----------------- | --------- | ----------- |
+| 1. The particular (where, when, stakes, scale) |       |                   |           |             |
+| 2. The decision; the method named, with reason |       |                   |           |             |
+| 3. The others, read and responded to           |       |                   |           |             |
+| 4. The cost; obstacles navigated               |       |                   |           |             |
+| 5. The outcome, in the counted kind            |       |                   |           |             |
+| 6. The reflection; what persists               |       |                   |           |             |
 
 ## The question's own tests
 

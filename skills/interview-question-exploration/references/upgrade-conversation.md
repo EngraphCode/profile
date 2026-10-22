@@ -117,19 +117,19 @@ at the exit; it is never papered over with a plausible sentence.
 The full bank is in [elicitation.md](elicitation.md). These are the probes that fit each gap
 the diagnosis names; ask one at a time.
 
-| Gap                               | Probes                                                                                                                                                              |
-| --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| A part of the question unanswered | "The question also asks [the part]. What happened on that?"                                                                                                         |
-| The counted outcome absent        | "What is the result of the kind this criterion is about, in a form a sceptic could check?" "What number would they ask for, and what is it, in the form it was measured?" |
-| The others absent                 | "Put me back in the room. Who was there, by role?" "What did [the role] say or ask, as near to their words as you can?" "What did you do because of it?"             |
-| The method unnamed                | "You say you explained it. How, exactly? What did they see or hold?" "Why that way and not the obvious one? What had already been tried?"                             |
-| Technical substance absent        | "What could the system not do, and why?" "Which failure mode, cost, risk or limit? What would you have said to someone who called it a preference?"                 |
-| An obstacle listed, not navigated | "What stood in the way, one thing at a time? Who or what?" "How did you get past that one, and what did it cost?"                                                   |
-| The reflection absent             | "What would you do sooner, later or differently?" "When did you decide to stop pushing, and how did you judge that?" "How was the result better for your part in it?" |
-| What persists absent              | "What exists now that did not exist before?" "Who does this now without you?"                                                                                       |
-| A term undefined                  | "In eight words, what is [the term] to someone outside?"                                                                                                             |
-| Over the limit                    | "Which of these sentences would you miss least?" with the agent's proposed cut and its reason                                                                        |
-| "I led" where the ledger says influenced | "Who made the final call? If they read this, what would they say you did?"                                                                                    |
+| Gap                                      | Probes                                                                                                                                                                    |
+| ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| A part of the question unanswered        | "The question also asks [the part]. What happened on that?"                                                                                                               |
+| The counted outcome absent               | "What is the result of the kind this criterion is about, in a form a sceptic could check?" "What number would they ask for, and what is it, in the form it was measured?" |
+| The others absent                        | "Put me back in the room. Who was there, by role?" "What did [the role] say or ask, as near to their words as you can?" "What did you do because of it?"                  |
+| The method unnamed                       | "You say you explained it. How, exactly? What did they see or hold?" "Why that way and not the obvious one? What had already been tried?"                                 |
+| Technical substance absent               | "What could the system not do, and why?" "Which failure mode, cost, risk or limit? What would you have said to someone who called it a preference?"                       |
+| An obstacle listed, not navigated        | "What stood in the way, one thing at a time? Who or what?" "How did you get past that one, and what did it cost?"                                                         |
+| The reflection absent                    | "What would you do sooner, later or differently?" "When did you decide to stop pushing, and how did you judge that?" "How was the result better for your part in it?"     |
+| What persists absent                     | "What exists now that did not exist before?" "Who does this now without you?"                                                                                             |
+| A term undefined                         | "In eight words, what is [the term] to someone outside?"                                                                                                                  |
+| Over the limit                           | "Which of these sentences would you miss least?" with the agent's proposed cut and its reason                                                                             |
+| "I led" where the ledger says influenced | "Who made the final call? If they read this, what would they say you did?"                                                                                                |
 
 ## The exit
 

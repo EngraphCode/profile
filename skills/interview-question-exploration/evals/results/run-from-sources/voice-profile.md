@@ -17,9 +17,9 @@ no hedges, no self-description, and the consequence delivered last.
 
 ## Sources
 
-| Id  | Kind                                                        | Date | Words | Written for whom                       | Register                          |
-| --- | ----------------------------------------------------------- | ---- | ----- | -------------------------------------- | --------------------------------- |
-| V1  | Previous application answer (S2), its three body paragraphs | 2023 | 232   | A sift panel at a different employer   | Plain, first person, evidential   |
+| Id  | Kind                                                        | Date | Words | Written for whom                     | Register                        |
+| --- | ----------------------------------------------------------- | ---- | ----- | ------------------------------------ | ------------------------------- |
+| V1  | Previous application answer (S2), its three body paragraphs | 2023 | 232   | A sift panel at a different employer | Plain, first person, evidential |
 
 S1, the CV, is not a sample: bullets, not prose. There are no interview captures yet.
 
@@ -30,16 +30,16 @@ preamble ("Everything in this document is invented...") is not the writer's and 
 by measuring a copy holding only the three paragraphs; measured whole, the file reports 14
 sentences and a one-word shortest sentence that come from the preamble.
 
-| Measure                                         | Samples                                      | Range across samples                                                                                                  |
-| ----------------------------------------------- | -------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| Words per sentence, median                      | 26                                           | One sample; shortest 13, longest 40                                                                                   |
-| Words per sentence, longest tenth               | 40                                           |                                                                                                                       |
-| Sentences per paragraph, median                 | 3                                            | 3 to 4                                                                                                                |
-| "I" per 100 words / "we" per 100 words          | 2.6 / 1.7                                    |                                                                                                                       |
-| Contractions per 100 words                      | 1.3 as reported; 0 by reading                | The three the script counts are possessives ("members'", "year's", "pre-sale's"); the prose has no contractions         |
-| Semicolons, dashes, parentheses per 1,000 words | 0, 0, 0                                      | One colon, which the script does not count                                                                            |
-| Most used connectives                           | so (1), because (1), before (1), once (1), until (1) | "and" joins most clauses and is not in the script's list; "so that" once                                      |
-| Most used verbs of their own acts               | took (2)                                     | By reading, also "had argued", "took on", "wanted"; "we found", "fixed", "ran" for the team's acts                    |
+| Measure                                         | Samples                                              | Range across samples                                                                                            |
+| ----------------------------------------------- | ---------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Words per sentence, median                      | 26                                                   | One sample; shortest 13, longest 40                                                                             |
+| Words per sentence, longest tenth               | 40                                                   |                                                                                                                 |
+| Sentences per paragraph, median                 | 3                                                    | 3 to 4                                                                                                          |
+| "I" per 100 words / "we" per 100 words          | 2.6 / 1.7                                            |                                                                                                                 |
+| Contractions per 100 words                      | 1.3 as reported; 0 by reading                        | The three the script counts are possessives ("members'", "year's", "pre-sale's"); the prose has no contractions |
+| Semicolons, dashes, parentheses per 1,000 words | 0, 0, 0                                              | One colon, which the script does not count                                                                      |
+| Most used connectives                           | so (1), because (1), before (1), once (1), until (1) | "and" joins most clauses and is not in the script's list; "so that" once                                        |
+| Most used verbs of their own acts               | took (2)                                             | By reading, also "had argued", "took on", "wanted"; "we found", "fixed", "ran" for the team's acts              |
 
 ## Habits, with their own lines as evidence
 
@@ -98,13 +98,13 @@ first hour with no outage." [S2]
 The five from [references/editing-passes.md](../../../references/editing-passes.md) as they
 appear in this writer's sample. Rows are left empty where the sample does not show the pitfall.
 
-| Pitfall              | A line of theirs that shows it                                                                                      | A line of theirs that avoids it                                                                                                                                                                     |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Justification        |                                                                                                                     | "Once that was settled I took on the load-testing workstream myself, because I was the person most worried about the spike and I wanted the test written by someone who expected it to fail." A reason for the method, which is content, not a reason about oneself |
-| Passive framing      | "The replay test became a standing gate" (whoever made it a gate is absent)                                          | "I took the previous year's pre-sale traffic and replayed it against the new engine"                                                                                                                 |
-| Tell sentences       |                                                                                                                     |                                                                                                                                                                                                    |
-| Hedging              |                                                                                                                     | "I had argued earlier in the year for using a hosted provider" ("about a quarter" is a figure's form, not a hedge)                                                                                     |
-| Unclear abstractions | "the load-testing workstream"; "so that the member journey stayed ours end to end"                                    | "We found the bottleneck in the session store, fixed it"                                                                                                                                            |
+| Pitfall              | A line of theirs that shows it                                                     | A line of theirs that avoids it                                                                                                                                                                                                                                     |
+| -------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Justification        |                                                                                    | "Once that was settled I took on the load-testing workstream myself, because I was the person most worried about the spike and I wanted the test written by someone who expected it to fail." A reason for the method, which is content, not a reason about oneself |
+| Passive framing      | "The replay test became a standing gate" (whoever made it a gate is absent)        | "I took the previous year's pre-sale traffic and replayed it against the new engine"                                                                                                                                                                                |
+| Tell sentences       |                                                                                    |                                                                                                                                                                                                                                                                     |
+| Hedging              |                                                                                    | "I had argued earlier in the year for using a hosted provider" ("about a quarter" is a figure's form, not a hedge)                                                                                                                                                  |
+| Unclear abstractions | "the load-testing workstream"; "so that the member journey stayed ours end to end" | "We found the bottleneck in the session store, fixed it"                                                                                                                                                                                                            |
 
 ## Keep and lose
 
