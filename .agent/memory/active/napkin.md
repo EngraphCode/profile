@@ -270,3 +270,43 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   per-finding assessment preceding it; its wording is his to soften.
 - **Successor** `coordination/2026-10-16-682ad0` cut from `682ad083`; the folded branch retired through the bot, local and
   remote. The LinkedIn lane continues on the successor at the owner's word.
+
+## 2026-10-23 · Shrew rides Eventide (371a2b) · the proposals after the holistic reads
+
+- **Correction (owner)**: six findings from the holistic reads were put to him as "yours" or "a
+  fact only you hold" with no proposed text. His word: all decisions are his, and the seat still
+  proposes the improvement. Cure: every finding reaches the review file as one sentence, the fact
+  it rests on named in a clause; a surface being his is never the reason a proposal is missing.
+- **Correction (owner, the third time)**: Recommendations listed as empty again. Never mentioned
+  again until he raises it. The audience-reader's inventory findings (an empty section, two
+  Featured items read as one thing, a timeline reconstructed from a company's dates) are
+  stock-taking, not beliefs; the seat's triage strikes them before he reads, and the reader's
+  brief asks for beliefs.
+- **Language settled at his word**: "the Oak AI Plugin" is the product's name on every surface;
+  "the MCP app" is the part any assistant connects to; a vendor's word (connector, app, plugin)
+  appears only as what that vendor calls its listing, labelled as such. The Featured title and
+  the plugin Project card carry it on the review file; EDR-007 carries it at the records boundary.
+- **Correction (owner)**: "The research papers stay private" on the Obaith card answered a
+  reader's wish to see the work. His word: "pandering to a reader finding that was never a
+  problem, you need to reground in our intent and in editorial excellence". A reader wanting
+  what the profile withholds by design (inform-only) is not a finding to cure in copy; the card's
+  job is the problem with no shape, the decision to stop and the lesson. Withdrawn, the accepted
+  text restored. The rebuild's "second decision built on it" withdrawn too: the plugin does not
+  depend on the rebuild, and the fact he offered instead (the plugin took the make-innovation-cheap
+  principle further, an innovation kit for new projects) buys nothing the card does not already
+  carry three times over.
+- **Correction (owner), afternoon**: the headline's middle segment (the origination claim, put
+  there "so a search result carries it") was "too long, hard to parse", "trying to do a job it is
+  not intended for". Withdrawn, his accepted line restored. The About's second sentence already
+  carries the plugin with ChatGPT and Claude above the fold, so nothing moved. Lesson: the
+  headline is his line and carries identity; the claims live in the About; a reader's finding
+  about a surface (search results show the headline alone) does not license the headline to do
+  the About's job. The same shape as the Obaith correction of the morning.
+- **His amendments on the "I stayed" sentence**: the curriculum's adjectives back (openly
+  licensed, digital-native, AI-ready: the precondition for what others build), the expansion as
+  what they build with it and the impact that creates, "classrooms" out. The seat's suggested
+  improvements on the review file (the compound adjectives hyphenated as his accepted text had
+  them, the doubled "in" after the colon out, impact singular as the About has it elsewhere).
+  The rest of the morning's proposals accepted into the draft at his word; the diff shows About
+  alone.
+- **Live profile, by the owner, 17:15 local**: the accepted headline back on the live profile (his screenshot, two lines in the top card), and the banner set to one of his own photographs, a garden with a squash and a watering can, as the Top card status of 12 October records (his photograph, without text, chosen by him). Nothing on the draft to change; no seat edit on the live profile.

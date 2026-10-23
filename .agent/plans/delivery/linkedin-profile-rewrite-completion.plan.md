@@ -20,7 +20,7 @@ impact_areas:
 tickets: []
 depends_on: []
 owner_gates: []
-last_updated: 2026-10-11
+last_updated: 2026-10-21
 ---
 
 # Finish the LinkedIn profile rewrite, the Skills derived and the draft ready for Jim's review
@@ -111,3 +111,15 @@ lane's landing path; the fold's settlement budget applies at the fold.
   prioritised.
 - The editorial doctrine in three layers: a separate sketch node under an owner gate.
 - Requests for recommendations and any settings change: his word, at application.
+
+## State, 2026-10-21
+
+Todos 1 to 5 landed on 11 October (`SHA:5a848254`, `SHA:5afc493e`, `SHA:6971531e` and their
+neighbours); todo 6 is in progress as the owner's review and edit of the whole draft in the
+editor, the seat absorbing his edits of 17 and 19 October, the Skills settled. The count of the
+merged Principal card against the limit he verified at LinkedIn's counter (2,852 against 2,000)
+is resolved in shape, not in characters: EDR-009, the card one piece of writing carrying the why,
+the call, the cost, the authority and the impact, the how in the three Project cards. The next act
+is the reader's decision and the beliefs for that card on paper, then one draft by the method,
+the Project cards, the readers, then the owner; the LinkedIn thread record's current block is the
+pickup.

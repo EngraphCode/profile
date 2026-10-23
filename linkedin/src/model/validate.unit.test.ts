@@ -160,7 +160,7 @@ describe('validate', () => {
     ]);
   });
 
-  it('notes a count for every body carrying the table limit, or null where none is believed', () => {
+  it('notes a count for every body carrying the table limit, or null where none is known', () => {
     const alpha = section('Alpha', 3, open, paragraphs('abcd'), [
       entry('Role', 7, open, paragraphs('xy')),
     ]);

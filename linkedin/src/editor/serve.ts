@@ -1,7 +1,7 @@
 /**
- * The editor's listener, the one composition root with real IO: it reads the page and its
- * bundle once, binds the handler's seams to the two profile files, and serves the handler on a
- * fixed loopback port. Proven by a recorded observation, never a test; the handler it serves is
+ * The editor's listener, the one composition root with real IO: it reads the two pages and
+ * their bundles once, binds the handler's seams to the two profile files, and serves the handler
+ * on a fixed loopback port. Proven by a recorded observation, never a test; the handler it serves is
  * proven in process.
  *
  * Run as `pnpm --filter linkedin editor`, which builds the page bundle first. A port already in
@@ -22,6 +22,13 @@ const sourcePath = path.join(workspace, 'profile.md');
 const reviewPath = path.join(workspace, 'profile.review.md');
 const pageHtmlPath = path.join(workspace, 'src', 'page', 'index.html');
 const pageScriptPath = path.join(workspace, 'dist', 'app.js');
+const diffHtmlPath = path.join(workspace, 'src', 'page', 'diff.html');
+const diffScriptPath = path.join(workspace, 'dist', 'diff.js');
+
+/** A built bundle's text, or null when the build has not produced it. */
+function readBundle(bundlePath: string): Promise<string | null> {
+  return readFile(bundlePath, 'utf8').catch(() => null);
+}
 
 async function readBody(request: http.IncomingMessage): Promise<string> {
   const chunks: Buffer[] = [];
@@ -59,9 +66,11 @@ function failRequest(response: http.ServerResponse): (error: unknown) => void {
   };
 }
 
-const pageScript = await readFile(pageScriptPath, 'utf8').catch(() => null);
-if (pageScript === null) {
-  process.stderr.write(`editor: ${pageScriptPath} is missing; run pnpm --filter linkedin build\n`);
+const pageScript = await readBundle(pageScriptPath);
+const diffScript = await readBundle(diffScriptPath);
+if (pageScript === null || diffScript === null) {
+  const missing = pageScript === null ? pageScriptPath : diffScriptPath;
+  process.stderr.write(`editor: ${missing} is missing; run pnpm --filter linkedin build\n`);
   process.exitCode = 1;
 } else {
   const handle = createEditorHandler({
@@ -70,6 +79,8 @@ if (pageScript === null) {
     writeReview: (text) => writeFile(reviewPath, text, 'utf8'),
     pageHtml: await readFile(pageHtmlPath, 'utf8'),
     pageScript,
+    diffHtml: await readFile(diffHtmlPath, 'utf8'),
+    diffScript,
   });
   const server = http.createServer((request, response) => {
     answer(handle, request, response).catch(failRequest(response));

@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; connect-src 'self'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Profile diff</title>
+    <style>
+      :root {
+        --ink: #1b1f23;
+        --muted: #5b6470;
+        --line: #d9dee3;
+        --pane: #f6f7f8;
+        --approved-ink: #0f6e76;
+        --approved-fill: #e3f1f2;
+        --open-ink: #5b6470;
+        --open-fill: #eef0f2;
+        --invalid-ink: #8a1c1c;
+        --invalid-fill: #fde8e8;
+        --moved-ink: #5b4b7a;
+        --moved-fill: #ece8f5;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+      }
+      body {
+        font-family:
+          system-ui,
+          -apple-system,
+          'Segoe UI',
+          sans-serif;
+        color: var(--ink);
+        background: #fff;
+      }
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 20px;
+        padding: 10px 24px;
+        border-bottom: 1px solid var(--line);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      header .file {
+        font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      header a {
+        font-size: 13px;
+        color: var(--approved-ink);
+      }
+      header .spacer {
+        flex: 1 1 auto;
+      }
+      header #status {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      header button {
+        font: inherit;
+        font-size: 13px;
+        padding: 4px 12px;
+        border: 1px solid var(--line);
+        border-radius: 6px;
+        background: var(--pane);
+        color: var(--ink);
+        cursor: pointer;
+      }
+      .pane-head {
+        padding: 10px 24px;
+        border-bottom: 1px solid #e3e7eb;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .pane-head b {
+        font-weight: 600;
+      }
+      #diff {
+        padding: 16px 24px 72px;
+        font-family: Georgia, 'Times New Roman', serif;
+        font-size: 16px;
+        line-height: 1.55;
+      }
+      .strip {
+        margin: 8px 0 16px;
+        padding: 10px 16px;
+        border-radius: 8px;
+        font-family: system-ui, sans-serif;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .strip-ok {
+        background: var(--approved-fill);
+        color: var(--approved-ink);
+      }
+      .strip-error {
+        background: var(--invalid-fill);
+        color: var(--invalid-ink);
+      }
+      .diff-section {
+        margin: 24px 0 32px;
+      }
+      .diff-section h2 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 8px 14px;
+        margin: 0 0 8px;
+        font-family: system-ui, sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      details > summary {
+        cursor: pointer;
+        list-style: none;
+      }
+      details > summary::-webkit-details-marker {
+        display: none;
+      }
+      details > summary h2::before {
+        content: '▸';
+        font-size: 14px;
+        color: var(--muted);
+      }
+      details[open] > summary h2::before {
+        content: '▾';
+      }
+      .rows {
+        display: grid;
+        grid-template-columns: 112px minmax(0, 1fr) minmax(0, 1fr);
+        column-gap: 24px;
+      }
+      .row {
+        display: contents;
+      }
+      .cell {
+        padding: 8px 0;
+        border-top: 1px solid var(--line);
+        min-width: 0;
+      }
+      .cell.mark {
+        padding-top: 10px;
+      }
+      .cell.empty {
+        background: var(--pane);
+      }
+      .row-same .cell {
+        color: var(--muted);
+      }
+      .row-removed .before,
+      .row-moved-out .before {
+        background: var(--invalid-fill);
+      }
+      .row-added .after,
+      .row-moved-in .after {
+        background: var(--approved-fill);
+      }
+      .row-moved-out .before,
+      .row-moved-in .after {
+        background: var(--moved-fill);
+      }
+      .cell h3 {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        font-size: 17px;
+        font-weight: 600;
+      }
+      .cell p {
+        margin: 0;
+      }
+      .cell p + p {
+        margin-top: 12px;
+      }
+      .cell .item::before {
+        content: '· ';
+        color: var(--muted);
+      }
+      .counts {
+        margin-top: 4px;
+        font-family: system-ui, sans-serif;
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .counts.over {
+        color: var(--invalid-ink);
+        font-weight: 600;
+      }
+      del {
+        background: var(--invalid-fill);
+        color: var(--invalid-ink);
+        text-decoration: line-through;
+      }
+      ins {
+        background: var(--approved-fill);
+        color: var(--approved-ink);
+        text-decoration: none;
+      }
+      .badge {
+        display: inline-block;
+        padding: 2px 9px;
+        border-radius: 999px;
+        font-family: system-ui, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        white-space: nowrap;
+      }
+      .badge.changed {
+        background: var(--invalid-fill);
+        color: var(--invalid-ink);
+      }
+      .status-open {
+        background: var(--open-fill);
+        color: var(--open-ink);
+      }
+      .row-changed .marker {
+        background: var(--invalid-fill);
+        color: var(--invalid-ink);
+      }
+      .row-removed .marker {
+        background: var(--invalid-fill);
+        color: var(--invalid-ink);
+      }
+      .row-added .marker {
+        background: var(--approved-fill);
+        color: var(--approved-ink);
+      }
+      .row-moved-out .marker,
+      .row-moved-in .marker {
+        background: var(--moved-fill);
+        color: var(--moved-ink);
+      }
+      @media (max-width: 900px) {
+        .rows {
+          grid-template-columns: 1fr;
+        }
+        .cell.mark {
+          border-top: 0;
+          padding-bottom: 0;
+        }
+        .cell.empty {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Profile diff</h1>
+      <span class="file">linkedin/profile.md → linkedin/profile.review.md</span>
+      <a href="/">Editor</a>
+      <span class="spacer"></span>
+      <span id="status" aria-live="polite">Loading…</span>
+      <button id="reload" type="button">Reload</button>
+    </header>
+    <div class="pane-head">
+      <b>Before</b> is the source, <b>after</b> is the review file, section by section. Words
+      removed are struck through on the left; words added are marked on the right. A block that
+      moved is marked at both ends. Sections with no difference are folded; open one to read it.
+      Status lines are not compared. Counts are information, never a target.
+    </div>
+    <div id="diff"></div>
+    <script type="module" src="/diff.js"></script>
+  </body>
+</html>

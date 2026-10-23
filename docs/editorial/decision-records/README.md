@@ -22,12 +22,13 @@ context and alternatives that led to the decision. The directives govern; EDRs e
 
 ## Index
 
-| EDR                                                      | Title                                                               | Status   | Date       |
-| -------------------------------------------------------- | ------------------------------------------------------------------- | -------- | ---------- |
-| [001](001-oak-curriculum-data-description.md)            | Oak curriculum data description                                     | Accepted | 2026-02-18 |
-| [002](002-show-dont-justify.md)                          | Show, don't justify                                                 | Accepted | 2026-02-18 |
-| [003](003-ecosystem-language-removal.md)                 | Ecosystem language removal                                          | Accepted | 2026-02-18 |
-| [004](004-enabling-vision-leverage-third-order.md)       | Enabling vision — leverage through third-order effects              | Accepted | 2026-02-18 |
-| [005](005-oak-p3-rewrite.md)                             | Oak P3 rewrite — from passive to confident intent                   | Accepted | 2026-02-18 |
-| [007](007-oak-ai-plugin-naming-and-attribution.md)       | The Oak AI plugin on LinkedIn — naming and attribution              | Accepted | 2026-10-08 |
-| [008](008-the-innovator-never-the-engineering-leader.md) | The reader's decision — the innovator, never the engineering leader | Accepted | 2026-10-11 |
+| EDR                                                                 | Title                                                                                                                          | Status   | Date       |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------- | ---------- |
+| [001](001-oak-curriculum-data-description.md)                       | Oak curriculum data description                                                                                                | Accepted | 2026-02-18 |
+| [002](002-show-dont-justify.md)                                     | Show, don't justify                                                                                                            | Accepted | 2026-02-18 |
+| [003](003-ecosystem-language-removal.md)                            | Ecosystem language removal                                                                                                     | Accepted | 2026-02-18 |
+| [004](004-enabling-vision-leverage-third-order.md)                  | Enabling vision — leverage through third-order effects                                                                         | Accepted | 2026-02-18 |
+| [005](005-oak-p3-rewrite.md)                                        | Oak P3 rewrite — from passive to confident intent                                                                              | Accepted | 2026-02-18 |
+| [007](007-oak-ai-plugin-naming-and-attribution.md)                  | The Oak AI plugin on LinkedIn — naming and attribution                                                                         | Accepted | 2026-10-08 |
+| [008](008-the-innovator-never-the-engineering-leader.md)            | The reader's decision — the innovator, never the engineering leader                                                            | Accepted | 2026-10-11 |
+| [009](009-the-oak-card-is-one-piece-of-writing-under-the-limits.md) | The Oak Principal card under LinkedIn's limits — one piece of writing, the how in its Project cards, never a partition by date | Accepted | 2026-10-21 |

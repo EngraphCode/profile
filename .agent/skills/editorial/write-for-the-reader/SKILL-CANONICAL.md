@@ -13,7 +13,7 @@ description: >-
   their own conventions. Right looks like: the reader's decision shown with
   the draft, one job per paragraph, every sentence changing what the reader believes. Wrong looks
   like: a label, a colon and a litany; a draft assembled from settled bullet points; copy cut to
-  a character count.
+  a character count; a card partitioned by a date seam to meet one.
 ---
 
 # Write for the Reader
@@ -149,6 +149,15 @@ pass is the seat's own, run against the sources.
 
 ## Gotchas
 
+- A partition is not writing. A card cut by a date seam into two positions to meet a verified
+  limit, Jim's paragraphs sorted by period and "seam sentences" written to join them, put labels
+  where his story had been ("The decision that shaped this period was X. It followed Y."), halved
+  the sentences whose meaning is their span, and let the count choose where the seam fell; a diff
+  page then showed what had moved and not that nothing read (21 October 2026, his verdict: "a
+  litany of facts with no soul and no connection"; EDR-009). A sentence written to join two of
+  his is copy and fires this skill from §1. When a field refuses a card, the arc stays whole and
+  the how moves to the cards that warrant it, written for their reader; a diff is read for what
+  moved, never for whether it reads.
 - A true, verifiable fact is not a reason to include it. A benchmark that scored a perfect 1.0
   and was rewritten to score worse was true, and said nothing to the reader it was written for.
 - The About and the Experience entry draw on the same facts. The entry particularises: who, when,

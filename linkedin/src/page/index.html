@@ -66,6 +66,10 @@
       header .spacer {
         flex: 1 1 auto;
       }
+      header a {
+        font-size: 13px;
+        color: var(--approved-ink);
+      }
       header #saved {
         font-size: 13px;
         color: var(--muted);
@@ -261,6 +265,7 @@
     <header>
       <h1>Profile editor</h1>
       <span class="file">linkedin/profile.review.md</span>
+      <a href="/diff">Diff against source</a>
       <span class="spacer"></span>
       <span id="saved" aria-live="polite">Loading…</span>
     </header>
