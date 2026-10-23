@@ -4,7 +4,8 @@ Every skill name in play for Jim's LinkedIn profile, with who set it, where it s
 known of it. The copy's home is `linkedin/profile.md` §Skills; the decisions are in
 `linkedin/profile-replacement.md` §Skills; this file records status, never copy.
 
-- **Last updated:** 2026-10-12 (Shrew rides Eventide, 371a2b).
+- **Last updated:** 2026-10-23 (Shrew rides Eventide, 371a2b): the check of the list against the
+  profile declared ready, in its own section below; the canonical table unchanged.
 - **Provenance:** who set each name and when. "Jim, 11 Oct" is his word that day, "Jim, 11 Oct,
   evening" the list he wrote himself that evening (his reasons are in the private editorial
   repository, never here); "live" is a name on the profile at the 2026-09-27 baseline; "seat, 11
@@ -90,6 +91,29 @@ carries no meaning.
 | 45 | JavaScript | Jim, 11 Oct | 29 | tail | found | live | At least 4 endorsements, kept for them at his word. |
 | 46 | TypeScript | live; Jim kept it | 23 | tail | found | live | The one language of the present. |
 | 47 | C | Jim, 11 Oct | 50 | tail | found | live | 2 endorsements; kept at his word. |
+
+## The check against the ready profile, 2026-10-23
+
+Queued by Jim on 22 October ("once everything else is settled, I think we should check that the
+skills still make sense") and run on 23 October, the day he declared the profile ready, by the
+method in the skill: the pins and the next two against the headline and the About as they now
+read, every tail name for the card that now shows it, no name he set proposed for removal. The
+list still says the person the profile does, and the canonical table above is unchanged. The
+names whose showing card differs from the page of 12 October:
+
+| Skill | The card that shows it now | Note |
+| --- | --- | --- |
+| Systems Thinking | The About's second paragraph (small changes for outsized impact) and its "Before Oak" pattern; the Obaith card's constraints, defaults, access routes and higher-order effects. | Shown more strongly than on 12 October. |
+| Strategic Leadership | The Principal card's opening ("what should be built, is mine"), its two decisions and its close on the direction he set; the rebuild Project card. | Shown more strongly than on 12 October. |
+| Responsible AI | The Plugin Project card: Oak's values living in the product, the standards travelling with the data. | Shown more strongly than on 12 October. |
+| Mentoring | No card names it: the guiding-and-mentoring sentence left the Principal card on 22 October. The HP Labs card ("taught others to use it") and the Medicspot card ("got the team using it") are the nearest. | His name of 11 October, in place of Coaching; it stands. |
+| TypeScript | The two linked repositories (the Open Curriculum Ecosystem and the Oak Web Application), not the page. | Live, kept by him; unchanged since 12 October. |
+| Science Communication, Public Speaking | No card names them, as on 11 October. | His names of 11 October; they stand. |
+
+Proposed on `linkedin/profile.review.md` only, awaiting Jim: Knowledge Graphs, held below since 11
+October and confirmed at the typeahead, the Plugin card now naming the Oak public API ontology the
+SDK, the search and the MCP app are generated from. Not proposed: Semantic Search, named twice on
+the Plugin card, a stack tag of the class he removed on 11 October.
 
 ## Free-text names the typeahead did not know, 2026-10-11
 
