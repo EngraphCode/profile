@@ -262,7 +262,7 @@ The professional body for physicists in the UK and Ireland.
 
 ## Skills
 
-Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, Digital Public Goods, Citizen Science, Entrepreneurship and Thought Leadership added at his word of 12 October; every name confirmed at the typeahead on 11 October, Strategic Leadership by Jim himself; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review)
+Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technological Innovation, Artificial Intelligence (AI), Social Impact; the next two Systems Thinking, Strategic Leadership; the long tail in the order of the page; every name the taxonomy's exact string, Digital Public Goods, Citizen Science, Entrepreneurship and Thought Leadership added at his word of 12 October; every name confirmed at the typeahead on 11 October, Strategic Leadership by Jim himself; the removals of 11 October ratified by him, the testing trade's tags, Java, the stack and tool tags and the generic names among them, and Software Engineering, Web Applications, Leadership, Strategy, Product Strategy and Digital Strategy at his own hand; nothing in question; the registry in the linkedin-skills skill carries every name's provenance and status; awaiting his full review; 23 October 2026: the check Jim queued on 22 October, run against the profile declared ready: the pins and the next two read against the headline and the About as they now stand, every tail name for the card that now shows it; the list still says the person the profile does, with Systems Thinking, Strategic Leadership and Responsible AI shown more strongly than on 12 October; Mentoring's sentence left the Principal card on 22 October, the HP Labs and Medicspot cards the nearest now; Science Communication and Public Speaking stand on his word of 11 October with no card naming them, as then; TypeScript named by the two linked repositories, not by the page; no name proposed for removal; the seat's one proposal on this file only, Knowledge Graphs, confirmed at the typeahead on 11 October and held since, the Plugin card now naming the ontology the SDK, the search and the MCP app are generated from; awaiting Jim)
 
 - Technological Innovation
 - Artificial Intelligence (AI)
@@ -283,6 +283,7 @@ Status: drafted (11 October 2026, evening, at Jim's list: the three pins Technol
 - Generative AI
 - Large Language Models (LLM)
 - Responsible AI
+- Knowledge Graphs
 - System Architecture
 - Platform Engineering
 - Product Engineering

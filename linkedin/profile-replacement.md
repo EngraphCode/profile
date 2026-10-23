@@ -26,23 +26,28 @@ character folds; his edits land in `profile.review.md`, never in the source.
 ## The profile as one system, and what is open for Jim's review
 
 The headline's anchors recur through the profile in natural context, never as the same sentence,
-and the Skills say them in LinkedIn's nouns:
+and the Skills say them in LinkedIn's nouns (re-read 23 October 2026 against the profile declared
+ready, the anchors as the headline now reads):
 
 - **Innovator**: the About's plugin and Practice paragraphs; the Principal card; Projects. Skills:
   Technological Innovation, Social Innovation, Research and Development (R&D), Prototyping,
-  Emerging Technologies, Startups, Open-Source Development.
+  Emerging Technologies, Startups, Entrepreneurship, Open-Source Development.
 - **Engineer**: the rebuild and the plugin's build on the Oak cards; the earlier cards. Skills:
   Software Development, Software Engineering Practices, Web Technologies, JavaScript, TypeScript,
   C, Platform Engineering, Product Engineering, Model Context Protocol (MCP), AI Agents,
-  Generative AI, Large Language Models (LLM), Responsible AI.
+  Generative AI, Large Language Models (LLM), Responsible AI, Open-Source Software.
 - **Scientist**: the About's physics paragraph; the PhD card; Education; Publications. Skills:
   Scientific Research, Physics, Astrophysics, Cosmology, Computational Physics, Statistical
-  Modeling, Parameter Estimation, Scientific Writing, Science Communication, Public Speaking.
-- **Making sense of the unknown**: the About's first line; Obaith; the Passport Office. Skills:
-  Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
-- **Shaping strategy and systems**: "Oak's engineering strategy is my responsibility" and the rebuild on the
-  Principal card. Skills: Strategic Leadership, Technology Leadership, System Architecture, Open
-  Data, Open Standards, Public Sector, Digital Government, Edtech, Social Impact, Mentoring.
+  Modeling, Parameter Estimation, Citizen Science, Scientific Writing, Science Communication,
+  Public Speaking.
+- **Celebrating the unknown**: the About's first and last lines; Obaith; the Passport Office.
+  Skills: Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
+- **Making space for change**: "what it means in technology, and what should be built, is mine",
+  the two decisions and the rebuild on the Principal card. Skills: Strategic Leadership,
+  Technology Leadership, Thought Leadership, System Architecture, Open Data, Open Standards,
+  Digital Public Goods, Public Sector, Digital Government, Edtech, Social Impact, Mentoring (its
+  sentence left the Principal card on 22 October; the HP Labs and Medicspot cards are the
+  nearest).
 
 The three pins are the identity a scanner reads and the only skills LinkedIn exports with him,
 set by Jim on 11 October, evening: Technological Innovation (the headline's first word, shown by
