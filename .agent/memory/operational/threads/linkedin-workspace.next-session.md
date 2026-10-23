@@ -10,7 +10,48 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-16T11:xxZ, the owner's dispositions of 16 October applied to the LinkedIn draft; his review of the applied draft next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-23T16:3xZ, the draft ready at the owner's word; the lane lands through 341; the application next; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The draft is ready at the owner's word of 2026-10-23 ("The profile is ready, the next act is to
+  start updating the live surface"). `linkedin/profile.md` and `linkedin/profile.review.md` are
+  identical and validate (headline 82 of 220, About 2,359 of 2,600, the Principal card 1,844 of
+  2,000). The day's acceptances, all his: the Principal card's opening ("what should be built"),
+  growth and interventions sentences and its close on the squad; the Senior Developer card's
+  lockdown clause and the first QA engineer as the plain fact; the FT Labs lesson as its own
+  sentence; the Featured item "The Oak AI Plugin on Claude" with Anthropic's word in the caption;
+  the plugin Project card naming the MCP app as the part any assistant connects to; the About's
+  third paragraph's closing sentence at his amendments (openly licensed, digital-native, AI-ready;
+  what others build with it and the impact that creates); the top card's location as the live
+  profile shows it, Cardiff, Wales, United Kingdom. Withdrawn at his word: the headline's middle
+  segment (his accepted line stands; the About's second sentence carries the plugin above the
+  fold), a sentence naming Obaith's papers as private, a sentence building the plugin on the
+  rebuild. EDR-007 §Amendments carries the language settled today.
+- The lane `docs/linkedin-oak-content-review` (worktree `linkedin-oak-content`, draft pull
+  request 341) lands on `main` at his word of the same hour: this commit, the push, the pull
+  request marked ready and merged at checks green, minimal ceremony at his word.
+- Next act, at his word and with him present: the application to the live profile by the
+  `apply-linkedin-profile` skill through Chrome at his express request (the PDF baseline first,
+  one sitting in `profile.md`'s order, each field read at its counter, settings last, the new
+  baseline recorded). He has already set the accepted headline and his banner photograph on the
+  live profile himself (2026-10-23, 17:15 local). Two checks he queued ride before the Skills
+  section is applied: the `linkedin-skills` skill's check of the list against the revised profile
+  (the three pins and the next two first, every tail name checked for the card that shows it, a
+  name he set never proposed for removal) and his separate item "check that the skills still make
+  sense" on the editorial skills and reader briefs (the audience-reader's brief to ask for
+  beliefs, not inventory).
+- Standing word, unchanged: the live profile is edited only through Chrome at his express request
+  with him present; nothing trimmed to a number; no folds or ceremony until further notice; the
+  LinkedIn work the only work; a settled item never listed again; every finding reaches him as a
+  proposed sentence on the review file, with no surface labelled his as the reason a proposal is
+  missing. Recommendations are his to raise.
+- Seat state: n=1; no watcher or heartbeat (consumer absent); the LinkedIn claim `3b4a1be4`
+  stands with its areas, its heartbeat at 2026-10-23T16:00Z; the editor
+  (`pnpm --filter linkedin editor`, 127.0.0.1:4780, the diff page at /diff) runs as a harness
+  background task, restarted only at his word.
+
+## Previous Continuation (2026-10-16T11:xxZ, the owner's dispositions of 16 October applied to the LinkedIn draft; his review of the applied draft next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
