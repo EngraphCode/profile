@@ -40,7 +40,8 @@ authorisation.
   23 October after the merge, at his question "did we forget to review the skills?": the
   `linkedin-skills` method against the ready profile, the result in the registry's section of
   that date; the list still says the person the profile does; no name proposed for removal;
-  Knowledge Graphs proposed on `linkedin/profile.review.md` only, awaiting him. The records ride
+  Knowledge Graphs proposed on `linkedin/profile.review.md` and accepted at his word the same
+  hour, the list forty-eight names and both files identical again. The records ride
   the branch `docs/linkedin-skills-check`, cut from `main` in this worktree, which also carries
   the application's records. The earlier wording of this bullet read his one item as two; the
   readers' brief (beliefs, not inventory) is the seat's own lesson of the morning, held in the

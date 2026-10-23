@@ -35,7 +35,8 @@ ready, the anchors as the headline now reads):
 - **Engineer**: the rebuild and the plugin's build on the Oak cards; the earlier cards. Skills:
   Software Development, Software Engineering Practices, Web Technologies, JavaScript, TypeScript,
   C, Platform Engineering, Product Engineering, Model Context Protocol (MCP), AI Agents,
-  Generative AI, Large Language Models (LLM), Responsible AI, Open-Source Software.
+  Generative AI, Large Language Models (LLM), Responsible AI, Knowledge Graphs, Open-Source
+  Software.
 - **Scientist**: the About's physics paragraph; the PhD card; Education; Publications. Skills:
   Scientific Research, Physics, Astrophysics, Cosmology, Computational Physics, Statistical
   Modeling, Parameter Estimation, Citizen Science, Scientific Writing, Science Communication,
@@ -638,6 +639,13 @@ Leadership are added in their places (Thought Leadership after Technology Leader
 Entrepreneurship beside Startups, Digital Public Goods after Open-Source Development, Citizen
 Science after Physics; forty-seven entries, applied 12 October); Strategic Partnerships is not
 added, at his word.
+
+Jim's word, 23 October, on the check he had queued on 22 October ("once everything else is
+settled, I think we should check that the skills still make sense"), run against the profile he
+declared ready: the list still says the person the profile does, no name proposed for removal,
+the showing cards re-read in the registry's section of that date; Knowledge Graphs, held since 11
+October and typeahead-confirmed, proposed from the Plugin card's ontology and accepted at his
+word the same hour, after Responsible AI; forty-eight entries.
 
 ## Recommendations — settled (Jim, 11 October 2026: he will ask)
 
