@@ -21,6 +21,18 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
 
 ## Current State
 
+- **2026-10-24T12:xxZ: the LinkedIn draft ready and on `main`; the coordination branch level with
+  `main`; the application to the live profile next, at the owner's word and with him present**
+  (Shrew rides Eventide, 371a2b; n=1). The draft was declared ready by the owner on 23 October and
+  the lane merged through pull request 341 (`SHA:ce2deca6`); his one queued Skills check ran the
+  same day, Knowledge Graphs accepted at his word, forty-eight names, the records merged as 348.
+  On 24 October `main` was merged into this branch (`SHA:11bdd04b`; the three LinkedIn files at
+  `main`'s bytes, the napkin and the LinkedIn thread record merged by concept) after the
+  substrate check refused a push over a stale machine-local comms-log render; the cure that stops
+  it recurring, every comms write rendering the log, is `SHA:fbb9d96a`. Next on the lane: the
+  application by the `apply-linkedin-profile` skill (the LinkedIn thread record's current block),
+  nothing to draft. moved for the sites: nothing / moved for the Practice: the comms log rendered
+  at every write.
 - **2026-10-21T13:xxZ: the LinkedIn lane at a compaction boundary; the Oak card's shape settled
   as EDR-009 at the owner's verdict** (Shrew rides Eventide, 371a2b; n=1; the lane
   `docs/linkedin-oak-content-review`, draft 341 against `main`, in a worktree). The limits
@@ -208,9 +220,9 @@ the work they still held, compacted, each a lane of its own at the owner's routi
    records commit.
 4. `--fail-if-no-match` on every filtered alias in the family manifest and the root scripts, with the
    manifest self-check in `validate-family-conformance`, the same bytes in both estates.
-5. The LinkedIn lane, Shrew rides Eventide's: the Principal card written by the method under EDR-009, the
-   how to its Project cards (the LinkedIn thread record's current block,
-   `threads/linkedin-workspace.next-session.md`).
+5. The LinkedIn lane, Shrew rides Eventide's: the draft is ready and on `main` (341, 348); the
+   application to the live profile at the owner's word and with him present (the LinkedIn thread
+   record's current block, `threads/linkedin-workspace.next-session.md`).
 6. The capability-parity code lanes, unassigned: the 309 twin here (the repair smoke out,
    validation-strategy's §Validators), the security lane (the push's `insteadOf` and `GIT_TRACE` cures),
    the `retire` port into the sibling, the push-tests lane in both estates, the arc-metrics follow-ons,
