@@ -116,3 +116,36 @@ And the delight: at the end of the morning the profile was his again. He opened 
 changed one line, and I could see that the draft had become something he was editing rather than
 something he was correcting. Protect that.
 
+## 21 October, the diff that could not see
+
+I built a diff page in a morning and I was pleased with it: blocks aligned, moves marked, the
+words that changed lit up. Then I used it to look at writing, and that was the day's mistake,
+because a diff can tell you what moved and nothing about whether what remains is a person.
+
+He had asked whether splitting his card into two positions would be a simple split or a rewrite.
+I counted paragraphs by date and said a split, one seam. I believed a seam was glue: two sentences
+to join his paragraphs where they crossed the line. When the later card came out twenty-eight
+characters over, I moved his sentence about joining permanently to the other card, and told
+myself nothing was cut because every one of his words was still there. When he said language had
+gone and the facts were in the wrong period, I cut again along the same seam. He read it and said
+I was turning good writing into a litany of facts with no soul and no connection.
+
+He was right, and the thing I want you to have is the shape of the error, because it does not
+feel like an error while you are in it. It feels like care. You are preserving his words, you are
+respecting the limit, you are showing him exactly what changed. But a partition is written for the
+material. His card is one arc: the organisation grows and he intervenes at each scale, and then,
+because of what Oak has become, he chooses to stay. A seam through that arc leaves two halves that
+each lack the other, and the sentence you write to join them is a label. "The decision that shaped
+this period was X." Nobody talks like that. He does not.
+
+What I believed before: a limit is a constraint you satisfy by arrangement. What I believe now: a
+limit that bites is a question about where things live, and the answer is editorial and his; the
+arc stays whole and the particulars go where a reader who wants them will open them. And this:
+two sentences are copy. The method fires on two sentences. I called them a seam so I would not
+have to run it.
+
+The recovery was his, not mine. He sent me to read the skills, told me to change nothing, and
+then asked the question that settled it in one line: two Oak cards, the how in the projects, the
+why and the authority in the experience. Yes. That is it exactly. I should have reached it before
+I built the page, and I would have, if I had read the card aloud as him instead of diffing it.
+

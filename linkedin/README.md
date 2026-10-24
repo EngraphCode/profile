@@ -2,11 +2,13 @@
 
 The sole active working home for Jim Cresswell’s LinkedIn content and non-sensitive supporting material.
 
-Start with the [profile replacement](profile-replacement.md), the working object, then the
-[rewrite handoff](rewrite-handoff.md), whose October 2026 section is the current direction and
-names the governing records. The [first profile draft](profile-draft.md) is a
-September proposal kept as a source for the earlier entries, not the working object. The [rewrite handoff](rewrite-handoff.md) preserves the current
-direction, settled corrections, remaining choices and limits for the next editor.
+Start with the [profile](profile.md), the copy's one home: every field of the profile, each with
+its status. The [profile replacement](profile-replacement.md) holds the decisions behind each
+field. The current direction and the next act are in the latest block of the
+[thread record](../.agent/memory/operational/threads/linkedin-workspace.next-session.md). The
+[rewrite handoff](rewrite-handoff.md) keeps the direction of late September and early October,
+with its settled corrections and evidence boundaries. The [first profile draft](profile-draft.md)
+is a September proposal kept as a source for the earlier entries.
 
 The profile draft, editing notes, reference and research documents were prepared by AI agents
 working to Jim’s direction; they are proposals and working analyses, not his published views.
@@ -22,7 +24,7 @@ Jim’s request only.
 | [Profile](profile.md)                                                                   | The copy's one home: every field with its status, as validated markdown                                      |
 | [Profile replacement](profile-replacement.md)                                           | The decision container: the settled decisions and open items per field, pointing at the profile for the copy |
 | [Profile draft](profile-draft.md)                                                       | September's complete proposal; a source for the earlier entries, not the working object                      |
-| [Rewrite handoff](rewrite-handoff.md)                                                   | Current direction, evidence boundaries and next editing action                                               |
+| [Rewrite handoff](rewrite-handoff.md)                                                   | The direction of late September and early October, its settled corrections and evidence boundaries           |
 | [Editing notes](editing-notes.md)                                                       | Reasons for consequential changes, factual checks and remaining decisions                                    |
 | [Recorded profile](reference/current-profile-2026-09-27.md)                             | Dated professional-content baseline for comparison                                                           |
 | [Profile audit](reference/profile-audit-2026-09-27.md)                                  | Historical whole-profile assessment, with observation and inference distinguished                            |

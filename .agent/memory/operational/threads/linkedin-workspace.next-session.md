@@ -41,9 +41,9 @@ authorisation.
   `linkedin-skills` method against the ready profile, the result in the registry's section of
   that date; the list still says the person the profile does; no name proposed for removal;
   Knowledge Graphs proposed on `linkedin/profile.review.md` and accepted at his word the same
-  hour, the list forty-eight names and both files identical again. The records ride
-  the branch `docs/linkedin-skills-check`, cut from `main` in this worktree, which also carries
-  the application's records. The earlier wording of this bullet read his one item as two; the
+  hour, the list forty-eight names and both files identical again. The records rode
+  the branch `docs/linkedin-skills-check`, cut from `main` in this worktree, merged as pull
+  request 348 on 24 October; the application's records take a fresh branch. The earlier wording of this bullet read his one item as two; the
   readers' brief (beliefs, not inventory) is the seat's own lesson of the morning, held in the
   napkin, never an item he queued.
 - Standing word, unchanged: the live profile is edited only through Chrome at his express request
@@ -56,11 +56,101 @@ authorisation.
   (`pnpm --filter linkedin editor`, 127.0.0.1:4780, the diff page at /diff) runs as a harness
   background task, restarted only at his word.
 
-## Previous Continuation (2026-10-16T11:xxZ, the owner's dispositions of 16 October applied to the LinkedIn draft; his review of the applied draft next; Shrew rides Eventide, 371a2b)
+## Previous Continuation (2026-10-21T13:xxZ, the Oak card's shape settled as EDR-009 at the owner's verdict on the split; the Principal card to be written by the method, the how to the Project cards; the diff page in the editor; compaction at his word; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status` on the lane worktree and on the primary, the claims registry, the comms
+  stream, `gh pr list --repo jimCresswell/jimcresswell.net`.
+- **The lane.** `docs/linkedin-oak-content-review` in the worktree
+  `.claude/worktrees/linkedin-oak-content`, draft pull request 341 against `main`, the seat
+  resident by `EnterWorktree`. Its commits of 17 to 21 October, in order: `SHA:fe4823f6` and
+  `SHA:96d7e2dc` (the owner's edits of 17 October absorbed; the Practice Project card);
+  `SHA:5ff64298` (Oak's published figures and their sources,
+  `linkedin/research/oak-impact-figures-2026-10-19.md`); `SHA:602b52ab`, `SHA:90518fc3` and
+  `SHA:69420b9a` (his two rounds of 19 October absorbed with his dispositions, the holistic
+  review's dispositions, the three consultant titles); `SHA:1bcf6764` (the limits verified at
+  the counters, "believed" retired); `SHA:7d4a7601` and `SHA:0733a0e9` (the split proposed in
+  the review file, then corrected, both withdrawn below); `SHA:b8043154` and `SHA:afa1ffaa` (the
+  editor's diff page; the push gate's findings); `SHA:48d5ee5d` (a project description's limit);
+  `SHA:664b6b2b` (EDR-009, the skill's gotcha, the container, the plan node, the review file
+  reset). The work-safety evidence is in the wrap message, never here.
+- **The decision of the day, EDR-009**
+  (`docs/editorial/decision-records/009-the-oak-card-is-one-piece-of-writing-under-the-limits.md`).
+  The limits verified by the owner at the live counters: headline 220, About 2,600, a position's
+  description 2,000 (19 October), a project's description 2,000 (21 October); the structure
+  table and `apply-linkedin-profile/references/field-limits.md` carry them. His merged Principal
+  card (`SHA:69420b9a`) is 2,852. The seat's split of it into two positions by date, shown on
+  the diff page, drew his verdict, verbatim: "you are turning it from good writing into a litany
+  of facts with no soul and no connection". The reflection against the editorial skills and
+  directives, agreed with him: the split was written for the material, its joining sentences
+  were labels, the span sentences were halved, the count chose the seam, and a diff judges what
+  moved, never whether it reads. Settled: two Oak cards; the Principal card one piece of writing
+  carrying the why, the call, the cost, the authority and the impact; the how in the three
+  Project cards (the Oak AI Plugin 911, the Practice 460, the rebuild 278 characters today, each
+  with over a thousand of room under 2,000); Featured a showcase (a post, article, link, image
+  or document) that takes no copy, the three links standing; the FT Web App kept as a Project
+  card, reworded in the past tense, its awards carrying "lauded at the time", whether it names
+  his part his to say. The split is withdrawn: `linkedin/profile.review.md` equals
+  `linkedin/profile.md` again.
+- **What happens next, in order.** (1) After the compaction, a start-right read of this block;
+  the editor task and the browser tab verified by the task list and the tab list, re-armed only
+  if absent and only at his word (`pnpm --filter linkedin editor` from the lane worktree;
+  127.0.0.1:4780, the diff page at `/diff`). (2) The reader's decision and the beliefs for the
+  Principal card on paper, by `write-for-the-reader` §1 and §2 under EDR-008's axis, shown to
+  him before any draft. (3) One draft of the Principal card by the method, in his voice, his
+  sentences kept where they are his, measured once. (4) The three Project cards as warrants,
+  written for the reader who opens them, and the FT card in the past tense. (5) The voice check,
+  `editor`, `prose-expert`, the `audience-reader` on the revised draft, each finding with a
+  disposition shown; then Jim reads, in the editor, the diff page showing his edits against the
+  source. (6) If a card written by the method still refuses its field, what moves elsewhere is
+  his, never a cut. The whole-profile pass by the readers and the application plan follow when
+  he says the draft is his.
+- **Working agreement of 21 October, his words.** While he iterates on the text, the review file
+  is the surface and the diff page shows it; commits and the push gate (about four minutes each)
+  wait for a boundary he names ("I don't want you to run a lengthy commit, I want to iterate on
+  the text"). A change he did not ask for leads the message. The tooling lessons of the day are
+  in the napkin's block of 2026-10-21.
+- **Constraints in force, each with its interest.** The live profile is edited only through
+  Chrome at his express request with him present (it is his and public). His figures are not
+  web-checked unless he asks; his reasons and the target readers are owner-private, in chat and
+  the seat's per-user memory only. No swearing on public surfaces. No `git stash`, `--no-verify`
+  or force-push; stage by pathspec; `shared-comms-log.md` is never committed. The editor starts
+  only at his word. "Just say OCE"; Oak alone is the upstream organisation. The six-month,
+  parallel-running rebuild detail stays out of the copy beyond the staged-adoption sentence.
+- **Open:** nothing beyond the next act. His correction of 21 October on the wrap report's open
+  list stands: the uptime figure was decided out before and is settled (an operations claim; the
+  profile expresses the innovator, EDR-008); the FT Web App card's question of naming his part
+  was the seat's own, never valid, withdrawn; the fold, the coordination ceremony and the
+  dependency pull requests are not raised until he says otherwise; the LinkedIn lane is the only
+  work. Recommendations from Oak leadership belong to the application.
+- **Seat state:** n=1; the claim `3b4a1be4` with its areas (this window also touched the
+  write-for-the-reader skill and the editorial decision records, outside the claim's areas,
+  safe at n=1 and noted here); no watcher or heartbeat (consumer absent); the boundary event on
+  the comms stream. The Chrome extension connects when his Chrome is open and signed in; a tab
+  in the extension's group holds the diff page.
+
+## Previous Continuation (2026-10-17T15:1xZ, cold pause at the owner's word: the Oak items 4 and 5 and his edits of 17 October on the lane; the merged card's opening sentence his hand edit next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the dated blocks beneath the previous continuation are history in
   time order, and a block below that calls itself the pickup spoke for its hour. Recompute before
   acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The workspace, from 2026-10-17 at his word: the primary checkout is the coordination home (the
+  coordination branch, the comms records, the claims); every piece of work happens in a worktree
+  under `.claude/worktrees`; `main` is the default and target branch; the coordination branch is
+  brought up to date with `main` when appropriate. The LinkedIn lane is the worktree
+  `.claude/worktrees/linkedin-oak-content` on `docs/linkedin-oak-content-review`, cut from
+  `origin/main` with the draft's two commits of 16 October carried across; the lane's
+  `linkedin/profile.md` is the copy edited from here, and the editor server runs on it
+  (`pnpm --dir .claude/worktrees/linkedin-oak-content --filter linkedin editor`, at his word
+  only). The lane's draft pull request is 341; the coordination branch rides its draft fold pull
+  request 340, the fold at his word. The block of 2026-10-17T13:xxZ below carries the facts.
+- Pickup, after the cold pause of 17 October: the lane is at `SHA:fe4823f6` on draft 341, both
+  copies identical, the validator OK; the headline and the About are his edits of 17 October,
+  absorbed; the Practice Project card carries his dispositions of 17 October. Next: the merged
+  Principal card's opening sentence on the strategy, his to edit by hand (the editor started from
+  the lane worktree at his word, or the lane's file), analysed and absorbed as on 17 October; then
+  the readers on the whole draft when he says the draft is his; then the application plan. The
+  block of 2026-10-17T15:1xZ below carries the day's second half.
 - The fold, 2026-10-16T11:3xZ: the branch `2026-10-14-d0c995` folded as 336, merged at `SHA:682ad083` from
   head `SHA:2c49b7da` by the bot (records-class, at checks green, 2.3 minutes from the
   ready-mark; the vendor review harvested after the merge). Successor `coordination/2026-10-16-682ad0` cut from
@@ -71,13 +161,19 @@ authorisation.
   enhancement proposal are applied in `SHA:9a2a66a7` (the block of 2026-10-16T11:xxZ below):
   `linkedin/profile.md` and `linkedin/profile.review.md` are identical, his edits of 14 October
   committed with the dispositions, the two Principal cards merged into one (January 2021 to
-  present), the validator OK on both copies. Next: his review of the applied draft in the editor
-  (`pnpm --filter linkedin editor`, restarted only at his word); item 10's sentence on the plugin
-  Project card is his, under his review (the seat's reading of it is in that block); the count of
-  the merged card (2,824 characters against the believed 2,000) is edited later across the whole
-  profile at his word, never to one number; the Senior Developer card may take an editorial review
-  at his word. The readers run only when he says so; the application plan is authored when he says
-  the draft is his; the private repository's pull request 6 is his to merge.
+  present), the validator OK on both copies; his corrections of 12:1xZ applied after (the fold
+  carries responsibility and authority through enabling, never "set"; item 10's sentence his
+  verbatim, deliberate in every part); the editor's holistic review of the Oak content ran at
+  12:3xZ and his dispositions on its nine items are applied (the block of 2026-10-16T12:4xZ
+  below). Next, after the compaction of 16 October at his word: the review of the Oak cards and
+  the Oak-related content with him, starting from that block's three open items (the merged
+  card's opening sentence, his to edit by hand, a candidate offered; the Practice Project card's
+  second sentence; its opener rewritten from the surface's intent, a proposal offered); then his
+  review in the editor (`pnpm --filter linkedin editor`, restarted only at his word). The count
+  of the merged card (2,824 characters against the believed 2,000) is edited later across the
+  whole profile, never to one number. The application plan is authored when he says the draft is
+  his; the private repository's pull request 6 is his to merge. This seat works the LinkedIn
+  lane only (his word of 16 October); the merge tooling's fix is Flint's.
 - Swearing: at his word of 14 October the public repository carries none. The agent-tools
   `profanity` topic (`pnpm agent-tools profanity check|replace <path...>`) censors records with
   The Good Place's words; rules and decision records are elided by hand. The pre-commit check
@@ -765,6 +861,125 @@ word on 14 October).
   coordination branch carried the consolidation lane's thirty commits (62 files, none under
   `linkedin/`, the last `SHA:01e2df9b` at 10:40Z); the one local commit rebased onto that tip and
   pushed. The branch is past its lifetime (cut 14 October 17:24Z); the fold follows this block.
+
+### 2026-10-16T12:2xZ — Jim's corrections after the fold: the fold verb, item 10 verbatim; the next step a holistic editorial review of the Oak content (Shrew rides Eventide, 371a2b)
+
+- The fold verb: "set" was the opposite of item 2's ask (supporting, mentoring, coaching,
+  guiding; responsibility and authority through enabling). Now: "Oak's engineering strategy is my
+  responsibility: I decide what gets built and what does not, and make the case for it to the
+  people who fund and run the service. I carry that authority by enabling the engineers, guiding,
+  mentoring and coaching them rather than directing their work." The rebuild Project card
+  "guided" for "set".
+- Item 10: his sentence deliberate in every part, restored verbatim: "I conceived the plugin: a
+  public SDK, semantic search, and MCP app generated automatically from the Oak public API
+  ontology, carrying an expert curriculum." His fact for the review: the pipeline from the Open
+  Curriculum API's OpenAPI specification to the SDK, the search and the MCP app is built
+  automatically, so an API change updates the tools trivially; the hand-built first SDK is off
+  the page by his word.
+- Branch: he merged 337 (`SHA:7ffab023`); the successor `coordination/2026-10-16-7ffab0` is cut
+  from it; the corrections land there.
+- Next: the holistic editorial review of the Oak sections and the Oak-related content, the
+  editor first, findings to him by number; the readers beyond the editor at his word.
+
+### 2026-10-16T12:4xZ — The editor's holistic review of the Oak content: nine items, Jim's dispositions applied; three open for the review after compaction (Shrew rides Eventide, 371a2b)
+
+- The `editor` agent read the Oak content as one system (the About, the two Oak cards, the three
+  Featured items, the three Oak Project cards) against the container and EDR-007/EDR-008; nine
+  items, the division of labour of 16 October found holding, no wrong noun on any Oak surface.
+- His dispositions (12:3xZ), applied in the commit of 12:4xZ, both copies identical, the
+  validator OK: (1) the pipeline's consequence as the sentence after his on the plugin Project
+  card, "The whole pipeline runs from the API's OpenAPI specification, so when the API changes
+  the SDK, the search and the MCP app follow."; (2) the Senior Developer card's second sentence
+  his, "I joined to ship the first teacher-facing service, delivered it, then built the
+  engineering foundations the first months had left no time for."; (3) the plugin paragraph's
+  attribution before the reach, the paragraph ending on where the plugin runs; (6) agreed, no
+  change; (7) "It was alongside": the card's Practice paragraph now opens "Alongside the plugin I
+  built the Practice, the way of working it was built in:"; (9) the Featured caption says "free,
+  openly licensed", both.
+- Open, for the review after the compaction of 16 October:
+  - (0) the merged card's opening sentence on the strategy is his to edit by hand; he asked for
+    suggestions, and said "setting direction and holding space for the teams to achieve delivery
+    is about right". The seat's candidate: "Oak's engineering strategy is my responsibility: I
+    set the direction, decide what gets built and what does not, and make the case for it to the
+    people who fund and run the service. The teams deliver it, and I hold the space for them to,
+    with guidance, mentoring and coaching where it helps."
+  - (4) the Practice Project card's second sentence restates the parts as clauses and ends on
+    the About's pace-and-knowledge claim; his view: justified by the section's own audience, open
+    to discussion. The seat's reading: the About-to-card echo is defensible (a Projects reader
+    may never read the About); the within-card relist is not audience-driven. Proposal: keep the
+    why ("so AI-first delivery runs at pace without losing the institutional knowledge it puts
+    at risk") and drop the relist before it.
+  - (5) the identical opener ("The way of working the Oak AI plugin was built in") on the merged
+    card and the Practice Project card; his word: examine each surface's intent, never smooth.
+    The intents: the card's Practice paragraph is the role's proof, why he built it and the
+    division between human and agent; the Project card describes the artefact, what it is, who
+    uses it, where it lives. The opener defines the artefact by its relation to the plugin, the
+    card's job, so the Project card opens on the artefact. Proposal: "Three parts: the tooling,
+    the rules every agent works to, and the written memory that keeps what the work learns."
+    then the kept second sentence, then "The Oak AI plugin was built in it; the engineers working
+    on the Open Curriculum Ecosystem build in it now; it is public in that repository, made to be
+    taken up a piece at a time."
+  - (8) "building out the direction I set" in the pattern paragraph stands at his word.
+- The merged card remains over the believed limit (edited across the whole profile later, never
+  to one number). The editor stays stopped until he says.
+
+### 2026-10-17T13:xxZ — The workspace reshaped at the owner's word: the LinkedIn lane in its own worktree, the primary the coordination home; the three Oak items still his (Shrew rides Eventide, 371a2b)
+
+- His word (verbatim, the path written repository-relative): "use the primary checkout as the
+  coordination branch, where comms records etc are stored. Each piece of work then happens in a
+  work tree. `engraph` remains the default and target branch, the coordination branch is brought
+  up to date with the default branch when appropriate. Make sure all worktrees are in the
+  canonical location under" `.claude/worktrees`. This repository's default branch is `main` and
+  no branch named `engraph` exists here (it is the sibling's default), so the sentence is read as
+  "the default branch"; he confirmed it at 13:3xZ: "I had the wrong repo, my instructions for
+  worktrees remain correct, but substitute `engraph` for `main`".
+- The lane: `.claude/worktrees/linkedin-oak-content`, branch `docs/linkedin-oak-content-review`
+  cut from `origin/main` at `SHA:f80ccf7e` (the merge of 339); the two LinkedIn commits of 16
+  October carried across as `SHA:40f4f3f2` and `SHA:f066e0dc` (`linkedin/` only; the tree equal to
+  the coordination tip's); built by the set-up-worktree-lane skill, the validator OK. Pushed from
+  the worktree at 13:32Z with its draft pull request 341 at once: his ruling of 13:4xZ, verbatim,
+  "The rules is wrong, dependabot PRs don't count toward the limit", so the five open Dependabot
+  pull requests (329 to 333) are outside the count and the pr-lifecycle skill's clause is amended
+  (`SHA:e627dd43`). The coordination branch rides its draft fold pull request 340 from 13:31Z.
+  The LinkedIn files on the coordination branch are the same bytes today; from here the lane's
+  copy is the one edited, and the coordination branch takes the change back through `main`.
+- The primary: Flint's six commits fast-forwarded, `origin/main` merged in (`SHA:77888aee`, no
+  memory file on `main`'s side), the leftover `consolidation-3` worktree removed (clean, its tip
+  the coordination tip). Flint guards Vapor closed at 2026-10-16T16:15Z; n=1, so pushes and
+  merges are this seat's again. The seat resides in the primary and operates the lane by absolute
+  path (the residency rule's clause 6; a resident lane session could not write the coordination
+  records).
+- Open, his: (0), (4) and (5) of the block of 2026-10-16T12:4xZ, unchanged, the proposals there;
+  (8) stands. The fold of `coordination/2026-10-16-7ffab0` as 340 (DUE by the lifetime rule's
+  clock; at his word by his ruling of 16 October). The five Dependabot pull requests land green at
+  their size turn, outside the count; not this lane's work.
+
+### 2026-10-17T15:1xZ — His dispositions on the three Oak items applied; his edits of the headline and the About absorbed; the closing line settled; cold pause (Shrew rides Eventide, 371a2b)
+
+- His dispositions by number at 14:2xZ: (0) the merged card's opening sentence he edits by hand,
+  nothing applied; (4) the Practice Project card's second sentence keeps the why and drops the
+  relist, his to edit further; (5) the card opens on the artefact ("Three parts: the tooling, the
+  rules every agent works to, and the written memory that keeps what the work learns.") and closes
+  in his words ("The Oak AI plugin was built in it; the engineers working on the Open Curriculum
+  Ecosystem build in it now; it is publicly available, and designed to be adopted gradually and
+  reversibly."). Applied in both copies (`SHA:96d7e2dc`), pushed to draft 341.
+- The editor at his word from the lane worktree; his edits of the headline ("Celebrating the
+  unknown") and the About (the first paragraph leading on the plugin, "AI assistants such as
+  ChatGPT and Claude" still before the 200-character fold; "My joy of the unknown began with
+  physics"; "to ensure access to education"; "the direct and indirect impacts"; the Practice
+  sentence joined with a colon; physics research in the "Before Oak" list). Analysed as
+  observations, no proposals. Settled in conversation: the closing line, his compression of the
+  line attributed to Einstein, replaced by his earlier line with his new second sentence ("The
+  more I learn, the bigger the questions get. I love it."), the attribution having no primary
+  source and the compressed form reading as the circulating aphorism; the list's serial "and"
+  moved to its end. Conserved first as his review-file edits (`SHA:0dd85854`), then absorbed into
+  both copies with the status lines dated (`SHA:fe4823f6`); the container's decisions carry the
+  day. The editor restarted for the Oak sections, then stopped at the cold pause.
+- Observation, one instance: a stale index lock in the worktree's git directory blocked a stage
+  (zero bytes, 27 minutes old, no git process); removed after the check; source unknown.
+- Open, his: the merged card's opening sentence (item 0), by hand; the fold of the coordination
+  branch as 340; the whole-profile count pass later; the readers when he says the draft is his.
+  The editor starts only at his word, from the lane worktree, so it reads the lane's copies.
 
 ## Previous Continuation (2026-10-09T12:xxZ, the profile as validated markdown and the editor delivered as PR #325, merged 9 October; the owner's correction on ceremony; the Oak entry is next; the latest block governs; Cedar turns Grove, 1950d1)
 

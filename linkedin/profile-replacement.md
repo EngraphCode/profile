@@ -1,9 +1,9 @@
-# LinkedIn profile replacement — the working object
+# LinkedIn profile replacement — the decisions
 
-7 October 2026 · Field by field · Replaces Draft 1 as the working object (Draft 1 stays as a
-source for the earlier entries).
+7 October 2026 · Field by field · The decisions behind every field; the copy is in
+[`profile.md`](profile.md) (Draft 1 stays as a source for the earlier entries).
 
-Every field of the profile appears here with a status. **Approved** text is Jim's word on the
+Every field of the profile carries a status in [`profile.md`](profile.md). **Approved** text is Jim's word on the
 exact copy and changes only on his word. **Open** fields carry the settled decisions that govern
 their drafting. Nothing here is applied to LinkedIn until Jim asks, with him present, in one
 sitting, after a PDF export of the old profile. The reasoning behind the design is in the thread

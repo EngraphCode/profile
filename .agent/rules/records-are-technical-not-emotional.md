@@ -180,8 +180,11 @@ one exclusion: the `.agent/experience/` register keeps its words as captured,
 because an experience record is what an agent felt and said at the time, and
 changing its words would make it untrue (the owner, 2026-10-15: "exclude the
 experience files, it would be dishonest to censor those", and "keep the
-research file changes"). Each estate's agent-tools README names the command
-that runs the check.
+research file changes"). The agent-tools README of an estate that carries the
+check names its command; an estate that does not carry it runs this estate's
+tool from here. The tooling is this estate's only, deliberately, and OCE's
+parity is closed (the owner's ruling of 2026-10-17, the two-estate thread
+record); nothing here asks for a port.
 
 ## Scope boundary
 
