@@ -35,12 +35,17 @@ authorisation.
   `apply-linkedin-profile` skill through Chrome at his express request (the PDF baseline first,
   one sitting in `profile.md`'s order, each field read at its counter, settings last, the new
   baseline recorded). He has already set the accepted headline and his banner photograph on the
-  live profile himself (2026-10-23, 17:15 local). Two checks he queued ride before the Skills
-  section is applied: the `linkedin-skills` skill's check of the list against the revised profile
-  (the three pins and the next two first, every tail name checked for the card that shows it, a
-  name he set never proposed for removal) and his separate item "check that the skills still make
-  sense" on the editorial skills and reader briefs (the audience-reader's brief to ask for
-  beliefs, not inventory).
+  live profile himself (2026-10-23, 17:15 local). His one queued check, of 22 October ("once
+  everything else is settled, I think we should check that the skills still make sense"), ran on
+  23 October after the merge, at his question "did we forget to review the skills?": the
+  `linkedin-skills` method against the ready profile, the result in the registry's section of
+  that date; the list still says the person the profile does; no name proposed for removal;
+  Knowledge Graphs proposed on `linkedin/profile.review.md` and accepted at his word the same
+  hour, the list forty-eight names and both files identical again. The records ride
+  the branch `docs/linkedin-skills-check`, cut from `main` in this worktree, which also carries
+  the application's records. The earlier wording of this bullet read his one item as two; the
+  readers' brief (beliefs, not inventory) is the seat's own lesson of the morning, held in the
+  napkin, never an item he queued.
 - Standing word, unchanged: the live profile is edited only through Chrome at his express request
   with him present; nothing trimmed to a number; no folds or ceremony until further notice; the
   LinkedIn work the only work; a settled item never listed again; every finding reaches him as a

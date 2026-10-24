@@ -310,3 +310,20 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   The rest of the morning's proposals accepted into the draft at his word; the diff shows About
   alone.
 - **Live profile, by the owner, 17:15 local**: the accepted headline back on the live profile (his screenshot, two lines in the top card), and the banner set to one of his own photographs, a garden with a squash and a watering can, as the Top card status of 12 October records (his photograph, without text, chosen by him). Nothing on the draft to change; no seat edit on the live profile.
+- **Pull request 341, the Copilot round (16:4xZ)**: two observations on the editor, both accurate and both outside the pull request's scope by the reviewer's own label: the diff link navigates in the same tab while the save is debounced 600 ms (a click inside that window loses the last keystrokes; cure: flush the pending save on navigation, or open the diff in a new tab), and move detection keys blocks by text in a set, so repeated identical paragraphs lose their occurrence counts (cure: a multiset of keys). Disposition: merged as is, the cures recorded here for the editor's next change; answered and resolved under the bot. The bot's ready-mark did not register a Copilot request; the operator-credential request (gh pr edit 341 --add-reviewer @copilot, the rule's mapped exception) registered on the timeline within a minute.
+- **The Skills check (17:2xZ), at his question "did we forget to review the skills?"**: not
+  forgotten, not yet run. His word of 22 October was "once everything else is settled", and the
+  records pass of 16:3xZ had read his one item as two checks, attributing the readers'-brief
+  lesson (beliefs, not inventory, the seat's own, from the morning's correction) to him;
+  corrected on the thread record. The check itself, by the linkedin-skills method against the
+  ready profile: every name read for the card that now shows it; the list still says the person;
+  Mentoring's showing sentence had left the Principal card on 22 October (HP Labs and Medicspot
+  the nearest), Science Communication and Public Speaking stand on his word with no card,
+  TypeScript through the linked repositories; one proposal on the review file, Knowledge Graphs
+  (held since 11 October; the Plugin card now names the ontology); Semantic Search not proposed
+  (the stack-tag class). The decisions file's system paragraph re-trued: its anchors were the 7
+  October headline's and it quoted a Principal sentence no longer on the card. Lesson: a queued
+  check whose trigger is "once everything else is settled" fires at the ready word, before the
+  merge, not at the application; the seat put it after the merge and he had to ask.
+- **The first push of the records branch refused (17:4xZ)**: the pre-push gate runs the whole repository check, and its skills check named the registry under the linkedin-skills skill as projected into two generated adapter copies (`.claude/skills/jc-linkedin-skills/references/` and `.agents/skills/jc-linkedin-skills/references/`), both drifted after the registry edit. Cure: `pnpm skills:generate` then `pnpm skills:check`, a second commit with the two copies. Lesson: an edit to any file under a canonical skill directory, references included, is followed by the generator before the commit; the first attempt also died at a three-minute tool timeout the gate outlasts, so a push runs in the background.
+- **Knowledge Graphs accepted (18:0xZ)**: his one word, "accepted"; the entry into `profile.md` after Responsible AI, the status clause closed on both files, the registry at forty-eight with row 20 and the rest renumbered, the held table without it, the decisions file with the dated paragraph, the thread record. The adapter copies regenerated before the commit this time.
