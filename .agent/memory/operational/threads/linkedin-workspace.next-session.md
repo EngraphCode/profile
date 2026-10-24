@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-24T15:4xZ, the profile applied to LinkedIn at the sitting, every section live and read back; the records on the branch; three items at the owner's word; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-24T19:4xZ, the profile applied at the sitting and the skills review after it; the owner's rulings in the records; the next sitting's items and the items at his word; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
@@ -45,11 +45,43 @@ authorisation.
      Save; the description names him. The decision: re-add him as a co-author, which notifies a
      member, or leave the description to carry him.
   3. The Principal card's first sentence, his note on reading the card on the page: "very
-     confusing". The seat's proposed sentence is in the chat of 24 October ("I decide what Oak's
-     purpose means in technology, and what should be built."). The decision: that sentence, his
-     own, or the card as it stands; applied at the dialog once chosen, the source first.
+     confusing". The seat's first proposal ("I decide what Oak's purpose means in technology,
+     and what should be built.") was withdrawn at his verdict of the evening, "bad": "I
+     decide" is governance, not direction, and "what Oak's purpose means in technology" is an
+     abstraction. The seat's standing proposal: "I set Oak's direction in technology, from its
+     purpose to what gets built." The decision: that sentence, his own, or the card as it
+     stands; the source first, then the dialog at the next sitting.
   4. The one deliberate notification (the container's §Settings): his call, not a seat action.
   5. His second PDF export, kept beside the morning's under `.agent/reference-local/linkedin/`.
+- **The skills review of 24 October, after the sitting** (his ask: every skill and what backs
+  it; the skills inherited by edited entries; the thin names with him). Found and recorded:
+  every position kept the old profile's skill links through its edit (the after-baseline's
+  position table; the apply skill's step 4 and a gotcha). His rulings, in the registry and
+  `profile.md`: Thought Leadership out (the removed table of 24 October); teaching and tour
+  guiding into the About's "Before Oak" list for Public Speaking; TypeScript backed by the
+  Open Curriculum Ecosystem repository and his GitHub; C by the PhD's code, so the PhD
+  position links it; Science Communication by the papers, the theses and the PhD. The
+  JavaScript count corrected to 23 from the overlay.
+- **The next sitting, live, with him present, at his word:** the About's "Before Oak"
+  sentence; Thought Leadership deleted in its dialog; the Principal sentence once chosen; the
+  ten positions' linked skills set at each dialog (the limit read there; the Principal card
+  carries six today). The seat's proposed sets, his to edit in place before the sitting:
+  Principal: Strategic Leadership, Technological Innovation, Technology Leadership, Artificial
+  Intelligence (AI), Systems Thinking, Digital Public Goods. Senior Developer, Oak: Software
+  Development, Platform Engineering, Web Technologies, Product Engineering, TypeScript,
+  Open-Source Software. Founder, Code Science: Entrepreneurship, Strategic Leadership,
+  Software Engineering Practices, Mentoring, Public Sector. Medicspot: Platform Engineering,
+  Software Development, Web Technologies, JavaScript, Startups. Obaith: Systems Thinking,
+  Social Innovation, Social Impact, Research and Development (R&D). UK Home Office: Public
+  Sector, Digital Government, Software Engineering Practices, Software Development. British
+  Airways: Software Engineering Practices, Software Development, Platform Engineering. FT
+  Labs: Web Technologies, JavaScript, Open Standards, Open-Source Software, Software
+  Development, Technological Innovation. PhD Researcher: Cosmology, Astrophysics, Computational
+  Physics, Statistical Modeling, Citizen Science, C, Scientific Research (if the dialog refuses
+  a seventh, Scientific Research is the one the others already say). HP Labs: Software
+  Development, Software Engineering Practices, Mentoring, Research and Development (R&D).
+  One fact only he holds changes a row: whether Obaith built software (Software Development
+  and JavaScript stay on it if so).
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
   notice; the LinkedIn work the only work; a settled item never listed again.

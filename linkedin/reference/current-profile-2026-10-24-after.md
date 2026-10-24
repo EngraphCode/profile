@@ -150,61 +150,82 @@ is what the page links beneath the name (positions and projects). LinkedIn's ids
 in the registry's applied section
 (`.agent/skills/editorial/linkedin-skills/references/skills-registry.md`).
 
-| #   | Skill                          | Endorsements                         | Linked on the page                                                                            |
-| --- | ------------------------------ | ------------------------------------ | --------------------------------------------------------------------------------------------- |
-| 1   | Technological Innovation       | none                                 | none                                                                                          |
-| 2   | Artificial Intelligence (AI)   | none                                 | The Oak AI Plugin                                                                             |
-| 3   | Social Impact                  | none                                 | none                                                                                          |
-| 4   | Systems Thinking               | none                                 | none                                                                                          |
-| 5   | Strategic Leadership           | none                                 | none                                                                                          |
-| 6   | Social Innovation              | none                                 | none                                                                                          |
-| 7   | Technology Leadership          | none                                 | none                                                                                          |
-| 8   | Thought Leadership             | none                                 | none                                                                                          |
-| 9   | Research and Development (R&D) | none                                 | none                                                                                          |
-| 10  | Prototyping                    | none                                 | none                                                                                          |
-| 11  | Scientific Research            | none                                 | none                                                                                          |
-| 12  | Emerging Technologies          | none                                 | none                                                                                          |
-| 13  | Startups                       | none                                 | none                                                                                          |
-| 14  | Entrepreneurship               | none                                 | none                                                                                          |
-| 15  | AI Agents                      | none                                 | The Oak AI Plugin; The Practice, a framework for engineering with AI agents                   |
-| 16  | Model Context Protocol (MCP)   | none                                 | The Oak AI Plugin                                                                             |
-| 17  | Generative AI                  | none                                 | none                                                                                          |
-| 18  | Large Language Models (LLM)    | none                                 | The Practice, a framework for engineering with AI agents                                      |
-| 19  | Responsible AI                 | none                                 | The Practice, a framework for engineering with AI agents                                      |
-| 20  | Knowledge Graphs               | none                                 | The Oak AI Plugin                                                                             |
-| 21  | System Architecture            | none                                 | 3 experiences at Oak National Academy and 1 other company; Oak's web application, the rebuild |
-| 22  | Platform Engineering           | none                                 | The Practice, a framework for engineering with AI agents; Oak's web application, the rebuild  |
-| 23  | Product Engineering            | none                                 | FT Web App; Oak's web application, the rebuild                                                |
-| 24  | Software Engineering Practices | none                                 | The Practice, a framework for engineering with AI agents                                      |
-| 25  | Open Data                      | none                                 | The Oak AI Plugin                                                                             |
-| 26  | Open Standards                 | none                                 | 3 experiences at Oak National Academy and 1 other company; FT Web App                         |
-| 27  | Open-Source Software           | none                                 | 6 experiences at Oak National Academy and 4 other companies                                   |
-| 28  | Open-Source Development        | none                                 | none                                                                                          |
-| 29  | Digital Public Goods           | none                                 | none                                                                                          |
-| 30  | Public Sector                  | none                                 | none                                                                                          |
-| 31  | Digital Government             | none                                 | none                                                                                          |
-| 32  | Edtech                         | none                                 | none                                                                                          |
-| 33  | Astrophysics                   | 2                                    | none                                                                                          |
-| 34  | Cosmology                      | 2                                    | none                                                                                          |
-| 35  | Computational Physics          | none                                 | none                                                                                          |
-| 36  | Statistical Modeling           | 2                                    | none                                                                                          |
-| 37  | Parameter Estimation           | none                                 | none                                                                                          |
-| 38  | Physics                        | 3                                    | none                                                                                          |
-| 39  | Citizen Science                | none                                 | none                                                                                          |
-| 40  | Scientific Writing             | none                                 | none                                                                                          |
-| 41  | Science Communication          | none                                 | none                                                                                          |
-| 42  | Public Speaking                | none                                 | none                                                                                          |
-| 43  | Mentoring                      | none                                 | none                                                                                          |
-| 44  | Software Development           | 12 (3 colleagues at Financial Times) | 10 experiences at Oak National Academy and 8 other companies; FT Web App                      |
-| 45  | Web Technologies               | none                                 | FT Web App; Oak's web application, the rebuild                                                |
-| 46  | JavaScript                     | at least 4 (a person and 3 others)   | 8 experiences at Oak National Academy and 6 other companies; FT Web App                       |
-| 47  | TypeScript                     | none                                 | 3 experiences at Oak National Academy and 1 other company; Oak's web application, the rebuild |
-| 48  | C                              | 2                                    | none                                                                                          |
+| #   | Skill                          | Endorsements                                                | Linked on the page                                                                            |
+| --- | ------------------------------ | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| 1   | Technological Innovation       | none                                                        | none                                                                                          |
+| 2   | Artificial Intelligence (AI)   | none                                                        | The Oak AI Plugin                                                                             |
+| 3   | Social Impact                  | none                                                        | none                                                                                          |
+| 4   | Systems Thinking               | none                                                        | none                                                                                          |
+| 5   | Strategic Leadership           | none                                                        | none                                                                                          |
+| 6   | Social Innovation              | none                                                        | none                                                                                          |
+| 7   | Technology Leadership          | none                                                        | none                                                                                          |
+| 8   | Thought Leadership             | none                                                        | none                                                                                          |
+| 9   | Research and Development (R&D) | none                                                        | none                                                                                          |
+| 10  | Prototyping                    | none                                                        | none                                                                                          |
+| 11  | Scientific Research            | none                                                        | none                                                                                          |
+| 12  | Emerging Technologies          | none                                                        | none                                                                                          |
+| 13  | Startups                       | none                                                        | none                                                                                          |
+| 14  | Entrepreneurship               | none                                                        | none                                                                                          |
+| 15  | AI Agents                      | none                                                        | The Oak AI Plugin; The Practice, a framework for engineering with AI agents                   |
+| 16  | Model Context Protocol (MCP)   | none                                                        | The Oak AI Plugin                                                                             |
+| 17  | Generative AI                  | none                                                        | none                                                                                          |
+| 18  | Large Language Models (LLM)    | none                                                        | The Practice, a framework for engineering with AI agents                                      |
+| 19  | Responsible AI                 | none                                                        | The Practice, a framework for engineering with AI agents                                      |
+| 20  | Knowledge Graphs               | none                                                        | The Oak AI Plugin                                                                             |
+| 21  | System Architecture            | none                                                        | 3 experiences at Oak National Academy and 1 other company; Oak's web application, the rebuild |
+| 22  | Platform Engineering           | none                                                        | The Practice, a framework for engineering with AI agents; Oak's web application, the rebuild  |
+| 23  | Product Engineering            | none                                                        | FT Web App; Oak's web application, the rebuild                                                |
+| 24  | Software Engineering Practices | none                                                        | The Practice, a framework for engineering with AI agents                                      |
+| 25  | Open Data                      | none                                                        | The Oak AI Plugin                                                                             |
+| 26  | Open Standards                 | none                                                        | 3 experiences at Oak National Academy and 1 other company; FT Web App                         |
+| 27  | Open-Source Software           | none                                                        | 6 experiences at Oak National Academy and 4 other companies                                   |
+| 28  | Open-Source Development        | none                                                        | none                                                                                          |
+| 29  | Digital Public Goods           | none                                                        | none                                                                                          |
+| 30  | Public Sector                  | none                                                        | none                                                                                          |
+| 31  | Digital Government             | none                                                        | none                                                                                          |
+| 32  | Edtech                         | none                                                        | none                                                                                          |
+| 33  | Astrophysics                   | 2                                                           | none                                                                                          |
+| 34  | Cosmology                      | 2                                                           | none                                                                                          |
+| 35  | Computational Physics          | none                                                        | none                                                                                          |
+| 36  | Statistical Modeling           | 2                                                           | none                                                                                          |
+| 37  | Parameter Estimation           | none                                                        | none                                                                                          |
+| 38  | Physics                        | 3                                                           | none                                                                                          |
+| 39  | Citizen Science                | none                                                        | none                                                                                          |
+| 40  | Scientific Writing             | none                                                        | none                                                                                          |
+| 41  | Science Communication          | none                                                        | none                                                                                          |
+| 42  | Public Speaking                | none                                                        | none                                                                                          |
+| 43  | Mentoring                      | none                                                        | none                                                                                          |
+| 44  | Software Development           | 12 (3 colleagues at Financial Times)                        | 10 experiences at Oak National Academy and 8 other companies; FT Web App                      |
+| 45  | Web Technologies               | none                                                        | FT Web App; Oak's web application, the rebuild                                                |
+| 46  | JavaScript                     | 23 (a person and 3 others; 2 colleagues at British Airways) | 8 experiences at Oak National Academy and 6 other companies; FT Web App                       |
+| 47  | TypeScript                     | none                                                        | 3 experiences at Oak National Academy and 1 other company; Oak's web application, the rebuild |
+| 48  | C                              | 2                                                           | none                                                                                          |
 
 Astrophysics, Cosmology and Statistical Modeling showed two endorsements each on the day they
 were added; none of the three was on the profile on 11 October. The inference, not verified, is
 that LinkedIn keeps endorsements against a name removed earlier and restores them when the name
 returns.
+
+### Position skill links, read later on 2026-10-24
+
+Read from each linked skill's "experiences" overlay on the skills page after the sitting. The
+sitting edited every position and set no position's skills, so each keeps the links the old
+profile gave it wherever the name survived the rebuild; the projects' links were set at the
+sitting. The JavaScript overlay shows the full count, 23 endorsements, with "2 colleagues at
+British Airways" as a second highlight line, where the list page shows only the floor.
+
+| Position                                         | Linked skills inherited                                                                                 |
+| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| Principal Engineer, Strategy and Innovation      | System Architecture, Open Standards, Open-Source Software, Software Development, JavaScript, TypeScript |
+| Senior Developer, Oak National Academy           | System Architecture, Open Standards, Open-Source Software, Software Development, JavaScript, TypeScript |
+| Founder, Code Science Limited                    | Open-Source Software, Software Development, JavaScript, TypeScript                                      |
+| Platform Engineering Consultant, Medicspot       | System Architecture, Software Development, JavaScript                                                   |
+| Independent research, Obaith                     | Software Development, JavaScript                                                                        |
+| Programme Delivery Consultant, UK Home Office    | Open-Source Software, Software Development, JavaScript                                                  |
+| Engineering Practice Consultant, British Airways | Open-Source Software, Software Development, JavaScript                                                  |
+| Senior Developer, FT Labs                        | Open Standards, Open-Source Software, Software Development, JavaScript                                  |
+| PhD Researcher, University of Portsmouth         | Software Development                                                                                    |
+| Systems Engineer, Hewlett-Packard Laboratories   | Software Development                                                                                    |
 
 ## Settings read at the sitting
 

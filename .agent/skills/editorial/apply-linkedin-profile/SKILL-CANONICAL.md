@@ -60,7 +60,9 @@ Work in `profile.md`'s order, one section at a time, and read every field at its
    caption is replaced.
 4. **Experience, Education, Licences, Projects, Publications, Volunteering, Organisations:**
    entries in the file's order; a card's linked skills come from the list, so the Skills section
-   goes before any card that links one when the list changes.
+   goes before any card that links one when the list changes. An edited position keeps the
+   skills it was linked to before the edit wherever the name is still on the list, so every
+   position's linked skills are read at its dialog and set from the list, as the projects' are.
 5. **Skills:** the list, then the order, then the three pins; every name per the typeahead
    (`linkedin-skills` §Validate every name). A rename is a delete and an add and drops the
    endorsements.
@@ -109,6 +111,14 @@ read is closed without saving.
   at the Recommendations page before a deletion is weighed.
 - Contact info carries three websites; the type list is Personal, Company, Blog, RSS feed,
   Portfolio and Other, and Other has no custom label field (2026-10-24).
+- A position's skill links survive its edit and the Skills rebuild (2026-10-24: after the
+  sitting every position still carried the old profile's links among System Architecture,
+  Open Standards, Open-Source Software, Software Development, JavaScript and TypeScript, the
+  Principal card showing "TypeScript, Open Standards, +4 skills"). The sitting sets them. The
+  "N experiences at ..." line under a skill opens an overlay listing its positions and
+  projects; the overlay's address refuses direct navigation and its text sits outside what the
+  page's script tool can query, so it is read from a screenshot after a click on the skills
+  page.
 
 ## References
 

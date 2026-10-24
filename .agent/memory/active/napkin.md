@@ -740,3 +740,11 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   headings, never written from memory of them.
 - **Contact info's Other has no custom label**, so the draft's distinct labels became Personal,
   Other and Portfolio; a fact for the field limits, now there.
+- **The sitting set no position's linked skills**, and LinkedIn keeps a position's old links
+  through an edit wherever the name is still on the list: after the sitting every position
+  carried the old profile's engineering tags (the Principal card "TypeScript, Open Standards,
+  +4 skills"). Found at the skills review later the same day, not at the read-back, because
+  the read-back checked each field against the source and the links are no field of the
+  source. Lesson: the sitting plan lists the links a surface carries, not only its fields;
+  the skill's step 4 now says so. The "N experiences" overlay refuses direct navigation and
+  hides from the page's script tool; a click on the skills page and a screenshot read it.
