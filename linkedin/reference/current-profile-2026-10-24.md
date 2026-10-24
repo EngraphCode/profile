@@ -6,8 +6,8 @@ section by section through Chrome before any change of the sitting that applies
 including stale wording and errors. The last baseline is
 [26–27 September 2026](current-profile-2026-09-27.md); what changed between the two is Jim's own
 work of October: the headline, the banner and the location. Every other section stands as
-September recorded it. The PDF export of the same day is the companion record and stays out of
-the repository.
+September recorded it. The PDF export of the same day, made by Jim, is the companion record and stays out of
+the repository, kept locally as `.agent/reference-local/linkedin/profile-2026-10-24-before.pdf`.
 
 ## Top card
 
