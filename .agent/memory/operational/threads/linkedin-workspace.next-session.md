@@ -10,7 +10,53 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-21T13:xxZ, the Oak card's shape settled as EDR-009 at the owner's verdict on the split; the Principal card to be written by the method, the how to the Project cards; the diff page in the editor; compaction at his word; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-23T16:3xZ, the draft ready at the owner's word; the lane lands through 341; the application next; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, `gh pr list`.
+- The draft is ready at the owner's word of 2026-10-23 ("The profile is ready, the next act is to
+  start updating the live surface"). `linkedin/profile.md` and `linkedin/profile.review.md` are
+  identical and validate (headline 82 of 220, About 2,359 of 2,600, the Principal card 1,844 of
+  2,000). The day's acceptances, all his: the Principal card's opening ("what should be built"),
+  growth and interventions sentences and its close on the squad; the Senior Developer card's
+  lockdown clause and the first QA engineer as the plain fact; the FT Labs lesson as its own
+  sentence; the Featured item "The Oak AI Plugin on Claude" with Anthropic's word in the caption;
+  the plugin Project card naming the MCP app as the part any assistant connects to; the About's
+  third paragraph's closing sentence at his amendments (openly licensed, digital-native, AI-ready;
+  what others build with it and the impact that creates); the top card's location as the live
+  profile shows it, Cardiff, Wales, United Kingdom. Withdrawn at his word: the headline's middle
+  segment (his accepted line stands; the About's second sentence carries the plugin above the
+  fold), a sentence naming Obaith's papers as private, a sentence building the plugin on the
+  rebuild. EDR-007 §Amendments carries the language settled today.
+- The lane `docs/linkedin-oak-content-review` (worktree `linkedin-oak-content`, draft pull
+  request 341) lands on `main` at his word of the same hour: this commit, the push, the pull
+  request marked ready and merged at checks green, minimal ceremony at his word.
+- Next act, at his word and with him present: the application to the live profile by the
+  `apply-linkedin-profile` skill through Chrome at his express request (the PDF baseline first,
+  one sitting in `profile.md`'s order, each field read at its counter, settings last, the new
+  baseline recorded). He has already set the accepted headline and his banner photograph on the
+  live profile himself (2026-10-23, 17:15 local). His one queued check, of 22 October ("once
+  everything else is settled, I think we should check that the skills still make sense"), ran on
+  23 October after the merge, at his question "did we forget to review the skills?": the
+  `linkedin-skills` method against the ready profile, the result in the registry's section of
+  that date; the list still says the person the profile does; no name proposed for removal;
+  Knowledge Graphs proposed on `linkedin/profile.review.md` and accepted at his word the same
+  hour, the list forty-eight names and both files identical again. The records rode
+  the branch `docs/linkedin-skills-check`, cut from `main` in this worktree, merged as pull
+  request 348 on 24 October; the application's records take a fresh branch. The earlier wording of this bullet read his one item as two; the
+  readers' brief (beliefs, not inventory) is the seat's own lesson of the morning, held in the
+  napkin, never an item he queued.
+- Standing word, unchanged: the live profile is edited only through Chrome at his express request
+  with him present; nothing trimmed to a number; no folds or ceremony until further notice; the
+  LinkedIn work the only work; a settled item never listed again; every finding reaches him as a
+  proposed sentence on the review file, with no surface labelled his as the reason a proposal is
+  missing. Recommendations are his to raise.
+- Seat state: n=1; no watcher or heartbeat (consumer absent); the LinkedIn claim `3b4a1be4`
+  stands with its areas, its heartbeat at 2026-10-23T16:00Z; the editor
+  (`pnpm --filter linkedin editor`, 127.0.0.1:4780, the diff page at /diff) runs as a harness
+  background task, restarted only at his word.
+
+## Previous Continuation (2026-10-21T13:xxZ, the Oak card's shape settled as EDR-009 at the owner's verdict on the split; the Principal card to be written by the method, the how to the Project cards; the diff page in the editor; compaction at his word; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status` on the lane worktree and on the primary, the claims registry, the comms

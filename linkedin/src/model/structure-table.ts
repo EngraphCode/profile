@@ -1,6 +1,6 @@
 /**
  * The closed structure of a LinkedIn profile as this workspace writes it: the sections in
- * LinkedIn's order, which of them hold entries, the body kind of each, and the believed
+ * LinkedIn's order, which of them hold entries, the body kind of each, and the
  * character limits. The parser reads the body kind; the validator reads the rest; the page learns
  * limits and folds through the validator's notes and never imports this table.
  *
@@ -17,9 +17,9 @@ export interface SectionSpec {
   readonly body: BodyKind;
   /** Whether H3 entries may sit under this section. */
   readonly entries: boolean;
-  /** The believed character limit of the section's own body, or null when none is believed. */
+  /** The character limit of the section's own body, or null when none is known. */
   readonly limit: number | null;
-  /** The believed character limit of each entry's body, or null when none is believed. */
+  /** The character limit of each entry's body, or null when none is known. */
   readonly entryLimit: number | null;
 }
 
@@ -40,9 +40,11 @@ function section(
 }
 
 /**
- * The LinkedIn profile's structure. The limits are beliefs about LinkedIn's fields until the
- * live editor confirms them (headline 220, About 2,600, a position description 2,000); the folds
- * are the first 200 and 300 characters, what a collapsed entry shows.
+ * The LinkedIn profile's structure. The limits are LinkedIn's, read from its edit forms' counters
+ * by the owner on 19 October 2026 (headline 220, About 2,600, a position's description 2,000) and
+ * on 21 October 2026 (a project's description 2,000); a field whose counter has not been read
+ * has none. The folds are the first 200 and 300
+ * characters, what a collapsed entry shows.
  */
 export const PROFILE_STRUCTURE: StructureTable = {
   sections: [
@@ -53,7 +55,7 @@ export const PROFILE_STRUCTURE: StructureTable = {
     section('Experience', 'paragraphs', true, null, 2000),
     section('Education', 'paragraphs', true, null, null),
     section('Licences and certifications', 'paragraphs', true, null, null),
-    section('Projects', 'paragraphs', true, null, null),
+    section('Projects', 'paragraphs', true, null, 2000),
     section('Publications', 'paragraphs', true, null, null),
     section('Volunteering', 'paragraphs', true, null, null),
     section('Organisations', 'paragraphs', true, null, null),

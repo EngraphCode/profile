@@ -1,6 +1,6 @@
 /**
  * The judge of a parsed profile: structural errors against the structure table, and notes that
- * are information for the writer (counts against believed limits, where the scan folds fall,
+ * are information for the writer (counts against the known limits, where the scan folds fall,
  * markdown markup that LinkedIn would show literally). Errors fail a check; notes never do.
  *
  * @packageDocumentation

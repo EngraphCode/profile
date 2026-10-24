@@ -628,3 +628,82 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   withdrawn, not listed; a report states what is done and what is next, with no ceremony
   register; the lane is the whole scope until he says otherwise. The seat's per-user memory
   carries the same.
+
+## 2026-10-23 · Shrew rides Eventide (371a2b) · the proposals after the holistic reads
+
+- **Correction (owner)**: six findings from the holistic reads were put to him as "yours" or "a
+  fact only you hold" with no proposed text. His word: all decisions are his, and the seat still
+  proposes the improvement. Cure: every finding reaches the review file as one sentence, the fact
+  it rests on named in a clause; a surface being his is never the reason a proposal is missing.
+- **Correction (owner, the third time)**: Recommendations listed as empty again. Never mentioned
+  again until he raises it. The audience-reader's inventory findings (an empty section, two
+  Featured items read as one thing, a timeline reconstructed from a company's dates) are
+  stock-taking, not beliefs; the seat's triage strikes them before he reads, and the reader's
+  brief asks for beliefs.
+- **Language settled at his word**: "the Oak AI Plugin" is the product's name on every surface;
+  "the MCP app" is the part any assistant connects to; a vendor's word (connector, app, plugin)
+  appears only as what that vendor calls its listing, labelled as such. The Featured title and
+  the plugin Project card carry it on the review file; EDR-007 carries it at the records boundary.
+- **Correction (owner)**: "The research papers stay private" on the Obaith card answered a
+  reader's wish to see the work. His word: "pandering to a reader finding that was never a
+  problem, you need to reground in our intent and in editorial excellence". A reader wanting
+  what the profile withholds by design (inform-only) is not a finding to cure in copy; the card's
+  job is the problem with no shape, the decision to stop and the lesson. Withdrawn, the accepted
+  text restored. The rebuild's "second decision built on it" withdrawn too: the plugin does not
+  depend on the rebuild, and the fact he offered instead (the plugin took the make-innovation-cheap
+  principle further, an innovation kit for new projects) buys nothing the card does not already
+  carry three times over.
+- **Correction (owner), afternoon**: the headline's middle segment (the origination claim, put
+  there "so a search result carries it") was "too long, hard to parse", "trying to do a job it is
+  not intended for". Withdrawn, his accepted line restored. The About's second sentence already
+  carries the plugin with ChatGPT and Claude above the fold, so nothing moved. Lesson: the
+  headline is his line and carries identity; the claims live in the About; a reader's finding
+  about a surface (search results show the headline alone) does not license the headline to do
+  the About's job. The same shape as the Obaith correction of the morning.
+- **His amendments on the "I stayed" sentence**: the curriculum's adjectives back (openly
+  licensed, digital-native, AI-ready: the precondition for what others build), the expansion as
+  what they build with it and the impact that creates, "classrooms" out. The seat's suggested
+  improvements on the review file (the compound adjectives hyphenated as his accepted text had
+  them, the doubled "in" after the colon out, impact singular as the About has it elsewhere).
+  The rest of the morning's proposals accepted into the draft at his word; the diff shows About
+  alone.
+- **Live profile, by the owner, 17:15 local**: the accepted headline back on the live profile (his screenshot, two lines in the top card), and the banner set to one of his own photographs, a garden with a squash and a watering can, as the Top card status of 12 October records (his photograph, without text, chosen by him). Nothing on the draft to change; no seat edit on the live profile.
+- **Pull request 341, the Copilot round (16:4xZ)**: two observations on the editor, both accurate and both outside the pull request's scope by the reviewer's own label: the diff link navigates in the same tab while the save is debounced 600 ms (a click inside that window loses the last keystrokes; cure: flush the pending save on navigation, or open the diff in a new tab), and move detection keys blocks by text in a set, so repeated identical paragraphs lose their occurrence counts (cure: a multiset of keys). Disposition: merged as is, the cures recorded here for the editor's next change; answered and resolved under the bot. The bot's ready-mark did not register a Copilot request; the operator-credential request (gh pr edit 341 --add-reviewer @copilot, the rule's mapped exception) registered on the timeline within a minute.
+- **The Skills check (17:2xZ), at his question "did we forget to review the skills?"**: not
+  forgotten, not yet run. His word of 22 October was "once everything else is settled", and the
+  records pass of 16:3xZ had read his one item as two checks, attributing the readers'-brief
+  lesson (beliefs, not inventory, the seat's own, from the morning's correction) to him;
+  corrected on the thread record. The check itself, by the linkedin-skills method against the
+  ready profile: every name read for the card that now shows it; the list still says the person;
+  Mentoring's showing sentence had left the Principal card on 22 October (HP Labs and Medicspot
+  the nearest), Science Communication and Public Speaking stand on his word with no card,
+  TypeScript through the linked repositories; one proposal on the review file, Knowledge Graphs
+  (held since 11 October; the Plugin card now names the ontology); Semantic Search not proposed
+  (the stack-tag class). The decisions file's system paragraph re-trued: its anchors were the 7
+  October headline's and it quoted a Principal sentence no longer on the card. Lesson: a queued
+  check whose trigger is "once everything else is settled" fires at the ready word, before the
+  merge, not at the application; the seat put it after the merge and he had to ask.
+- **The first push of the records branch refused (17:4xZ)**: the pre-push gate runs the whole repository check, and its skills check named the registry under the linkedin-skills skill as projected into two generated adapter copies (`.claude/skills/jc-linkedin-skills/references/` and `.agents/skills/jc-linkedin-skills/references/`), both drifted after the registry edit. Cure: `pnpm skills:generate` then `pnpm skills:check`, a second commit with the two copies. Lesson: an edit to any file under a canonical skill directory, references included, is followed by the generator before the commit; the first attempt also died at a three-minute tool timeout the gate outlasts, so a push runs in the background.
+- **Knowledge Graphs accepted (18:0xZ)**: his one word, "accepted"; the entry into `profile.md` after Responsible AI, the status clause closed on both files, the registry at forty-eight with row 20 and the rest renumbered, the held table without it, the decisions file with the dated paragraph, the thread record. The adapter copies regenerated before the commit this time.
+
+## 2026-10-24T12:xxZ — The coordination branch's push refused by the substrate check; main merged in (Shrew rides Eventide, 371a2b)
+
+- **The refusal**: the pre-push gate's `practice:substrate:check` named the generated read model
+  `.agent/state/collaboration/shared-comms-log.md` stale (blocking, deterministic repair). Cause: the
+  render on disk was of 21 October 13:48 and comms events had been appended until 22 October; the
+  check renders the events afresh and compares the text. Neither file is tracked (the
+  collaboration state's `.gitignore`), so the gate blocks a push on machine-local drift. Cure:
+  `pnpm agent-tools collaboration-state comms render --comms-dir .agent/state/collaboration/comms
+  --output .agent/state/collaboration/shared-comms-log.md`, then the check green. The owner's
+  hypothesis (state or config put into a test) checked: the check is a validator in
+  `repo-validators:check`, and the unit test beside it (`live-shared-comms-log.unit.test.ts`)
+  runs on literal snapshots with no IO; the test is clean. Open design question, not acted on: a
+  push gate that blocks on an untracked machine-local render is a gate on the machine's state,
+  not the tree's.
+- **The merge of `main`**: 26 commits in (341, 347, 348 and the lane's), 24 out; five conflicts.
+  The three `linkedin/` files took `main`'s versions outright: the coordination branch's blobs
+  are in `main`'s history (`SHA:f066e0dc`, superseded at `SHA:96d7e2dc`), so the lane carried
+  them forward. The napkin: two disjoint sets of dated sections, kept in time order. The thread
+  record: `main`'s block of 23 October stays the pickup, the coordination branch's block of 21
+  October demoted beneath it, the 17 October block as the coordination branch had it; the 16
+  October block the coordination branch had replaced on 17 October stays replaced.

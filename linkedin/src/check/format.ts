@@ -53,8 +53,8 @@ function describeNote(note: ValidationNote, document: ProfileDocument): string {
   const heading = headingAt(document, note.where);
   if (note.kind === 'count') {
     return note.limit === null
-      ? `${heading}: ${thousands.format(note.count)} characters, no believed limit`
-      : `${heading}: ${thousands.format(note.count)} characters of a believed ${thousands.format(note.limit)}`;
+      ? `${heading}: ${thousands.format(note.count)} characters, no known limit`
+      : `${heading}: ${thousands.format(note.count)} characters of ${thousands.format(note.limit)}`;
   }
   if (note.kind === 'fold') {
     return `${heading}: fold ${String(note.at)} falls in paragraph ${String(note.paragraph + 1)} at ${String(note.offset)}`;

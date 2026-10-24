@@ -19,7 +19,7 @@ const at = (method: string, url: string, body = '') => ({ host: HOST, method, ur
 /** The shape of an error answer. */
 const errorBody = z.strictObject({ error: z.string() });
 
-/** Constant reads, a writer that records what it receives, and the two page texts. */
+/** Constant reads, a writer that records what it receives, and the two pages' texts. */
 function seams(written: string[]): EditorSeams {
   return {
     readSource: () => Promise.resolve(SOURCE),
@@ -30,6 +30,8 @@ function seams(written: string[]): EditorSeams {
     },
     pageHtml: '<!doctype html><title>Editor</title>',
     pageScript: 'export {};',
+    diffHtml: '<!doctype html><title>Diff</title>',
+    diffScript: 'export const diff = true;',
   };
 }
 
@@ -57,6 +59,26 @@ describe('the editor handler', () => {
       status: 200,
       contentType: 'text/javascript; charset=utf-8',
       body: 'export {};',
+    });
+  });
+
+  it('answers GET /diff with the injected diff page as html', async () => {
+    const response = await createEditorHandler(seams([]))(at('GET', '/diff'));
+
+    expect(response).toEqual({
+      status: 200,
+      contentType: 'text/html; charset=utf-8',
+      body: '<!doctype html><title>Diff</title>',
+    });
+  });
+
+  it('answers GET /diff.js with the injected diff script as javascript', async () => {
+    const response = await createEditorHandler(seams([]))(at('GET', '/diff.js'));
+
+    expect(response).toEqual({
+      status: 200,
+      contentType: 'text/javascript; charset=utf-8',
+      body: 'export const diff = true;',
     });
   });
 

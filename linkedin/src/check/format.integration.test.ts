@@ -26,8 +26,8 @@ describe('formatOutcome', () => {
     expect(formatOutcome(outcome('profile.md', text))).toBe(
       [
         'OK profile.md',
-        'note   L3    About: 10 characters of a believed 2,600',
-        'note   L9    Skills: 7 characters, no believed limit',
+        'note   L3    About: 10 characters of 2,600',
+        'note   L9    Skills: 7 characters, no known limit',
         '',
       ].join('\n'),
     );

@@ -26,23 +26,29 @@ character folds; his edits land in `profile.review.md`, never in the source.
 ## The profile as one system, and what is open for Jim's review
 
 The headline's anchors recur through the profile in natural context, never as the same sentence,
-and the Skills say them in LinkedIn's nouns:
+and the Skills say them in LinkedIn's nouns (re-read 23 October 2026 against the profile declared
+ready, the anchors as the headline now reads):
 
 - **Innovator**: the About's plugin and Practice paragraphs; the Principal card; Projects. Skills:
   Technological Innovation, Social Innovation, Research and Development (R&D), Prototyping,
-  Emerging Technologies, Startups, Open-Source Development.
+  Emerging Technologies, Startups, Entrepreneurship, Open-Source Development.
 - **Engineer**: the rebuild and the plugin's build on the Oak cards; the earlier cards. Skills:
   Software Development, Software Engineering Practices, Web Technologies, JavaScript, TypeScript,
   C, Platform Engineering, Product Engineering, Model Context Protocol (MCP), AI Agents,
-  Generative AI, Large Language Models (LLM), Responsible AI.
+  Generative AI, Large Language Models (LLM), Responsible AI, Knowledge Graphs, Open-Source
+  Software.
 - **Scientist**: the About's physics paragraph; the PhD card; Education; Publications. Skills:
   Scientific Research, Physics, Astrophysics, Cosmology, Computational Physics, Statistical
-  Modeling, Parameter Estimation, Scientific Writing, Science Communication, Public Speaking.
-- **Making sense of the unknown**: the About's first line; Obaith; the Passport Office. Skills:
-  Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
-- **Shaping strategy and systems**: "Oak's engineering strategy is my responsibility" and the rebuild on the
-  Principal card. Skills: Strategic Leadership, Technology Leadership, System Architecture, Open
-  Data, Open Standards, Public Sector, Digital Government, Edtech, Social Impact, Mentoring.
+  Modeling, Parameter Estimation, Citizen Science, Scientific Writing, Science Communication,
+  Public Speaking.
+- **Celebrating the unknown**: the About's first and last lines; Obaith; the Passport Office.
+  Skills: Systems Thinking, Scientific Research, Research and Development (R&D), Prototyping.
+- **Making space for change**: "what it means in technology, and what should be built, is mine",
+  the two decisions and the rebuild on the Principal card. Skills: Strategic Leadership,
+  Technology Leadership, Thought Leadership, System Architecture, Open Data, Open Standards,
+  Digital Public Goods, Public Sector, Digital Government, Edtech, Social Impact, Mentoring (its
+  sentence left the Principal card on 22 October; the HP Labs and Medicspot cards are the
+  nearest).
 
 The three pins are the identity a scanner reads and the only skills LinkedIn exports with him,
 set by Jim on 11 October, evening: Technological Innovation (the headline's first word, shown by
@@ -86,6 +92,28 @@ than smoothed (open, for the review after the compaction of 16 October); the mer
 opening sentence on the strategy his to edit by hand; "the direction I set" stands, setting
 direction and holding space for the teams to deliver being about right.
 
+Jim's dispositions of 17 October on the three items left open: the merged card's opening sentence
+on the strategy he edits by hand (no seat proposal applied); the Practice Project card's second
+sentence keeps the why and drops the relist ("AI-first delivery runs at pace without losing the
+institutional knowledge it puts at risk"), his to edit further; the Project card opens on the
+artefact ("Three parts: the tooling, the rules every agent works to, and the written memory that
+keeps what the work learns."), and closes in his words: "The Oak AI plugin was built in it; the
+engineers working on the Open Curriculum Ecosystem build in it now; it is publicly available, and
+designed to be adopted gradually and reversibly." Applied in the lane
+`docs/linkedin-oak-content-review`, both copies identical.
+
+Jim's edits of 17 October in the editor, absorbed the same day: the headline's middle phrase
+"Celebrating the unknown"; the About's first paragraph leading on the plugin ("AI assistants such
+as ChatGPT and Claude", still before the 200-character fold) with the strategy after; "My joy of
+the unknown began with physics"; "to ensure access to education"; "the direct and indirect
+impacts"; the Practice sentence joined with a colon, "preserving critical institutional knowledge
+ignored and lost in many AI systems"; physics research added to the "Before Oak" list (the serial
+"and" moved to the end at his word). The closing line settled in conversation: his "The more I
+learn, the less I know" was a deliberate compression of the line attributed to Einstein, tying
+back to physics; the seat's verdict, taken, that the attribution has no primary source and the
+compressed form reads as the circulating aphorism, so his earlier line stands with his new second
+sentence, "The more I learn, the bigger the questions get. I love it."
+
 Settled with Jim on 12 October, in a round of self-contained questions at his request, for the
 next editable draft, which he edits in the editor: the Principal card stands alone at the fold
 and shows the level by decision (he decides what gets built and makes the case; the two
@@ -128,6 +156,99 @@ Open for Jim's edit, 13 October: the Principal card's 139 characters; the three 
 own; the banner photograph; the industry value confirmed at the dropdown at application; the
 settings at application (Open to Work off; profile-update sharing off during editing, one
 notification at the end).
+
+Jim's edits of 19 October in the editor, two rounds, absorbed the same day: the headline's second
+half, "making space for change"; the merged Principal card rewritten by him through every
+paragraph but the close, framed as the history of Oak and his place in it (his frame, agreed):
+the opening on responsibility for vision and strategy, carried by guiding, mentoring and
+correcting course, the two decisions and their two organising principles, reach and cheap
+innovation; the growth paragraph with his interventions at each scale; the rebuild argued, backed
+and carried; the plugin's opportunity, case and delivery; the Practice. The seat's line
+suggestions applied at his numbered dispositions, with his amendments: the interventions matched
+to Oak's scale as it grew; "the cost of the speed the emergency had demanded"; the product name
+"Oak AI Plugin" capitalised throughout at his word, the bare "plugin" lower case as the common
+noun; "the MCP app". The rebuild's staged adoption in one sentence at his word, the same rebuild
+the annual reports measure by user migration: the public site within six months, then the
+teacher experience, then the pupil experience; the six-month and parallel-running detail stays
+out of the copy beyond that at his word. Oak's published figures, from
+[the research note](research/oak-impact-figures-2026-10-19.md), at his choice: the About's peak
+swapped for the evaluation's 2.5 million pupils in one week; the card carries the 72% of
+England's schools, the £290m of teachers' time saved in 2023-24 (300% above estimate), the four
+hours a week, and the greater use where disadvantage is highest. Left out at the seat's
+judgement, open to his word: the uptime figure (the 99.9% target met at an average quarterly
+uptime of 100%, Engineering's own) and the retention comparison (the evaluation says only "could
+be linked"). The count is set aside at his word. Applied in the lane, both copies identical.
+
+Later on 19 October, the seat's holistic review of the whole profile and Jim's dispositions on
+it: Oak as "the UK's official curriculum body" in the About beside "72% of England's schools" on
+the card is no tension (his word: Oak is the UK body, the curriculum applies to England;
+settled); the Practice defined in the About, the card and its Project card, with a near-verbatim
+phrase shared by the first two, noted for the count pass; the three identical titles "Product
+and Platform Delivery Consultant" his choice, open to suggestion, the seat's suggestions in
+conversation (one lever per engagement in the title); the AgilePM Foundation certificate
+removed at his word, the two FutureLearn courses kept at his word; the About's plugin sentence
+rephrased at his word so Oak is named twice ("the open curriculum"); one sentence naming the
+pattern across the career added to the About at his word, after the "Before Oak" list; the
+£290m sentence out at his word, the four hours a week kept over it; the Featured and Contact
+status lines corrected, the Scholar item having left Featured at his word of 14 October (landed
+16 October) while both status lines still placed it there. Open: the count pass, next, with his
+acts protected and the believed limit of 2,000 on an Experience description verified at the
+live form before any cut. Applied in the lane, both copies identical.
+
+Jim's word, later on 19 October: the three consultant titles, one lever per engagement,
+Platform Engineering Consultant (Medicspot), Programme Delivery Consultant (UK Home Office) and
+Engineering Practice Consultant (British Airways), replacing the one neutral label on all three;
+the live titles they supersede are Head of Test (consulting), Programme QA Consultant and QA
+Automation Consultant. Nothing is cut for the count, at his word: if a verified limit requires
+it the card is recrafted, that process has not begun, and the first step is to find the real
+limits and consider the options.
+
+Jim's word of 19 and 21 October on the limits: he read the counters on the live edit forms
+himself, headline 220, About 2,600, a position's description (the field LinkedIn now labels
+Highlights) 2,000, each the figure the validator held; "believed" is retired from the validator,
+the editor page and the apply skill's field-limits reference, which records the three
+confirmations. The Principal card at 2,852 is the only field over. His word of 21 October: a diff
+page in the editor, the review file against the source, and the seat's proposed split of the
+Principal card shown on it. The proposal is in the review file: two positions under Oak with the
+same title, the later Jun 2022 to present at 1,891 characters (his opening sentences, the growth
+paragraph's arc, the plugin, the Practice and the close verbatim), the earlier Jan 2021 to May
+2022 at 1,533 (the growth paragraph's arc, the rebuild paragraph and his sentence on joining
+permanently verbatim); only the seam sentences are the seat's; his correction of 21 October
+applied, the growth paragraph keeping his language in both cards, with the first QA engineer,
+engineering manager and platform group in the earlier period and the design of the team
+structure and practices in the later; the dates are his from the draft of 12 October, and the
+employment type (Full-time, Contract) is LinkedIn's field, set at application; nothing cut. The
+source is unchanged; the
+review file differs from it by design until his word, when it is absorbed or copied back from
+the source. The readers run on the whole draft when he says it is his, as agreed. Superseded
+the same afternoon by the paragraph below. The uptime figure is settled out, at his word of
+21 October: an operations claim, and the profile expresses the innovator (EDR-008); it is not
+raised again.
+
+Jim's verdict of 21 October on the split, verbatim: "you are turning it from good writing into
+a litany of facts with no soul and no connection". The seat's reflection against the editorial
+skills and directives, reported and agreed, is EDR-009: the split was written for the material
+(two date ranges and a count), its joining sentences were labels and tells, the sentences whose
+meaning is their span were halved, the count chose where the seam fell, and a diff page is an
+instrument for what moved, never for whether the result reads; the fourth instance of the
+failure the write-for-the-reader skill names, now in its gotchas. Settled with him: the Oak
+block is two cards, the Senior Developer card as it stands and the Principal card as one piece
+of writing from January 2021, carrying the why, the call, the cost, the authority and the
+impact; the three Project cards (the plugin, the Practice, the rebuild; a project description's
+limit of 2,000, read by him at the counter on 21 October) carry the how as warrants written for
+the reader who opens them; Featured is a showcase of a post, article, link, image or document
+and takes no copy, the three links standing; the FT Web App stays a Project card reworded in
+the past tense, its opening a label without a verb, the awards carrying "lauded at the time";
+whether it names his part was the seat's question, not a valid one, and is withdrawn. The split
+is withdrawn and the review file is the source again. His scope, 21 October: the LinkedIn work
+is the only work, and folds, ceremony and the dependency pull requests are not raised until he
+says otherwise. Next, in order: the reader's decision and the beliefs for the Principal card on paper,
+shown to him before any draft; one draft by the method, his sentences kept where they are his;
+the three Project cards and the FT card; the voice check, editor, prose-expert and the
+audience-reader with dispositions shown; then Jim, in the editor, the diff page showing his
+edits against the source. The count is read once, as information; if a card written by the
+method still refuses its field, what moves elsewhere is his. While he iterates on the text, the
+review file is the surface and commits wait for a boundary he names.
 
 ## Headline — approved (Jim, 7 October 2026; set by him in August)
 
@@ -518,6 +639,13 @@ Leadership are added in their places (Thought Leadership after Technology Leader
 Entrepreneurship beside Startups, Digital Public Goods after Open-Source Development, Citizen
 Science after Physics; forty-seven entries, applied 12 October); Strategic Partnerships is not
 added, at his word.
+
+Jim's word, 23 October, on the check he had queued on 22 October ("once everything else is
+settled, I think we should check that the skills still make sense"), run against the profile he
+declared ready: the list still says the person the profile does, no name proposed for removal,
+the showing cards re-read in the registry's section of that date; Knowledge Graphs, held since 11
+October and typeahead-confirmed, proposed from the Plugin card's ontology and accepted at his
+word the same hour, after Responsible AI; forty-eight entries.
 
 ## Recommendations — settled (Jim, 11 October 2026: he will ask)
 

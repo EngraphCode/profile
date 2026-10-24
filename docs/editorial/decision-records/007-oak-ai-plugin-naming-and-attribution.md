@@ -107,3 +107,19 @@ Attribution:
   composition and the platform pass
 - [`linkedin/profile-replacement.md`](../../../linkedin/profile-replacement.md) — the working
   object this record governs
+
+## Amendments
+
+- 2026-10-19, at the owner's word: the product's name is capitalised as a product name, **the Oak
+  AI Plugin**, on every surface of the profile.
+- 2026-10-23, at the owner's word on consistent language: a reader meets two things, and the
+  profile names them the same way everywhere. **The Oak AI Plugin** is the product, under Oak's
+  name, never a vendor's. **The MCP app** is the part of it any assistant connects to, named only
+  where copy describes how the plugin is built (the Project card: a public SDK, semantic search
+  and the MCP app, generated from the Oak public API ontology). A vendor's word (connector, app,
+  plugin) appears only as what that vendor calls its listing, labelled as such: the Featured item
+  for the Claude listing is titled "The Oak AI Plugin on Claude", its caption opening "Listed by
+  Anthropic as the Oak National Academy connector". The skills and sub-agents bundled in the
+  plugin are described as the plugin carrying the curriculum principles and the accessibility
+  bar, with no vendor word. Decision 3 under Naming stands; this entry names the part and the
+  labelling.

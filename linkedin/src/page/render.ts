@@ -49,14 +49,18 @@ function sameWhere(a: Where, b: Where): boolean {
   );
 }
 
+/** The count line's text: the characters, and the limit or that none is known. */
+export function countText(count: number, limit: number | null): string {
+  const known = limit === null ? 'no known limit' : `limit ${thousands.format(limit)}`;
+  return `${thousands.format(count)} characters · ${known}`;
+}
+
 function countLine(notes: readonly ValidationNote[], where: Where): string {
   const count = notes.find((note) => note.kind === 'count' && sameWhere(note.where, where));
   if (count === undefined || count.kind !== 'count') {
     return '';
   }
-  const limit =
-    count.limit === null ? 'no believed limit' : `believed limit ${thousands.format(count.limit)}`;
-  return `<span class="meta">${thousands.format(count.count)} characters · ${limit}</span>`;
+  return `<span class="meta">${countText(count.count, count.limit)}</span>`;
 }
 
 function changedBadge(changed: boolean): string {
@@ -168,21 +172,34 @@ function openListHtml(sections: readonly Section[]): string {
   return `<section class="open-list"><h2>Still open</h2><ul>${items}</ul></section>`;
 }
 
-function stripHtml(report: FileReport): string {
-  if (report.kind === 'unparsable') {
-    const line = 'line' in report.error ? `L${String(report.error.line)}` : '-';
-    return `<div class="strip strip-error"><strong>Cannot parse:</strong> ${line} ${report.error.kind}</div>`;
-  }
+/** A report whose file parsed. */
+export type ParsedReport = Extract<FileReport, { kind: 'parsed' }>;
+
+/**
+ * The structure errors of a parsed report as a strip, each with its line, after `subject` (a
+ * name for the file, when the page shows more than one); nothing when there are none.
+ */
+export function errorStripHtml(report: ParsedReport, subject = ''): string {
   const { errors } = report.validation;
   if (errors.length === 0) {
-    return '<div class="strip strip-ok">Structure valid</div>';
+    return '';
   }
   const items = errors
     .map(
       (error) => `<li>${lineOf(error)} ${escapeHtml(describeError(error, report.document))}</li>`,
     )
     .join('');
-  return `<div class="strip strip-error"><strong>${String(errors.length)} structure error${errors.length === 1 ? '' : 's'}</strong><ul>${items}</ul></div>`;
+  const count = `${String(errors.length)} structure error${errors.length === 1 ? '' : 's'}`;
+  return `<div class="strip strip-error"><strong>${subject}${count}</strong><ul>${items}</ul></div>`;
+}
+
+function stripHtml(report: FileReport): string {
+  if (report.kind === 'unparsable') {
+    const line = 'line' in report.error ? `L${String(report.error.line)}` : '-';
+    return `<div class="strip strip-error"><strong>Cannot parse:</strong> ${line} ${report.error.kind}</div>`;
+  }
+  const errorStrip = errorStripHtml(report);
+  return errorStrip === '' ? '<div class="strip strip-ok">Structure valid</div>' : errorStrip;
 }
 
 /** Render the whole pane. */
