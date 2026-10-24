@@ -20,7 +20,7 @@ impact_areas:
 tickets: []
 depends_on: []
 owner_gates: []
-last_updated: 2026-10-21
+last_updated: 2026-10-24
 ---
 
 # Finish the LinkedIn profile rewrite, the Skills derived and the draft ready for Jim's review
@@ -111,6 +111,20 @@ lane's landing path; the fold's settlement budget applies at the fold.
   prioritised.
 - The editorial doctrine in three layers: a separate sketch node under an owner gate.
 - Requests for recommendations and any settings change: his word, at application.
+
+## State, 2026-10-24
+
+Finished. Todo 6 closed on 23 October when Jim declared the draft his ("The profile is ready,
+the next act is to start updating the live surface"), the readers having run on the whole draft
+and the Skills check he queued on 22 October run the same day; the lane merged through pull
+request 341. The application, out of this node's scope, ran on 24 October as one sitting under
+the `apply-linkedin-profile` skill with Jim present and no separate plan node, at his word of 21
+October that the LinkedIn work runs without ceremony: every section of `linkedin/profile.md` is
+on the live profile and read back, the after-baseline is
+`linkedin/reference/current-profile-2026-10-24-after.md`, and the LinkedIn thread record's
+current block carries the three items at his word (the thesis date, the first paper's co-author,
+the Principal card's first sentence). Every acceptance criterion above holds; the node stays
+ratified as the record of the finish.
 
 ## State, 2026-10-21
 

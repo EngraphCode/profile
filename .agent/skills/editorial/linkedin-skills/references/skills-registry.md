@@ -41,7 +41,9 @@ Columns: provenance; live position on 2026-09-27 (— if absent); the tier (pin,
 The forty-eight entries of `linkedin/profile.md` §Skills. The tail runs in the order of the page
 (Oak's innovation and strategy, the plugin's AI, systems and the open ecosystem, the public
 sector, physics, the communicating, mentoring, the craft); beyond that, at Jim's word, the order
-carries no meaning.
+carries no meaning. The Live column is the position on the profile of 11 October, before the
+application; since 24 October every row is live at its table position (the applied section
+below).
 
 | Pos. | Skill | Provenance | Live | Tier | 2018 crawl | Typeahead 2026-10-11 | Note |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -116,6 +118,104 @@ Proposed on `linkedin/profile.review.md` and accepted at Jim's word the same hou
 held since 11 October and confirmed at the typeahead, the Plugin card now naming the Oak public API
 ontology the SDK, the search and the MCP app are generated from; position 20, after Responsible AI. Not proposed: Semantic Search, named twice on
 the Plugin card, a stack tag of the class he removed on 11 October.
+
+## Applied to the live profile, 2026-10-24
+
+The sitting of 24 October 2026 (the `apply-linkedin-profile` skill, Jim present) replaced the
+live list with the canonical list above: the 53 names of the removed table deleted one by one
+through each skill's own dialog, the dialog's title checked against the name before every
+delete; the 38 names not already live added, each taken from the typeahead's exact option and
+never typed past it, none refused; the 48 ordered at LinkedIn's reorder screen to the table's
+order and read back identical on a fresh load; the three pins set as the About section's top
+skills, shown on the profile as "Top skills". The ten names that were live kept their entries
+and their endorsements. The after-baseline is
+`linkedin/reference/current-profile-2026-10-24-after.md`.
+
+A card's linked skills were set at the same step at Jim's word of the sitting ("each project
+adds appropriate skills from the approved list"), the seat's choice, his to change: the Oak AI
+Plugin links Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Knowledge
+Graphs and Open Data; the Practice links AI Agents, Software Engineering Practices, Responsible
+AI, Platform Engineering and Large Language Models (LLM); the rebuild links System Architecture,
+Platform Engineering, Product Engineering, Web Technologies and TypeScript; the FT Web App links
+Web Technologies, JavaScript, Software Development, Open Standards and Product Engineering (its
+Problem Solving link went with that skill's deletion).
+
+LinkedIn's profile-skill ids, read from the page's edit controls, for a seat that scripts the
+list (an id belongs to the entry on the profile, so a name deleted and re-added gets a new one;
+the ten kept names carry their old ids):
+
+| Pos. | Skill | Id |
+| --- | --- | --- |
+| 1 | Technological Innovation | 1853624483 |
+| 2 | Artificial Intelligence (AI) | 1853670064 |
+| 3 | Social Impact | 1853673398 |
+| 4 | Systems Thinking | 19 |
+| 5 | Strategic Leadership | 1853676555 |
+| 6 | Social Innovation | 1853679710 |
+| 7 | Technology Leadership | 1853682882 |
+| 8 | Thought Leadership | 1853697105 |
+| 9 | Research and Development (R&D) | 1853700420 |
+| 10 | Prototyping | 1853703567 |
+| 11 | Scientific Research | 1853707021 |
+| 12 | Emerging Technologies | 1853710204 |
+| 13 | Startups | 1853713740 |
+| 14 | Entrepreneurship | 1853728170 |
+| 15 | AI Agents | 1853731320 |
+| 16 | Model Context Protocol (MCP) | 1853734636 |
+| 17 | Generative AI | 1853738104 |
+| 18 | Large Language Models (LLM) | 1853741428 |
+| 19 | Responsible AI | 1853744888 |
+| 20 | Knowledge Graphs | 1853759864 |
+| 21 | System Architecture | 382291369 |
+| 22 | Platform Engineering | 1853763035 |
+| 23 | Product Engineering | 1853766193 |
+| 24 | Software Engineering Practices | 1853769641 |
+| 25 | Open Data | 1853772824 |
+| 26 | Open Standards | 1651087007 |
+| 27 | Open-Source Software | 1651038933 |
+| 28 | Open-Source Development | 1853776736 |
+| 29 | Digital Public Goods | 1853791343 |
+| 30 | Public Sector | 1853794835 |
+| 31 | Digital Government | 1853798131 |
+| 32 | Edtech | 1853801256 |
+| 33 | Astrophysics | 1853804433 |
+| 34 | Cosmology | 1853807600 |
+| 35 | Computational Physics | 1853822232 |
+| 36 | Statistical Modeling | 1853825577 |
+| 37 | Parameter Estimation | 1853829034 |
+| 38 | Physics | 162 |
+| 39 | Citizen Science | 1853832174 |
+| 40 | Scientific Writing | 172 |
+| 41 | Science Communication | 1853835495 |
+| 42 | Public Speaking | 1853838649 |
+| 43 | Mentoring | 1853842260 |
+| 44 | Software Development | 156 |
+| 45 | Web Technologies | 1853845432 |
+| 46 | JavaScript | 144 |
+| 47 | TypeScript | 1093112062 |
+| 48 | C | 164 |
+
+### Endorsements on the live profile, read 2026-10-24
+
+Read from the skills detail page in the self view after the reorder. Where only highlight lines
+show, the count is a floor; endorsers' names are not recorded.
+
+| Skill                | Count                         | Lines read                                   |
+| -------------------- | ----------------------------- | -------------------------------------------- |
+| Software Development | 12                            | 3 colleagues at Financial Times              |
+| JavaScript           | at least 4                    | a person and 3 others; no number             |
+| Physics              | 3                             | 3 endorsements                               |
+| Astrophysics         | 2                             | 2 endorsements                               |
+| Cosmology            | 2                             | 2 endorsements                               |
+| Statistical Modeling | 2                             | 2 endorsements                               |
+| C                    | 2                             | 2 endorsements                               |
+
+Astrophysics, Cosmology and Statistical Modeling were not on the profile on 11 October and showed
+two endorsements each on the day they were added; the inference, not verified, is that LinkedIn
+keeps endorsements against a name removed earlier and restores them when the name returns. The
+endorsements that left with the removed names (Java 13, Test Automation 8, Programming 5, HTML5
+5, Software Engineering 2 to 3, CSS 2, Web Applications at least 1, Communication 1) were given
+up at Jim's rulings of 11 October.
 
 ## Free-text names the typeahead did not know, 2026-10-11
 

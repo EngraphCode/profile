@@ -74,8 +74,9 @@ read is closed without saving.
 
 1. A second PDF export; the new baseline recorded beside the first.
 2. `linkedin-skills/references/skills-registry.md` updated from the live list, with counts.
-3. The container's statuses moved to live, with the date; the thread record's block; the
-   entity graph untouched (LinkedIn is not a derived surface of `jcdotnet/content/entities.json`;
+3. Every applied section's status note records the application date (the validator's status
+   tokens are `approved`, `drafted` and `open`, so "live" is a note, never a token); the thread
+   record's block; the entity graph untouched (LinkedIn is not a derived surface of `jcdotnet/content/entities.json`;
    the lane that brings LinkedIn content into the graph is Jim's to open).
 
 ## Gotchas
@@ -88,6 +89,26 @@ read is closed without saving.
   typed past the dropdown is free text (`linkedin-skills` §What LinkedIn does with the list).
 - The headline shows in search results, connection requests and messages; the About's first
   lines show before "see more".
+- Adding a position, a past one included, replaced the headline with "<title> at <organisation>"
+  on Save (observed 2026-10-24, the HP Labs entry). After any position is added, the headline is
+  read at the Edit intro dialog and restored from the source before anything else.
+- The description of a position and the headline are contenteditable fields, not inputs: a
+  form fill refuses them and typing dropped doubled letters now and then ("asistants"). The
+  sitting of 2026-10-24 set them by one `insertText` command through the page's own script
+  tool and read the field back for an exact match before Save; plain inputs took a form fill.
+- A publication's stored date can fail LinkedIn's own validation on edit (31 December 2008 shown as
+  1 January 2009): the Save is refused with "Please enter a valid date" under the field and the
+  dialog stays open, so a navigation away loses the edit silently. Every Save is followed by a
+  read of the page, and a refused date is set to the one the profile displays.
+- The experience details page loads its last entry only after a scroll to the end of the list
+  (2026-10-24: the HP Labs entry read as absent, a duplicate added, the original then found and
+  the duplicate deleted). Every details page is scrolled to its end before an entry is read as
+  absent.
+- Endorsements sit on skills and survive a position's deletion; recommendations sit on
+  positions and go with them. The two were conflated on 2026-10-24, so the received list is read
+  at the Recommendations page before a deletion is weighed.
+- Contact info carries three websites; the type list is Personal, Company, Blog, RSS feed,
+  Portfolio and Other, and Other has no custom label field (2026-10-24).
 
 ## References
 

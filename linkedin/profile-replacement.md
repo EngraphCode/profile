@@ -686,8 +686,14 @@ papers link by DOI and the
 thesis is a third Publications entry, the three works the ORCID record lists; the ORCID iD sits
 on the PhD entry.
 
-## Settings — open
+## Settings — read at the sitting, 24 October 2026
 
 Open to Work off. The "share profile updates with your network" setting stays off during
 editing; one deliberate notification at the end. Public visibility as now. The custom profile URL
 stays.
+
+Read at the sitting of 24 October 2026, nothing to change: Open to Work was off and stays off;
+"Share profile updates with your network" was already off and was left off, so no edit of the
+day notified anyone; public visibility and the custom URL untouched; the industry already
+Technology, Information and Internet. The one deliberate notification at the end is Jim's call
+and was not made at the sitting.

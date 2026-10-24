@@ -10,7 +10,53 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-24T13:5xZ, the application sitting prepared; the baseline recorded; compaction at the owner's word, the sitting begins after it; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-24T15:4xZ, the profile applied to LinkedIn at the sitting, every section live and read back; the records on the branch; three items at the owner's word; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
+- **What happened.** The sitting of 24 October (after the compaction at 13:5xZ, the last live
+  Save at 15:3xZ; the owner present, his own Save on every field to the Home Office card and the
+  seat's Saves after that at his word, "as long as you are faithfully updating the profile you
+  can save without me") applied `linkedin/profile.md` to the live profile in the draft's order,
+  each field read back against the source after its Save: the About (his edit in the dialog, "I
+  love it." out, the source following it); Featured, three links in the draft's order;
+  Experience, ten entries edited in place and four deleted at his word (Head of DevOps and
+  Quality, We Predict, FT Labs 2013 to 2014, Carnegie Mellon), the HP Labs entry found last
+  after a scroll and a duplicate the seat had added deleted; Education, three; Licences, five
+  deleted; Projects, the FT Web App edited and the three Oak projects added as cards with media
+  links, associated with the Principal position; Publications, two edited and the thesis added;
+  Volunteering and Organisations, one each; Skills, 53 deleted, 38 added, 48 in the canonical
+  order, the three pins; Contact info, the three websites (Personal, Other, Portfolio). Settings
+  read, nothing to change: update sharing already off, Open to Work off, the industry already
+  Technology, Information and Internet, visibility and the URL untouched; no edit notified
+  anyone.
+- **The records on this branch** (`docs/updating-profile`): the after-baseline
+  `linkedin/reference/current-profile-2026-10-24-after.md`; every applied status note in
+  `profile.md` dated 24 October with the counts at the counter (the validator OK; the status
+  tokens stay `approved`, "live" is a note); the registry's applied section with the 48 ids and
+  the endorsements of the day; the container's §Settings; the skill's gotchas and field limits;
+  the napkin; the plan node's state. Committed by pathspec at his word of the day on commits;
+  the push and the merge to `main` at his word. This branch has no pull request, so the
+  review-cost gate passes its first push.
+- **At the owner's word, the exact decisions, each put on 24 October:**
+  1. The thesis entry under Publications has no date: LinkedIn's date field wants a day and the
+     card carries 2010 alone. The decision: a day to set, or none.
+  2. The first paper's co-author entry (Will J. Percival) no longer shows after the edit's
+     Save; the description names him. The decision: re-add him as a co-author, which notifies a
+     member, or leave the description to carry him.
+  3. The Principal card's first sentence, his note on reading the card on the page: "very
+     confusing". The seat's proposed sentence is in the chat of 24 October ("I decide what Oak's
+     purpose means in technology, and what should be built."). The decision: that sentence, his
+     own, or the card as it stands; applied at the dialog once chosen, the source first.
+  4. The one deliberate notification (the container's §Settings): his call, not a seat action.
+  5. His second PDF export, kept beside the morning's under `.agent/reference-local/linkedin/`.
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again.
+- **Seat state:** n=1; the claim `3b4a1be4`, heartbeat 2026-10-24T15:39Z; no watcher or
+  heartbeat (consumer absent). The Chrome tab of the sitting is his signed-in session.
+
+## Previous Continuation (2026-10-24T13:5xZ, the application sitting prepared; the baseline recorded; compaction at the owner's word, the sitting begins after it; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context.

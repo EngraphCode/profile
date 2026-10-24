@@ -709,3 +709,34 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   October block the coordination branch had replaced on 17 October stays replaced.
 - **The push of the cure refused by the review-cost gate (12:4xZ)**: pull request 340's two settlement rounds were spent (the opening head; the hand-resolved merge of `main`, outside the sync exemption), so the gate exited 3 and the hook refused the push carrying `SHA:fbb9d96a`; the seat reported the block as legitimate and asked for a word to raise the budget. The owner's ruling, verbatim: "does blocking a push on an important fix sound like it is ever the right choice? The point of the tools is efficiency and value, not ceremony." Cure: the gate reports and never refuses (exit 0 for every verdict; PDR-140 amended 2026-10-24; the hook, the usage, the skill's state-3 sentence), the same bytes to OCE. Lesson: a gate that stops value is the defect, and the seat names it as such instead of routing the block upward as a decision. Also: a commit body line opening "October: " was read as a footer again (the lesson of 21 October); the rewrap cured it.
 - **The application prepared (13:xxZ)**: the branch `docs/updating-profile` cut by the owner from `main` after 340; the draft validates, 42 of 42 statuses approved, 48 names matching the registry; the live profile read through Chrome in his session, every details page scrolled to the end, and recorded as `linkedin/reference/current-profile-2026-10-24.md` (unchanged since September except his headline, banner and location; the 63 skills with the 11 October counts); his PDF export kept under `.agent/reference-local/linkedin/`. The gate's final shape, correcting the bullet above: it holds an over-budget push for seconds until the seat writes one decision line in the local note `.agent/state/collaboration/review-rebudgets.md`, never the owner, never a comment, never another push (`SHA:d87eb566`); 340 landed at `SHA:e87c693c` with that line written. Lessons of the pushes: three refusals came from legs a partial local run skipped (the whole agent-tools suite, the hook's family copy, knip), so a push touching agent-tools or a hook runs the full agent-tools suite, `validate-family-conformance` and `knip-gate` first; and a pnpm `--filter` that matches no workspace exits 0 having run nothing (OCE's package is `@oaknational/agent-tools`), so a filtered proof is read for its scope line.
+
+## 2026-10-24T15:4xZ — The application sitting: the profile live, every field read back (Shrew rides Eventide, 371a2b)
+
+- **Typing through the browser tool drops doubled letters** now and then ("asistants", "fre")
+  and a form fill refuses a contenteditable (the headline, a position's description). What
+  worked: plain inputs by form fill; contenteditables by one `insertText` command through the
+  page's own script tool; every field read back against the source before Save. Lesson: a
+  typed field is never trusted from the typing; the read-back is the proof.
+- **Recommendations and endorsements conflated**: a side agent warned that deleting positions
+  deletes recommendations; the owner's question ("are various agents confusing recommendations
+  and endorsements?") was right. Endorsements sit on skills and survive a position's deletion;
+  recommendations sit on positions, and the received list read as empty. Lesson: read the page
+  that holds the thing before warning about losing it.
+- **The last experience entry loads only after a scroll to the end**: the HP Labs entry read as
+  absent, the seat added it as a new position, then found the original at the end of the full
+  read and deleted the duplicate. Adding that position also replaced the headline with "<title>
+  at <organisation>", caught on the read-back and restored. Lesson: a details page is scrolled
+  to its end before any entry is called absent, and the headline is read after any position is
+  added. Both in the skill's gotchas.
+- **A stored date can fail LinkedIn's own validation**: the first paper's stored 31 December
+  2008 (shown as 1 January 2009) failed "Please enter a valid date" on edit, the Save refused
+  silently and the first edits lost until the read-back caught it. Lesson: every Save is
+  followed by a read of the page; a refused date is set to the one the profile displays.
+- **"live" is not a validator status token** (`linkedin/src/model/types.ts`: approved, drafted,
+  open); the skill's after-step said "moved to live" and the seat wrote the token before the
+  validator refused it. Cure: the step reworded, the application recorded in each status note.
+- **The sitting plan missed a section**: the pickup block's order omitted Contact info, found on
+  the pass over the draft at the end. Lesson: the sitting's list is generated from the draft's
+  headings, never written from memory of them.
+- **Contact info's Other has no custom label**, so the draft's distinct labels became Personal,
+  Other and Portfolio; a fact for the field limits, now there.
