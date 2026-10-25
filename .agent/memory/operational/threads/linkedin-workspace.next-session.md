@@ -76,8 +76,10 @@ authorisation.
      sub-dialog took the link after a preview retry and listed it among the project's three
      media items, the project's Save reported success, and the re-opened dialog listed the two
      original items only each time (the Obaith project's archived-site link, added at the
-     add-project form the same hour, persisted). Not done; put to him with the alternative of
-     a sentence in the card's text naming the contributors page.
+     add-project form the same hour, persisted). Put to him with the alternative of a sentence
+     in the card's text; his word "sentence yes": the sentence "Everyone who has contributed is
+     on the repository's contributors page on GitHub." closes the card's text, live and read
+     back; the source follows. Done so.
   5. The thesis date, 26 May 2010 ("sure"), set on publication 1852835170 by keyboard on the
      dialog's date selects (a form fill is not trusted), saved, read back; the source's status
      note. Done at the sitting of 25 October: the dialog's date is one text field, typed,
@@ -88,8 +90,10 @@ authorisation.
      card; record the finding in the apply skill; if the card follows, order the three Oak
      projects' lists at his word. Done at the sitting of 25 October: the card follows the
      list (the Plugin's card now "Technological Innovation, System Architecture and +19
-     skills"); the apply skill carries the finding and the keyboard route; the order of each
-     project's list is his to give, the seat's proposal put to him.
+     skills"); the apply skill carries the finding and the keyboard route; the seat's proposal for each list put to him, his word "orders agreed, apply
+     them": the Plugin, the Practice, the Oak Web Application and the FT Web App ordered by
+     keyboard at their dialogs and read back on the projects page; the after-baseline holds
+     every list. Done.
   7. The experience-card pair ("please test it yourself"): test the hypothesis that the card
      shows the two links saved last, by re-saving Technological Innovation then Artificial
      Intelligence (AI) with the Principal unticked and re-ticked, and reading the card;
