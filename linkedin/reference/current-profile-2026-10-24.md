@@ -22,7 +22,6 @@ the repository, kept locally as `.agent/reference-local/linkedin/profile-2026-10
 | Banner       | Jim's own photograph: a garden bed with a squash and a watering can, no text (set 23 Oct) |
 | Connections  | 500+; 736 followers                                                                       |
 | Public URL   | `www.linkedin.com/in/jimcresswell`                                                        |
-| Analytics    | 30 profile views, 0 post impressions, 32 search appearances (past 7 days, private to Jim) |
 
 ## About
 
