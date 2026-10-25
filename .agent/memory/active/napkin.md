@@ -805,8 +805,11 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **The card's pair may be the two links saved last** (hypothesis, 2026-10-25, from his 10:13
   screenshots: the Obaith card led with Scientific Research and the Home Office card with
   Public Speaking, the links the seat had saved most recently; the Principal card moved from
-  "AI Agents, Generative AI" to "Generative AI, TypeScript" after re-saves). Untested; the test
-  is on the pickup list at his word.
+  "AI Agents, Generative AI" to "Generative AI, TypeScript" after re-saves). Tested at his word
+  on 25 October: Technological Innovation and then Artificial Intelligence (AI) re-saved with
+  the Principal unticked and re-ticked, each state read back; the Principal card a minute later
+  still "Generative AI, TypeScript, +27 skills". Not confirmed. What moved the pair in the
+  morning is unknown; the deletion and re-creation of a link did not. Nothing set from it.
 - **He removes the two certificates** ("they interrupt the flow", 2026-10-25): the Licences
   rows leave every skill dialog, so the dialog order file loses its Licences group and the
   refs below it move up; Citizen Science and Open Data lose their certificate surfaces.

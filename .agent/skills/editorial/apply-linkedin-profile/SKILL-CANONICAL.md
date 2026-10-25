@@ -144,7 +144,11 @@ read is closed without saving.
   moved the item one place), Space to drop; the live region names the drop position. A ref
   read before a move pointed at another row's handle after it (the Model Context Protocol row
   moved in its place), so the handle is focused by the page's script from the row's own
-  text, and the whole list is compared with the intended order before the Save.
+  text, and the whole list is compared with the intended order before the Save. A position's
+  card shows two of its linked skills and a count, and which two is not under control: the
+  pair moved during the re-saves of 2026-10-25 but not when two links were deleted, saved,
+  re-created and saved again (the Principal card read "Generative AI, TypeScript, +27 skills"
+  before and after).
 - The skills details page loads its rows on real wheel scrolls only (the computer tool), not
   on a scripted scroll; and the page's script tool refuses to return any string holding a
   query string or base64, so an address is reduced to its id before it is returned.

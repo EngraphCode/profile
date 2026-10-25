@@ -93,7 +93,11 @@ authorisation.
   7. The experience-card pair ("please test it yourself"): test the hypothesis that the card
      shows the two links saved last, by re-saving Technological Innovation then Artificial
      Intelligence (AI) with the Principal unticked and re-ticked, and reading the card;
-     record; if confirmed, set every position's pair at his word.
+     record; if confirmed, set every position's pair at his word. Done at the sitting of 25 October: both dialogs unticked, saved, read back, re-ticked,
+     saved, read back (the nine and the three links as before); the Principal card on the
+     experience page a minute later still "Generative AI, TypeScript, +27 skills". Not
+     confirmed: the pair is not the two links saved last, or the card is served from a cache
+     the re-saves did not refresh; recorded in the napkin and the apply skill, nothing set.
   8. The contributor name search is not needed (his word; the link carries the names).
   9. Records after each item, commits by pathspec ("yes"); the push, the notification and the
      merge his.
