@@ -163,9 +163,9 @@ describe('parse', () => {
     });
   });
 
-  it('ignores markdownlint directive comments wherever they sit in a body', () => {
+  it('ignores markdownlint directive comments on their own lines, in any case, before and between paragraphs', () => {
     const body =
-      '<!-- markdownlint-disable MD034 -->\n\nHello world.\n<!-- markdownlint-enable MD034 -->\n\nSecond.\n';
+      '<!-- markdownlint-disable MD034 -->\n\nHello world.\n<!-- MarkdownLint-Enable MD034 -->\n\nSecond.\n';
 
     const document = unwrap(parse(alpha(body), table));
 
