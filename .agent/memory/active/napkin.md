@@ -708,3 +708,121 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   October demoted beneath it, the 17 October block as the coordination branch had it; the 16
   October block the coordination branch had replaced on 17 October stays replaced.
 - **The push of the cure refused by the review-cost gate (12:4xZ)**: pull request 340's two settlement rounds were spent (the opening head; the hand-resolved merge of `main`, outside the sync exemption), so the gate exited 3 and the hook refused the push carrying `SHA:fbb9d96a`; the seat reported the block as legitimate and asked for a word to raise the budget. The owner's ruling, verbatim: "does blocking a push on an important fix sound like it is ever the right choice? The point of the tools is efficiency and value, not ceremony." Cure: the gate reports and never refuses (exit 0 for every verdict; PDR-140 amended 2026-10-24; the hook, the usage, the skill's state-3 sentence), the same bytes to OCE. Lesson: a gate that stops value is the defect, and the seat names it as such instead of routing the block upward as a decision. Also: a commit body line opening "October: " was read as a footer again (the lesson of 21 October); the rewrap cured it.
+- **The application prepared (13:xxZ)**: the branch `docs/updating-profile` cut by the owner from `main` after 340; the draft validates, 42 of 42 statuses approved, 48 names matching the registry; the live profile read through Chrome in his session, every details page scrolled to the end, and recorded as `linkedin/reference/current-profile-2026-10-24.md` (unchanged since September except his headline, banner and location; the 63 skills with the 11 October counts); his PDF export kept under `.agent/reference-local/linkedin/`. The gate's final shape, correcting the bullet above: it holds an over-budget push for seconds until the seat writes one decision line in the local note `.agent/state/collaboration/review-rebudgets.md`, never the owner, never a comment, never another push (`SHA:d87eb566`); 340 landed at `SHA:e87c693c` with that line written. Lessons of the pushes: three refusals came from legs a partial local run skipped (the whole agent-tools suite, the hook's family copy, knip), so a push touching agent-tools or a hook runs the full agent-tools suite, `validate-family-conformance` and `knip-gate` first; and a pnpm `--filter` that matches no workspace exits 0 having run nothing (OCE's package is `@oaknational/agent-tools`), so a filtered proof is read for its scope line.
+
+## 2026-10-24T15:4xZ — The application sitting: the profile live, every field read back (Shrew rides Eventide, 371a2b)
+
+- **Typing through the browser tool drops doubled letters** now and then ("asistants", "fre")
+  and a form fill refuses a contenteditable (the headline, a position's description). What
+  worked: plain inputs by form fill; contenteditables by one `insertText` command through the
+  page's own script tool; every field read back against the source before Save. Lesson: a
+  typed field is never trusted from the typing; the read-back is the proof.
+- **Recommendations and endorsements conflated**: a side agent warned that deleting positions
+  deletes recommendations; the owner's question ("are various agents confusing recommendations
+  and endorsements?") was right. Endorsements sit on skills and survive a position's deletion;
+  recommendations sit on positions, and the received list read as empty. Lesson: read the page
+  that holds the thing before warning about losing it.
+- **The last experience entry loads only after a scroll to the end**: the HP Labs entry read as
+  absent, the seat added it as a new position, then found the original at the end of the full
+  read and deleted the duplicate. Adding that position also replaced the headline with "<title>
+  at <organisation>", caught on the read-back and restored. Lesson: a details page is scrolled
+  to its end before any entry is called absent, and the headline is read after any position is
+  added. Both in the skill's gotchas.
+- **A stored date can fail LinkedIn's own validation**: the first paper's stored 31 December
+  2008 (shown as 1 January 2009) failed "Please enter a valid date" on edit, the Save refused
+  silently and the first edits lost until the read-back caught it. Lesson: every Save is
+  followed by a read of the page; a refused date is set to the one the profile displays.
+- **"live" is not a validator status token** (`linkedin/src/model/types.ts`: approved, drafted,
+  open); the skill's after-step said "moved to live" and the seat wrote the token before the
+  validator refused it. Cure: the step reworded, the application recorded in each status note.
+- **The sitting plan missed a section**: the pickup block's order omitted Contact info, found on
+  the pass over the draft at the end. Lesson: the sitting's list is generated from the draft's
+  headings, never written from memory of them.
+- **Contact info's Other has no custom label**, so the draft's distinct labels became Personal,
+  Other and Portfolio; a fact for the field limits, now there.
+- **The sitting set no position's linked skills**, and LinkedIn keeps a position's old links
+  through an edit wherever the name is still on the list: after the sitting every position
+  carried the old profile's engineering tags (the Principal card "TypeScript, Open Standards,
+  +4 skills"). Found at the skills review later the same day, not at the read-back, because
+  the read-back checked each field against the source and the links are no field of the
+  source. Lesson: the sitting plan lists the links a surface carries, not only its fields;
+  the skill's step 4 now says so. The "N experiences" overlay refuses direct navigation and
+  hides from the page's script tool; a click on the skills page and a screenshot read it.
+- **A sentence offered as a question is for comment, not for the draft** (2026-10-25: Jim
+  wrote "How about ...?" with a first sentence for the Principal card; the seat put it into
+  the source and settled the thread record's item before answering; his word: "that was a
+  request for reflection and comment, not an instruction to change anything"; both edits
+  reversed exactly by the inverse replacements, the tree back at the commit). The draft moves
+  on an explicit word only; a question, a "how about" or a candidate sentence gets the
+  seat's reading and its verdict in chat, and the file waits.
+- **A first line judged at the mechanism altitude when the question was identity**
+  (2026-10-25): the seat endorsed "I set Oak's product engineering and technology strategy."
+  on its parse, its verb and what the preview then shows, and did not weigh the noun it hands
+  the reader against EDR-008's axis (the originator, never the engineering leader); Jim's next
+  question, innovator and originator over strategy, was that weighing. Lesson: a sentence that
+  represents him is read first for the belief it leaves on the axis, and the mechanics after;
+  a verdict reached on mechanics alone is not a verdict.
+- **Reading the live profile, 25 October**: a position's or a project's skill overlay opens by
+  direct address (`overlay/<id>/skill-associations-details/`), unlike the skill-insights
+  overlay; the skills details page loads its rows only on real wheel scrolls (the computer
+  tool), not on `window.scrollBy`; the page's script tool refuses to return a string that
+  holds a query string or base64, so an overlay id is extracted by regex before return; the
+  publication dialog's author field finds connections only. All in the apply skill's gotchas.
+- **"This is the live session"** (Jim, 2026-10-25): the seat wrote of "the next sitting" as a
+  future event while he was present, editing, and asking; the sentence waiting in the source
+  was applied the moment he asked what was pending. With him present and editing, a settled
+  change is applied now, not listed for later; and he edits the live profile in parallel, so
+  the seat touches no dialog he may be in (he was in the skill dialogs while the seat read one).
+- **A skill's own edit dialog is the evidence route**: it lists every surface with a
+  checkbox, publications, volunteering and the organisation included; the card-side overlays
+  only read. His correction of 25 October; the apply skill's gotcha corrected.
+- **A form fill on a skill dialog's checkbox never reaches LinkedIn** (2026-10-25): the
+  browser tool's form fill set the input's checked state, the verify script read it back as
+  ticked, Save closed the dialog, and the server kept the old state; a re-open of twenty
+  dialogs showed every form-filled tick gone and only the owner's own ticks standing. A real
+  mouse click on the row (the computer tool with the row wrapper's ref, the element one ref
+  above the input) reaches the page's state, and a script click on the Save button saves; a
+  real click on Save by ref fails on any dialog that carries an Endorsements section, since
+  that section shifts the refs below it (Statistical Modeling, Physics, C). Lesson: a dialog
+  closing is not a save; the proof is the dialog re-opened and read; and a refs map is per
+  page load, never carried from one dialog to the next (a project Jim added mid-session moved
+  every row below it). Mechanism recorded in the apply skill's gotchas.
+- **Evidence mapped from words, not meaning** (2026-10-25): the seat's map put Scientific
+  Research on the Obaith card because the card says "research", and Public Speaking on the Home
+  Office card because the service was public-facing; Jim's verdict, "research is not the same
+  as scientific research", "did you confuse public sector with working with the public?".
+  Lesson: a link is a claim the card's text supports in the reader's reading; a near-homonym
+  is the trap, and the map is proposed from what the card says he did, never from a shared
+  word.
+- **Proposed copy goes at the top, short, in a fenced block** (2026-10-25): the Obaith card's
+  text sat as a blockquote inside a long report and Jim could not see it ("I can't see the
+  proposed Obaith card text"). And his verdict on it, "built does not apply, it was primarily
+  research": the seat had read "Obaith built software" from a skills ruling into the card's
+  verb.
+- **A batch that writes to the live profile is stopped at his word, and its state is unknown
+  until read** (2026-10-25): three parallel batches (two unticks, a date read, a reorder read)
+  were aborted mid-way; nothing is assumed saved or unsaved; the pickup reads each dialog.
+- **The card's pair may be the two links saved last** (hypothesis, 2026-10-25, from his 10:13
+  screenshots: the Obaith card led with Scientific Research and the Home Office card with
+  Public Speaking, the links the seat had saved most recently; the Principal card moved from
+  "AI Agents, Generative AI" to "Generative AI, TypeScript" after re-saves). Tested at his word
+  on 25 October: Technological Innovation and then Artificial Intelligence (AI) re-saved with
+  the Principal unticked and re-ticked, each state read back; the Principal card a minute later
+  still "Generative AI, TypeScript, +27 skills". Not confirmed. What moved the pair in the
+  morning is unknown; the deletion and re-creation of a link did not. Nothing set from it.
+- **He removes the two certificates** ("they interrupt the flow", 2026-10-25): the Licences
+  rows leave every skill dialog, so the dialog order file loses its Licences group and the
+  refs below it move up; Citizen Science and Open Data lose their certificate surfaces.
+- **A sub-dialog that closes is not a sub-dialog that saved** (2026-10-25, the Oak Web
+  Application's contributors link): the Add media sub-dialog closed on a click aimed at its
+  Save by the coordinates of a taller earlier instance, the main dialog then reported "Save
+  was successful", and the re-opened dialog listed the two original media items only. The
+  main save's alert says nothing about the sub-dialog; the re-opened dialog is the proof, and a
+  sub-dialog's buttons are located on a screenshot of that instance before the click.
+- **The computer tool's typing drops a letter now and then** (2026-10-25, "ww.obaith" in a
+  media address, after "asistants" on 24 October): an address or a title goes in through the
+  page's script by the native value setter with input and change events, which the form
+  accepted; the typed route is kept for short search terms only, and every typed value is
+  read back before it is submitted.
+- **A query for `[role=dialog]` found the Messaging panel, not the form** (2026-10-25): the
+  inventory of the add-project form came back empty until the query ran document-wide.

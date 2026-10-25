@@ -10,7 +10,300 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-23T16:3xZ, the draft ready at the owner's word; the lane lands through 341; the application next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-25T13:xxZ, compaction at the owner's word; the pickup list below approved by him with his edits; the certificates gone at his hand; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context (three
+  tabs in his signed-in session; two may hold open dialogs, read before any Save).
+- **His rulings of 25 October, early afternoon, each applied or recorded:** the Obaith card is
+  research, "built" does not apply (text to be re-proposed, short, at the top of the message);
+  both C forms stay, the canonical list is 49 (registry and source updated); the thesis date is
+  a random Wednesday in May 2010, drawn as 26 May 2010, not yet set; the Oak Web Application
+  stays without dates (his "Okay" read so); the Plugin skill-order test is to run ("yes, do that
+  and learn"); his location is United Kingdom (source updated); Scientific Research off Obaith
+  and Public Speaking off the Home Office (the live unticks were interrupted at his word, state
+  unread); the two FutureLearn certificates are leaving at his hand ("they interrupt the
+  flow"); Tom Wise is the same person (design then AI); Matt Gregory may be Matthew on LinkedIn
+  and there may be two of that name among the contributors; a link to the GitHub contributors
+  page is his alternative to tagging fifty people.
+- **The pickup list, approved by him on 25 October with his edits** (each item one act, in
+  this order; his answers verbatim where they rule):
+  1. Done at the pickup, 25 October: the Licences section reads empty and the skill dialog
+     lists 23 surfaces; the source's section is empty with a dated note, the dialog order
+     file has no Licences group, the registry map and the after-baseline table carry no
+     certificate surface.
+  2. "Check all the skill associations, make sure they all make sense, check with me where
+     there is doubt": every one of the 49 names, each link read against what the card says
+     he did, never against a shared word; the Scientific Research and Public Speaking dialogs
+     read at the pickup, Obaith and the Home Office already off (the interrupted unticks had
+     persisted). Done the same afternoon: seven doubts put to him, his answers verbatim "1. fine
+     2. agree 3. agree 4. open standards off, keep prototyping 5. remove r&d, keep prototyping
+     6. agree 7. agree, and of course the PhD was _at_ the ICG, those are two views onto the
+     same experience, which is warranted because a PhD is more like a job than a course 8.
+     please sort out the open tabs first"; the tabs sorted (the Plugin dialog's tab closed
+     unsaved, the other off its dialog); eight dialogs set by real clicks and read back; the
+     after-baseline table and the registry follow. His aside of the same hour, "I added
+     'architected' to the About": read live, the source follows; every doubt put to
+     him in one list before any other change.
+  3. The Obaith project card, "yes with corrections, but platform not app. What the rest of
+     the card describes was the design, which was never built, what ended up being the
+     valuable output was all the research and learning I did." The corrected text, shown to
+     him at the top of the pickup message before it is added: "Obaith was research into a
+     platform for local cooperative action on the problems we all share, climate breakdown,
+     ecological collapse and loneliness among them. I designed it: community projects would
+     record, share and discover what works, so that anyone could start a project with the
+     experience of others behind them, join one, or make their own count for more, on open
+     content, open knowledge and open software, open standards, accessibility, privacy and
+     user sovereignty. When I realised the real value was in the research, for me and for the
+     impact I could help create in other projects, I turned the project to research alone;
+     the platform was never built. The link is the site as archived in November 2021." (His
+     word at the pickup: "the pivot to pure research happened deliberately when I realised
+     that was where the real value was, to me and to the impact I might help create in other
+     projects"; the third sentence carries it.) Done at the sitting, 25 October afternoon:
+     project id 1925228657, the text as above, the dates, the association, the archived site
+     as a media link titled for the reader, the four skills (Prototyping left off by his own
+     ruling on the position); read back on the projects page, fourth in LinkedIn's date
+     order; the source card, the registry map and the after-baseline follow. Then the
+     add-project form: name Obaith, January 2018 to April 2020, associated with the Obaith
+     position, the archived site (web.archive.org, 14 November 2021) as a media link, the
+     skills his choice from Social Innovation, Social Impact, Systems Thinking, Research and
+     Development (R&D), Prototyping; read back; the source card, the registry map (a new
+     dialog row for every skill it carries), the after-baseline.
+  4. The Oak Web Application contributors: "Media link, there are too many people to tag." A
+     media link on the project to the GitHub contributors graph (the repository's
+     contributors page, all=1), titled for the reader; nobody tagged, nobody notified. Tried
+     three times at the sitting of 25 October, with and without the query string: the media
+     sub-dialog took the link after a preview retry and listed it among the project's three
+     media items, the project's Save reported success, and the re-opened dialog listed the two
+     original items only each time (the Obaith project's archived-site link, added at the
+     add-project form the same hour, persisted). Put to him with the alternative of a sentence
+     in the card's text; his word "sentence yes": the sentence "Everyone who has contributed is
+     on the repository's contributors page on GitHub." closes the card's text, live and read
+     back; the source follows. Done so.
+  5. The thesis date, 26 May 2010 ("sure"), set on publication 1852835170 by keyboard on the
+     dialog's date selects (a form fill is not trusted), saved, read back; the source's status
+     note. Done at the sitting of 25 October: the dialog's date is one text field, typed,
+     saved, read back on the publications page as May 26, 2010; the source's status note and
+     the apply skill follow.
+  6. The Plugin's skill order ("yes"): move Technological Innovation to the top of the project
+     dialog's list (keyboard on the drag handle, or a drag), save, read the projects page
+     card; record the finding in the apply skill; if the card follows, order the three Oak
+     projects' lists at his word. Done at the sitting of 25 October: the card follows the
+     list (the Plugin's card now "Technological Innovation, System Architecture and +19
+     skills"); the apply skill carries the finding and the keyboard route; the seat's proposal for each list put to him, his word "orders agreed, apply
+     them": the Plugin, the Practice, the Oak Web Application and the FT Web App ordered by
+     keyboard at their dialogs and read back on the projects page; the after-baseline holds
+     every list. Done.
+  7. The experience-card pair ("please test it yourself"): test the hypothesis that the card
+     shows the two links saved last, by re-saving Technological Innovation then Artificial
+     Intelligence (AI) with the Principal unticked and re-ticked, and reading the card;
+     record; if confirmed, set every position's pair at his word. Done at the sitting of 25 October: both dialogs unticked, saved, read back, re-ticked,
+     saved, read back (the nine and the three links as before); the Principal card on the
+     experience page a minute later still "Generative AI, TypeScript, +27 skills". Not
+     confirmed: the pair is not the two links saved last, or the card is served from a cache
+     the re-saves did not refresh; recorded in the napkin and the apply skill, nothing set.
+  8. The contributor name search is not needed (his word; the link carries the names).
+  9. Records after each item, commits by pathspec ("yes"); the push, the notification and the
+     merge his.
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again; all decisions
+  his, the seat still proposes; proposed copy short and at the top; draft PR 349 carries the
+  branch.
+- **Seat state:** n=1; the claim `3b4a1be4`; no watcher or heartbeat (consumer absent).
+
+## Previous Continuation (2026-10-25T12:xxZ, the skill links applied by real clicks and verified after the form-fill saves failed; the owner's four points of the morning answered from the live pages; the Obaith card and the contributors at his word; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
+- **What happened, 25 October, late morning.** The owner handed the skills to the seat ("the
+  skills are yours, please make sure all updates are made") and kept editing the live profile
+  in parallel (Reforest Now added as a project, two skill names added). The seat's first pass
+  through the skill dialogs by form fill did not persist: the input read as ticked, Save closed
+  the dialog, the server kept the old state; twenty dialogs re-read showed every form-filled
+  tick gone. The second pass clicked each row with a real click, saved by the page's own
+  script, waited, re-opened the dialog and read it back: all 47 names now carry the evidence
+  map of the registry (§Applied and verified, 2026-10-25), his own ticks kept everywhere, the
+  after-baseline's table of the links as verified. The mechanism is in the apply skill's
+  gotchas and the napkin. The source follows the live profile: the Principal card's first
+  sentence (his, "the product engineering and technology strategy are mine"), the rebuild
+  project's two paragraphs (the three points resolved live, his opening, the seat's second
+  paragraph at his word), and Reforest Now as his card, with dated status notes; the validator
+  OK.
+- **His four points of the morning, answered from the live pages** (in chat, 25 October): a
+  position's card shows the first two of its linked skills in an order LinkedIn chooses, the
+  position dialog lists them as toggle pills with no ordering control, a project's dialog lists
+  them with drag handles; the profile page's Projects card shows the Plugin then the Practice,
+  LinkedIn ordering projects by date (ongoing first, then end date), the Oak Web Application
+  last for want of dates; the contributor field tags connections only and LinkedIn notifies
+  each tagged person; the Obaith card proposed.
+- **At the owner's word, the exact decisions, each put on 25 October:**
+  1. The Obaith project card: name Obaith, January 2018 to April 2020, associated with the
+     Obaith position, the archived site (web.archive.org, 14 November 2021) as a media link,
+     skills Social Innovation, Social Impact, Systems Thinking, Prototyping, Software
+     Development; the proposed description: "Obaith was an app for local cooperative action
+     on the problems we all share, climate breakdown, ecological collapse and loneliness among
+     them. I conceived it and built it: community projects record, share and discover what
+     works, so that anyone can start a project with the experience of others behind them, join
+     one, or make their own count for more. Open content, open knowledge and open software on
+     open standards, with accessibility, privacy and user sovereignty at the front. The link
+     is the site as archived in November 2021." The decision: the text, and the verb "built"
+     against what existed (the site called it an app in development).
+  2. Contributors on the Oak Web Application card: every tag notifies the person; the search found connections (LinkedIn's display names). The decision, link to Github contributors
+  3. C and C (Programming Language) both stand on the live list (49 names with Scientific
+     Programming), the plain C with two endorsements. The decision: both, or one.
+  4. The thesis date: the Portsmouth research portal gives the award as May 2010; LinkedIn's
+     field wants a day. The decision: a day, or the field left empty.
+  5. The Oak Web Application project carries no dates (his word of 11 October) and so sits
+     last in the Projects section. The decision: dates, or as it stands.
+  6. A test of a project's skill order (drag Technological Innovation to the top of the
+     Plugin's list and read the card): at his word.
+- **Closed this morning:** the co-authors (his word, "consider the co-author issue closed");
+  the Principal card's first sentence (his own, live and in the source); the rebuild project's
+  three points (resolved live).
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again; commits at his
+  word of the day, the push and the merge his; draft PR 349 carries the branch.
+- **Seat state:** n=1; the claim `3b4a1be4`; three Chrome tabs in his signed-in session, all
+  parked on the skills page; no watcher or heartbeat (consumer absent).
+
+## Previous Continuation (2026-10-25T09:xxZ, the owner's own live edits of 25 October read and followed into the source; the skill links he set read; the evidence map proposed at his rule; the items at his word; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
+- **What happened.** The sitting of 24 October (after the compaction at 13:5xZ, the last live
+  Save at 15:3xZ; the owner present, his own Save on every field to the Home Office card and the
+  seat's Saves after that at his word, "as long as you are faithfully updating the profile you
+  can save without me") applied `linkedin/profile.md` to the live profile in the draft's order,
+  each field read back against the source after its Save: the About (his edit in the dialog, "I
+  love it." out, the source following it); Featured, three links in the draft's order;
+  Experience, ten entries edited in place and four deleted at his word (Head of DevOps and
+  Quality, We Predict, FT Labs 2013 to 2014, Carnegie Mellon), the HP Labs entry found last
+  after a scroll and a duplicate the seat had added deleted; Education, three; Licences, five
+  deleted; Projects, the FT Web App edited and the three Oak projects added as cards with media
+  links, associated with the Principal position; Publications, two edited and the thesis added;
+  Volunteering and Organisations, one each; Skills, 53 deleted, 38 added, 48 in the canonical
+  order, the three pins; Contact info, the three websites (Personal, Other, Portfolio). Settings
+  read, nothing to change: update sharing already off, Open to Work off, the industry already
+  Technology, Information and Internet, visibility and the URL untouched; no edit notified
+  anyone.
+- **The records on this branch** (`docs/updating-profile`): the after-baseline
+  `linkedin/reference/current-profile-2026-10-24-after.md`; every applied status note in
+  `profile.md` dated 24 October with the counts at the counter (the validator OK; the status
+  tokens stay `approved`, "live" is a note); the registry's applied section with the 48 ids and
+  the endorsements of the day; the container's §Settings; the skill's gotchas and field limits;
+  the napkin; the plan node's state. Committed by pathspec at his word of the day on commits;
+  the push and the merge to `main` at his word. This branch has no pull request, so the
+  review-cost gate passes its first push.
+- **At the owner's word, the exact decisions, each put on 24 October:**
+  1. The thesis entry under Publications has no date: LinkedIn's date field wants a day and the
+     card carries 2010 alone. The decision: a day to set, or none.
+  2. The first paper's co-author entry (Will J. Percival) no longer shows after the edit's
+     Save; the description names him. The decision: re-add him as a co-author, which notifies a
+     member, or leave the description to carry him.
+  3. The Principal card's first sentence, his note on reading the card on the page: "very
+     confusing". The seat's first proposal ("I decide what Oak's purpose means in technology,
+     and what should be built.") was withdrawn at his verdict of the evening, "bad": "I
+     decide" is governance, not direction, and "what Oak's purpose means in technology" is an
+     abstraction. The seat's standing proposal: "I set Oak's direction in technology, from its
+     purpose to what gets built." The decision: that sentence, his own, or the card as it
+     stands; the source first, then the dialog at the next sitting.
+  4. The one deliberate notification (the container's §Settings): his call, not a seat action.
+  5. His second PDF export, kept beside the morning's under `.agent/reference-local/linkedin/`.
+- **The skills review of 24 October, after the sitting** (his ask: every skill and what backs
+  it; the skills inherited by edited entries; the thin names with him). Found and recorded:
+  every position kept the old profile's skill links through its edit (the after-baseline's
+  position table; the apply skill's step 4 and a gotcha). His rulings, in the registry and
+  `profile.md`: Thought Leadership out (the removed table of 24 October); teaching and tour
+  guiding into the About's "Before Oak" list for Public Speaking; TypeScript backed by the
+  Open Curriculum Ecosystem repository and his GitHub; C by the PhD's code, so the PhD
+  position links it; Science Communication by the papers, the theses and the PhD. The
+  JavaScript count corrected to 23 from the overlay.
+- **25 October, his own hand on the live profile** (read in full by the seat, the source
+  following each with a dated status note): the About's first paragraph without its strategy
+  clause; "I built the foundation and guided the handover." in the Principal card's rebuild
+  paragraph; the Practice project's first sentence; the rebuild project retitled "The Oak Web
+  Application (`www.thenational.academy`)" and rewritten in two paragraphs; the Oak National
+  Academy Featured link out (its caption the seat's of 11 October, out of the source at his
+  word); Thought Leadership deleted, the list 47; the PhD entry's school the ICG again; the
+  skill links set on every position, the four projects and two education entries (the
+  after-baseline's table of 25 October). Put to him on the rebuild project: the opening is a
+  label without a verb (proposed: "Oak's teacher- and pupil-facing public digital service is
+  open under the MIT licence, its content under the Open Government Licence 3.0."), which also
+  removes the stray space before the full stop; "the emergency response site" against "the
+  emergency platform" elsewhere; the near-twin sentences on the foundations across the card
+  and the project.
+- **His rule of 25 October on the skills:** every card that takes skills carries them; the top
+  six carry every surface that shows them; every name carries at least one. The evidence map
+  is proposed in the registry (§The evidence map, proposed 2026-10-25), his to edit, applied
+  at the next sitting or by him.
+- **The co-authors, at his word to restore them:** the publication dialog's author field
+  finds the profile's connections only; Will Percival, Pia Mukherjee and Alain Riazuelo
+  returned nothing; Andrew Liddle stands on the second paper; nothing saved. They can be added
+  once connected, his call; the descriptions carry the names.
+- **The session is live and he edits in parallel** (his word of 25 October: "this is the live
+  session, we are doing things right now"): the About's "Before Oak" sentence applied by the
+  seat at once and read back; he is setting the skill links himself through each skill's own
+  dialog, which offers every surface (positions, education, certificates, projects,
+  volunteering, publications, the organisation). The seat opens no dialog he may be in. Still
+  at his word: the Principal card's first sentence; his dispositions on the rebuild project's
+  three points; the co-authors, his (a connection first).
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again.
+- **Seat state:** n=1; the claim `3b4a1be4`, heartbeat 2026-10-24T15:39Z; no watcher or
+  heartbeat (consumer absent). The Chrome tab of the sitting is his signed-in session.
+
+## Previous Continuation (2026-10-24T13:5xZ, the application sitting prepared; the baseline recorded; compaction at the owner's word, the sitting begins after it; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
+- **Where the work is.** The branch `docs/updating-profile`, cut by the owner from `main` after
+  pull request 340 merged (`SHA:572ab039`); level with `main`; unpushed at his word ("commit
+  yes, push no"). It carries the pre-sitting baseline
+  `linkedin/reference/current-profile-2026-10-24.md` (the live profile read through Chrome in
+  his session, every details page scrolled to the end: unchanged since September except his
+  own headline, banner and location; the 63 skills in display order with the 11 October
+  endorsement counts) and this block. His PDF export of the live profile is kept locally as
+  `.agent/reference-local/linkedin/profile-2026-10-24-before.pdf`, never in the repository.
+- **The source.** `linkedin/profile.md` on `main`: the validator OK, every one of its 42 status
+  lines `approved` (his commit `SHA:0a05543c`), the Skills list of 48 names matching the
+  registry in order (`check-list-against-registry.sh`). The skill is
+  `.agent/skills/editorial/apply-linkedin-profile/SKILL-CANONICAL.md` (load it first, with
+  `linkedin-skills` for the Skills step); the container's §Settings: Open to Work off, update
+  sharing off during editing, one deliberate notification at the end if he wants it, public
+  visibility as now, the custom URL unchanged.
+- **The sitting, in the draft's order, him present and reading every field before Save:**
+  (1) update sharing off ("Share profile updates with your network") before the first Save;
+  (2) top card: the industry read at the picker (Technology, Information and Internet, his
+  choice of 12 October), headline and location already live; (3) About replaced; (4) Featured:
+  three links added, captions in their owners' words; (5) Experience: ten cards edited, four
+  live entries deleted (the second Oak role "Head of DevOps and Quality", We Predict, the second
+  FT Labs entry, Carnegie Mellon), titles, dates and locations as the cards carry them;
+  (6) Education: three edits; (7) Licences: five deleted (AgilePM, the two Johns Hopkins
+  courses, Fire Marshal, First Aid), two kept as they stand; (8) Projects: FT Web App edited if
+  LinkedIn allows (the page notes that projects from connected apps cannot be edited), the Oak
+  AI Plugin, the Practice and the rebuild added; (9) Publications: two edited, the thesis added;
+  (10) Volunteering and Organisations: one edit each; (11) Skills: 53 names removed at his
+  rulings of 11 October (the registry's removed table), 38 added, each taken from the
+  typeahead's dropdown and never typed past it, the 48 ordered, the three pins set; a card's
+  linked skills come from the list, so Skills before any card that links one; (12) Settings
+  last. A dialog nobody read is closed without saving.
+- **After the sitting:** his second PDF export beside the first; the registry updated from the
+  live list with counts; the container's statuses moved to live with the date; this record's
+  block; the records committed on this branch, pushed and merged at his word.
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again; Recommendations
+  his to raise.
+- **Seat state:** n=1; the claim `3b4a1be4` with its areas, heartbeat 2026-10-24T11:25Z; no
+  watcher or heartbeat (consumer absent). The review-cost gate holds a push past a budget until
+  one decision line exists in the local note `.agent/state/collaboration/review-rebudgets.md`
+  (PDR-140's amendment of 24 October); this branch has no pull request yet, so the gate passes
+  its first push. OCE carries the same five commits on its coordination branch, unpushed.
+
+## Previous Continuation (2026-10-23T16:3xZ, the draft ready at the owner's word; the lane lands through 341; the application next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, `gh pr list`.

@@ -163,6 +163,18 @@ describe('parse', () => {
     });
   });
 
+  it('ignores markdownlint directive comments on their own lines, in any case, before and between paragraphs', () => {
+    const body =
+      '<!-- markdownlint-disable MD034 -->\n\nHello world.\n<!-- MarkdownLint-Enable MD034 -->\n\nSecond.\n';
+
+    const document = unwrap(parse(alpha(body), table));
+
+    expect(document.sections[0]?.body).toMatchObject({
+      kind: 'paragraphs',
+      paragraphs: [{ text: 'Hello world.' }, { text: 'Second.' }],
+    });
+  });
+
   it('keeps a heading deeper than three hashes as body text', () => {
     const document = unwrap(parse(alpha('#### Deep\n'), table));
 
