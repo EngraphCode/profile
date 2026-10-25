@@ -22,7 +22,6 @@ the repository, kept locally as `.agent/reference-local/linkedin/profile-2026-10
 | Banner       | Jim's own photograph: a garden bed with a squash and a watering can, no text (set 23 Oct) |
 | Connections  | 500+; 736 followers                                                                       |
 | Public URL   | `www.linkedin.com/in/jimcresswell`                                                        |
-| Analytics    | 30 profile views, 0 post impressions, 32 search appearances (past 7 days, private to Jim) |
 
 ## About
 
@@ -85,8 +84,8 @@ smaller counts below.
 ## Projects — 1 entry
 
 FT Web App; Sep 2011 – Jul 2014; "The FT Web App is a ground breaking media experience providing
-on and offline access to Financial Times content."; contributors "Matthew, Matthew and 7
-others"; skill Problem Solving; associated with FT Labs. The page carries LinkedIn's notice
+on and offline access to Financial Times content."; nine other contributors; skill Problem
+Solving; associated with FT Labs. The page carries LinkedIn's notice
 that projects from connected apps sync automatically and cannot be edited on LinkedIn; whether
 this entry is one of them is read at the sitting.
 
