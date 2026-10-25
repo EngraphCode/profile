@@ -146,6 +146,12 @@ read is closed without saving.
   the native value setter with input and change events was accepted, the preview loaded, and
   the title field took the same route. The Add media button and the sub-dialog's Add and
   Save needed real clicks.
+- An existing project's edit dialog dropped a newly added link media on Save three times
+  (2026-10-25, the Oak Web Application, a GitHub contributors page with and without its query
+  string): the sub-dialog listed the link among the project's media, the Save reported
+  success, and the re-opened dialog held the original media only. The add-project form saved
+  its link media the same hour. Every media addition is proved by the re-opened dialog, never
+  by the Save's alert.
 - A publication's author field searches the profile's connections only (2026-10-25: a
   connection's name returned at once, three co-authors who are not connections returned
   nothing). A co-author who left an entry at an edit's Save cannot be restored unless

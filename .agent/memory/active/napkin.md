@@ -810,3 +810,16 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **He removes the two certificates** ("they interrupt the flow", 2026-10-25): the Licences
   rows leave every skill dialog, so the dialog order file loses its Licences group and the
   refs below it move up; Citizen Science and Open Data lose their certificate surfaces.
+- **A sub-dialog that closes is not a sub-dialog that saved** (2026-10-25, the Oak Web
+  Application's contributors link): the Add media sub-dialog closed on a click aimed at its
+  Save by the coordinates of a taller earlier instance, the main dialog then reported "Save
+  was successful", and the re-opened dialog listed the two original media items only. The
+  main save's alert says nothing about the sub-dialog; the re-opened dialog is the proof, and a
+  sub-dialog's buttons are located on a screenshot of that instance before the click.
+- **The computer tool's typing drops a letter now and then** (2026-10-25, "ww.obaith" in a
+  media address, after "asistants" on 24 October): an address or a title goes in through the
+  page's script by the native value setter with input and change events, which the form
+  accepted; the typed route is kept for short search terms only, and every typed value is
+  read back before it is submitted.
+- **A query for `[role=dialog]` found the Messaging panel, not the form** (2026-10-25): the
+  inventory of the add-project form came back empty until the query ran document-wide.

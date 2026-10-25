@@ -71,7 +71,13 @@ authorisation.
      dialog row for every skill it carries), the after-baseline.
   4. The Oak Web Application contributors: "Media link, there are too many people to tag." A
      media link on the project to the GitHub contributors graph (the repository's
-     contributors page, all=1), titled for the reader; nobody tagged, nobody notified.
+     contributors page, all=1), titled for the reader; nobody tagged, nobody notified. Tried
+     three times at the sitting of 25 October, with and without the query string: the media
+     sub-dialog took the link after a preview retry and listed it among the project's three
+     media items, the project's Save reported success, and the re-opened dialog listed the two
+     original items only each time (the Obaith project's archived-site link, added at the
+     add-project form the same hour, persisted). Not done; put to him with the alternative of
+     a sentence in the card's text naming the contributors page.
   5. The thesis date, 26 May 2010 ("sure"), set on publication 1852835170 by keyboard on the
      dialog's date selects (a form fill is not trusted), saved, read back; the source's status
      note.
