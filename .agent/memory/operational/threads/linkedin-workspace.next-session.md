@@ -10,7 +10,37 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-25T13:xxZ, compaction at the owner's word; the pickup list below approved by him with his edits; the certificates gone at his hand; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-25T16:xxZ, the application done at the owner's word; the next act is the extraction of what the lane knows, explored and not started; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream.
+- **The lane's finish, 25 October.** Every item of the pickup list below is done and read
+  back; the owner's word at the close: "Congratulations, we are done." His after export of the
+  live profile is filed beside the before export under the local reference folder, and the
+  after-baseline names it. Pull request 349 merged at his hand the same afternoon, with his own
+  commits on the branch (the contributor names removed from this record, the FT Web App entry
+  and the analytics line in the before-baseline); the one deliberate notification is his.
+- **The next act, at his word of the same hour:** extract what the lane knows about editorial
+  practice, writing, LinkedIn, CV writing and adjacent professional-profile work. He asked for
+  exploration and notes first, the request improved before it is actioned, and no retrospective
+  yet. The exploration record is
+  `.agent/reports/agentic-engineering/2026-10-25-what-the-linkedin-lane-can-teach-and-how-to-extract-it.md`:
+  the improved request (§1), the corpus by tier (§2), the four movements (§3 to §6), eight
+  proposals with warrants and falsifiers (§6), the free-play harvest (§7), the loss scan (§8)
+  and the six decisions that are his (§9): the landing shape (the three-layer editorial
+  doctrine sketched on 11 October, its gate expiring 1 November); the extraction as the
+  owner-turn ledger, the buffer and the gap read; the distributable skill; the retrospective's
+  home; the slow-lane concept; the plan node. Nothing starts before his word on those. The
+  branch is `docs/editorial-insight-extraction` from `main` at his word ("move the current work
+  to a new branch").
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; a settled item never listed again; all decisions his, the seat still proposes;
+  proposed copy short and at the top; his reasons private, his decisions public.
+- **Seat state:** n=1; the claim `3b4a1be4`; no watcher or heartbeat (consumer absent); one
+  Chrome tab in his session on the projects page, no dialog open.
+
+## Previous Continuation (2026-10-25T13:xxZ, compaction at the owner's word; the pickup list below approved by him with his edits; the certificates gone at his hand; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context (three
