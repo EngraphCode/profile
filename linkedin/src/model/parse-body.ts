@@ -16,10 +16,15 @@ export interface RawLine {
 
 const BLANK = /^\s*$/;
 const LIST_ITEM = /^- (.*)$/;
+/** A markdownlint directive comment on a line of its own: lint control, never copy. */
+const LINT_DIRECTIVE = /^\s*<!--\s*markdownlint-[a-z-]+(?:\s[^>]*)?-->\s*$/;
 
-/** Whether the line holds nothing but whitespace. */
+/**
+ * Whether the line holds nothing the copy carries: whitespace, or a markdownlint directive, which
+ * separates runs exactly as a blank line does.
+ */
 export function isBlank(line: RawLine): boolean {
-  return BLANK.test(line.text);
+  return BLANK.test(line.text) || LINT_DIRECTIVE.test(line.text);
 }
 
 /**

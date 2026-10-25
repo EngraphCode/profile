@@ -192,13 +192,13 @@ Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 
 Status: approved (11 October 2026, from Jim's word on the repositories; no dates at his word; the consequence clause dropped at his word of 16 October, said on the Experience card; 22 October 2026: the staged adoption, his sentence from the Principal card, accepted at Jim's word; awaiting Jim; 22 October 2026, the readers' pass: the opening given its verb, as EDR-009 gave the FT card; accepted into the draft at his word of the same evening; 23 October 2026: ready at Jim's word; 24 October 2026: added at the sitting, the description verified identical by machine, 386 of 2,000, no dates, associated with the Principal Engineer position, the repository link as a media link titled "The Oak Web Application repository"; the skills linked at the Skills step, the seat's choice from the approved list, his to change: System Architecture, Platform Engineering, Product Engineering, Web Technologies, TypeScript; 25 October 2026: Jim's own edit on the live profile, the title now the product's name with its address, the description in two paragraphs with the licences and the engineers continuing to build; the source follows the live text verbatim; three things put to him the same day: the opening is a label without a verb, the stray space before the full stop after 3.0, and "the emergency response site" beside "the emergency platform" elsewhere; his sentence on the foundations and the strategy is the near twin of the Principal card's new sentence)
 
-<!-- markdownlint-enable MD034 -->
-
 Oak's teacher- and pupil-facing public digital service, open under the MIT licence, with content under the Open Government Licence 3.0 .
 
 I argued for a rebuild to replace the emergency response site, and designed it to be adopted in stages, each carrying live traffic before the next began: Oak's public site within six months, then the teacher experience, then the pupil experience. I built the foundations and guided the engineering strategy through it; Oak's engineers continue to build on the platform.
 
 Link: <https://github.com/oaknational/Oak-Web-Application>
+
+<!-- markdownlint-enable MD034 -->
 
 ### FT Web App · September 2011 – July 2014 · Associated with FT Labs
 
