@@ -826,3 +826,35 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   read back before it is submitted.
 - **A query for `[role=dialog]` found the Messaging panel, not the form** (2026-10-25): the
   inventory of the add-project form came back empty until the query ran document-wide.
+
+## 2026-10-25T16:xxZ — The LinkedIn lane closed; the extraction lane: one session, one pull request (Shrew rides Eventide, 371a2b)
+
+- **The owner's own git work left conflict markers in the working copy.** After his push and
+  merge of 349 the thread record in the primary carried `<<<<<<< Updated upstream` and
+  `>>>>>>> Stashed changes` around the top block, and my new block sat inside the conflict.
+  The commit was refused by markdownlint on the duplicated heading. Cure: rebuild the file from
+  `origin/main`'s bytes plus the new block, prove it by the lint and by the absence of the
+  names he had removed, then commit. After any of his own git operations, read the working copy
+  for markers before an edit.
+- **`git restore` and `git add -A` are both blocked by the hook**, and the block names the
+  concept, not a sibling command. The forward path to a clean path for a fast-forward: write
+  HEAD's bytes to the file (`git show HEAD:path > path`) and `git add` that one path; the index
+  then equals HEAD and the path is clean. Staging is by explicit pathspec, directories included
+  for removed adapter trees.
+- **A docs validator that reads `git ls-files` refuses on a tracked file deleted in the
+  working tree but not staged** (ENOENT on a removed adapter): stage the deletions first.
+- **The owner's typed turns are a small corpus.** Filtered by role, with loop prompts,
+  notifications, compaction summaries and pasted material removed, the three LinkedIn sessions
+  hold about 110 KB of his words; readable in one context, no subagents (his standing word of
+  11 October: consolidation is single-agent work). The 812 MB of transcripts is the seat's own
+  turns.
+- **The inherited shape was in the plans estate, not the notes.** The three-layer editorial
+  doctrine sketch of 11 October described the landing shape for this extraction; the first
+  exploration pass missed it until the plans directory was listed. List the plans before
+  proposing a shape.
+- **Lint rules met in the validator:** `unicorn/prefer-string-raw` for regex escapes and
+  `unicorn/prefer-string-replace-all`; prettier reflowed the test's long lines.
+- **The context rule held the directive edits back.** `directive-file-context-budget` defers
+  directive content edits above the line to after the next compaction; the two edits are
+  recorded exactly in the thread record's block so the next context makes them without
+  re-deriving them.

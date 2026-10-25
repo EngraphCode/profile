@@ -20,19 +20,49 @@ authorisation.
   after-baseline names it. Pull request 349 merged at his hand the same afternoon, with his own
   commits on the branch (the contributor names removed from this record, the FT Web App entry
   and the analytics line in the before-baseline); the one deliberate notification is his.
-- **The next act, at his word of the same hour:** extract what the lane knows about editorial
-  practice, writing, LinkedIn, CV writing and adjacent professional-profile work. He asked for
-  exploration and notes first, the request improved before it is actioned, and no retrospective
-  yet. The exploration record is
-  `.agent/reports/agentic-engineering/2026-10-25-what-the-linkedin-lane-can-teach-and-how-to-extract-it.md`:
-  the improved request (§1), the corpus by tier (§2), the four movements (§3 to §6), eight
-  proposals with warrants and falsifiers (§6), the free-play harvest (§7), the loss scan (§8)
-  and the six decisions that are his (§9): the landing shape (the three-layer editorial
-  doctrine sketched on 11 October, its gate expiring 1 November); the extraction as the
-  owner-turn ledger, the buffer and the gap read; the distributable skill; the retrospective's
-  home; the slow-lane concept; the plan node. Nothing starts before his word on those. The
-  branch is `docs/editorial-insight-extraction` from `main` at his word ("move the current work
-  to a new branch").
+- **The extraction lane, opened at his word of 25 October, late afternoon:** "you can have ONE
+  PR for the understanding extraction work. Of course we need a plan for this work. I want a
+  single session, simple, straightforward extraction of understanding. One session, one PR,
+  strictly bounded ... All skills and rules and guidance created must apply to any person, it
+  must not be specific to me. Will we distribute this understanding to others, yes, eventually,
+  but not yet." The exploration record that preceded it is
+  `.agent/reports/agentic-engineering/2026-10-25-what-the-linkedin-lane-can-teach-and-how-to-extract-it.md`.
+  The plan is `.agent/plans/delivery/editorial-doctrine-in-three-layers.plan.md`, the sketch of
+  11 October ratified at his words above; `linkedin-profile-rewrite-completion` is archived as
+  done. The branch is `docs/editorial-insight-extraction` from `main`.
+- **Landed on the branch (uncommitted at this block's writing; the commits follow by
+  pathspec):** the owner's typed turns from the three LinkedIn sessions read in full (a filtered
+  extract, local only); `write-for-the-reader` and `editorial-voice` rewritten for any author
+  (`metadata.layer: general`) with the lane's understanding (the audience hops, working with the
+  author, the failure classes, what an adjective needs); the surface skills `linkedin-profile`
+  (replacing `apply-linkedin-profile` and `linkedin-skills`, person-free, the platform facts
+  dated) and `cv` (new), both `metadata.layer: surface`; the author's registry moved to
+  `linkedin/reference/skills-registry.md`; the reader templates `editor`, `prose-expert` and
+  `audience-reader` made person-neutral with the author instance as the brief's source;
+  adapters regenerated (`pnpm skills:generate`, `pnpm portability:fix`); every live referrer
+  repointed; `editorial-guidance.md` declared `layer: author` with `author_names` in its
+  frontmatter; the validator `validate-editorial-layers` (agent-tools, with its unit test) wired
+  into `docs-validators:check` and green.
+- **Queued under `directive-file-context-budget`, the lane's final step, after the next
+  compaction and below the context line:** (1) `.agent/directives/editorial-strategy.md`:
+  `layer: general` in its frontmatter; its §Standing audiences subsection moved whole into
+  `editorial-guidance.md`; its five mentions of the author replaced ("the author's public
+  content", "the author's account", "directly with the author", "the author's decision
+  settles", "the author's spoken response and direct edits"). (2) `.agent/directives/editorial-guidance.md`
+  becomes the author instance in content as well as declaration: the standing audiences from
+  (1); a section "The author's worked instances" carrying the LinkedIn lane's dated instances
+  with his words (the About assembled from fragments, 7 October; the answers-as-copy
+  correction of 10 October; the partition of 21 October and EDR-009; the engineering-leader
+  drift and EDR-008; the adjectives true by his authority, 14 October; the figures not
+  web-checked; his instruments), the LinkedIn standing conditions he set (the live profile
+  edited only at his express request with him present; the PDF export first; nothing trimmed to
+  a number; the one deliberate notification his), and the tiers and pins he set on 11 October
+  as the record of origin of the list in `linkedin/profile.md`. Then
+  `pnpm --silent --filter @engraph/agent-tools validate-editorial-layers` green, and red once
+  with a seeded name in a general file as the proof of coverage. Then the second push.
+- **After the directive step:** the one pull request's description brought current; his read and
+  merge. His next closing priority is the rewrite of the root README and the appropriate
+  documents, a separate pull request; the CV chapter is a later session and consumes this lane.
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
   notice; a settled item never listed again; all decisions his, the seat still proposes;
@@ -300,8 +330,8 @@ authorisation.
 - **The source.** `linkedin/profile.md` on `main`: the validator OK, every one of its 42 status
   lines `approved` (his commit `SHA:0a05543c`), the Skills list of 48 names matching the
   registry in order (`check-list-against-registry.sh`). The skill is
-  `.agent/skills/editorial/apply-linkedin-profile/SKILL-CANONICAL.md` (load it first, with
-  `linkedin-skills` for the Skills step); the container's §Settings: Open to Work off, update
+  `.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md` (load it first, with
+  `linkedin-profile` for the Skills step); the container's §Settings: Open to Work off, update
   sharing off during editing, one deliberate notification at the end if he wants it, public
   visibility as now, the custom URL unchanged.
 - **The sitting, in the draft's order, him present and reading every field before Save:**
@@ -355,13 +385,13 @@ authorisation.
   request 341) lands on `main` at his word of the same hour: this commit, the push, the pull
   request marked ready and merged at checks green, minimal ceremony at his word.
 - Next act, at his word and with him present: the application to the live profile by the
-  `apply-linkedin-profile` skill through Chrome at his express request (the PDF baseline first,
+  `linkedin-profile` skill through Chrome at his express request (the PDF baseline first,
   one sitting in `profile.md`'s order, each field read at its counter, settings last, the new
   baseline recorded). He has already set the accepted headline and his banner photograph on the
   live profile himself (2026-10-23, 17:15 local). His one queued check, of 22 October ("once
   everything else is settled, I think we should check that the skills still make sense"), ran on
   23 October after the merge, at his question "did we forget to review the skills?": the
-  `linkedin-skills` method against the ready profile, the result in the registry's section of
+  `linkedin-profile` method against the ready profile, the result in the registry's section of
   that date; the list still says the person the profile does; no name proposed for removal;
   Knowledge Graphs proposed on `linkedin/profile.review.md` and accepted at his word the same
   hour, the list forty-eight names and both files identical again. The records rode
@@ -781,12 +811,12 @@ The owner's words after the compaction: the Skills exploration under a cap of 45
 skill ... so we don't have to rediscover all of this at a later time, including a reference file
 with the current skill list and a last updated and source and other relevant metadata ... if you
 identify other relevant LinkedIn skills to create, please create them", and the Microsoft Learn
-MCP server as the source for LinkedIn's API reference. Landed: the `linkedin-skills` skill
-(`.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md`: what LinkedIn does with the
+MCP server as the source for LinkedIn's API reference. Landed: the `linkedin-profile` skill
+(`.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md`: what LinkedIn does with the
 list with every fact sourced and dated, the selection method by EDR-008 under his tiers, the
 validation procedure with the typeahead as arbiter, `references/skills-registry.md` with every
 name's live, canonical, proposal, 2018-crawl and typeahead status, and the crawl-check script);
-the `apply-linkedin-profile` skill (the sitting's order of work under his standing conditions,
+the `linkedin-profile` skill (the sitting's order of work under his standing conditions,
 the believed field limits with their status, the industry taxonomy rows for Oak's sector); both
 registered in the practice index and `linkedin/README.md`, adapters generated, the checks
 green. The proposal (thirty-nine entries: pins Innovation, Systems Thinking, Engineering
@@ -837,7 +867,7 @@ list of skills you would like to remove". This block is the pickup. State: `link
 Systems Thinking, Artificial Intelligence (AI); his next two Social Impact, Leadership; the tail
 by cluster; C kept at his word) and, after them, thirty-nine proposed removals awaiting his word,
 four of them strings the typeahead does not know; the editor copy is identical. Every name's
-status is in the `linkedin-skills` skill's registry (live endorsement counts read 2026-10-11;
+status is in the `linkedin-profile` skill's registry (live endorsement counts read 2026-10-11;
 the typeahead's exact strings; the research candidates with their crawl status). His reasoning on
 which names he can claim is owner-private: it was quoted in tracked files for an hour, then removed
 from every tracked file and from the unpushed commit that carried it (amended before any push); it
@@ -858,7 +888,7 @@ Language Models (LLM), Strategic Thinking, Open Innovation, Knowledge Graphs, Di
 Transformation) and the endorsements each removal costs (Programming 5, HTML5 5, CSS 2,
 Communication 1); the seat's one-sentence risk on the first pin was said once in chat and belongs
 to the private material. Then his dispositions; the About earning the first pin if it stays; his
-full review and edit; the application per `apply-linkedin-profile`. Processes at the boundary:
+full review and edit; the application per `linkedin-profile`. Processes at the boundary:
 the Chrome tab closed; no watcher, no claim, no heartbeat, no cron; the editor stopped; the three
 Fable subagents of the afternoon complete. Tool facts kept: the commit-msg header refused twice
 today at 101 and 104 characters (count before writing, and never chain the commit after a failed
@@ -885,8 +915,8 @@ only. The seat's generator, named in the napkin: after each correction it reache
 surrogate authority (a taxonomy, a retrieval frame, the CV, the graph), each generic, each
 pulling the list back to the engineering leader; the cure is in the method. Landed: the plan
 node `linkedin-profile-rewrite-completion` (delivery, serves `content-as-cv`, ratified at his
-approval of the plan in this session); the `linkedin-skills` skill's selection section rewritten
-as §Choose by Jim's word and the understanding, the registry with provenance on every table and
+approval of the plan in this session); the `linkedin-profile` skill's selection section rewritten
+as §Choose by the author's word and the understanding, the registry with provenance on every table and
 the archetype candidates struck (`SHA:532e4536`); his dispositions applied, fifty-one decided and
 thirty-seven in question (`SHA:f7d18842`); the container's whole-profile section with the open
 items for his review in one list (this commit). Put to him in chat and awaiting his word: the
@@ -1042,7 +1072,7 @@ and the port: `pnpm --filter linkedin editor`, serving 127.0.0.1:4780 from the r
 tab reloaded before typing; nothing else. Not this seat's: the worktree
 `.claude/worktrees/records-door-waits` holds the records-door fix branch, ahead of main by one,
 untouched. Promises carried, none dropped: the editor and prose passes on the whole draft and
-then the readers, after his edits; the application plan under `apply-linkedin-profile` when he
+then the readers, after his edits; the application plan under `linkedin-profile` when he
 says the draft is his; the history question on `SHA:ecceacc1` (his); the Webby, the banner
 photograph, the three titles and the Principal card's 139 characters (his edits); the industry
 value at the dropdown; Recommendations and settings at application. Inferences flagged: the
