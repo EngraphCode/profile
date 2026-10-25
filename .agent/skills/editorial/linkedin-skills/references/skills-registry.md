@@ -94,6 +94,8 @@ below), Thought Leadership having left the list at Jim's word later that day, af
 | 45 | JavaScript | Jim, 11 Oct | 29 | tail | found | live | 23 endorsements (the overlay's count, 24 Oct), kept for them at his word. |
 | 46 | TypeScript | live; Jim kept it | 23 | tail | found | live | The one language of the present; backed by the Open Curriculum Ecosystem repository and his GitHub, his word of 24 October. |
 | 47 | C | Jim, 11 Oct | 50 | tail | found | live | 2 endorsements; kept at his word. The PhD's code was all C (his word, 24 October), so the PhD position links it. |
+| 48 | C (Programming Language) | Jim, 25 Oct | 51 | tail | found | live | His own addition on the live profile, the taxonomy's longer form beside the plain C; both kept at his word of 25 October; linked to the ICG. |
+| 49 | Scientific Programming | Jim, 25 Oct | 52 | tail | found | live | His own addition on the live profile; linked to the ICG. |
 
 ## The check against the ready profile, 2026-10-23
 
@@ -299,7 +301,11 @@ The first pass by form fill did not persist (the dialog closed on Save and the s
 state); the second pass clicked each row and read each dialog back (`apply-linkedin-profile`
 §Gotchas). Two names stand on the live list beyond the canonical 47, both his, both linked to the
 ICG: C (Programming Language), beside C and its two endorsements, and Scientific Programming;
-whether both C forms stay is his to say. The after-baseline carries the per-skill table.
+both C forms stay at his word, so the canonical list is 49. Two links of the map were withdrawn
+at his word the same day, Scientific Research off Obaith ("research is not the same as
+scientific research") and Public Speaking off the Home Office (the public sector is not the
+public); the live unticks were interrupted at his word and are read at pickup. The
+after-baseline carries the per-skill table.
 
 ## Free-text names the typeahead did not know, 2026-10-11
 

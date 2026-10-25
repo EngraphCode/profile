@@ -787,3 +787,26 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   closing is not a save; the proof is the dialog re-opened and read; and a refs map is per
   page load, never carried from one dialog to the next (a project Jim added mid-session moved
   every row below it). Mechanism recorded in the apply skill's gotchas.
+- **Evidence mapped from words, not meaning** (2026-10-25): the seat's map put Scientific
+  Research on the Obaith card because the card says "research", and Public Speaking on the Home
+  Office card because the service was public-facing; Jim's verdict, "research is not the same
+  as scientific research", "did you confuse public sector with working with the public?".
+  Lesson: a link is a claim the card's text supports in the reader's reading; a near-homonym
+  is the trap, and the map is proposed from what the card says he did, never from a shared
+  word.
+- **Proposed copy goes at the top, short, in a fenced block** (2026-10-25): the Obaith card's
+  text sat as a blockquote inside a long report and Jim could not see it ("I can't see the
+  proposed Obaith card text"). And his verdict on it, "built does not apply, it was primarily
+  research": the seat had read "Obaith built software" from a skills ruling into the card's
+  verb.
+- **A batch that writes to the live profile is stopped at his word, and its state is unknown
+  until read** (2026-10-25): three parallel batches (two unticks, a date read, a reorder read)
+  were aborted mid-way; nothing is assumed saved or unsaved; the pickup reads each dialog.
+- **The card's pair may be the two links saved last** (hypothesis, 2026-10-25, from his 10:13
+  screenshots: the Obaith card led with Scientific Research and the Home Office card with
+  Public Speaking, the links the seat had saved most recently; the Principal card moved from
+  "AI Agents, Generative AI" to "Generative AI, TypeScript" after re-saves). Untested; the test
+  is on the pickup list at his word.
+- **He removes the two certificates** ("they interrupt the flow", 2026-10-25): the Licences
+  rows leave every skill dialog, so the dialog order file loses its Licences group and the
+  refs below it move up; Citizen Science and Open Data lose their certificate surfaces.

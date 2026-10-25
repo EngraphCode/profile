@@ -283,7 +283,7 @@ his C (Programming Language) and Scientific Programming, both linked to the ICG.
 | Technology Leadership          | Principal, FT Labs, Oak Web App                                                                                                          |
 | Research and Development (R&D) | Principal, Obaith, PhD, HP Labs, Plugin, Practice, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                     |
 | Prototyping                    | Principal, Senior Dev Oak, Obaith, FT Labs, HP Labs, Bath                                                                                |
-| Scientific Research            | Obaith, PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
+| Scientific Research            | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
 | Emerging Technologies          | Principal, FT Labs, Plugin, Practice, FT Web App                                                                                         |
 | Startups                       | Medicspot, FT Labs                                                                                                                       |
 | Entrepreneurship               | Code Science, Obaith, Reforest Now (his)                                                                                                 |
@@ -314,7 +314,7 @@ his C (Programming Language) and Scientific Programming, both linked to the ICG.
 | Citizen Science                | PhD, ICG, Citizen Science cert, Oceans cert, galaxy-bias paper, thesis                                                                   |
 | Scientific Writing             | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
 | Science Communication          | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis, Bath                                                                             |
-| Public Speaking                | Principal, Home Office, PhD                                                                                                              |
+| Public Speaking                | Principal, PhD                                                                                                                           |
 | Mentoring                      | Code Science, Medicspot, HP Labs                                                                                                         |
 | Software Development           | Principal, Senior Dev Oak, Code Science, Medicspot, Obaith, Home Office, British Airways, FT Labs, PhD, HP Labs, FT Web App, Oak Web App |
 | Web Technologies               | Senior Dev Oak, Medicspot, FT Labs, FT Web App, Oak Web App                                                                              |

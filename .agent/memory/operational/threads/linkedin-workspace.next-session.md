@@ -10,7 +10,60 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-25T12:xxZ, the skill links applied by real clicks and verified after the form-fill saves failed; the owner's four points of the morning answered from the live pages; the Obaith card and the contributors at his word; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-25T13:xxZ, compaction at the owner's word; the pickup list below is proposed for his approval; his rulings of the hour recorded; the certificates leaving at his hand; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context (three
+  tabs in his signed-in session; two may hold open dialogs, read before any Save).
+- **His rulings of 25 October, early afternoon, each applied or recorded:** the Obaith card is
+  research, "built" does not apply (text to be re-proposed, short, at the top of the message);
+  both C forms stay, the canonical list is 49 (registry and source updated); the thesis date is
+  a random Wednesday in May 2010, drawn as 26 May 2010, not yet set; the Oak Web Application
+  stays without dates (his "Okay" read so); the Plugin skill-order test is to run ("yes, do that
+  and learn"); his location is United Kingdom (source updated); Scientific Research off Obaith
+  and Public Speaking off the Home Office (the live unticks were interrupted at his word, state
+  unread); the two FutureLearn certificates are leaving at his hand ("they interrupt the
+  flow"); Tom Wise is the same person (design then AI); Matt Gregory may be Matthew on LinkedIn
+  and there may be two of that name among the contributors; a link to the GitHub contributors
+  page is his alternative to tagging fifty people.
+- **The pickup list, proposed, awaiting his approval** (each item one act, in this order):
+  1. Read the Licences section and one skill dialog; with the certificates gone, the source's
+     Licences section follows (both entries out, a dated status note), the dialog order file
+     loses its Licences group, and the registry's map rows for Citizen Science and Open Data
+     lose the certificate surfaces.
+  2. Read the Scientific Research and Public Speaking dialogs; untick Obaith and the Home
+     Office where still ticked, by the proven mechanism (a real click on the row, the page's
+     own Save, the dialog re-opened); the after-baseline rows already say so.
+  3. The Obaith project card at his approval of the re-proposed text: add it through the
+     add-project form (name Obaith, January 2018 to April 2020, associated with the Obaith
+     position, the archived site as a media link, skills his choice from Social Innovation,
+     Social Impact, Systems Thinking, Research and Development (R&D), Prototyping); read back;
+     the source card, the registry map (a new dialog row for every skill it carries), the
+     after-baseline.
+  4. The Oak Web Application contributors at his decision: a media link to the GitHub
+     contributors page (no one notified), or tags for the connections he names from the
+     table, or both.
+  5. The thesis date, 26 May 2010, set on publication 1852835170 by keyboard on the dialog's
+     date selects (a form fill is not trusted), saved, read back; the source's status note.
+  6. The Plugin's skill order: move Technological Innovation to the top of the project
+     dialog's list (keyboard on the drag handle, or a drag), save, read the projects page
+     card; record the finding in the apply skill; if the card follows, order the three Oak
+     projects' lists at his word.
+  7. His question on the experience cards: test the hypothesis that the card shows the two
+     links saved last, by re-saving Technological Innovation then Artificial Intelligence (AI)
+     with the Principal unticked and re-ticked, and reading the card; record; if confirmed,
+     set every position's pair at his word.
+  8. Search "Gregory" and "Matthew Gregory" in the contributor field; report.
+  9. Records after each item, commits by pathspec; the push, the notification and the merge
+     his.
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again; all decisions
+  his, the seat still proposes; proposed copy short and at the top; draft PR 349 carries the
+  branch.
+- **Seat state:** n=1; the claim `3b4a1be4`; no watcher or heartbeat (consumer absent).
+
+## Previous Continuation (2026-10-25T12:xxZ, the skill links applied by real clicks and verified after the form-fill saves failed; the owner's four points of the morning answered from the live pages; the Obaith card and the contributors at his word; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
