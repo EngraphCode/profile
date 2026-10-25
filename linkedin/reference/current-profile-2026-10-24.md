@@ -85,8 +85,8 @@ smaller counts below.
 ## Projects — 1 entry
 
 FT Web App; Sep 2011 – Jul 2014; "The FT Web App is a ground breaking media experience providing
-on and offline access to Financial Times content."; contributors "Matthew, Matthew and 7
-others"; skill Problem Solving; associated with FT Labs. The page carries LinkedIn's notice
+on and offline access to Financial Times content."; nine other contributors; skill Problem
+Solving; associated with FT Labs. The page carries LinkedIn's notice
 that projects from connected apps sync automatically and cannot be edited on LinkedIn; whether
 this entry is one of them is read at the sitting.
 
