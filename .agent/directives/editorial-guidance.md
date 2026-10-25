@@ -3,6 +3,8 @@ fitness_line_target: 195
 fitness_line_limit: 225
 fitness_char_limit: 15000
 fitness_line_length: 100
+layer: author
+author_names: [Jim, Cresswell, jimcresswell]
 split_strategy: Split by responsibility — extract pitfall examples to a separate reference, or voice register details to register-specific files
 ---
 

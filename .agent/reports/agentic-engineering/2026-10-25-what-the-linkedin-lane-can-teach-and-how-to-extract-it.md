@@ -63,7 +63,7 @@ What changed and why:
 
 | Tier                | What it holds                                                                                                                                                                                                                                                                                                              | Size                                                            |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Consolidated        | `.agent/directives/editorial-strategy.md`, `editorial-guidance.md`; the four editorial skills (`write-for-the-reader`, `editorial-voice`, `linkedin-skills` with its registry and scripts, `apply-linkedin-profile` with its field limits and industry taxonomy); eight editorial decision records (EDR-001 to EDR-009, no 006) | directives 30 KB; skills 40 KB; EDRs                            |
+| Consolidated        | `.agent/directives/editorial-strategy.md`, `editorial-guidance.md`; the four editorial skills (`write-for-the-reader`, `editorial-voice`, `linkedin-profile` with its registry and scripts, `linkedin-profile` with its field limits and industry taxonomy); eight editorial decision records (EDR-001 to EDR-009, no 006) | directives 30 KB; skills 40 KB; EDRs                            |
 | Semi-consolidated   | The thread record (nineteen dated blocks, 30 September to 25 October); the napkin; the ratified plan node `linkedin-profile-rewrite-completion`; the `linkedin/` workspace: the profile, the decision container, the review copy, three dated baselines, the research reports, the Oak figures, the September analyses       | thread record 146 KB; napkin 76 KB; workspace prose about 600 KB |
 | The seat's buffer   | The per-user memory directory for this repository: one fact per file, feedback and project classes, most of them this lane's corrections                                                                                                                                                                                   | 139 files, 74 touching the lane                                 |
 | Owner-private       | The owner's private editorial repository (local, ignored): the application brief, the August retrospective on identity custody, the briefs' reviews, the handoffs of August and October                                                                                                                                    | names only here; nothing from it enters a tracked file          |
@@ -84,8 +84,8 @@ material in their own right, not as context for the transcripts.
 
 1. **Much was consolidated at occurrence.** `write-for-the-reader` was written from three
    failures of one week and carries his corrections of 7, 8, 10 and 21 October verbatim; EDR-008
-   and EDR-009 hold the two shape decisions; `apply-linkedin-profile` holds the platform facts
-   of 24 and 25 October as dated gotchas; `linkedin-skills` holds the selection method and a
+   and EDR-009 hold the two shape decisions; `linkedin-profile` holds the platform facts
+   of 24 and 25 October as dated gotchas; `linkedin-profile` holds the selection method and a
    registry with provenance per name. The extraction is a gap read against these, not a first
    capture.
 2. **What lives only in his words.** The corrections that changed the method arrived in chat,
@@ -235,7 +235,7 @@ Associations, not findings; each marked as the event it was.
 
 What only this context held at the owner's word, and where it now is:
 
-- The application's platform facts of 24 and 25 October: in `apply-linkedin-profile` §Gotchas
+- The application's platform facts of 24 and 25 October: in `linkedin-profile` §Gotchas
   and the after-baseline; landed.
 - The sense-check of 49 skill links and his seven answers: the registry and the thread record;
   landed.

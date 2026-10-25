@@ -114,5 +114,5 @@ spanning paragraph to be duplicated, halved or glued; cutting along the joints k
   reader's decision axis).
 - `.agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md` §1 and §Gotchas.
 - `.agent/rules/public-copy-runs-the-editorial-workflow.md`.
-- `.agent/skills/editorial/apply-linkedin-profile/references/field-limits.md` for the verified
+- `.agent/skills/editorial/linkedin-profile/references/field-limits.md` for the verified
   limits and their dates.

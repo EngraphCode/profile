@@ -113,7 +113,7 @@ Canonical skills live under [`skills/`](skills/), each at
 | Craft                     | `domain-craft/ui-design/*`, `domain-craft/project-spec-creation`, `tsdoc`, `dependency-currency`, `update-dependencies`, `working-with-graphs`, `orientation/working-with-agentic-ai`, `orientation/under-the-hood`  |
 | Reviewer companions       | `reviewer-companions/accessibility`, `architecture`, `config`, `docs-adr`, `react-component`, `security`, `subagent-architecture`                                                                                    |
 | Lever authoring           | `lever-authoring/author-skills`                                                                                                                                                                                      |
-| PKG and editorial (local) | `pkg`, `editorial/editorial-voice`, `editorial/write-for-the-reader`, `editorial/linkedin-skills`, `editorial/apply-linkedin-profile` |
+| PKG and editorial (local) | `pkg`, `editorial/editorial-voice`, `editorial/write-for-the-reader`, `editorial/linkedin-profile`, `editorial/cv` |
 
 ### Rules
 

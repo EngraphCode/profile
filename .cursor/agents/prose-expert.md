@@ -1,6 +1,6 @@
 ---
 name: prose-expert
-description: 'Prose craft specialist. Use proactively to review the writing of any authored document for clarity, concision, and active voice; defers the editorial voice on content that represents Jim to editor.'
+description: 'Prose craft specialist. Use proactively to review the writing of any authored document for clarity, concision, and active voice; defers the editorial voice on content that represents the author to editor.'
 readonly: true
 ---
 

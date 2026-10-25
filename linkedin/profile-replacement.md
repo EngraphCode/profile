@@ -56,7 +56,7 @@ the plugin and the Principal card), Artificial Intelligence (AI) (the field the 
 name, shown by the plugin; the specific AI names in the tail do the distinguishing), Social
 Impact (the direction, shown by Oak). The next two, Systems Thinking and Strategic Leadership,
 are the first lines under Show all: how he thinks and at what level. Jim is the authority on
-every name; the method is the `linkedin-skills` skill's §Choose by Jim's word and the
+every name; the method is the `linkedin-profile` skill's §Choose by Jim's word and the
 understanding.
 
 Settled with Jim on 16 October, by his dispositions on the fourteen-item dedupe and enhancement
@@ -542,7 +542,7 @@ next two skills, the rest of the long tail ... Some carry endorsements that I wa
 javascript, software development, web applications, software engineering. We also need an
 official list of LinkedIn's taxonomy"). The list above is unchanged; this is the proposal, and
 the platform facts, the validation method and the registry of every name now live in the
-`linkedin-skills` skill (`.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md`, his word
+`linkedin-profile` skill (`.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md`, his word
 the same hour, so none of it is rediscovered). What the facts settle: the official list is
 LinkedIn's Standardized Data API, open to approved partner applications only, so the profile
 typeahead at application is the arbiter; a member skill is a free-text phrase with an optional
@@ -607,7 +607,7 @@ Coaching; Digital Transformation is not added; Social Entrepreneurship stands as
 and the About is not changed for it. Applied: fifty-one decided entries in display order, with
 Parameter Estimation beside Statistical Modeling and Scientific Writing beside Science
 Communication, and thirty-seven names still in question for him, each with its provenance in the
-registry. The method that selects names is now the `linkedin-skills` skill's §Choose by Jim's word
+registry. The method that selects names is now the `linkedin-profile` skill's §Choose by Jim's word
 and the understanding: he is the authority; the CV, the entity graph, LinkedIn's taxonomy, the
 research and the readers are sources and instruments, never a baseline the list is corrected to;
 a name he set is never proposed for removal; a proposal carries one sentence of what the name

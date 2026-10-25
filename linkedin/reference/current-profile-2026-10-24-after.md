@@ -152,7 +152,7 @@ scrolling, read on a fresh load after the reorder. The order is the canonical li
 where LinkedIn shows only highlight lines; endorsers' names are not recorded. The last column
 is what the page links beneath the name (positions and projects). LinkedIn's ids for the 48 are
 in the registry's applied section
-(`.agent/skills/editorial/linkedin-skills/references/skills-registry.md`).
+(`linkedin/reference/skills-registry.md`).
 
 | #   | Skill                          | Endorsements                                                | Linked on the page                                                                            |
 | --- | ------------------------------ | ----------------------------------------------------------- | --------------------------------------------------------------------------------------------- |

@@ -1,5 +1,5 @@
 name = "prose-expert"
-description = "Prose craft reviewer for universal writing clarity; the editorial voice on content that represents Jim is editor's."
+description = "Prose craft reviewer for universal writing clarity; the editorial voice on content that represents the host author is editor's."
 model_reasoning_effort = "high"
 sandbox_mode = "read-only"
 approval_policy = "never"
