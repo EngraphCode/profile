@@ -84,10 +84,13 @@ authorisation.
   finds the profile's connections only; Will Percival, Pia Mukherjee and Alain Riazuelo
   returned nothing; Andrew Liddle stands on the second paper; nothing saved. They can be added
   once connected, his call; the descriptions carry the names.
-- **The next sitting, live, with him present, at his word:** the About's "Before Oak"
-  sentence (teaching and tour guiding, in the source since 24 October, not yet live); the
-  Principal card's first sentence once chosen; his dispositions on the rebuild project's
-  three points; the evidence map's links at each card's dialog.
+- **The session is live and he edits in parallel** (his word of 25 October: "this is the live
+  session, we are doing things right now"): the About's "Before Oak" sentence applied by the
+  seat at once and read back; he is setting the skill links himself through each skill's own
+  dialog, which offers every surface (positions, education, certificates, projects,
+  volunteering, publications, the organisation). The seat opens no dialog he may be in. Still
+  at his word: the Principal card's first sentence; his dispositions on the rebuild project's
+  three points; the co-authors, his (a connection first).
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
   notice; the LinkedIn work the only work; a settled item never listed again.

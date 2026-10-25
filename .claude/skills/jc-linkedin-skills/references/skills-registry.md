@@ -242,8 +242,17 @@ Jim's rule of 25 October: every card that takes a list of skills carries them; t
 every surface that shows them, never a single example; every name carries at least one. The
 links he set himself on 25 October are in the after-baseline (`linkedin/reference/current-profile-2026-10-24-after.md`
 §Skill links, read 2026-10-25). The additions below are the seat's reading of what each card's
-text shows, his to edit; the links a reader would doubt are named. Education entries and
-certificates take skills too; volunteering, organisations and publications do not.
+text shows, his to edit; the links a reader would doubt are named. The route is the skill's own edit dialog on the
+skills page ("Tell us where you put this skill to use"), which lists every surface with a
+checkbox, 24 on 25 October: the ten positions, the three education entries, the two
+certificates, the four projects, the volunteering entry, the three publications and the
+organisation. So volunteering, the organisation and the publications are evidence too, Jim's
+correction of 25 October: the three publications for Astrophysics, Cosmology, Computational
+Physics, Statistical Modeling, Parameter Estimation, Physics, Scientific Research, Scientific
+Writing and Science Communication (the thesis and the first paper for Citizen Science too); the
+volunteering for Social Impact; the Institute of Physics for Physics. Jim was setting the links
+himself through that dialog on 25 October (Technological Innovation read at nine surfaces, the
+two Oak positions, the PhD, FT Labs, HP Labs and the four projects).
 
 | Card | Proposed additions | A reader would doubt |
 | --- | --- | --- |

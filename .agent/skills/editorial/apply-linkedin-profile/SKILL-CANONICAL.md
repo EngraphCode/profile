@@ -122,8 +122,11 @@ read is closed without saving.
 - A position's or a project's own skill overlay opens by direct address,
   `/in/<handle>/overlay/<id>/skill-associations-details/?associationType=position` (or
   `projects`), the id taken from the card's skills link; its text is read from a screenshot
-  (2026-10-25). Education entries and certificates take skills too; volunteering,
-  organisations and publications do not. A position took thirteen on 2026-10-25.
+  (2026-10-25). A position took thirteen on 2026-10-25. The route for setting links is the
+  skill's own edit dialog on the skills page ("Tell us where you put this skill to use"),
+  which lists every surface with a checkbox: positions, education entries, certificates,
+  projects, the volunteering entry, publications and organisations (24 on 2026-10-25); the
+  card-side dialogs reach positions, projects, education and certificates only.
 - The skills details page loads its rows on real wheel scrolls only (the computer tool), not
   on a scripted scroll; and the page's script tool refuses to return any string holding a
   query string or base64, so an address is reduced to its id before it is returned.

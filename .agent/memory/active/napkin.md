@@ -768,3 +768,11 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   tool), not on `window.scrollBy`; the page's script tool refuses to return a string that
   holds a query string or base64, so an overlay id is extracted by regex before return; the
   publication dialog's author field finds connections only. All in the apply skill's gotchas.
+- **"This is the live session"** (Jim, 2026-10-25): the seat wrote of "the next sitting" as a
+  future event while he was present, editing, and asking; the sentence waiting in the source
+  was applied the moment he asked what was pending. With him present and editing, a settled
+  change is applied now, not listed for later; and he edits the live profile in parallel, so
+  the seat touches no dialog he may be in (he was in the skill dialogs while the seat read one).
+- **A skill's own edit dialog is the evidence route**: it lists every surface with a
+  checkbox, publications, volunteering and the organisation included; the card-side overlays
+  only read. His correction of 25 October; the apply skill's gotcha corrected.
