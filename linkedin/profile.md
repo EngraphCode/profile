@@ -236,7 +236,7 @@ Link: <https://arxiv.org/abs/astro-ph/0512017>
 
 ### Luminosity Functions and Galaxy Bias in the Sloan Digital Sky Survey · University of Portsmouth · 2010
 
-Status: approved (12 October 2026, from the ORCID record and the research portal; awaiting Jim; 23 October 2026: ready at Jim's word; 24 October 2026: added at the sitting, the title, publisher, URL and description from the card, 308 of 2,000; LinkedIn's date field wants a day and the card carries the year alone, so the date was left empty rather than invented: open for Jim's word, a date or none)
+Status: approved (12 October 2026, from the ORCID record and the research portal; awaiting Jim; 23 October 2026: ready at Jim's word; 24 October 2026: added at the sitting, the title, publisher, URL and description from the card, 308 of 2,000; LinkedIn's date field wants a day and the card carries the year alone, so the date was left empty rather than invented: open for Jim's word, a date or none; 25 October 2026: the publication date set on the live profile to 26 May 2010, the award month per the Portsmouth portal and the day drawn at Jim's word ("pick a random Wednesday in May 2010"), typed into the dialog's date field and read back on the publications page as May 26, 2010)
 
 Doctoral thesis, Institute of Cosmology and Gravitation: how galaxies of different luminosities and colours trace the underlying matter in the Sloan Digital Sky Survey, measured by fitting parametric and non-parametric models, with the Galaxy Zoo morphologies as a check on what a galaxy's colour stands for.
 

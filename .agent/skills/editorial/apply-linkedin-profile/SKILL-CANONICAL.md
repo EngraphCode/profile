@@ -152,6 +152,10 @@ read is closed without saving.
   success, and the re-opened dialog held the original media only. The add-project form saved
   its link media the same hour. Every media addition is proved by the re-opened dialog, never
   by the Save's alert.
+- A publication's date is one text field with the placeholder mm/dd/yyyy and a calendar
+  button, not selects (2026-10-25, the thesis): the typed "05/26/2010" read back as
+  "5/26/2010" in the field, the Save took it, and the publications page shows "May 26,
+  2010"; a read of the field compares the date, not the string.
 - A publication's author field searches the profile's connections only (2026-10-25: a
   connection's name returned at once, three co-authors who are not connections returned
   nothing). A co-author who left an entry at an edit's Save cannot be restored unless

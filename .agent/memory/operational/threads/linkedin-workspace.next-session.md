@@ -80,7 +80,9 @@ authorisation.
      a sentence in the card's text naming the contributors page.
   5. The thesis date, 26 May 2010 ("sure"), set on publication 1852835170 by keyboard on the
      dialog's date selects (a form fill is not trusted), saved, read back; the source's status
-     note.
+     note. Done at the sitting of 25 October: the dialog's date is one text field, typed,
+     saved, read back on the publications page as May 26, 2010; the source's status note and
+     the apply skill follow.
   6. The Plugin's skill order ("yes"): move Technological Innovation to the top of the project
      dialog's list (keyboard on the drag handle, or a drag), save, read the projects page
      card; record the finding in the apply skill; if the card follows, order the three Oak
