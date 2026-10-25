@@ -357,15 +357,31 @@ shows the first two skills of the dialog's list, Social Innovation and Social Im
 order they were added. The projects page shows the FT Web App's contributors as two of the name
 Matthew and seven others, and Reforest Now's as Tom.
 
-The Oak AI Plugin's skill list, reordered the same afternoon as the test of the card's pair:
-Technological Innovation moved from last to first, the rest as before (System Architecture,
-Knowledge Graphs, Generative AI, AI Agents, Emerging Technologies, Open-Source Development,
-Product Engineering, Social Impact, Research and Development (R&D), Artificial Intelligence
-(AI), Open Standards, Open-Source Software, Edtech, Digital Public Goods, Large Language Models
-(LLM), Open Data, TypeScript, Responsible AI, Social Innovation, Model Context Protocol (MCP));
-the card followed. The Practice's list begins Systems Thinking, Generative AI; the Oak Web
-Application's System Architecture, Systems Thinking; the FT Web App's Software Development,
-Emerging Technologies; the Obaith project's Social Innovation, Social Impact.
+The project skill lists, ordered at Jim's word the same afternoon by keyboard at each dialog
+and read back on the projects page, where the card shows the list's first two:
+
+- The Oak AI Plugin: Technological Innovation, Artificial Intelligence (AI), AI Agents, Model
+  Context Protocol (MCP), Knowledge Graphs, then System Architecture, Generative AI, Emerging
+  Technologies, Open-Source Development, Product Engineering, Social Impact, Research and
+  Development (R&D), Open Standards, Open-Source Software, Edtech, Digital Public Goods, Large
+  Language Models (LLM), Open Data, TypeScript, Responsible AI, Social Innovation.
+- The Practice: Technological Innovation, AI Agents, Generative AI, Software Engineering
+  Practices, Systems Thinking, then Platform Engineering, Emerging Technologies, Open-Source
+  Development, Research and Development (R&D), Artificial Intelligence (AI), Open-Source
+  Software, Large Language Models (LLM), TypeScript, Responsible AI.
+- The Oak Web Application: Strategic Leadership, Technology Leadership, System Architecture,
+  Systems Thinking, Digital Public Goods, then Software Development, Platform Engineering,
+  Open-Source Development, Product Engineering, Social Impact, Public Sector, Open-Source
+  Software, Edtech, Open Data, TypeScript, Web Technologies, Technological Innovation.
+- FT Web App: Technological Innovation, Product Engineering, Emerging Technologies, Web
+  Technologies, JavaScript, then Software Development, Open Standards; its contributors list
+  (nine names) unchanged.
+- Obaith: Social Innovation, Social Impact, Systems Thinking, Research and Development (R&D).
+- Reforest Now: his, untouched.
+
+The Oak Web Application's description ends with the sentence on the contributors added at his
+word (587 of 2,000), after the edit dialog dropped the GitHub contributors page as a media link
+three times; the card carries two media links, the repository and Oak's site.
 
 ## Recommendations, activity and interests
 
