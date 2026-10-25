@@ -289,12 +289,12 @@ table reads as the live profile after those saves.
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 | Technological Innovation       | Principal, FT Labs, Plugin, Practice, FT Web App, Oak Web App, Senior Dev Oak, PhD, HP Labs                                      |
 | Artificial Intelligence (AI)   | Principal, Plugin, Practice                                                                                                      |
-| Social Impact                  | Principal, Senior Dev Oak, Obaith, Plugin, Oak Web App, Volunteering, Reforest Now (his)                                         |
-| Systems Thinking               | Principal, Obaith, Home Office, British Airways, FT Labs, Practice, Oak Web App                                                  |
+| Social Impact                  | Principal, Senior Dev Oak, Obaith, Plugin, Oak Web App, Volunteering, Reforest Now (his), Obaith project                         |
+| Systems Thinking               | Principal, Obaith, Home Office, British Airways, FT Labs, Practice, Oak Web App, Obaith project                                  |
 | Strategic Leadership           | Principal, Senior Dev Oak, Code Science, Home Office, British Airways, Oak Web App                                               |
-| Social Innovation              | Principal, Senior Dev Oak, Obaith, Plugin, Reforest Now (his)                                                                    |
+| Social Innovation              | Principal, Senior Dev Oak, Obaith, Plugin, Reforest Now (his), Obaith project                                                    |
 | Technology Leadership          | Principal, FT Labs, Oak Web App                                                                                                  |
-| Research and Development (R&D) | Principal, Obaith, PhD, Plugin, Practice, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                      |
+| Research and Development (R&D) | Principal, Obaith, PhD, Plugin, Practice, ICG, Sussex, galaxy-bias paper, CMB paper, thesis, Obaith project                      |
 | Prototyping                    | Principal, Senior Dev Oak, FT Labs, HP Labs, Bath                                                                                |
 | Scientific Research            | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
 | Emerging Technologies          | Principal, FT Labs, Plugin, Practice, FT Web App                                                                                 |
@@ -344,6 +344,18 @@ rebuild paragraph; the Practice project's first sentence; the rebuild project re
 rewritten; the Oak National Academy Featured link removed; Thought Leadership deleted; the PhD
 entry's school the Institute of Cosmology and Gravitation; the links above. The source follows
 each (`linkedin/profile.md`, the status notes of 25 October).
+
+## The Obaith project, added 2026-10-25
+
+Project id 1925228657, added at the add-project form in the afternoon sitting: the name, the
+description (713 of 2,000), the dates January 2018 to April 2020, the association with the Obaith
+position and the four skills above; the archived site (web.archive.org, 14 November 2021) as a
+media link titled "Obaith, the site as archived in November 2021", its address stored by LinkedIn
+with the inner scheme's slashes collapsed to one. Read back on the projects page, where
+LinkedIn's date order places it fourth, after Reforest Now and before the FT Web App. The card
+shows the first two skills of the dialog's list, Social Innovation and Social Impact, in the
+order they were added. The projects page shows the FT Web App's contributors as two of the name
+Matthew and seven others, and Reforest Now's as Tom.
 
 ## Recommendations, activity and interests
 

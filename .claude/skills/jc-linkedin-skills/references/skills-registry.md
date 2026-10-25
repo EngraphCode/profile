@@ -246,8 +246,9 @@ links he set himself on 25 October are in the after-baseline (`linkedin/referenc
 §Skill links, read 2026-10-25). The additions below are the seat's reading of what each card's
 text shows, his to edit; the links a reader would doubt are named. The route is the skill's own edit dialog on the
 skills page ("Tell us where you put this skill to use"), which lists every surface with a
-checkbox, 24 on 25 October, 23 after Jim deleted the two certificates the same day: the ten
-positions, the three education entries, the four projects, the volunteering entry, the three publications and the
+checkbox, 24 on 25 October, 23 after Jim deleted the two certificates the same day and 24 again
+with the Obaith project added that afternoon: the ten positions, the three education entries, the
+projects, the volunteering entry, the three publications and the
 organisation. So volunteering, the organisation and the publications are evidence too, Jim's
 correction of 25 October: the three publications for Astrophysics, Cosmology, Computational
 Physics, Statistical Modeling, Parameter Estimation, Physics, Scientific Research, Scientific
@@ -272,6 +273,7 @@ two Oak positions, the PhD, FT Labs, HP Labs and the four projects).
 | The Practice | Technological Innovation, Artificial Intelligence (AI), Generative AI, Emerging Technologies, Systems Thinking, Open-Source Software, Open-Source Development, TypeScript |  |
 | FT Web App | Technological Innovation, Emerging Technologies |  |
 | The Oak Web Application | Strategic Leadership, Technology Leadership, Technological Innovation, Systems Thinking, Open-Source Software, Open-Source Development, Open Data, Digital Public Goods, Public Sector, Edtech, Social Impact, Software Development |  |
+| Obaith (project, added 25 October) | Social Innovation, Social Impact, Systems Thinking, Research and Development (R&D) |  |
 | PhD, Institute of Cosmology and Gravitation | Astrophysics, Cosmology, Physics, Computational Physics, Statistical Modeling, Parameter Estimation, Scientific Research, Scientific Writing, Science Communication, Citizen Science, C |  |
 | MSc, University of Sussex | Cosmology, Astrophysics, Physics, Scientific Research, Scientific Writing, Science Communication, Computational Physics |  |
 | MPhys, University of Bath | Physics, Prototyping (the Theremin) |  |
@@ -311,7 +313,9 @@ lost Open-Source Software and JavaScript, the old profile's links; Senior Develo
 Open Standards and kept Prototyping; HP Labs lost Research and Development and kept Prototyping;
 Code Science kept Mentoring, Open-Source Software, JavaScript and TypeScript, the Medicspot and
 Oak work having run through it; the PhD position joined the ICG on C (Programming Language) and
-Scientific Programming. The after-baseline carries the per-skill table.
+Scientific Programming. The Obaith project, added the same afternoon at the add-project form,
+links Social Innovation, Social Impact, Systems Thinking and Research and Development (R&D), read
+on the projects page. The after-baseline carries the per-skill table.
 
 ## Free-text names the typeahead did not know, 2026-10-11
 

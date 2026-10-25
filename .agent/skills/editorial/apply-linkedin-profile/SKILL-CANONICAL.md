@@ -126,7 +126,7 @@ read is closed without saving.
   skill's own edit dialog on the skills page ("Tell us where you put this skill to use"),
   which lists every surface with a checkbox: positions, education entries, certificates,
   projects, the volunteering entry, publications and organisations (24 on 2026-10-25, 23 once the two certificates were
-  deleted); the
+  deleted, 24 again with a project added); the
   card-side dialogs reach positions, projects, education and certificates only.
 - In that dialog a form fill on a checkbox is not a tick: the input reads as checked, Save
   closes the dialog, and the server keeps the old state (2026-10-25, twenty dialogs re-read).
@@ -138,6 +138,14 @@ read is closed without saving.
 - The skills details page loads its rows on real wheel scrolls only (the computer tool), not
   on a scripted scroll; and the page's script tool refuses to return any string holding a
   query string or base64, so an address is reduced to its id before it is returned.
+- The add-project form (2026-10-25, the Obaith project): a form fill persisted on the name
+  input, the description textarea and the native selects for the dates and the association,
+  all read back on the saved card. The skill typeahead's options took a script click once the
+  name was typed into the field. The media link's address typed by the computer tool lost a
+  letter ("ww.obaith") and the preview failed; the address set through the page's script by
+  the native value setter with input and change events was accepted, the preview loaded, and
+  the title field took the same route. The Add media button and the sub-dialog's Add and
+  Save needed real clicks.
 - A publication's author field searches the profile's connections only (2026-10-25: a
   connection's name returned at once, three co-authors who are not connections returned
   nothing). A co-author who left an entry at an edit's Save cannot be restored unless

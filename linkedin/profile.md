@@ -160,7 +160,7 @@ Status: approved (12 October 2026: the three below retained with their current l
 
 ## Projects
 
-Status: approved (11 October 2026, awaiting Jim; 23 October 2026: ready at Jim's word; 24 October 2026: the FT Web App edited and the three Oak projects added at the sitting; LinkedIn's add-project form has no URL field, so each link is a media link; Jim's word of the sitting: each project links appropriate skills from the approved list at the Skills step, the seat proposing the set per project first; 25 October 2026: Reforest Now added by Jim on the live profile; LinkedIn orders the section by date, the ongoing projects first and then by end date, so the Oak Web Application, with no dates, sits last)
+Status: approved (11 October 2026, awaiting Jim; 23 October 2026: ready at Jim's word; 24 October 2026: the FT Web App edited and the three Oak projects added at the sitting; LinkedIn's add-project form has no URL field, so each link is a media link; Jim's word of the sitting: each project links appropriate skills from the approved list at the Skills step, the seat proposing the set per project first; 25 October 2026: Reforest Now added by Jim on the live profile; LinkedIn orders the section by date, the ongoing projects first and then by end date, so the Oak Web Application, with no dates, sits last; 25 October 2026, afternoon: the Obaith project added at the sitting, its card below)
 
 ### The Oak AI Plugin · 2024 – Present · Associated with Oak National Academy
 
@@ -183,6 +183,14 @@ Link: <https://github.com/oaknational/oak-open-curriculum-ecosystem>
 Status: approved (25 October 2026: Jim's own addition on the live profile, read from the project's edit dialog; the description his, 123 of 2,000; the contributor Tom; the skills his, Social Impact, Entrepreneurship and Social Innovation; no link; the source follows the live text)
 
 A personal research project into models for funding ecologically rigorous reforestation in deforested urban and rural areas
+
+### Obaith · January 2018 – April 2020 · Associated with Obaith
+
+Status: approved (25 October 2026: added at the sitting at Jim's word, the text as he corrected it with his word on the pivot; 713 of 2,000; the archived site as a media link, titled "Obaith, the site as archived in November 2021"; the skills Social Innovation, Social Impact, Systems Thinking and Research and Development (R&D); read back on the projects page, where LinkedIn's date order places it after Reforest Now)
+
+Obaith was research into a platform for local cooperative action on the problems we all share, climate breakdown, ecological collapse and loneliness among them. I designed it: community projects would record, share and discover what works, so that anyone could start a project with the experience of others behind them, join one, or make their own count for more, on open content, open knowledge and open software, open standards, accessibility, privacy and user sovereignty. When I realised the real value was in the research, for me and for the impact I could help create in other projects, I turned the project to research alone; the platform was never built. The link is the site as archived in November 2021.
+
+Link: <https://web.archive.org/web/20211114073948/https://www.obaith.com/>
 
 <!-- markdownlint-disable MD034 -->
 

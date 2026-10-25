@@ -59,7 +59,11 @@ authorisation.
      the platform was never built. The link is the site as archived in November 2021." (His
      word at the pickup: "the pivot to pure research happened deliberately when I realised
      that was where the real value was, to me and to the impact I might help create in other
-     projects"; the third sentence carries it.) Then the
+     projects"; the third sentence carries it.) Done at the sitting, 25 October afternoon:
+     project id 1925228657, the text as above, the dates, the association, the archived site
+     as a media link titled for the reader, the four skills (Prototyping left off by his own
+     ruling on the position); read back on the projects page, fourth in LinkedIn's date
+     order; the source card, the registry map and the after-baseline follow. Then the
      add-project form: name Obaith, January 2018 to April 2020, associated with the Obaith
      position, the archived site (web.archive.org, 14 November 2021) as a media link, the
      skills his choice from Social Innovation, Social Impact, Systems Thinking, Research and
