@@ -134,7 +134,17 @@ read is closed without saving.
   and read are the save; the refs are read afresh on every open, since any entry added to
   the profile moves every row below it, and a dialog with an Endorsements section carries
   its Save button at a different ref. A position's edit dialog lists its skills as pills
-  with no ordering control; a project's edit dialog lists them with drag handles.
+  with no ordering control; a project's edit dialog lists them with drag handles, and the
+  project's card shows the first two skills of that list in its order (2026-10-25: the Oak AI
+  Plugin's card read "System Architecture, Knowledge Graphs and +19 skills", and after
+  Technological Innovation was moved to the top of the list and saved, "Technological
+  Innovation, System Architecture and +19 skills"; the Obaith project's card showed the two
+  skills added first). The list reorders by keyboard: the row's drag handle focused, Space to
+  pick up, one ArrowUp per place with a pause between presses (twenty presses sent at once
+  moved the item one place), Space to drop; the live region names the drop position. A ref
+  read before a move pointed at another row's handle after it (the Model Context Protocol row
+  moved in its place), so the handle is focused by the page's script from the row's own
+  text, and the whole list is compared with the intended order before the Save.
 - The skills details page loads its rows on real wheel scrolls only (the computer tool), not
   on a scripted scroll; and the page's script tool refuses to return any string holding a
   query string or base64, so an address is reduced to its id before it is returned.

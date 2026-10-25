@@ -86,7 +86,10 @@ authorisation.
   6. The Plugin's skill order ("yes"): move Technological Innovation to the top of the project
      dialog's list (keyboard on the drag handle, or a drag), save, read the projects page
      card; record the finding in the apply skill; if the card follows, order the three Oak
-     projects' lists at his word.
+     projects' lists at his word. Done at the sitting of 25 October: the card follows the
+     list (the Plugin's card now "Technological Innovation, System Architecture and +19
+     skills"); the apply skill carries the finding and the keyboard route; the order of each
+     project's list is his to give, the seat's proposal put to him.
   7. The experience-card pair ("please test it yourself"): test the hypothesis that the card
      shows the two links saved last, by re-saving Technological Innovation then Artificial
      Intelligence (AI) with the Principal unticked and re-ticked, and reading the card;

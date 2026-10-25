@@ -357,6 +357,16 @@ shows the first two skills of the dialog's list, Social Innovation and Social Im
 order they were added. The projects page shows the FT Web App's contributors as two of the name
 Matthew and seven others, and Reforest Now's as Tom.
 
+The Oak AI Plugin's skill list, reordered the same afternoon as the test of the card's pair:
+Technological Innovation moved from last to first, the rest as before (System Architecture,
+Knowledge Graphs, Generative AI, AI Agents, Emerging Technologies, Open-Source Development,
+Product Engineering, Social Impact, Research and Development (R&D), Artificial Intelligence
+(AI), Open Standards, Open-Source Software, Edtech, Digital Public Goods, Large Language Models
+(LLM), Open Data, TypeScript, Responsible AI, Social Innovation, Model Context Protocol (MCP));
+the card followed. The Practice's list begins Systems Thinking, Generative AI; the Oak Web
+Application's System Architecture, Systems Thinking; the FT Web App's Software Development,
+Emerging Technologies; the Obaith project's Social Innovation, Social Impact.
+
 ## Recommendations, activity and interests
 
 The received list read as empty at the sitting (LinkedIn's "You haven't received a
