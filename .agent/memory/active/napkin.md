@@ -755,3 +755,10 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   reversed exactly by the inverse replacements, the tree back at the commit). The draft moves
   on an explicit word only; a question, a "how about" or a candidate sentence gets the
   seat's reading and its verdict in chat, and the file waits.
+- **A first line judged at the mechanism altitude when the question was identity**
+  (2026-10-25): the seat endorsed "I set Oak's product engineering and technology strategy."
+  on its parse, its verb and what the preview then shows, and did not weigh the noun it hands
+  the reader against EDR-008's axis (the originator, never the engineering leader); Jim's next
+  question, innovator and originator over strategy, was that weighing. Lesson: a sentence that
+  represents him is read first for the belief it leaves on the axis, and the mechanics after;
+  a verdict reached on mechanics alone is not a verdict.
