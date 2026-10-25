@@ -36,7 +36,14 @@ authorisation.
      there is doubt": every one of the 49 names, each link read against what the card says
      he did, never against a shared word; the Scientific Research and Public Speaking dialogs
      read at the pickup, Obaith and the Home Office already off (the interrupted unticks had
-     persisted); every doubt put to
+     persisted). Done the same afternoon: seven doubts put to him, his answers verbatim "1. fine
+     2. agree 3. agree 4. open standards off, keep prototyping 5. remove r&d, keep prototyping
+     6. agree 7. agree, and of course the PhD was _at_ the ICG, those are two views onto the
+     same experience, which is warranted because a PhD is more like a job than a course 8.
+     please sort out the open tabs first"; the tabs sorted (the Plugin dialog's tab closed
+     unsaved, the other off its dialog); eight dialogs set by real clicks and read back; the
+     after-baseline table and the registry follow. His aside of the same hour, "I added
+     'architected' to the About": read live, the source follows; every doubt put to
      him in one list before any other change.
   3. The Obaith project card, "yes with corrections, but platform not app. What the rest of
      the card describes was the design, which was never built, what ended up being the

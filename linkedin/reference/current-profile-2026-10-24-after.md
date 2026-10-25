@@ -276,57 +276,66 @@ ticks, marked (his) where the name is his project. The live list holds 49 names:
 his C (Programming Language) and Scientific Programming, both linked to the ICG. Scientific
 Research is off Obaith and Public Speaking off the Home Office at his word of the same day, both
 read persisted at the pickup; the two certificates he deleted the same afternoon appear on no
-row.
+row. The sense check of every link at the pickup, each read against what its card says he did,
+put seven doubts to him; at his answers eight dialogs were set by real clicks and read back:
+Obaith off Software Development, JavaScript and Prototyping; the Home Office and British
+Airways off Open-Source Software and JavaScript; Senior Developer at Oak off Open Standards
+(Prototyping kept at his word); HP Labs off Research and Development (Prototyping kept at his
+word); Code Science's four kept at his word; the PhD position added to C (Programming Language)
+and Scientific Programming, the PhD and the ICG being two views onto the same experience. The
+table reads as the live profile after those saves.
 
-| Skill                          | Surfaces linked, as verified                                                                                                             |
-| ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| Technological Innovation       | Principal, FT Labs, Plugin, Practice, FT Web App, Oak Web App, Senior Dev Oak, PhD, HP Labs                                              |
-| Artificial Intelligence (AI)   | Principal, Plugin, Practice                                                                                                              |
-| Social Impact                  | Principal, Senior Dev Oak, Obaith, Plugin, Oak Web App, Volunteering, Reforest Now (his)                                                 |
-| Systems Thinking               | Principal, Obaith, Home Office, British Airways, FT Labs, Practice, Oak Web App                                                          |
-| Strategic Leadership           | Principal, Senior Dev Oak, Code Science, Home Office, British Airways, Oak Web App                                                       |
-| Social Innovation              | Principal, Senior Dev Oak, Obaith, Plugin, Reforest Now (his)                                                                            |
-| Technology Leadership          | Principal, FT Labs, Oak Web App                                                                                                          |
-| Research and Development (R&D) | Principal, Obaith, PhD, HP Labs, Plugin, Practice, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                     |
-| Prototyping                    | Principal, Senior Dev Oak, Obaith, FT Labs, HP Labs, Bath                                                                                |
-| Scientific Research            | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
-| Emerging Technologies          | Principal, FT Labs, Plugin, Practice, FT Web App                                                                                         |
-| Startups                       | Medicspot, FT Labs                                                                                                                       |
-| Entrepreneurship               | Code Science, Obaith, Reforest Now (his)                                                                                                 |
-| AI Agents                      | Principal, Plugin, Practice                                                                                                              |
-| Model Context Protocol (MCP)   | Principal, Plugin                                                                                                                        |
-| Generative AI                  | Principal, Plugin, Practice                                                                                                              |
-| Large Language Models (LLM)    | Principal, Plugin, Practice                                                                                                              |
-| Responsible AI                 | Plugin, Practice                                                                                                                         |
-| Knowledge Graphs               | Plugin                                                                                                                                   |
-| System Architecture            | Principal, Senior Dev Oak, Medicspot, Plugin, Oak Web App                                                                                |
-| Platform Engineering           | Principal, Senior Dev Oak, Medicspot, Practice, Oak Web App                                                                              |
-| Product Engineering            | Principal, Senior Dev Oak, FT Labs, Plugin, FT Web App, Oak Web App                                                                      |
-| Software Engineering Practices | Principal, Senior Dev Oak, Code Science, Medicspot, Home Office, British Airways, FT Labs, HP Labs, Practice                             |
-| Open Data                      | Principal, Plugin, Oak Web App                                                                                                           |
-| Open Standards                 | Principal, Senior Dev Oak, FT Labs, Plugin, FT Web App                                                                                   |
-| Open-Source Software           | Principal, Senior Dev Oak, Code Science, Home Office, British Airways, FT Labs, Plugin, Practice, Oak Web App                            |
-| Open-Source Development        | FT Labs, Plugin, Practice, Oak Web App                                                                                                   |
-| Digital Public Goods           | Principal, Plugin, Oak Web App                                                                                                           |
-| Public Sector                  | Principal, Senior Dev Oak, Code Science, Home Office, Oak Web App                                                                        |
-| Digital Government             | Principal, Home Office                                                                                                                   |
-| Edtech                         | Principal, Senior Dev Oak, Code Science, Plugin, Oak Web App                                                                             |
-| Astrophysics                   | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
-| Cosmology                      | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
-| Computational Physics          | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
-| Statistical Modeling           | PhD, ICG, galaxy-bias paper, CMB paper, thesis                                                                                           |
-| Parameter Estimation           | PhD, ICG, galaxy-bias paper, thesis                                                                                                      |
-| Physics                        | PhD, ICG, Sussex, Bath, galaxy-bias paper, CMB paper, thesis, IoP                                                                        |
-| Citizen Science                | PhD, ICG, galaxy-bias paper, thesis                                                                                                      |
-| Scientific Writing             | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
-| Science Communication          | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis, Bath                                                                             |
-| Public Speaking                | Principal, PhD                                                                                                                           |
-| Mentoring                      | Code Science, Medicspot, HP Labs                                                                                                         |
-| Software Development           | Principal, Senior Dev Oak, Code Science, Medicspot, Obaith, Home Office, British Airways, FT Labs, PhD, HP Labs, FT Web App, Oak Web App |
-| Web Technologies               | Senior Dev Oak, Medicspot, FT Labs, FT Web App, Oak Web App                                                                              |
-| JavaScript                     | Principal, Senior Dev Oak, Code Science, Medicspot, Obaith, Home Office, British Airways, FT Labs, FT Web App                            |
-| TypeScript                     | Principal, Senior Dev Oak, Code Science, Plugin, Practice, Oak Web App                                                                   |
-| C                              | PhD, ICG                                                                                                                                 |
+| Skill                          | Surfaces linked, as verified                                                                                                     |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
+| Technological Innovation       | Principal, FT Labs, Plugin, Practice, FT Web App, Oak Web App, Senior Dev Oak, PhD, HP Labs                                      |
+| Artificial Intelligence (AI)   | Principal, Plugin, Practice                                                                                                      |
+| Social Impact                  | Principal, Senior Dev Oak, Obaith, Plugin, Oak Web App, Volunteering, Reforest Now (his)                                         |
+| Systems Thinking               | Principal, Obaith, Home Office, British Airways, FT Labs, Practice, Oak Web App                                                  |
+| Strategic Leadership           | Principal, Senior Dev Oak, Code Science, Home Office, British Airways, Oak Web App                                               |
+| Social Innovation              | Principal, Senior Dev Oak, Obaith, Plugin, Reforest Now (his)                                                                    |
+| Technology Leadership          | Principal, FT Labs, Oak Web App                                                                                                  |
+| Research and Development (R&D) | Principal, Obaith, PhD, Plugin, Practice, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                      |
+| Prototyping                    | Principal, Senior Dev Oak, FT Labs, HP Labs, Bath                                                                                |
+| Scientific Research            | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
+| Emerging Technologies          | Principal, FT Labs, Plugin, Practice, FT Web App                                                                                 |
+| Startups                       | Medicspot, FT Labs                                                                                                               |
+| Entrepreneurship               | Code Science, Obaith, Reforest Now (his)                                                                                         |
+| AI Agents                      | Principal, Plugin, Practice                                                                                                      |
+| Model Context Protocol (MCP)   | Principal, Plugin                                                                                                                |
+| Generative AI                  | Principal, Plugin, Practice                                                                                                      |
+| Large Language Models (LLM)    | Principal, Plugin, Practice                                                                                                      |
+| Responsible AI                 | Plugin, Practice                                                                                                                 |
+| Knowledge Graphs               | Plugin                                                                                                                           |
+| System Architecture            | Principal, Senior Dev Oak, Medicspot, Plugin, Oak Web App                                                                        |
+| Platform Engineering           | Principal, Senior Dev Oak, Medicspot, Practice, Oak Web App                                                                      |
+| Product Engineering            | Principal, Senior Dev Oak, FT Labs, Plugin, FT Web App, Oak Web App                                                              |
+| Software Engineering Practices | Principal, Senior Dev Oak, Code Science, Medicspot, Home Office, British Airways, FT Labs, HP Labs, Practice                     |
+| Open Data                      | Principal, Plugin, Oak Web App                                                                                                   |
+| Open Standards                 | Principal, FT Labs, Plugin, FT Web App                                                                                           |
+| Open-Source Software           | Principal, Senior Dev Oak, Code Science, FT Labs, Plugin, Practice, Oak Web App                                                  |
+| Open-Source Development        | FT Labs, Plugin, Practice, Oak Web App                                                                                           |
+| Digital Public Goods           | Principal, Plugin, Oak Web App                                                                                                   |
+| Public Sector                  | Principal, Senior Dev Oak, Code Science, Home Office, Oak Web App                                                                |
+| Digital Government             | Principal, Home Office                                                                                                           |
+| Edtech                         | Principal, Senior Dev Oak, Code Science, Plugin, Oak Web App                                                                     |
+| Astrophysics                   | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
+| Cosmology                      | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
+| Computational Physics          | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
+| Statistical Modeling           | PhD, ICG, galaxy-bias paper, CMB paper, thesis                                                                                   |
+| Parameter Estimation           | PhD, ICG, galaxy-bias paper, thesis                                                                                              |
+| Physics                        | PhD, ICG, Sussex, Bath, galaxy-bias paper, CMB paper, thesis, IoP                                                                |
+| Citizen Science                | PhD, ICG, galaxy-bias paper, thesis                                                                                              |
+| Scientific Writing             | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                           |
+| Science Communication          | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis, Bath                                                                     |
+| Public Speaking                | Principal, PhD                                                                                                                   |
+| Mentoring                      | Code Science, Medicspot, HP Labs                                                                                                 |
+| Software Development           | Principal, Senior Dev Oak, Code Science, Medicspot, Home Office, British Airways, FT Labs, PhD, HP Labs, FT Web App, Oak Web App |
+| Web Technologies               | Senior Dev Oak, Medicspot, FT Labs, FT Web App, Oak Web App                                                                      |
+| JavaScript                     | Principal, Senior Dev Oak, Code Science, Medicspot, FT Labs, FT Web App                                                          |
+| TypeScript                     | Principal, Senior Dev Oak, Code Science, Plugin, Practice, Oak Web App                                                           |
+| C                              | PhD, ICG                                                                                                                         |
+| C (Programming Language)       | ICG (his), PhD                                                                                                                   |
+| Scientific Programming         | ICG (his), PhD                                                                                                                   |
 
 ## Jim's live edits, read 2026-10-25
 

@@ -94,8 +94,8 @@ below), Thought Leadership having left the list at Jim's word later that day, af
 | 45 | JavaScript | Jim, 11 Oct | 29 | tail | found | live | 23 endorsements (the overlay's count, 24 Oct), kept for them at his word. |
 | 46 | TypeScript | live; Jim kept it | 23 | tail | found | live | The one language of the present; backed by the Open Curriculum Ecosystem repository and his GitHub, his word of 24 October. |
 | 47 | C | Jim, 11 Oct | 50 | tail | found | live | 2 endorsements; kept at his word. The PhD's code was all C (his word, 24 October), so the PhD position links it. |
-| 48 | C (Programming Language) | Jim, 25 Oct | 51 | tail | found | live | His own addition on the live profile, the taxonomy's longer form beside the plain C; both kept at his word of 25 October; linked to the ICG. |
-| 49 | Scientific Programming | Jim, 25 Oct | 52 | tail | found | live | His own addition on the live profile; linked to the ICG. |
+| 48 | C (Programming Language) | Jim, 25 Oct | 51 | tail | found | live | His own addition on the live profile, the taxonomy's longer form beside the plain C; both kept at his word of 25 October; linked to the ICG and, at his word of the same afternoon, the PhD position (two views onto the same experience). |
+| 49 | Scientific Programming | Jim, 25 Oct | 52 | tail | found | live | His own addition on the live profile; linked to the ICG and, at his word of 25 October, the PhD position. |
 
 ## The check against the ready profile, 2026-10-23
 
@@ -262,12 +262,12 @@ two Oak positions, the PhD, FT Labs, HP Labs and the four projects).
 | Senior Developer, Oak | Social Impact, Social Innovation, Edtech, Platform Engineering, Software Engineering Practices, Web Technologies, Product Engineering |  |
 | Founder, Code Science | Entrepreneurship, Strategic Leadership, Software Engineering Practices, Mentoring, Public Sector, Edtech |  |
 | Medicspot | Startups, Platform Engineering, Web Technologies, Software Engineering Practices, Mentoring |  |
-| Obaith | Systems Thinking, Social Innovation, Social Impact, Research and Development (R&D), Scientific Research, Entrepreneurship |  |
-| UK Home Office | Digital Government, Software Engineering Practices, Systems Thinking, Public Speaking |  |
+| Obaith | Systems Thinking, Social Innovation, Social Impact, Research and Development (R&D), Entrepreneurship |  |
+| UK Home Office | Digital Government, Software Engineering Practices, Systems Thinking |  |
 | British Airways | Software Engineering Practices, Systems Thinking |  |
 | FT Labs | Startups, Technological Innovation, Web Technologies, Product Engineering, Technology Leadership, Software Engineering Practices, Open-Source Development, Systems Thinking, Emerging Technologies | Strategic Leadership |
 | PhD Researcher | Astrophysics, Cosmology, Computational Physics, Statistical Modeling, Parameter Estimation, Physics, Citizen Science, Scientific Research, Scientific Writing, Science Communication, Public Speaking, C |  |
-| Hewlett-Packard Laboratories | Mentoring, Software Engineering Practices, Research and Development (R&D) | Strategic Leadership, Prototyping |
+| Hewlett-Packard Laboratories | Mentoring, Software Engineering Practices | Prototyping, kept at his word of 25 October |
 | The Oak AI Plugin | Technological Innovation, Social Impact, Social Innovation, Emerging Technologies, Large Language Models (LLM), Responsible AI, System Architecture, Open Standards, Open-Source Software, Open-Source Development, Digital Public Goods, Edtech, TypeScript, Product Engineering |  |
 | The Practice | Technological Innovation, Artificial Intelligence (AI), Generative AI, Emerging Technologies, Systems Thinking, Open-Source Software, Open-Source Development, TypeScript |  |
 | FT Web App | Technological Innovation, Emerging Technologies |  |
@@ -304,8 +304,14 @@ at his word the same day, Scientific Research off Obaith ("research is not the s
 scientific research") and Public Speaking off the Home Office (the public sector is not the
 public); the live unticks were interrupted at his word, and both dialogs read at the pickup show them
 persisted. The two certificates were deleted by Jim the same afternoon, so the map carries no
-certificate surface. The
-after-baseline carries the per-skill table.
+certificate surface. The sense check of the same afternoon read every link against what its card
+says he did and put seven doubts to him; at his answers eight dialogs were set and read back:
+Obaith lost Software Development, JavaScript and Prototyping; the Home Office and British Airways
+lost Open-Source Software and JavaScript, the old profile's links; Senior Developer at Oak lost
+Open Standards and kept Prototyping; HP Labs lost Research and Development and kept Prototyping;
+Code Science kept Mentoring, Open-Source Software, JavaScript and TypeScript, the Medicspot and
+Oak work having run through it; the PhD position joined the ICG on C (Programming Language) and
+Scientific Programming. The after-baseline carries the per-skill table.
 
 ## Free-text names the typeahead did not know, 2026-10-11
 
