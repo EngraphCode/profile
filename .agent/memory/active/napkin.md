@@ -858,3 +858,8 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   directive content edits above the line to after the next compaction; the two edits are
   recorded exactly in the thread record's block so the next context makes them without
   re-deriving them.
+- **`git commit` commits the whole index, not the paths just added.** The skills staged
+  earlier rode the plan commit (c57b8242) under a message that names only the plan, and a
+  later `git add` on a path already deleted from the worktree stopped the chain. Stage only
+  what the commit names, in the same step as the commit, and check `git diff --cached --stat`
+  before `git commit`.
