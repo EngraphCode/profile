@@ -6,9 +6,10 @@ hierarchy path, description; active and inactive nodes; LinkedIn notes it is not
 additions). Read on 2026-10-11. The profile's picker is believed to use this taxonomy; confirm
 at the picker.
 
-The top card in `linkedin/profile.md` names Technology, Information and Internet (ID 6), Jim's
-own first edit in the editor on 12 October, confirmed at the dropdown. The rows below were the
-candidates read before his choice and stay for the check at the picker:
+The author's choice is recorded in the workspace (in this host, the top card in
+`linkedin/profile.md`, confirmed at the dropdown on 12 October 2026). The rows below were the
+candidates read for a profile whose work serves the education sector through technology, and
+stay for the check at the picker:
 
 | ID   | Label                                 | Hierarchy                                                                          |
 | ---- | ------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -27,6 +28,6 @@ candidates read before his choice and stay for the check at the picker:
 | 70   | Research Services                     | Professional Services > Research Services                                          |
 | 130  | Think Tanks                           | Professional Services > Research Services > Think Tanks                            |
 
-The decision was Jim's, 12 October, and stands; at the sitting the picker confirms the row. The
-reader's decision axis (EDR-008) had favoured the sector the work serves over the trade that
-delivers it; his word decided it.
+The decision is the author's and the picker confirms the row at the sitting. The reader's
+decision axis may favour the sector the work serves over the trade that delivers it; the
+author's word decides.

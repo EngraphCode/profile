@@ -2,7 +2,7 @@
 # Diff the canonical Skills list against the registry's canonical table, in order.
 #
 # The list is linkedin/profile.md §Skills (one "- Name" line per entry); the registry's canonical
-# table is the first table under "## The canonical list" in the skill's references, one numbered
+# table is the first table under "## The canonical list" in the author's registry, one numbered
 # row per entry. The two must carry the same names in the same order: a name on the list with no
 # registry row has no recorded provenance, and a registry row with no list entry is stale.
 #
@@ -25,7 +25,7 @@ fi
 
 root="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 profile="${1:-${root}/linkedin/profile.md}"
-registry="${2:-${root}/.agent/skills/editorial/linkedin-skills/references/skills-registry.md}"
+registry="${2:-${root}/linkedin/reference/skills-registry.md}"
 
 for f in "$profile" "$registry"; do
   if [ ! -r "$f" ]; then
