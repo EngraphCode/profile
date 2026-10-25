@@ -236,6 +236,49 @@ on 12 October and ruled on the answer.
 | --- | --- | --- | --- | --- | --- |
 | Thought Leadership | 8 (the profile of 24 October) | none | found | 24 October, after the sitting, his word | The cost read as one delete in its dialog: no endorsements, no card or project linked to it, nothing on the page proving it, the neighbours Strategic Leadership and Technology Leadership carrying the retrieval. Live until the next sitting. |
 
+## The evidence map, proposed 2026-10-25
+
+Jim's rule of 25 October: every card that takes a list of skills carries them; the top six carry
+every surface that shows them, never a single example; every name carries at least one. The
+links he set himself on 25 October are in the after-baseline (`linkedin/reference/current-profile-2026-10-24-after.md`
+§Skill links, read 2026-10-25). The additions below are the seat's reading of what each card's
+text shows, his to edit; the links a reader would doubt are named. Education entries and
+certificates take skills too; volunteering, organisations and publications do not.
+
+| Card | Proposed additions | A reader would doubt |
+| --- | --- | --- |
+| Principal Engineer | Technological Innovation, Social Impact, Systems Thinking, Social Innovation, Technology Leadership, Emerging Technologies, Large Language Models (LLM), Model Context Protocol (MCP), Digital Public Goods, Digital Government, Edtech, Platform Engineering, Product Engineering, Software Engineering Practices, Open Data, Public Speaking |  |
+| Senior Developer, Oak | Social Impact, Social Innovation, Edtech, Platform Engineering, Software Engineering Practices, Web Technologies, Product Engineering |  |
+| Founder, Code Science | Entrepreneurship, Strategic Leadership, Software Engineering Practices, Mentoring, Public Sector, Edtech |  |
+| Medicspot | Startups, Platform Engineering, Web Technologies, Software Engineering Practices, Mentoring |  |
+| Obaith | Systems Thinking, Social Innovation, Social Impact, Research and Development (R&D), Scientific Research, Entrepreneurship |  |
+| UK Home Office | Digital Government, Software Engineering Practices, Systems Thinking, Public Speaking |  |
+| British Airways | Software Engineering Practices, Systems Thinking |  |
+| FT Labs | Startups, Technological Innovation, Web Technologies, Product Engineering, Technology Leadership, Software Engineering Practices, Open-Source Development, Systems Thinking, Emerging Technologies | Strategic Leadership |
+| PhD Researcher | Astrophysics, Cosmology, Computational Physics, Statistical Modeling, Parameter Estimation, Physics, Citizen Science, Scientific Research, Scientific Writing, Science Communication, Public Speaking, C |  |
+| Hewlett-Packard Laboratories | Mentoring, Software Engineering Practices, Research and Development (R&D) | Strategic Leadership, Prototyping |
+| The Oak AI Plugin | Technological Innovation, Social Impact, Social Innovation, Emerging Technologies, Large Language Models (LLM), Responsible AI, System Architecture, Open Standards, Open-Source Software, Open-Source Development, Digital Public Goods, Edtech, TypeScript, Product Engineering |  |
+| The Practice | Technological Innovation, Artificial Intelligence (AI), Generative AI, Emerging Technologies, Systems Thinking, Open-Source Software, Open-Source Development, TypeScript |  |
+| FT Web App | Technological Innovation, Emerging Technologies |  |
+| The Oak Web Application | Strategic Leadership, Technology Leadership, Technological Innovation, Systems Thinking, Open-Source Software, Open-Source Development, Open Data, Digital Public Goods, Public Sector, Edtech, Social Impact, Software Development |  |
+| PhD, Institute of Cosmology and Gravitation | Astrophysics, Cosmology, Physics, Computational Physics, Statistical Modeling, Parameter Estimation, Scientific Research, Scientific Writing, Science Communication, Citizen Science, C |  |
+| MSc, University of Sussex | Cosmology, Astrophysics, Physics, Scientific Research, Scientific Writing, Science Communication, Computational Physics |  |
+| MPhys, University of Bath | Physics, Prototyping (the Theremin) |  |
+| Citizen Science: From Soil to Sky (certificate) | Citizen Science |  |
+| Monitoring the Oceans from Space (certificate) | Citizen Science, Open Data |  |
+
+With the additions every one of the 47 names has a card, and the top six read: Technological
+Innovation on the Principal card, the Plugin, the Practice, the Oak Web Application, FT Labs and
+the FT Web App; Artificial Intelligence (AI) on the Principal card, the Plugin and the Practice;
+Social Impact on the Principal and Senior Developer cards, Obaith, the Plugin and the Oak Web
+Application; Systems Thinking on Obaith, the Principal card, the Practice, the Oak Web
+Application, FT Labs, the Home Office, British Airways and HP Labs; Strategic Leadership on the
+Principal, Senior Developer, Code Science, Home Office and British Airways cards and the Oak Web
+Application, with FT Labs and HP Labs his call; Social Innovation on Obaith, the Principal and
+Senior Developer cards and the Plugin. Public Speaking's cards are the Principal (the vision
+presented), the Home Office (the workshops) and the PhD (the conference talks, his word of 11
+October); the About's teaching and tour guiding back it in text.
+
 ## Free-text names the typeahead did not know, 2026-10-11
 
 Free text on the profile would retrieve nothing; none is on the list.

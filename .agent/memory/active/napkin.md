@@ -762,3 +762,9 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   question, innovator and originator over strategy, was that weighing. Lesson: a sentence that
   represents him is read first for the belief it leaves on the axis, and the mechanics after;
   a verdict reached on mechanics alone is not a verdict.
+- **Reading the live profile, 25 October**: a position's or a project's skill overlay opens by
+  direct address (`overlay/<id>/skill-associations-details/`), unlike the skill-insights
+  overlay; the skills details page loads its rows only on real wheel scrolls (the computer
+  tool), not on `window.scrollBy`; the page's script tool refuses to return a string that
+  holds a query string or base64, so an overlay id is extracted by regex before return; the
+  publication dialog's author field finds connections only. All in the apply skill's gotchas.

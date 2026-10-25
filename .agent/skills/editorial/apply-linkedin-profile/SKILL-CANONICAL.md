@@ -119,6 +119,18 @@ read is closed without saving.
   projects; the overlay's address refuses direct navigation and its text sits outside what the
   page's script tool can query, so it is read from a screenshot after a click on the skills
   page.
+- A position's or a project's own skill overlay opens by direct address,
+  `/in/<handle>/overlay/<id>/skill-associations-details/?associationType=position` (or
+  `projects`), the id taken from the card's skills link; its text is read from a screenshot
+  (2026-10-25). Education entries and certificates take skills too; volunteering,
+  organisations and publications do not. A position took thirteen on 2026-10-25.
+- The skills details page loads its rows on real wheel scrolls only (the computer tool), not
+  on a scripted scroll; and the page's script tool refuses to return any string holding a
+  query string or base64, so an address is reduced to its id before it is returned.
+- A publication's author field searches the profile's connections only (2026-10-25: a
+  connection's name returned at once, three co-authors who are not connections returned
+  nothing). A co-author who left an entry at an edit's Save cannot be restored unless
+  connected.
 
 ## References
 

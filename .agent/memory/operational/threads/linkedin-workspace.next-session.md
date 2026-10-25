@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-24T19:4xZ, the profile applied at the sitting and the skills review after it; the owner's rulings in the records; the next sitting's items and the items at his word; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-25T09:xxZ, the owner's own live edits of 25 October read and followed into the source; the skill links he set read; the evidence map proposed at his rule; the items at his word; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
@@ -62,25 +62,32 @@ authorisation.
   Open Curriculum Ecosystem repository and his GitHub; C by the PhD's code, so the PhD
   position links it; Science Communication by the papers, the theses and the PhD. The
   JavaScript count corrected to 23 from the overlay.
+- **25 October, his own hand on the live profile** (read in full by the seat, the source
+  following each with a dated status note): the About's first paragraph without its strategy
+  clause; "I built the foundation and guided the handover." in the Principal card's rebuild
+  paragraph; the Practice project's first sentence; the rebuild project retitled "The Oak Web
+  Application (`www.thenational.academy`)" and rewritten in two paragraphs; the Oak National
+  Academy Featured link out (its caption the seat's of 11 October, out of the source at his
+  word); Thought Leadership deleted, the list 47; the PhD entry's school the ICG again; the
+  skill links set on every position, the four projects and two education entries (the
+  after-baseline's table of 25 October). Put to him on the rebuild project: the opening is a
+  label without a verb (proposed: "Oak's teacher- and pupil-facing public digital service is
+  open under the MIT licence, its content under the Open Government Licence 3.0."), which also
+  removes the stray space before the full stop; "the emergency response site" against "the
+  emergency platform" elsewhere; the near-twin sentences on the foundations across the card
+  and the project.
+- **His rule of 25 October on the skills:** every card that takes skills carries them; the top
+  six carry every surface that shows them; every name carries at least one. The evidence map
+  is proposed in the registry (§The evidence map, proposed 2026-10-25), his to edit, applied
+  at the next sitting or by him.
+- **The co-authors, at his word to restore them:** the publication dialog's author field
+  finds the profile's connections only; Will Percival, Pia Mukherjee and Alain Riazuelo
+  returned nothing; Andrew Liddle stands on the second paper; nothing saved. They can be added
+  once connected, his call; the descriptions carry the names.
 - **The next sitting, live, with him present, at his word:** the About's "Before Oak"
-  sentence; Thought Leadership deleted in its dialog; the Principal sentence once chosen; the
-  ten positions' linked skills set at each dialog (the limit read there; the Principal card
-  carries six today). The seat's proposed sets, his to edit in place before the sitting:
-  Principal: Strategic Leadership, Technological Innovation, Technology Leadership, Artificial
-  Intelligence (AI), Systems Thinking, Digital Public Goods. Senior Developer, Oak: Software
-  Development, Platform Engineering, Web Technologies, Product Engineering, TypeScript,
-  Open-Source Software. Founder, Code Science: Entrepreneurship, Strategic Leadership,
-  Software Engineering Practices, Mentoring, Public Sector. Medicspot: Platform Engineering,
-  Software Development, Web Technologies, JavaScript, Startups. Obaith: Systems Thinking,
-  Social Innovation, Social Impact, Research and Development (R&D), Software Development,
-  JavaScript (it built software, his word of 25 October). UK Home Office: Public
-  Sector, Digital Government, Software Engineering Practices, Software Development. British
-  Airways: Software Engineering Practices, Software Development, Platform Engineering. FT
-  Labs: Web Technologies, JavaScript, Open Standards, Open-Source Software, Software
-  Development, Technological Innovation. PhD Researcher: Cosmology, Astrophysics, Computational
-  Physics, Statistical Modeling, Citizen Science, C, Scientific Research (if the dialog refuses
-  a seventh, Scientific Research is the one the others already say). HP Labs: Software
-  Development, Software Engineering Practices, Mentoring, Research and Development (R&D).
+  sentence (teaching and tour guiding, in the source since 24 October, not yet live); the
+  Principal card's first sentence once chosen; his dispositions on the rebuild project's
+  three points; the evidence map's links at each card's dialog.
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
   notice; the LinkedIn work the only work; a settled item never listed again.

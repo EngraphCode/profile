@@ -232,6 +232,47 @@ British Airways" as a second highlight line, where the list page shows only the 
 Open to Work off (the "Open to" button only, no card). "Share profile updates with your network"
 already off, left off. Open Profile on, untouched. Public visibility and the custom URL untouched.
 
+## Skill links, read 2026-10-25
+
+Jim set the links himself on the live profile on 25 October; read from each card's skill
+overlay (a position's or a project's opens by direct address) and the education page. Thought
+Leadership was deleted by him the same day, so the list is 47. The Principal card carries 13, so
+a position takes at least that many.
+
+| Card                                                    | Linked skills, 25 October                                                                                                                                                                                                                         |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Principal Engineer, Strategy and Innovation             | AI Agents, Generative AI, Public Sector, Open Standards, TypeScript, Software Development, JavaScript, Open-Source Software, Artificial Intelligence (AI), Strategic Leadership, Research and Development (R&D), System Architecture, Prototyping |
+| Senior Developer, Oak National Academy                  | Public Sector, Open Standards, TypeScript, Software Development, JavaScript, Open-Source Software, Strategic Leadership, System Architecture, Prototyping                                                                                         |
+| Founder, Code Science Limited                           | TypeScript, Software Development, JavaScript, Open-Source Software                                                                                                                                                                                |
+| Platform Engineering Consultant, Medicspot              | Software Development, JavaScript, System Architecture                                                                                                                                                                                             |
+| Independent research, Obaith                            | Software Development, JavaScript, Prototyping                                                                                                                                                                                                     |
+| Programme Delivery Consultant, UK Home Office           | Public Sector, Software Development, JavaScript, Open-Source Software, Strategic Leadership                                                                                                                                                       |
+| Engineering Practice Consultant, British Airways        | Software Development, JavaScript, Open-Source Software, Strategic Leadership                                                                                                                                                                      |
+| Senior Developer, FT Labs                               | Open Standards, Software Development, JavaScript, Open-Source Software, Strategic Leadership, Prototyping                                                                                                                                         |
+| PhD Researcher, University of Portsmouth                | Software Development, Research and Development (R&D)                                                                                                                                                                                              |
+| Systems Engineer, Hewlett-Packard Laboratories          | Software Development, Strategic Leadership, Prototyping                                                                                                                                                                                           |
+| The Oak AI Plugin (project)                             | Artificial Intelligence (AI), AI Agents, Knowledge Graphs, Model Context Protocol (MCP), Generative AI, Open Data, Research and Development (R&D)                                                                                                 |
+| The Practice (project)                                  | Responsible AI, AI Agents, Platform Engineering, Software Engineering Practices, Large Language Models (LLM), Research and Development (R&D)                                                                                                      |
+| FT Web App (project)                                    | Web Technologies, Open Standards, JavaScript, Software Development, Product Engineering                                                                                                                                                           |
+| The Oak Web Application (project)                       | System Architecture, TypeScript, Web Technologies, Platform Engineering, Product Engineering                                                                                                                                                      |
+| PhD, Institute of Cosmology and Gravitation (education) | Research and Development (R&D)                                                                                                                                                                                                                    |
+| MSc, University of Sussex (education)                   | Research and Development (R&D)                                                                                                                                                                                                                    |
+| MPhys, University of Bath (education)                   | none                                                                                                                                                                                                                                              |
+
+The overlay ids, for a seat that opens them by address under `/in/jimcresswell/overlay/<id>/skill-associations-details/`
+with `associationType=position` or `projects`: Principal 2005954036, Senior Developer 1686772813,
+Code Science 1234291503, Medicspot 1626590030, Obaith 1589568458, Home Office 987542400, British
+Airways 689283076, FT Labs 239009990, PhD 264123352, HP Labs 261293214; the Plugin 1852430077, the
+Practice 1852602723, the FT Web App 36, the Oak Web Application 1852687941.
+
+## Jim's live edits, read 2026-10-25
+
+The About's first paragraph without its strategy clause; a sentence added to the Principal card's
+rebuild paragraph; the Practice project's first sentence; the rebuild project retitled and
+rewritten; the Oak National Academy Featured link removed; Thought Leadership deleted; the PhD
+entry's school the Institute of Cosmology and Gravitation; the links above. The source follows
+each (`linkedin/profile.md`, the status notes of 25 October).
+
 ## Recommendations, activity and interests
 
 The received list read as empty at the sitting (LinkedIn's "You haven't received a
