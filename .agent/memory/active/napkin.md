@@ -748,3 +748,10 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   source. Lesson: the sitting plan lists the links a surface carries, not only its fields;
   the skill's step 4 now says so. The "N experiences" overlay refuses direct navigation and
   hides from the page's script tool; a click on the skills page and a screenshot read it.
+- **A sentence offered as a question is for comment, not for the draft** (2026-10-25: Jim
+  wrote "How about ...?" with a first sentence for the Principal card; the seat put it into
+  the source and settled the thread record's item before answering; his word: "that was a
+  request for reflection and comment, not an instruction to change anything"; both edits
+  reversed exactly by the inverse replacements, the tree back at the commit). The draft moves
+  on an explicit word only; a question, a "how about" or a candidate sentence gets the
+  seat's reading and its verdict in chat, and the file waits.
