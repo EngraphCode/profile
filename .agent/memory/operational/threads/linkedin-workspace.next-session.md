@@ -72,7 +72,8 @@ authorisation.
   Open-Source Software. Founder, Code Science: Entrepreneurship, Strategic Leadership,
   Software Engineering Practices, Mentoring, Public Sector. Medicspot: Platform Engineering,
   Software Development, Web Technologies, JavaScript, Startups. Obaith: Systems Thinking,
-  Social Innovation, Social Impact, Research and Development (R&D). UK Home Office: Public
+  Social Innovation, Social Impact, Research and Development (R&D), Software Development,
+  JavaScript (it built software, his word of 25 October). UK Home Office: Public
   Sector, Digital Government, Software Engineering Practices, Software Development. British
   Airways: Software Engineering Practices, Software Development, Platform Engineering. FT
   Labs: Web Technologies, JavaScript, Open Standards, Open-Source Software, Software
@@ -80,8 +81,6 @@ authorisation.
   Physics, Statistical Modeling, Citizen Science, C, Scientific Research (if the dialog refuses
   a seventh, Scientific Research is the one the others already say). HP Labs: Software
   Development, Software Engineering Practices, Mentoring, Research and Development (R&D).
-  One fact only he holds changes a row: whether Obaith built software (Software Development
-  and JavaScript stay on it if so).
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
   notice; the LinkedIn work the only work; a settled item never listed again.
