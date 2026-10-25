@@ -6,9 +6,10 @@ every details page scrolled to its end. Quoted wording and field values preserve
 shows. The companion record before the sitting is
 [24 October 2026, before](current-profile-2026-10-24.md). Every description was set from the
 source and read back identical by machine at the sitting, so the descriptions are not repeated
-here: the card in `profile.md` is the text on the page. Jim's PDF export after the sitting, when
-made, is the companion record and stays out of the repository, kept locally beside the export of
-the morning under `.agent/reference-local/linkedin/`.
+here: the card in `profile.md` is the text on the page. Jim's PDF export after the sitting, made on
+25 October 2026 once that day's changes were applied, is the companion record and stays out of
+the repository, kept locally as `profile-2026-10-25-after.pdf` beside the export of the morning
+under `.agent/reference-local/linkedin/`.
 
 ## Top card
 
