@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-25T13:xxZ, compaction at the owner's word; the pickup list below is proposed for his approval; his rulings of the hour recorded; the certificates leaving at his hand; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-25T13:xxZ, compaction at the owner's word; the pickup list below approved by him with his edits; the certificates gone at his hand; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context (three
@@ -26,36 +26,51 @@ authorisation.
   flow"); Tom Wise is the same person (design then AI); Matt Gregory may be Matthew on LinkedIn
   and there may be two of that name among the contributors; a link to the GitHub contributors
   page is his alternative to tagging fifty people.
-- **The pickup list, proposed, awaiting his approval** (each item one act, in this order):
-  1. Read the Licences section and one skill dialog; with the certificates gone, the source's
-     Licences section follows (both entries out, a dated status note), the dialog order file
-     loses its Licences group, and the registry's map rows for Citizen Science and Open Data
-     lose the certificate surfaces.
-  2. Read the Scientific Research and Public Speaking dialogs; untick Obaith and the Home
-     Office where still ticked, by the proven mechanism (a real click on the row, the page's
-     own Save, the dialog re-opened); the after-baseline rows already say so.
-  3. The Obaith project card at his approval of the re-proposed text: add it through the
-     add-project form (name Obaith, January 2018 to April 2020, associated with the Obaith
-     position, the archived site as a media link, skills his choice from Social Innovation,
-     Social Impact, Systems Thinking, Research and Development (R&D), Prototyping); read back;
-     the source card, the registry map (a new dialog row for every skill it carries), the
-     after-baseline.
-  4. The Oak Web Application contributors at his decision: a media link to the GitHub
-     contributors page (no one notified), or tags for the connections he names from the
-     table, or both.
-  5. The thesis date, 26 May 2010, set on publication 1852835170 by keyboard on the dialog's
-     date selects (a form fill is not trusted), saved, read back; the source's status note.
-  6. The Plugin's skill order: move Technological Innovation to the top of the project
+- **The pickup list, approved by him on 25 October with his edits** (each item one act, in
+  this order; his answers verbatim where they rule):
+  1. The two certificates are gone ("they are gone"). Read the Licences section and one skill
+     dialog; the source's Licences section follows (both entries out, a dated status note),
+     the dialog order file loses its Licences group (the refs below it move up by nine),
+     and the registry's map rows for Citizen Science and Open Data lose the certificate
+     surfaces.
+  2. "Check all the skill associations, make sure they all make sense, check with me where
+     there is doubt": every one of the 49 names, each link read against what the card says
+     he did, never against a shared word; the Scientific Research and Public Speaking dialogs
+     read first and Obaith and the Home Office unticked where still ticked; every doubt put to
+     him in one list before any other change.
+  3. The Obaith project card, "yes with corrections, but platform not app. What the rest of
+     the card describes was the design, which was never built, what ended up being the
+     valuable output was all the research and learning I did." The corrected text, shown to
+     him at the top of the pickup message before it is added: "Obaith was research into a
+     platform for local cooperative action on the problems we all share, climate breakdown,
+     ecological collapse and loneliness among them. I designed it: community projects would
+     record, share and discover what works, so that anyone could start a project with the
+     experience of others behind them, join one, or make their own count for more, on open
+     content, open knowledge and open software, open standards, accessibility, privacy and
+     user sovereignty. The platform was never built; the research and the learning were the
+     valuable output. The link is the site as archived in November 2021." Then the
+     add-project form: name Obaith, January 2018 to April 2020, associated with the Obaith
+     position, the archived site (web.archive.org, 14 November 2021) as a media link, the
+     skills his choice from Social Innovation, Social Impact, Systems Thinking, Research and
+     Development (R&D), Prototyping; read back; the source card, the registry map (a new
+     dialog row for every skill it carries), the after-baseline.
+  4. The Oak Web Application contributors: "Media link, there are too many people to tag." A
+     media link on the project to the GitHub contributors graph (the repository's
+     contributors page, all=1), titled for the reader; nobody tagged, nobody notified.
+  5. The thesis date, 26 May 2010 ("sure"), set on publication 1852835170 by keyboard on the
+     dialog's date selects (a form fill is not trusted), saved, read back; the source's status
+     note.
+  6. The Plugin's skill order ("yes"): move Technological Innovation to the top of the project
      dialog's list (keyboard on the drag handle, or a drag), save, read the projects page
      card; record the finding in the apply skill; if the card follows, order the three Oak
      projects' lists at his word.
-  7. His question on the experience cards: test the hypothesis that the card shows the two
-     links saved last, by re-saving Technological Innovation then Artificial Intelligence (AI)
-     with the Principal unticked and re-ticked, and reading the card; record; if confirmed,
-     set every position's pair at his word.
-  8. Search "Gregory" and "Matthew Gregory" in the contributor field; report.
-  9. Records after each item, commits by pathspec; the push, the notification and the merge
-     his.
+  7. The experience-card pair ("please test it yourself"): test the hypothesis that the card
+     shows the two links saved last, by re-saving Technological Innovation then Artificial
+     Intelligence (AI) with the Principal unticked and re-ticked, and reading the card;
+     record; if confirmed, set every position's pair at his word.
+  8. The contributor name search is not needed (his word; the link carries the names).
+  9. Records after each item, commits by pathspec ("yes"); the push, the notification and the
+     merge his.
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
   notice; the LinkedIn work the only work; a settled item never listed again; all decisions
