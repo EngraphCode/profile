@@ -38,7 +38,7 @@ Columns: provenance; live position on 2026-09-27 (— if absent); the tier (pin,
 
 ## The canonical list, in display order (2026-10-11, evening, Jim's list)
 
-The forty-seven entries of `linkedin/profile.md` §Skills. The tail runs in the order of the page
+The forty-nine entries of `linkedin/profile.md` §Skills. The tail runs in the order of the page
 (Oak's innovation and strategy, the plugin's AI, systems and the open ecosystem, the public
 sector, physics, the communicating, mentoring, the craft); beyond that, at Jim's word, the order
 carries no meaning. The Live column is the position on the profile of 11 October, before the

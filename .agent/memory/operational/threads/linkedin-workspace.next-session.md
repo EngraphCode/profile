@@ -149,22 +149,7 @@ authorisation.
      open standards, with accessibility, privacy and user sovereignty at the front. The link
      is the site as archived in November 2021." The decision: the text, and the verb "built"
      against what existed (the site called it an app in development).
-  2. Contributors on the Oak Web Application card: every tag notifies the person; the search
-     found these connections (LinkedIn's display names): Tash Blore, Jamie Blair, joe baker,
-     Kyle Huggins, Simon Katan, Sonali Singh, Carl Whittaker, Assad Khan, Cat Miller, Reece
-     Charsville, Alex Cupit, Ross Mackay, John Roberts, Ben Titterington, James Sheasby
-     Thomas, Lionel Jingles, Andrew Woods, Dorothy Yau, Kofo Ogunleye, Richard Brownsett, Tom
-     Wise, Mitchell Lloyd, Adam Howard, Dr Simon Rose, Luke Arnold, Shaquille Hobbs-Daley,
-     William Gayne, Jack Skerrett, Ian Kynnersley, Ewan Wakeman, Jessica Ababio, Michael Jenic
-     (repository contributors); Aakesh Pattani, Dan Dupont-Lopez, Emma Searle, Jo Straw, Mike
-     Messina, Mike Ritson, Monika Koziol, Thomas Chan, Holly Donohue, Nirav Arvinda, Remy
-     Sharp, Shaun Orpen, Stef Lewandowski, Stuart Wilson, Leo Allen, Abisola Kuteyi, Emma
-     Lanchester, Kaan Keskin, Margaux Dowland (humans.txt, no commits in that repository). Not
-     found: Ben Protheroe, Matt Gregory, Taha Hassan, Craig McCahill, Weronika Szalas, Paul
-     Sweeting, Steve Green, Rob Ward, Philip Wong, Amy Matthews, Helen Harlow, Sarah McKinless,
-     Thomas Birch, Verity Roberts, Rees McIvor; three logins unresolved (couplm, jamiemax,
-     tweakster). A same-name hit is not proof of the same person for the common names. The
-     decision: the set to tag.
+  2. Contributors on the Oak Web Application card: every tag notifies the person; the search found connections (LinkedIn's display names). The decision, link to Github contributors
   3. C and C (Programming Language) both stand on the live list (49 names with Scientific
      Programming), the plain C with two endorsements. The decision: both, or one.
   4. The thesis date: the Portsmouth research portal gives the award as May 2010; LinkedIn's

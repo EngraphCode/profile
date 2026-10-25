@@ -637,7 +637,7 @@ About's public digital infrastructure in the noun funders use), Citizen Science 
 the PhD card), Entrepreneurship (the start-ups named under the earlier entries) and Thought
 Leadership are added in their places (Thought Leadership after Technology Leadership,
 Entrepreneurship beside Startups, Digital Public Goods after Open-Source Development, Citizen
-Science after Physics; forty-seven entries, applied 12 October); Strategic Partnerships is not
+Science after Physics; forty-nine entries, applied 12 October); Strategic Partnerships is not
 added, at his word.
 
 Jim's word, 23 October, on the check he had queued on 22 October ("once everything else is
@@ -645,7 +645,7 @@ settled, I think we should check that the skills still make sense"), run against
 declared ready: the list still says the person the profile does, no name proposed for removal,
 the showing cards re-read in the registry's section of that date; Knowledge Graphs, held since 11
 October and typeahead-confirmed, proposed from the Plugin card's ontology and accepted at his
-word the same hour, after Responsible AI; forty-eight entries.
+word the same hour, after Responsible AI; forty-nine entries.
 
 ## Recommendations — settled (Jim, 11 October 2026: he will ask)
 
