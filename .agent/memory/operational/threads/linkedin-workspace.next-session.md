@@ -10,7 +10,78 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-25T09:xxZ, the owner's own live edits of 25 October read and followed into the source; the skill links he set read; the evidence map proposed at his rule; the items at his word; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-25T12:xxZ, the skill links applied by real clicks and verified after the form-fill saves failed; the owner's four points of the morning answered from the live pages; the Obaith card and the contributors at his word; Shrew rides Eventide, 371a2b)
+
+- This block is the pickup; the blocks beneath are history in time order. Recompute before
+  acting: `git status`, the claims registry, the comms stream, the Chrome tab context.
+- **What happened, 25 October, late morning.** The owner handed the skills to the seat ("the
+  skills are yours, please make sure all updates are made") and kept editing the live profile
+  in parallel (Reforest Now added as a project, two skill names added). The seat's first pass
+  through the skill dialogs by form fill did not persist: the input read as ticked, Save closed
+  the dialog, the server kept the old state; twenty dialogs re-read showed every form-filled
+  tick gone. The second pass clicked each row with a real click, saved by the page's own
+  script, waited, re-opened the dialog and read it back: all 47 names now carry the evidence
+  map of the registry (§Applied and verified, 2026-10-25), his own ticks kept everywhere, the
+  after-baseline's table of the links as verified. The mechanism is in the apply skill's
+  gotchas and the napkin. The source follows the live profile: the Principal card's first
+  sentence (his, "the product engineering and technology strategy are mine"), the rebuild
+  project's two paragraphs (the three points resolved live, his opening, the seat's second
+  paragraph at his word), and Reforest Now as his card, with dated status notes; the validator
+  OK.
+- **His four points of the morning, answered from the live pages** (in chat, 25 October): a
+  position's card shows the first two of its linked skills in an order LinkedIn chooses, the
+  position dialog lists them as toggle pills with no ordering control, a project's dialog lists
+  them with drag handles; the profile page's Projects card shows the Plugin then the Practice,
+  LinkedIn ordering projects by date (ongoing first, then end date), the Oak Web Application
+  last for want of dates; the contributor field tags connections only and LinkedIn notifies
+  each tagged person; the Obaith card proposed.
+- **At the owner's word, the exact decisions, each put on 25 October:**
+  1. The Obaith project card: name Obaith, January 2018 to April 2020, associated with the
+     Obaith position, the archived site (web.archive.org, 14 November 2021) as a media link,
+     skills Social Innovation, Social Impact, Systems Thinking, Prototyping, Software
+     Development; the proposed description: "Obaith was an app for local cooperative action
+     on the problems we all share, climate breakdown, ecological collapse and loneliness among
+     them. I conceived it and built it: community projects record, share and discover what
+     works, so that anyone can start a project with the experience of others behind them, join
+     one, or make their own count for more. Open content, open knowledge and open software on
+     open standards, with accessibility, privacy and user sovereignty at the front. The link
+     is the site as archived in November 2021." The decision: the text, and the verb "built"
+     against what existed (the site called it an app in development).
+  2. Contributors on the Oak Web Application card: every tag notifies the person; the search
+     found these connections (LinkedIn's display names): Tash Blore, Jamie Blair, joe baker,
+     Kyle Huggins, Simon Katan, Sonali Singh, Carl Whittaker, Assad Khan, Cat Miller, Reece
+     Charsville, Alex Cupit, Ross Mackay, John Roberts, Ben Titterington, James Sheasby
+     Thomas, Lionel Jingles, Andrew Woods, Dorothy Yau, Kofo Ogunleye, Richard Brownsett, Tom
+     Wise, Mitchell Lloyd, Adam Howard, Dr Simon Rose, Luke Arnold, Shaquille Hobbs-Daley,
+     William Gayne, Jack Skerrett, Ian Kynnersley, Ewan Wakeman, Jessica Ababio, Michael Jenic
+     (repository contributors); Aakesh Pattani, Dan Dupont-Lopez, Emma Searle, Jo Straw, Mike
+     Messina, Mike Ritson, Monika Koziol, Thomas Chan, Holly Donohue, Nirav Arvinda, Remy
+     Sharp, Shaun Orpen, Stef Lewandowski, Stuart Wilson, Leo Allen, Abisola Kuteyi, Emma
+     Lanchester, Kaan Keskin, Margaux Dowland (humans.txt, no commits in that repository). Not
+     found: Ben Protheroe, Matt Gregory, Taha Hassan, Craig McCahill, Weronika Szalas, Paul
+     Sweeting, Steve Green, Rob Ward, Philip Wong, Amy Matthews, Helen Harlow, Sarah McKinless,
+     Thomas Birch, Verity Roberts, Rees McIvor; three logins unresolved (couplm, jamiemax,
+     tweakster). A same-name hit is not proof of the same person for the common names. The
+     decision: the set to tag.
+  3. C and C (Programming Language) both stand on the live list (49 names with Scientific
+     Programming), the plain C with two endorsements. The decision: both, or one.
+  4. The thesis date: the Portsmouth research portal gives the award as May 2010; LinkedIn's
+     field wants a day. The decision: a day, or the field left empty.
+  5. The Oak Web Application project carries no dates (his word of 11 October) and so sits
+     last in the Projects section. The decision: dates, or as it stands.
+  6. A test of a project's skill order (drag Technological Innovation to the top of the
+     Plugin's list and read the card): at his word.
+- **Closed this morning:** the co-authors (his word, "consider the co-author issue closed");
+  the Principal card's first sentence (his own, live and in the source); the rebuild project's
+  three points (resolved live).
+- **Standing word, unchanged:** the live profile is edited only through Chrome at his express
+  request with him present; nothing trimmed to a number; no folds or ceremony until further
+  notice; the LinkedIn work the only work; a settled item never listed again; commits at his
+  word of the day, the push and the merge his; draft PR 349 carries the branch.
+- **Seat state:** n=1; the claim `3b4a1be4`; three Chrome tabs in his signed-in session, all
+  parked on the skills page; no watcher or heartbeat (consumer absent).
+
+## Previous Continuation (2026-10-25T09:xxZ, the owner's own live edits of 25 October read and followed into the source; the skill links he set read; the evidence map proposed at his rule; the items at his word; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream, the Chrome tab context.

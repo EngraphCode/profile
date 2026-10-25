@@ -776,3 +776,14 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **A skill's own edit dialog is the evidence route**: it lists every surface with a
   checkbox, publications, volunteering and the organisation included; the card-side overlays
   only read. His correction of 25 October; the apply skill's gotcha corrected.
+- **A form fill on a skill dialog's checkbox never reaches LinkedIn** (2026-10-25): the
+  browser tool's form fill set the input's checked state, the verify script read it back as
+  ticked, Save closed the dialog, and the server kept the old state; a re-open of twenty
+  dialogs showed every form-filled tick gone and only the owner's own ticks standing. A real
+  mouse click on the row (the computer tool with the row wrapper's ref, the element one ref
+  above the input) reaches the page's state, and a script click on the Save button saves; a
+  real click on Save by ref fails on any dialog that carries an Endorsements section, since
+  that section shifts the refs below it (Statistical Modeling, Physics, C). Lesson: a dialog
+  closing is not a save; the proof is the dialog re-opened and read; and a refs map is per
+  page load, never carried from one dialog to the next (a project Jim added mid-session moved
+  every row below it). Mechanism recorded in the apply skill's gotchas.

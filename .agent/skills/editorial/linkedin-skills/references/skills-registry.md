@@ -288,6 +288,19 @@ Senior Developer cards and the Plugin. Public Speaking's cards are the Principal
 presented), the Home Office (the workshops) and the PhD (the conference talks, his word of 11
 October); the About's teaching and tour guiding back it in text.
 
+### Applied and verified, 2026-10-25
+
+Every name on the canonical list carries the map above on the live profile, set at each skill's own
+edit dialog and re-read after its Save; Jim's own ticks beyond the map stand (his nine on
+Technological Innovation, the three publications on Research and Development, Bath on Science
+Communication, and Reforest Now, the project he added the same morning, on Social Innovation,
+Social Impact and Entrepreneurship); Strategic Leadership is off HP Labs and FT Labs at his word.
+The first pass by form fill did not persist (the dialog closed on Save and the server kept the old
+state); the second pass clicked each row and read each dialog back (`apply-linkedin-profile`
+§Gotchas). Two names stand on the live list beyond the canonical 47, both his, both linked to the
+ICG: C (Programming Language), beside C and its two endorsements, and Scientific Programming;
+whether both C forms stay is his to say. The after-baseline carries the per-skill table.
+
 ## Free-text names the typeahead did not know, 2026-10-11
 
 Free text on the profile would retrieve nothing; none is on the list.

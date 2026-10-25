@@ -127,6 +127,13 @@ read is closed without saving.
   which lists every surface with a checkbox: positions, education entries, certificates,
   projects, the volunteering entry, publications and organisations (24 on 2026-10-25); the
   card-side dialogs reach positions, projects, education and certificates only.
+- In that dialog a form fill on a checkbox is not a tick: the input reads as checked, Save
+  closes the dialog, and the server keeps the old state (2026-10-25, twenty dialogs re-read).
+  A real click on the row, the script tool clicking Save, a wait, and the dialog re-opened
+  and read are the save; the refs are read afresh on every open, since any entry added to
+  the profile moves every row below it, and a dialog with an Endorsements section carries
+  its Save button at a different ref. A position's edit dialog lists its skills as pills
+  with no ordering control; a project's edit dialog lists them with drag handles.
 - The skills details page loads its rows on real wheel scrolls only (the computer tool), not
   on a scripted scroll; and the page's script tool refuses to return any string holding a
   query string or base64, so an address is reduced to its id before it is returned.
