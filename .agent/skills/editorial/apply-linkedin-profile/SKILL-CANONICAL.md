@@ -125,7 +125,8 @@ read is closed without saving.
   (2026-10-25). A position took thirteen on 2026-10-25. The route for setting links is the
   skill's own edit dialog on the skills page ("Tell us where you put this skill to use"),
   which lists every surface with a checkbox: positions, education entries, certificates,
-  projects, the volunteering entry, publications and organisations (24 on 2026-10-25); the
+  projects, the volunteering entry, publications and organisations (24 on 2026-10-25, 23 once the two certificates were
+  deleted); the
   card-side dialogs reach positions, projects, education and certificates only.
 - In that dialog a form fill on a checkbox is not a tick: the input reads as checked, Save
   closes the dialog, and the server keeps the old state (2026-10-25, twenty dialogs re-read).

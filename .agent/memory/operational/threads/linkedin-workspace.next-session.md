@@ -28,15 +28,15 @@ authorisation.
   page is his alternative to tagging fifty people.
 - **The pickup list, approved by him on 25 October with his edits** (each item one act, in
   this order; his answers verbatim where they rule):
-  1. The two certificates are gone ("they are gone"). Read the Licences section and one skill
-     dialog; the source's Licences section follows (both entries out, a dated status note),
-     the dialog order file loses its Licences group (the refs below it move up by nine),
-     and the registry's map rows for Citizen Science and Open Data lose the certificate
-     surfaces.
+  1. Done at the pickup, 25 October: the Licences section reads empty and the skill dialog
+     lists 23 surfaces; the source's section is empty with a dated note, the dialog order
+     file has no Licences group, the registry map and the after-baseline table carry no
+     certificate surface.
   2. "Check all the skill associations, make sure they all make sense, check with me where
      there is doubt": every one of the 49 names, each link read against what the card says
      he did, never against a shared word; the Scientific Research and Public Speaking dialogs
-     read first and Obaith and the Home Office unticked where still ticked; every doubt put to
+     read at the pickup, Obaith and the Home Office already off (the interrupted unticks had
+     persisted); every doubt put to
      him in one list before any other change.
   3. The Obaith project card, "yes with corrections, but platform not app. What the rest of
      the card describes was the design, which was never built, what ended up being the
@@ -47,8 +47,12 @@ authorisation.
      record, share and discover what works, so that anyone could start a project with the
      experience of others behind them, join one, or make their own count for more, on open
      content, open knowledge and open software, open standards, accessibility, privacy and
-     user sovereignty. The platform was never built; the research and the learning were the
-     valuable output. The link is the site as archived in November 2021." Then the
+     user sovereignty. When I realised the real value was in the research, for me and for the
+     impact I could help create in other projects, I turned the project to research alone;
+     the platform was never built. The link is the site as archived in November 2021." (His
+     word at the pickup: "the pivot to pure research happened deliberately when I realised
+     that was where the real value was, to me and to the impact I might help create in other
+     projects"; the third sentence carries it.) Then the
      add-project form: name Obaith, January 2018 to April 2020, associated with the Obaith
      position, the archived site (web.archive.org, 14 November 2021) as a media link, the
      skills his choice from Social Innovation, Social Impact, Systems Thinking, Research and

@@ -246,8 +246,8 @@ links he set himself on 25 October are in the after-baseline (`linkedin/referenc
 §Skill links, read 2026-10-25). The additions below are the seat's reading of what each card's
 text shows, his to edit; the links a reader would doubt are named. The route is the skill's own edit dialog on the
 skills page ("Tell us where you put this skill to use"), which lists every surface with a
-checkbox, 24 on 25 October: the ten positions, the three education entries, the two
-certificates, the four projects, the volunteering entry, the three publications and the
+checkbox, 24 on 25 October, 23 after Jim deleted the two certificates the same day: the ten
+positions, the three education entries, the four projects, the volunteering entry, the three publications and the
 organisation. So volunteering, the organisation and the publications are evidence too, Jim's
 correction of 25 October: the three publications for Astrophysics, Cosmology, Computational
 Physics, Statistical Modeling, Parameter Estimation, Physics, Scientific Research, Scientific
@@ -275,8 +275,6 @@ two Oak positions, the PhD, FT Labs, HP Labs and the four projects).
 | PhD, Institute of Cosmology and Gravitation | Astrophysics, Cosmology, Physics, Computational Physics, Statistical Modeling, Parameter Estimation, Scientific Research, Scientific Writing, Science Communication, Citizen Science, C |  |
 | MSc, University of Sussex | Cosmology, Astrophysics, Physics, Scientific Research, Scientific Writing, Science Communication, Computational Physics |  |
 | MPhys, University of Bath | Physics, Prototyping (the Theremin) |  |
-| Citizen Science: From Soil to Sky (certificate) | Citizen Science |  |
-| Monitoring the Oceans from Space (certificate) | Citizen Science, Open Data |  |
 
 With the additions every one of the 47 names has a card, and the top six read: Technological
 Innovation on the Principal card, the Plugin, the Practice, the Oak Web Application, FT Labs and
@@ -304,7 +302,9 @@ ICG: C (Programming Language), beside C and its two endorsements, and Scientific
 both C forms stay at his word, so the canonical list is 49. Two links of the map were withdrawn
 at his word the same day, Scientific Research off Obaith ("research is not the same as
 scientific research") and Public Speaking off the Home Office (the public sector is not the
-public); the live unticks were interrupted at his word and are read at pickup. The
+public); the live unticks were interrupted at his word, and both dialogs read at the pickup show them
+persisted. The two certificates were deleted by Jim the same afternoon, so the map carries no
+certificate surface. The
 after-baseline carries the per-skill table.
 
 ## Free-text names the typeahead did not know, 2026-10-11
@@ -450,7 +450,7 @@ Digital Public Goods, Citizen Science, Entrepreneurship and Thought Leadership j
 | Skill | Typeahead 2026-10-11 | What it says, and where the page shows it |
 | --- | --- | --- |
 | Strategic Partnerships | confirmed (crawl missing; also Partnerships) | He holds Oak's engineering relationships with vendors and partners; the Principal card's first paragraph. |
-| Citizen Science | confirmed | The Galaxy Zoo work on the PhD card and the FutureLearn course; the scientist who works with the public. |
+| Citizen Science | confirmed | The Galaxy Zoo work on the PhD card; the scientist who works with the public. |
 | Entrepreneurship | confirmed (Social Entrepreneurship beside it) | The three start-ups and Obaith; the page shows Medicspot and Obaith. |
 | Design Thinking | confirmed | A method noun; nothing on the page names it. |
 | Public Policy | confirmed | Oak as an arm's-length body of the Department for Education; the page shows the body, not policy work. |

@@ -156,15 +156,7 @@ Thesis: The Design and Construction of a Theremin. Music journalist for the stud
 
 ## Licences and certifications
 
-Status: approved (12 October 2026: the three below retained with their current labels; 19 October 2026: the AgilePM Foundation certificate of June 2023 removed at Jim's word, the two FutureLearn courses kept at his word; the Fire Marshal course of 2013, the First Aid at Work certificate that expired in 2016 and the two Johns Hopkins course certificates of 2016 removed, the courses at the seat's verdict after both readers read them as lowering the altitude beside a PhD and Jim's word that he does not much care either way; awaiting Jim; 23 October 2026: ready at Jim's word; 24 October 2026: the five deleted at the sitting, each named in LinkedIn's confirmation before the delete, the two FutureLearn entries untouched)
-
-### Citizen Science: From Soil to Sky · FutureLearn · March 2018
-
-Status: approved (11 October 2026, awaiting Jim; the entry as it stands live, no description; 23 October 2026: ready at Jim's word)
-
-### Monitoring the Oceans from Space · EUMETSAT, FutureLearn · November 2016
-
-Status: approved (11 October 2026, awaiting Jim; the entry as it stands live, no description; 23 October 2026: ready at Jim's word)
+Status: approved (12 October 2026: the three below retained with their current labels; 19 October 2026: the AgilePM Foundation certificate of June 2023 removed at Jim's word, the two FutureLearn courses kept at his word; the Fire Marshal course of 2013, the First Aid at Work certificate that expired in 2016 and the two Johns Hopkins course certificates of 2016 removed, the courses at the seat's verdict after both readers read them as lowering the altitude beside a PhD and Jim's word that he does not much care either way; awaiting Jim; 23 October 2026: ready at Jim's word; 24 October 2026: the five deleted at the sitting, each named in LinkedIn's confirmation before the delete, the two FutureLearn entries untouched; 25 October 2026: the two FutureLearn entries deleted by Jim on the live profile, the section empty there and here)
 
 ## Projects
 

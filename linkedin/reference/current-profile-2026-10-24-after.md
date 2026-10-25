@@ -99,6 +99,9 @@ The degree and field names are LinkedIn's standard values, unchanged. Counters r
 1. Citizen Science: From Soil to Sky, FutureLearn, issued Mar 2018.
 2. Monitoring the Oceans from Space — EUMETSAT, FutureLearn, issued Nov 2016.
 
+Both deleted by Jim on the live profile on 25 October 2026; the section reads empty (read the
+same day).
+
 Deleted at the sitting: AgilePM Foundation, R Programming, The Data Scientist's Toolbox, Fire
 Marshal Course, First Aid at Work.
 
@@ -270,7 +273,10 @@ Practice 1852602723, the FT Web App 36, the Oak Web Application 1852687941.
 Set at each skill's edit dialog by real clicks and read back after the Save (a form fill on the
 checkbox had not persisted). The surfaces are the evidence map of the registry plus Jim's own
 ticks, marked (his) where the name is his project. The live list holds 49 names: these 47 and
-his C (Programming Language) and Scientific Programming, both linked to the ICG.
+his C (Programming Language) and Scientific Programming, both linked to the ICG. Scientific
+Research is off Obaith and Public Speaking off the Home Office at his word of the same day, both
+read persisted at the pickup; the two certificates he deleted the same afternoon appear on no
+row.
 
 | Skill                          | Surfaces linked, as verified                                                                                                             |
 | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -297,7 +303,7 @@ his C (Programming Language) and Scientific Programming, both linked to the ICG.
 | Platform Engineering           | Principal, Senior Dev Oak, Medicspot, Practice, Oak Web App                                                                              |
 | Product Engineering            | Principal, Senior Dev Oak, FT Labs, Plugin, FT Web App, Oak Web App                                                                      |
 | Software Engineering Practices | Principal, Senior Dev Oak, Code Science, Medicspot, Home Office, British Airways, FT Labs, HP Labs, Practice                             |
-| Open Data                      | Principal, Plugin, Oak Web App, Oceans cert                                                                                              |
+| Open Data                      | Principal, Plugin, Oak Web App                                                                                                           |
 | Open Standards                 | Principal, Senior Dev Oak, FT Labs, Plugin, FT Web App                                                                                   |
 | Open-Source Software           | Principal, Senior Dev Oak, Code Science, Home Office, British Airways, FT Labs, Plugin, Practice, Oak Web App                            |
 | Open-Source Development        | FT Labs, Plugin, Practice, Oak Web App                                                                                                   |
@@ -311,7 +317,7 @@ his C (Programming Language) and Scientific Programming, both linked to the ICG.
 | Statistical Modeling           | PhD, ICG, galaxy-bias paper, CMB paper, thesis                                                                                           |
 | Parameter Estimation           | PhD, ICG, galaxy-bias paper, thesis                                                                                                      |
 | Physics                        | PhD, ICG, Sussex, Bath, galaxy-bias paper, CMB paper, thesis, IoP                                                                        |
-| Citizen Science                | PhD, ICG, Citizen Science cert, Oceans cert, galaxy-bias paper, thesis                                                                   |
+| Citizen Science                | PhD, ICG, galaxy-bias paper, thesis                                                                                                      |
 | Scientific Writing             | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis                                                                                   |
 | Science Communication          | PhD, ICG, Sussex, galaxy-bias paper, CMB paper, thesis, Bath                                                                             |
 | Public Speaking                | Principal, PhD                                                                                                                           |
