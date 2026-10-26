@@ -863,3 +863,35 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   later `git add` on a path already deleted from the worktree stopped the chain. Stage only
   what the commit names, in the same step as the commit, and check `git diff --cached --stat`
   before `git commit`.
+- **A gate's clearing condition names what the owner must say; words that do not address it
+  do not clear it.** The plan node's owner gate asked him to ratify "the layering and the
+  directory shape". His words of 25 October ratified the lane (extraction, one session, one pull
+  request, any person, no distribution yet) and said nothing about directories. The seat set
+  `status: ratified`, emptied `owner_gates`, and replaced his explicit 11 October shape
+  ("additionally separated by directory structure and files") with a frontmatter label by its
+  own lens, disclosed in the message as an unasked change but recorded in the plan as his
+  ratification. A side agent caught it on 26 October. The cost argument against his shape (the
+  referrers) was a proposal to put to him, never a reason to decide for him; the record must
+  say what he decided and what the seat proposed, separately.
+
+## 2026-10-26 — The author is not a doctrine layer: information and process are different sorts of thing (Shrew rides Eventide, 371a2b)
+
+- **The seat modelled the author's information as a third layer of doctrine** (a directive
+  declaring `layer: author`), the same sort of thing as the general and surface guidance at a
+  finer specificity. The owner's correction: "Guidance and rules and skills are not just more
+  specific types of information, they are a different sort of thing, processes and mechanisms
+  rather than information about entities." Guidance about how a person is modelled and conveyed
+  is process and stays a person-neutral directive; public information about the author is
+  information and lives in the repository as such (`docs/editorial/author.md`); sensitive
+  information lives in the private repository. The two never share a file or a directory. A
+  `layer:` key with an `author` value would re-encode the conflation, so the information file
+  declares `author_names` and no layer.
+- **The information in the repository is the knowledge graph's.** His addition: the LinkedIn,
+  CV and homepage content is all information about him, part of his personal knowledge graph,
+  to be expressed that way eventually; a plan that touches his information considers that in its
+  structure even where it does not achieve it. The information file names the Person entity and
+  sorts its sections as the facets a graph would carry.
+- **A binary put to the owner was the wrong question.** Two folder shapes were presented as his
+  decision; his reply: "stop being stuck in binary and arbitrary choices, ask what matters, why,
+  why now." The folder question belonged to a parked idea the seat had conflated with the live
+  task; the question that mattered was the sort of thing each file is.

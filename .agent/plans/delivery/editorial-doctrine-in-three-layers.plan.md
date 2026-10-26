@@ -1,23 +1,30 @@
 ---
 id: editorial-doctrine-in-three-layers
 node_type: delivery
-name: Editorial doctrine in three layers, and the LinkedIn lane's understanding extracted into them
+name: The editorial doctrine as processes for any person, the author's information apart
 overview: >-
-  The editorial directives, skills, sub-agent templates, rule and decision records separated into
-  three layers that any person's profile work can use: general writing and editorial practice; the
-  surface class (a LinkedIn profile, a CV); and the author instance, here Jim, kept apart and
-  public-safe. The understanding the LinkedIn lane of September and October 2026 produced lands
-  in those layers in the same motion: one session, one pull request, no distribution yet.
+  The editorial directives, skills and reader templates become processes and mechanisms that
+  serve any author, in two layers (general craft; the surface class); the information about this
+  host's author leaves the doctrine and becomes one public information file, a facet of the one
+  Person entity of the personal knowledge graph written in prose for now; sensitive information
+  stays in the private repository. The understanding the LinkedIn lane of September and October
+  2026 produced lands in those files in the same motion: one session, one pull request, no
+  distribution yet.
 status: ratified
 ratified_by: Jim Cresswell
-ratified_date: 2026-10-25
+ratified_date: 2026-10-26
 ratified_where: >-
-  The owner's words in the Shrew rides Eventide session (371a2b) on 2026-10-25, after the LinkedIn
-  lane closed: "you can have ONE PR for the understanding extraction work. Of course we need a plan
-  for this work. I want a single session, simple, straightforward extraction of understanding. One
-  session, one PR, strictly bounded ... All skills and rules and guidance created must apply to any
-  person, it must not be specific to me. Will we distribute this understanding to others, yes,
-  eventually, but not yet." Recorded on the linkedin-workspace thread record's block of that hour.
+  The owner's words in the Shrew rides Eventide session (371a2b) on 2026-10-26, recorded verbatim
+  on the linkedin-workspace thread record's current block
+  (.agent/memory/operational/threads/linkedin-workspace.next-session.md): the landed work approved
+  as the implementation of the editorial doctrine into skills; the three-way division approved;
+  the third part corrected: "editorial guidance about how a person is modelled and conveyed and
+  how to structure their story lives in the general repo as guidance and rules. Information about
+  me that is public domain lives in the general repo and information, not guidance. Information
+  about me that is sensitive or private lives in the private repo. Guidance and rules and skills
+  are not just more specific types of information, they are a different sort of thing, processes
+  and mechanisms rather than information about entities"; and the information in the repo named
+  as part of his personal knowledge graph, to be expressed that way eventually.
 serves: content-as-cv
 impact_areas:
   - editorial-content
@@ -25,139 +32,153 @@ impact_areas:
 tickets: []
 depends_on: []
 owner_gates: []
-last_updated: 2026-10-25
+last_updated: 2026-10-26
 ---
 
-# Editorial doctrine in three layers, and the LinkedIn lane's understanding extracted into them
+# The editorial doctrine as processes for any person, the author's information apart
 
-Born sketch on 2026-10-11 from the owner's direction, verbatim: "not for right now, but across
-directives, guidance, rules, skills, subagents, we need to distinguish between general writing
-and editorial best practice, best practice for particular surfaces, such as CVs, linkedin, blogs,
-long-form essays, and within those the particular instance of that class applied to a person as
-the author, in this case me. The separation should be along appropriate seams, but additionally
-separated by directory structure and files". Ratified on 2026-10-25 when the LinkedIn lane closed
-and he asked for its understanding extracted in a form that applies to any person: the extraction
-and the split are one motion, because every file the extraction would touch is a file the split
-moves, and landing the understanding into mixed files would move the same text twice.
+Born sketch on 2026-10-11 from the owner's direction for a later time: the editorial doctrine
+distinguished into general writing practice, practice for a surface class, and the instance of
+that class applied to one person as the author. Taken up on 2026-10-25 when the LinkedIn lane
+closed and he asked for its understanding extracted in a form that applies to any person, one
+session, one pull request. Ratified on 2026-10-26 at the words in the frontmatter, which also
+corrected the sketch's third part: the author is not a layer of doctrine. Guidance, rules and
+skills are processes and mechanisms; information about a person is a different sort of thing, and
+the two never share a file or a directory. The sketch's directory clause is met in that one way.
 
 ## Goal
 
-When this lands, every editorial file in the estate declares one of three layers in its
-frontmatter and holds nothing from another layer, and the LinkedIn lane's understanding sits in
-the layer its reader loads:
+A seat drafting for any author loads person-neutral guidance (the editorial directives, the
+editorial skills, the reader templates) and that author's information file, and nothing else. The
+host author's public information is one file he can read whole, apart from the process he need
+not re-read; his sensitive information stays in the private repository and is never quoted. A
+check in the gate refuses the author's name in any guidance file and refuses an author
+information file inside the doctrine directories.
 
-1. **General writing and editorial practice** (`layer: general`): the reader's decision and the
-   audience hops words cross; the beliefs and the moments; the method of writing with the subject
-   present (the subject supplies facts and judges likeness; the seat writes the reader's
-   sentence); the three editing altitudes; the readers as falsifiers; the voice craft (the
-   pitfalls and the check, for any first-person professional voice); the failure classes and
-   their cures. Person-free; carried to any estate as the same bytes.
-2. **The surface class** (`layer: surface`): what a LinkedIn profile needs that a CV does not
-   (the platform's fields, folds, cards and limits as verified and dated; the Skills section's
-   mechanics and selection method; the application procedure with its proofs), and what a CV
-   needs that a profile does not (its page, print and browser, its reader, its coherence with the
-   profile). Person-free; one skill per class.
-3. **The author instance** (`layer: author`): this author's identity, positioning, voice,
-   readers and the axis they decide on, standing decisions (the EDRs), the private boundary, and
-   the worked instances of the lane with the author's own words and dates. Host-specific,
-   public-safe; the private companion stays where privacy.md puts it. The instance directive
-   keeps its path, `.agent/directives/editorial-guidance.md`, and the sketch's directory shape
-   for this layer is amended to that: the separation that protects something (the carry of
-   layers 1 and 2 as the same bytes, the privacy boundary) is a declaration every file carries
-   and a validator enforces, not a third directory.
+## The two sorts of thing
 
-A seat drafting for a surface reads the three in that order and builds the reader brief from the
-author instance.
+**Processes and mechanisms** (guidance, rules, skills, reader templates), all person-neutral, in
+two layers declared in frontmatter:
+
+1. **General** (`layer: general`): how to write for a reader's decision and the audience hops the
+   words cross; how a person is modelled, conveyed and their story structured (the author's
+   information model as the template for any person; the conveying principles; the direction of
+   derivation from information to content to derived surfaces; consistency across outputs; the
+   decision-record mechanism); working with the author; the voice craft; the composition
+   doctrine. Carried to any estate as the same bytes.
+2. **Surface** (`layer: surface`): what a LinkedIn profile needs that a CV does not, and the
+   reverse, as verified and dated. One skill per class.
+
+**Information about an entity**, never a directive, rule, skill or template:
+
+- **Public information about the author**, in the repository as information: the file
+  `docs/editorial/author.md`, titled with his name, frontmatter `author_names` and no `layer`.
+  It is a facet of the one `Person` entity of the personal knowledge graph
+  (`https://www.jimcresswell.net/#person`, the source of truth for shared identity atoms under
+  ADR-020) written in prose for now; its frontmatter names that entity; its sections are the
+  facets a graph would carry; and it states that the content model's JSON, the LinkedIn
+  workspace and this file describe the same entity. The eventual expression as graph is the
+  knowledge-graph stream's work (GRAPH-1, Track B), not this lane's, and nothing in the file's
+  shape forecloses it.
+- **Sensitive or private information about the author**, in the private repository
+  (`.agent/reference-local/editorial-private`, its README's boundary of 28 September 2026):
+  reasons, intentions, the application brief, raw words. Never in the public repository, never
+  quoted on a public surface. Nothing in the public editorial files today is sensitive, so nothing
+  moves there in this lane.
 
 ## User groups and value
 
-- Jim: his identity, readers and decisions in one file he can read whole, apart from craft he
-  need not re-read; the CV lane (his next chapter) starts from the landed method without
-  relearning the LinkedIn lane's failures; a correction to his layer never risks the general one.
-- A seat drafting public copy for any author: the brief comes from one file, so a mis-cast reader
-  cannot recur by omission; surface knowledge is found where the surface is named.
-- Other people, later: the general and surface layers are the body of a distributable skill in the
-  form `skills/interview-question-exploration` sets (self-contained, host-neutral, evals with
-  fresh reads); packaging is a later act at his word, not this lane's.
-- The sibling estate and the Practice extraction: layers 1 and 2 travel as the same bytes.
+- The host author: his public information in one file he reads whole; a correction to it never
+  touches process, and a process change never touches his facts; the CV chapter starts from the
+  landed method and his file without relearning the LinkedIn lane.
+- A seat drafting public copy for any author: the brief comes from the author's information file
+  and the guidance, so a mis-cast reader cannot recur by omission; surface knowledge is found where
+  the surface is named.
+- Other people, later: the guidance and the surface skills are the body of a distributable skill
+  in the form the repository's `skills/` directory sets (self-contained, host-neutral); their own
+  information file follows the model the guidance describes. Packaging is a later act at the
+  owner's word.
+- The knowledge-graph stream: the author's editorial facets are already sorted into one file with
+  a named entity, ready to be expressed as graph when GRAPH-1 reaches them.
 
 ## Mechanism
 
-The seam is the rate of change: general craft changes when the Practice learns; surface practice
-changes when a platform changes; the instance changes when the author's work or intent changes.
-The move is a split along that seam with the new understanding written into the split files, not
-a rewrite of settled text.
-
-- **Layer by declaration, not by a third directory.** Each editorial file carries `layer:` in its
-  frontmatter. General and surface skills stay flat under `.agent/skills/editorial/`, because the
-  adapter generator reads two levels and a directory per layer would multiply paths for no reader;
-  the author instance lives apart under `docs/editorial/`, beside the decision records, so the
-  instance is separated by directory where the separation protects something (privacy, the carry).
-  The sketch's counterframe (two layers) is resolved the same way: three layers, one directory
-  fewer than sketched.
-- **General skills.** `write-for-the-reader` keeps the method and gains the lane's understanding
-  (the audience hops, working with the subject, the failure classes); its author-specific examples
-  move to the instance file. `editorial-voice` keeps the craft (the pitfalls, the check) and loses
-  the author's voice to the instance file.
-- **Surface skills.** `linkedin-profile` replaces `apply-linkedin-profile` and `linkedin-skills`:
-  one skill for the surface, person-free, with the platform facts dated, the Skills section's
-  mechanics and selection method, the application procedure and its proofs; its references
-  (field limits, the industry taxonomy) made person-free; the author's own registry of names moves
-  to the LinkedIn workspace. `cv` is new: the CV as a surface, from the September research, the
-  strategy directive's surface table and the lane's hand-off to the CV chapter.
-- **The author instance.** `.agent/directives/editorial-guidance.md` is the instance file,
-  declared `layer: author`, keeping its path because thirty tracked files already point at it as
-  the home of the author's identity and voice. It takes the strategy directive's standing
-  audiences, the voice skill's one line and registers, the skills' author-specific standing
-  conditions and tiers, and the lane's worked instances with the author's words and dates; its
-  frontmatter names the author's name tokens for the validator. The decision records beside it
-  under `docs/editorial/` stay the instance's record of origin.
-- **Sub-agent templates.** `editor`, `prose-expert` and `audience-reader` read "the author" and
-  take the instance file as a required input; adapters regenerated by `pnpm portability:fix`.
-- **The rule.** `public-copy-runs-the-editorial-workflow` restated for the host's author.
-- **The validator.** A docs validator in `agent-tools` reads the author's name tokens from the
-  instance file's frontmatter and refuses any `layer: general` or `layer: surface` file that
-  contains one; wired into `docs-validators:check` with its unit test.
-- **The directives, last.** `editorial-strategy.md` becomes the general directive, declared
-  `layer: general` and person-free, its standing audiences moved to the instance;
-  `editorial-guidance.md` becomes the instance as above. Directive edits run under
-  `directive-file-context-budget`: below the context line, or after the next compaction, as the
-  lane's final step; until then the skills point at the two directives by their unchanged paths.
+- **The guidance directive** `.agent/directives/editorial-guidance.md` keeps its name and its
+  place in the always-loaded set, because every live referrer wants editorial guidance, and
+  becomes that for any author (`layer: general`): the author's information model; the conveying
+  principles in general form (show, don't justify; agency through outcomes; level shows, never
+  argued; "my" not "the"; breadth as range; the cumulative impression never stated; collaborative
+  credit; a background as silent ballast; a sensibility shown, never claimed; keywords carried by
+  structured data); the direction of derivation and consistency across outputs; the
+  decision-record mechanism; working with the author in brief, pointing at `write-for-the-reader`;
+  the boundary between public information, sensitive information and process.
+- **The composition directive** `.agent/directives/editorial-strategy.md` stays general
+  (`layer: general`), its author mentions made neutral and its standing audiences moved to the
+  information file as information about the author's readers.
+- **The information file** `docs/editorial/author.md` takes the facts the guidance directive held
+  (voice, the registers' shared topics, positioning vocabulary and its meaning for him, the
+  research facts and what is never conflated, the keyword decisions, standing decisions with
+  their decision records), the standing audiences of his surfaces and the axis they decide on,
+  his working instruments, the LinkedIn standing conditions he set, the Skills tiers and pins of
+  11 October 2026 as the record of origin of the list in the LinkedIn workspace, and the lane's
+  worked instances with his public-safe words and dates. Formatted by the repository's prettier
+  and markdownlint; no fitness frontmatter.
+- **Skills and templates.** `write-for-the-reader` and `editorial-voice` (general),
+  `linkedin-profile` and `cv` (surface), and the reader templates `editor`, `prose-expert` and
+  `audience-reader` read "the author" and take the information file as the author's input; the
+  brief for the audience reader is built from it. Adapters regenerated.
+- **Referrers by intent.** Live doctrine and navigation referrers point at the information file
+  where they want identity and voice, and at the guidance where they want principles. Records keep
+  their history.
+- **The validator** in `agent-tools` (`validate-editorial-layers`, in `docs-validators:check`):
+  `layer:` admits `general` and `surface`; the author information file is the one file in scope
+  carrying `author_names`, and it must sit under `docs/`, so an `author_names` file under
+  `.agent/` is a refusal (information about an entity is never a directive, rule, skill or
+  template), as is a `layer` key on the information file; whole-word, case-insensitive hits of a
+  name in a declared file fail the gate; exit 0 when no file declares a layer and none carries
+  `author_names`, so the validator can be carried to an estate without the doctrine.
+- **Directive edits** run under `directive-file-context-budget`: as the lane's final step, below
+  the context line, with the check repeated before each directive.
 
 ## Steps, one session, one pull request
 
-1. This node ratified; `linkedin-profile-rewrite-completion` archived as done.
-2. The owner's corrections read from the lane's sessions (his typed turns, extracted by filter
-   into a private ledger), the seat's buffer, the comms events naming the lane, the napkin
-   archives, the plans and the workspace notes; each understanding routed to a layer.
-3. The author instance written; the general skills rewritten; the surface skills written; the old
-   skill directories removed; adapters regenerated.
-4. The sub-agent templates and the rule restated; adapters regenerated.
-5. The validator with its test, wired into the gate.
-6. The directives, under the context rule.
-7. Gates green (`markdownlint`, `prettier`, `skills:check`, `portability:check`,
-   `subagents:check`, `docs-validators:check`, `plan-gates:check`); records; one push; one pull
-   request under the bot identity; the owner reads and merges.
+1. This node ratified at the words above; the lane's records corrected (the thread record, the
+   napkin); the pull request's description current. One commit, one push.
+2. Under the context rule: the information file written; the guidance directive rewritten as
+   general; the composition directive edited; AGENT.md's editorial paragraph repointed.
+3. Referrers repointed by intent; adapters regenerated.
+4. The validator and its tests changed; green on the tree; red on a seeded name in a general
+   file; red on an `author_names` file under `.agent/`.
+5. Gates green (`markdownlint`, `prettier`, `skills:check`, `portability:check`,
+   `subagents:check`, `docs-validators:check`, `plan-gates:check`, agent-tools lint, type-check
+   and test); one commit by pathspec; one push; the owner reads and merges.
 
 ## Acceptance criteria
 
-1. Every editorial skill, template and directive carries a layer declaration; the validator is
-   green on the split tree and red on a seeded author name in a general file; proof `repo-safe`:
-   the validator's unit test and `pnpm docs-validators:check`.
-2. No general or surface file names the author; proof `repo-safe`: the validator.
-3. The audience-reader, editor and prose-expert templates name the instance file as an input and
-   the subagents and portability checks pass; proof `repo-safe`: `pnpm subagents:check`,
-   `pnpm portability:check`, `pnpm skills:check`.
-4. The lane's understanding is in the layers: the audience hops, the subject-and-seat protocol,
-   the failure classes, the LinkedIn platform facts dated, the Skills mechanics, the CV surface;
-   proof `owner-held`: the owner reads the pull request and recognises the lane in it.
+1. No guidance file in the editorial scope names the author; proof `repo-safe`: the validator in
+   `docs-validators:check`, green on the tree and red on a seeded name (unit test).
+2. The author's public information is one file under `docs/editorial/` carrying `author_names`
+   and naming the Person entity, and the validator refuses such a file under `.agent/`; proof
+   `repo-safe`: the unit test and the gate.
+3. Every live doctrine referrer names the right file for its intent and the adapters are current;
+   proof `repo-safe`: `pnpm subagents:check`, `pnpm portability:check`, `pnpm skills:check`,
+   `pnpm docs-validators:check`.
+4. The guidance reads as process for any author and the information file reads as him; the lane's
+   understanding is in the files (the audience hops, working with the author, the failure classes,
+   the LinkedIn platform facts dated, the Skills mechanics, the CV surface); proof `owner-held`:
+   the owner reads the pull request and recognises the lane in it.
 5. One pull request, merged at his word; proof `owner-held`: the merge.
 
 ## Out of scope
 
+- Moving anything to the private repository: nothing in the public editorial files is sensitive.
+- Expressing the author's information as graph: the knowledge-graph stream's work (GRAPH-1).
 - Any change to public copy, the live LinkedIn profile, the CV content or the entity graph.
-- The CV chapter (his next priority, a later session): it consumes this lane's output.
+- The CV chapter (the owner's next chapter, a later session): it consumes this lane's output.
 - The root README and documentation rewrite (his second closing priority): the next pull request.
-- Packaging a distributable skill from the general and surface layers (later, at his word).
-- Re-litigating settled EDRs; they are the instance layer's record of origin and do not change.
-- The retrospective on the lane's cost and shape.
+- Packaging a distributable skill from the guidance and the surface skills (later, at his word).
+- A Practice-wide rule or decision-record clause for the taxonomy (guidance is process;
+  information is about entities; they never share a file): one instance today; proposed at the
+  second.
+- Re-litigating settled editorial decision records; they are the author's record of origin.
+- The retrospective on the LinkedIn lane's cost and shape.
