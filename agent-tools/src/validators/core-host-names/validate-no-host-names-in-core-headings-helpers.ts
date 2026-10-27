@@ -21,11 +21,13 @@
  * trinity; the changelog's entry tags (`## [<repository>] <date> — ...`) name
  * every repository that changed the Core, the writing seat's repository in both
  * estates by the changelog's own convention. A tag written as `owner/name`
- * yields the owner, the name and the slug. The repository the scan runs in
- * joins by its origin remote's owner and name, so a host no record yet names
- * is still a needle in its own tree. Matching is case-insensitive, literal and
- * token-bounded: a name is a name, not a pattern, and `castr` inside a longer
- * word is not the host.
+ * yields the owner, the name and the slug. The scanned tree's remotes are
+ * never read: where a tree is cloned from is a location, not a record, and any
+ * repository may be pushed, cloned or forked to any owner and address, so a
+ * remote's name proves nothing about the Core's hosts, and a check that read it
+ * would pass or fail with the checkout's configuration instead of the records'
+ * claims. Matching is case-insensitive, literal and token-bounded: a name is a
+ * name, not a pattern, and `castr` inside a longer word is not the host.
  *
  * Only ATX headings outside fenced code blocks are inspected (the reading is
  * `markdown-headings.ts`), and the changelog itself is exempt: its headings
@@ -137,18 +139,14 @@ export function changelogRepositories(changelog: string): string[] {
 }
 
 /**
- * The needle set: the names the Core's records declare and the scanned
- * repository's own origin owner and name, once each.
+ * The needle set: the names the Core's records declare, once each across both
+ * records.
  *
  * @param declared - the names {@link provenanceRepositories} and
- * {@link changelogRepositories} read
- * @param origin - the owner and repository name of the scanned tree's origin
+ * {@link changelogRepositories} read, concatenated
  */
-export function hostNeedles(
-  declared: readonly string[],
-  origin: { readonly owner: string; readonly repoName: string },
-): string[] {
-  return uniqueNames([...declared, origin.owner, origin.repoName]);
+export function hostNeedles(declared: readonly string[]): string[] {
+  return uniqueNames(declared);
 }
 
 /** True when the match at `at` is a whole token: no letter or digit on either side. */

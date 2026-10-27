@@ -12,10 +12,9 @@
  * it travels to repositories that have never seen the host and diverges the
  * estates' copies of one record. The needles are derived, not declared: the
  * `repo:` field of every provenance entry and the repository tag of every
- * changelog entry in the Core's own records, plus the scanned tree's origin
- * owner and repository name (the helpers module says why). Headings only,
- * outside fenced code; the changelog's own headings are exempt by its tagging
- * convention.
+ * changelog entry in the Core's own records, and nothing from the scanned
+ * tree's remotes (the helpers module says why). Headings only, outside fenced
+ * code; the changelog's own headings are exempt by its tagging convention.
  *
  * Usage: `validate-no-host-names-in-core-headings [repo-root]`. Without the
  * argument the gate reads the tree it runs inside; with it, another tracked
@@ -25,27 +24,23 @@
  * Wired into root `docs-validators:check`, which runs in `pnpm check`,
  * `pnpm check:docs` and CI. Exit 0 = clean; 1 = findings; 2 = refusal (the
  * provenance file or the changelog missing, the two together naming no
- * repository, the origin remote missing or not an owner/repository URL, no
- * tracked Core document, or a Core document unreadable or not scannable as
- * text). The status is returned from `main` and
- * set on `process.exitCode`, so buffered diagnostics reach a pipe before the
- * process ends.
+ * repository, no tracked Core document, or a Core document unreadable or not
+ * scannable as text). The status is returned from `main` and set on
+ * `process.exitCode`, so buffered diagnostics reach a pipe before the process
+ * ends.
  *
  * @packageDocumentation
  */
 
-import { execFileSync } from 'node:child_process';
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
 
 import { err, ok, type Result } from '@engraph/result';
 
-import { parseGitRemoteUrl, type GitRemoteRepository } from '../../core/git-remote-url.js';
 import { resolveRepoRoot } from '../../core/repo-root.js';
 import { writeErrorLine, writeLine } from '../../core/terminal-output.js';
 import { describeGitReadFailure, listTrackedFiles } from '../../core/repository-paths.js';
 import { describeUnreadable, readScanFiles } from '../../core/tracked-file-scan.js';
-import { resolveTrustedGit } from '../../core/trusted-git.js';
 
 import {
   CHANGELOG_PATH,
@@ -100,36 +95,6 @@ function readDeclaredRepositories(repoRoot: string): Result<string[], string> {
     );
   }
   return ok(names);
-}
-
-/** The origin remote's owner and repository; a refusal reason when absent or not that shape. */
-function readOrigin(repoRoot: string): Result<GitRemoteRepository, string> {
-  let git: string;
-  try {
-    git = resolveTrustedGit();
-  } catch (error) {
-    return err(
-      `cannot resolve a trusted git binary — ${error instanceof Error ? error.message : 'unknown'}`,
-    );
-  }
-  let url: string;
-  try {
-    url = execFileSync(git, ['remote', 'get-url', 'origin'], {
-      cwd: repoRoot,
-      encoding: 'utf8',
-      stdio: ['ignore', 'pipe', 'ignore'],
-    });
-  } catch {
-    return err(
-      'no origin remote — the scanned tree names itself by its origin owner and repository',
-    );
-  }
-  const origin = parseGitRemoteUrl(url);
-  return origin === undefined
-    ? err(
-        'the origin remote URL does not name an owner/repository path (the URL is withheld from this log: a remote may carry a credential)',
-      )
-    : ok(origin);
 }
 
 /** The tracked Core documents as text; a refusal reason when any cannot be read as text. */
@@ -193,15 +158,11 @@ function main(argv: readonly string[]): number {
   if (!declared.ok) {
     return refuse(declared.error);
   }
-  const origin = readOrigin(repoRoot);
-  if (!origin.ok) {
-    return refuse(origin.error);
-  }
   const documents = readCoreDocuments(repoRoot);
   if (!documents.ok) {
     return refuse(documents.error);
   }
-  const needles = hostNeedles(declared.value, origin.value);
+  const needles = hostNeedles(declared.value);
   const hits = scanCoreHeadings(documents.value, needles);
   if (hits.length > 0) {
     reportHits(hits);
@@ -209,7 +170,7 @@ function main(argv: readonly string[]): number {
   }
   writeLine(
     `✓ no host names in the headings of ${String(documents.value.length)} Core documents ` +
-      `(${String(needles.length)} host names from the Core's records and the origin)`,
+      `(${String(needles.length)} host names from the Core's records)`,
   );
   return 0;
 }
