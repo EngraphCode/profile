@@ -28,8 +28,12 @@ authorisation.
   pushed, level with its origin). The lane `editorial-doctrine-in-three-layers` is complete at the
   second merge; its node stands ratified and done.
 - **The repository has moved** to the EngraphCode organisation as `profile` (its main is pull
-  request 354's merge). GitHub redirects the old address; the local remote, the merge-bot
-  configuration and `gh` all still resolve, as he said. Two items for his word, not acted on: the
+  request 354's merge). GitHub redirects the old address for git and `gh`; the merge bot did not follow: the app
+  installation stayed with the old owner (installation lookup 404), so at his word ("there are
+  bots for Engraph", with the organisation's installed apps El Graphael and Kengraph shown) this
+  checkout's untracked `.github/merge-bot.json` now names El Graphael (the Engraph estate's bot,
+  its key already on this machine) on `EngraphCode/profile`; the previous values are in the seat's
+  scratchpad only. Two items for his word, not acted on: the
   operator profile's scope file is keyed by repository identity (`jimcresswell--jimcresswell.net`,
   PDR-141 decision 3) and the Practice's own records name the old slug throughout; whether the
   scope key and the records follow the rename, and when, is his. The seat misread the note once:

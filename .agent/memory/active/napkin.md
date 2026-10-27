@@ -999,3 +999,9 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   node: the owner asked for a "full retro" after a partial one landed; the unit of analysis is the
   whole LinkedIn work from 29 September to 27 October, the extraction lane its last movement, and
   the first question the node must put to him is what the retrospective is for.
+- 2026-10-27 15:1xZ: the repository's move to EngraphCode broke the merge bot while git and `gh`
+  kept working (redirects): a GitHub App installation belongs to the owning account, so the
+  installation lookup for the old slug returned 404 and the bot push refused. A side agent's note
+  and the owner's screenshot named the organisation's apps; the Engraph estate's bot (El Graphael)
+  with its key on this machine took over through the per-checkout bot config. "Everything should
+  just keep working" held for git, not for the app; after a repository move, mint a token first.
