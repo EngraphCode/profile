@@ -54,8 +54,21 @@ authorisation.
   listed again; all decisions his, the seat still proposes; his reasons private, his decisions
   public; anything specifically about him and how he works with agents in the operator profile,
   how to work with a user in the Practice.
+- **Blocked at the boundary, for his word first: every push from this checkout fails the
+  pre-push gate.** `validate-no-host-names-in-core-headings` derives its needles from the
+  origin remote's owner and repository; the repository's new name, `profile`, is a common word,
+  and PDR-141's title ("operator profile in the home directory", lines 5 and 203) now reads as
+  a host name in a Core heading. The gate's e2e smoke runs that validator on the tracked tree and
+  fails; CI on `main` will fail the same way. This branch holds three local commits (the node
+  sketch, the boundary block, the bot and origin records) that the bot could not push; no hook was
+  bypassed. The cure is to the validator, shared Practice code with the Engraph estate, and its
+  design is his: declare the host's name in a tracked host file (the origin leg kept as a check
+  that the declaration matches the remote's owner), or drop the repository name from the origin
+  leg; rewording PDR-141's title to dodge a validator is the wrong direction. The first push after
+  the cure carries this branch, since the gate runs the branch's own validator.
 - **Seat state:** n=1; no claim; no watcher or heartbeat; the branch `docs/linkedin-full-retrospective`
-  cut from main at e0bf2bd3, its draft pull request opened at the first push.
+  cut from main at e0bf2bd3, three commits ahead and unpushed; its draft pull request opens at the
+  first push that lands.
 
 ## Previous Continuation (2026-10-27, the extraction node ratified at the owner's afternoon word, the sitting bounded to the privacy fix and the merge; the retrospective landed; the CV chapter's node a sketch; the directive step after a compaction; Shrew rides Eventide, 371a2b)
 

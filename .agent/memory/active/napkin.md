@@ -1005,3 +1005,8 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   and the owner's screenshot named the organisation's apps; the Engraph estate's bot (El Graphael)
   with its key on this machine took over through the per-checkout bot config. "Everything should
   just keep working" held for git, not for the app; after a repository move, mint a token first.
+- 2026-10-27 15:2xZ: the rename to a common word broke a derived needle. The Core-heading
+  validator's host names come from the origin remote; `profile` as the repository's name turned
+  PDR-141's title into a hit, and the pre-push gate now refuses every push from this checkout.
+  Three commits sit local on the retro branch; nothing bypassed. A derived needle needs a floor
+  (a declared host name, or no repository-name leg); the design is the owner's, the Core is shared.
