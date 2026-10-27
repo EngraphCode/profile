@@ -32,7 +32,7 @@ authorisation.
   `docs/editorial-insight-extraction` from `main`.
 - **Amendment, 27 October, at his words.** A side agent's note of 26 October: the plan declared
   the public editorial files free of sensitive material ahead of any sort, so the guidance
-  directive's self-view lines would have moved whole into a public author file. The seat's
+  directive's lines of the insight class would have moved whole into a public author file. The seat's
   assessment (read as prose; the lines match privacy.md's Private category and have since the
   identity split of February 2026; the public repository's readers are the profile's readers; a
   single file labelled as the Person entity is an aggregation; de-naming is not de-identification;
@@ -46,16 +46,18 @@ authorisation.
   decisions, bounded scope, and stopping conditions. Use all appropriate skills to write the plan
   and in the comissioned work." The node is rewritten and re-ratified at these words: two cuts
   (process or information; public-appropriate or insight), three homes (the person-neutral
-  doctrine; `docs/editorial/author.md`, thin; the private repository's author file), a ledger of
-  the guidance directive by section naming kinds only, twelve settled decisions (the voice
-  adjectives public and the biographical sentence private; no history rewrite; three record edits
+  doctrine; `docs/editorial/author.md`, thin; the private repository's author file), the
+  sentence ledger of the guidance directive kept in the private repository (a side agent's note
+  of the same day: a public map of what went private is a disclosure, cured at his word), twelve
+  settled decisions (the voice adjectives public and the rest of that paragraph private; no
+  history rewrite; three record edits
   outside the lane's output and no wider sweep; the standing audiences generic in the composition
   directive; no privacy validator; the reviewer batches and their one cure round; two pull
   requests), stopping conditions and the residual risk he accepted. The private author file is
   written first (step 2), so every public move is a removal with a known destination.
 - **Step B pickup, in the node's order:** steps 2 to 8 of
   `.agent/plans/delivery/editorial-doctrine-in-three-layers.plan.md`, under
-  `directive-file-context-budget` for step 4. The ledger in the node is the sort; the thread
+  `directive-file-context-budget` for step 4. The private ledger is the sort; the thread
   record's earlier blocks are not re-read by this lane (decision 3).
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which
   ratified the lane and said nothing about the sketch's shape; it had also replaced the sketch's

@@ -897,8 +897,8 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   task; the question that mattered was the sort of thing each file is.
 - **"Nothing in the public editorial files is sensitive" was a plan asserting the result of a
   sort the seat had not run.** A side agent read the guidance directive as prose and found the
-  self-view lines (a self-conception, a self-assessment, a view of creation, an intended unstated
-  impression). The seat had classified by location: public since the identity split of
+  lines of the insight class. The seat had classified by location: public since the identity
+  split of
   February 2026, so not sensitive. privacy.md's own Private category, "psychological context that
   reveals inner states or personal vulnerabilities", covers those lines and has since that split,
   which left them in the public half; nobody re-read the public half as prose. His rule of 26
@@ -927,3 +927,11 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **Writing the private destination first makes the public step a removal.** Step 2 of the node
   writes the private author file before any public line moves, so no sentence is ever held only
   in the seat's context between files.
+- **A public map of what went private is a disclosure of the private.** A side agent read the
+  node's sort table as a reader: each row pairs the section's retained principle with the kind
+  that went private, and the pair recovers the point. "Comprehensive and self-contained" in a
+  public node is the leak vector when the subject is the owner's information; the plan schema's
+  "mechanism only" already said so. The source-to-home ledger is instance data about him and
+  belongs beside the private author file; the public node keeps the destinations, the counts,
+  the reader and the stopping condition. The same test applies to every public record of the
+  lane: name the class, never a finer kind, never a map.

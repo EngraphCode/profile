@@ -150,11 +150,10 @@ from a sentence does not change its home: in this repository "the author" is the
   Formatted by the repository's prettier and markdownlint.
 - **The private author file**, in the private repository (`.agent/reference-local/editorial-private`,
   the ignored nested repository under the directory `privacy.md` §Private editorial material
-  names; the file's place is the one its README assigns to personal context): the sentences of the insight class
-  from the guidance directive and from the records named below, each with its date of origin;
-  his working instruments and the process agreements as they apply to him; his readers in his
-  order and the level he aims at (already there); the voice line's biographical sentence. Written
-  as a record (dated sections), committed under that repository's identity, pushed, one pull
+  names; the file's place is the one its README assigns to personal context): the sentence ledger above; the sentences
+  of the insight class from the guidance directive and from the records named below, each with
+  its date of origin; his working instruments and the process agreements as they apply to him;
+  what is already there. Written as a record (dated sections), committed under that repository's identity, pushed, one pull
   request for him to merge. Nothing about its content is written in a public file beyond this
   paragraph's description of kinds.
 - **Skills and templates.** `write-for-the-reader` and `editorial-voice` (general),
@@ -169,9 +168,9 @@ from a sentence does not change its home: in this repository "the author" is the
   the public author file where they want identity and voice and at the guidance where they want
   principles. Records keep their history.
 - **Three record edits under the privacy rule**, the only files outside the lane's own output
-  that this lane touches: one bullet in the archived napkin of 8 March 2026 (a self-view line),
-  one clause in the archived plan `experience-editorial.plan.md` (a feared reading), and one
-  context sentence in EDR-008 (an intention). Each is removed from the public file and its
+  that this lane touches: one bullet in the archived napkin of 8 March 2026, one clause in the
+  archived plan `experience-editorial.plan.md` and one context sentence in EDR-008, one line each
+  of the insight class. Each is removed from the public file and its
   substance carried to the private author file with its date. The archived capabilities plan's
   voice line stays, by the voice-line decision below. Git history is the provenance; no note
   marks the removal.
@@ -192,29 +191,15 @@ from a sentence does not change its home: in this repository "the author" is the
 ## The disposition of the guidance directive
 
 The input is every sentence of `.agent/directives/editorial-guidance.md` at commit dc1e5e58
-(244 lines). The reader of this ledger is the implementer at the step that writes the three
-files, and the owner at his read of the pull request; the decision it changes is which file each
-sentence lands in. Kinds are named here, never the sentences of the insight class. Every row's status is
-`pending` until the step that writes the three files marks it `applied`.
-
-| Section (lines) | Guidance, general form | Public file | Private file | Status |
-| --- | --- | --- | --- | --- |
-| Frontmatter (1–9) | `layer: general`; fitness keys kept | `author_names` moves here | | pending |
-| Purpose and boundary (11–26) | purpose and the loading rule | | | pending |
-| Voice and register (28–51) | the reading effect a voice should have; the registers (pointer to `editorial-voice`); what a front page conveys | the voice adjectives; the shared topics | the biographical sentence | pending |
-| Process note and instruments (53–77) | the working agreement in general form (pointer to `write-for-the-reader`) | | the instruments and agreements as they apply to him; the dated words stay in the thread record | pending |
-| Impact framing (79–84) | define the vocabulary of the community a surface addresses | impact's published meaning | | pending |
-| Founder identity (86–95) | | the project facts; "not ventures"; "Founder" not claimed; zero to one's meaning | a characterisation; an intended unstated signal | pending |
-| Product safety (97–102) | | the fact and the sense of "Responsible AI" | | pending |
-| Collaborative credit (104–111) | the principle; "helping build" as the collaborative form | the leadership practice sentence, if a published surface carries it | a self-view sentence; the practice sentence otherwise | pending |
-| Commercial sensibility (113–121) | a sensibility shown, never claimed | the SDK and MCP fact | a characterisation; a positioning intent | pending |
-| Physics as silent ballast (123–139) | a background grounds the positioning without being claimed | the research facts; never conflate | a positioning rationale | pending |
-| Keyword strategy (141–150) | the principle | "AI" absent from the headline | | pending |
-| Audience and composition (152–158) | the division of authority with the composition directive | | | pending |
-| Editorial principles (160–200) | the headline filters; agency through outcomes; a frame claim honours delivery; "my" not "the"; a quality shown is earned; show, don't justify; the cumulative impression never stated; breadth as range anchored by evidence; the innovator decision as a pointer; level shows | the headline; the innovator decision (EDR-008) | an attitude; a self-assessment; a view of creation; two feared readings; an intended impression; the career list where the site does not carry it | pending |
-| Editorial hierarchy (202–216) | the direction of derivation | the homes of the facts | | pending |
-| Consistency across outputs (218–234) | the principle (ADR-011) | | | pending |
-| Decision records (236–244) | the mechanism | | | pending |
+(244 lines). Each sentence has exactly one home: the guidance directive in general form, the
+public author file, or the private author file. The ledger that records the sentence, its home
+and its status (`pending`, then `applied`) is instance data about the author, because its private
+rows index the insight class, so it lives in the private repository beside the private author
+file, at the place its README assigns. The ledger's reader is the implementer at the step that
+writes the three files and the owner at his read of both pull requests; the decision it changes is
+which file each sentence lands in. The public node records only the destinations (the Mechanism
+section lists both public destinations' contents in full), the count of sentences, and the
+stopping condition that every row of the private ledger is `applied`.
 
 ## Settled decisions
 
@@ -222,9 +207,9 @@ Each item below was open or open-ended on 26 October. Each is decided here at th
 27 October, bounded, and not reopened by this lane.
 
 1. **The voice line.** The adjectives stay public as a presentation statement derivable from the
-   published surfaces. The sentence pointing at biography behind them is insight and goes
-   private. Bound: those two sentences; the archived capabilities plan's copy of the adjectives
-   stays.
+   published surfaces. The rest of that paragraph, which is about him rather than about the
+   voice, goes private. Bound: that paragraph; the archived capabilities plan's copy of the
+   adjectives stays.
 2. **History.** No history rewrite in this lane. The insight class has been reachable in public
    history since 18 February 2026; removal from the tree stops the aggregation into one file and
    stops every new surface (the author file, the graph) from carrying it, and does not unpublish.
@@ -283,16 +268,16 @@ Each item below was open or open-ended on 26 October. Each is decided here at th
 1. This node amended and committed with the thread record's current block (his words of 27
    October verbatim) and the napkin; one commit by pathspec, one push; the pull request's
    description brought current. Done in the session that ratified the amendment.
-2. The private author file written first, from the ledger's third column and the three record
-   edits, in the private repository; committed and pushed there; its pull request opened. Writing
-   it first makes the public steps a removal with a known destination.
+2. The private ledger and the private author file written first, in the private repository;
+   committed and pushed there; its pull request opened. Writing them first makes the public steps
+   a removal with a known destination.
 3. The validator and its tests changed test-first: red on an `author_names` file under `.agent/`
    and on a `layer` key on the information file, then green on the fixtures; red on a seeded
    name in a general file. The tree is red at the gate until step 4 lands; nothing is committed
    between.
 4. Under the context rule: the public author file written from the ledger's second column; the
    guidance directive rewritten from the first; the composition directive edited; `AGENT.md`'s
-   paragraph repointed; the three record edits made; the ledger's rows marked `applied`.
+   paragraph repointed; the three record edits made; the private ledger's rows marked `applied`.
 5. Referrers repointed by intent; `pnpm --silent skills:generate`; `pnpm --silent portability:fix`;
    the validator green on the tree.
 6. The second-cut read of the lane's own output (decisions 4 and 5) by the seat; then the
@@ -306,8 +291,8 @@ Each item below was open or open-ended on 26 October. Each is decided here at th
 
 ## Stopping conditions
 
-- The sort is complete when every row of the ledger is `applied` and every sentence of the
-  directive at dc1e5e58 has exactly one home.
+- The sort is complete when every row of the private ledger is `applied` and every sentence of
+  the directive at dc1e5e58 has exactly one home.
 - The privacy read is complete when `security-expert` returns no finding of the insight class on
   the public diff, or on the cured hunks after one cure round. A finding on the re-read stops
   the lane for the owner's word.
@@ -397,11 +382,13 @@ estimate, and an estimate past twice it is a stop to reshape.
 - **Optionality.** Every item that was a judgement on 26 October is a settled decision above; the
   one conditional (a published surface carries a sentence or does not) is a fact checked at
   execution, not a choice.
-- **Record consumer.** The ledger's reader and the decision it changes are named in its section.
+- **Record consumer.** The private ledger's reader and the decision it changes are named in
+  the disposition section; the public node carries no per-row surface.
 
 ## Review dispositions
 
 | Date | Source | Finding | Disposition |
 | --- | --- | --- | --- |
 | 2026-10-26 | A side agent's note on the record | The node was marked ratified at words that ratified the lane and said nothing about its shape; the sketch's directory separation had been replaced on the seat's judgement | Cured in dc1e5e58: re-ratified at the owner's words of 26 October; the records corrected |
-| 2026-10-27 | A side agent's note on the plan | The node declared the public editorial files free of sensitive material ahead of any sort, so the self-view lines would have moved whole into a public author file | Cured by this amendment: the second cut, the ledger, the private author file, the three record edits; the lesson in the napkin and the per-user memory |
+| 2026-10-27 | A side agent's note on the plan | The node declared the public editorial files free of sensitive material ahead of any sort, so lines of the insight class would have moved whole into a public author file | Cured by this amendment: the second cut, the private ledger, the private author file, the three record edits; the lesson in the napkin and the per-user memory |
+| 2026-10-27 | A side agent's note on the amended node | The node's sort table paired each section's retained principle with the kind that went private, a permanent public map from which the point was recoverable | Cured the same day at the owner's word: the ledger moved to the private repository; the public node keeps destinations, the count, the reader and the stopping condition; finer kinds removed from the lane's public records |
