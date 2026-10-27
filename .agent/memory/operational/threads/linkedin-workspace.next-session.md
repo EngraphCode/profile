@@ -28,7 +28,9 @@ authorisation.
   pushed, level with its origin). The lane `editorial-doctrine-in-three-layers` is complete at the
   second merge; its node stands ratified and done.
 - **The repository has moved** to the EngraphCode organisation as `profile` (its main is pull
-  request 354's merge). GitHub redirects the old address for git and `gh`; the merge bot did not follow: the app
+  request 354's merge). GitHub redirects the old address for git and `gh`, and this checkout's origin now names the
+  new address at the bot's own refusal (origin must be the repository the push goes to); the
+  merge bot did not follow the redirect: the app
   installation stayed with the old owner (installation lookup 404), so at his word ("there are
   bots for Engraph", with the organisation's installed apps El Graphael and Kengraph shown) this
   checkout's untracked `.github/merge-bot.json` now names El Graphael (the Engraph estate's bot,
