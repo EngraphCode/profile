@@ -75,10 +75,21 @@ authorisation.
   `sketch` until his word on the revision; the CV chapter's node
   `.agent/plans/delivery/cv-chapter-coherent-with-the-profile.plan.md` is written as a sketch
   (planned this session, performed at his word, after the extraction lands).
-- **Pickup at his word on the node, in its order:** step 2 (the owner-turn ledgers from the
-  scratchpad's `park/` into the private repository on pull request 7's branch; the thread record
-  current), the compaction, then the retrospective, the records read, the validator, the public
-  files under `directive-file-context-budget`, referrers, reads and reviewers, gates, his merges.
+- **Steps 2 and 4 done, 27 October, at his word "extract the lessons, including those we will
+  package as skills".** The three owner-turn ledgers are in the private repository (pull request
+  7's branch, second commit). The retrospective record is
+  `.agent/reports/agentic-engineering/2026-10-27-why-the-linkedin-lane-cost-what-it-cost-and-where-its-lessons-live.md`:
+  the arc's anchors, the causal stack (surface, six process roots, four meta roots, the model
+  beneath), the counterfactual segment of 23 to 25 October, the credit, the disposition of every
+  lesson (thirty rows, five landing in this pull request) and four proposals, all landed: a gotcha
+  and a sentence in `write-for-the-reader`, the owner-turn ledger in `retrospective` §Workflow,
+  the deferral words in the plan skill's scope-vocabulary check. The buffer dispositioned in §6.
+- **Pickup, in the node's order:** the compaction, then step 5 (the records read), 6 (the
+  validator test-first), 7 (the public files under `directive-file-context-budget`: the privacy
+  clause, the two editorial directives, `AGENT.md`, the public author file, the record edits, the
+  private ledger's rows applied), 8 (referrers, adapters), 9 (the second-cut read; the reviewer
+  batches, `prose-expert` on the guidance directive and the retrospective record), 10 (gates, one
+  push, the description), 11 (his merges, 7 then 354).
   The private ledger is the sort; the records read of decision 3 is the one read of the earlier
   blocks.
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which

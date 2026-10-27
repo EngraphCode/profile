@@ -148,6 +148,9 @@ the author as a proposed sentence, never as a question the seat could have answe
 - **The live surface and the author's hand.** When the author edits the live surface in parallel,
   the repository copy follows the live state: a read-back precedes every write, and the
   repository holds a record of the surface, not its source.
+- **The sitting's attention is the author's.** An editorial sitting spends the author's attention
+  on the copy. The seat's tools, folds, fleets and Practice ceremony wait for the author's word; an
+  instrument the author asks for is built to the smallest shape that reads and changes the text.
 
 ## 6. Verify
 
@@ -266,6 +269,10 @@ Repetition hides in nouns ("built ... built"); read aloud before the readers do.
 - The seat's reach for an external authority (a taxonomy, an earlier document, a recruiter's
   frame, a reviewer's wish) in place of the author's word and the understanding the piece carries
   pulls every draft toward the generic. The authority is the author; the sources are material.
+- A correction names an emphasis, never a deletion. After "the innovator, never the engineering
+  leader", the engineering evidence stays and is carried as evidence of range; after "no cuts", the
+  draft still moves where the conversation settled. Generalising the last correction across axes
+  produces the opposite fault on the next round.
 
 ## References
 
