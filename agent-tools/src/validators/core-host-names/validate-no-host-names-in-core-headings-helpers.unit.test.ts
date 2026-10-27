@@ -88,12 +88,9 @@ describe('changelogRepositories', () => {
 });
 
 describe('hostNeedles', () => {
-  it('joins the origin owner and name to the declared names, without duplicating one', () => {
+  it('is the declared names once each across both records; where the tree is cloned from never joins it', () => {
     expect(
-      hostNeedles(['example-site.net', 'castr'], {
-        owner: 'ExampleOwner',
-        repoName: 'Example-Site.net',
-      }),
+      hostNeedles(['example-site.net', 'castr', 'Example-Site.net', 'ExampleOwner', 'castr']),
     ).toEqual(['example-site.net', 'castr', 'ExampleOwner']);
   });
 });

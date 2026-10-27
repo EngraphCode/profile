@@ -120,8 +120,9 @@ Three gates in `docs-validators:check` enforce parts of this rule:
   (the changelog excepted, whose entry tags name the writing repository
   by convention) that names a repository the Core has lived in. The names
   are derived from the Core's own records — the provenance chain's `repo`
-  fields and the changelog's entry tags — and the scanned tree's origin
-  owner and repository; nothing is declared in the gate. The cure moves
+  fields and the changelog's entry tags; nothing is declared in the gate,
+  and the scanned tree's remotes are never read, since where a tree is
+  cloned from is a location, not a record. The cure moves
   the host's adoption to the host's own decision record, pairs it in the
   bridge index (PDR-079) and heads the Core entry by its date and
   subject alone. With a repository root as its one argument it reads a

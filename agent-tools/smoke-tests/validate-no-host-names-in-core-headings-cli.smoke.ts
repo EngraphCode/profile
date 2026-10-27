@@ -10,16 +10,18 @@ import { fileURLToPath } from 'node:url';
  * CLI smoke for the Core host-name heading gate's entry point, two arms.
  *
  * The green arm runs the validator end to end over the live tracked tree (the
- * provenance chain, the changelog tags and the origin read, the Core documents
- * listed and read, the headings scanned) and expects its green line naming the
- * document count and the needle count, exit 0.
+ * provenance chain and the changelog tags read, the Core documents listed and
+ * read, the headings scanned) and expects its green line naming the document
+ * count and the needle count, exit 0.
  *
- * The refusal arm runs it by its root argument over a fresh repository that
- * has an origin and no Core, and expects exit 2 with the missing-provenance
+ * The refusal arm runs it by its root argument over a fresh repository with
+ * no remote and no Core, and expects exit 2 with the missing-provenance
  * diagnostic: the first refusal on the entry point's path, which no helper
- * cell can reach (the record reads, the origin read and the Core listing are
- * the entry point's). The helpers' cells prove the pure matching; the shared
- * scan module's cells prove the unreadable-file arm.
+ * cell can reach (the record reads and the Core listing are the entry
+ * point's). No remote is added because none is read: where a tree is cloned
+ * from is a location, never a record of the Core's hosts. The helpers' cells
+ * prove the pure matching; the shared scan module's cells prove the
+ * unreadable-file arm.
  */
 const smokeDir = fileURLToPath(new URL('.', import.meta.url));
 const packageDir = resolve(smokeDir, '..');
@@ -28,7 +30,7 @@ const entry = resolve(
   'src/validators/core-host-names/validate-no-host-names-in-core-headings.ts',
 );
 const GREEN =
-  /^✓ no host names in the headings of (\d+) Core documents \((\d+) host names from the Core's records and the origin\)$/mu;
+  /^✓ no host names in the headings of (\d+) Core documents \((\d+) host names from the Core's records\)$/mu;
 const REFUSAL =
   /^validate-no-host-names-in-core-headings: cannot read \.agent\/practice-core\/provenance\.yml/mu;
 
@@ -59,11 +61,6 @@ if (Number(green[1]) === 0 || Number(green[2]) === 0) {
 const bare = mkdtempSync(join(tmpdir(), 'core-host-names-smoke-'));
 try {
   execFileSync(GIT, ['init', '-q', bare], { encoding: 'utf8' });
-  execFileSync(
-    GIT,
-    ['-C', bare, 'remote', 'add', 'origin', 'https://github.com/example-owner/example-repo.git'],
-    { encoding: 'utf8' },
-  );
   const refusal = spawnSync(process.execPath, ['--import', 'tsx', entry, bare], {
     cwd: packageDir,
     encoding: 'utf8',
