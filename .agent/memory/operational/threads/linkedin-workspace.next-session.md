@@ -124,6 +124,15 @@ authorisation.
   author file and three records (R19 to R29 in the private ledger, kept in the private author file,
   private PR 7). The owner-model class sorted at his word: three passages generalised in
   the Practice, the specifics written to the operator profile (checked and pushed). Gates green again; the two re-reads dispatched.
+- **The two re-reads, 13:3xZ:** `test-expert`: twenty-two cells all describe the contract, no
+  conditionals, guards, mocks or shared state; its three same-commit recommendations applied.
+  `security-expert`: every cure holds and the new author file carries zero findings; one new
+  insight-class line in the cure round's own napkin lesson (it named the swept term), one
+  owner-model residue in the 7 October experience letter, and three private-repository commit
+  identifiers in this record against privacy.md; all three cured. The lane stopped at the node's
+  condition for his word; his word, 13:4xZ, verbatim: "get it done, now please". The lane's
+  commit landed as f73be16f before this bullet was written (a failed anchor in the record edit
+  let the commit run); this record rides a second commit, the one push carries both.
 - **His word on the Obaith disagreement, 27 October 12:5xZ, verbatim** (a side agent's note that
   the entity graph names him Obaith's Founder and ends it in December 2020, against the profile's
   April 2020 and the standing decision on the word): "yes, this is one of the many things we need
