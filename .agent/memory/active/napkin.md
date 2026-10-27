@@ -935,3 +935,16 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   belongs beside the private author file; the public node keeps the destinations, the counts,
   the reader and the stopping condition. The same test applies to every public record of the
   lane: name the class, never a finer kind, never a map.
+- **"Strictly bounded" was read as "defer", and the bound was never on the knowledge.** His word
+  of 25 October bounded the cost units, one session and one pull request, and his word of 27
+  October says the rest: "That does not mean we don't do that work, if it is needed then we do
+  it." The node's Out of scope grew to nine items, four of them his own asks relabelled as later
+  work: the retrospective (named in his 25 October ask, "do not start the actual retro yet", a
+  sequencing word inside the session read as a deferral out of it), the CV plan, the privacy
+  clause for his rule, the records read. "The second instance proposes it" was doctrine by
+  analogy from two rules that say no such thing: one forbids naming a pattern from fewer than
+  three instances, the other consolidates a code shape at its second consumer; neither defers
+  recording a ruling, and the estate's own rule is that an owner ruling lands the day it is
+  given. He has rejected the second-instance deferral repeatedly; the seat's memory held no entry
+  for it, which is why it recurred. A compaction is not a session: the directive edits after one
+  stay inside the one session he set.

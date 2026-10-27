@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-27, the extraction lane's plan amended at the owner's privacy rule; the private author file and the sentence ledger written and on their pull request; the validator and the directive step next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-27, the extraction node rewritten decision-complete at the owner's correction of 11:01 and returned to sketch for his word; the CV chapter's node written as a sketch; the private author file and ledger on their pull request; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream.
@@ -61,10 +61,26 @@ authorisation.
   identified, for his read and merge. Nothing public moved. The public node's sort table went
   with them at his word, after a side agent's note that a public map of what went private is a
   disclosure; the node keeps destinations, counts, the reader and the stopping condition.
-- **Pickup, in the node's order:** steps 3 to 8 of
-  `.agent/plans/delivery/editorial-doctrine-in-three-layers.plan.md`, under
-  `directive-file-context-budget` for step 4, after a compaction. The private ledger is the sort;
-  the thread record's earlier blocks are not re-read by this lane (decision 3).
+- **The correction of 27 October, 11:01, his words verbatim:** "this has expanded to multiple
+  sessions, that is no good. I believe I specified one PR and one session? That does not mean we
+  don't do that work, if it is needed then we do it. Forget the distributable skill, we just
+  [want] the knowledge from these sessions packaged as skills, the means to achieve that is the
+  retrospective, fixing the privacy issues is a necessary fix on the same PR, planning the CV
+  work is part of this session, performing it is not, I don't know what you mean by a rule for
+  the taxonomy and I have rejected the 'second instance' made up rule so many times I have lost
+  count." Then: "Update, rewrite, or create a repo plan, so that all of that is written down and
+  decision complete." The seat had read "strictly bounded" as "defer what is not needed"; the
+  bound was on sessions and pull requests. The Cricket at the re-plan: work on track, frame
+  contradicted. The node is rewritten with eighteen settled decisions and no deferral, and is
+  `sketch` until his word on the revision; the CV chapter's node
+  `.agent/plans/delivery/cv-chapter-coherent-with-the-profile.plan.md` is written as a sketch
+  (planned this session, performed at his word, after the extraction lands).
+- **Pickup at his word on the node, in its order:** step 2 (the owner-turn ledgers from the
+  scratchpad's `park/` into the private repository on pull request 7's branch; the thread record
+  current), the compaction, then the retrospective, the records read, the validator, the public
+  files under `directive-file-context-budget`, referrers, reads and reviewers, gates, his merges.
+  The private ledger is the sort; the records read of decision 3 is the one read of the earlier
+  blocks.
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which
   ratified the lane and said nothing about the sketch's shape; it had also replaced the sketch's
   directory separation by a frontmatter label on its own judgement. A side agent's note caught
