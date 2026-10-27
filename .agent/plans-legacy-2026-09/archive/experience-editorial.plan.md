@@ -15,7 +15,7 @@ The PII security mitigation has been completed. `identity.md` was split into `ed
 This is a collaborative editorial session. Both sections must be reviewed together — they read as one narrative arc (Oak is where Jim is now, Before Oak is how he got there), and framing decisions in one directly constrain the other.
 
 1. Read `.agent/directives/AGENT.md` and `.agent/directives/principles.md` — standard project entry point.
-2. Read `.agent/directives/editorial-guidance.md` — voice, audience, editorial hierarchy. The editorial hierarchy establishes that the editorial guidance governs voice, positioning paragraphs and capabilities are the editorial baseline, and everything else derives from these. Pay particular attention to "Physics as silent ballast" — Jim is proudly academic, but the framing should avoid triggering the presumption some readers hold that academic backgrounds imply impracticality. This is not about banning words; it is about ensuring the narrative leads with effectiveness and impact while letting the academic credentials speak for themselves.
+2. Read `.agent/directives/editorial-guidance.md` — voice, audience, editorial hierarchy. The editorial hierarchy establishes that the editorial guidance governs voice, positioning paragraphs and capabilities are the editorial baseline, and everything else derives from these.
 3. Read `content/cv.content.json` — the full current content. Focus on `experience`, `prior_roles`, `positioning`, and `capabilities`.
 4. Read `content/frontpage.content.json` — the front page hero narrative. The front page and CV tell related but distinct stories with significant overlap (cosmology, published research, Oak, ecology, systems thinking, the open web). Where concepts appear in both, framing must be consistent. The front page includes elements the CV deliberately omits (urban rewilding, local government, personal research projects) and vice versa — this is intentional, but both should feel like the same person.
 5. Read `lib/jsonld.ts` — current `KNOWS_ABOUT` and `OCCUPATION`, which the experience entries should be consistent with.
@@ -37,16 +37,16 @@ The Experience and Before Oak sections have not received the same editorial atte
 
 ## Review criteria
 
-- **Voice and framing** — do they match the editorial voice in `editorial-guidance.md`? Are they framed for who Jim is now, not who he was perceived to be? The "Physics as silent ballast" principle is especially relevant to the Research section: Jim is proudly academic, but the framing should avoid triggering the presumption that academic = impractical. Lead with what the thinking produces, not with disciplinary labels. There are no banned words — just presumptions to avoid.
+- **Voice and framing** — do they match the editorial voice in `editorial-guidance.md`? Are they framed for who Jim is now, not who he was perceived to be? The "Physics as silent ballast" principle is especially relevant to the Research section: lead with what the thinking produces, not with disciplinary labels. There are no banned words — just presumptions to avoid.
 - **Consistency with positioning** — do they support and ground the claims in the positioning paragraphs and capabilities? All five capabilities bridge the experience sections: cap 1 (zero-to-one technical leadership at national scale) and cap 5 (system-level impact through public services) ground in Oak directly; cap 2 (SDK/MCP, public digital infrastructure) grounds in Oak paragraph 3; cap 3 (research-trained reasoning) grounds in the research background; cap 4 (strategy and organisational growth) grounds in Oak's engineering function growth. Check that the experience entries actually substantiate all five claims.
 - **Consistency with structured data** — do terms and framing align with the `KNOWS_ABOUT` and `OCCUPATION` in `lib/jsonld.ts`?
 - **Consistency with front page** — the front page hero in `frontpage.content.json` tells a parallel narrative that overlaps with several Before Oak themes (cosmology, published research, ecology, systems thinking, the open web) and with the Oak experience (AI for public benefit). Where concepts appear in both the CV and the front page, any reframing in one should be checked against the other.
 - **Narrative arc** — does the Before Oak → Oak progression tell a coherent story? Does the "origination" thread (now explicit in positioning P2) run through both?
 - **Concision** — all sections should be reviewed for length and level of detail. Oak has three substantial paragraphs; Research has four; Applied Exploration has four; Grounded Practice has three. Are any over-explained or under-explained for the CV context?
-- **Commercial sensibility** — does the narrative show product instinct and commercial awareness? The positioning is strong on system-creation and structural impact but thinner on the sense that Jim understands what is worth building as a product, not just as a system. Oak paragraph 3 (SDK, MCP, infrastructure play, optionality) carries this; check whether the signal is strong enough across all sections. See "Commercial sensibility" in `editorial-guidance.md`.
-- **The implicit reading test** — does the full narrative (positioning + experience + Before Oak) leave a reader thinking: "This person could found something serious if they chose to"? This is a cumulative effect, not a single line. If the impression is missing, the fix is in the evidence sections. See "The implicit reading test" in `editorial-guidance.md`.
-- **Stability evidence** — does the breadth of Jim's career read as range and curiosity, or as restlessness? The experience sections must provide enough staying-power evidence — sustained impact, long-term consequences of decisions, systems that endured — to anchor the forward-leaning positioning. Oak (2020–present, four years of sustained development and innovation) is the primary anchor. The Before Oak sections need careful framing so that movement across FT Labs, HMPO, BA, HP Labs reads as deliberate exploration, not flight. See "Breadth as range, not restlessness" in `editorial-guidance.md`.
-- **Career breadth** — Jim's career includes significant additional experience not currently in the CV (see [Career breadth context](#career-breadth-context) below). The review should consider whether any of this broader experience should be acknowledged — it may not belong in the narrative, but the question should be asked.
+- **Commercial sensibility** — see `editorial-guidance.md` §Conveying a person (a quality is earned on the page, never claimed) and the author's files.
+- **The implicit reading test** — the cumulative impression; see `editorial-guidance.md` §Conveying a person. If the impression is missing, the fix is in the evidence sections.
+- **Stability evidence** — breadth as range, not restlessness; see `editorial-guidance.md` §Conveying a person. The experience sections provide the staying-power evidence (sustained impact, long-term consequences of decisions, systems that endured) that anchors the forward-leaning positioning.
+- **Career breadth** — Jim's career includes experience beyond the roles on the CV; the list is in the private editorial repository (see [Career breadth context](#career-breadth-context) below).
 
 ---
 
@@ -87,7 +87,7 @@ Front page overlap: market garden, sunflowers, ecology, resilience through diver
 These clarifications were agreed during the editorial session and apply throughout the review:
 
 - **"Ecosystem" language must go.** It is unclear and has already been removed elsewhere. The intent is about systems, context, and creating and holding the conditions for new states to emerge.
-- **"Physics" is not banned.** The goal is to avoid sounding academic in a bad way — leading with disciplinary labels rather than what the thinking produces. The word itself is fine where it describes a concrete thing (e.g. the Theremin thesis).
+- **"Physics" is not banned.** The goal is to lead with what the thinking produces rather than with disciplinary labels. The word itself is fine where it describes a concrete thing (e.g. the Theremin thesis).
 - **FT Labs and Oak both rely on and present through the open web.** This is a factual connection that should be visible in the experience sections.
 - **KNOWS_ABOUT claims should be evidenced in narrative content** — not as explicit keyword placement, but as alluded concepts that point at the same reality. This principle has been added to `editorial-guidance.md` under "Keyword strategy."
 - **Show, don't justify.** Describing why Jim did something is calibration. Describe what he did and what it makes possible; let the significance speak. This principle has been added to `editorial-guidance.md` under "Editorial principles."
@@ -104,7 +104,7 @@ The data is open by design — access is not constrained. The responsibility con
 
 ### The enabling vision
 
-Jim's framing of the SDK/MCP work: he is lowering the cost of innovation for others. He did this on his own initiative (vision, not rebellion). The second and third-order effects — what others will create with reliable access to this data — will far outstrip the effort required to create the tools. Teachers are already using AI products to reduce their workloads; developers and edtech companies are already building in this space. Access to trusted, high-quality, fully sequenced curriculum material at this level changes the system.
+Jim's framing of the SDK/MCP work: he is lowering the cost of innovation for others. He did this on his own initiative. The second and third-order effects — what others will create with reliable access to this data — will far outstrip the effort required to create the tools. Teachers are already using AI products to reduce their workloads; developers and edtech companies are already building in this space. Access to trusted, high-quality, fully sequenced curriculum material at this level changes the system.
 
 This framing connects directly to positioning P2: "changing constraints in large-scale systems so that the natural paths lead to different, better outcomes, lasting far beyond my direct involvement." The SDK/MCP work is an instance of that pattern — the experience entry's job is to show it happening, not to re-explain the philosophy.
 
@@ -266,7 +266,7 @@ Items 19–21 affect capabilities, identified during the experience editorial re
 
 ## Career breadth context
 
-Jim's career includes significant experience beyond the roles currently named in the CV — teaching, making, guiding, retail, wholesale, short consultancies, and a post-doctoral position. There is also a compelling MSc admission story that directly demonstrates the origination instinct. This context is available for the editorial session and may warrant inclusion or acknowledgement in the narrative.
+Jim's career includes experience beyond the roles currently named in the CV; the list is in the private editorial repository and is available for the editorial session.
 
 See `.agent/private/identity.md` for the full list of roles, biographical details, and the MSc admission story. That file is gitignored and local-only.
 

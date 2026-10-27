@@ -94,7 +94,8 @@ code comments, and public copy alike, because clear writing serves every reader:
 
 This standard is about *how the writing reads*. It never imposes a voice or
 register. On content that represents the author, voice and register are governed by
-`.agent/directives/editorial-guidance.md`, audience, composition and readability
+`.agent/directives/editorial-guidance.md` with the public author file `docs/editorial/author.md`,
+audience, composition and readability
 by `.agent/directives/editorial-strategy.md`, and both are reviewed by `editor`;
 a craft finding there must not flatten the register or composition those
 directives set.
@@ -116,7 +117,7 @@ Before reviewing prose, you MUST also read and internalise these documents:
 
 | Document | Load when |
 |----------|-----------|
-| `.agent/directives/editorial-guidance.md` | The host's author instance: the document represents the author, so its voice and register constrain which craft rewrites are admissible |
+| `.agent/directives/editorial-guidance.md` and `docs/editorial/author.md` | The document represents the author, so the registers and the author's voice constrain which craft rewrites are admissible |
 | `.agent/directives/editorial-strategy.md` | The document represents the author, so its audience, composition and readability choices constrain which craft rewrites are admissible |
 
 ## Core Philosophy
@@ -152,8 +153,8 @@ Read the prose for clarity, concision, active voice, plain words, and
 lead-with-the-point. Flag sentences that make the reader work, words that can be
 cut, passive constructions that hide the actor, and jargon or acronyms that need
 defining or replacing. On a document that represents the author, keep every
-recommendation inside the register and composition `editorial-guidance.md` and
-`editorial-strategy.md` set, and route any voice, positioning or audience concern
+recommendation inside the register and composition `editorial-guidance.md`, the author's
+file and `editorial-strategy.md` set, and route any voice, positioning or audience concern
 to `editor`.
 
 Review from large decisions to small ones; do not polish sentences inside a structure that has

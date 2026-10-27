@@ -4,12 +4,9 @@ import { describe, expect, it } from 'vitest';
 import {
   collectDeclaredFiles,
   findAuthorNameHits,
-  frontmatterLines,
   isEditorialSurface,
-  parseAuthorNames,
-  parseLayerDeclaration,
   scanEditorialLayers,
-  selectAuthorInstance,
+  selectAuthorFile,
   type ScanFile,
 } from './validate-editorial-layers-helpers.js';
 
@@ -18,9 +15,20 @@ import {
  * proven where it is used: the gate runs over it on every check.
  */
 
-const INSTANCE: ScanFile = {
+const AUTHOR_FILE: ScanFile = {
+  path: 'docs/editorial/author.md',
+  content:
+    '---\nauthor_names: [Ada, Lovelace]\nentity: https://example.test/#person\n---\n\n# Ada Lovelace\n',
+};
+
+const AUTHOR_FILE_IN_DOCTRINE: ScanFile = {
   path: '.agent/directives/editorial-guidance.md',
-  content: '---\nlayer: author\nauthor_names: [Ada, Lovelace]\n---\n\n# Ada Lovelace\n',
+  content: AUTHOR_FILE.content,
+};
+
+const AUTHOR_FILE_WITH_LAYER: ScanFile = {
+  path: 'docs/editorial/author.md',
+  content: '---\nlayer: general\nauthor_names: [Ada, Lovelace]\n---\n\n# Ada Lovelace\n',
 };
 
 const GENERAL: ScanFile = {
@@ -40,78 +48,79 @@ const UNDECLARED: ScanFile = {
   content: '---\nname: commit\n---\n\nAda is not an author here.\n',
 };
 
+const OUT_OF_SCOPE: ScanFile = {
+  path: 'linkedin/profile.md',
+  content: '---\nlayer: host\n---\n',
+};
+
 describe('isEditorialSurface', () => {
-  it('admits the skills, directives, reader templates and editorial records', () => {
+  it('admits the skills, directives, reader templates and editorial records; docs/ alone is not enough', () => {
     expect(isEditorialSurface('.agent/skills/editorial/cv/SKILL-CANONICAL.md')).toBe(true);
     expect(isEditorialSurface('.agent/directives/editorial-strategy.md')).toBe(true);
     expect(isEditorialSurface('.agent/sub-agents/templates/editor.md')).toBe(true);
     expect(isEditorialSurface('docs/editorial/decision-records/002-show-dont-justify.md')).toBe(
       true,
     );
+    expect(isEditorialSurface('docs/author.md')).toBe(false);
     expect(isEditorialSurface('linkedin/profile.md')).toBe(false);
   });
 });
 
-describe('frontmatterLines and parseLayerDeclaration', () => {
-  it('reads the block between the leading fences and nothing after it', () => {
-    expect(frontmatterLines('---\na: 1\n---\nlayer: author\n')).toEqual(['a: 1']);
-    expect(frontmatterLines('no block\n---\n')).toEqual([]);
-  });
-
-  it('reads a layer at the top level or under metadata, and none when absent', () => {
-    expect(unwrap(parseLayerDeclaration(INSTANCE.content))).toBe('author');
-    expect(unwrap(parseLayerDeclaration(GENERAL.content))).toBe('general');
-    expect(unwrap(parseLayerDeclaration(UNDECLARED.content))).toBeUndefined();
-  });
-
-  it('refuses an unknown layer or two declarations', () => {
-    expect(unwrapErr(parseLayerDeclaration('---\nlayer: host\n---\n'))).toContain('unknown layer');
+describe('collectDeclaredFiles', () => {
+  it('collects the files declaring a layer; skips files declaring none and files outside the editorial surfaces, even one whose layer would be refused in scope', () => {
     expect(
-      unwrapErr(parseLayerDeclaration('---\nlayer: general\nlayer: surface\n---\n')),
-    ).toContain('2 layer declarations');
-  });
-});
-
-describe('parseAuthorNames', () => {
-  it('reads a flow list, trimmed', () => {
-    expect(unwrap(parseAuthorNames('---\nauthor_names: [ Ada , Lovelace ]\n---\n'))).toEqual([
-      'Ada',
-      'Lovelace',
+      unwrap(collectDeclaredFiles([AUTHOR_FILE, GENERAL, UNDECLARED, SURFACE_LEAK, OUT_OF_SCOPE])),
+    ).toStrictEqual([
+      { file: GENERAL, layer: 'general' },
+      { file: SURFACE_LEAK, layer: 'surface' },
     ]);
   });
+});
 
-  it('refuses a missing key, a block list, an empty list and a duplicate', () => {
-    expect(unwrapErr(parseAuthorNames('---\nlayer: author\n---\n'))).toContain('no `author_names`');
-    expect(unwrapErr(parseAuthorNames('---\nauthor_names:\n  - Ada\n---\n'))).toContain(
-      'flow list',
+describe('selectAuthorFile', () => {
+  it('selects the one file under docs/editorial/ carrying author_names, or none', () => {
+    expect(unwrap(selectAuthorFile([AUTHOR_FILE, GENERAL]))).toStrictEqual(AUTHOR_FILE);
+    expect(unwrap(selectAuthorFile([GENERAL, UNDECLARED]))).toBeUndefined();
+  });
+
+  it('does not see author_names outside the editorial surfaces: docs/ alone is not enough', () => {
+    expect(unwrap(selectAuthorFile([{ ...AUTHOR_FILE, path: 'docs/author.md' }]))).toBeUndefined();
+  });
+
+  it('refuses two author files', () => {
+    expect(
+      unwrapErr(
+        selectAuthorFile([AUTHOR_FILE, { ...AUTHOR_FILE, path: 'docs/editorial/other.md' }]),
+      ),
+    ).toContain('2 files declare `author_names`');
+  });
+
+  it('refuses author_names in a directive, skill or template: information about an entity is never one', () => {
+    expect(unwrapErr(selectAuthorFile([AUTHOR_FILE_IN_DOCTRINE]))).toContain(
+      'information about an entity is never a directive, rule, skill or template',
     );
-    expect(unwrapErr(parseAuthorNames('---\nauthor_names: []\n---\n'))).toContain('no name');
-    expect(unwrapErr(parseAuthorNames('---\nauthor_names: [Ada, ada]\n---\n'))).toContain('twice');
+  });
+
+  it('refuses a layer key on the author file, commented or not: the author is not a doctrine layer', () => {
+    expect(unwrapErr(selectAuthorFile([AUTHOR_FILE_WITH_LAYER]))).toContain(
+      'the author file declares a `layer`',
+    );
+    expect(
+      unwrapErr(
+        selectAuthorFile([
+          {
+            ...AUTHOR_FILE,
+            content: '---\nlayer: general # a comment\nauthor_names: [Ada]\n---\n',
+          },
+        ]),
+      ),
+    ).toContain('the author file declares a `layer`');
   });
 });
 
-describe('collectDeclaredFiles and selectAuthorInstance', () => {
-  it('collects the declared editorial files and skips undeclared and out-of-scope ones', () => {
-    const declared = unwrap(collectDeclaredFiles([INSTANCE, GENERAL, UNDECLARED, SURFACE_LEAK]));
-    expect(declared.map((entry) => entry.layer)).toEqual(['author', 'general', 'surface']);
-  });
-
-  it('selects exactly one author instance and refuses none or two', () => {
-    const declared = unwrap(collectDeclaredFiles([INSTANCE, GENERAL]));
-    expect(unwrap(selectAuthorInstance(declared)).file.path).toBe(INSTANCE.path);
-    expect(unwrapErr(selectAuthorInstance(unwrap(collectDeclaredFiles([GENERAL]))))).toContain(
-      'no file declares',
-    );
-    const two = unwrap(
-      collectDeclaredFiles([INSTANCE, { ...INSTANCE, path: 'docs/editorial/author.md' }]),
-    );
-    expect(unwrapErr(selectAuthorInstance(two))).toContain('2 files declare');
-  });
-});
-
-describe('findAuthorNameHits and scanEditorialLayers', () => {
+describe('findAuthorNameHits', () => {
   it('matches a whole word in any case, once per line, and not a token inside a longer word', () => {
-    const hits = findAuthorNameHits('f.md', 'As Ada said.\nlovelace-style.\nadamant\n', [
+    const hits = findAuthorNameHits('f.md', 'As Ada Lovelace said.\nlovelace-style.\nadamant\n', [
       'Ada',
       'Lovelace',
     ]);
@@ -121,25 +130,53 @@ describe('findAuthorNameHits and scanEditorialLayers', () => {
     ]);
   });
 
-  it('reports the leak in a surface file and nothing from the instance or an undeclared file', () => {
-    const scan = unwrap(scanEditorialLayers([INSTANCE, GENERAL, UNDECLARED, SURFACE_LEAK]));
-    expect(scan.instancePath).toBe(INSTANCE.path);
-    expect(scan.names).toEqual(['Ada', 'Lovelace']);
-    expect(scan.hits.map((hit) => `${hit.file}:${String(hit.line)}`)).toEqual([
-      `${SURFACE_LEAK.path}:6`,
-      `${SURFACE_LEAK.path}:7`,
-    ]);
+  it('bounds a name by letters and digits of any script, so a name ending in a non-ASCII letter matches whole and never inside a longer word', () => {
+    expect(
+      findAuthorNameHits('f.md', 'Zoë wrote.\nZoëlle did not.\nÉzoë and zoë2 did not.\n', ['Zoë']),
+    ).toEqual([{ file: 'f.md', line: 1, column: 1, text: 'Zoë' }]);
+  });
+});
+
+describe('scanEditorialLayers', () => {
+  it('has nothing to check when no file declares a layer, with or without an author file', () => {
+    expect(unwrap(scanEditorialLayers([UNDECLARED])).kind).toBe('nothing-to-check');
+    expect(unwrap(scanEditorialLayers([AUTHOR_FILE, UNDECLARED])).kind).toBe('nothing-to-check');
+  });
+
+  it('refuses an author file under .agent/ even when no file declares a layer', () => {
+    expect(unwrapErr(scanEditorialLayers([AUTHOR_FILE_IN_DOCTRINE, UNDECLARED]))).toContain(
+      'never a directive',
+    );
+  });
+
+  it('reports the leak in a surface file and nothing from the author file or an undeclared file', () => {
+    expect(
+      unwrap(scanEditorialLayers([AUTHOR_FILE, GENERAL, UNDECLARED, SURFACE_LEAK])),
+    ).toMatchObject({
+      kind: 'scanned',
+      scan: {
+        authorFilePath: AUTHOR_FILE.path,
+        names: ['Ada', 'Lovelace'],
+        hits: [
+          { file: SURFACE_LEAK.path, line: 6 },
+          { file: SURFACE_LEAK.path, line: 7 },
+        ],
+      },
+    });
   });
 
   it('is clean when no general or surface file names the author', () => {
-    expect(unwrap(scanEditorialLayers([INSTANCE, GENERAL])).hits).toEqual([]);
+    expect(unwrap(scanEditorialLayers([AUTHOR_FILE, GENERAL]))).toMatchObject({
+      kind: 'scanned',
+      scan: { hits: [] },
+    });
   });
 
-  it('refuses a scan with no instance or with a malformed declaration', () => {
-    expect(unwrapErr(scanEditorialLayers([GENERAL]))).toContain('no file declares');
+  it('refuses declared layers with no author file, and an unknown layer (the author among them) propagates through the scan', () => {
+    expect(unwrapErr(scanEditorialLayers([GENERAL]))).toContain('no file declares `author_names`');
     expect(
       unwrapErr(
-        scanEditorialLayers([INSTANCE, { ...GENERAL, content: '---\nlayer: host\n---\n' }]),
+        scanEditorialLayers([AUTHOR_FILE, { ...GENERAL, content: '---\nlayer: author\n---\n' }]),
       ),
     ).toContain('unknown layer');
   });

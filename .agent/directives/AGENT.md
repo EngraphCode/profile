@@ -172,14 +172,19 @@ processed into permanent homes; rotation is never a goal.
 
 ## Content Work
 
-Before any writing that represents Jim — CV, front page, LinkedIn, positioning
-— read [editorial-strategy.md](./editorial-strategy.md) (audience, composition,
-attention, readability, surface fit) and
-[editorial-guidance.md](./editorial-guidance.md) (identity, voice, register),
-then follow the `write-for-the-reader` skill, with `editorial-voice` at the
-prose and its readers (`editor`, `prose-expert`, `audience-reader`) before
-Jim reads, as `public-copy-runs-the-editorial-workflow` requires. Private
-editorial material, if present, is confidential and informs writing only
+Before any writing that represents the host's author — CV, front page,
+LinkedIn, positioning — read [editorial-strategy.md](./editorial-strategy.md)
+(audience, composition, attention, readability, surface fit),
+[editorial-guidance.md](./editorial-guidance.md) (how a person is modelled and
+conveyed: registers, principles, hierarchy) and the public author file,
+[docs/editorial/author.md](../../docs/editorial/author.md) (the voice, the
+vocabulary, the facts, the standing decisions), then follow the
+[`write-for-the-reader`](../skills/editorial/write-for-the-reader/SKILL-CANONICAL.md)
+skill, with [`editorial-voice`](../skills/editorial/editorial-voice/SKILL-CANONICAL.md)
+at the prose and its
+readers (`editor`, `prose-expert`, `audience-reader`) before the author reads,
+as `public-copy-runs-the-editorial-workflow` requires. Private editorial
+material, if present, is confidential and informs writing only
 ([privacy.md](./privacy.md) §Private editorial material): never quote it or
 reproduce its substance on a public surface; its existence, and a pointer to a
 document in it, may be named, as that section says. The LinkedIn profile draft and the other

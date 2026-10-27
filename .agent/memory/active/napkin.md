@@ -647,7 +647,7 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **Correction (owner)**: "The research papers stay private" on the Obaith card answered a
   reader's wish to see the work. His word: "pandering to a reader finding that was never a
   problem, you need to reground in our intent and in editorial excellence". A reader wanting
-  what the profile withholds by design (inform-only) is not a finding to cure in copy; the card's
+  what the profile withholds by design is not a finding to cure in copy; the card's
   job is the problem with no shape, the decision to stop and the lesson. Withdrawn, the accepted
   text restored. The rebuild's "second decision built on it" withdrawn too: the plugin does not
   depend on the rebuild, and the fact he offered instead (the plugin took the make-innovation-cheap
@@ -955,3 +955,23 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   lesson), then as a licence to cram. A sitting is bounded by what can be reviewed and merged in
   it; needed work beyond that is planned next, not deferred and not crammed. This sitting: the
   privacy fix and the merge. Next, at his word: the full retrospective and the skills.
+
+- 2026-10-27 12:2xZ, the sitting after the compaction, tool lessons: `validate-editorial-layers`
+  reads the tracked tree, so a new author file is invisible to it until staged; stage by pathspec
+  before reading the gate. `awk 'length>100' a b c` prints NR cumulative across files; per-file
+  line numbers need FNR. The `editor` template's frontmatter description carried the owner's
+  name twice and the vocabulary check caught it after the body edits; descriptions are text too.
+  `fitness_line_limit` is not a gate (AGENT.md sits at 288 over 275 with the gate green). The
+  sweep's first regex missed a second occurrence of a clause with different wording in the same
+  file; a residue grep on distinctive phrases after the edit found it. A sub-skill glob over
+  `linkedin/**/*.md` pulls `node_modules`; the gate is `markdownlint-check:root`.
+- 2026-10-27 12:4xZ, the owner on the class the sweep surfaced (verbatim): "if it is about how to
+  work with a user it belongs in the Practice, if it is specifically about me then it belongs is
+  the user-scoped [the operator profile's path in his home directory, elided under privacy.md §Machine-local paths]". The third home for information about him: the
+  operator profile (PDR-141). The seat had framed it as a binary for his word; the profile already
+  existed with a section for exactly this, which one `ls` would have shown.
+- 2026-10-27 13:0xZ, two tool lessons from the cure round: `pnpm --silent profile:check | tail`
+  masks the check's exit (the pipeline's status is tail's); the commit and push ran on a failed
+  check, and the recheck of the pushed state was green, so nothing to repair; run a gate bare or
+  read its status from PIPESTATUS before any `&&`. A whole-word sweep for a term's plural missed six
+  lines carrying its singular; a class sweep lists each term's singular and plural.

@@ -25,7 +25,7 @@ writing, what do we need to accomplish with that effort? What is this all for?" 
 substance: the profile exists to express his innovation and his broad interests and broad
 capabilities; it is never a run-the-org engineering-leader profile. No route to a reader is
 privileged: a search partner, a funder, a leader who reads it, a direct approach from someone
-who read it, all count. Irrelevant approaches are unwanted; a genuinely good one is welcome.
+who read it, all count.
 
 The frame that failed was inherited by analogy: "senior" and "head hunter" pattern-matched to
 the conventional senior engineering search, where headcount and budget are the first screen and
@@ -62,8 +62,8 @@ the decisions and their consequences carry the level.
 ## Consequences
 
 - `editorial-strategy.md` §Standing audiences carries the decision axis and the mis-cast test.
-- `editorial-guidance.md` §Editorial principles carries "The innovator, not the engineering
-  leader" and "Level shows, it is never argued".
+- `editorial-guidance.md` §Conveying a person carries "Level shows, it is never argued";
+  `docs/editorial/author.md` §Standing decisions carries "The innovator, not the engineering leader".
 - `write-for-the-reader` §1 and §5 require the reader's decision to be stated on this axis and the
   `audience-reader` brief to be built from it; a new gotcha names the mis-cast reader.
 - The `audience-reader` template names the decision axis so a mis-cast brief contradicts it
@@ -80,4 +80,5 @@ the decisions and their consequences carry the level.
 - [EDR-007](007-oak-ai-plugin-naming-and-attribution.md) — the plugin movement's naming and
   attribution
 - [editorial-strategy.md](../../../.agent/directives/editorial-strategy.md) §Standing audiences
-- [editorial-guidance.md](../../../.agent/directives/editorial-guidance.md) §Editorial principles
+- [editorial-guidance.md](../../../.agent/directives/editorial-guidance.md) §Conveying a person;
+  [author.md](../author.md) §Standing decisions

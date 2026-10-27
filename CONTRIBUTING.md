@@ -42,7 +42,7 @@ Assumes TDD familiarity. For the full philosophy and rules, see [testing-strateg
 ## Content and editorial voice
 
 - All user-visible text lives in `content/*.json`. Components render it verbatim — they do not edit, summarise, or reorder it.
-- Before any content work, read [editorial-guidance.md](.agent/directives/editorial-guidance.md). It describes Jim's voice, audience, keyword strategy, and editorial principles.
+- Before any content work, read [editorial-guidance.md](.agent/directives/editorial-guidance.md) (how a person is modelled and conveyed) with [docs/editorial/author.md](docs/editorial/author.md) (the author's voice, vocabulary, facts and standing decisions), and follow the `write-for-the-reader` skill; [editorial-strategy.md](.agent/directives/editorial-strategy.md) governs audience and composition.
 - For how content JSON becomes rendered pages, metadata, and PDF, see the [content model](docs/architecture/content-model.md).
 
 ## Troubleshooting

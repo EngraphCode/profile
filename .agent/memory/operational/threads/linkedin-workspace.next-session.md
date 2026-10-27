@@ -89,22 +89,54 @@ authorisation.
   think trying to do too much in one sitting has caused far more problems than it solved." On the
   seat's question whether the skills should be useful to a person without this repository: that is
   the skills work planned after the merge, with the full retrospective, in its own node.
-- **Pickup, after the compaction the context rule requires, in the node's order:** step 5 (the
-  records read: the class-vocabulary sweep over tracked text, each hit's paragraph read, finds to
-  the private ledger's second part), 6 (the validator test-first: `author_names` only under
-  `docs/`, no `layer` on it, declared layers with no author file a refusal), 7 (under
-  `directive-file-context-budget`, the check before each: the privacy clause in `privacy.md`;
-  `editorial-guidance.md` rewritten from the private ledger's guidance rows; `editorial-strategy.md`
-  neutral with `layer: general`; `AGENT.md`'s editorial paragraph; `docs/editorial/author.md` from
-  the ledger's public rows; the three record edits and the sweep's finds; the private ledger's
-  rows marked applied on pull request 7's branch), 8 (referrers by intent; `skills:generate`;
-  `portability:fix`; the validator green), 9 (the seat's second-cut read of the lane's output; one
-  dispatch: `security-expert` on the public diff, `test-expert`, `code-expert`, the docs and
-  onboarding pair; one cure round; the two re-reads), 10 (gates; the vocabulary check; one commit
-  by pathspec; one push; the description with the security read and the test verdict), 11 (his
-  merges, 7 then 354). Then, at his word, the node for the full retrospective and the skills.
-  The private ledger is the sort; the records read of decision 3 is the one read of the earlier
-  blocks.
+- **The sitting of 27 October, after the compaction (12:xxZ), steps 5 to 8 landed on the
+  tree, 9 in flight:** the records read (decision 3) as a class-vocabulary sweep over every
+  tracked text file with each hit's paragraph read under the second cut: eighteen record lines of
+  the insight class removed (two archived napkins, this record's earlier blocks, two archived
+  plans, EDR-008's context, the replacement record, the skills registry) and kept in the private
+  author file; the private ledger's every row `applied`, its four check rows resolved against
+  the profile and the CV (private repository, PR 7, pushed). One class surfaced
+  and left for the owner's word, outside the node's file set: the Practice's owner-model
+  substrate (`owner-signal-interpretation.md`, the experience register's entries on working with
+  him) records his working preferences with agents. The validator test-first (17 tests; red,
+  then green): `layer` admits general and surface, the one `author_names` file under `docs/` with
+  no `layer`, an `author_names` file under `.agent/` refused, declared layers with no author
+  file a refusal. Under the context rule: `privacy.md` gained his ruling verbatim as a dated
+  paragraph; `editorial-guidance.md` rewritten in general form (176 lines, `layer: general`);
+  `editorial-strategy.md` neutral with `layer: general` and an Authority row for the author's
+  file; `AGENT.md` §Content Work repointed; `docs/editorial/author.md` written from the public
+  rows (prettier and markdownlint clean). Thirteen referrers repointed by intent, the `editor`
+  template's description made neutral, adapters regenerated. Gates green: the validator's clean
+  line (6 layer files), the vocabulary check empty, markdownlint, prettier, skills, portability,
+  subagents, docs-validators, repo-validators, agent-tools lint, type-check, 6210 tests. The
+  reviewer dispatch of decision 9 in two batches at 12:2xZ. **Remaining:** the triage, one cure
+  round, the two re-reads; one commit by pathspec and one push; the description final; his merges
+  (7, then 354). The seat's tool lessons are in the napkin.
+- **The cure round, 13:xxZ (the five reviewers' findings as information, one round):** the
+  validator split (`editorial-frontmatter.ts`), a malformed `layer:` line an error rather than a
+  silent miss, the author file bounded to `docs/editorial/`, Unicode word boundaries, CRLF read,
+  the ordering test that kills the order-swapped mutant (22 tests, red then green); the retired
+  term "author instance" removed from the four skills' descriptions and bodies and twelve entry
+  surfaces outside the node's list repointed (`CONTRIBUTING.md`, `practice-index.md`, `AGENTS.md`,
+  the content-model doc, `.agent/README.md`, `HUMANS.md`, two prompts, `docs/README.md`, three
+  EDRs' links); the guidance's private-file sentence aligned with privacy.md and its validator
+  sentence made exact; the security read's eleven finds removed from two archived plans, the new
+  author file and three records (R19 to R29 in the private ledger, kept in the private author file,
+  private PR 7). The owner-model class sorted at his word: three passages generalised in
+  the Practice, the specifics written to the operator profile (checked and pushed). Gates green again; the two re-reads dispatched.
+- **His word on the Obaith disagreement, 27 October 12:5xZ, verbatim** (a side agent's note that
+  the entity graph names him Obaith's Founder and ends it in December 2020, against the profile's
+  April 2020 and the standing decision on the word): "yes, this is one of the many things we need
+  to fix in the CV work, but that is for a later session". The public author file carries no
+  Obaith dates; the CV node carries the item.
+- **His word on the class left for him, 27 October 12:4xZ, verbatim:** "if it is about how to
+  work with a user it belongs in the Practice, if it is specifically about me then it belongs is
+  the user-scoped [the operator profile's path in his home directory, elided under privacy.md §Machine-local paths]" (the operator profile of PDR-141, a private
+  repository he syncs between machines; its index already holds "How to write to and for the
+  owner"). Applied in this sitting to the owner-model substrate the sweep surfaced: the
+  executive memory on reading his signals and the experience register's entries on working with
+  him are read as prose; a passage that teaches how to work with a user stays, worded for any
+  user; a passage specifically about him moves to the profile and leaves the public tree.
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which
   ratified the lane and said nothing about the sketch's shape; it had also replaced the sketch's
   directory separation by a frontmatter label on its own judgement. A side agent's note caught
@@ -742,7 +774,7 @@ written from the fact. The `editor` and `prose-expert` read the new material, th
 structural change landed, and the `audience-reader` read the whole block: the head hunter now
 reads a strategy peer of the Head of Engineering with the reporting line placed, approaches for
 founding-CTO and technical-director searches, and asks, with certainty now, whether he has held
-budget or people; the funder takes the conversation and asks what anyone outside Oak has built
+budget or people; the second reader takes the conversation and asks what anyone outside Oak has built
 on the plugin. Open for the owner: the rebuild's date (which card owns the movement; decide or
 recommend); "meant no child missed out on education" (his phrase, the editor's objection
 beside it); the About's fold (a proposed second sentence in chat, not applied); the
@@ -758,7 +790,7 @@ squad count / moved for the Practice: nothing.
 The owner on the 10 October rounds: "Incorrect, and frankly the wording is still clumsy. Step
 back. Step back more. ... What is this all for?", then: not a run-the-org engineering-leader
 profile; one that expresses his innovation and broad interests and capabilities; any route to a
-reader; good cold approaches welcome, irrelevant ones not; "update the editorial skills, rules,
+reader; "update the editorial skills, rules,
 agents, guidance if needed, and then continue with your rewrite". The diagnosis: the seat's
 audience brief had cast a head hunter for a senior engineering search, and three rounds cured to
 that reader's objection (an org chart and a reporting line on the current card). Landed:
@@ -1025,7 +1057,7 @@ engineering-leadership positions; the skill carries the retrieval rule); the bra
 squash at the fold or leaving it). The owner cancelled the fifteen-minute loop ("cancel the loop,
 and do some work") and said the seat had neither compacted nor kept going; a seat cannot trigger
 the compaction, and it should have continued the plan's steps instead of holding. Step 7 run:
-the `audience-reader` as two readers (the cold search partner, the warm funder) on the draft with
+the `audience-reader` as two readers in two modes on the draft with
 the fifty-one decided names. Both would act: longlist, or forward and message. Dispositions:
 absorbed, Strategy, Technology Leadership and Product Strategy moved to positions six to eight
 (the About's second sentence is the strategy remit and the list had no strategy name before
@@ -1039,8 +1071,8 @@ Technologies (self-appointed, to the cold reader); recorded without change at hi
 going and found it informative; his word of the afternoon stands), C, the physics-methods cluster,
 the headline (the cold reader called it noise and the About's second sentence did its job);
 rejected, the cold reader's wish to ask an Oak contact where he sat in the leadership line
-(EDR-008 §4, the mis-cast question is never answered on the page) and the funder's question of
-what he wants next (inform only, offer only, by design). The tester reading comes from the
+(EDR-008 §4, the mis-cast question is never answered on the page) and the second reader's
+question of what comes next, unanswered by design. The tester reading comes from the
 earlier titles, not the list; the past is real and stays. Next: his dispositions on the names
 (the afternoon's draft plus the two added); then the records of his word; then his full review
 and edit in the editor. moved for the sites: nothing / moved for the Practice: nothing.
@@ -1689,8 +1721,7 @@ the pre-application checks and the application with him present.
   substance), skills (everything changes; endorsed removals by his word), About order (drafted
   with the top). The corrections of 7 October before the ratification: his Oak work is the MCP
   app that places the curriculum in vendor AI assistants, separate from Aila and the labs site;
-  "above the level of my job title, not above the level I operate at"; reading permission on
-  LinkedIn is anything but messages.
+  reading permission on LinkedIn is anything but messages.
 - Records at the pause: this block, the napkin blocks of 6 and 7 October and the napkin close
   block, the `repo-continuity.md` entry, all committed on `coordination/2026-10-05-d72ae5` by
   pathspec from a linked worktree as `SHA:2bd88031`, NOT pushed (the push runs the full gate;
@@ -1720,7 +1751,7 @@ the pre-application checks and the application with him present.
   day (the block above).
 - Settled by the owner: whole replacement, everything but the photo; LinkedIn stands alone;
   LinkedIn only (no site, CV or graph edits); edits through Chrome by the seat on his express
-  request with him present; the profile informs and never solicits; "Fractious" goes; two
+  request with him present; "Fractious" goes; two
   project links (the Oak site; the Oak MCP app with the marketplace listing and the OCE
   repository), their home on the profile open; entries with a location carry it and remote
   entries say United Kingdom; one network notification at the end of editing.

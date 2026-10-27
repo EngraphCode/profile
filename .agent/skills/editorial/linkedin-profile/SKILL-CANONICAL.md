@@ -15,7 +15,7 @@ description: >-
   whenever a profile is drafted for this surface, applied, read back, baselined, or whenever a
   field's limit, a card's behaviour, a skill name's standardised form or an endorsement is in
   question. Not for writing the copy (write-for-the-reader) nor the author's own list and
-  decisions (the host's author instance and workspace). Right looks like: a limit read at the
+  decisions (the host's public author file and workspace). Right looks like: a limit read at the
   counter, a name taken from the typeahead, a save proved by the re-opened dialog, the author
   present for every live change. Wrong looks like: copy cut to a believed limit, a free-text
   skill saved past the dropdown, a tick trusted from a form fill, a Save alert read as proof.
@@ -27,8 +27,8 @@ The copy lives in the author's workspace as validated markdown in LinkedIn's sec
 this host, `linkedin/profile.md`, with the decisions in `linkedin/profile-replacement.md`);
 applying it to the live profile is a separate act under the author's authorisation. This skill is
 the surface's facts, the Skills section's method, and the application's order of work. It names
-no person: the author's own readers, list, registry and standing decisions are in the author
-instance (`.agent/directives/editorial-guidance.md`) and the workspace.
+no person: the author's own list, registry and standing decisions are in the author file
+(`docs/editorial/author.md`) and the workspace.
 
 Each platform fact carries the date it was read or verified. A fact without a date is a belief
 and says so. LinkedIn changes on its own clock; a fact older than the last sitting is re-verified
@@ -147,7 +147,7 @@ instruments to test with, never a baseline the list is corrected to. There is no
 match.
 
 A name earns its place when the page shows it (a card, the About, a publication), when it says
-one of the things the author instance names about the author or carries an endorsed past the
+one of the things the public author file names about the author or carries an endorsed past the
 author keeps, and when a reader meeting it beside the pins reads the same person. A name leaves
 when it classifies the author as something they are not (a trade they left, a contractor's stack,
 a role they do not want), when the typeahead does not know it, when a kept neighbour already says
@@ -271,7 +271,8 @@ state and a read-back precedes every write.
 - `references/industry-taxonomy.md`: the industry picker's values
 - `scripts/check-against-2018-crawl.sh`, `scripts/check-list-against-registry.sh`
 - `.agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md`: the copy's order of work
-- `.agent/directives/editorial-guidance.md`: the host's author instance
+- `.agent/directives/editorial-guidance.md`: how a person is modelled and conveyed
+- `docs/editorial/author.md`: the host's author file
 - In this host: `linkedin/README.md`, `linkedin/profile.md`, `linkedin/profile-replacement.md`,
   `linkedin/reference/skills-registry.md`, the dated baselines under `linkedin/reference/`, and
   `.agent/directives/privacy.md` §LinkedIn workspace authorisation

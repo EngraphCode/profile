@@ -2,20 +2,17 @@
  * Pure helpers for the editorial-layers validator.
  *
  * @remarks
- * The editorial doctrine is kept in three layers so that the general craft and
- * the surface classes can serve any author and travel to any estate as the
- * same bytes, while one author's identity stays in one file: `general` (the
- * writing and editorial practice), `surface` (what a LinkedIn profile or a CV
- * needs), `author` (this host's author instance). Each editorial file declares
- * its layer in frontmatter, and the author instance declares the author's name
- * tokens. A general or surface file that names the author has leaked the
- * instance into the layer that must not know it; this module finds that leak.
- *
- * The declaration is read from the frontmatter block only, at any indentation
- * (a skill declares `layer` under `metadata:`, a directive at the top level).
- * The author's names are a flow list on one line; matching is whole-word and
- * case-insensitive, because a name in any letter case is the same leak and a
- * token inside a longer word (a host name, a path) is not a name.
+ * The editorial doctrine is process in two layers, `general` (the writing and
+ * editorial practice) and `surface` (what a LinkedIn profile or a CV needs),
+ * serving any author as the same bytes. Information about the author is a
+ * different sort of thing, not a third layer: one author file under
+ * `docs/editorial/` declares the author's name tokens in `author_names` and no
+ * layer. A general or surface file naming the author has leaked information
+ * into process; an `author_names` file under the editorial roots of `.agent/`
+ * (the directives, the skills, the reader templates) has filed information
+ * about an entity as doctrine; this module finds both. The frontmatter reading
+ * is in `editorial-frontmatter.ts`; name matching is whole-word by letters and
+ * digits of any script, case-insensitive.
  *
  * @packageDocumentation
  */
@@ -24,10 +21,15 @@ import { err, ok, type Result } from '@engraph/result';
 
 import { type ScanFile } from '../../core/tracked-file-scan.js';
 
-export type { ScanFile };
+import {
+  type EditorialLayer,
+  hasAuthorNames,
+  hasLayerKey,
+  parseAuthorNames,
+  parseLayerDeclaration,
+} from './editorial-frontmatter.js';
 
-/** The three editorial layers. */
-export type EditorialLayer = 'general' | 'surface' | 'author';
+export type { ScanFile };
 
 /** One author name found in a general or surface file. */
 export interface AuthorNameHit {
@@ -43,15 +45,18 @@ export interface DeclaredFile {
   readonly layer: EditorialLayer;
 }
 
-/** The result of one scan: the instance, the declared files and the leaks. */
+/** The result of one scan: the author file, the declared files and the leaks. */
 export interface EditorialLayersScan {
-  readonly instancePath: string;
+  readonly authorFilePath: string;
   readonly names: readonly string[];
   readonly declared: readonly DeclaredFile[];
   readonly hits: readonly AuthorNameHit[];
 }
 
-const LAYERS: ReadonlySet<string> = new Set(['general', 'surface', 'author']);
+/** What the scan found: an estate with no layers to check, or the scan. */
+export type EditorialLayersOutcome =
+  | { readonly kind: 'nothing-to-check' }
+  | { readonly kind: 'scanned'; readonly scan: EditorialLayersScan };
 
 const EDITORIAL_ROOTS = [
   '.agent/skills/',
@@ -60,73 +65,12 @@ const EDITORIAL_ROOTS = [
   'docs/editorial/',
 ] as const;
 
+/** The one root the author file may live under: information, never doctrine. */
+const AUTHOR_FILE_ROOT = 'docs/editorial/';
+
 /** True for the paths the editorial layers may live under. */
 export function isEditorialSurface(relativePath: string): boolean {
   return EDITORIAL_ROOTS.some((root) => relativePath.startsWith(root));
-}
-
-/** The lines of the leading frontmatter block, or none when the file has no block. */
-export function frontmatterLines(content: string): readonly string[] {
-  const lines = content.split('\n');
-  if (lines[0] !== '---') {
-    return [];
-  }
-  const close = lines.indexOf('---', 1);
-  return close === -1 ? [] : lines.slice(1, close);
-}
-
-function isLayer(value: string): value is EditorialLayer {
-  return LAYERS.has(value);
-}
-
-/**
- * The file's layer declaration.
- *
- * @returns the layer; `undefined` when the frontmatter declares none; an
- *   error when it declares an unknown layer or more than one
- */
-export function parseLayerDeclaration(content: string): Result<EditorialLayer | undefined, string> {
-  const values = frontmatterLines(content)
-    .map((line) => /^\s*layer:\s*(\S+)\s*$/.exec(line)?.[1])
-    .filter((value): value is string => value !== undefined);
-  const [first] = values;
-  if (first === undefined) {
-    return ok(undefined);
-  }
-  if (values.length > 1) {
-    return err(`${String(values.length)} layer declarations; exactly one is allowed`);
-  }
-  if (!isLayer(first)) {
-    return err(`unknown layer ${JSON.stringify(first)}; one of general, surface, author`);
-  }
-  return ok(first);
-}
-
-/**
- * The author's name tokens from the instance file's frontmatter
- * (`author_names: [One, Two]`): trimmed, non-empty, distinct.
- */
-export function parseAuthorNames(content: string): Result<readonly string[], string> {
-  const line = frontmatterLines(content).find((candidate) => /^\s*author_names:/.test(candidate));
-  if (line === undefined) {
-    return err('the author instance declares no `author_names`');
-  }
-  const flow = /^\s*author_names:\s*\[(.*)\]\s*$/.exec(line)?.[1];
-  if (flow === undefined) {
-    return err('`author_names` must be a flow list on one line, as in `author_names: [One, Two]`');
-  }
-  const names = flow
-    .split(',')
-    .map((name) => name.trim())
-    .filter((name) => name !== '');
-  if (names.length === 0) {
-    return err('`author_names` declares no name');
-  }
-  const distinct = new Set(names.map((name) => name.toLowerCase()));
-  if (distinct.size !== names.length) {
-    return err('`author_names` declares a name twice');
-  }
-  return ok(names);
 }
 
 /** The files that declare a layer, with the layer; an error names a malformed declaration. */
@@ -147,39 +91,59 @@ export function collectDeclaredFiles(files: readonly ScanFile[]): Result<Declare
   return ok(declared);
 }
 
-/** Exactly one author instance among the declared files. */
-export function selectAuthorInstance(
-  declared: readonly DeclaredFile[],
-): Result<DeclaredFile, string> {
-  const instances = declared.filter((entry) => entry.layer === 'author');
-  const [instance] = instances;
-  if (instance === undefined) {
-    return err('no file declares `layer: author`; the author instance must declare it');
-  }
-  if (instances.length > 1) {
+/** The one author file's placement and shape: under `docs/editorial/`, no `layer` key. */
+function checkAuthorFile(file: ScanFile): Result<ScanFile, string> {
+  if (!file.path.startsWith(AUTHOR_FILE_ROOT)) {
     return err(
-      `${String(instances.length)} files declare \`layer: author\` (${instances.map((entry) => entry.file.path).join(', ')}); exactly one is allowed`,
+      `${file.path}: \`author_names\` outside ${AUTHOR_FILE_ROOT}; information about an entity is never a directive, rule, skill or template; move the file under ${AUTHOR_FILE_ROOT}`,
     );
   }
-  return ok(instance);
+  if (hasLayerKey(file.content)) {
+    return err(
+      `${file.path}: the author file declares a \`layer\`; information about an entity is not a doctrine layer; remove the \`layer\` key`,
+    );
+  }
+  return ok(file);
+}
+
+/**
+ * The author file, the one editorial file carrying `author_names`: `undefined`
+ * when none does; an error when two do, or it sits outside `docs/editorial/`,
+ * or it declares a layer.
+ */
+export function selectAuthorFile(files: readonly ScanFile[]): Result<ScanFile | undefined, string> {
+  const carriers = files.filter(
+    (file) => isEditorialSurface(file.path) && hasAuthorNames(file.content),
+  );
+  const [first] = carriers;
+  if (first === undefined) {
+    return ok(undefined);
+  }
+  if (carriers.length > 1) {
+    return err(
+      `${String(carriers.length)} files declare \`author_names\` (${carriers.map((file) => file.path).join(', ')}); exactly one is allowed`,
+    );
+  }
+  return checkAuthorFile(first);
 }
 
 function escapeForRegExp(text: string): string {
   return text.replaceAll(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`);
 }
 
-/**
- * Every whole-word, case-insensitive occurrence of an author name in a file's
- * content, one hit per line at most.
- */
+/** Every author name in the content bounded by non-letters, one hit per line at most. */
 export function findAuthorNameHits(
   file: string,
   content: string,
   names: readonly string[],
 ): AuthorNameHit[] {
-  const pattern = new RegExp(String.raw`\b(?:${names.map(escapeForRegExp).join('|')})\b`, 'i');
+  const alternation = names.map(escapeForRegExp).join('|');
+  const pattern = new RegExp(
+    String.raw`(?<![\p{L}\p{N}_])(?:${alternation})(?![\p{L}\p{N}_])`,
+    'iu',
+  );
   const hits: AuthorNameHit[] = [];
-  content.split('\n').forEach((line, index) => {
+  content.split(/\r?\n/).forEach((line, index) => {
     const match = pattern.exec(line);
     if (match !== null) {
       hits.push({ file, line: index + 1, column: match.index + 1, text: match[0] });
@@ -189,31 +153,39 @@ export function findAuthorNameHits(
 }
 
 /**
- * Scan the editorial surfaces: select the author instance, read its names,
- * and find every name in a general or surface file.
+ * Scan the editorial surfaces: check the author file, collect the declared
+ * files, and when any declares a layer find every author name in them.
  */
 export function scanEditorialLayers(
   files: readonly ScanFile[],
-): Result<EditorialLayersScan, string> {
+): Result<EditorialLayersOutcome, string> {
+  // The author file is checked first and never reaches `declared`: it carries no
+  // layer key or it is refused here, so the name scan below cannot hit itself.
+  const author = selectAuthorFile(files);
+  if (!author.ok) {
+    return author;
+  }
   const declared = collectDeclaredFiles(files);
   if (!declared.ok) {
-    return err(declared.error);
+    return declared;
   }
-  const instance = selectAuthorInstance(declared.value);
-  if (!instance.ok) {
-    return err(instance.error);
+  if (declared.value.length === 0) {
+    return ok({ kind: 'nothing-to-check' });
   }
-  const names = parseAuthorNames(instance.value.file.content);
+  if (author.value === undefined) {
+    return err(
+      `no file declares \`author_names\`; the author file under ${AUTHOR_FILE_ROOT} must declare it`,
+    );
+  }
+  const names = parseAuthorNames(author.value.content);
   if (!names.ok) {
-    return err(`${instance.value.file.path}: ${names.error}`);
+    return err(`${author.value.path}: ${names.error}`);
   }
-  const hits = declared.value
-    .filter((entry) => entry.layer !== 'author')
-    .flatMap((entry) => findAuthorNameHits(entry.file.path, entry.file.content, names.value));
+  const hits = declared.value.flatMap((entry) =>
+    findAuthorNameHits(entry.file.path, entry.file.content, names.value),
+  );
   return ok({
-    instancePath: instance.value.file.path,
-    names: names.value,
-    declared: declared.value,
-    hits,
+    kind: 'scanned',
+    scan: { authorFilePath: author.value.path, names: names.value, declared: declared.value, hits },
   });
 }

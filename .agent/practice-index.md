@@ -27,8 +27,8 @@ brought the OCE lineage here, and the owner rulings that shaped it, see
 | [agent-collaboration.md](directives/agent-collaboration.md)                 | Multi-seat collaboration doctrine                            |
 | [user-collaboration.md](directives/user-collaboration.md)                   | Working with the owner                                       |
 | [cloud-environment-routing.md](directives/cloud-environment-routing.md)     | Cloud-session routing                                        |
-| [editorial-strategy.md](directives/editorial-strategy.md)                   | Audience, attention, structure, evidence — content about Jim |
-| [editorial-guidance.md](directives/editorial-guidance.md)                   | Jim's editorial voice, identity and register                 |
+| [editorial-strategy.md](directives/editorial-strategy.md)                   | Audience, attention, structure, evidence, for any author's content |
+| [editorial-guidance.md](directives/editorial-guidance.md)                   | How a person is modelled and conveyed; the public author file is `docs/editorial/author.md` |
 | [privacy.md](directives/privacy.md)                                         | Psychological safety and PII handling                        |
 | [secops.md](directives/secops.md)                                           | Git identity, PII audits, operational security               |
 
@@ -182,7 +182,8 @@ from the root:
 ### Editorial governance
 
 - [editorial-strategy.md](directives/editorial-strategy.md),
-  [editorial-guidance.md](directives/editorial-guidance.md)
+  [editorial-guidance.md](directives/editorial-guidance.md) and the public author file
+  [docs/editorial/author.md](../docs/editorial/author.md)
 - [write-for-the-reader skill](skills/editorial/write-for-the-reader/SKILL-CANONICAL.md) (the
   order of work), [editorial-voice skill](skills/editorial/editorial-voice/SKILL-CANONICAL.md),
   [public-copy-runs-the-editorial-workflow rule](rules/public-copy-runs-the-editorial-workflow.md)

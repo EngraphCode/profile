@@ -11,7 +11,7 @@ description: >-
   never assumed read. Load it whenever a CV is drafted, revised, measured against the profile, or
   generated from a content model, and whenever a profile lane hands its facts and decisions to the
   CV. Not for writing the copy (write-for-the-reader) nor the author's own content (the host's
-  content model and author instance). Right looks like: the CV and the profile read as one person
+  content model and public author file). Right looks like: the CV and the profile read as one person
   with different compositions, every fact the same, no sentence copied across. Wrong looks like: a
   profile section pasted into the CV, a CV cut to the profile's limits, two surfaces that
   contradict each other on a date or a title.
@@ -24,9 +24,8 @@ proportion, the page. The reader sustains a deliberate evidential read, so the C
 page-level hierarchy, cumulative evidence and the relationships between adjacent sections in a
 way a profile, read in fragments, cannot (`editorial-strategy.md` §Composition is
 surface-specific). This skill holds what the surface needs; the copy's order of work is
-`write-for-the-reader`, the voice craft is `editorial-voice`, and the author's own identity,
-readers and standing decisions are in the host's author instance,
-`.agent/directives/editorial-guidance.md`.
+`write-for-the-reader`, the voice craft is `editorial-voice`, and the author's own voice,
+facts and standing decisions are in the host's author file, `docs/editorial/author.md`.
 
 ## The register
 
@@ -47,7 +46,7 @@ scan, so significance is visible on a first pass and the hierarchy carries it.
 - **Cumulative evidence.** Adjacent sections build on each other; a capability named in the
   positioning is shown two sections later and the reader is expected to connect them.
 - **The whole career.** Entries a profile leaves out for its reader's attention can stay on the CV
-  as plain facts, and the author instance says which (a skills list that is a superset of the
+  as plain facts, and the public author file says which (a skills list that is a superset of the
   profile's is a decision the author makes, never a default).
 
 ## Coherence with the profile
@@ -103,7 +102,8 @@ is inspected in browser and print as the proof.
 - `.agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md`: the order of work
 - `.agent/skills/editorial/editorial-voice/SKILL-CANONICAL.md` §CV register
 - `.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md`: the profile's fragments and limits
-- `.agent/directives/editorial-guidance.md`: the host's author instance
+- `.agent/directives/editorial-guidance.md`: how a person is modelled and conveyed
+- `docs/editorial/author.md`: the host's author file
 - In this host: `jcdotnet/content/cv.content.json` and `jcdotnet/content/entities.json` (the
   content model), `linkedin/research/exceptional-cv-linkedin-research-report-2026-09-26.md` §5
   (CV craft) and its evidence companion

@@ -42,4 +42,4 @@ The responsibility concern at Oak is **product safety** — ensuring AI services
 ## Related
 
 - [EDR-005](005-oak-p3-rewrite.md) — the P3 rewrite that implemented this decision
-- [editorial-guidance.md](../../../.agent/directives/editorial-guidance.md) — commercial sensibility principle
+- [author.md](../author.md) §Positioning vocabulary — leverage, the enabling vision

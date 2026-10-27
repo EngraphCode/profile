@@ -16,9 +16,10 @@ Each EDR follows the same lightweight format as ADRs:
 
 [editorial-strategy.md](../../../.agent/directives/editorial-strategy.md) governs audience,
 attention, structure, readability, evidence, and surface-specific composition.
-[editorial-guidance.md](../../../.agent/directives/editorial-guidance.md) governs Jim's identity,
-voice, and register. EDRs record **specific decisions** about how content is framed, with the
-context and alternatives that led to the decision. The directives govern; EDRs explain.
+[editorial-guidance.md](../../../.agent/directives/editorial-guidance.md) governs how a person is
+modelled and conveyed; [author.md](../author.md) holds Jim's voice, vocabulary and standing
+decisions. EDRs record **specific decisions** about how content is framed, with the context and
+alternatives that led to the decision. The directives govern; EDRs explain.
 
 ## Index
 

@@ -8,6 +8,7 @@ Project documentation for [www.jimcresswell.net](https://www.jimcresswell.net).
 | ------------------------------ | ----------------------------------------------------------- |
 | [architecture/](architecture/) | System architecture overview and decision records           |
 | [engineering/](engineering/)   | Developer workflow, build system, testing recipes           |
+| [editorial/](editorial/)       | The author's public file and the editorial decision records |
 | [project/](project/)           | User stories, requirements, and project-level documentation |
 
 ## Related

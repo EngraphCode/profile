@@ -9,7 +9,7 @@ description: >-
   front page) and their overlap, the five pitfalls (justification, passive framing, tell
   sentences, hedging, unclear abstractions), what an adjective needs to stand, and the
   five-question check. The author's own voice in one line, their registers' overlap and their
-  standing decisions come from the host's author instance. Load it whenever writing or editing CV
+  standing decisions come from the host's public author file. Load it whenever writing or editing CV
   content, front page narrative, positioning, capabilities, profile fields, bios, posts or any
   sentence a reader will take as the author speaking, even a one-line edit; the order of work
   around it is write-for-the-reader, which calls this skill at the prose and at the check. Not for
@@ -20,9 +20,10 @@ description: >-
 
 # Editorial Voice
 
-Read the host's author instance, `.agent/directives/editorial-guidance.md`, before any content
-work: it holds this author's identity, positioning, voice in one line, the registers' overlap and
-the standing decisions. This skill holds the craft that applies to any author. Read
+Read `.agent/directives/editorial-guidance.md` (how a person is modelled and conveyed) and the
+host's author file, `docs/editorial/author.md`, before any content work: the file holds this
+author's voice in one line, the registers' overlap and the standing decisions. This skill holds
+the craft that applies to any author. Read
 `.agent/directives/editorial-strategy.md` too: it governs audience, surface-specific composition,
 attention, readability, section weight and platform fit. Voice is one editorial lens, not the
 whole review.
@@ -35,7 +36,7 @@ before the reader's decision exists polishes a structure that has not earned its
 
 ## The voice in one line
 
-Every author has one, and the author instance states it. The craft test is the same for all of
+Every author has one, and the public author file states it. The craft test is the same for all of
 them: the copy should sound like the author at their most themselves, someone who knows exactly
 who they are, not someone carefully calibrating a message.
 
@@ -69,7 +70,7 @@ and fragmented entry points require a different composition (`editorial-strategy
 ### Overlap
 
 Where a concept appears in both registers, the framing is consistent: same person, different
-context. The author instance names the concepts this author carries across surfaces.
+context. The public author file names the concepts this author carries across surfaces.
 
 ## Common pitfalls
 
@@ -147,15 +148,18 @@ After writing or editing content, ask:
 2. Would the author say this out loud, confidently, to someone they respect?
 3. Is every sentence showing or claiming, never explaining or justifying?
 4. Does a reader who saw one surface and then another recognise the same person?
-5. Does the author instance's implicit reading test hold: does a reader finish with the
-   impression the instance names as the one the whole must leave?
+5. Does the cumulative impression hold (`editorial-guidance.md` §Conveying a person): does a
+   reader finish with the belief about the author the piece was written to leave, learned from
+   the private author file where one exists or from the author, never from a sentence that states
+   it?
 
 Read the passage aloud before the readers do; repetition hides in nouns, and rhythm is editorial
 evidence.
 
 ## Reference
 
-- `.agent/directives/editorial-guidance.md`: the host's author instance
+- `.agent/directives/editorial-guidance.md`: how a person is modelled and conveyed
+- `docs/editorial/author.md`: the host's author file
 - `.agent/directives/editorial-strategy.md`: audience, surface composition, attention,
   readability, length and platform fit
 - `.agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md`: the order of work

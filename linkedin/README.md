@@ -59,7 +59,9 @@ wording with Jim before any change there.
 ## Editorial authorities and related surfaces
 
 - [Editorial strategy](../.agent/directives/editorial-strategy.md)
-- [Voice and guidance](../.agent/directives/editorial-guidance.md)
+- [Editorial guidance](../.agent/directives/editorial-guidance.md)
+- [The public author file](../docs/editorial/author.md)
+- [Write for the reader](../.agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md) (the order of work for copy that represents the author)
 - [Privacy](../.agent/directives/privacy.md)
 - [Editor review](../.agent/memory/executive/invoke-code-experts.md) (this host's
   `editor` row) and the

@@ -336,7 +336,7 @@ Open for Jim, with the draft:
   (its dates); if the rebuild was argued before June 2022 the whole movement moves to the
   consulting card and the current card keeps the consequence sentence.
 - "meant no child missed out on education": Jim's phrase, chosen twice; the editor's reading
-  stands beside it, that a funder discounts an absolute no reader can check.
+  stands beside it, that a sceptical reader discounts an absolute no reader can check.
 - "As Oak became a permanent public body, an arm's-length body of the Department for
   Education": Oak's own description (the status from September 2022, after the June 2022
   formalisation, so the sentence ties the two by "as", a process, not a date); Jim's "the UK's
@@ -388,8 +388,8 @@ Name as now; pronouns are Jim's call. Top-card location and industry are set del
 retrieval coordinates at application, verified live. The live industry value was never recorded
 (the September baseline did not capture it); the `editor`'s rule for it, 11 October: read it at
 application, and if it names a function, replace it with the sector Oak sits in, against
-LinkedIn's taxonomy, since the sector filter is the one a funder or a national-organisation
-leader uses and the function filter is the line-role screen. Banner: open, Jim's call. Volunteering
+LinkedIn's taxonomy, since the sector filter is the one a sector reader uses and the function filter is the
+line-role screen. Banner: open, Jim's call. Volunteering
 (Growing Communities) and organisations (Institute of Physics, current) stay, brief and true.
 Activity and interests are not profile content and are left as they are. The VoxQuant company
 page under Jim's account reserves a name only (Jim, 7 October) and gets no entry and no
@@ -633,7 +633,7 @@ the distinguishing. The registry carries every name's provenance and the removed
 their endorsements. Forty-three entries.
 
 Jim's word, 12 October, on the seat's gap analysis of the evening: Digital Public Goods (the
-About's public digital infrastructure in the noun funders use), Citizen Science (Galaxy Zoo on
+About's public digital infrastructure, in the sector's noun), Citizen Science (Galaxy Zoo on
 the PhD card), Entrepreneurship (the start-ups named under the earlier entries) and Thought
 Leadership are added in their places (Thought Leadership after Technology Leadership,
 Entrepreneurship beside Startups, Digital Public Goods after Open-Source Development, Citizen

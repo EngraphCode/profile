@@ -97,6 +97,13 @@ CV's register; and the content model holds every change, so the rendered surface
   request. Nothing about the author beyond published facts and decisions is written into a tracked
   file; a sentence that fails the second cut goes to the private author file with its date.
 
+**A disagreement this node resolves (found 27 October 2026).** The entity graph names the Obaith
+role "Founder" and ends it in December 2020; the applied LinkedIn profile has January 2018 to
+April 2020, and the standing decision is that "Founder" is not an explicit claim on the canonical
+CV. The owner's word, 27 October: "yes, this is one of the many things we need to fix in the CV
+work, but that is for a later session". The public author file carries no Obaith dates until this
+node settles them in the graph.
+
 ## Steps, in order, one session, one pull request
 
 1. Grounding: this node, the `cv` skill, `write-for-the-reader`, `editorial-voice`, the two

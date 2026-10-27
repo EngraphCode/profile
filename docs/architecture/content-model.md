@@ -142,7 +142,7 @@ unsupported MD control while retaining direct DATA access.
    Other graph facts and machine-readable entities also belong there.
 2. **Preview** — run `pnpm dev` and check the result at `http://localhost:3000`.
 3. **Validate** — run `pnpm check`. The content integrity E2E tests verify that rendered content matches the JSON source.
-4. **Editorial voice** — before writing or editing any content, read [editorial-guidance.md](../../.agent/directives/editorial-guidance.md) for Jim's voice, audience, and editorial principles.
+4. **Editorial voice** — before writing or editing any content, read [editorial-guidance.md](../../.agent/directives/editorial-guidance.md) (how a person is modelled and conveyed) and [docs/editorial/author.md](../editorial/author.md) (the author's voice, vocabulary and standing decisions), then follow the `write-for-the-reader` skill.
 
 Reintroducing CV tilts is an architectural and product decision, not a content
 edit. Start from the preserved tilt reference and write a new plan and ADR.

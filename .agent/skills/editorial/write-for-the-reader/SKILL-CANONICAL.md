@@ -28,13 +28,14 @@ attention path, section weight, evidence, the review sequence) and the `editoria
 (the craft of a first-person voice). The faults recur because nothing fires the standards at
 drafting time and the author is the first reader every time. This skill is the order of work that
 fires them. The directives own the standards; this skill owns the sequence. The author's own
-identity, readers, voice and standing decisions live in the host's author instance,
-`.agent/directives/editorial-guidance.md` (its decision records under
-`docs/editorial/decision-records/`); this skill never restates them and never names a person.
+voice, vocabulary, facts and standing decisions live in the host's author file,
+`docs/editorial/author.md` (its decision records under `docs/editorial/decision-records/`), and
+the author's readers in the private companion where one exists; this skill never restates them
+and never names a person.
 
 Its first worked lane, a complete LinkedIn profile rewritten and applied with its author present
 between September and October 2026, produced the method below. The dated instances with the
-author's own words are in the author instance, where they belong.
+author's own words are in the lane's records and the private author file, never in this skill.
 
 ## 1. Before the first sentence: the reader's decision
 
@@ -42,7 +43,8 @@ Write it down and show it with the draft (`editorial-strategy.md` §Begin with t
 decision):
 
 1. the primary reader by role, and any secondary reader that matters;
-2. what that reader is deciding or doing, on the axis the author instance fixes, and what they
+2. what that reader is deciding or doing, on the axis the standing audiences fix
+   (`editorial-strategy.md` §Standing audiences, EDR-008), and what they
    are not deciding: a reader who screens for a role the author does not want, with that role's
    first questions, is the wrong reader for the piece, and answering those questions in copy
    grades the author on the wrong axis;
@@ -53,7 +55,8 @@ decision):
 5. what must be newly clear when they finish.
 
 A draft written before this exists is written for the material, and the material's shape leaks
-into the prose. The reader's decision comes from the author instance and from conversation with
+into the prose. The reader's decision comes from the standing audiences, from the private author
+file where the host has one, and from conversation with
 the author, never from a generic professional search: a generic list of audiences stood in for
 the author's actual readers once, and three rounds of readers cured a draft to a reader the
 author had never wanted.
@@ -183,7 +186,8 @@ with the draft.
 3. **`prose-expert`**, the line pass: clarity, rhythm, word choice, redundancy, with its
    before-and-after rewrites inside the register. Revise again.
 4. **`audience-reader`**, on the revised draft: give it items 1 to 4 of the reader's decision,
-   built from the author instance and the private brief where one exists and never from a generic
+   built from the public author file, the standing audiences and the private brief where one
+   exists, never from a generic
    professional search, and the draft in its reading path, and withhold item 5 and the beliefs
    from step 3, so that what it reports believing is the draft's effect and not the brief's.
    Compare its belief with step 3 afterwards; the gap is the finding. The readers report beliefs,
@@ -278,8 +282,9 @@ Repetition hides in nouns ("built ... built"); read aloud before the readers do.
 
 - `.agent/directives/editorial-strategy.md`: the reader's decision, surface standards, the review
   sequence, the platform pass
-- `.agent/directives/editorial-guidance.md`: the host's author instance (identity, readers, voice,
-  standing decisions, the private boundary, the worked instances)
+- `.agent/directives/editorial-guidance.md`: how a person is modelled and conveyed (the registers,
+  the conveying principles, the hierarchy, the private boundary)
+- `docs/editorial/author.md`: the host's author file (voice, vocabulary, facts, standing decisions)
 - `.agent/skills/editorial/editorial-voice/SKILL-CANONICAL.md`: the voice craft and its check
 - `.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md`,
   `.agent/skills/editorial/cv/SKILL-CANONICAL.md`: the surfaces

@@ -44,8 +44,8 @@ State your identity at the start of your first response:
 ## What the calling agent gives you
 
 - The reader's decision statement, items 1 to 4 of `.agent/directives/editorial-strategy.md`
-  §Begin with the reader's decision, built from the host's author instance
-  (`.agent/directives/editorial-guidance.md`: the author's readers and the axis they decide on)
+  §Begin with the reader's decision, built from the host's author file (`docs/editorial/author.md`),
+  the standing audiences and the axis they decide on (`editorial-strategy.md` §Standing audiences)
   and the private brief where one exists, never from a generic professional search: who the reader is, by role; what they are deciding or doing;
   what they already believe, misunderstand or doubt at first contact; the surface and the reading
   mode. Item 5, what the author intends to be newly clear, and the beliefs the piece was meant to
