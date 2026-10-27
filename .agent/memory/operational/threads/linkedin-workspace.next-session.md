@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-27, the extraction node rewritten decision-complete at the owner's correction of 11:01 and returned to sketch for his word; the CV chapter's node written as a sketch; the private author file and ledger on their pull request; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-27, the extraction node ratified at the owner's afternoon word, the sitting bounded to the privacy fix and the merge; the retrospective landed; the CV chapter's node a sketch; the directive step after a compaction; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream.
@@ -84,12 +84,25 @@ authorisation.
   lesson (thirty rows, five landing in this pull request) and four proposals, all landed: a gotcha
   and a sentence in `write-for-the-reader`, the owner-turn ledger in `retrospective` §Workflow,
   the deferral words in the plan skill's scope-vocabulary check. The buffer dispositioned in §6.
-- **Pickup, in the node's order:** the compaction, then step 5 (the records read), 6 (the
-  validator test-first), 7 (the public files under `directive-file-context-budget`: the privacy
-  clause, the two editorial directives, `AGENT.md`, the public author file, the record edits, the
-  private ledger's rows applied), 8 (referrers, adapters), 9 (the second-cut read; the reviewer
-  batches, `prose-expert` on the guidance directive and the retrospective record), 10 (gates, one
-  push, the description), 11 (his merges, 7 then 354).
+- **His word of 27 October, afternoon, verbatim, which ratifies the node and bounds the
+  sitting:** "okay, fix the privacy issues and merge, then we plan the full retro and skills. I
+  think trying to do too much in one sitting has caused far more problems than it solved." On the
+  seat's question whether the skills should be useful to a person without this repository: that is
+  the skills work planned after the merge, with the full retrospective, in its own node.
+- **Pickup, after the compaction the context rule requires, in the node's order:** step 5 (the
+  records read: the class-vocabulary sweep over tracked text, each hit's paragraph read, finds to
+  the private ledger's second part), 6 (the validator test-first: `author_names` only under
+  `docs/`, no `layer` on it, declared layers with no author file a refusal), 7 (under
+  `directive-file-context-budget`, the check before each: the privacy clause in `privacy.md`;
+  `editorial-guidance.md` rewritten from the private ledger's guidance rows; `editorial-strategy.md`
+  neutral with `layer: general`; `AGENT.md`'s editorial paragraph; `docs/editorial/author.md` from
+  the ledger's public rows; the three record edits and the sweep's finds; the private ledger's
+  rows marked applied on pull request 7's branch), 8 (referrers by intent; `skills:generate`;
+  `portability:fix`; the validator green), 9 (the seat's second-cut read of the lane's output; one
+  dispatch: `security-expert` on the public diff, `test-expert`, `code-expert`, the docs and
+  onboarding pair; one cure round; the two re-reads), 10 (gates; the vocabulary check; one commit
+  by pathspec; one push; the description with the security read and the test verdict), 11 (his
+  merges, 7 then 354). Then, at his word, the node for the full retrospective and the skills.
   The private ledger is the sort; the records read of decision 3 is the one read of the earlier
   blocks.
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which

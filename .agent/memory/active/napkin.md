@@ -948,3 +948,10 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   given. He has rejected the second-instance deferral repeatedly; the seat's memory held no entry
   for it, which is why it recurred. A compaction is not a session: the directive edits after one
   stay inside the one session he set.
+- **"Trying to do too much in one sitting has caused far more problems than it solved."** His
+  word of 27 October, afternoon, after the seat put the retrospective, the CV plan, the privacy
+  fix, the skills' self-sufficiency and the merge into one plan for one window. The one-session
+  bound of 25 October was read a second way wrong: first as a licence to defer (the morning's
+  lesson), then as a licence to cram. A sitting is bounded by what can be reviewed and merged in
+  it; needed work beyond that is planned next, not deferred and not crammed. This sitting: the
+  privacy fix and the merge. Next, at his word: the full retrospective and the skills.

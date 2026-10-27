@@ -13,7 +13,18 @@ overview: >-
   only in the private repository. The privacy ruling lands in the privacy directive the day it
   was given. The CV chapter is planned in this session in its own node and not performed. One
   session, one public pull request (354) and the one private write its rule requires (7).
-status: sketch
+status: ratified
+ratified_by: Jim Cresswell
+ratified_date: 2026-10-27
+ratified_where: >-
+  The owner's words in the Shrew rides Eventide session (371a2b), recorded verbatim on the
+  linkedin-workspace thread record's current block
+  (.agent/memory/operational/threads/linkedin-workspace.next-session.md): 2026-10-26, the
+  taxonomy; 2026-10-27 morning, the privacy rule; 2026-10-27, 11:01, the correction that returned
+  the node to sketch; and 2026-10-27, afternoon, the word that ratifies the remaining steps and
+  bounds the sitting: "okay, fix the privacy issues and merge, then we plan the full retro and
+  skills. I think trying to do too much in one sitting has caused far more problems than it
+  solved."
 serves: content-as-cv
 impact_areas:
   - editorial-content
@@ -29,8 +40,11 @@ last_updated: 2026-10-27
 This node is the lane's whole plan, decision-complete: every item that was open or deferred on 26
 and 27 October is settled below with its bound, and nothing in it schedules work beyond the lane
 except by the owner's own words, quoted. A fresh context implements it from this node, the thread
-record's current block and the files named here. It returned to `sketch` on 27 October because
-its scope changed at the owner's correction; his word on this revision ratifies it.
+record's current block and the files named here. It returned to `sketch` on 27 October at the
+owner's correction of 11:01 and was ratified the same afternoon at his word that bounds the
+sitting: the remaining steps are the privacy fix and the merge of both pull requests; the full
+retrospective and the skills' further work are planned after the merge, as their own node, at his
+word.
 
 ## The owner's words that govern this node
 
@@ -320,6 +334,15 @@ rather than his words, it says so; his read of this node is the correction point
 
 ## Steps, in order, one session
 
+The sitting of 27 October, at the owner's word, runs steps 5 to 11 as the privacy fix and the
+merge, nothing else: the retrospective of step 4 stands as landed, and its continuation ("the full
+retro") and the skills' self-sufficiency for a person without this repository are planned after
+the merge in their own node. For this sitting, decision 9's reviewer dispatch is the four
+rule-bound reads only: `security-expert` on the public diff for the insight class, `test-expert`
+on the test change, `code-expert` as gateway on the validator, and the `docs-adr-expert` with
+`onboarding-expert` pair on the directive change; `prose-expert` is not dispatched. The directive
+edits run after a compaction, under the context rule.
+
 1. Done: this node and the records (commits dc1e5e58 to 25f7800f on branch
    `docs/editorial-insight-extraction`); the private author file and the sentence ledger on the
    private repository's pull request 7.
@@ -463,6 +486,7 @@ estimate past twice it is a stop to reshape.
 | 2026-10-27 | A side agent's note on the plan | The node declared the public editorial files free of sensitive material ahead of any sort, so lines of the insight class would have moved whole into a public author file | Cured in ff4d987d: the second cut, the private author file, the record edits; the lesson in the napkin and the per-user memory |
 | 2026-10-27 | A side agent's note on the amended node | The node's sort table paired each section's retained principle with the kind that went private, a permanent public map from which the point was recoverable | Cured in f9565a1d at the owner's word: the ledger moved to the private repository; the public node keeps destinations, the count, the reader and the stopping condition |
 | 2026-10-27 | The owner, 11:01 | The node's Out of scope and the seat's "what remains" deferred needed work to later sessions and pull requests (the retrospective, the CV plan, the records read, the privacy ruling's landing) and cited a "second instance" deferral he has rejected repeatedly | Cured in this revision: every deferral replaced by a settled decision; the retrospective and the CV plan node in the steps; the privacy clause in the pull request; the second-instance wording removed |
+| 2026-10-27 | The owner, afternoon | "trying to do too much in one sitting has caused far more problems than it solved": the one-session bound had been read as a licence to put every needed act into one sitting | The sitting bounded to the privacy fix and the merge; the full retrospective and the skills planned after the merge in their own node |
 | 2026-10-27 | The Cricket (judgement, high) at the re-plan | Work on track for finishing in one session and pull request; frame contradicted: "strictly bounded means defer what is not needed" misread his words, which bounded sessions and pull requests, not the knowledge | Applied in this revision; the retrospective ordered before the public files so the reviewers read the skills that land |
 
 ## Ratification
@@ -471,5 +495,5 @@ Born sketch 2026-10-11. Ratified 2026-10-26 at the owner's taxonomy and 2026-10-
 rule (both quoted above; the thread record's current block carries them verbatim). Returned to
 sketch on 2026-10-27 at his correction of 11:01, which changed the scope; this revision is written
 at his word of the same hour ("Update, rewrite, or create a repo plan, so that all of that is
-written down and decision complete"). It governs no work until his word on it; step 2 is the first
-act after that word.
+written down and decision complete"). Ratified the same afternoon at his word quoted in the
+frontmatter, which bounds the sitting to the privacy fix and the merge.
