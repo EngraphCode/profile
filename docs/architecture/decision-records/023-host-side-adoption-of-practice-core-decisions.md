@@ -58,9 +58,10 @@ record is made in the bridge index, never in the PDR.
 The Core validator `validate-no-host-names-in-core-headings` (a leg of
 `docs-validators:check`) refuses a heading in any Core document that names a
 repository the Core's own records declare: the `repo:` field of every
-provenance entry, the repository tag of every changelog entry, and the scanned
-tree's origin owner and repository. The Core changelog's own headings are
-exempt, since its entry tags name the writing repository by its convention.
+provenance entry and the repository tag of every changelog entry. The scanned
+tree's remotes are not read: where a tree is cloned from is a location, never a
+record. The Core changelog's own headings are exempt, since its entry tags name
+the writing repository by its convention.
 
 The entries moved here on 2026-10-03 follow, verbatim as they stood in the
 PDRs, with the PDR each applies as its section heading. Later host-local
