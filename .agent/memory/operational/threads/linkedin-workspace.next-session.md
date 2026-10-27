@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-27, the extraction lane's plan amended at the owner's privacy rule: two cuts, three homes, the private author file first; the directive step next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-27, the extraction lane's plan amended at the owner's privacy rule; the private author file and the sentence ledger written and on their pull request; the validator and the directive step next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream.
@@ -55,10 +55,16 @@ authorisation.
   directive; no privacy validator; the reviewer batches and their one cure round; two pull
   requests), stopping conditions and the residual risk he accepted. The private author file is
   written first (step 2), so every public move is a removal with a known destination.
-- **Step B pickup, in the node's order:** steps 2 to 8 of
+- **Step 2 done, 27 October.** The private author file and the sentence ledger (118 sentences:
+  guidance 68, public 22, private 24, checked at the public step 4; three record lines) are on
+  the private repository's pull request 7, opened under the owner's credential with the agent
+  identified, for his read and merge. Nothing public moved. The public node's sort table went
+  with them at his word, after a side agent's note that a public map of what went private is a
+  disclosure; the node keeps destinations, counts, the reader and the stopping condition.
+- **Pickup, in the node's order:** steps 3 to 8 of
   `.agent/plans/delivery/editorial-doctrine-in-three-layers.plan.md`, under
-  `directive-file-context-budget` for step 4. The private ledger is the sort; the thread
-  record's earlier blocks are not re-read by this lane (decision 3).
+  `directive-file-context-budget` for step 4, after a compaction. The private ledger is the sort;
+  the thread record's earlier blocks are not re-read by this lane (decision 3).
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which
   ratified the lane and said nothing about the sketch's shape; it had also replaced the sketch's
   directory separation by a frontmatter label on its own judgement. A side agent's note caught
