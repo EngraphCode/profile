@@ -895,3 +895,35 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   decision; his reply: "stop being stuck in binary and arbitrary choices, ask what matters, why,
   why now." The folder question belonged to a parked idea the seat had conflated with the live
   task; the question that mattered was the sort of thing each file is.
+- **"Nothing in the public editorial files is sensitive" was a plan asserting the result of a
+  sort the seat had not run.** A side agent read the guidance directive as prose and found the
+  self-view lines (a self-conception, a self-assessment, a view of creation, an intended unstated
+  impression). The seat had classified by location: public since the identity split of
+  February 2026, so not sensitive. privacy.md's own Private category, "psychological context that
+  reveals inner states or personal vulnerabilities", covers those lines and has since that split,
+  which left them in the public half; nobody re-read the public half as prose. His rule of 26
+  October: personal insight is always sensitive; a fact stays public only where it is appropriate
+  for the public domain, as the LinkedIn content is; anything giving psychological or non-public
+  insight into him exists only in the private repository. The sort has two axes, not one: process
+  or information, then public-appropriate or insight. A plan states a sort's result after the
+  sort. The second record in two days that asserted a state ahead of the work, both caught by a
+  side agent.
+
+## 2026-10-27 — The plan amended at the privacy rule: two cuts, three homes, every edge settled
+
+- **The owner's words, verbatim:** "Agreed, please record that as a detailed, comprehensive repo
+  plan. Identify scope for expansion in the plan and replace it with settled decisions, bounded
+  scope, and stopping conditions. Use all appropriate skills to write the plan and in the
+  comissioned work." The node `editorial-doctrine-in-three-layers` is rewritten: the first cut
+  (process or information) and the second (public-appropriate or insight); a ledger of the
+  guidance directive by section naming kinds, never the sentences; twelve settled decisions in
+  place of every "later", "borderline" and "his call"; stopping conditions; the residual risk he
+  accepted (history reachable from February 2026; older records checked by vocabulary only).
+- **A public record names the kind, never a paraphrase of the insight.** The seat's own napkin
+  bullet of 26 October paraphrased two of the lines it was recording the removal of; a paraphrase
+  that lets a reader recover the content is the content. Corrected to kinds the same day. The
+  same test applies to the plan node, the thread record and the pull request's description, all
+  public.
+- **Writing the private destination first makes the public step a removal.** Step 2 of the node
+  writes the private author file before any public line moves, so no sentence is ever held only
+  in the seat's context between files.

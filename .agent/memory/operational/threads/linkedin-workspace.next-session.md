@@ -10,7 +10,7 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-26, the extraction lane ratified at the owner's words with the author's information apart from the doctrine; the directive step and the information file next; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-27, the extraction lane's plan amended at the owner's privacy rule: two cuts, three homes, the private author file first; the directive step next; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream.
@@ -30,6 +30,33 @@ authorisation.
   The plan is `.agent/plans/delivery/editorial-doctrine-in-three-layers.plan.md`;
   `linkedin-profile-rewrite-completion` is archived as done. The branch is
   `docs/editorial-insight-extraction` from `main`.
+- **Amendment, 27 October, at his words.** A side agent's note of 26 October: the plan declared
+  the public editorial files free of sensitive material ahead of any sort, so the guidance
+  directive's self-view lines would have moved whole into a public author file. The seat's
+  assessment (read as prose; the lines match privacy.md's Private category and have since the
+  identity split of February 2026; the public repository's readers are the profile's readers; a
+  single file labelled as the Person entity is an aggregation; de-naming is not de-identification;
+  history holds the lines regardless) went to him. **His words, verbatim:** "personal insight is
+  always considered sensitive. Factual information can stay in the public repo as long as it is
+  appropriate for the public domain, such as the linkedin content. Anything that gives
+  psychological or non-public insight into myself MUST exist only in the private repo ... Please
+  reflect on that, on what it means, and why it is important, this is a risk and privacy based
+  assessment." And on the assessment and the plan: "Agreed, please record that as a detailed,
+  comprehensive repo plan. Identify scope for expansion in the plan and replace it with settled
+  decisions, bounded scope, and stopping conditions. Use all appropriate skills to write the plan
+  and in the comissioned work." The node is rewritten and re-ratified at these words: two cuts
+  (process or information; public-appropriate or insight), three homes (the person-neutral
+  doctrine; `docs/editorial/author.md`, thin; the private repository's author file), a ledger of
+  the guidance directive by section naming kinds only, twelve settled decisions (the voice
+  adjectives public and the biographical sentence private; no history rewrite; three record edits
+  outside the lane's output and no wider sweep; the standing audiences generic in the composition
+  directive; no privacy validator; the reviewer batches and their one cure round; two pull
+  requests), stopping conditions and the residual risk he accepted. The private author file is
+  written first (step 2), so every public move is a removal with a known destination.
+- **Step B pickup, in the node's order:** steps 2 to 8 of
+  `.agent/plans/delivery/editorial-doctrine-in-three-layers.plan.md`, under
+  `directive-file-context-budget` for step 4. The ledger in the node is the sort; the thread
+  record's earlier blocks are not re-read by this lane (decision 3).
 - **Correction, 26 October.** The seat had marked the plan ratified at the words above, which
   ratified the lane and said nothing about the sketch's shape; it had also replaced the sketch's
   directory separation by a frontmatter label on its own judgement. A side agent's note caught
@@ -67,33 +94,8 @@ authorisation.
   repointed; `editorial-guidance.md` declared `layer: author` with `author_names` in its
   frontmatter; the validator `validate-editorial-layers` (agent-tools, with its unit test) wired
   into `docs-validators:check` and green.
-- **Next, under `directive-file-context-budget` (after a compaction, the check repeated before
-  each directive), the plan node's steps 2 to 5, in the same pull request 354:**
-  (1) `docs/editorial/author.md` written: frontmatter `author_names: [Jim, Cresswell,
-  jimcresswell]`, the Person entity named, no `layer`; the facts from `editorial-guidance.md`
-  (voice, the registers' shared topics, impact, founder orientation, product safety,
-  commercial sensibility, the research facts and what is never conflated, the keyword
-  decisions, the standing decisions with their EDRs); the standing audiences from
-  `editorial-strategy.md`; his instruments (the table edited in place and a numbered reply;
-  self-contained question cards; the diff against the accepted version); the LinkedIn standing
-  conditions (the live profile edited only at his express request with him present; the PDF
-  export first; nothing trimmed to a number; the one deliberate notification his); the tiers and
-  pins of 11 October as the record of origin of the list in `linkedin/profile.md`; the lane's
-  worked instances with his public-safe words and dates (the About assembled from fragments,
-  7 October; the answers-as-copy correction of 10 October; the partition of 21 October and
-  EDR-009; the engineering-leader drift and EDR-008; the adjectives true by his authority,
-  14 October; the figures not web-checked). (2) `editorial-guidance.md` rewritten as the general
-  guidance (`layer: general`, no `author_names`): the author's information model, the conveying
-  principles in general form, the derivation and consistency mechanisms, working with the
-  author in brief, the boundary. (3) `editorial-strategy.md`: `layer: general`; the five author
-  mentions neutral; §Standing audiences moved to the information file. (4) AGENT.md's editorial
-  paragraph repointed. (5) Referrers by intent (the three templates, the four editorial skills,
-  `under-the-hood`, `pkg`, README line 260, `linkedin/README.md`, the EDR README); adapters
-  regenerated. (6) The validator: `layer` admits `general` and `surface`; the information file
-  found by `author_names`, refused under `.agent/`, refused with a `layer` key; tests follow.
-  (7) Gates, one commit by pathspec, push, the pull request description final, his read.
-- **After the directive step:** the one pull request's description brought current; his read and
-  merge. His next closing priority is the rewrite of the root README and the appropriate
+- **After the directive step:** both pull requests' descriptions brought current; his read and
+  merges. His next closing priority is the rewrite of the root README and the appropriate
   documents, a separate pull request; the CV chapter is a later session and consumes this lane.
 - **Standing word, unchanged:** the live profile is edited only through Chrome at his express
   request with him present; nothing trimmed to a number; no folds or ceremony until further
