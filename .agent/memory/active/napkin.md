@@ -1020,3 +1020,16 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   records the check is about, the question is why it is read at all, never how to floor it. The
   same class stands once more in tracked code (the throughput register's hard-coded repository),
   named to him, not cured inside the fix's pull request.
+- 2026-10-27 16:4xZ: the seat put three items to the owner "for his word" after the rename (the
+  throughput register's hard-coded repository, the operator profile's scope key, the tracked files
+  naming the old address). He asked whether they were his and had them run through the lenses.
+  None is: his ruling of the same afternoon resolves the class, and the lenses resolve each
+  instance; the two owner acts that remain are procedural (ratifying a Core amendment to PDR-141
+  decision 3; the word for a write to his own profile repository). Lesson, the seat's, the same
+  one as the third consolidation's: a ruling is the approval for its class, and listing each
+  instance for re-ruling is asking the owner to do the seat's analysis. Two findings the run
+  surfaced: his repository-scoped profile file is keyed by the old address, so the grounding has
+  derived a key with no file since the move and reads none of it (silent by design, strictly
+  optional); and the throughput tool the Practice index and ADR-023 call retired has been back in
+  the tree since the parity carry of 2026-10-05, never run here, and OCE's copy hard-codes the
+  upstream's address while its checkout is the fork, so it would measure the wrong repository.
