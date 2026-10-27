@@ -1010,3 +1010,13 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   PDR-141's title into a hit, and the pre-push gate now refuses every push from this checkout.
   Three commits sit local on the retro branch; nothing bypassed. A derived needle needs a floor
   (a declared host name, or no repository-name leg); the design is the owner's, the Core is shared.
+- 2026-10-27 16:0xZ: the blocker's cure, once the owner ruled, ran from branch cut to merge inside
+  the sitting (PR 360 open 15:57Z, merged 16:02Z). The seat had spent the boundary offering him
+  two designs that both kept the remote in the needle set (a declared host file checked against
+  origin, or origin's owner alone). His ruling went under both: a check proves functionality and
+  is never coupled to configuration, and a repository never names its own remote location,
+  because every repository must push, clone and fork across owners and addresses. Lesson, the
+  seat's: when a check's input comes from the checkout's configuration rather than from the
+  records the check is about, the question is why it is read at all, never how to floor it. The
+  same class stands once more in tracked code (the throughput register's hard-coded repository),
+  named to him, not cured inside the fix's pull request.

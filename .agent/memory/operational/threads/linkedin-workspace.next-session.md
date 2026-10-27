@@ -66,6 +66,19 @@ authorisation.
   that the declaration matches the remote's owner), or drop the repository name from the origin
   leg; rewording PDR-141's title to dodge a validator is the wrong direction. The first push after
   the cure carries this branch, since the gate runs the branch's own validator.
+- **Cured, 2026-10-27 16:02Z.** His ruling at 15:4xZ: the gate was "a check being incorrectly
+  coupled to config instead of proving functionality", and a repository never names its own
+  remote location, since every repository must push, clone and fork across owners and addresses.
+  Neither design the bullet above offered him was the cure; both kept the remote in the loop.
+  PR 360 (`fix/core-host-names-from-records-only`, bot-authored, opened 15:57Z, Copilot "Approval
+  recommended", merged by the bot at 1f5c3a49, 16:02Z) removed the origin leg: the needles are
+  the provenance `repo` fields and the changelog tags alone, the unit cell red first, the smoke's
+  refusal arm over a repository with no remote; ADR-023 and the portability rule say what the
+  gate reads. `main` is green again. This branch carries `main` at bae7fe46; the push that lands
+  this commit opens its draft pull request. OCE carries the same validator and takes the carry in
+  its own pull request. A second instance of the class stands in tracked code: the throughput
+  register (`agent-tools/src/pr-throughput/gh-fetch.ts`) hard-codes the repository it measures,
+  by design against a fork's `gh` default; where that identity should come from is for his word.
 - **Seat state:** n=1; no claim; no watcher or heartbeat; the branch `docs/linkedin-full-retrospective`
   cut from main at e0bf2bd3, three commits ahead and unpushed; its draft pull request opens at the
   first push that lands.
