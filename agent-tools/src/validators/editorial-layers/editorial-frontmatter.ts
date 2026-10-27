@@ -23,6 +23,12 @@ const LAYER_VALUE = /^\s*layer:\s*(\S+)\s*$/;
 const AUTHOR_NAMES_KEY = /^\s*author_names:/;
 const AUTHOR_NAMES_FLOW = /^\s*author_names:\s*\[(.*)\]\s*$/;
 
+/** True when the file opens a frontmatter block and never closes it. */
+export function hasUnterminatedFrontmatter(content: string): boolean {
+  const lines = content.split(/\r?\n/);
+  return lines[0] === '---' && lines.indexOf('---', 1) === -1;
+}
+
 /** The lines of the leading frontmatter block, or none when the file has no block. */
 export function frontmatterLines(content: string): readonly string[] {
   const lines = content.split(/\r?\n/);
@@ -94,6 +100,9 @@ export function parseAuthorNames(content: string): Result<readonly string[], str
     .filter((name) => name !== '');
   if (names.length === 0) {
     return err('`author_names` declares no name');
+  }
+  if (names.some((name) => name.includes('"') || name.includes("'"))) {
+    return err('`author_names` entries are bare tokens; quotes are not supported');
   }
   const distinct = new Set(names.map((name) => name.toLowerCase()));
   if (distinct.size !== names.length) {

@@ -172,6 +172,25 @@ describe('scanEditorialLayers', () => {
     });
   });
 
+  it('refuses an unterminated frontmatter block and quoted author names: neither is a silent skip', () => {
+    expect(
+      unwrapErr(
+        scanEditorialLayers([
+          AUTHOR_FILE,
+          { ...GENERAL, content: '---\nmetadata:\n  layer: general\n\nAs Ada said.\n' },
+        ]),
+      ),
+    ).toContain('unterminated frontmatter');
+    expect(
+      unwrapErr(
+        scanEditorialLayers([
+          { ...AUTHOR_FILE, content: '---\nauthor_names: ["Ada", "Lovelace"]\n---\n' },
+          GENERAL,
+        ]),
+      ),
+    ).toContain('bare tokens');
+  });
+
   it('refuses declared layers with no author file, and an unknown layer (the author among them) propagates through the scan', () => {
     expect(unwrapErr(scanEditorialLayers([GENERAL]))).toContain('no file declares `author_names`');
     expect(

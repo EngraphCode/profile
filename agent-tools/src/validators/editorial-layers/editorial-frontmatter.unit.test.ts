@@ -5,6 +5,7 @@ import {
   frontmatterLines,
   hasAuthorNames,
   hasLayerKey,
+  hasUnterminatedFrontmatter,
   parseAuthorNames,
   parseLayerDeclaration,
 } from './editorial-frontmatter.js';
@@ -26,6 +27,13 @@ describe('frontmatterLines, hasLayerKey and parseLayerDeclaration', () => {
   it('reads the block between the leading fences and nothing after it', () => {
     expect(frontmatterLines('---\na: 1\n---\nlayer: general\n')).toEqual(['a: 1']);
     expect(frontmatterLines('no block\n---\n')).toEqual([]);
+  });
+
+  it('tells an unterminated block from an absent one', () => {
+    expect(hasUnterminatedFrontmatter('---\nlayer: general\n')).toBe(true);
+    expect(hasUnterminatedFrontmatter('---\r\nlayer: general\r\n')).toBe(true);
+    expect(hasUnterminatedFrontmatter('---\na: 1\n---\n')).toBe(false);
+    expect(hasUnterminatedFrontmatter('no block\n')).toBe(false);
   });
 
   it('reads the block whatever the line ending', () => {
@@ -70,6 +78,12 @@ describe('hasAuthorNames and parseAuthorNames', () => {
       'Ada',
       'Lovelace',
     ]);
+  });
+
+  it('refuses quoted entries: the list is bare tokens', () => {
+    expect(
+      unwrapErr(parseAuthorNames('---\nauthor_names: ["Ada", \'Lovelace\']\n---\n')),
+    ).toContain('bare tokens');
   });
 
   it('refuses a missing key, a block list, an empty list and a duplicate', () => {

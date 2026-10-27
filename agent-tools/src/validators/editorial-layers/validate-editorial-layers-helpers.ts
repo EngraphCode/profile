@@ -25,6 +25,7 @@ import {
   type EditorialLayer,
   hasAuthorNames,
   hasLayerKey,
+  hasUnterminatedFrontmatter,
   parseAuthorNames,
   parseLayerDeclaration,
 } from './editorial-frontmatter.js';
@@ -73,12 +74,17 @@ export function isEditorialSurface(relativePath: string): boolean {
   return EDITORIAL_ROOTS.some((root) => relativePath.startsWith(root));
 }
 
-/** The files that declare a layer, with the layer; an error names a malformed declaration. */
+/** The files that declare a layer, with the layer; an error names an unterminated block or a malformed declaration. */
 export function collectDeclaredFiles(files: readonly ScanFile[]): Result<DeclaredFile[], string> {
   const declared: DeclaredFile[] = [];
   for (const file of files) {
     if (!isEditorialSurface(file.path)) {
       continue;
+    }
+    if (hasUnterminatedFrontmatter(file.content)) {
+      return err(
+        `${file.path}: unterminated frontmatter block; close it with a line of three dashes`,
+      );
     }
     const parsed = parseLayerDeclaration(file.content);
     if (!parsed.ok) {

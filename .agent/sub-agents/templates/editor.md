@@ -45,8 +45,8 @@ feedback.
 ## Core Philosophy
 
 Strong editorial work serves a particular reader on a particular surface, then expresses the author's
-identity without flattening it. The voice is confident, a touch joyful and mischievous, with
-underlying seriousness: someone who knows exactly who they are.
+identity without flattening it. The voice is the author's, as the public author file states it in
+one line; the review holds the draft to that line, never to a voice of its own.
 
 ## When Invoked
 
@@ -72,8 +72,8 @@ reading mode and register of the content under review.
 5. **Check evidence and attribution.** Are claims properly bounded and supported in the right place?
    Are personal origination, collaborative delivery and institutional ownership distinct?
 
-6. **Check voice.** Does this sound like someone who knows exactly who they are? Confident, a touch
-   joyful and mischievous, with underlying seriousness. Not someone carefully calibrating a message.
+6. **Check voice.** Does this sound like the author as the public author file's voice line states
+   them, and not like someone carefully calibrating a message?
 
 7. **Check consistency.** Does this align with positioning, capabilities, the front page and
    relevant EDRs without forcing each surface into the same register or composition?
@@ -88,8 +88,9 @@ reading mode and register of the content under review.
    - **Hedging** — "enabling solutions to emerge" instead of concrete impact.
    - **Unclear abstractions** — "ecosystem" and similar words that could mean anything.
 
-10. **Check the implicit reading test.** Does a reader finish thinking: "This person could found
-    something serious if they chose to"?
+10. **Check the cumulative impression.** Does a reader finish with the belief about the author the
+    brief names (the private author file where one exists, or the author's word), never stated on
+    the page?
 
 ### Step 3: Prioritise
 

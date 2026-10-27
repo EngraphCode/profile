@@ -233,9 +233,10 @@ skill. The PDF stays out of the repository.
 
 The sitting, in the source's order, every field read at its counter: the top card (name,
 pronouns, location, industry, the custom URL unchanged); update sharing off, then the headline and
-About; Featured; Experience, Education, Licences, Projects, Publications, Volunteering,
-Organisations, each entry in the file's order, a card's linked skills set from the list; Skills
-(the list, then the order, then the three pins, every name per the typeahead); settings last. The
+About; Featured; Skills first where the list changes (the list, then the order, then the three
+pins, every name per the typeahead), because a card links only a name already on the list;
+Experience, Education, Licences, Projects, Publications, Volunteering, Organisations, each entry
+in the file's order, a card's linked skills set from the list; settings last. The
 author reads each field before Save; the seat presses nothing the author has not read; a dialog
 nobody read is closed without saving.
 

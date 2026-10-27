@@ -133,6 +133,18 @@ authorisation.
   condition for his word; his word, 13:4xZ, verbatim: "get it done, now please". The lane's
   commit landed as f73be16f before this bullet was written (a failed anchor in the record edit
   let the commit run); this record rides a second commit, the one push carries both.
+- **The merges, 13:4xZ onward, at his word "Green and clean gets merged, it does not require me":**
+  pull request 7 merged by the seat under his credential (merge commit, the branch retired, the
+  local private checkout on main). Pull request 354 marked ready; Copilot requested once under his
+  credential (the one write the bot cannot make); the merge-base deletion sweep read clean (every
+  deleted line an intended one); all twelve checks green; the merge bot refused at THREADS-OPEN:
+  four Copilot threads, all P2, all cured in round two: an unterminated frontmatter block and
+  quoted author names now refuse rather than skip silently (25 cells); the application sitting
+  applies a changed Skills list before the cards that link to it; the `editor` template reads the
+  voice from the public author file and the intended impression from the brief rather than
+  carrying the host's voice and the impression sentence (that sentence was the insight class on a
+  public template; ledger row R30). One push, the four threads answered and resolved, Copilot
+  requested once more, the merge bot run again.
 - **His word on the Obaith disagreement, 27 October 12:5xZ, verbatim** (a side agent's note that
   the entity graph names him Obaith's Founder and ends it in December 2020, against the profile's
   April 2020 and the standing decision on the word): "yes, this is one of the many things we need
