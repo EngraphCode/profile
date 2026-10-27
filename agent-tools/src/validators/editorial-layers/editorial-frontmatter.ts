@@ -76,6 +76,11 @@ export function parseLayerDeclaration(content: string): Result<EditorialLayer | 
   return ok(value);
 }
 
+/** True when a token opens or closes with a quote mark; an apostrophe inside a name is a letter. */
+function isQuoted(token: string): boolean {
+  return /^["']|["']$/.test(token);
+}
+
 /** True when the frontmatter block carries an `author_names` key. */
 export function hasAuthorNames(content: string): boolean {
   return frontmatterLines(content).some((line) => AUTHOR_NAMES_KEY.test(line));
@@ -101,7 +106,7 @@ export function parseAuthorNames(content: string): Result<readonly string[], str
   if (names.length === 0) {
     return err('`author_names` declares no name');
   }
-  if (names.some((name) => name.includes('"') || name.includes("'"))) {
+  if (names.some((name) => isQuoted(name))) {
     return err('`author_names` entries are bare tokens; quotes are not supported');
   }
   const distinct = new Set(names.map((name) => name.toLowerCase()));

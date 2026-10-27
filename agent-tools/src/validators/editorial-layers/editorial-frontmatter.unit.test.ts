@@ -80,10 +80,14 @@ describe('hasAuthorNames and parseAuthorNames', () => {
     ]);
   });
 
-  it('refuses quoted entries: the list is bare tokens', () => {
+  it('refuses quoted entries and keeps an apostrophe inside a name: the list is bare tokens', () => {
     expect(
       unwrapErr(parseAuthorNames('---\nauthor_names: ["Ada", \'Lovelace\']\n---\n')),
     ).toContain('bare tokens');
+    expect(unwrap(parseAuthorNames("---\nauthor_names: [Seán, O'Connor]\n---\n"))).toEqual([
+      'Seán',
+      "O'Connor",
+    ]);
   });
 
   it('refuses a missing key, a block list, an empty list and a duplicate', () => {

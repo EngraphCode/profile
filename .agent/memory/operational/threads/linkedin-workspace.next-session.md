@@ -145,6 +145,9 @@ authorisation.
   carrying the host's voice and the impression sentence (that sentence was the insight class on a
   public template; ledger row R30). One push, the four threads answered and resolved, Copilot
   requested once more, the merge bot run again.
+  Round two returned one thread, valid: the quoted-token refusal rejected an apostrophe inside a
+  name; a token is quoted only when it opens or closes with a quote mark (O'Connor passes). Cured
+  in the last push's slot; no further request, the leg reads unowed under the base rule.
 - **His word on the Obaith disagreement, 27 October 12:5xZ, verbatim** (a side agent's note that
   the entity graph names him Obaith's Founder and ends it in December 2020, against the profile's
   April 2020 and the standing decision on the word): "yes, this is one of the many things we need
