@@ -91,9 +91,11 @@ private custody record.
 
 ## Editorial grounding
 
-Read both public directives before any content work:
+Read the two public directives and the public author file before any content work:
 [`../directives/editorial-strategy.md`](../directives/editorial-strategy.md)
-(audience, composition, attention, readability, surface fit) and
+(audience, composition, attention, readability, surface fit),
 [`../directives/editorial-guidance.md`](../directives/editorial-guidance.md)
-(identity, voice, register). LinkedIn is not a CV transcription and is not
+(how a person is modelled and conveyed) and
+[`../../docs/editorial/author.md`](../../docs/editorial/author.md)
+(the voice, vocabulary, facts and standing decisions). LinkedIn is not a CV transcription and is not
 downstream of the graph roadmap. Jim decides wording and publication timing.

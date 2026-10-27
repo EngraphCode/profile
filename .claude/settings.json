@@ -4,7 +4,7 @@
     "allow": [
       "Bash(git mv *)",
       "Skill(jc-accessibility)",
-      "Skill(jc-apply-linkedin-profile)",
+      "Skill(jc-linkedin-profile)",
       "Skill(jc-architecture)",
       "Skill(jc-assess-specification)",
       "Skill(jc-author-skills)",
@@ -34,7 +34,7 @@
       "Skill(jc-go)",
       "Skill(jc-inter-practice-collaboration)",
       "Skill(jc-knowledge-safety-sweep)",
-      "Skill(jc-linkedin-skills)",
+      "Skill(jc-cv)",
       "Skill(jc-metacognition)",
       "Skill(jc-napkin)",
       "Skill(jc-parallax)",

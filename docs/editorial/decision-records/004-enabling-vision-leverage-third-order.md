@@ -55,4 +55,4 @@ Oak is a new type of public service, funded by the Government. The engineering f
 - [EDR-001](001-oak-curriculum-data-description.md) — what the data actually is
 - [EDR-002](002-show-dont-justify.md) — how to describe it (show, don't justify)
 - [EDR-005](005-oak-p3-rewrite.md) — the rewrite that implemented this
-- [editorial-guidance.md](../../../.agent/directives/editorial-guidance.md) — commercial sensibility principle
+- [author.md](../author.md) §Positioning vocabulary — leverage, the enabling vision

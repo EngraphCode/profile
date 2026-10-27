@@ -9,8 +9,8 @@ last_updated: 2026-09-28
 Resume the owner-led LinkedIn editorial pass.
 
 Ground first via `start-right-quick` or `start-right-thorough`, then read
-`.agent/directives/editorial-strategy.md` and
-`.agent/directives/editorial-guidance.md`.
+`.agent/directives/editorial-strategy.md`,
+`.agent/directives/editorial-guidance.md` and `docs/editorial/author.md`.
 
 ## Current working state
 

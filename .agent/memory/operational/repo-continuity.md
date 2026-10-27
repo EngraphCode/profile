@@ -30,7 +30,7 @@ live, what is next. Refreshed by `session-handoff`; read at session resume.
   `main`'s bytes, the napkin and the LinkedIn thread record merged by concept) after the
   substrate check refused a push over a stale machine-local comms-log render; the cure that stops
   it recurring, every comms write rendering the log, is `SHA:fbb9d96a`. Next on the lane: the
-  application by the `apply-linkedin-profile` skill (the LinkedIn thread record's current block),
+  application by the `linkedin-profile` skill (the LinkedIn thread record's current block),
   nothing to draft. moved for the sites: nothing / moved for the Practice: the comms log rendered
   at every write.
 - **2026-10-21T13:xxZ: the LinkedIn lane at a compaction boundary; the Oak card's shape settled

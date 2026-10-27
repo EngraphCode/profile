@@ -56,7 +56,7 @@ the plugin and the Principal card), Artificial Intelligence (AI) (the field the 
 name, shown by the plugin; the specific AI names in the tail do the distinguishing), Social
 Impact (the direction, shown by Oak). The next two, Systems Thinking and Strategic Leadership,
 are the first lines under Show all: how he thinks and at what level. Jim is the authority on
-every name; the method is the `linkedin-skills` skill's §Choose by Jim's word and the
+every name; the method is the `linkedin-profile` skill's §Choose by Jim's word and the
 understanding.
 
 Settled with Jim on 16 October, by his dispositions on the fourteen-item dedupe and enhancement
@@ -336,7 +336,7 @@ Open for Jim, with the draft:
   (its dates); if the rebuild was argued before June 2022 the whole movement moves to the
   consulting card and the current card keeps the consequence sentence.
 - "meant no child missed out on education": Jim's phrase, chosen twice; the editor's reading
-  stands beside it, that a funder discounts an absolute no reader can check.
+  stands beside it, that a sceptical reader discounts an absolute no reader can check.
 - "As Oak became a permanent public body, an arm's-length body of the Department for
   Education": Oak's own description (the status from September 2022, after the June 2022
   formalisation, so the sentence ties the two by "as", a process, not a date); Jim's "the UK's
@@ -388,8 +388,8 @@ Name as now; pronouns are Jim's call. Top-card location and industry are set del
 retrieval coordinates at application, verified live. The live industry value was never recorded
 (the September baseline did not capture it); the `editor`'s rule for it, 11 October: read it at
 application, and if it names a function, replace it with the sector Oak sits in, against
-LinkedIn's taxonomy, since the sector filter is the one a funder or a national-organisation
-leader uses and the function filter is the line-role screen. Banner: open, Jim's call. Volunteering
+LinkedIn's taxonomy, since the sector filter is the one a sector reader uses and the function filter is the
+line-role screen. Banner: open, Jim's call. Volunteering
 (Growing Communities) and organisations (Institute of Physics, current) stay, brief and true.
 Activity and interests are not profile content and are left as they are. The VoxQuant company
 page under Jim's account reserves a name only (Jim, 7 October) and gets no entry and no
@@ -542,7 +542,7 @@ next two skills, the rest of the long tail ... Some carry endorsements that I wa
 javascript, software development, web applications, software engineering. We also need an
 official list of LinkedIn's taxonomy"). The list above is unchanged; this is the proposal, and
 the platform facts, the validation method and the registry of every name now live in the
-`linkedin-skills` skill (`.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md`, his word
+`linkedin-profile` skill (`.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md`, his word
 the same hour, so none of it is rediscovered). What the facts settle: the official list is
 LinkedIn's Standardized Data API, open to approved partner applications only, so the profile
 typeahead at application is the arbiter; a member skill is a free-text phrase with an optional
@@ -607,7 +607,7 @@ Coaching; Digital Transformation is not added; Social Entrepreneurship stands as
 and the About is not changed for it. Applied: fifty-one decided entries in display order, with
 Parameter Estimation beside Statistical Modeling and Scientific Writing beside Science
 Communication, and thirty-seven names still in question for him, each with its provenance in the
-registry. The method that selects names is now the `linkedin-skills` skill's §Choose by Jim's word
+registry. The method that selects names is now the `linkedin-profile` skill's §Choose by Jim's word
 and the understanding: he is the authority; the CV, the entity graph, LinkedIn's taxonomy, the
 research and the readers are sources and instruments, never a baseline the list is corrected to;
 a name he set is never proposed for removal; a proposal carries one sentence of what the name
@@ -633,7 +633,7 @@ the distinguishing. The registry carries every name's provenance and the removed
 their endorsements. Forty-three entries.
 
 Jim's word, 12 October, on the seat's gap analysis of the evening: Digital Public Goods (the
-About's public digital infrastructure in the noun funders use), Citizen Science (Galaxy Zoo on
+About's public digital infrastructure, in the sector's noun), Citizen Science (Galaxy Zoo on
 the PhD card), Entrepreneurship (the start-ups named under the earlier entries) and Thought
 Leadership are added in their places (Thought Leadership after Technology Leadership,
 Entrepreneurship beside Startups, Digital Public Goods after Open-Source Development, Citizen

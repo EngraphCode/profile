@@ -152,9 +152,10 @@ it is the same text in both.
   `.agents/` and `.github/`; the entry files are `CLAUDE.md`, `AGENTS.md`,
   `GEMINI.md`, `.github/copilot-instructions.md` and `skills.md`.
 - **Host directives.** Editorial strategy and guidance for content that
-  represents Jim ([editorial-strategy.md](directives/editorial-strategy.md),
-  [editorial-guidance.md](directives/editorial-guidance.md)), privacy and
-  secops; reading-order step 6 is the editorial pair, for content work.
+  represents an author ([editorial-strategy.md](directives/editorial-strategy.md),
+  [editorial-guidance.md](directives/editorial-guidance.md)), read with the
+  public author file [docs/editorial/author.md](../docs/editorial/author.md);
+  privacy and secops; reading-order step 6 is the editorial set, for content work.
 - **Pre-schema plans.** Conserved as records in
   [`plans-legacy-2026-09/`](plans-legacy-2026-09/DISPOSITIONS.md), each with
   its disposition; live intent was re-authored into the strategy layer

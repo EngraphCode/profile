@@ -126,4 +126,5 @@ it is the same text in both.
 - Content that represents Jim is written under
   [directives/editorial-guidance.md](directives/editorial-guidance.md) and
   [directives/editorial-strategy.md](directives/editorial-strategy.md), the
-  most readable host directives for a human.
+  most readable host directives for a human, with his public author file
+  [docs/editorial/author.md](../docs/editorial/author.md).

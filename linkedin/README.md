@@ -59,14 +59,16 @@ wording with Jim before any change there.
 ## Editorial authorities and related surfaces
 
 - [Editorial strategy](../.agent/directives/editorial-strategy.md)
-- [Voice and guidance](../.agent/directives/editorial-guidance.md)
+- [Editorial guidance](../.agent/directives/editorial-guidance.md)
+- [The public author file](../docs/editorial/author.md)
+- [Write for the reader](../.agent/skills/editorial/write-for-the-reader/SKILL-CANONICAL.md) (the order of work for copy that represents the author)
 - [Privacy](../.agent/directives/privacy.md)
 - [Editor review](../.agent/memory/executive/invoke-code-experts.md) (this host's
   `editor` row) and the
   [editorial voice skill](../.agent/skills/editorial/editorial-voice/SKILL-CANONICAL.md)
-- [LinkedIn skills skill](../.agent/skills/editorial/linkedin-skills/SKILL-CANONICAL.md) (what
+- [LinkedIn skills skill](../.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md) (what
   LinkedIn does with the Skills list, how it is chosen and validated, the registry of names) and
-  the [apply LinkedIn profile skill](../.agent/skills/editorial/apply-linkedin-profile/SKILL-CANONICAL.md)
+  the [apply LinkedIn profile skill](../.agent/skills/editorial/linkedin-profile/SKILL-CANONICAL.md)
   (the sitting, field limits and folds, settings and the industry taxonomy)
 - [Current CV source](../jcdotnet/content/cv.content.json)
 - [Current front page source](../jcdotnet/content/frontpage.content.json)

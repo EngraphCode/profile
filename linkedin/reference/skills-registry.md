@@ -1,0 +1,489 @@
+# LinkedIn skills registry
+
+Every skill name in play for Jim's LinkedIn profile, with who set it, where it stands and what is
+known of it. The copy's home is `linkedin/profile.md` §Skills; the decisions are in
+`linkedin/profile-replacement.md` §Skills; this file records status, never copy.
+
+- **Last updated:** 2026-10-23 (Shrew rides Eventide, 371a2b): the check of the list against the
+  profile declared ready, in its own section below; Knowledge Graphs added at his word the same
+  day, the table renumbered.
+- **Provenance:** who set each name and when. "Jim, 11 Oct" is his word that day, "Jim, 11 Oct,
+  evening" the list he wrote himself that evening (his reasons are in the private editorial
+  repository, never here); "live" is a name on the profile at the 2026-09-27 baseline; "seat, 11
+  Oct" is the seat's proposal. Every name on the canonical list is now his: he kept each one by
+  his own hand on the evening of 11 October.
+- **Live profile:** the baseline recorded on 2026-09-27
+  (`linkedin/reference/current-profile-2026-09-27.md` §Skills, 63 skills in display order;
+  endorsement counts not recorded there).
+- **Canonical list:** `linkedin/profile.md` §Skills as of 2026-10-23: 48 entries in display
+  order, Jim's list of 11 October with four names added at his word of 12 October and Knowledge
+  Graphs at his word of 23 October; nothing in question.
+- **2018 crawl:** varadchoudhari/LinkedIn-Skills-Crawler `output/all_skills.txt` (MIT, 37,339
+  names, last pushed 2018-03-10), checked 2026-10-11 by exact case-insensitive match with
+  `scripts/check-against-2018-crawl.sh`. Found means the name existed in the taxonomy in 2018;
+  missing proves nothing.
+- **Typeahead:** the profile's Add skill dropdown, the arbiter. Checked on 2026-10-11 in Chrome
+  with Jim present, in the Add skill dialog, nothing saved: the column holds the dropdown's exact
+  string, "live" for a name already on the profile and not typed, or "confirmed by Jim" for a
+  name he checked himself the same day. Every name on the canonical list is confirmed: the last
+  four (Software Engineering Practices, Web Technologies, Parameter Estimation, Scientific
+  Writing) in the evening of 2026-10-11, the same dialog, nothing saved, and the four names of
+  12 October at the same typeahead the same evening.
+- **Live endorsements:** read on 2026-10-11 in Chrome from the skills detail page (self view, Jim
+  present): twelve skills carry an endorsement line, the other fifty-one show none, and the
+  display order is not endorsement order. The counts are in the endorsements section below.
+
+Columns: provenance; live position on 2026-09-27 (— if absent); the tier (pin, next, tail); the
+2018 crawl's answer; the typeahead's answer and date; the note.
+
+## The canonical list, in display order (2026-10-11, evening, Jim's list)
+
+The forty-nine entries of `linkedin/profile.md` §Skills. The tail runs in the order of the page
+(Oak's innovation and strategy, the plugin's AI, systems and the open ecosystem, the public
+sector, physics, the communicating, mentoring, the craft); beyond that, at Jim's word, the order
+carries no meaning. The Live column is the position on the profile of 11 October, before the
+application; since 24 October every row is live at its table position (the applied section
+below), Thought Leadership having left the list at Jim's word later that day, after the sitting (the removed table of 24 October); its live delete is the next sitting's.
+
+| Pos. | Skill                          | Provenance                                         | Live | Tier | 2018 crawl                         | Typeahead 2026-10-11           | Note                                                                                                                                                                                                                                       |
+| ---- | ------------------------------ | -------------------------------------------------- | ---- | ---- | ---------------------------------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1    | Technological Innovation       | Jim, 11 Oct, evening                               | —    | pin  | found                              | Technological Innovation       | Pin 1, the headline's first word; in place of Creativity and Innovation.                                                                                                                                                                   |
+| 2    | Artificial Intelligence (AI)   | Jim, 11 Oct                                        | —    | pin  | found as "Artificial Intelligence" | Artificial Intelligence (AI)   | Pin 2, the field the headline does not name; the broad tag, see the AI Literacy note.                                                                                                                                                      |
+| 3    | Social Impact                  | Jim, 11 Oct                                        | —    | pin  | found                              | Social Impact                  | Pin 3, the direction.                                                                                                                                                                                                                      |
+| 4    | Systems Thinking               | Jim, 11 Oct                                        | 57   | next | found                              | Systems Thinking               | How he thinks.                                                                                                                                                                                                                             |
+| 5    | Strategic Leadership           | Jim, 11 Oct, evening                               | —    | next | found                              | confirmed by Jim               | At what level; in place of Leadership and Strategy.                                                                                                                                                                                        |
+| 6    | Social Innovation              | Jim, 11 Oct                                        | —    | tail | found                              | Social Innovation              |                                                                                                                                                                                                                                            |
+| 7    | Technology Leadership          | Jim, 11 Oct                                        | —    | tail | not checked                        | Technology Leadership          |                                                                                                                                                                                                                                            |
+| 8    | Research and Development (R&D) | Jim, 11 Oct                                        | —    | tail | found                              | Research and Development (R&D) |                                                                                                                                                                                                                                            |
+| 9    | Prototyping                    | Jim, 11 Oct                                        | —    | tail | found                              | Prototyping                    |                                                                                                                                                                                                                                            |
+| 10   | Scientific Research            | Jim, 11 Oct                                        | —    | tail | not checked                        | Scientific Research            | "Research" alone is not standardised.                                                                                                                                                                                                      |
+| 11   | Emerging Technologies          | seat, 11 Oct; Jim kept it                          | —    | tail | found                              | Emerging Technologies          | A cold reader called it self-appointed; kept at his word of the evening.                                                                                                                                                                   |
+| 12   | Startups                       | Jim, 11 Oct                                        | —    | tail | not checked                        | Startups                       | The taxonomy's string, not "Start-ups".                                                                                                                                                                                                    |
+| 13   | Entrepreneurship               | Jim, 12 Oct                                        | —    | tail | found                              | Entrepreneurship               | At his word of 12 October; the start-ups are named under the earlier entries in the container.                                                                                                                                             |
+| 14   | AI Agents                      | seat, 11 Oct; Jim kept it                          | —    | tail | missing                            | AI Agents                      |                                                                                                                                                                                                                                            |
+| 15   | Model Context Protocol (MCP)   | seat, 11 Oct; Jim kept it                          | —    | tail | missing                            | Model Context Protocol (MCP)   |                                                                                                                                                                                                                                            |
+| 16   | Generative AI                  | Jim, 11 Oct                                        | —    | tail | missing                            | Generative AI                  |                                                                                                                                                                                                                                            |
+| 17   | Large Language Models (LLM)    | seat, 11 Oct; Jim kept it                          | —    | tail | missing                            | Large Language Models (LLM)    | The specific term beside the broad AI tag.                                                                                                                                                                                                 |
+| 18   | Responsible AI                 | Jim, 11 Oct                                        | —    | tail | missing                            | Responsible AI                 |                                                                                                                                                                                                                                            |
+| 19   | Knowledge Graphs               | seat, 11 Oct; proposed 23 Oct; Jim accepted 23 Oct | —    | tail | not checked                        | Knowledge Graphs               | The Plugin card's ontology, the SDK, the search and the MCP app generated from it; the curriculum graph and the personal graph.                                                                                                            |
+| 20   | System Architecture            | live; Jim kept it                                  | 11   | tail | found                              | live                           |                                                                                                                                                                                                                                            |
+| 21   | Platform Engineering           | seat, 11 Oct; Jim kept it                          | —    | tail | missing                            | Platform Engineering           |                                                                                                                                                                                                                                            |
+| 22   | Product Engineering            | Jim, 11 Oct                                        | —    | tail | found                              | Product Engineering            |                                                                                                                                                                                                                                            |
+| 23   | Software Engineering Practices | Jim, 11 Oct, evening                               | —    | tail | found                              | Software Engineering Practices | The taxonomy's noun for the Practice; with Software Development, in place of Software Engineering.                                                                                                                                         |
+| 24   | Open Data                      | seat, 11 Oct; Jim kept it                          | —    | tail | found                              | Open Data                      |                                                                                                                                                                                                                                            |
+| 25   | Open Standards                 | live; Jim kept it                                  | 16   | tail | found                              | live                           |                                                                                                                                                                                                                                            |
+| 26   | Open-Source Software           | live; Jim kept it                                  | 17   | tail | found as "Open Source Software"    | Open-Source Software           |                                                                                                                                                                                                                                            |
+| 27   | Open-Source Development        | Jim, 11 Oct                                        | —    | tail | not checked                        | Open-Source Development        | Also LinkedIn's own suggestion for his profile.                                                                                                                                                                                            |
+| 28   | Digital Public Goods           | Jim, 12 Oct                                        | —    | tail | missing                            | Digital Public Goods           | At his word of 12 October; the About's public digital infrastructure in the sector's noun.                                                                                                                                                 |
+| 29   | Public Sector                  | seat, 11 Oct; Jim kept it                          | —    | tail | found                              | Public Sector                  |                                                                                                                                                                                                                                            |
+| 30   | Digital Government             | seat, 11 Oct; Jim kept it                          | —    | tail | missing                            | Digital Government             | Took the slot of Digital Public Services, not standardised.                                                                                                                                                                                |
+| 31   | Edtech                         | Jim, 11 Oct                                        | —    | tail | found as "EdTech"                  | Edtech                         | So spelt by the taxonomy.                                                                                                                                                                                                                  |
+| 32   | Astrophysics                   | seat, 11 Oct; Jim accepted                         | —    | tail | found                              | Astrophysics                   |                                                                                                                                                                                                                                            |
+| 33   | Cosmology                      | Jim, 11 Oct                                        | —    | tail | found                              | Cosmology                      |                                                                                                                                                                                                                                            |
+| 34   | Computational Physics          | Jim, 11 Oct                                        | —    | tail | found                              | Computational Physics          | His cluster; the seat's string, typeahead-confirmed.                                                                                                                                                                                       |
+| 35   | Statistical Modeling           | Jim, 11 Oct                                        | —    | tail | found                              | Statistical Modeling           | His cluster; the US spelling is the standardised one.                                                                                                                                                                                      |
+| 36   | Parameter Estimation           | Jim, 11 Oct                                        | —    | tail | found                              | Parameter Estimation           | His cluster.                                                                                                                                                                                                                               |
+| 37   | Physics                        | live; Jim kept it                                  | 39   | tail | found                              | Physics                        | 3 endorsements.                                                                                                                                                                                                                            |
+| 38   | Citizen Science                | Jim, 12 Oct                                        | —    | tail | found                              | Citizen Science                | At his word of 12 October; Galaxy Zoo on the PhD card.                                                                                                                                                                                     |
+| 39   | Scientific Writing             | Jim, 11 Oct                                        | 41   | tail | found                              | Scientific Writing             |                                                                                                                                                                                                                                            |
+| 40   | Science Communication          | Jim, 11 Oct                                        | —    | tail | not checked                        | Science Communication          |                                                                                                                                                                                                                                            |
+| 41   | Public Speaking                | Jim, 11 Oct                                        | —    | tail | not checked                        | Public Speaking                |                                                                                                                                                                                                                                            |
+| 42   | Mentoring                      | Jim, 11 Oct                                        | —    | tail | found                              | Mentoring                      | In place of Coaching.                                                                                                                                                                                                                      |
+| 43   | Software Development           | Jim, 11 Oct                                        | 31   | tail | found                              | Software Development           | 12 endorsements, kept for them at his word.                                                                                                                                                                                                |
+| 44   | Web Technologies               | Jim, 11 Oct, evening                               | —    | tail | found                              | Web Technologies               | In place of Web Applications.                                                                                                                                                                                                              |
+| 45   | JavaScript                     | Jim, 11 Oct                                        | 29   | tail | found                              | live                           | 23 endorsements (the overlay's count, 24 Oct), kept for them at his word.                                                                                                                                                                  |
+| 46   | TypeScript                     | live; Jim kept it                                  | 23   | tail | found                              | live                           | The one language of the present; backed by the Open Curriculum Ecosystem repository and his GitHub, his word of 24 October.                                                                                                                |
+| 47   | C                              | Jim, 11 Oct                                        | 50   | tail | found                              | live                           | 2 endorsements; kept at his word. The PhD's code was all C (his word, 24 October), so the PhD position links it.                                                                                                                           |
+| 48   | C (Programming Language)       | Jim, 25 Oct                                        | 51   | tail | found                              | live                           | His own addition on the live profile, the taxonomy's longer form beside the plain C; both kept at his word of 25 October; linked to the ICG and, at his word of the same afternoon, the PhD position (two views onto the same experience). |
+| 49   | Scientific Programming         | Jim, 25 Oct                                        | 52   | tail | found                              | live                           | His own addition on the live profile; linked to the ICG and, at his word of 25 October, the PhD position.                                                                                                                                  |
+
+## The check against the ready profile, 2026-10-23
+
+Queued by Jim on 22 October ("once everything else is settled, I think we should check that the
+skills still make sense") and run on 23 October, the day he declared the profile ready, by the
+method in the skill: the pins and the next two against the headline and the About as they now
+read, every tail name for the card that now shows it, no name he set proposed for removal. The
+list still says the person the profile does, and the canonical table above is unchanged. The
+names whose showing card differs from the page of 12 October:
+
+| Skill                                  | The card that shows it now                                                                                                                                                                                 | Note                                                                                                                                                                                                                                     |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Systems Thinking                       | The About's second paragraph (small changes for outsized impact) and its "Before Oak" pattern; the Obaith card's constraints, defaults, access routes and higher-order effects.                            | Shown more strongly than on 12 October.                                                                                                                                                                                                  |
+| Strategic Leadership                   | The Principal card's opening ("what should be built, is mine"), its two decisions and its close on the direction he set; the rebuild Project card.                                                         | Shown more strongly than on 12 October.                                                                                                                                                                                                  |
+| Responsible AI                         | The Plugin Project card: Oak's values living in the product, the standards travelling with the data.                                                                                                       | Shown more strongly than on 12 October.                                                                                                                                                                                                  |
+| Mentoring                              | No card names it: the guiding-and-mentoring sentence left the Principal card on 22 October. The HP Labs card ("taught others to use it") and the Medicspot card ("got the team using it") are the nearest. | His name of 11 October, in place of Coaching; it stands.                                                                                                                                                                                 |
+| TypeScript                             | The two linked repositories (the Open Curriculum Ecosystem and the Oak Web Application), not the page.                                                                                                     | Live, kept by him; 24 October, his word: the whole Open Curriculum Ecosystem is TypeScript and his GitHub shows it.                                                                                                                      |
+| Science Communication, Public Speaking | No card names them, as on 11 October.                                                                                                                                                                      | His names of 11 October; they stand. 24 October, his word: Science Communication backed by the two papers, the two theses and the PhD; Public Speaking by teaching and tour guiding, in the About's "Before Oak" list from the same day. |
+
+Proposed on `linkedin/profile.review.md` and accepted at Jim's word the same hour: Knowledge Graphs,
+held since 11 October and confirmed at the typeahead, the Plugin card now naming the Oak public API
+ontology the SDK, the search and the MCP app are generated from; position 20, after Responsible AI. Not proposed: Semantic Search, named twice on
+the Plugin card, a stack tag of the class he removed on 11 October.
+
+## Applied to the live profile, 2026-10-24
+
+The sitting of 24 October 2026 (the `linkedin-profile` skill, Jim present) replaced the
+live list with the canonical list above: the 53 names of the removed table deleted one by one
+through each skill's own dialog, the dialog's title checked against the name before every
+delete; the 38 names not already live added, each taken from the typeahead's exact option and
+never typed past it, none refused; the 48 ordered at LinkedIn's reorder screen to the table's
+order and read back identical on a fresh load; the three pins set as the About section's top
+skills, shown on the profile as "Top skills". The ten names that were live kept their entries
+and their endorsements. The after-baseline is
+`linkedin/reference/current-profile-2026-10-24-after.md`.
+
+A card's linked skills were set at the same step at Jim's word of the sitting ("each project
+adds appropriate skills from the approved list"), the seat's choice, his to change: the Oak AI
+Plugin links Artificial Intelligence (AI), AI Agents, Model Context Protocol (MCP), Knowledge
+Graphs and Open Data; the Practice links AI Agents, Software Engineering Practices, Responsible
+AI, Platform Engineering and Large Language Models (LLM); the rebuild links System Architecture,
+Platform Engineering, Product Engineering, Web Technologies and TypeScript; the FT Web App links
+Web Technologies, JavaScript, Software Development, Open Standards and Product Engineering (its
+Problem Solving link went with that skill's deletion).
+
+The positions' linked skills were not set at the sitting and each kept the old profile's
+links wherever the name survived; the after-baseline's position table carries them. Jim's
+reading of 24 October on the names the page's text names thinly: Science Communication is
+backed by the two papers, the two theses and the PhD; TypeScript by the Open Curriculum
+Ecosystem repository, all TypeScript, and his GitHub; C by the PhD's code, all C, so the PhD
+position links it.
+
+LinkedIn's profile-skill ids, read from the page's edit controls, for a seat that scripts the
+list (an id belongs to the entry on the profile, so a name deleted and re-added gets a new one;
+the ten kept names carry their old ids):
+
+| Pos. | Skill                          | Id         |
+| ---- | ------------------------------ | ---------- |
+| 1    | Technological Innovation       | 1853624483 |
+| 2    | Artificial Intelligence (AI)   | 1853670064 |
+| 3    | Social Impact                  | 1853673398 |
+| 4    | Systems Thinking               | 19         |
+| 5    | Strategic Leadership           | 1853676555 |
+| 6    | Social Innovation              | 1853679710 |
+| 7    | Technology Leadership          | 1853682882 |
+| 8    | Thought Leadership             | 1853697105 |
+| 9    | Research and Development (R&D) | 1853700420 |
+| 10   | Prototyping                    | 1853703567 |
+| 11   | Scientific Research            | 1853707021 |
+| 12   | Emerging Technologies          | 1853710204 |
+| 13   | Startups                       | 1853713740 |
+| 14   | Entrepreneurship               | 1853728170 |
+| 15   | AI Agents                      | 1853731320 |
+| 16   | Model Context Protocol (MCP)   | 1853734636 |
+| 17   | Generative AI                  | 1853738104 |
+| 18   | Large Language Models (LLM)    | 1853741428 |
+| 19   | Responsible AI                 | 1853744888 |
+| 20   | Knowledge Graphs               | 1853759864 |
+| 21   | System Architecture            | 382291369  |
+| 22   | Platform Engineering           | 1853763035 |
+| 23   | Product Engineering            | 1853766193 |
+| 24   | Software Engineering Practices | 1853769641 |
+| 25   | Open Data                      | 1853772824 |
+| 26   | Open Standards                 | 1651087007 |
+| 27   | Open-Source Software           | 1651038933 |
+| 28   | Open-Source Development        | 1853776736 |
+| 29   | Digital Public Goods           | 1853791343 |
+| 30   | Public Sector                  | 1853794835 |
+| 31   | Digital Government             | 1853798131 |
+| 32   | Edtech                         | 1853801256 |
+| 33   | Astrophysics                   | 1853804433 |
+| 34   | Cosmology                      | 1853807600 |
+| 35   | Computational Physics          | 1853822232 |
+| 36   | Statistical Modeling           | 1853825577 |
+| 37   | Parameter Estimation           | 1853829034 |
+| 38   | Physics                        | 162        |
+| 39   | Citizen Science                | 1853832174 |
+| 40   | Scientific Writing             | 172        |
+| 41   | Science Communication          | 1853835495 |
+| 42   | Public Speaking                | 1853838649 |
+| 43   | Mentoring                      | 1853842260 |
+| 44   | Software Development           | 156        |
+| 45   | Web Technologies               | 1853845432 |
+| 46   | JavaScript                     | 144        |
+| 47   | TypeScript                     | 1093112062 |
+| 48   | C                              | 164        |
+
+### Endorsements on the live profile, read 2026-10-24
+
+Read from the skills detail page in the self view after the reorder. Where only highlight lines
+show, the count is a floor; endorsers' names are not recorded.
+
+| Skill                | Count | Lines read                                                                  |
+| -------------------- | ----- | --------------------------------------------------------------------------- |
+| Software Development | 12    | 3 colleagues at Financial Times                                             |
+| JavaScript           | 23    | a person and 3 others; 2 colleagues at British Airways; the overlay's count |
+| Physics              | 3     | 3 endorsements                                                              |
+| Astrophysics         | 2     | 2 endorsements                                                              |
+| Cosmology            | 2     | 2 endorsements                                                              |
+| Statistical Modeling | 2     | 2 endorsements                                                              |
+| C                    | 2     | 2 endorsements                                                              |
+
+Astrophysics, Cosmology and Statistical Modeling were not on the profile on 11 October and showed
+two endorsements each on the day they were added; the inference, not verified, is that LinkedIn
+keeps endorsements against a name removed earlier and restores them when the name returns. The
+endorsements that left with the removed names (Java 13, Test Automation 8, Programming 5, HTML5
+5, Software Engineering 2 to 3, CSS 2, Web Applications at least 1, Communication 1) were given
+up at Jim's rulings of 11 October.
+
+The tables of this section record the profile as read on 24 October, with Thought
+Leadership at position 8 and the ids of the 48; it left the canonical list later that day
+and is deleted from the live profile at the next sitting.
+
+## Removed from the canonical list on 2026-10-24 at Jim's word
+
+After the sitting, at the skills review, Jim asked the cost of removing a name he had added
+on 12 October and ruled on the answer.
+
+| Skill              | Live                          | Endorsements | 2018 crawl | Removed                                 | Note                                                                                                                                                                                                                                            |
+| ------------------ | ----------------------------- | ------------ | ---------- | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Thought Leadership | 8 (the profile of 24 October) | none         | found      | 24 October, after the sitting, his word | The cost read as one delete in its dialog: no endorsements, no card or project linked to it, nothing on the page proving it, the neighbours Strategic Leadership and Technology Leadership carrying the retrieval. Live until the next sitting. |
+
+## The evidence map, proposed 2026-10-25
+
+Jim's rule of 25 October: every card that takes a list of skills carries them; the top six carry
+every surface that shows them, never a single example; every name carries at least one. The
+links he set himself on 25 October are in the after-baseline (`linkedin/reference/current-profile-2026-10-24-after.md`
+§Skill links, read 2026-10-25). The additions below are the seat's reading of what each card's
+text shows, his to edit; the links a reader would doubt are named. The route is the skill's own edit dialog on the
+skills page ("Tell us where you put this skill to use"), which lists every surface with a
+checkbox, 24 on 25 October, 23 after Jim deleted the two certificates the same day and 24 again
+with the Obaith project added that afternoon: the ten positions, the three education entries, the
+projects, the volunteering entry, the three publications and the
+organisation. So volunteering, the organisation and the publications are evidence too, Jim's
+correction of 25 October: the three publications for Astrophysics, Cosmology, Computational
+Physics, Statistical Modeling, Parameter Estimation, Physics, Scientific Research, Scientific
+Writing and Science Communication (the thesis and the first paper for Citizen Science too); the
+volunteering for Social Impact; the Institute of Physics for Physics. Jim was setting the links
+himself through that dialog on 25 October (Technological Innovation read at nine surfaces, the
+two Oak positions, the PhD, FT Labs, HP Labs and the four projects).
+
+| Card                                        | Proposed additions                                                                                                                                                                                                                                                                                                                             | A reader would doubt                        |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| Principal Engineer                          | Technological Innovation, Social Impact, Systems Thinking, Social Innovation, Technology Leadership, Emerging Technologies, Large Language Models (LLM), Model Context Protocol (MCP), Digital Public Goods, Digital Government, Edtech, Platform Engineering, Product Engineering, Software Engineering Practices, Open Data, Public Speaking |                                             |
+| Senior Developer, Oak                       | Social Impact, Social Innovation, Edtech, Platform Engineering, Software Engineering Practices, Web Technologies, Product Engineering                                                                                                                                                                                                          |                                             |
+| Founder, Code Science                       | Entrepreneurship, Strategic Leadership, Software Engineering Practices, Mentoring, Public Sector, Edtech                                                                                                                                                                                                                                       |                                             |
+| Medicspot                                   | Startups, Platform Engineering, Web Technologies, Software Engineering Practices, Mentoring                                                                                                                                                                                                                                                    |                                             |
+| Obaith                                      | Systems Thinking, Social Innovation, Social Impact, Research and Development (R&D), Entrepreneurship                                                                                                                                                                                                                                           |                                             |
+| UK Home Office                              | Digital Government, Software Engineering Practices, Systems Thinking                                                                                                                                                                                                                                                                           |                                             |
+| British Airways                             | Software Engineering Practices, Systems Thinking                                                                                                                                                                                                                                                                                               |                                             |
+| FT Labs                                     | Startups, Technological Innovation, Web Technologies, Product Engineering, Technology Leadership, Software Engineering Practices, Open-Source Development, Systems Thinking, Emerging Technologies                                                                                                                                             | Strategic Leadership                        |
+| PhD Researcher                              | Astrophysics, Cosmology, Computational Physics, Statistical Modeling, Parameter Estimation, Physics, Citizen Science, Scientific Research, Scientific Writing, Science Communication, Public Speaking, C                                                                                                                                       |                                             |
+| Hewlett-Packard Laboratories                | Mentoring, Software Engineering Practices                                                                                                                                                                                                                                                                                                      | Prototyping, kept at his word of 25 October |
+| The Oak AI Plugin                           | Technological Innovation, Social Impact, Social Innovation, Emerging Technologies, Large Language Models (LLM), Responsible AI, System Architecture, Open Standards, Open-Source Software, Open-Source Development, Digital Public Goods, Edtech, TypeScript, Product Engineering                                                              |                                             |
+| The Practice                                | Technological Innovation, Artificial Intelligence (AI), Generative AI, Emerging Technologies, Systems Thinking, Open-Source Software, Open-Source Development, TypeScript                                                                                                                                                                      |                                             |
+| FT Web App                                  | Technological Innovation, Emerging Technologies                                                                                                                                                                                                                                                                                                |                                             |
+| The Oak Web Application                     | Strategic Leadership, Technology Leadership, Technological Innovation, Systems Thinking, Open-Source Software, Open-Source Development, Open Data, Digital Public Goods, Public Sector, Edtech, Social Impact, Software Development                                                                                                            |                                             |
+| Obaith (project, added 25 October)          | Social Innovation, Social Impact, Systems Thinking, Research and Development (R&D)                                                                                                                                                                                                                                                             |                                             |
+| PhD, Institute of Cosmology and Gravitation | Astrophysics, Cosmology, Physics, Computational Physics, Statistical Modeling, Parameter Estimation, Scientific Research, Scientific Writing, Science Communication, Citizen Science, C                                                                                                                                                        |                                             |
+| MSc, University of Sussex                   | Cosmology, Astrophysics, Physics, Scientific Research, Scientific Writing, Science Communication, Computational Physics                                                                                                                                                                                                                        |                                             |
+| MPhys, University of Bath                   | Physics, Prototyping (the Theremin)                                                                                                                                                                                                                                                                                                            |                                             |
+
+With the additions every one of the 47 names has a card, and the top six read: Technological
+Innovation on the Principal card, the Plugin, the Practice, the Oak Web Application, FT Labs and
+the FT Web App; Artificial Intelligence (AI) on the Principal card, the Plugin and the Practice;
+Social Impact on the Principal and Senior Developer cards, Obaith, the Plugin and the Oak Web
+Application; Systems Thinking on Obaith, the Principal card, the Practice, the Oak Web
+Application, FT Labs, the Home Office, British Airways and HP Labs; Strategic Leadership on the
+Principal, Senior Developer, Code Science, Home Office and British Airways cards and the Oak Web
+Application, with FT Labs and HP Labs his call; Social Innovation on Obaith, the Principal and
+Senior Developer cards and the Plugin. Public Speaking's cards are the Principal (the vision
+presented), the Home Office (the workshops) and the PhD (the conference talks, his word of 11
+October); the About's teaching and tour guiding back it in text.
+
+### Applied and verified, 2026-10-25
+
+Every name on the canonical list carries the map above on the live profile, set at each skill's own
+edit dialog and re-read after its Save; Jim's own ticks beyond the map stand (his nine on
+Technological Innovation, the three publications on Research and Development, Bath on Science
+Communication, and Reforest Now, the project he added the same morning, on Social Innovation,
+Social Impact and Entrepreneurship); Strategic Leadership is off HP Labs and FT Labs at his word.
+The first pass by form fill did not persist (the dialog closed on Save and the server kept the old
+state); the second pass clicked each row and read each dialog back (`linkedin-profile`
+§Gotchas). Two names stand on the live list beyond the canonical 47, both his, both linked to the
+ICG: C (Programming Language), beside C and its two endorsements, and Scientific Programming;
+both C forms stay at his word, so the canonical list is 49. Two links of the map were withdrawn
+at his word the same day, Scientific Research off Obaith ("research is not the same as
+scientific research") and Public Speaking off the Home Office (the public sector is not the
+public); the live unticks were interrupted at his word, and both dialogs read at the pickup show them
+persisted. The two certificates were deleted by Jim the same afternoon, so the map carries no
+certificate surface. The sense check of the same afternoon read every link against what its card
+says he did and put seven doubts to him; at his answers eight dialogs were set and read back:
+Obaith lost Software Development, JavaScript and Prototyping; the Home Office and British Airways
+lost Open-Source Software and JavaScript, the old profile's links; Senior Developer at Oak lost
+Open Standards and kept Prototyping; HP Labs lost Research and Development and kept Prototyping;
+Code Science kept Mentoring, Open-Source Software, JavaScript and TypeScript, the Medicspot and
+Oak work having run through it; the PhD position joined the ICG on C (Programming Language) and
+Scientific Programming. The Obaith project, added the same afternoon at the add-project form,
+links Social Innovation, Social Impact, Systems Thinking and Research and Development (R&D), read
+on the projects page. The after-baseline carries the per-skill table.
+
+## Free-text names the typeahead did not know, 2026-10-11
+
+Free text on the profile would retrieve nothing; none is on the list.
+
+| Name                    | Where it stood | The dropdown offered                                                                                                                   | Disposition                                                                                        |
+| ----------------------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
+| Innovation              | was 1          | Creativity and Innovation, Innovation Management, Product Innovation, Technological Innovation, Open Innovation, Innovation Leadership | Creativity and Innovation at Jim's word, then Technological Innovation at his word of the evening. |
+| Engineering Strategy    | below the line | Research Skills                                                                                                                        | Strategy took the slot; Strategic Leadership at his word of the evening.                           |
+| Technical Strategy      | below the line | IT Strategy, Search Engine Optimization (SEO)                                                                                          | Withdrawn.                                                                                         |
+| Digital Public Services | below the line | Public Relations, Digital Publishing                                                                                                   | Digital Government took the slot.                                                                  |
+| Research                | below the line | Research Skills, Market Research, Research and Development (R&D), Qualitative Research, Quantitative Research                          | Scientific Research took the slot.                                                                 |
+| Statistical Modelling   | was 13         | Statistical Modeling                                                                                                                   | The US spelling.                                                                                   |
+
+## Removed from the canonical list on 2026-10-11 at Jim's word
+
+Every name that left the list that day, with its live position, the endorsements that leave with
+it, and when he removed it: in the morning by his word on the testing trade and Java; in the
+afternoon on Coaching; in the evening, by ratifying the seat's verdicts on the names in question
+and by his own hand on names of the afternoon's decided list. Free text the seat had proposed
+and the typeahead did not know is withdrawn in the same table.
+
+| Skill                                                  | Live | Endorsements | 2018 crawl          | Removed                              | Note                                                                                          |
+| ------------------------------------------------------ | ---- | ------------ | ------------------- | ------------------------------------ | --------------------------------------------------------------------------------------------- |
+| Java                                                   | 49   | 13           | found               | morning, his word                    | "drop Java".                                                                                  |
+| Test Automation                                        | 30   | 8            | found               | morning, his word                    | The testing trade.                                                                            |
+| Automated Software Testing                             | 56   | none         | found               | morning, his word                    | The testing trade.                                                                            |
+| Test Driven Development                                | 33   | none         | found               | morning, his word                    | The testing trade.                                                                            |
+| TDD                                                    | 35   | none         | missing             | morning, his word                    | Duplicate of the line above.                                                                  |
+| BDD                                                    | 58   | none         | missing             | morning, his word                    | The testing trade.                                                                            |
+| Cucumber                                               | 60   | none         | found               | morning, his word                    | The testing trade.                                                                            |
+| Coding Standards                                       | 43   | none         | found               | morning, his word                    |                                                                                               |
+| Software Development Life Cycle (SDLC)                 | 37   | none         | found               | morning, his word                    |                                                                                               |
+| Process Improvement                                    | 62   | none         | missing             | morning, his word                    |                                                                                               |
+| Coaching                                               | 3    | none         | found               | afternoon, his word                  | Mentoring in its place.                                                                       |
+| Technical Leadership                                   | 10   | none         | found               | evening, the seat's verdict ratified | A duplicate of Technology Leadership.                                                         |
+| Team Leadership                                        | 1    | none         | found               | evening, the seat's verdict ratified | The line manager.                                                                             |
+| Data Analysis                                          | 42   | none         | found               | evening, the seat's verdict ratified | The scientist cluster says it.                                                                |
+| Technical Architecture                                 | 15   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Digital Services                                       | 18   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Consulting                                             | 19   | none         | missing             | evening, the seat's verdict ratified |                                                                                               |
+| Project Management                                     | 28   | none         | missing             | evening, the seat's verdict ratified |                                                                                               |
+| Agile Methodologies                                    | 34   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Continuous Integration and Continuous Delivery (CI/CD) | 59   | none         | missing             | evening, the seat's verdict ratified |                                                                                               |
+| Pair Programming                                       | 61   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| DevOps                                                 | 63   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Infrastructure Automation                              | 8    | none         | missing             | evening, the seat's verdict ratified |                                                                                               |
+| Configuration Management                               | 9    | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Cloud Computing                                        | 21   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Analytical Skills                                      | 5    | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Creative Problem Solving                               | 13   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Problem Solving                                        | 55   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Solution-oriented                                      | 12   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Communication                                          | 54   | 1            | found               | evening, the seat's verdict ratified |                                                                                               |
+| Programming                                            | 40   | 5            | missing             | evening, the seat's verdict ratified |                                                                                               |
+| Web Development                                        | 36   | none         | found               | evening, the seat's verdict ratified |                                                                                               |
+| Node.js                                                | 53   | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| React.js                                               | 51   | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Next.js                                                | 52   | none         | missing             | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| GraphQL                                                | 22   | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| HTML                                                   | 44   | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| HTML5                                                  | 45   | 5            | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| CSS                                                    | 46   | 2            | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Scripting                                              | 7    | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Linux                                                  | 6    | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Git                                                    | 47   | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| GitHub                                                 | 48   | none         | found               | evening, the seat's verdict ratified | Live as "Github".                                                                             |
+| PostgreSQL                                             | 4    | none         | found               | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Hasura                                                 | 25   | none         | missing             | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Google Cloud Platform (GCP)                            | 26   | none         | missing             | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Cloudflare                                             | 27   | none         | missing             | evening, the seat's verdict ratified | The stack and tool tags, one decision.                                                        |
+| Leadership                                             | 20   | none         | found               | evening, his own hand                | Strategic Leadership in its place.                                                            |
+| Strategy                                               | 14   | none         | found               | evening, his own hand                | Strategic Leadership in its place.                                                            |
+| Product Strategy                                       | 2    | none         | found               | evening, his own hand                |                                                                                               |
+| Digital Strategy                                       | 24   | none         | found               | evening, his own hand                | Kept in the afternoon, left in the evening.                                                   |
+| Software Engineering                                   | 38   | 2 to 3       | missing (crawl gap) | evening, his own hand                | Software Development and Software Engineering Practices in its place.                         |
+| Web Applications                                       | 32   | at least 1   | found               | evening, his own hand                | Web Technologies in its place.                                                                |
+| Social Entrepreneurship                                | —    | —            | found               | evening, his own hand                | The afternoon's first pin; Social Impact is the pin.                                          |
+| Creativity and Innovation                              | —    | —            | missing             | evening, his own hand                | Technological Innovation is the pin.                                                          |
+| Developer Experience                                   | —    | —            | missing             | evening, his own hand                | The seat's name.                                                                              |
+| Psychological Safety                                   | —    | —            | missing             | evening, his own hand                | The seat's name; both readers read it with Team Leadership and Mentoring as a people manager. |
+| Engineering Strategy                                   | —    | —            | not checked         | evening, withdrawn                   | The seat's free text, not standardised.                                                       |
+| Technical Strategy                                     | —    | —            | not checked         | evening, withdrawn                   | The seat's free text, not standardised.                                                       |
+| Research                                               | —    | —            | not checked         | evening, withdrawn                   | The seat's free text, not standardised.                                                       |
+| Digital Public Services                                | —    | —            | not checked         | evening, withdrawn                   | The seat's free text, not standardised.                                                       |
+
+Not added, at Jim's word of the afternoon: Digital Transformation. Withdrawn by the seat the
+same hour: Strategic Thinking.
+
+## Endorsements on the live profile, read 2026-10-11
+
+Read in Chrome from the skills detail page in the self view, with Jim present. LinkedIn shows
+up to two highlight lines ("Endorsed by [a person] and N others", "Endorsed by N colleagues at
+[a company]") and, for most, a numeric line; where only highlights show, the count is a floor.
+Endorsers' names are not recorded here. The other fifty-one skills, Team Leadership, Analytical
+Skills, PostgreSQL, Strategy and Technical Architecture among them, show no endorsement line.
+
+| Skill                | Count                     | Lines read                                                        |
+| -------------------- | ------------------------- | ----------------------------------------------------------------- |
+| Java                 | 13                        | 2 colleagues at Financial Times; 13 endorsements                  |
+| Software Development | 12                        | 3 colleagues at Financial Times; 12 endorsements                  |
+| Test Automation      | 8                         | 2 colleagues at Financial Times; 8 endorsements                   |
+| Programming          | 5                         | 5 endorsements                                                    |
+| HTML5                | 5                         | 5 endorsements                                                    |
+| JavaScript           | at least 4                | a person and 3 others; 2 colleagues at British Airways; no number |
+| Physics              | 3                         | 3 endorsements                                                    |
+| Software Engineering | 2 to 3                    | 3 colleagues at Financial Times; 2 endorsements                   |
+| CSS                  | 2                         | a person; 2 endorsements                                          |
+| C                    | 2                         | 2 endorsements                                                    |
+| Web Applications     | at least 1 (3 colleagues) | a person; 3 colleagues at Financial Times; no number              |
+| Communication        | 1                         | 1 endorsement                                                     |
+
+Of the twelve, four stay on the list (Software Development, JavaScript, Physics, C and nothing
+else above one; Web Applications leaves for Web Technologies).
+
+## Names confirmed at the typeahead and held
+
+Each is standardised; none is on the list. Open Innovation carries the seat's doubt that it
+reads as a management term; Technology Policy and Teaching are holds until he asks for them.
+
+| Skill             | Provenance   | 2018 crawl  | Typeahead | Note                               |
+| ----------------- | ------------ | ----------- | --------- | ---------------------------------- |
+| Open Innovation   | seat, 11 Oct | found       | confirmed | The seat doubts it; his call.      |
+| Technology Policy | seat, 11 Oct | found       | confirmed | Hold.                              |
+| Teaching          | seat, 11 Oct | not checked | confirmed | Hold; he taught maths and physics. |
+
+The AI cluster's one governing fact: LinkedIn renamed the broad "Artificial Intelligence" entry
+to "AI Literacy" in its Skills on the Rise 2025 because members adding it use AI tools without
+learning AI technical skills, so the broad tag classifies without distinguishing. On the list
+the broad tag is pin 2 at Jim's word, naming the field the headline does not, and the five
+specific names in the tail (AI Agents, Model Context Protocol (MCP), Generative AI, Large
+Language Models (LLM), Responsible AI) with the plugin on the page do the distinguishing.
+
+## Candidates from the gap analysis, 2026-10-11, evening, not proposed
+
+Read at the typeahead the same evening at Jim's request ("see what we are missing"), each with
+the seat's one sentence of what it would say about him and the card that shows it. The 2018
+crawl's answer is in brackets where it differs from the typeahead. Jim's word, 12 October:
+Digital Public Goods, Citizen Science, Entrepreneurship and Thought Leadership join the list
+(applied 12 October); Strategic Partnerships does not; the rest are not proposed.
+
+| Skill                      | Typeahead 2026-10-11                                    | What it says, and where the page shows it                                                                 |
+| -------------------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Strategic Partnerships     | confirmed (crawl missing; also Partnerships)            | He holds Oak's engineering relationships with vendors and partners; the Principal card's first paragraph. |
+| Citizen Science            | confirmed                                               | The Galaxy Zoo work on the PhD card; the scientist who works with the public.                             |
+| Entrepreneurship           | confirmed (Social Entrepreneurship beside it)           | The three start-ups and Obaith; the page shows Medicspot and Obaith.                                      |
+| Design Thinking            | confirmed                                               | A method noun; nothing on the page names it.                                                              |
+| Public Policy              | confirmed                                               | Oak as an arm's-length body of the Department for Education; the page shows the body, not policy work.    |
+| Systems Design             | confirmed                                               | The rebuild and the platform groups; beside System Architecture it says the same thing.                   |
+| Stakeholder Engagement     | confirmed                                               | "The case for it to senior leadership, engineers and non-engineers alike"; the Principal card.            |
+| Organizational Design      | confirmed                                               | The Team Topologies design for the cross-functional teams; the Principal card.                            |
+| Public Engagement          | confirmed (Public Speaking beside it)                   | The tour guiding and tutoring, not on the page.                                                           |
+| Digital Public Goods       | confirmed (crawl missing)                               | Oak's open curriculum as public digital infrastructure; the About's plugin paragraph.                     |
+| Civic Technology           | confirmed (crawl missing)                               | The sector noun for Oak's kind of service; the About.                                                     |
+| Public Interest Technology | confirmed (crawl missing)                               | The same, in the sector's other term; the About.                                                          |
+| Conference Speaking        | confirmed                                               | The conference talks, not on the page.                                                                    |
+| Thought Leadership         | confirmed                                               | A self-description; nothing on the page shows it.                                                         |
+| Scientific Computing       | confirmed                                               | The model fitting on the PhD card; beside Computational Physics it says the same thing.                   |
+| Change Leadership          | not standardised; the dropdown offers Change Management | The rebuild argued and carried; a process noun in the taxonomy's form.                                    |
+
+## Alternative names confirmed at the typeahead, not proposed
+
+| Skill                            | Typeahead 2026-10-11 | Note                                                                  |
+| -------------------------------- | -------------------- | --------------------------------------------------------------------- |
+| Innovation Leadership            | confirmed            | "Leading innovation can stay at the top" (Jim, 11 Oct).               |
+| Innovation Management            | confirmed            | Reads as process management.                                          |
+| IT Strategy                      | confirmed            | Reads as the IT department.                                           |
+| Strategic Technology Development | confirmed            | A fallback for the strategy slot, not needed.                         |
+| Research Skills                  | confirmed            | Weaker than Scientific Research.                                      |
+| Agentic AI Development           | confirmed            | "Agentic AI" alone is not standardised; AI Agents is.                 |
+| Technology Strategy              | not standardised     | The dropdown offers IT Strategy and Strategic Technology Development. |

@@ -44,7 +44,7 @@ description = "Meta-level plan specialist for both read-only review and active-w
 config_file = "agents/assumptions-expert.toml"
 
 [agents."audience-reader"]
-description = "Audience simulation for copy that represents Jim; reports what the named reader believes, would repeat, skipped and would do next."
+description = "Audience simulation for copy that represents the host author; reports what the named reader believes, would repeat, skipped and would do next."
 config_file = "agents/audience-reader.toml"
 
 [agents."code-expert"]
@@ -92,7 +92,7 @@ description = "Documentation and ADR quality reviewer."
 config_file = "agents/docs-adr-expert.toml"
 
 [agents."editor"]
-description = "Editorial reviewer for Jim Cresswell's public-facing content. Reviews audience fit, attention, structure, evidence, voice and consistency — the developmental pass, returning actionable feedback without editing files. Invoke first on every draft of copy that represents Jim (LinkedIn fields, CV, front page, bios, posts), before prose-expert's line pass and the audience-reader, so Jim reads second. Not for repository prose, records or plans, and never the sentence-level rewrite. Right looks like a letter naming the structural change to make first; wrong looks like polished sentences inside a structure that has not earned its shape."
+description = "Editorial reviewer for the host author's public-facing content. Reviews audience fit, attention, structure, evidence, voice and consistency — the developmental pass, returning actionable feedback without editing files. Invoke first on every draft of copy that represents the author (LinkedIn fields, CV, front page, bios, posts), before prose-expert's line pass and the audience-reader, so the author reads second. Not for repository prose, records or plans, and never the sentence-level rewrite. Right looks like a letter naming the structural change to make first; wrong looks like polished sentences inside a structure that has not earned its shape."
 config_file = "agents/editor.toml"
 
 [agents."onboarding-expert"]
@@ -104,7 +104,7 @@ description = "PKG specialist reviewer — Schema.org, JSON-LD, and graph correc
 config_file = "agents/pkg-expert.toml"
 
 [agents."prose-expert"]
-description = "Prose craft reviewer for universal writing clarity; the editorial voice on content that represents Jim is editor's."
+description = "Prose craft reviewer for universal writing clarity; the editorial voice on content that represents the host author is editor's."
 config_file = "agents/prose-expert.toml"
 
 [agents."react-component-expert"]

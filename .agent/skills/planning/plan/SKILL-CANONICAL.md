@@ -294,7 +294,9 @@ Two companion disciplines:
 ### Pre-Author Scope-Vocabulary Check
 
 Before saving any forward-looking framing in a plan body (`Cycle N`,
-`Phase N`, `Round N`, `Wave N`, `Next session`, `Follow-on`), ask: *am I
+`Phase N`, `Round N`, `Wave N`, `Next session`, `Follow-on`, `later`, `a later
+session`, `the next pull request`, `at the owner's word later`, `the second
+instance proposes it`), ask: *am I
 authoring vocabulary that implies scope or commitments the owner did not
 authorise?* A series that exists in no owner direction or ratified
 artefact is invented obligation — future readers treat "Cycle 2" as

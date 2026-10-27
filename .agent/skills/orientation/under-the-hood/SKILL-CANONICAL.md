@@ -175,9 +175,10 @@ recited from memory):
 - **The site and its content** order naturally as `README.md` §Overview → the
   live site → `docs/architecture/content-model.md` (how content JSON becomes
   pages, metadata and the PDF) → `docs/project/` (the user stories) →
-  `.agent/directives/editorial-guidance.md` (the voice every piece of content
-  keeps). The content is the owner's own statement of their work; relay it,
-  never embellish it.
+  `.agent/directives/editorial-guidance.md` (how a person is modelled and
+  conveyed) and `docs/editorial/author.md` (the owner's voice, which every
+  piece of content keeps). The content is the owner's own statement of their
+  work; relay it, never embellish it.
 - **The planning corpus** starts at `.agent/plans/README.md` — the planning
   estate's own index, which names the plan types and the layout — then the
   strategic plans in `.agent/plans/strategic/` for where the work is going,
@@ -277,7 +278,7 @@ relative to the repository root; the live site is a public web page.
 | `docs/project/` | User stories and requirements |
 | `.agent/README.md` and `.agent/HUMANS.md` | What the `.agent/` estate is, for human readers |
 | `.agent/directives/AGENT.md`, `principles.md`, `testing-strategy.md` | The agent direction: project context and commands, the development rules, the testing philosophy |
-| `.agent/directives/editorial-guidance.md` | The owner's editorial voice and identity — read before any content work |
+| `.agent/directives/editorial-guidance.md`, `docs/editorial/author.md` | How a person is modelled and conveyed, and the owner's voice and identity — read before any content work |
 | `.agent/practice-index.md` | The Practice's index: directives, rules, skills, sub-agents and the Core's decision records |
 | `.agent/practice-core/provenance.yml` and `.agent/practice-core/CHANGELOG.md` | Where the shared Practice Core came from and how it has moved between estates |
 | `.agent/plans/README.md`, `.agent/plans/strategic/` and `.agent/plans/delivery/` | The planning estate — how plans are structured, the strategic outcomes the work is aimed at, the live delivery nodes |

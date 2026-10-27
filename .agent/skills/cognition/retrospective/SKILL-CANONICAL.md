@@ -62,7 +62,15 @@ seat-scoped conservation.
    a 2026-09-16 retrospective chose whole-file reading from the prompt's words
    and met the owner's 2026-09-02 correction of that exact shape ("you used up
    the entire context window reading huge, old napkins") 600 KB in. Write the
-   analysis to a ledger on disk as each window is read.
+   analysis to a ledger on disk as each window is read. For an arc the owner
+   corrected in chat, the owner's typed turns filtered from the session
+   transcripts into one dated ledger per seat (user-role string messages
+   only; loop prompts, notifications and pasted notes removed) are the
+   primary source, read in order against what the seat had just done: three
+   such ledgers (110 KB, about 290 turns) carried the LinkedIn lane's
+   retrospective of 2026-10-27 where the transcripts were 800 MB and the
+   thread record was the seat's own account. They are private material and
+   live in the private repository.
 3. **Build the causal stack, ordered by depth.** Technical root, process
    root, meta root — each layer with its evidence, each answering "why was
    the layer above possible?". Stop at the layer where the next "why"

@@ -259,5 +259,23 @@ amended before any push. The sweep after such a correction searches for the clas
 intentions, his reasons about himself), never the corrected sentence, and a second reader runs
 it.
 
+His ruling of 27 October 2026 generalises that one, verbatim: "personal insight is always considered
+sensitive. Factual information can stay in the public repo as long as it is appropriate for the
+public domain, such as the linkedin content. Anything that gives psychological or non-public insight
+into myself MUST exist only in the private repo ... Please reflect on that, on what it means, and
+why it is important, this is a risk and privacy based assessment." The cut is on the information,
+whoever wrote it: a fact one of his published surfaces carries (the LinkedIn profile, the CV, the
+site, an editorial decision record) may stay in a tracked file; anything that gives psychological or
+non-public insight into him (an inner state, a self-view, a value stated as his psychology, an
+attitude, a feared reading, an impression intended but unstated, a positioning rationale, a career
+intention, his priority readers and the level he aims at) exists only in the private editorial
+repository; how he works with agents, where it is specifically about him and not about how to work
+with a user, lives in his user-scoped operator profile (PDR-141), by his word of the same day. The
+one exception, by his word of the same day, is the voice line of the public author file, a
+presentation statement derivable from the published surfaces. Presence in the tracked tree is not a
+classification, the sort is a read of the prose sentence by sentence, and removing a name is not
+removing the insight. The public author file is `docs/editorial/author.md`; the private author file
+is in the private editorial repository.
+
 Git ignore is not a complete tooling boundary: whole-repository tools take the tracked tree as
 their universe, so ignored material is never entered or read.

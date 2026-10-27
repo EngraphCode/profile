@@ -47,7 +47,7 @@ I proposed dropping two short contract cards because the simulated readers skipp
 owner was happy to drop them and unhappy with my reasoning: what would we lose, and was the
 readers' flicker a problem at all? He wanted critical thought. The argument that survived was not
 the readers': the cards changed no decision for the readers the profile is for, they were keyword
-hooks for the approaches he does not want, and the CV kept them so the record lost nothing; the
+hooks for readers the profile is not for, and the CV kept them so the record lost nothing; the
 cost was one small instance of research meeting engineering. The readers are a falsification
 instrument, never the audience, and never the reason.
 

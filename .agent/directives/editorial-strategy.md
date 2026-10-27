@@ -3,17 +3,19 @@ fitness_line_target: 230
 fitness_line_limit: 250
 fitness_char_limit: 15000
 fitness_line_length: 100
+layer: general
 split_strategy: Extract surface-specific examples or tests; keep the cross-surface composition contract here
 ---
 
 # Editorial Strategy and Composition
 
-This directive governs how Jim's public content earns and uses attention. It covers audience,
+This directive governs how an author's public content earns and uses attention. It covers audience,
 reader purpose, information order, readability, section weight, evidence, platform fit and the
 method used to review a draft.
 
-Read it alongside [editorial-guidance.md](./editorial-guidance.md), which governs identity,
-positioning, voice and register. Neither document replaces the other. Specific settled choices
+Read it alongside [editorial-guidance.md](./editorial-guidance.md), which governs how a person is
+modelled and conveyed, with the public author file (in this host `docs/editorial/author.md`) for
+the author's voice, vocabulary and standing decisions. Neither document replaces the other. Specific settled choices
 belong in [Editorial Decision Records](../../docs/editorial/decision-records/).
 
 ## Authority and scope
@@ -21,13 +23,14 @@ belong in [Editorial Decision Records](../../docs/editorial/decision-records/).
 | Surface                 | Owns                                                                                         |
 | ----------------------- | -------------------------------------------------------------------------------------------- |
 | This directive          | Audience strategy, attention, structure, readability, length, evidence flow and platform fit |
-| `editorial-guidance.md` | Identity, positioning, voice, register and recurring language constraints                    |
+| `editorial-guidance.md` | How a person is modelled and conveyed: registers, the conveying principles, the hierarchy    |
+| The public author file  | The author's voice, positioning vocabulary, facts and standing decisions (`docs/editorial/`) |
 | EDRs                    | Specific editorial decisions and their alternatives                                          |
 | Working drafts          | Current copy under discussion                                                                |
 | Published content       | What readers can actually encounter now                                                      |
 
-A draft is not strong merely because every sentence sounds like Jim. It must also help the right
-reader notice, understand and trust the right things in the time and context they actually have.
+A draft is not strong merely because every sentence sounds like the author. It must also help the
+right reader notice, understand and trust the right things in the time and context they have.
 
 ## Begin with the reader's decision
 
@@ -48,7 +51,7 @@ audience may be served without controlling the order or vocabulary of the whole 
 The CV and LinkedIn profile commonly serve:
 
 1. **Hiring managers, senior leaders and the search partners acting for them** deciding whether
-   Jim originates and shapes at scale, never whether he fits a line role (EDR-008).
+   the author originates and shapes at scale, never whether they fit a line role (EDR-008).
 2. **Recruiters** deciding whether they can recognise, place and forward the profile accurately.
 3. **Peers and collaborators** deciding whether the work and way of thinking merit engagement.
 4. **Founders, funders and public-interest leaders** looking for origination, leverage and
@@ -182,16 +185,16 @@ Readability means preserving the real complexity while reducing unnecessary deco
 ## Translate models into public copy
 
 Internal models help explain and test intended meaning; they do not supply public vocabulary or
-outrank Jim's account. When a passage fails, test the model before searching for synonyms. Treat
-spoken reactions and metaphors as editorial evidence of intent, energy and voice, not external
-facts. Extract the intended relationship, then discard unwanted baggage.
+outrank the author's account. When a passage fails, test the model before searching for synonyms.
+Treat spoken reactions and metaphors as editorial evidence of intent, energy and voice, not
+external facts. Extract the intended relationship, then discard unwanted baggage.
 
 Give each surface and section one job. Impact and theoretical completeness are separate tests.
 Prefer ordinary nouns, active verbs and audible rhythm to compressed explanation; distribute
 necessary tensions across the profile instead of forcing them into every sentence. Develop copy
-directly with Jim until it is close, then use peer and specialist review as bounded falsification
-for misunderstanding, overclaim, connotation and readability. Jim's decision settles the current
-iteration unless he reopens it.
+directly with the author until it is close, then use peer and specialist review as bounded
+falsification for misunderstanding, overclaim, connotation and readability. The author's
+decision settles the current iteration unless the author reopens it.
 
 ## Coherence without overfitting
 
@@ -231,13 +234,14 @@ reader pass first, a whole-piece pass last); this directive keeps the surface-sp
 4. **Structure pass** — test section jobs, order, weight, paragraph boundaries and repetition.
 5. **Evidence pass** — test claims, attribution, examples and open uncertainty.
 6. **Readability pass** — reduce decoding cost and test rhythm aloud.
-7. **Voice and identity pass** — apply `editorial-guidance.md` and relevant EDRs.
+7. **Voice and identity pass** — apply `editorial-guidance.md` §Voice and register, the public
+   author file and relevant EDRs.
 8. **Platform pass** — verify the real rendered surface and publication constraints.
 9. **Whole-piece pass** — read again as the intended audience, not as the author or reviewer.
 
 For each issue, name the exact passage, the lens, the reader consequence and the required effect of
-a fix. Distinguish factual corrections, platform constraints and editorial judgements. Jim's
-spoken response and direct edits are primary editorial evidence, not noise to be normalised away.
+a fix. Distinguish factual corrections, platform constraints and editorial judgements. The
+author's spoken response and direct edits are primary editorial evidence, not noise to normalise.
 
 ## Working and decision records
 

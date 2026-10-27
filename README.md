@@ -257,7 +257,7 @@ This project has explicit rules for code quality, testing, and editorial voice t
 - [`.agent/directives/AGENT.md`](.agent/directives/AGENT.md) — Project context, commands, structure (start here)
 - [`.agent/directives/principles.md`](.agent/directives/principles.md) — Development rules: TDD, type safety, code quality
 - [`.agent/directives/testing-strategy.md`](.agent/directives/testing-strategy.md) — Testing philosophy, test types, naming conventions
-- [`.agent/directives/editorial-guidance.md`](.agent/directives/editorial-guidance.md) — Jim's editorial voice and identity (read before any content work)
+- [`.agent/directives/editorial-guidance.md`](.agent/directives/editorial-guidance.md) — how a person is modelled and conveyed, with [`docs/editorial/author.md`](docs/editorial/author.md) for the author's voice and standing decisions (read before any content work)
 
 ## Licence
 

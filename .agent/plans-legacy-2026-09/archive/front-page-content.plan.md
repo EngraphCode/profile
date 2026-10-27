@@ -1,6 +1,6 @@
 # Front Page Content
 
-Rework the front page from its current placeholder state into Jim's personal front page with a _slight_ project/professional lean because Jim likes projects and impact.
+Rework the front page from its current placeholder state into Jim's personal front page with a _slight_ project/professional lean.
 
 ## Status: Complete
 
@@ -19,7 +19,7 @@ This is less important the passions, interests, motivations, personality. Additi
 - **Academic**: PhD in Astrophysics & Cosmology (University of Portsmouth). MSc Cosmology (Sussex). MPhys Physics (Bath). Published research on cosmological anomalies and large-scale structure. Undergraduate thesis on the design and construction of a Theremin.
 - **Career path**: Physics research → HP Labs → British Airways → Financial Times Labs (contributed to the award-winning FT Web App) → HMPO (UK Passport Service) → Oak National Academy (2020–present).
 - **Current role**: At Oak National Academy, leads on complex, high-impact problems in a live national education public service. Recent focus: treating Oak's openly licensed curriculum data as public digital infrastructure, exposed through SDKs and AI-first machine-accessible interfaces (MCP), so trusted public data can reach people where they already are.
-- **Technical**: Hands-on with modern PaaS/serverless web stacks (not Docker/containers — more Vercel, serverless, cloud-native). Data-fluent, though not a practising data scientist. Built this site (Next.js 16, React 19, TypeScript, Tailwind CSS 4, deployed on Vercel).
+- **Technical**: Hands-on with modern PaaS/serverless web stacks (Vercel, serverless, cloud-native). Built this site (Next.js 16, React 19, TypeScript, Tailwind CSS 4, deployed on Vercel).
 - **Positioning (from CV)**: "I work on high-impact, long-term problems in early or unstructured contexts where neither the problem nor the path forward is yet clear. I lead exploratory work with a clear purpose: to surface the underlying structure of complex systems so meaningful decisions can be made."
 - **CV capabilities**: Zero-to-one leadership; designing conditions for responsible AI use; judgement on irreversible/high-cost trade-offs; enabling ecosystems rather than centralising solutions.
 
@@ -28,10 +28,9 @@ This is less important the passions, interests, motivations, personality. Additi
 - The joy and bounty of growing food. Keeps an allotment. Breeds runner beans and sunflowers, selecting for resilience and genetic diversity.
 - Interested in ecology-informed food growing and how perennial systems shift resilience and yield stability.
 - Previously volunteered as a market gardener with Growing Communities (organic local-food initiative).
-- Previously researched and developed Reforest Now, a pitch about applying small changes to systemic tipping points for climate, ecology, and social inequality. Did not develop it further, but still likes the idea.
-- Similar, but for Obaith. He has vision and passion, but he hasn't found the right project to bring to life yet.
+- Previously researched and developed Reforest Now, a pitch about applying small changes to systemic tipping points for climate, ecology, and social inequality.
 - Ran for a council seat in Hackney.
-- Interested in systems understanding more broadly. He trained as a physicist for ten years, and has a PhD in cosmology, a lot of that was about defining problems by generalising understanding from specifics to underlying foundational systems, it's not just technique, it's a love of comprehension.
+- Interested in systems understanding more broadly. He trained as a physicist for ten years, and has a PhD in cosmology, a lot of that was about defining problems by generalising understanding from specifics to underlying foundational systems.
 
 ### Old landing page (prior to this site)
 
@@ -88,7 +87,7 @@ These decisions are agreed and should not be revisited.
 
 1. **No tagline on the front page.** The tagline ("Exploratory AI Application leader...") belongs with the CV only. The front page hero is: name, then summary text. The CV tagline is unchanged.
 
-2. **The front page is personal.** It gives visitors a flavour of who Jim is and what he cares about, can communicate interests and passions without evidence, and has an impact and interest lean because that is who he is.
+2. **The front page is personal.** It gives visitors a flavour of who Jim is and what he cares about, can communicate interests and passions without evidence, and has an impact and interest lean.
 
 3. **Content sections are interests and curiosities**, not job responsibilities or capability statements. Themes Jim is thinking about right now, framed personally and directly.
 

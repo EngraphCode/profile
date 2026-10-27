@@ -40,9 +40,9 @@ Anchored (already in permanent docs — do not re-add):
 - Gate restart discipline → [principles.md](.agent/directives/principles.md) Code Quality
 - Prefer `as const` runtime values to derive types and guards → [principles.md](.agent/directives/principles.md) Type Safety
 - Front page is not CV-lite, registers differ → [editorial-guidance.md](.agent/directives/editorial-guidance.md) Voice and register
-- Product safety not data safety → [editorial-guidance.md](.agent/directives/editorial-guidance.md)
-- Don't claim solo credit → [editorial-guidance.md](.agent/directives/editorial-guidance.md) Collaborative credit
-- No checkboxes for editorial discussions → [editorial-guidance.md](.agent/directives/editorial-guidance.md) Voice and register
+- Product safety not data safety → [docs/editorial/author.md](docs/editorial/author.md) Positioning vocabulary
+- Don't claim solo credit → [editorial-guidance.md](.agent/directives/editorial-guidance.md) Conveying a person
+- No checkboxes for editorial discussions → [editorial-guidance.md](.agent/directives/editorial-guidance.md) Working with the author
 - Minimise definitions in tests; move real domain rules into product code → [testing-strategy.md](.agent/directives/testing-strategy.md) Philosophy
 
 ## Learned Workspace Facts

@@ -1,6 +1,6 @@
 ---
 name: audience-reader
-description: 'Reads a draft that represents Jim as the audience the brief names and reports what that reader believes, would repeat, skipped and would do next; after editor and prose-expert, before Jim reads.'
+description: 'Reads a draft that represents the host author as the audience the brief names and reports what that reader believes, would repeat, skipped and would do next; after editor and prose-expert, before the author reads.'
 readonly: true
 ---
 

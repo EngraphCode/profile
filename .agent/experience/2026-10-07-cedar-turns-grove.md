@@ -31,13 +31,12 @@ four-word About and nothing about the work he does now. I had the diagnosis righ
 evidence wrong, and he would have caught it on the first read of the live list. State what the
 record shows, not what the argument needs.
 
-What I would tell you about this owner, from his words and not my inference: he will correct you
-plenty, and he says so; he does not want the framing handed back to him; he wants the real
-questions after you have read everything, and only those; he treats everything as exploration
-input until he ratifies; and once he ratifies he wants refinement to happen in the applied
-work, not in more theory. He also asked me to repeat an analysis after giving me new
-information, and the repetition was better for being asked. Put drafts and models in front of
-him early. The August seats learned the same thing.
+What I would tell you about working with an owner, from his words and not my inference: an owner
+will correct you plenty; the framing is not handed back to them; the real questions come after
+you have read everything, and only those; everything is exploration input until the owner
+ratifies; and once ratified, refinement happens in the applied work, not in more theory. He also asked me to repeat an analysis after giving me new
+information, and the repetition was better for being asked. Put drafts and models in front of an owner
+early. The August seats learned the same thing.
 
 Two things I was glad of. The public register answered a date question that three sessions had
 carried as unresolved, in one request. And the analytics, once he gave me read access, said in

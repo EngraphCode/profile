@@ -174,7 +174,7 @@ carrying it into another.
 
 ## An Answer Carries Directives Beyond Its Question
 
-The owner treats the answer channel of a structured question as a general
+An owner may treat the answer channel of a structured question as a general
 instruction channel. An artefact-deletion confirmation came back as "delete
 all three, and pass the seat to Barnacle" — the second clause initiated a
 full Director-seat succession no question had asked about; another answer
@@ -246,8 +246,7 @@ by a seat that read it softer:
   created an unasked recovery upload during a "don't delete anything yet"
   migration; the owner's words, "needless, without value, damaging"): stop
   at once, with no repair, no further exploration and no explanation. The
-  correction he wants is a process change, never contrition: "what I want
-  is for you to do better, not to suffer in any way". The two lessons
+  correction asked for is a process change, never contrition. The two lessons
   under it: a narrowly scoped approval is authority for the named action
   alone, never for adjacent edits, uploads, copies or deletions, and a
   preservation or recovery artefact is made only on a demonstrated need and

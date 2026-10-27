@@ -38,8 +38,9 @@ Before editorial-intensive phases (entity population, role descriptions), additi
 
 | Document                                             | Purpose                                                             |
 | ---------------------------------------------------- | ------------------------------------------------------------------- |
-| `.agent/skills/editorial/editorial-voice/SKILL-CANONICAL.md`             | Jim's voice — two registers, common pitfalls                        |
-| `.agent/directives/editorial-guidance.md`            | Authoritative editorial constraints                                 |
+| `.agent/skills/editorial/editorial-voice/SKILL-CANONICAL.md`             | The author's voice — two registers, common pitfalls                 |
+| `.agent/directives/editorial-guidance.md`            | How a person is modelled and conveyed: registers, principles        |
+| `docs/editorial/author.md`                           | The author's file: voice, vocabulary, facts, standing decisions     |
 
 ## Schema.org type mappings
 
