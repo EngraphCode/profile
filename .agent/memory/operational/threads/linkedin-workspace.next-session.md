@@ -10,7 +10,48 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-27, the extraction node ratified at the owner's afternoon word, the sitting bounded to the privacy fix and the merge; the retrospective landed; the CV chapter's node a sketch; the directive step after a compaction; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-27T14:5xZ, the extraction lane merged, both pull requests; prepare-for-compaction at the owner's word; the full retrospective of the LinkedIn work next, its node a sketch for his ratification; Shrew rides Eventide, 371a2b)
+
+- **His words of the afternoon, verbatim, in order.** 13:4xZ, at the lane's stop on the second
+  privacy read: "get it done, now please". 13:5xZ: "Green and clean gets merged, it does not
+  require me" (the scope rule of 2026-09-13, applied: both merges by the seat). 14:4xZ: "Please
+  prepare for compaction, ultrathink /jc-metacognition /jc-free-play /jc-concept-exploration
+  /jc-reason /jc-plan /jc-wrap after that we will run a full retro for the linkedin work". Then:
+  "note, the updated URL for the repo is `git@github.com:EngraphCode/profile.git` but
+  everything should just keep working anyway".
+- **State at the boundary.** Pull request 354 merged by the merge bot at e0bf2bd3 (14:37Z) under
+  his standing rule: five reviewers once, one cure round, two re-reads, two Copilot rounds (four
+  P2 threads, then one), every thread answered and resolved, every check green; the lane branch
+  retired through the bot; the claim closed; the primary on main. The private repository's pull
+  request 7 merged under his credential (merge commit), its branch retired, its working copy on
+  main. The operator profile holds his working preferences with agents (two commits today, both
+  pushed, level with its origin). The lane `editorial-doctrine-in-three-layers` is complete at the
+  second merge; its node stands ratified and done.
+- **The repository has moved** to the EngraphCode organisation as `profile` (its main is pull
+  request 354's merge). GitHub redirects the old address; the local remote, the merge-bot
+  configuration and `gh` all still resolve, as he said. Two items for his word, not acted on: the
+  operator profile's scope file is keyed by repository identity (`jimcresswell--jimcresswell.net`,
+  PDR-141 decision 3) and the Practice's own records name the old slug throughout; whether the
+  scope key and the records follow the rename, and when, is his. The seat misread the note once:
+  it set the operator profile's remote to the new address and committed an index line saying the
+  profile had moved; the fetch showed no common ancestor, nothing was pushed, and a correcting
+  commit restored the line (napkin).
+- **Pickup, at his word after the compaction: the full retrospective of the LinkedIn work.** Its
+  node is a sketch in `.agent/plans/delivery/linkedin-lane-full-retrospective-and-skills.plan.md`
+  for his ratification first; it names what is his to decide (the retrospective's question, the
+  skills' self-sufficiency and its packaging, where the private half lives) and proposes an answer
+  to each. The 27 October record (`.agent/reports/agentic-engineering/2026-10-27-why-the-linkedin-lane-cost-what-it-cost-and-where-its-lessons-live.md`)
+  is the partial retrospective it extends; the owner-turn ledgers in the private repository are
+  its evidence; the `retrospective` skill is its method. The freeze of "prepare for compaction"
+  holds until his word: no monitors, no crons, no claim open; a start-right invocation lifts it.
+- **Standing word, unchanged:** no folds or ceremony until further notice; a settled item never
+  listed again; all decisions his, the seat still proposes; his reasons private, his decisions
+  public; anything specifically about him and how he works with agents in the operator profile,
+  how to work with a user in the Practice.
+- **Seat state:** n=1; no claim; no watcher or heartbeat; the branch `docs/linkedin-full-retrospective`
+  cut from main at e0bf2bd3, its draft pull request opened at the first push.
+
+## Previous Continuation (2026-10-27, the extraction node ratified at the owner's afternoon word, the sitting bounded to the privacy fix and the merge; the retrospective landed; the CV chapter's node a sketch; the directive step after a compaction; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream.

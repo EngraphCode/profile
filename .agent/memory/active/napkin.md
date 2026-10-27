@@ -975,3 +975,27 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   check, and the recheck of the pushed state was green, so nothing to repair; run a gate bare or
   read its status from PIPESTATUS before any `&&`. A whole-word sweep for a term's plural missed six
   lines carrying its singular; a class sweep lists each term's singular and plural.
+
+- 2026-10-27 14:5xZ, prepare-for-compaction, the sitting's reflection (metacognition). The sitting
+  his word bounded (privacy fix and merge) still ran from 11:51Z to 14:37Z: the node's one cure
+  round held, the two re-reads held, and the public review added two rounds the node had not
+  counted. The lesson is not to count fewer rounds but to count the public review's rounds in the
+  node. Three failure shapes, each new to me today: a record of a redaction named the redacted
+  term (the napkin lesson on the plural), so the cure's record re-identified what the cure removed;
+  the fix is to describe the class, never the term. A heredoc python's failure does not stop the
+  next shell statement, so a commit ran with its record bullet unwritten; chain with `&&` or read
+  the status. The owner's note "the updated URL for the repo" was mapped to the repository I had
+  just written (the operator profile) instead of the one I was standing in; one fetch before
+  `set-url` showed no common ancestor; recency decided what "the repo" meant. Cure: read a note's
+  referent against the working directory first, and fetch before any `set-url`. Also: the hook
+  reads a destructive git phrase inside a heredoc's prose as the command itself; `git switch -c`
+  is the branch cut, and the prose names no git form.
+- 2026-10-27 14:5xZ, free play, seeds marked as associations: the three homes (process in the
+  Practice, public facts in `docs/`, the person's private material in a user-scoped store) rhyme
+  with the Practice's own three artefact classes and may be a general pattern for any estate with
+  a named owner; "the second reader" is a de-naming that still carries an order, which is his own
+  point that de-naming is not de-identification, met one level down; the sentence ledger made a
+  sort auditable row by row and is reusable for any file split by a cut. Concept, for the retro
+  node: the owner asked for a "full retro" after a partial one landed; the unit of analysis is the
+  whole LinkedIn work from 29 September to 27 October, the extraction lane its last movement, and
+  the first question the node must put to him is what the retrospective is for.
