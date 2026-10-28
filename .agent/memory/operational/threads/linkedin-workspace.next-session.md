@@ -10,7 +10,102 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-27, the extraction node ratified at the owner's afternoon word, the sitting bounded to the privacy fix and the merge; the retrospective landed; the CV chapter's node a sketch; the directive step after a compaction; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-28T13:xxZ, the full retrospective run at the owner's word and landed; the plan sketch withdrawn; the CV chapter next at his word; Shrew rides Eventide, 371a2b)
+
+- **His words, verbatim, in order.** Morning: "ignore the turborepo plan, that is irrelevant. I
+  asked you to perform a retro two days ago and to keep it brief. I expected maybe 45 minutes of
+  analysis, some improved or new skills, and then to move on to the CV work. List the work that
+  actually matters, then stop". Then: "Run the full retro now. What did we learn about editorial
+  corrections, approaches, professional identity and related concepts during the Linkedin work".
+- **What landed.** The record
+  `.agent/reports/agentic-engineering/2026-10-28-what-the-linkedin-lane-taught-about-corrections-approaches-and-identity.md`
+  (the concepts, by his three areas and the related ones, each with its home; seven proposals,
+  all fast lane, landed as sentences in `write-for-the-reader`, `editorial-voice` and `cv`). The
+  plan sketch `linkedin-lane-full-retrospective-and-skills` is withdrawn: the retrospective is
+  done by the record, and the skills' usefulness to a person without this repository is at his
+  word of 25 October ("eventually, but not yet"), not planned.
+- **Next, at his word: the CV chapter**, on its node
+  `.agent/plans/delivery/cv-chapter-coherent-with-the-profile.plan.md`, reading the record's §6
+  first. After it, the README rewrite. The operator profile's scope key (his ruling of 28
+  October: the root package name, never an origin) is a small fix in two estates and his profile
+  file's rename; two test files sit edited on `fix/operator-profile-scope-key-from-manifest` in
+  the primary checkout, uncommitted, until he says continue.
+- **Standing word, unchanged:** no folds or ceremony until further notice; a settled item never
+  listed again; all decisions his, the seat still proposes; his reasons private, his decisions
+  public.
+
+## Previous Continuation (2026-10-27T14:5xZ, the extraction lane merged, both pull requests; prepare-for-compaction at the owner's word; the full retrospective of the LinkedIn work next, its node a sketch for his ratification; Shrew rides Eventide, 371a2b)
+
+- **His words of the afternoon, verbatim, in order.** 13:4xZ, at the lane's stop on the second
+  privacy read: "get it done, now please". 13:5xZ: "Green and clean gets merged, it does not
+  require me" (the scope rule of 2026-09-13, applied: both merges by the seat). 14:4xZ: "Please
+  prepare for compaction, ultrathink /jc-metacognition /jc-free-play /jc-concept-exploration
+  /jc-reason /jc-plan /jc-wrap after that we will run a full retro for the linkedin work". Then:
+  "note, the updated URL for the repo is `git@github.com:EngraphCode/profile.git` but
+  everything should just keep working anyway".
+- **State at the boundary.** Pull request 354 merged by the merge bot at e0bf2bd3 (14:37Z) under
+  his standing rule: five reviewers once, one cure round, two re-reads, two Copilot rounds (four
+  P2 threads, then one), every thread answered and resolved, every check green; the lane branch
+  retired through the bot; the claim closed; the primary on main. The private repository's half
+  landed. The operator profile holds his working preferences with agents. The lane `editorial-doctrine-in-three-layers` is complete at the
+  second merge; its node stands ratified and done.
+- **The repository has moved** to the EngraphCode organisation as `profile` (its main is pull
+  request 354's merge). GitHub redirects the old address for git and `gh`, and this checkout's origin now names the
+  new address at the bot's own refusal (origin must be the repository the push goes to); the
+  merge bot did not follow the redirect: the app
+  installation stayed with the old owner (installation lookup 404), so at his word ("there are
+  bots for Engraph", with the organisation's installed apps El Graphael and Kengraph shown) this
+  checkout's untracked `.github/merge-bot.json` now names El Graphael (the Engraph estate's bot,
+  its key already on this machine) on `EngraphCode/profile`; the previous values are in the seat's
+  scratchpad only. Two items for his word, not acted on: the
+  operator profile's scope file is keyed by repository identity (`jimcresswell--jimcresswell.net`,
+  PDR-141 decision 3) and the Practice's own records name the old slug throughout; whether the
+  scope key and the records follow the rename, and when, is his. The seat misread the note once:
+  it set the operator profile's remote to the new address and committed an index line saying the
+  profile had moved; the fetch showed no common ancestor, nothing was pushed, and a correcting
+  commit restored the line (napkin).
+- **Pickup, at his word after the compaction: the full retrospective of the LinkedIn work.** Its
+  node is a sketch in `.agent/plans/delivery/linkedin-lane-full-retrospective-and-skills.plan.md`
+  for his ratification first; it names what is his to decide (the retrospective's question, the
+  skills' self-sufficiency and its packaging, where the private half lives) and proposes an answer
+  to each. The 27 October record (`.agent/reports/agentic-engineering/2026-10-27-why-the-linkedin-lane-cost-what-it-cost-and-where-its-lessons-live.md`)
+  is the partial retrospective it extends; the owner-turn ledgers in the private repository are
+  its evidence; the `retrospective` skill is its method. The freeze of "prepare for compaction"
+  holds until his word: no monitors, no crons, no claim open; a start-right invocation lifts it.
+- **Standing word, unchanged:** no folds or ceremony until further notice; a settled item never
+  listed again; all decisions his, the seat still proposes; his reasons private, his decisions
+  public; anything specifically about him and how he works with agents in the operator profile,
+  how to work with a user in the Practice.
+- **Blocked at the boundary, for his word first: every push from this checkout fails the
+  pre-push gate.** `validate-no-host-names-in-core-headings` derives its needles from the
+  origin remote's owner and repository; the repository's new name, `profile`, is a common word,
+  and PDR-141's title ("operator profile in the home directory", lines 5 and 203) now reads as
+  a host name in a Core heading. The gate's e2e smoke runs that validator on the tracked tree and
+  fails; CI on `main` will fail the same way. This branch holds three local commits (the node
+  sketch, the boundary block, the bot and origin records) that the bot could not push; no hook was
+  bypassed. The cure is to the validator, shared Practice code with the Engraph estate, and its
+  design is his: declare the host's name in a tracked host file (the origin leg kept as a check
+  that the declaration matches the remote's owner), or drop the repository name from the origin
+  leg; rewording PDR-141's title to dodge a validator is the wrong direction. The first push after
+  the cure carries this branch, since the gate runs the branch's own validator.
+- **Cured, 2026-10-27 16:02Z.** His ruling at 15:4xZ: the gate was "a check being incorrectly
+  coupled to config instead of proving functionality", and a repository never names its own
+  remote location, since every repository must push, clone and fork across owners and addresses.
+  Neither design the bullet above offered him was the cure; both kept the remote in the loop.
+  PR 360 (`fix/core-host-names-from-records-only`, bot-authored, opened 15:57Z, Copilot "Approval
+  recommended", merged by the bot at 1f5c3a49, 16:02Z) removed the origin leg: the needles are
+  the provenance `repo` fields and the changelog tags alone, the unit cell red first, the smoke's
+  refusal arm over a repository with no remote; ADR-023 and the portability rule say what the
+  gate reads. `main` is green again. This branch carries `main` at bae7fe46; the push that lands
+  this commit opens its draft pull request. OCE carries the same validator and takes the carry in
+  its own pull request. A second instance of the class stands in tracked code: the throughput
+  register (`agent-tools/src/pr-throughput/gh-fetch.ts`) hard-codes the repository it measures,
+  by design against a fork's `gh` default; where that identity should come from is for his word.
+- **Seat state:** n=1; no claim; no watcher or heartbeat; the branch `docs/linkedin-full-retrospective`
+  cut from main at e0bf2bd3, three commits ahead and unpushed; its draft pull request opens at the
+  first push that lands.
+
+## Previous Continuation (2026-10-27, the extraction node ratified at the owner's afternoon word, the sitting bounded to the privacy fix and the merge; the retrospective landed; the CV chapter's node a sketch; the directive step after a compaction; Shrew rides Eventide, 371a2b)
 
 - This block is the pickup; the blocks beneath are history in time order. Recompute before
   acting: `git status`, the claims registry, the comms stream.

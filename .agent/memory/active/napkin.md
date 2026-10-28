@@ -975,3 +975,90 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   check, and the recheck of the pushed state was green, so nothing to repair; run a gate bare or
   read its status from PIPESTATUS before any `&&`. A whole-word sweep for a term's plural missed six
   lines carrying its singular; a class sweep lists each term's singular and plural.
+
+- 2026-10-27 14:5xZ, prepare-for-compaction, the sitting's reflection (metacognition). The sitting
+  his word bounded (privacy fix and merge) still ran from 11:51Z to 14:37Z: the node's one cure
+  round held, the two re-reads held, and the public review added two rounds the node had not
+  counted. The lesson is not to count fewer rounds but to count the public review's rounds in the
+  node. Three failure shapes, each new to me today: a record of a redaction named the redacted
+  term (the napkin lesson on the plural), so the cure's record re-identified what the cure removed;
+  the fix is to describe the class, never the term. A heredoc python's failure does not stop the
+  next shell statement, so a commit ran with its record bullet unwritten; chain with `&&` or read
+  the status. The owner's note "the updated URL for the repo" was mapped to the repository I had
+  just written (the operator profile) instead of the one I was standing in; one fetch before
+  `set-url` showed no common ancestor; recency decided what "the repo" meant. Cure: read a note's
+  referent against the working directory first, and fetch before any `set-url`. Also: the hook
+  reads a destructive git phrase inside a heredoc's prose as the command itself; `git switch -c`
+  is the branch cut, and the prose names no git form.
+- 2026-10-27 14:5xZ, free play, seeds marked as associations: the three homes (process in the
+  Practice, public facts in `docs/`, the person's private material in a user-scoped store) rhyme
+  with the Practice's own three artefact classes and may be a general pattern for any estate with
+  a named owner; "the second reader" is a de-naming that still carries an order, which is his own
+  point that de-naming is not de-identification, met one level down; the sentence ledger made a
+  sort auditable row by row and is reusable for any file split by a cut. Concept, for the retro
+  node: the owner asked for a "full retro" after a partial one landed; the unit of analysis is the
+  whole LinkedIn work from 29 September to 27 October, the extraction lane its last movement, and
+  the first question the node must put to him is what the retrospective is for.
+- 2026-10-27 15:1xZ: the repository's move to EngraphCode broke the merge bot while git and `gh`
+  kept working (redirects): a GitHub App installation belongs to the owning account, so the
+  installation lookup for the old slug returned 404 and the bot push refused. A side agent's note
+  and the owner's screenshot named the organisation's apps; the Engraph estate's bot (El Graphael)
+  with its key on this machine took over through the per-checkout bot config. "Everything should
+  just keep working" held for git, not for the app; after a repository move, mint a token first.
+- 2026-10-27 15:2xZ: the rename to a common word broke a derived needle. The Core-heading
+  validator's host names come from the origin remote; `profile` as the repository's name turned
+  PDR-141's title into a hit, and the pre-push gate now refuses every push from this checkout.
+  Three commits sit local on the retro branch; nothing bypassed. A derived needle needs a floor
+  (a declared host name, or no repository-name leg); the design is the owner's, the Core is shared.
+- 2026-10-27 16:0xZ: the blocker's cure, once the owner ruled, ran from branch cut to merge inside
+  the sitting (PR 360 open 15:57Z, merged 16:02Z). The seat had spent the boundary offering him
+  two designs that both kept the remote in the needle set (a declared host file checked against
+  origin, or origin's owner alone). His ruling went under both: a check proves functionality and
+  is never coupled to configuration, and a repository never names its own remote location,
+  because every repository must push, clone and fork across owners and addresses. Lesson, the
+  seat's: when a check's input comes from the checkout's configuration rather than from the
+  records the check is about, the question is why it is read at all, never how to floor it. The
+  same class stands once more in tracked code (the throughput register's hard-coded repository),
+  named to him, not cured inside the fix's pull request.
+- 2026-10-27 16:4xZ: the seat put three items to the owner "for his word" after the rename (the
+  throughput register's hard-coded repository, the operator profile's scope key, the tracked files
+  naming the old address). He asked whether they were his and had them run through the lenses.
+  None is: his ruling of the same afternoon resolves the class, and the lenses resolve each
+  instance; the two owner acts that remain are procedural (ratifying a Core amendment to PDR-141
+  decision 3; the word for a write to his own profile repository). Lesson, the seat's, the same
+  one as the third consolidation's: a ruling is the approval for its class, and listing each
+  instance for re-ruling is asking the owner to do the seat's analysis. Two findings the run
+  surfaced: his repository-scoped profile file is keyed by the old address, so the grounding has
+  derived a key with no file since the move and reads none of it (silent by design, strictly
+  optional); and the throughput tool the Practice index and ADR-023 call retired has been back in
+  the tree since the parity carry of 2026-10-05, never run here, and OCE's copy hard-codes the
+  upstream's address while its checkout is the fork, so it would measure the wrong repository.
+
+## 2026-10-28 — The retrospective sized as a node with decisions instead of run (Shrew rides Eventide, 371a2b)
+
+- **His correction, verbatim:** "I asked you to perform a retro two days ago and to keep it
+  brief. I expected maybe 45 minutes of analysis, some improved or new skills, and then to move
+  on to the CV work." Between his ask and this the seat sketched a plan node with five decisions
+  for him, ran the lenses on three address items left by the repository move, and began a Core
+  cure with a flag he had not asked for. A retro asked "brief" is analysis plus the skill
+  sentences it warrants, in one pull request, with nothing put to him first; the stated next
+  work follows at once; a side event's consequences get the minimal cure. The retrospective
+  skill's own trigger was met on 25 October and the seat built a gate in front of it.
+- **The retro's method, this time:** the two ledgers of the editorial seats read whole (about
+  105 KB) against the skills as landed; the question was the concepts, so the record names each
+  with its worked instance and its home rather than relisting the 27 October table. Seven
+  sentences across three skills; no directive touched (the context rule); the plan sketch
+  removed as withdrawn, not archived, since it governed nothing.
+- **Privacy, applied:** every quotation is about the writing or the process; a sector, a company
+  and a positioning rationale that appear in his words are given as classes ("the current
+  sector", "an example named in passing", "the identity decides what a fact is evidence of").
+- **His correction after a side agent's read of the record, verbatim: "private things go in
+  the private repo".** The record gave each instance as a class but kept its specifics (a craft
+  thread and how it was framed, a figure left out and why, a title dropped and why, the basis of
+  a bounded claim, a course's worth), and a specific beside the public profile rebuilds the
+  reason the privacy rule keeps private. The specifics and the reasons moved to a private
+  companion in the private repository; the public record keeps the class and names the
+  companion; two skill sentences lost their recognisable example. The test, applied line by
+  line: can a reader of the profile recover why a choice was made from this sentence; if yes, it
+  is the insight class whatever it quotes, and a class with its instance's specifics is still an
+  instance.
