@@ -1033,3 +1033,22 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   optional); and the throughput tool the Practice index and ADR-023 call retired has been back in
   the tree since the parity carry of 2026-10-05, never run here, and OCE's copy hard-codes the
   upstream's address while its checkout is the fork, so it would measure the wrong repository.
+
+## 2026-10-28 — The retrospective sized as a node with decisions instead of run (Shrew rides Eventide, 371a2b)
+
+- **His correction, verbatim:** "I asked you to perform a retro two days ago and to keep it
+  brief. I expected maybe 45 minutes of analysis, some improved or new skills, and then to move
+  on to the CV work." Between his ask and this the seat sketched a plan node with five decisions
+  for him, ran the lenses on three address items left by the repository move, and began a Core
+  cure with a flag he had not asked for. A retro asked "brief" is analysis plus the skill
+  sentences it warrants, in one pull request, with nothing put to him first; the stated next
+  work follows at once; a side event's consequences get the minimal cure. The retrospective
+  skill's own trigger was met on 25 October and the seat built a gate in front of it.
+- **The retro's method, this time:** the two ledgers of the editorial seats read whole (about
+  105 KB) against the skills as landed; the question was the concepts, so the record names each
+  with its worked instance and its home rather than relisting the 27 October table. Seven
+  sentences across three skills; no directive touched (the context rule); the plan sketch
+  removed as withdrawn, not archived, since it governed nothing.
+- **Privacy, applied:** every quotation is about the writing or the process; a sector, a company
+  and a positioning rationale that appear in his words are given as classes ("the current
+  sector", "an example named in passing", "the identity decides what a fact is evidence of").

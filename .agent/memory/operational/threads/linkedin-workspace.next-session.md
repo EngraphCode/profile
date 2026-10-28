@@ -10,7 +10,31 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
-## Current Continuation (2026-10-27T14:5xZ, the extraction lane merged, both pull requests; prepare-for-compaction at the owner's word; the full retrospective of the LinkedIn work next, its node a sketch for his ratification; Shrew rides Eventide, 371a2b)
+## Current Continuation (2026-10-28T13:xxZ, the full retrospective run at the owner's word and landed; the plan sketch withdrawn; the CV chapter next at his word; Shrew rides Eventide, 371a2b)
+
+- **His words, verbatim, in order.** Morning: "ignore the turborepo plan, that is irrelevant. I
+  asked you to perform a retro two days ago and to keep it brief. I expected maybe 45 minutes of
+  analysis, some improved or new skills, and then to move on to the CV work. List the work that
+  actually matters, then stop". Then: "Run the full retro now. What did we learn about editorial
+  corrections, approaches, professional identity and related concepts during the Linkedin work".
+- **What landed.** The record
+  `.agent/reports/agentic-engineering/2026-10-28-what-the-linkedin-lane-taught-about-corrections-approaches-and-identity.md`
+  (the concepts, by his three areas and the related ones, each with its home; seven proposals,
+  all fast lane, landed as sentences in `write-for-the-reader`, `editorial-voice` and `cv`). The
+  plan sketch `linkedin-lane-full-retrospective-and-skills` is withdrawn: the retrospective is
+  done by the record, and the skills' usefulness to a person without this repository is at his
+  word of 25 October ("eventually, but not yet"), not planned.
+- **Next, at his word: the CV chapter**, on its node
+  `.agent/plans/delivery/cv-chapter-coherent-with-the-profile.plan.md`, reading the record's §6
+  first. After it, the README rewrite. The operator profile's scope key (his ruling of 28
+  October: the root package name, never an origin) is a small fix in two estates and his profile
+  file's rename; two test files sit edited on `fix/operator-profile-scope-key-from-manifest` in
+  the primary checkout, uncommitted, until he says continue.
+- **Standing word, unchanged:** no folds or ceremony until further notice; a settled item never
+  listed again; all decisions his, the seat still proposes; his reasons private, his decisions
+  public.
+
+## Previous Continuation (2026-10-27T14:5xZ, the extraction lane merged, both pull requests; prepare-for-compaction at the owner's word; the full retrospective of the LinkedIn work next, its node a sketch for his ratification; Shrew rides Eventide, 371a2b)
 
 - **His words of the afternoon, verbatim, in order.** 13:4xZ, at the lane's stop on the second
   privacy read: "get it done, now please". 13:5xZ: "Green and clean gets merged, it does not
