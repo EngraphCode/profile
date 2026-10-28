@@ -46,10 +46,8 @@ authorisation.
 - **State at the boundary.** Pull request 354 merged by the merge bot at e0bf2bd3 (14:37Z) under
   his standing rule: five reviewers once, one cure round, two re-reads, two Copilot rounds (four
   P2 threads, then one), every thread answered and resolved, every check green; the lane branch
-  retired through the bot; the claim closed; the primary on main. The private repository's pull
-  request 7 merged under his credential (merge commit), its branch retired, its working copy on
-  main. The operator profile holds his working preferences with agents (two commits today, both
-  pushed, level with its origin). The lane `editorial-doctrine-in-three-layers` is complete at the
+  retired through the bot; the claim closed; the primary on main. The private repository's half
+  landed. The operator profile holds his working preferences with agents. The lane `editorial-doctrine-in-three-layers` is complete at the
   second merge; its node stands ratified and done.
 - **The repository has moved** to the EngraphCode organisation as `profile` (its main is pull
   request 354's merge). GitHub redirects the old address for git and `gh`, and this checkout's origin now names the
