@@ -26,10 +26,17 @@ authorisation.
   word of 25 October ("eventually, but not yet"), not planned.
 - **Next, at his word: the CV chapter**, on its node
   `.agent/plans/delivery/cv-chapter-coherent-with-the-profile.plan.md`, reading the record's §6
-  first. After it, the README rewrite. The operator profile's scope key (his ruling of 28
-  October: the root package name, never an origin) is a small fix in two estates and his profile
-  file's rename; two test files sit edited on `fix/operator-profile-scope-key-from-manifest` in
-  the primary checkout, uncommitted, until he says continue.
+  first. After it, the README rewrite.
+- **The operator profile's scope key is done** (his ruling of 28 October: the root package
+  name, never an origin; then "fix the scope key issue"): pull requests 362 to 366 here and 365
+  in OCE (the carry, merged under OCE's `--expect none` of pull request 370); PDR-141 amended,
+  the contract at 1.1.0; his two profile files renamed to `repos/jimcresswell-personal-sites.md`
+  and `repos/oaknational--open-curriculum-ecosystem.md` and pushed (profile commit 86eb8344);
+  the grounding recipe in both estates reads the renamed file, and an absent named document
+  prints one line instead of nothing. One stash in this checkout (`stash@{0}`, its content on
+  main) is his to drop: the hook refuses the seat. His correction of the evening, verbatim:
+  "reviews are about value, not ceremony"; a review is requested for a stated reason or not at
+  all, never so a bot reads its leg satisfied.
 - **Standing word, unchanged:** no folds or ceremony until further notice; a settled item never
   listed again; all decisions his, the seat still proposes; his reasons private, his decisions
   public.

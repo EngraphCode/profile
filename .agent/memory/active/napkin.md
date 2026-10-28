@@ -1082,3 +1082,18 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   files (cured by `git checkout-index -a`, which rewrites the index's files, then a plain
   remove). The worktree's ignored private material was moved to the primary's
   reference-local folder before anything else.
+- **Landed and finished (19:xxZ):** pull requests 362 to 366 here (the fix, then four cures
+  from the reviews: the recipe reads the manifest from the worktree root, emits no scope file
+  when the manifest yields no key, applies the key grammar before emitting; an absent named
+  document prints one line) and 365 in OCE, the carry, merged under OCE's `--expect none`
+  (OCE 370). His two profile files renamed to the new keys and pushed (86eb8344); the check
+  reads the renamed file in both estates.
+- **A side agent's read found what the seat's test did not:** the check printed nothing for an
+  absent named document, so a wrong key failed silently at grounding. Cured in both estates:
+  one line names the path and that nothing was read for it (PDR-141 decision 4).
+- **A correction, his words:** "reviews are about value, not ceremony. What you did was spend
+  money in order to tick a box while providing no value." The seat had asked Copilot for a
+  further round on a tip only so OCE's bot, which reads the Copilot leg as owed on every new
+  tip, would read it satisfied. The cure is in the instrument: OCE 370's `--expect none`
+  declares the reviewer set empty by the seat's judgement. A review is requested for a stated
+  reason or not at all; a gate reading is never the reason.
