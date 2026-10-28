@@ -1062,3 +1062,23 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   line: can a reader of the profile recover why a choice was made from this sentence; if yes, it
   is the insight class whatever it quotes, and a class with its instance's specifics is still an
   instance.
+
+## 2026-10-28 — The scope key is the package name; the fix sized to his word (Maple turns Spore, 560922)
+
+- **His word:** "fix the scope key issue", after "if we need a per-machine identifier use the
+  name in the root package.json, not a specific origin" (28 October). The fix as landed: the
+  derivation from the manifest's name (an unscoped name is the key, `@scope/name` becomes
+  `scope--name`), the key grammar widened to admit one segment, the contract at 1.1.0, the
+  fixtures, the grounding recipe reading `package.json` instead of the origin, PDR-141
+  amended. The `--emit-scope` flag the seat had designed is out: the ruling asked for a
+  source, not a mechanism, and the recipe already had the shape.
+- **The tree moved to a worktree first.** The branch had been cut in the primary checkout
+  with two red test files; the kept test was copied into a worktree cut from main, the
+  primary's files restored from HEAD's bytes, the primary switched to main. The primary is
+  the coordination home, every piece of work in a worktree (his word of 17 October).
+- **The hook refused two removals on the way, both rightly:** `git stash drop` on a stash
+  whose content is on main (a stash is never dropped by the seat; the one entry is his to
+  drop), and `git worktree remove --force` on a merged worktree missing half its tracked
+  files (cured by `git checkout-index -a`, which rewrites the index's files, then a plain
+  remove). The worktree's ignored private material was moved to the primary's
+  reference-local folder before anything else.
