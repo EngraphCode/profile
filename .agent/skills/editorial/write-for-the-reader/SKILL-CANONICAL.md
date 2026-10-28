@@ -95,8 +95,8 @@ At every hop, name the audience on the other side and write for it.
   is the claim a verifier trusts.
 - A high-impact claim is made once, prominently, never repeated across sections.
 - A fact in hand is not yet a signal. The identity the surface expresses decides what a fact
-  is evidence of, and the same fact serves different identities differently: a decade of test
-  automation is a delivery leader's craft or an originator's way of making trying things cheap.
+  is evidence of, and the same fact serves different identities differently: a long thread of
+  one craft is, for one identity, the craft itself and, for another, what it made possible.
   A fact that serves no belief of this surface is left out, however true; an omission is a
   decision with a reason of the same kinds as an inclusion (the identity, the reader, honesty,
   detraction), never a default.
@@ -284,8 +284,8 @@ Repetition hides in nouns ("built ... built"); read aloud before the readers do.
   frame, a reviewer's wish) in place of the author's word and the understanding the piece carries
   pulls every draft toward the generic. The authority is the author; the sources are material.
   A circumstance is not the identity either: the author's current sector read as their field,
-  an example they named in passing read as a goal, their loudest correction read as the whole
-  direction, each produced a generic draft once. Identity comes only from the author's naming
+  an aside read as an aim, their loudest correction read as the whole direction, each produced a
+  generic draft once. Identity comes only from the author's naming
   of it.
 - A fact about the author's world that no source gave is an invention, however plausible: a
   description of an organisation's data, what a repository contains, how many repositories an

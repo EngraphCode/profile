@@ -17,7 +17,9 @@ editorial decision records, the two editorial directives, the four editorial ski
 pull request 354, the public and private author files, the thread record and the napkin blocks of
 the lane. Under the second cut (`privacy.md` §Private editorial material) the record quotes the
 owner's words about the writing and the process only; every instance about him is given as a
-class.
+class. The instances with the author's reasons are in the private companion to this record,
+`reports/2026-10-28-retrospective-companion.md` in the private editorial repository, never
+quoted here.
 
 ## 1. What an editorial correction turned out to be
 
@@ -42,9 +44,8 @@ class.
 - **The author's own edits are corrections by demonstration, and the strongest evidence of the
   voice.** "I have made edits via the editor, read, reflect, report, stop" recurred through the
   lane; his edits were read for what they taught about the intent and the rhythm, never checked
-  for compliance with the method, and an item he called his own edit got no proposal. He asked
-  for the learning back in the other direction too ("I enjoy learning about structure and pacing
-  in writing like this"). Home: `write-for-the-reader` §5, §8.
+  for compliance with the method, and an item he called his own edit got no proposal; the craft
+  reasoning behind a proposal went back to him with it. Home: `write-for-the-reader` §5, §8.
 - **"Is it good writing?" is a test run apart from context.** "Read all of that for style, forget
   context, is it good writing" (8 October); "a litany of facts with no soul and no connection"
   (21 October). The seat judged copy by coverage and by diffs; the author judged it by reading as
@@ -58,11 +59,11 @@ class.
   reader finding that was never a problem". Home: `write-for-the-reader` §7 and gotchas; the
   firing rule.
 - **What is not said is composed, with a reason of the same kinds as what is said.** "What are
-  we choosing not to say" (12 October). The lane's omissions each had a reason: a figure that
-  spoke to an identity the surface does not express; a jurisdictional detail that "would only
-  detract"; a date the author did not want attached; an impact not yet measured ("it is early
-  days"); a design that was never built, not described as a build; a fact about a repository's
-  future contents. A true fact is not a reason to include it, and an omission is a decision, not a
+  we choosing not to say" (12 October). The lane's omissions each had a reason of one of four
+  kinds: the identity (a true figure that spoke to another), the reader (a detail that "would only
+  detract"), honesty (an impact not yet measured, a design that was never built) and the author's
+  choice (a date left unattached). The instances with their reasons are in the private
+  companion. A true fact is not a reason to include it, and an omission is a decision, not a
   default. Lands in this pull request (proposal 2, the general form in §3 of the skill).
 
 ## 2. The approaches that held
@@ -119,27 +120,27 @@ class.
   leader). It applies to the whole as much as to each card. A discipline word (scientist) names a
   mindset and an approach, never a position, so it is evidence of the identity and never a title.
   Homes: EDR-008; `editorial-guidance.md` §Conveying a person; `docs/editorial/author.md`.
-- **A fact in hand is not yet a signal; the identity decides what it is evidence of.** The lane's
-  clearest instance is a decade of test automation on the author's record: for a delivery
-  leader's profile it is craft; for this profile it is the way trying new things was made cheap,
-  and it stayed as that. A reliability figure spoke to an operations identity and was left out. A
-  class of engineering evidence removed after the identity correction came back as evidence of
-  range. The same fact serves different identities differently, and a fact that serves no belief
-  of this surface is left out however true. Lands in this pull request (proposal 2).
+- **A fact in hand is not yet a signal; the identity decides what it is evidence of.** Three
+  instances in the lane: a long thread of one craft on the author's record, kept for what it made
+  possible rather than as the craft; a true figure left out because it spoke to another identity;
+  a class of evidence removed after the identity correction and brought back as evidence of range
+  ("This edit takes away too much"). The instances are in the private companion. The same fact
+  serves different identities differently, and a fact that serves no belief of this surface is
+  left out however true. Lands in this pull request (proposal 2).
 - **Circumstance is not identity.** The seat read the author's current sector as the field, an
-  example named in passing as a goal, and the loudest correction as the whole direction, and
-  drafted a generic profile from each. Identity comes only from the author's naming of it; a
+  aside as an aim, and the loudest correction as the whole direction, and drafted a generic
+  profile from each. Identity comes only from the author's naming of it; a
   circumstantial fact is material, never the frame. Lands in this pull request (proposal 5,
   extending the external-authority gotcha).
 - **Level shows and is never argued; titles are facts the author chooses for the story.** A title
-  dropped from a tenure because it named a direction the author does not want; another kept
-  because it is correct; titles rewritten by discussion with the author and never by the seat.
+  dropped from a tenure at the author's choice; another kept because it is correct; titles
+  rewritten by discussion with the author and never by the seat.
   An org chart, a reporting line or a budget sentence argues a title up, which is justification.
   Home: EDR-008; `editorial-voice` §What an adjective needs.
 - **Authority is stated as possession of a domain inside the purpose it serves.** The lane ended
-  on the Principal card's first sentence, three forms compared with the author on 24 and 25
-  October: the one that held says what the author owns within the organisation's purpose, in the
-  author's voice, and leaves the reporting line to the structured data. "Set" for an author who
+  on the Principal card's first sentence, settled with the author on 24 and 25 October: it says
+  what the author owns within the organisation's purpose, in the author's voice, and leaves the
+  reporting line to the structured data. "Set" for an author who
   described enabling, guiding and holding space was the opposite of what they said; the verb is
   chosen with the author. Lands in this pull request (proposal 6).
 - **Attribution is precise and generous.** What the author conceived, formulated, built and
@@ -149,8 +150,8 @@ class.
   Homes: EDR-007; `write-for-the-reader` §3; `editorial-voice` §Verbs.
 - **Range is evidence of the identity, not a departure from it.** Old evidence, side work and
   the "other things" sentence stayed as ballast: endorsements are history ("the past is real, it
-  happened"); courses done for fun kept and one found useless dropped; teaching and guiding kept
-  as the place the author learned to engage an audience. Home: `editorial-guidance.md` §Breadth
+  happened"); courses kept or dropped at the author's word; early teaching and guiding kept as
+  part of the journey. Home: `editorial-guidance.md` §Breadth
   as range; `linkedin-profile` §The Skills section.
 - **For a long tenure at a mission organisation, the card is the organisation's arc told through
   the author's interventions at each scale.** "This is now intended to read as the impactful
@@ -161,7 +162,7 @@ class.
 - **Honesty about what is unmeasured, remembered or contested.** An impact "not yet defined or
   measured" is not claimed; an award remembered but not recorded is named as unconfirmed and the
   recorded ones carry the verb; an absolute about a field's history is checked and written "true
-  as stated"; an incomplete history supports a bounded claim ("a top two position") and no more.
+  as stated"; an incomplete history supports a bounded claim and no more.
   Home: `write-for-the-reader` §6.
 
 ## 4. Related concepts, with their homes
@@ -180,9 +181,8 @@ class.
   homes by a second cut: `editorial-guidance.md` §The author's information; `privacy.md`.
 - The platform is a set of surfaces with its own shows and hides, verified at the counter and
   proved by re-opening the dialog: `linkedin-profile`.
-- An allusion is weighed for the reader it is for, and the author's reason for it is private: a
-  borrowed line was weighed against its original on 17 October and settled before moving on; no
-  home beyond this record, one instance.
+- An allusion is weighed for the reader it is for, and the author's reason for it is private: one
+  instance on 17 October, settled before moving on; no home beyond this record.
 
 ## 5. Proposals, each with its warrant and falsifier
 
@@ -194,11 +194,11 @@ test.
 | #   | Proposal                                                                                                                                                                                                                                                 | Warrant                                                                                                                                                  | Falsifier                                                                                                                              |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | `write-for-the-reader` §5: a correction of direction is never patched where it was given; every draft since the error carries it, so the whole is re-derived from the corrected model                                                                      | Fourteen direction corrections in the lane, each returning the seat to a place already reached; his count of 11 October ("five times in the last two days") | A direction correction in the CV chapter cured by a local edit and recurring on the next draft                                          |
-| 2   | `write-for-the-reader` §3: a fact in hand is not yet a signal; the identity decides what it is evidence of, the same fact serves different identities differently, and a fact that serves no belief is left out                                             | The test-automation thread (23 October), the reliability figure (settled by 21 October), the engineering evidence as range (23 October)                  | The CV chapter carries a fact that serves no belief, or drops one that served a belief after a correction about emphasis                |
+| 2   | `write-for-the-reader` §3: a fact in hand is not yet a signal; the identity decides what it is evidence of, the same fact serves different identities differently, and a fact that serves no belief is left out                                             | Three instances of 21 and 23 October, in the private companion                  | The CV chapter carries a fact that serves no belief, or drops one that served a belief after a correction about emphasis                |
 | 3   | `write-for-the-reader` gotchas: a fact about the author's world that no source gave is an invention however plausible                                                                                                                                     | Three instances in the lane: a description of an organisation's data, a repository's contents, an organisation's repository count                       | A sentence in the CV chapter whose fact has no source the author or a record gave                                                       |
 | 4   | `write-for-the-reader` gotchas (extended): a relative time dates the text as a tense does                                                                                                                                                                 | The author's own change of 8 October                                                                                                                     | A relative time found on the CV after the chapter that the author did not choose                                                        |
-| 5   | `write-for-the-reader` gotchas (extended): a circumstantial fact (the current sector, an example named in passing, the loudest correction) read as the identity                                                                                            | Three readings of 11 October, each producing a generic draft                                                                                             | A CV draft that frames the author by a circumstance the author did not name as identity                                                 |
-| 6   | `editorial-voice` §Verbs: authority is stated as possession of a domain inside the purpose it serves, never as a reporting line                                                                                                                           | The Principal card's first sentence, three forms compared on 24 and 25 October, and the one that held                                                   | The CV's principal entry argues level by reporting line, or the form reads to the readers as a tell                                     |
+| 5   | `write-for-the-reader` gotchas (extended): a circumstantial fact (the current sector, an aside, the loudest correction) read as the identity                                                                                            | Three readings of 11 October, each producing a generic draft                                                                                             | A CV draft that frames the author by a circumstance the author did not name as identity                                                 |
+| 6   | `editorial-voice` §Verbs: authority is stated as possession of a domain inside the purpose it serves, never as a reporting line                                                                                                                           | The Principal card's first sentence, settled with the author on 24 and 25 October                                                   | The CV's principal entry argues level by reporting line, or the form reads to the readers as a tell                                     |
 | 7   | `cv` §The hand-off: the long-tenure shape (the organisation's arc, the author's interventions at each scale, the published figures once) named as a candidate beside the EDR-009 shape                                                                     | EDR-009 decision 2 and the owner's words of 19 October, agreed with the readers                                                                          | The CV's section written by the shape is judged by the readers to be the organisation's history rather than the author's                |
 
 The prediction of the 27 October record stands and gains one clause: the CV chapter applies

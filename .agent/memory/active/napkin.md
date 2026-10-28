@@ -1052,3 +1052,13 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
 - **Privacy, applied:** every quotation is about the writing or the process; a sector, a company
   and a positioning rationale that appear in his words are given as classes ("the current
   sector", "an example named in passing", "the identity decides what a fact is evidence of").
+- **His correction after a side agent's read of the record, verbatim: "private things go in
+  the private repo".** The record gave each instance as a class but kept its specifics (a craft
+  thread and how it was framed, a figure left out and why, a title dropped and why, the basis of
+  a bounded claim, a course's worth), and a specific beside the public profile rebuilds the
+  reason the privacy rule keeps private. The specifics and the reasons moved to a private
+  companion in the private repository; the public record keeps the class and names the
+  companion; two skill sentences lost their recognisable example. The test, applied line by
+  line: can a reader of the profile recover why a choice was made from this sentence; if yes, it
+  is the insight class whatever it quotes, and a class with its instance's specifics is still an
+  instance.
