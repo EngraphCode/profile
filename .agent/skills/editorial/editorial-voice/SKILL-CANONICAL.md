@@ -138,7 +138,10 @@ operation; an org chart argues a title up, which is justification by another nam
 The verb carries the author's relationship to the work. "Set" for an author who describes
 enabling, guiding and holding space is the opposite of what they said; "built" for a project that
 was research is a false claim; "helped" beside a claim the author owns is a hedge. Choose the verb
-with the author, from the author's own description of the relationship.
+with the author, from the author's own description of the relationship. Authority is stated as
+possession of a domain inside the purpose it serves ("within the organisation's purpose, the
+technology strategy is mine"), in the author's voice, never as a reporting line or a budget:
+the first says what the author owns, the second argues a title up.
 
 ## The check
 

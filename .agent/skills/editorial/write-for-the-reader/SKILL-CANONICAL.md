@@ -94,6 +94,12 @@ At every hop, name the audience on the other side and write for it.
   what was not chosen, what it cost. A claim that survives inspection by the people who were there
   is the claim a verifier trusts.
 - A high-impact claim is made once, prominently, never repeated across sections.
+- A fact in hand is not yet a signal. The identity the surface expresses decides what a fact
+  is evidence of, and the same fact serves different identities differently: a decade of test
+  automation is a delivery leader's craft or an originator's way of making trying things cheap.
+  A fact that serves no belief of this surface is left out, however true; an omission is a
+  decision with a reason of the same kinds as an inclusion (the identity, the reader, honesty,
+  detraction), never a default.
 
 ## 4. The prose
 
@@ -143,7 +149,10 @@ the author as a proposed sentence, never as a question the seat could have answe
 - **Never defer with "at your word", never cite the author's earlier words back as rules.** The
   author can change their mind, learn, and meet new circumstances; the question is what is best in
   context. A correction fixes the seat's model; the words are still chosen for the reader, not to
-  match what the author said most vehemently.
+  match what the author said most vehemently. A correction of direction (the seat's model of
+  the person or the task, as distinct from a fact or a process) is never patched where it was
+  given: every draft since the error carries it, so the whole is re-derived from the corrected
+  model before the next sentence is proposed.
 - **Authority and fact.** An adjective true by the author's authority ("the framework is
   innovative, I invented it") or an accepted fact among the readers stands; the voice pitfall is
   for claims the reader would doubt. The author's figures about their own work are not checked
@@ -258,8 +267,9 @@ Repetition hides in nouns ("built ... built"); read aloud before the readers do.
   who, when, what was decided, what it cost. It never restates the summary's sentences.
 - "The function. With colleagues I helped grow ... : pushing, hiring, forming, arguing" is the
   shape that fails: a label, a colon, a litany of gerunds. A résumé, not a person.
-- A tense that dates the text ("is passing to") is a choice to surface to the author, never to
-  hide.
+- A tense that dates the text ("is passing to") or a relative time ("the last two and a half
+  years", which the author turned into "the last few years" so as not to edit it monthly) is a
+  choice to surface to the author, never to hide: a profile is read for months.
 - Vendor terms for a product (plugin, connector, app) appear only when naming the vendor's
   listing; elsewhere the product's own name.
 - A mis-cast reader's question answered in the open (who reported to whom, an org chart, who
@@ -273,6 +283,14 @@ Repetition hides in nouns ("built ... built"); read aloud before the readers do.
 - The seat's reach for an external authority (a taxonomy, an earlier document, a recruiter's
   frame, a reviewer's wish) in place of the author's word and the understanding the piece carries
   pulls every draft toward the generic. The authority is the author; the sources are material.
+  A circumstance is not the identity either: the author's current sector read as their field,
+  an example they named in passing read as a goal, their loudest correction read as the whole
+  direction, each produced a generic draft once. Identity comes only from the author's naming
+  of it.
+- A fact about the author's world that no source gave is an invention, however plausible: a
+  description of an organisation's data, what a repository contains, how many repositories an
+  organisation has. The lane produced three; each entered copy before the author caught it.
+  Every fact names the source it came from, or it is a question to the author.
 - A correction names an emphasis, never a deletion. After "the innovator, never the engineering
   leader", the engineering evidence stays and is carried as evidence of range; after "no cuts", the
   draft still moves where the conversation settled. Generalising the last correction across axes

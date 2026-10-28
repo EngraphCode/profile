@@ -85,7 +85,10 @@ same hop discipline as the author's own answers (`write-for-the-reader` §2).
 A shape decision that worked on the profile is a candidate for the CV, not a rule: one whole
 entry for the principal role carrying why, the call, the cost, the authority and the impact,
 with the how in project entries, suited a surface with a 2,000-character field; the CV's page may
-want the same arc in a different proportion.
+want the same arc in a different proportion. For a long tenure at a mission organisation the
+profile's card told the organisation's arc through the author's interventions at each scale as
+it grew, with the organisation's published figures once and prominently; that shape is a second
+candidate for the CV's section, and the readers judge whether it reads as the author's story.
 
 ## Where the CV is generated
 
