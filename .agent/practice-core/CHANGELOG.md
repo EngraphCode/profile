@@ -6,6 +6,20 @@ Practice Core package. A joint change carries the writing seat's repository
 tag in both repositories; the other repository's slug is never written here
 (the write hook refuses it, 2026-10-02).
 
+## [jimcresswell.net] 2026-10-28 — PDR-141 amended: the scope key is the root package name, never the origin
+
+- PDR-141 decision 3 and the derivation in decision 7 are amended at the owner's
+  ruling of 2026-10-28 (a repository never names its own remote location; a
+  per-repository identifier is the root `package.json` name, never a specific
+  origin), with an amendment section naming the instance that fired the
+  falsifier: a repository moved between owners on 2026-10-27 and its scope file
+  went unread, silently, by decision 4.
+- `schemas/operator-profile.schema.json` 1.0.0 to 1.1.0 (MINOR, decision 9): the
+  `scope_key` pattern admits the unscoped form (`name`, or `scope--name` for a
+  scoped `@scope/name`); the estate's validator, its fixtures and the grounding
+  recipe in `start-right.md` move with it. Carried to the sibling estate in the
+  same pass, so one operator profile root validates under both.
+
 ## [jimcresswell.net] 2026-10-13 — PDR-063 amended: a claim retained for an unnamed successor closes at the owner's word
 
 - PDR-063 §Retirement authority ruling 3 gains the owner's word of 2026-10-11:
