@@ -14,10 +14,9 @@ import {
   deriveMachineKey,
   findCredentialLikeLines,
   machineKeyFromRelPath,
-  scopeKeyFromManifestText,
-  scopeKeyFromPackageName,
   scopeKeyFromRelPath,
 } from './operator-profile-keys.js';
+import { scopeKeyFromManifestText, scopeKeyFromPackageName } from './operator-profile-scope-key.js';
 import { classifyProfileEntries } from './operator-profile-layout.js';
 import { resolveProfileRoot } from './operator-profile-root.js';
 
