@@ -628,7 +628,25 @@ and heading contract (a skill pull request); the home of the code-review paragra
 
 ## 9. Next
 
-At his word on this analysis: the rewrite in this lane under §6 as amended by §7, one pull
-request, the structure first and the line pass after; the sentences that describe him reach him
-as proposals; his read second, as the public-copy rule sets. The CV chapter follows in its own
-session and takes nothing from this lane but the audience facts of §7.
+At his word on this analysis: the rewrite in this lane under §6 as amended by §7 and §10, one
+pull request, the structure first and the line pass after; the sentences that describe him reach
+him as proposals; his read second. The CV chapter follows in its own session and takes nothing
+from this lane but the audience facts of §7.
+
+## 10. The owner's ruling, 1 November 2026
+
+His words, verbatim, on reading the report: "The readme is about the repo, not about the
+content." Consequences, applied here:
+
+- The frame is settled: F1 with F4's discipline, the repository's README in the repository's
+  plain register. F2, the README as a professional surface, is struck; F5 binds only the facts
+  the README states about him, which remain his to confirm as facts, never as copy.
+- The first-person candidate of §6.4 is withdrawn. The plain candidate of §7 stands as the
+  proposal, his to edit; it uses the third person for him and no second person for anyone.
+- The public-copy rule does not fire on the rewrite, and no editorial reader runs on the README.
+- §8's decision (whether a profile surface links this repository) is decoupled from the rewrite:
+  the README describes the repository whether or not a surface sends readers to it, and the
+  question is not put again in this lane.
+- §1 A, the verifier, is struck as a README audience; the standing audiences of the composition
+  directive apply to the profile surfaces and not to this document. The set of §7 stands with
+  that one change.
