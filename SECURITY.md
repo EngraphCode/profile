@@ -10,7 +10,7 @@ If you find a security issue:
 ## Credentials Policy
 
 - Real credentials are only allowed in untracked local files (`.env` and `.env.local`).
-- `.env.example` and other tracked files must contain placeholders only.
+- Tracked files contain placeholders only; a real value never enters a tracked file.
 - `.env` and `.env.local` must never be committed to git.
 - Line-specific exceptions to secret scanning must be explicit and justified.
 
