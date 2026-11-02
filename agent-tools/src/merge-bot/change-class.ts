@@ -10,12 +10,15 @@
  * rule's test decides the other class: "is this code?" — source, workflows,
  * hooks, config-as-code, anything executable or CI-affecting. A Markdown file
  * is never executed by the estate's CI, so the records class is Markdown under
- * the documentation and Practice roots, outside any directory whose Markdown a
- * test or a hook reads as an input. The platform adapter directories are
- * generated surfaces a validator recomputes, and the retrospective's ratified
- * path set keeps generated adapters code-class with hook policy and
- * workflows. Everything else is code-class, conservatively: a records fold
- * that carries one code path keeps the SETTLE-READY door.
+ * the documentation and Practice roots, a README at any depth, and Markdown
+ * under a docs directory at any depth (the owner's word of 2026-11-02: a
+ * README is not code, wherever it sits), outside any directory whose Markdown
+ * a test or a hook reads as an input and outside the platform directories.
+ * The platform adapter directories are generated surfaces a validator
+ * recomputes, and the retrospective's ratified path set keeps generated
+ * adapters code-class with hook policy and workflows. Everything else is
+ * code-class, conservatively: a records fold that carries one code path
+ * keeps the SETTLE-READY door.
  */
 
 const MARKDOWN_SUFFIX = '.md';
@@ -39,7 +42,10 @@ const ROOT_RECORDS_FILES: ReadonlySet<string> = new Set([
   'LICENSE.md',
 ]);
 
-/** Path segments under which Markdown is an input to code (fixtures, hooks, schemas), never prose. */
+/**
+ * Path segments under which Markdown is an input to code (fixtures, hooks,
+ * schemas) or content an application renders or serves, never prose.
+ */
 const CODE_SEGMENTS: ReadonlySet<string> = new Set([
   'hooks',
   'scripts',
@@ -51,6 +57,30 @@ const CODE_SEGMENTS: ReadonlySet<string> = new Set([
   'fixtures',
   '__snapshots__',
   'e2e-tests',
+  'content',
+  'app',
+  'public',
+]);
+
+/** A Markdown file that is documentation wherever it sits (a workspace's README). */
+const DOCUMENT_BASENAMES: ReadonlySet<string> = new Set(['README.md']);
+
+/** A directory that holds documentation at any depth (a workspace's docs). */
+const DOCS_SEGMENT = 'docs';
+
+/**
+ * The platform directories: generated adapters a validator recomputes, the
+ * GitHub configuration (workflows, templates) and the hook policy. Their
+ * Markdown is code-class whatever it is named.
+ */
+const PLATFORM_ROOTS: ReadonlySet<string> = new Set([
+  '.agents',
+  '.claude',
+  '.codex',
+  '.cursor',
+  '.gemini',
+  '.github',
+  '.husky',
 ]);
 
 const OFFENDERS_NAMED = 5;
@@ -61,32 +91,46 @@ export type ChangeClass =
 
 /** The policy in one sentence, for usage text and the merge report. */
 export const RECORDS_CLASS_DESCRIPTION =
-  'records-class: every changed path is a Markdown file under .agent, docs or linkedin, outside ' +
-  'any hooks, scripts, schemas, setup, src, tests, fixtures, snapshots or end-to-end directory, or ' +
-  'one of the root documentation files (README, CHANGELOG, CONTRIBUTING, CODE_OF_CONDUCT, SECURITY, ' +
-  'ATTRIBUTION, LICENSE); generated platform adapters, the root harness entry files, hook policy ' +
-  'and workflows are code-class';
+  'records-class: every changed path is a Markdown file under .agent, docs or linkedin, a README.md ' +
+  'at any depth, or Markdown under a docs directory at any depth, outside any hooks, scripts, ' +
+  'schemas, setup, src, tests, fixtures, snapshots, end-to-end, content, app or public directory ' +
+  'and outside the platform and hook directories, or one of the root documentation files (README, CHANGELOG, CONTRIBUTING, ' +
+  'CODE_OF_CONDUCT, SECURITY, ATTRIBUTION, LICENSE); generated platform adapters, the root harness ' +
+  'entry files, hook policy and workflows are code-class';
 
 function hasOnlyPlainSegments(segments: readonly string[]): boolean {
   return segments.every((segment) => segment !== '' && segment !== '.' && segment !== '..');
 }
 
-/** Whether one repository-relative path is documentation or Practice prose by the policy above. */
-export function isRecordsPath(path: string): boolean {
-  if (!path.endsWith(MARKDOWN_SUFFIX)) {
+/**
+ * Markdown below the repository root: documentation by its root, by its name
+ * or by a docs directory on its path, unless its location is code's (a
+ * platform directory, or a segment whose Markdown a test or a hook reads).
+ */
+function isDocumentationBelowRoot(segments: readonly string[]): boolean {
+  const root = segments[0] ?? '';
+  const basename = segments.at(-1) ?? '';
+  const directories = segments.slice(1, -1);
+  if (PLATFORM_ROOTS.has(root) || directories.some((segment) => CODE_SEGMENTS.has(segment))) {
     return false;
   }
+  return (
+    RECORDS_ROOTS.has(root) ||
+    DOCUMENT_BASENAMES.has(basename) ||
+    directories.includes(DOCS_SEGMENT)
+  );
+}
+
+/** Whether one repository-relative path is documentation or Practice prose by the policy above. */
+export function isRecordsPath(path: string): boolean {
   const segments = path.split('/');
-  if (!hasOnlyPlainSegments(segments)) {
+  if (!path.endsWith(MARKDOWN_SUFFIX) || !hasOnlyPlainSegments(segments)) {
     return false;
   }
   if (segments.length === 1) {
     return ROOT_RECORDS_FILES.has(path);
   }
-  if (!RECORDS_ROOTS.has(segments[0] ?? '')) {
-    return false;
-  }
-  return !segments.slice(1, -1).some((segment) => CODE_SEGMENTS.has(segment));
+  return isDocumentationBelowRoot(segments);
 }
 
 /**

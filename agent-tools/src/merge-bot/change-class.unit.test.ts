@@ -40,13 +40,31 @@ describe('isRecordsPath', () => {
     }
   });
 
-  it('refuses Markdown outside the records roots: workspaces ship it, content renders it', () => {
+  it('accepts a README at any depth and Markdown under a docs directory at any depth: documentation is never code', () => {
     for (const path of [
+      'jcdotnet/README.md',
       'agent-tools/README.md',
-      'agent-tools/docs/agent-identity.md',
-      'jcdotnet/content/about.md',
-      '.github/pull_request_template.md',
       'tooling/result/README.md',
+      'tooling/eslint/README.md',
+      'agent-tools/docs/agent-identity.md',
+    ]) {
+      expect(isRecordsPath(path), path).toBe(true);
+    }
+  });
+
+  it('refuses workspace Markdown that is not documentation: content a site renders, a template a platform reads, a README inside a code or generated directory', () => {
+    for (const path of [
+      'jcdotnet/content/about.md',
+      'jcdotnet/content/README.md',
+      'jcdotnet/app/README.md',
+      'jcdotnet/public/docs/notes.md',
+      '.github/pull_request_template.md',
+      '.github/docs/a.md',
+      '.husky/README.md',
+      'agent-tools/src/merge-bot/README.md',
+      'agent-tools/docs/fixtures/a.md',
+      'tooling/result/readme.md',
+      '.claude/skills/jc-wrap/README.md',
     ]) {
       expect(isRecordsPath(path), path).toBe(false);
     }
