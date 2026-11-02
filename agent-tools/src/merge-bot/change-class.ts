@@ -110,7 +110,7 @@ function hasOnlyPlainSegments(segments: readonly string[]): boolean {
 function isDocumentationBelowRoot(segments: readonly string[]): boolean {
   const root = segments[0] ?? '';
   const basename = segments.at(-1) ?? '';
-  const directories = segments.slice(1, -1);
+  const directories = segments.slice(0, -1);
   if (PLATFORM_ROOTS.has(root) || directories.some((segment) => CODE_SEGMENTS.has(segment))) {
     return false;
   }

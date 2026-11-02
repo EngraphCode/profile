@@ -65,6 +65,9 @@ describe('isRecordsPath', () => {
       'agent-tools/docs/fixtures/a.md',
       'tooling/result/readme.md',
       '.claude/skills/jc-wrap/README.md',
+      'src/README.md',
+      'content/README.md',
+      'public/docs/notes.md',
     ]) {
       expect(isRecordsPath(path), path).toBe(false);
     }
