@@ -10,6 +10,60 @@ start-right skill for the session shape, this record, `linkedin/README.md`,
 `linkedin/rewrite-handoff.md`, then `.agent/directives/privacy.md` §LinkedIn workspace
 authorisation.
 
+## Current Continuation (2026-11-02T11:xxZ, the root README and general docs swept and merged at his word; the merge bot's change class fixed; the CV chapter next at his word; Maple turns Spore, 560922)
+
+- **His words, verbatim, in order.** 30 October: "Please create a new worktree for rewriting the
+  root readme and updating the general docs in the profile repo. That must be a bounded, docs
+  only session. The session after that will look at bringing the CV content into broad alignment
+  with the linkedin content." Then: "Start by defining audiences. Only then read the readme and
+  docs first, and analyse them using all appropriate skills. Identify frames and assumptions and
+  adversarially question them." 1 November, on the analysis: "The readme is about the repo, not
+  about the content." Then: "Ultimately, I want a separation between the mechanisms and the
+  configuration and content. We are rewriting the readme because the current readme is rubbish,
+  we don't need to make a meal of this, it's just a general sweep and repair for quality and
+  cogency in the docs"; and, on the seat's push in the turn of his question: "what are you doing
+  pushing, I asked a question". "agreed, yes please" to the sweep; "that's fine, please merge" on
+  reading it. 2 November, on the door's refusal: "the tooling is wrong, the README is not code,
+  fix the tool, then merge please". Then: "prepare for compaction".
+- **Landed on `main`.** Pull request 368 (`docs/root-readme-and-general-docs`, merged 693e3a58,
+  records-class through the door): the root README rewritten about the repository (what it holds;
+  mechanisms, configuration and content kept apart; the four workspaces; six repository decisions
+  linked to their records; the Practice section with Agent Memory on PDR-011; a Getting Started
+  that reaches a green gate; the three hooks described once; the documentation map pointing at
+  the index); a new `jcdotnet/README.md` carrying the site's layout, routes, decisions, stack and
+  commands; `docs/README.md` with every folder and the start paths; `CONTRIBUTING.md` made true
+  (branches and pull requests for everyone, the hooks by pointer, paths under their workspace);
+  one sentence in `SECURITY.md`; the command inventory in `docs/engineering/build-system.md`;
+  and the analysis that preceded it,
+  `.agent/reports/root-readme-and-general-docs/2026-10-30-audiences-frames-and-assumptions.md`,
+  with his ruling in its §10. Pull request 374 (`fix/merge-bot-readme-is-documentation`, merged
+  fa55f643, one Copilot round whose one finding was cured at source): the change class reads a
+  README at any depth and Markdown under a docs directory at any depth as records-class;
+  content, app and public join the code segments and `.husky` the platform directories.
+- **Settled, never relisted.** The README's register (the repository's plain register, the
+  third person for him); the first-person opening withdrawn; the link question (whether a
+  profile surface points at the repository) decoupled from the docs and not put again; the
+  verifier struck as a README audience; the editorial readers not run on the README.
+- **His, one act each, outside any lane:** the GitHub about field ("jimcresswell.net content");
+  the licence fields in the manifests (the root declares none, the README says MIT); the old
+  repository name in the site's manifest and the issue template; the orientation lens's
+  document map (it names routes and the site structure that now live in the site README) and
+  its old-name fetch base, a skill change; the home of the code-review paragraph only
+  `AGENTS.md` carries.
+- **Next, at his word: the CV chapter**, on its node
+  `.agent/plans/delivery/cv-chapter-coherent-with-the-profile.plan.md`, in its own session; it
+  takes from the README lane only the audience facts of the analysis §7 (every profile link
+  opens the GitHub user page; the standing audiences are the profile surfaces', not a
+  repository's).
+- **Seat state:** n=1; no claim opened in this repository for the README lane; no watcher,
+  heartbeat or monitor live; nothing to re-arm. Both lane worktrees removed and both branches
+  retired; the primary on `main` at 693e3a58 before this records commit. The lessons are in the
+  napkin's block of this date and in the seat's per-user memory (a question's turn gets an
+  answer, never a push).
+- **Standing word, unchanged:** all decisions his, the seat still proposes; a settled item never
+  listed again; his reasons private, his decisions public; reviews for value, never ceremony; no
+  folds or ceremony until further notice.
+
 ## Current Continuation (2026-10-28T13:xxZ, the full retrospective run at the owner's word and landed; the plan sketch withdrawn; the CV chapter next at his word; Shrew rides Eventide, 371a2b)
 
 - **His words, verbatim, in order.** Morning: "ignore the turborepo plan, that is irrelevant. I

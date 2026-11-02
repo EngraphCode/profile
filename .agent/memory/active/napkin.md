@@ -1097,3 +1097,38 @@ behaviour-changing lessons only, never check-ins or state; `start-right` loads i
   tip, would read it satisfied. The cure is in the instrument: OCE 370's `--expect none`
   declares the reviewer set empty by the seat's judgement. A review is requested for a stated
   reason or not at all; a gate reading is never the reason.
+
+## 2026-11-02 — The README lane: a sweep, not a meal; the door's change class fixed at his word (Maple turns Spore, 560922)
+
+- **His frame beat the seat's.** The seat defined the README's audiences from the composition
+  directive's standing audiences and gave the first screen to a verifier arriving from LinkedIn
+  or the CV. The assumptions reader found the verifier imported by analogy: every profile link
+  opens the GitHub user page, nothing is pinned, the previews show the about field. His word
+  settled it in one sentence: "The readme is about the repo, not about the content." Then the
+  size: "a general sweep and repair for quality and cogency", "we don't need to make a meal of
+  this". The analysis stands as the record of a question answered by his frame, not by the
+  readers.
+- **A push in the turn of a question.** He asked how "you" was used in a candidate paragraph;
+  the seat edited the record, committed and started a push before answering. His words: "what
+  are you doing pushing, I asked a question." A question's turn is answered; a ruling inside it
+  is applied at his word.
+- **The door read a workspace README as code.** The change class counted Markdown as records
+  only under `.agent`, `docs`, `linkedin` and a root file list, so a docs-only pull request
+  with a new `jcdotnet/README.md` was code-class. His word: "the tooling is wrong, the README
+  is not code, fix the tool, then merge". Cured in 374, red first. Copilot's one finding on the
+  cure was real: the directory scan skipped the repository root, so a README directly under a
+  root-level `src`, `content` or `public` would have passed. Cured at source; the reviewer
+  earned its round.
+- **The records door, read.** With the fixed classifier, 368 merged on verdict
+  SETTLED-NO-REVIEW: the Copilot leg "SKIPPED — timeout: no tip-bound review more than 10 min
+  after checks green"; a records-class pull request merges at checks green with no review in
+  progress. A code-class pull request under `--expect none` reads SILENT-WAIT-NO-REVIEWER and
+  never merges; the review that binds the tip is the only key.
+- **The worktree guard, three refusals in one day:** a command text containing `.github` or a
+  GitHub address reads as naming git; a variable in an option position of `sed` or `bash`; a
+  chained commit after a heredoc. Plain separate commands with literal tilde paths pass; a
+  script carrying a user-home absolute path is refused by the Write hook (the tilde form
+  passes).
+- **Copilot is requested under the operator's credential:** the bot's token registers no
+  review request on this installation; the operator's does, under the standing permission, and
+  a second request on a settled tip was answered in three minutes.
