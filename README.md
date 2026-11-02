@@ -1,265 +1,194 @@
-# Jim Cresswell — personal sites
+# Jim Cresswell: profile
 
-A monorepo for Jim Cresswell's personal sites and the agentic engineering
-Practice that builds them. The first site is
-[www.jimcresswell.net](https://www.jimcresswell.net) — personal website and CV,
-built with Next.js 16, React 19, and Tailwind CSS 4, deployed on Vercel.
+## Overview
+
+This repository holds Jim Cresswell's professional profile and the system that produces it: the
+site and CV at [www.jimcresswell.net](https://www.jimcresswell.net), rendered from a graph of his
+work; the working copy of his LinkedIn profile; and the agentic engineering Practice under
+`.agent/`, in which AI agents write the code and the drafts, the owner sets the direction and
+takes the decisions, and every change passes the same blocking gates on its way in. One Practice
+runs here and in a second repository. Start with
+[the decisions behind the site](docs/architecture/decision-records/README.md) or with
+[how the Practice works](.agent/README.md).
+
+Three kinds of thing live here and are kept apart:
+
+- **Mechanisms** decide how work is done and never what the content says: the Practice
+  (`.agent/`), its tooling (`agent-tools/`), the shared packages (`tooling/`), the git hooks and
+  the gates.
+- **Configuration** binds the mechanisms to this repository: the root tooling configuration
+  (`package.json`, `turbo.json`, the lint, format and type configuration), the platform entry
+  files (`AGENTS.md`, `CLAUDE.md`, `GEMINI.md`) with the adapters generated from the Practice,
+  the hooks under `.husky/` and the workflows under `.github/`.
+- **Content** is every public sentence about the author and the data behind it: the site's
+  content model (`jcdotnet/content/`), the LinkedIn workspace (`linkedin/`) and the editorial
+  records (`docs/editorial/`). Components render content and never write it.
 
 ## Workspaces
 
-| Workspace                      | Package                | Purpose                                                                             |
-| ------------------------------ | ---------------------- | ----------------------------------------------------------------------------------- |
-| [`jcdotnet/`](jcdotnet/)       | `@jimcresswell/www`    | jimcresswell.net — site, CV, personal knowledge graph, PDF, E2E and visual proof    |
-| [`agent-tools/`](agent-tools/) | `@engraph/agent-tools` | Practice tooling: validators, adapter generation, collaboration state, commit queue |
-| [`tooling/`](tooling/)         | `@engraph/*`           | Shared packages: eslint plugin, result, safe-path, type-helpers, workspace-config   |
+| Workspace                      | Package                | What it is                                                                                                                                                                           |
+| ------------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [`jcdotnet/`](jcdotnet/)       | `@jimcresswell/www`    | The site: the front page, the CV, the knowledge graph, the PDF, and the end-to-end and visual proof. Its [README](jcdotnet/README.md) has the structure, routes, stack and commands. |
+| [`linkedin/`](linkedin/)       | `linkedin`             | The LinkedIn workspace: the profile as applied, field by field with its status, the decisions behind each field and the research. Documents only.                                    |
+| [`agent-tools/`](agent-tools/) | `@engraph/agent-tools` | The Practice's tooling: the validators the gates run, the adapter generators, the collaboration state, the merge bot.                                                                |
+| [`tooling/`](tooling/)         | `@engraph/*`           | Shared packages: the eslint plugin, result, safe-path, type-helpers, workspace-config.                                                                                               |
 
-Root commands run through Turborepo (`pnpm check`, `pnpm build`, `pnpm test`);
-site-only commands use the workspace filter, e.g.
-`pnpm --filter @jimcresswell/www dev`. The Practice itself lives in
-[`.agent/`](.agent/README.md).
+The Practice itself (directives, rules, skills, reviewer templates, plans and memory) is under
+[`.agent/`](.agent/README.md), with [`.agent/HUMANS.md`](.agent/HUMANS.md) for a human reader.
+Documentation is under [`docs/`](docs/README.md). Root commands run through Turborepo
+(`pnpm check`, `pnpm build`, `pnpm test`); one workspace's command takes the filter
+(`pnpm --filter @jimcresswell/www dev`).
 
-## jimcresswell.net
+## Key Design Decisions
 
-### Overview
+Six decisions shape the repository; each links its record.
 
-A minimal, editorial-quality personal site with a front page and one canonical
-CV document. The design is calm, serious, and intentional — Inter for headings
-and labels, Literata for prose, whitespace-driven hierarchy, a warm colour
-palette, light and dark themes, and comprehensive print styles.
+1. **Agents write the code under a governed Practice.** The owner sets the direction and takes
+   the decisions; the agents work under written directives and rules, with specialist reviewers,
+   and nothing lands without the same blocking gates a human would face. See
+   [`.agent/HUMANS.md`](.agent/HUMANS.md) and [`principles.md`](.agent/directives/principles.md).
+2. **One source for identity.** The entity graph (`jcdotnet/content/entities.json`) owns the
+   shared identity atoms; page JSON owns the prose; the server composes them into the pages, the
+   PDF and the machine representations, and components never edit, summarise or reorder copy.
+   See [ADR-020](docs/architecture/decision-records/020-entity-model-source-of-truth-for-shared-atoms.md)
+   and the [content model](docs/architecture/content-model.md).
+3. **One canonical CV.** `/cv/` is the only CV; audience variants were retired and their old
+   links return the site's 404. See
+   [ADR-021](docs/architecture/decision-records/021-canonical-only-cv-identity.md).
+4. **The same content for machines.** The home page and the CV answer content negotiation with
+   Markdown or the JSON-LD graph, `.md` aliases serve Markdown to a browser, and the whole graph
+   is at `/api/graph`. See
+   [ADR-009](docs/architecture/decision-records/009-content-negotiation-proxy.md) and
+   [ADR-010](docs/architecture/decision-records/010-canonical-url-graph-identity.md).
+5. **The PDF is built with the site.** Puppeteer drives full Chrome at build time, the file goes
+   to Vercel Blob in production and to the local filesystem in local builds, and `/cv/pdf` serves
+   it; one set of print CSS shapes the PDF and a browser print alike. See
+   [ADR-001](docs/architecture/decision-records/001-build-time-pdf-generation.md) and
+   [ADR-002](docs/architecture/decision-records/002-pdf-serving-architecture.md).
+6. **Editorial decisions are recorded beside the architectural ones.** The doctrine for writing
+   about a person is person-neutral and lives in the directives; the author's public facts and
+   standing decisions are one file; each significant editorial decision is a record. See
+   [`docs/editorial/`](docs/editorial/decision-records/README.md).
 
-Editorial content and shared identity atoms come from JSON files in `content/`.
-Structural UI labels remain component-owned. The site does not invent or
-rewrite editorial copy.
+## The Practice
+
+A written way of working for a person and AI agents building together. Directives set the rules
+of work (principles, testing, editorial guidance, privacy); rules are always-on behavioural
+modifiers, listed in [`RULES_INDEX.md`](RULES_INDEX.md); skills are the procedures; sub-agent
+templates are the specialist reviewers; plans and memory carry the work across sessions. Quality
+survives agent speed because the gates block: the pre-commit, pre-push and continuous-integration
+checks run the same `pnpm check`, reviewers are dispatched on every change of consequence, and
+tests are written before the code they prove. The Practice runs here and in a second repository
+as one text with a host-specific layer in each; its lineage is in
+[`ATTRIBUTION.md`](ATTRIBUTION.md). Start at [`.agent/README.md`](.agent/README.md), then
+[`.agent/HUMANS.md`](.agent/HUMANS.md); for working here with the agents, read
+[the developer guide](docs/engineering/working-with-this-repo-for-devs.md).
+
+### Agent Memory
+
+What the agents learn (corrections, surprises, settled decisions) is carried into the permanent
+documents a human would open anyway, through the continuity surfaces
+[PDR-011](.agent/practice-core/decision-records/PDR-011-continuity-surfaces-and-surprise-pipeline.md)
+describes: a session's notes, a distilled quick reference, then the directives, the decision
+records and the reference pages. A reader of `principles.md` finds a rule without needing to know
+which session it came from.
 
 ## Getting Started
 
-**Prerequisites:**
+Prerequisites, each named with the gate that needs it:
 
-- **Node.js 24** — use [fnm](https://github.com/Schniz/fnm) or [nvm](https://github.com/nvm-sh/nvm) to manage versions
-- **pnpm** — the only supported package manager (`npm install -g pnpm`)
-- **gitleaks** — secret scanning, required by quality gates (`brew install gitleaks` on macOS, see [gitleaks releases](https://github.com/gitleaks/gitleaks/releases) for other platforms)
-- **shellcheck** — shell script linting, required by quality gates at the version `.agent/setup/install-shellcheck.sh` pins: run that script once per checkout (it installs into the ignored `.tools/bin`, which the gate runs before any shellcheck on your PATH, on macOS and Linux, x86_64 and arm64)
-- **bash 5.2 or later** — every bash script in the repository opens with a guard that stops an older bash with install advice, and the two secrets hooks block until it is met (macOS ships 3.2: `brew install bash` and put it first on `PATH`; Debian 12 or Ubuntu 24.04 and later: `sudo apt-get install bash`; older releases package 5.1 or lower and need a newer release or a source build). The wrapper the hooks run behind hands straight to the hook on an older bash, so the block still lands. The shellcheck gate holds the floor once and requires the guard. Git hooks run under `sh` and carry no floor.
-- **jq** — required by quality gates: the secrets hooks read their input with jq when it is installed and without it otherwise, and their smoke tests prove both paths (`brew install jq` on macOS if `/usr/bin/jq` is absent, `sudo apt-get install jq` on Debian and Ubuntu, see [jq downloads](https://jqlang.org/download/) for other platforms)
-
-```bash
-pnpm install
-pnpm dev          # Start development server at http://localhost:3000
-```
-
-To run E2E tests, install Playwright browsers once after `pnpm install`:
-
-```bash
-pnpm exec playwright install
-```
-
-## Development Commands
+- **Node.js 24** (`.nvmrc`): use [fnm](https://github.com/Schniz/fnm) or
+  [nvm](https://github.com/nvm-sh/nvm).
+- **pnpm at the pinned version**: run `corepack enable`; the install refuses any other version
+  and names the pin.
+- **gitleaks**, for the secret scan in `pnpm check` and the pre-push hook: `brew install gitleaks`
+  on macOS, or the [releases](https://github.com/gitleaks/gitleaks/releases).
+- **jq**, read by the secrets hooks: `brew install jq` on macOS if `/usr/bin/jq` is absent,
+  `sudo apt-get install jq` on Debian and Ubuntu, or the [downloads](https://jqlang.org/download/).
+- **bash 5.2 or later**, required by every shell script and the two secrets hooks: macOS ships
+  3.2, so `brew install bash` and put it first on `PATH`; Debian 12 and Ubuntu 24.04 or later
+  `sudo apt-get install bash`.
+- **shellcheck at the pinned version**, installed by the second command below into the ignored
+  `.tools/bin`, which the shell lint gate runs before any shellcheck on your `PATH`.
 
 ```bash
-pnpm dev            # Development server
-pnpm build          # Production build
-pnpm start          # Start production server
-
-pnpm format:root             # Prettier format (auto-fix)
-pnpm format-check:root       # Prettier check (read-only)
-pnpm markdownlint:root       # Markdown lint (auto-fix)
-pnpm markdownlint-check:root # Markdown lint (read-only)
-pnpm lint:fix       # ESLint (auto-fix)
-pnpm lint           # ESLint (read-only)
-pnpm type-check     # TypeScript type checking
-pnpm test           # Unit and integration tests (Vitest)
-pnpm --filter @jimcresswell/www test:watch     # Site tests in watch mode
-pnpm --filter @jimcresswell/www test:coverage  # Site tests with coverage report
-pnpm test:e2e       # E2E tests — full Playwright suite against a production build
-pnpm test:ui        # Playwright UI mode (interactive)
-pnpm visual-regression:harness <base-ref> <target-ref> # Non-destructive rendered-output comparison
-
-pnpm fix            # Format, markdownlint, and lint auto-fix
-pnpm check          # Every blocking gate, writing no tracked file (pre-push and CI run the same legs)
-pnpm knip           # Find unused exports and dependencies
-pnpm secrets:scan   # Scan git history for secrets
-pnpm portability:check    # Validate agent-surface parity and local surface contract
-pnpm subagents:check      # Validate reviewer wrappers and Codex registrations
-pnpm check:docs           # Format, markdownlint and the docs validators (links, reference direction, cited scripts)
-pnpm practice:fitness:informational # Advisory Practice/doc fitness report
-pnpm practice:vocabulary  # Advisory check for canonical fitness frontmatter keys
-pnpm --filter @jimcresswell/www generate:icons # Regenerate favicon and OG images from the logo
+pnpm install                                   # dependencies, the git hooks, the agent-tools build
+.agent/setup/install-shellcheck.sh             # the pinned shellcheck, once per checkout
+pnpm --filter @jimcresswell/www exec playwright install chromium-headless-shell  # the browser the end-to-end leg drives
+pnpm check                                     # every blocking gate; green means the checkout works
+pnpm --filter @jimcresswell/www dev            # the site at http://localhost:3000
 ```
+
+Day to day: `pnpm check` proves the tree, `pnpm fix` runs the auto-fixers, `pnpm test` and
+`pnpm build` run across every workspace, and `pnpm check:docs` is the gate for documentation-only
+work. The full command inventory is in the
+[build system](docs/engineering/build-system.md#command-inventory). Local development needs no
+environment variables; `.env.local` is only for the Vercel Blob PDF path (see the
+[architecture docs](docs/architecture/README.md)).
 
 ## Project Structure
 
 ```text
-app/                         # Next.js App Router pages and layouts
-  api/graph/route.ts         # Knowledge graph API (JSON-LD)
-  api/accept-md/route.ts     # Markdown conversion handler (internal)
-  cv/                        # Canonical CV, PDF handler, and PDF-unavailable page
-  globals.css                # Theme colours, Tailwind config, print styles
-  layout.tsx                 # Root layout (fonts, theme provider, analytics)
-  sitemap.ts                 # Dynamic sitemap generation
-  manifest.ts                # Dynamic Web App Manifest generation
-
-components/                  # React components
-  cv-layout.tsx              # Full CV rendering (experience, prior roles, etc.)
-  download-pdf-link.tsx      # PDF download link (points to /cv/pdf)
-  markdown-page-link.tsx     # MD link to markdown version of current page
-  site-header.tsx            # Navigation, theme toggle, page actions
-  site-footer.tsx            # Copyright, external links
-  rich-text.tsx              # Markdown link rendering in CV prose
-  prose.tsx                  # Content paragraph renderer
-  page-section.tsx           # Reusable page section with heading
-  article-entry.tsx          # Individual article/experience entry
-  theme-toggle.tsx           # Light / Dark / Auto theme switcher
-  logo.tsx                   # SVG logo component
-  skip-link.tsx              # Keyboard accessibility skip link
-  theme-provider.tsx         # next-themes wrapper
-
-content/                     # Page-composition JSON plus machine-readable entity graph
-  cv.content.json            # CV editorial prose, canonical headline, and project link
-  frontpage.content.json     # Homepage content and editorial metadata
-  entities.json              # Entity graph for JSON-LD and graph-facing metadata
-
-lib/                         # Utility functions and types
-  accept-md-config.ts        # accept-md runtime configuration (typed; the route passes it directly)
-  cv-content.ts              # CV composition accessor and graph-derived identity links
-  entities.ts                # Entity-graph validation and derived types
-  same-as.ts                 # Exact-hostname resolution for Person profile URLs
-  page-jsonld.ts             # Page-specific JSON-LD subgraph builder
-  page-document-contract.ts  # Shared page identity and anchor contract
-  parse-markdown-links.tsx   # Parses [text](url) in content strings
-  pdf-config.ts              # PDF deploy key and path utilities
-  jsonld.ts                  # Schema.org JSON-LD structured data builder
-  search-structured-data.ts  # Rich-result-facing structured-data validation
-  strip-inline-markdown.ts   # Strips markdown syntax for plain-text contexts
-
-proxy.ts                     # Content negotiation (markdown, JSON-LD, .md aliases)
-
-scripts/                     # Build-time scripts
-  generate-pdf.ts            # Puppeteer PDF generation (runs after next build)
-  run-visual-regression-harness.ts # Root adapter for the visual-regression CLI
-  validate-portability.mjs   # Thin-wrapper and surface-matrix validation
-  validate-practice-fitness.mjs # Practice/doc fitness validation
-
-visual-regression-harness/   # Generic capture, comparison, and git-snapshot engine
-visual-regression.config.ts  # Repository-owned routes and comparison allowances
-
-e2e/                         # End-to-end tests (Playwright)
-  journeys/                  # User story journey tests
-  behaviour/                 # Cross-cutting behavioural tests (a11y, SEO, content)
-
-docs/                        # Project documentation
-  architecture/              # System architecture and decision records
-  project/                   # User stories and requirements
-
-public/                      # Static assets
-  icons/                     # Favicon, Apple Touch Icon, OG image
-
-logo/                        # Logo generation tooling (excluded from lint/build)
-  generate-icons.ts          # Script to generate favicon/OG from font
+.agent/                 # The Practice: directives, rules, skills, reviewer templates, plans, memory
+agent-tools/            # @engraph/agent-tools: validators, adapter generators, collaboration state, the merge bot
+jcdotnet/               # @jimcresswell/www: the site (its README has the site's own layout)
+linkedin/               # The LinkedIn workspace: documents only
+tooling/                # @engraph/*: shared packages
+docs/                   # architecture, engineering, editorial, explorations, project
+skills/                 # Standalone skills distributed outside the Practice
+runtime-only-scripts/   # Scripts that run under node alone, before dependencies are installed
+.agents/ .claude/ .codex/ .cursor/ .gemini/   # Platform adapters generated from .agent/ (pnpm portability:fix)
+.husky/ .github/        # Git hooks and GitHub workflows
 ```
-
-### Routes
-
-| Route                 | Purpose                                                                    |
-| --------------------- | -------------------------------------------------------------------------- |
-| `/`                   | Front page — personal narrative with inline links                          |
-| `/cv/`                | Primary CV — positioning, experience, prior roles, capabilities, education |
-| `/cv/pdf`             | PDF download / inline display (Route Handler)                              |
-| `/cv/pdf/unavailable` | Branded 404 when PDF has not been generated                                |
-| `/api/graph`          | Full JSON-LD knowledge graph (Schema.org `@graph`)                         |
-| `/<page>.md`          | Markdown alias for a supported editorial document (`/cv.md`, `/index.md`)  |
-
-The home and canonical CV documents support content negotiation:
-`Accept: text/markdown` returns Markdown and
-`Accept: application/ld+json` returns the full knowledge graph. Native
-subroutes and missing routes retain their own responses. See
-[ADR-009](docs/architecture/decision-records/009-content-negotiation-proxy.md)
-and
-[ADR-010](docs/architecture/decision-records/010-canonical-url-graph-identity.md).
-
-## Key Design Decisions
-
-**Content-driven rendering** — Editorial prose comes from page-composition JSON;
-the entity graph owns shared identity atoms. Server composition injects those
-atoms into the generic header, footer, and CV layout. Components do not edit,
-summarise, or reorder editorial copy.
-
-**Server components by default** — Only three components use `"use client"`: the theme toggle, the theme provider, and the site header. Everything else is server-rendered.
-
-**Canonical CV** — `/cv/` is the sole editorial CV document. Former tilt
-content and rationale are preserved as architecture reference material; old
-tilt links return the branded 404. See
-[ADR-021](docs/architecture/decision-records/021-canonical-only-cv-identity.md).
-
-**Build-time PDF** — The CV PDF is generated at build time using Puppeteer with full Chrome, stored in Vercel Blob (production) or the local filesystem (local builds), and served from `/cv/pdf`. Comprehensive `@media print` CSS drives both the PDF layout and manual browser printing. See [docs/architecture/](docs/architecture/) for details and [decision records](docs/architecture/decision-records/).
-
-**Accessibility** — WCAG 2.2 AA target. Skip link, semantic HTML, heading hierarchy, visible focus indicators, 44px touch targets, `prefers-reduced-motion` respect, theme state announced to assistive technology.
-
-**No icons, charts, or decorative elements** — Editorial aesthetic. UI controls are text-only.
 
 ## Quality Gates
 
-Two Git hooks enforce quality automatically:
+Three git hooks, managed by [Husky](https://typicode.github.io/husky/) and installed by
+`pnpm install`:
 
-- **Pre-commit** — light: the branch guard, Prettier and markdownlint on staged files, lint on changed workspaces.
-- **Commit message** — commitlint runs in the `commit-msg` hook. Check a message before you
-  commit, without running any hook: `pnpm agent-tools:check-commit-message -m "type(scope): subject"`
-  (or `-F <file>`; exit 0 conforms, 1 violates).
-- **Pre-push** — full: `pnpm check` and the site's end-to-end suite. PDF tests require a prior build and are run explicitly.
+- **pre-commit**: the branch guard (no commits on `main`), Prettier and markdownlint on the
+  staged files, the profanity check, and lint in every workspace the commit touches.
+- **commit-msg**: commitlint. To check a message without committing:
+  `pnpm agent-tools:check-commit-message -m "type(scope): subject"` (or `-F <file>`; exit 0
+  conforms, 1 violates).
+- **pre-push**: the secret scan of the pushed commits, the review-cost gate, then `pnpm check`,
+  whose end-to-end leg builds the site and runs the Playwright suite, PDF tests included, against
+  that build. Continuous integration runs the same `pnpm check`.
 
-```bash
-pnpm check          # Blocking gates, writing no tracked file (the agent-tools e2e leg builds agent-tools/dist): format, markdownlint, shell and runtime-only lint, lint, type-check, test, the agent-tools e2e and smoke suite, knip, depcruise, gitleaks, portability, sub-agents, skill adapters, encoding, repo and docs validators
-pnpm fix            # Auto-fix (format, markdownlint, lint), then re-run pnpm check
-pnpm test:e2e       # E2E tests against production build (separate — requires Chromium)
-```
-
-Both hooks are managed by [Husky](https://typicode.github.io/husky/), installed automatically by the `prepare` script when you run `pnpm install`. Gitleaks scans the full git history to ensure no secrets are committed — it requires [gitleaks](https://github.com/gitleaks/gitleaks) to be installed (`brew install gitleaks` on macOS). For the full gate sequence and restart-on-fix discipline, see [principles.md](.agent/directives/principles.md#code-quality).
-
-Practice/doc fitness is a companion surface rather than part of `pnpm check`:
-run `pnpm practice:fitness:informational` when changing Practice or
-directive docs, and use `pnpm practice:vocabulary` alongside it when
-you need to check for frontmatter-key drift.
-
-**Local development** works without any environment variables. `.env.local` is only needed to test the full Vercel Blob PDF path (see [architecture docs](docs/architecture/README.md) for details).
-
-## Stack
-
-| Layer           | Technology                                    |
-| --------------- | --------------------------------------------- |
-| Framework       | Next.js 16 (App Router)                       |
-| UI              | React 19, Tailwind CSS 4                      |
-| Fonts           | Inter (sans), Literata (serif) via next/font  |
-| Theming         | next-themes (class strategy)                  |
-| PDF generation  | Puppeteer (build-time), Vercel Blob (storage) |
-| Testing         | Vitest, Playwright (E2E)                      |
-| Linting         | ESLint (eslint-config-next)                   |
-| Formatting      | Prettier                                      |
-| Secret scanning | gitleaks                                      |
-| Analytics       | Vercel Analytics                              |
-| Hosting         | Vercel                                        |
-| Package manager | pnpm                                          |
+`pnpm check` writes no tracked file; its legs are the `check` script in `package.json`, explained
+in the [build system](docs/engineering/build-system.md#quality-gate-commands). `pnpm fix` runs
+the auto-fixers; run `pnpm check` again afterwards. The gate sequence and the restart-on-fix
+discipline are in [`principles.md`](.agent/directives/principles.md#code-quality). Practice and
+directive fitness (`pnpm practice:fitness:informational`, `pnpm practice:vocabulary`) is advisory
+and outside `pnpm check`.
 
 ## Documentation
 
-- [docs/architecture/](docs/architecture/) — System architecture, PDF generation, operational notes
-- [docs/architecture/decision-records/](docs/architecture/decision-records/) — Architecture Decision Records (ADRs)
-- [docs/project/](docs/project/) — User stories and requirements
-- [e2e/](jcdotnet/e2e/) — E2E test organisation, naming conventions, and test map
-
-## Agent Memory
-
-AI agents working on this codebase learn from their mistakes, user corrections, and collaborative sessions. Rather than storing that knowledge in agent-specific files that only agents read, three feeds funnel all insights toward canonical documentation — the same places a human contributor would naturally look. Session observations, transcript-mined insights, and settled knowledge from ephemeral plans all converge on `principles.md`, `editorial-guidance.md`, ADRs, and other permanent docs. The pipeline is invisible to consumers: a reader of `principles.md` finds the CSS rem/em rule without needing to know it originated in a transcript mining run three weeks earlier. See [ADR-012](docs/architecture/decision-records/012-agent-memory-pipeline.md).
+[`docs/README.md`](docs/README.md) is the index: the architecture and its decision records, the
+engineering of the monorepo (the build system, the workflow, the testing recipes), the editorial
+records (the author's public file and the editorial decision records), the explorations, and the
+project's user stories and requirements. For the site's tests, see
+[`jcdotnet/e2e/README.md`](jcdotnet/e2e/README.md).
 
 ## Development Standards
 
-This project has explicit rules for code quality, testing, and editorial voice that apply to all contributors — human and AI. Contributions are by invite only; please do not submit unsolicited pull requests.
+Written rules cover code quality, testing and editorial voice, and they bind humans and agents
+alike. Contributions are by invitation only; please do not open unsolicited pull requests
+([`CONTRIBUTING.md`](CONTRIBUTING.md) has the workflow, the conventions and the troubleshooting).
 
-- [`CONTRIBUTING.md`](CONTRIBUTING.md) — Workflow, conventions, and troubleshooting for contributors
-- [`.agent/directives/AGENT.md`](.agent/directives/AGENT.md) — Project context, commands, structure (start here)
-- [`.agent/directives/principles.md`](.agent/directives/principles.md) — Development rules: TDD, type safety, code quality
-- [`.agent/directives/testing-strategy.md`](.agent/directives/testing-strategy.md) — Testing philosophy, test types, naming conventions
-- [`.agent/directives/editorial-guidance.md`](.agent/directives/editorial-guidance.md) — how a person is modelled and conveyed, with [`docs/editorial/author.md`](docs/editorial/author.md) for the author's voice and standing decisions (read before any content work)
+- [`.agent/directives/AGENT.md`](.agent/directives/AGENT.md): where an agent starts.
+- [`.agent/directives/principles.md`](.agent/directives/principles.md): TDD, type safety, code
+  quality, documentation.
+- [`.agent/directives/testing-strategy.md`](.agent/directives/testing-strategy.md): the test
+  types, their naming, the philosophy.
+- [`.agent/directives/editorial-guidance.md`](.agent/directives/editorial-guidance.md), with
+  [`docs/editorial/author.md`](docs/editorial/author.md): how a person is written about, and the
+  author's voice, facts and standing decisions; read both before any content work.
 
 ## Licence
 
-- **Code**: [MIT](LICENSE)
-- **Content**: [CC BY-NC 4.0](LICENSE-CONTENT) — CV text, biographical information, logo, identity assets. Free to share and adapt with attribution; not for commercial use.
+- **Code**: [MIT](LICENSE).
+- **Content**: [CC BY-NC 4.0](LICENSE-CONTENT) for the CV text, biographical information, logo
+  and identity assets; free to share and adapt with attribution, not for commercial use.
+- **Attribution**: [`ATTRIBUTION.md`](ATTRIBUTION.md) records what was adopted from outside this
+  repository, the Practice's lineage included.

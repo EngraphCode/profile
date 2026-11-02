@@ -364,6 +364,38 @@ signals and never justify deleting or compressing knowledge.
   failures within the Turbo stage but does not prove the later root-only legs
   would pass.
 
+### Command inventory
+
+The root scripts. A Turborepo task runs over every workspace that exports it; one workspace's
+command takes the filter (`pnpm --filter @jimcresswell/www <task>`).
+
+| Command                                                           | What it does                                                                                                 |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `pnpm check`                                                      | Every blocking gate, writing no tracked file; pre-push and CI run the same legs                              |
+| `pnpm fix`                                                        | Prettier, markdownlint and lint auto-fixes; run `pnpm check` afterwards                                      |
+| `pnpm check:docs`                                                 | Format, markdownlint and the docs validators, for documentation-only work                                    |
+| `pnpm build`                                                      | Every workspace's build; the site's includes the PDF                                                         |
+| `pnpm dev`                                                        | Every workspace's persistent `dev` task (the site's server and the eslint package's watcher); filter for one |
+| `pnpm start`                                                      | The site's production server                                                                                 |
+| `pnpm lint`, `pnpm lint:fix`                                      | ESLint, read-only and auto-fix                                                                               |
+| `pnpm type-check`                                                 | TypeScript                                                                                                   |
+| `pnpm test`                                                       | Vitest unit and integration tests; the site also has `test:watch` and `test:coverage`                        |
+| `pnpm test:e2e`                                                   | The Playwright suite against a production build the harness builds and serves                                |
+| `pnpm test:ui`                                                    | Playwright UI mode                                                                                           |
+| `pnpm format:root`, `pnpm format-check:root`                      | Prettier over the tracked tree, auto-fix and read-only                                                       |
+| `pnpm markdownlint:root`, `pnpm markdownlint-check:root`          | markdownlint over the tracked tree, auto-fix and read-only                                                   |
+| `pnpm lint:shell`, `pnpm lint:runtime-only`                       | The pinned shellcheck over the tracked scripts; ESLint over the runtime-only scripts                         |
+| `pnpm knip`                                                       | Unused exports and dependencies                                                                              |
+| `pnpm depcruise`                                                  | Dependency rules                                                                                             |
+| `pnpm secrets:scan`                                               | gitleaks over the branch; `pnpm secrets:scan:all` and `pnpm secrets:scan:all-refs` for history               |
+| `pnpm portability:check`, `pnpm portability:fix`                  | Agent-surface parity; regenerate the adapters                                                                |
+| `pnpm subagents:check`                                            | Reviewer wrappers and the Codex registry                                                                     |
+| `pnpm skills:check`                                               | The skill adapters                                                                                           |
+| `pnpm visual-regression:harness <base-ref> <target-ref>`          | Rendered-output comparison between two refs                                                                  |
+| `pnpm practice:fitness:informational`, `pnpm practice:vocabulary` | Advisory Practice and directive fitness; frontmatter-key drift                                               |
+| `pnpm --filter @jimcresswell/www generate:icons`                  | Favicon and OG images from the logo                                                                          |
+| `pnpm agent-tools:check-commit-message -m "type(scope): subject"` | Check a commit message without running a hook                                                                |
+
 ## Task Dependencies
 
 ```text
